@@ -343,7 +343,6 @@ Samimiyet Delilleri/Atalar Kültü'nde anlatılanlar (soy övünmesine muhalefet
 | Lapidus | (yukarıda) s.82; s.50 | Oryantalist† | İstanbul'a üç başarısız girişim (660, 668, 717); bedevi dini | 280, 327 |
 | Johannes Pedersen | İslam Dünyasında Kitabın Tarihi (s.21, 22, 33, 65) | Oryantalist (Danimarkalı)† | Yayılış; Güney Arap yazısı Kuzey'e yayılmadı; Arapça kitap İslam'dan; kâğıt | 280, 354–355, 366 |
 | Washington Irving | Muhammed'in Haleflerinin Hayatları (s.20, 25, 32, 62, 67, 81, 82, 83, 199, 215, 232) | Batılı yazar (Amerikalı)† | Zaferlerin hayreti; Vahşi'nin Müslüman olması; Ebubekir ve Ömer'in sadeliği; Hürmüzan sahnesi; Müslüman komutanların lüksten kaçınması; "ölümü seven ordu" | 281, 298, 301, 307–309, 311 |
-| Hazleton, Dozy vb. | (yukarıda) | | | |
 | Annemarie Schimmel (Tor Andrae'dan) | Hz. Muhammed s.35 | Oryantalist (Schimmel); Andrae: İsveçli Lutheran piskopos (metin) | Muhammed kalpleri kazanma sanatının ustasıydı | 301 (dn690) |
 | TDV İslam Ansiklopedisi (çevrimiçi madde "Süheyl b. Amr", "Ebu Süfyan") | islamansiklopedisi.org.tr | Müslüman (modern ansiklopedi) | Süheyl'in sonraki hayatı; Ebu Süfyan'ın Yermük'te gözünü kaybetmesi | 302 (dn696–697) |
 | Joseph Schacht | İslam Hukukuna Giriş (s.28, 30, 233) | Oryantalist (Alman-İngiliz)† | Teşkilatlı otorite yoksa adalet yok; yol kesme suç değildi; İslam hukuku dinî-ahlaki düşünceden doğdu | 316–318 |
@@ -359,7 +358,7 @@ Samimiyet Delilleri/Atalar Kültü'nde anlatılanlar (soy övünmesine muhalefet
 | Comte, Spencer, Durkheim, Freud | — | Eleştirilen aydınlanma düşünürleri | İlerlemeci (animizm → paganizm → tek tanrı) dinler tarihi | 325–326 |
 | Ignaz Goldziher | Akgün, *Goldziher'in Hayatı* s.48; *Klasik Arap Literatürü* (s.148, 161, 177, 240) | Oryantalist (Macar-Yahudi)† | İslam felsefi kafaları tatmin eder; İbn Haldun sosyolojinin kurucusu; Latince çevirilerle Batı etkilendi; İbn Rüşd çiçek hastalığı tespiti; kimya | 330, 350, 364–365, 367 |
 | Edward Said | Şarkiyatçılık | Batılı akademisyen (Filistin kökenli)† | Oryantalizmin sömürgeciliğe hizmeti (anılır) | 349 (dn819), 353 |
-| Albert Ibn Rüşd/İbn Haldun/Gazzali | — | Müslüman klasik şahsiyetler (tartışma konusu) | Oryantalist kurguda rolleri | 347–350 |
+| İbn Rüşd / İbn Haldun / Gazzali | — | Müslüman klasik şahsiyetler (tartışma konusu) | Oryantalist kurguda rolleri | 347–350 |
 | Cevad Ali | İslam Öncesi Arap Tarihi (Mufassal) c.1 s.49 | Müslüman (çağdaş Arap/Iraklı tarihçi)† | Arap yarımadasında sabit takvim oluşmamıştı | 355 (dn830) |
 | Robertson ve Keşiş Michon | *Şarlken Tarihi*; *Doğuda Dini Bir Seyahat* (Dermenghem aracılığıyla s.378) | Gayrimüslim (Batılı tarihçi ve Hristiyan rahip) | Müslümanlar davetteki müsamahayı Hristiyanlara öğretti | 341–342 (dn804) |
 | Marshall Hodgson | İslam'ın Serüveni (s.143, 257) | Oryantalist/Batılı tarihçi† | Zorla din değiştirme yok; İslam benzersiz kültürel kırılma | 344, 364 |
@@ -367,7 +366,7 @@ Samimiyet Delilleri/Atalar Kültü'nde anlatılanlar (soy övünmesine muhalefet
 | III. İshoyahb (Nasturi Patriği) | Arnold aracılığıyla mektup | Gayrimüslim (patrik, 7. yy) | Araplar Hristiyanlığa saldırmıyor, rahiplere hürmet ediyor; zorla dönmeyen Merv halkı | 335–336 |
 | Zuqnin Kanoniği yazarı | Duygu s.442 aracılığıyla | Gayrimüslim (Süryani) | Baskısız toplu Müslümanlaşma | 337 (dn793) |
 | Bernard Lewis | *Hata Neredeydi?* s.146; *İslam'ın Siyasal Söylemi* s.48; *Tarihte Araplar* s.40, 116, 122, 125 | Oryantalist | Taht/serir; bilim ve teknolojide öncülük; Arap kültürü taklitçi değil; hoşgörü; çeviri/Biruni | 306, 332, 344, 351, 354, 364–365, 368 |
-| Edmund Burke/Biruni (Lewis aracılığıyla) | *Kitabu's-Saydana* | Klasik İslami (Biruni) | İlimler Arapçaya aktarıldı | 364 (dn842) |
+| Biruni (Lewis aracılığıyla) | *Kitabu's-Saydana* | Klasik İslami (Biruni) | İlimler Arapçaya aktarıldı | 364 (dn842) |
 | Izutsu | Kur'an'da Tanrı ve İnsan s.146 | Oryantalist (Japon)† | Beliyye âdeti (devenin mezarında bırakılması) | 370 (dn862) |
 | Margoliouth | (yukarıda) s.390 | | Hayvanlara yönelik yasaklar | 371 |
 | Griffel | İslam'ı Düşünmek (s.67, 74) | Batılı akademisyen† | Yasak kitap listesi yok; Otuz Yıl Savaşları gibi fenomen yok | 365–366 (dn849–850) |
@@ -376,10 +375,6 @@ Samimiyet Delilleri/Atalar Kültü'nde anlatılanlar (soy övünmesine muhalefet
 | Mediterranean/modern haberler | Gallup 2011 (stringfixer üzerinden), Euronews 31.08.2020, NTV arşiv, Al Jazeera Türk | Modern medya | Cinsiyete dayalı kürtajlar | 315–316 (dn731–734) |
 | Altay Cem Meriç | YouTube: "Milgram Deneyi", "Stanford Hapishanesi" | Kitabın yazarı (Müslüman) | Deney örgüleri | 319 (dn747–748) |
 | Hannah Arendt; Milgram; Zimbardo (Stanford) | Kötülüğün Sıradanlığı (anılır) | Batılı düşünür/deneyler | Savaş koşullarında normal insanın canavarlaşması | 319 |
-
-> Not: Yukarıdaki tabloda "Hazleton, Dozy vb. (yukarıda)" ve "Albert Ibn Rüşd/İbn Haldun/Gazzali" satırı gibi birkaç satır yalnızca takip/anılma amaçlıdır. Gerçek alıntı satırları ilgili yazarın ilk satırındadır. "Edmund Burke/Biruni" satırında Burke metinde geçmez; satırın tek geçerli unsuru Biruni'dir (aşağıdaki düzeltmeye bakın).
-
-**Tablo düzeltme notu (dürüstlük için).** Yukarıdaki iki satırda (Hazleton/Dozy "yukarıda" satırı, "Albert Ibn Rüşd" ve "Edmund Burke" ifadeleri) hazırlık sırasında yanlış adlar girdi. Bunlar metinde yoktur: metinde yalnızca İbn Rüşd, İbn Haldun, Gazzali (tartışma konusu), Biruni (*Kitabu's-Saydana*, Lewis aracılığıyla), Hazleton ve Dozy (kendi satırlarında) geçer. "Albert", "Edmund Burke" ve boş "Hazleton, Dozy vb." satırı **yok sayılmalıdır.**
 
 ### 3.2 Klasik İslami kaynaklar ve hadisler
 
