@@ -1,8 +1,8 @@
-// niyet.js — kullanıcı cevabını niyete ayıran sınıflandırıcı.
-// v1: kural tabanlı (anahtar kelime eşleşmesi). Arayüz: siniflandir(cevap, dugum) -> Promise<{niyet, itirazId?, hedef?}>
-// ASYNC ve DEĞİŞTİRİLEBİLİR: ileride ucuz bir LLM sınıflandırıcı (girdi: soru + cevap + düğümün niyet/itiraz
-// listesi; çıktı: etiket) `siniflandiriciyiDegistir(fn)` ile takılır; aynı imzayı korumalıdır. İçerik üretmez.
-// Niyetler: ikna | itiraz | yonlendir | ikna_olmadi | kacamak | konu_disi | ara_ver
+// niyet.js — kullanıcı cevabını sınıflandırır. Sözleşme: icerik/AKIS-SEMA.md "Cevap işleme sırası".
+// siniflandir({cevap, beat, soru}) -> Promise<{tur, yol?}>
+//   tur: ara | kacamak | yol | serbest | ret | onay | konu_disi
+// ASYNC ve DEĞİŞTİRİLEBİLİR: siniflandiriciyiDegistir(fn) ile ileride bir LLM sınıflandırıcı takılabilir (aynı imza).
+// Sınıflandırıcı yalnız etiket üretir; içerik üretmez, yönlendirmeyi motor yapar.
 
 export function normalize(s) {
   return String(s ?? '')
@@ -13,49 +13,58 @@ export function normalize(s) {
     .replace(/[^a-z0-9? ]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-const ARA_VER = ['ara ver', 'ara veriyorum', 'ara verelim', 'ara vermek istiyorum', 'sonra devam', 'sonra devam ederim', 'yeter bu kadar', 'simdilik bu kadar', 'sonra donerim'];
-// Kelime sınırıyla eşleşir: "yeterli", "yetersiz" gibi sözcükler yanlışlıkla ara vermeye yol açmasın.
-const kelimeVar = (m, a) => (` ${m} `).includes(` ${a} `);
-const RET = /\b(olmadim|olmadi|olmuyor|olmam|degil|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala)\b/;
-const RET_DEGILSIZ = /\b(olmadim|olmadi|olmuyor|olmam|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala)\b/;
-const KATILIYORUM = /^(haklisin|haklisiniz|katiliyorum|kabul ediyorum)\b/; // "Haklısınız, ... değil" gibi onay çipleri 'değil' içerse de onaydır
+const ARA_VER = ['ara ver', 'ara veriyorum', 'ara verelim', 'ara vermek istiyorum', 'sonra devam', 'sonra devam ederim',
+  'sonra devam edelim', 'simdilik yeter', 'simdilik bu kadar', 'yeter bu kadar', 'sonra donerim', 'cikmak istiyorum', 'cik'];
+const KACAMAK = ['bilmiyorum', 'belki', 'ne bileyim', 'gec', 'pas', 'bos ver', 'farketmez', 'hmm', 'hmmm', 'ilginc'];
+const RET_DEGILSIZ = /\b(olmadim|olmadi|olmuyor|olmam|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala|ikna degilim)\b/;
+const KATILIYORUM = /^(haklisin|haklisiniz|katiliyorum|kabul ediyorum)\b/;
+const GENEL_ONAY = /\b(evet|haklisin|haklisiniz|mantikli|katiliyorum|ikna oldum|kabul ediyorum|dogru|tabii|tabi)\b/;
 
-const anahtarlar = (l) => (l || []).map(normalize).filter(Boolean);
-// Kısa anahtarlar (<=4 harf: 'gec', 'sara', 'deli'...) tam sözcük olarak aranır; 'geçmiş', 'saray' gibi sözcüklere takılmasın.
-const var_ = (m, a) => (a.length <= 4 ? kelimeVar(m, a) : m.includes(a));
-const esles = (m, l) => anahtarlar(l).some((a) => var_(m, a));
-// En uzun eşleşen anahtarın uzunluğu (0 = eşleşme yok); çakışmada daha özgül (uzun) anahtar kazansın.
-const skor = (m, l) => anahtarlar(l).reduce((b, a) => (var_(m, a) && a.length > b ? a.length : b), 0);
+const kelimeVar = (m, a) => ` ${m} `.includes(` ${a} `);
+const basta = (m, a) => ` ${m}`.includes(` ${a}`);
+const anahtarlar = (l) => (Array.isArray(l) ? l : l ? [l] : []).map(normalize).filter(Boolean);
+// Kısa anahtarlar (<=4 harf) tam sözcük; uzunlar sözcük başında eşleşir (Türkçe ekler için).
+const var_ = (m, a) => (a.length <= 4 ? kelimeVar(m, a) : basta(m, a));
+export const skor = (m, l) => anahtarlar(l).reduce((b, a) => (var_(m, a) && a.length > b ? a.length : b), 0);
 
-export function dugumAnahtarlari(d) {
-  const n = d.niyetler || {}, out = [];
-  (d.itirazlar || []).forEach((i) => out.push(...anahtarlar(i.anahtar)));
-  Object.values(n).forEach((v) => { if (v?.anahtar) out.push(...anahtarlar(v.anahtar)); });
-  Object.values(n.yonlendir || {}).forEach((v) => out.push(...anahtarlar(v.anahtar)));
-  (d.baslik || '').split(/\s+/).forEach((w) => { const x = normalize(w); if (x.length > 4) out.push(x); });
-  return out;
+const ONCELIK = { yonlendir: 4, itiraz: 3, profil: 2, ikna: 1 };
+
+function beatKelimeleri(beat) {
+  const kume = new Set();
+  const ekle = (t) => normalize(t).split(' ').forEach((w) => { if (w.length >= 5) kume.add(w.slice(0, 5)); });
+  (beat.satirlar || []).forEach((s) => ekle(typeof s === 'string' ? s : s.metin));
+  ekle(beat.soru?.metin ?? beat.soru);
+  (beat.ekOrnekler || []).forEach((e) => ekle(e.soru));
+  (beat.yollar || []).forEach((y) => anahtarlar(y.anahtar).forEach(ekle));
+  return kume;
 }
 
-async function kuralTabanli(cevap, dugum) {
+async function kuralTabanli({ cevap, beat, soru }) {
   const m = normalize(cevap);
-  const n = dugum.niyetler || {};
-  if (ARA_VER.some((a) => kelimeVar(m, a))) return { niyet: 'ara_ver' };
-  // Yönlendirme ve itirazlar: en uzun (en özgül) anahtar kazanır; eşitlikte yönlendirme.
-  let en = { skor: 0 };
-  for (const [ad, y] of Object.entries(n.yonlendir || {})) { const k = skor(m, y.anahtar); if (k > en.skor) en = { skor: k, r: { niyet: 'yonlendir', hedef: y.hedef, yon: ad } }; }
-  if (!KATILIYORUM.test(m) || RET_DEGILSIZ.test(m)) {
-    for (const i of dugum.itirazlar || []) { const k = skor(m, i.anahtar); if (k > en.skor) en = { skor: k, r: { niyet: 'itiraz', itirazId: i.id } }; }
+  if (ARA_VER.some((a) => kelimeVar(m, a))) return { tur: 'ara' };
+  if (m.replace(/[^a-z0-9]/g, '').length < 2) return { tur: 'kacamak' };
+  const olumsuz = RET_DEGILSIZ.test(m) || (/\bdegil\b/.test(m) && !KATILIYORUM.test(m));
+  // 1) yollar: en uzun anahtar kazanır; eşitlikte yonlendir > itiraz > profil > ikna. Olumsuz cevapta "ikna" yolları devre dışı.
+  let en = null;
+  for (const y of beat.yollar || []) {
+    if (olumsuz && y.tur === 'ikna') continue;
+    const k = skor(m, y.anahtar);
+    if (!k) continue;
+    const p = ONCELIK[y.tur] ?? 0;
+    if (!en || k > en.k || (k === en.k && p > en.p)) en = { y, k, p };
   }
-  if (en.r) return en.r;
-  if (m.replace(/\?/g, '').length < 3) return { niyet: 'kacamak' };
-  if (KATILIYORUM.test(m) && !RET_DEGILSIZ.test(m)) return { niyet: 'ikna' };
-  if (RET.test(m)) return { niyet: 'ikna_olmadi' }; // "ikna olmadım" gibi olumsuzlama, 'ikna' anahtarından önce yakalanır
-  if (esles(m, n.ikna?.anahtar)) return { niyet: 'ikna' };
-  if (esles(m, n.kacamak?.anahtar)) return { niyet: 'kacamak' };
-  if (m.includes('?') && !dugumAnahtarlari(dugum).some((a) => m.includes(a))) return { niyet: 'konu_disi' };
-  return { niyet: 'ikna_olmadi' };
+  if (en) return { tur: 'yol', yol: en.y };
+  if (soru?.serbest) return { tur: 'serbest' };
+  if (olumsuz) return { tur: 'ret' };
+  if (GENEL_ONAY.test(m)) return { tur: 'onay' };
+  if (KACAMAK.some((a) => kelimeVar(m, a))) return { tur: 'kacamak' };
+  if (m.includes('?')) {
+    const kume = beatKelimeleri(beat);
+    if (!m.split(' ').some((w) => w.length >= 5 && kume.has(w.slice(0, 5)))) return { tur: 'konu_disi' };
+  }
+  return { tur: 'ret' };
 }
 
 let aktif = kuralTabanli;
 export function siniflandiriciyiDegistir(fn) { aktif = fn; }
-export async function siniflandir(cevap, dugum) { return aktif(cevap, dugum); }
+export async function siniflandir(girdi) { return aktif(girdi); }

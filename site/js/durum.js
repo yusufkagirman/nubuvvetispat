@@ -1,21 +1,21 @@
-// durum.js — kullanıcı durumu (ilerleme, cevaplar, konu dışı notlar).
-// Saklama: localStorage (try/catch; erişilemezse bellekte).
-// HESAP YOK (v1). Sonraki aşamada: giriş yapan kullanıcı için aynı nesne sunucuya
-// eşitlenebilir -> aşağıdaki `depola` adaptörünü uzak bir uygulamayla değiştirmek yeterli.
-const ANAHTAR = 'nubuvvet.durum.v1';
+// durum.js — kullanıcı durumu. localStorage (try/catch), erişilemezse bellekte yedek.
+// Hesap yok; ileride `depola` adaptörü uzak bir uygulamayla değiştirilebilir.
+const ANAHTAR = 'nubuvvet.akis.v2';
 
 const bos = () => ({
-  surum: 1,
-  profil: {},          // anket cevapları {soruId: {secim:[], serbest:''}}
-  anketBitti: false,
-  mevcut: null,        // şu anki düğüm id
-  kapali: {},          // {id: zaman}  -> ikna olundu (✗/✓)
-  tamam: {},           // {id: 'kompozisyon'|'ilzam'} ikna olmadan tamamlanan
-  ziyaret: {},         // {id: true}
-  cevaplar: {},        // {id: [{tip, metin, niyet, t}]}
-  konuDisi: [],        // [{id, metin, t}]
-  kompozisyon: {},     // {id: metin}
-  baslangic: Date.now(),
+  surum: 2,
+  beat: null,        // şu anki beat id
+  satir: 0,          // gösterilen satır indeksi
+  asama: 'satir',    // 'satir' | 'soru'
+  soru: null,        // {mod:'ana'|'ek'|'komp', idx}
+  profil: {},        // sözleşmedeki profil değişkenleri (+ "<beat id>" serbest cevapları)
+  kapali: [],        // kapalı dallar
+  cevaplar: {},      // {beatId: [{metin, t}]}
+  konuDisi: [],
+  kompozisyon: {},
+  ek: {},            // {beatId: ekOrnek indeksi}
+  bitti: false,
+  t: Date.now(),
 });
 
 let bellek = null;
@@ -25,23 +25,29 @@ const depola = {
   sil() { try { localStorage.removeItem(ANAHTAR); } catch { /* */ } bellek = null; },
 };
 
-export let durum = (() => {
-  try { const s = depola.oku(); if (s) return { ...bos(), ...JSON.parse(s) }; } catch { /* bozuk kayıt */ }
-  return bos();
-})();
+export const durum = bos();
+try { const s = depola.oku(); if (s) Object.assign(durum, JSON.parse(s)); } catch { /* bozuk kayıt */ }
 
-export function kaydet() { depola.yaz(JSON.stringify(durum)); }
-export function sifirla() { depola.sil(); durum = bos(); return durum; }
-export function cevapEkle(id, o) {
-  (durum.cevaplar[id] ||= []).push({ ...o, t: Date.now() });
-  kaydet();
+export function kaydet() { durum.t = Date.now(); depola.yaz(JSON.stringify(durum)); }
+export function sifirla() {
+  depola.sil();
+  for (const k of Object.keys(durum)) delete durum[k];
+  Object.assign(durum, bos());
 }
-export function konuDisiEkle(id, metin) { durum.konuDisi.push({ id, metin, t: Date.now() }); kaydet(); }
-export function disaAktar() {
-  const blob = new Blob([JSON.stringify(durum, null, 2)], { type: 'application/json' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'nubuvvet-ilerleme.json';
-  document.body.appendChild(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+export const devamVar = () => !!durum.beat && !durum.bitti;
+export function cevapEkle(id, metin) { (durum.cevaplar[id] ||= []).push({ metin, t: Date.now() }); kaydet(); }
+export function kapat(dal) { if (dal && !durum.kapali.includes(dal)) { durum.kapali.push(dal); kaydet(); } }
+
+// Koşul: nesne içindeki tüm anahtarlar VE ile sağlanmalı.
+//  "profil.x": string = eşitlik, dizi = içinden biri.  "kapali": string = o dal kapalı, dizi = HEPSİ kapalı.
+export function kosulSaglanir(kosul) {
+  if (!kosul) return false;
+  const anahtarlar = Object.keys(kosul);
+  if (!anahtarlar.length) return false;
+  return anahtarlar.every((k) => {
+    const v = kosul[k];
+    if (k === 'kapali') return (Array.isArray(v) ? v : [v]).every((d) => durum.kapali.includes(d));
+    const gercek = k.startsWith('profil.') ? durum.profil[k.slice(7)] : durum[k];
+    return Array.isArray(v) ? v.includes(gercek) : gercek === v;
+  });
 }

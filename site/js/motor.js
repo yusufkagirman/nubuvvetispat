@@ -1,154 +1,158 @@
-// motor.js — düğüm akışı (docs/etkilesim-modeli.md). DOM bilmez; arayüze `ui` nesnesi üzerinden konuşur.
-import { siniflandir, dugumAnahtarlari, normalize } from './niyet.js';
-import { durum, kaydet, cevapEkle, konuDisiEkle } from './durum.js';
+// motor.js — AKIS-SEMA "Cevap işleme sırası"nı uygular. Arayüzden bağımsızdır: ekran (ui) arayüzünü kullanır.
+import { siniflandir } from './niyet.js';
+import { durum, kaydet, cevapEkle, kapat, kosulSaglanir } from './durum.js';
 
-const YOLLAR = ['icerik/', 'ornek/']; // önce yayın içeriği, yoksa örnekler
-const dizi = (x) => (Array.isArray(x) ? x : x ? [x] : []);
-const sec = (x, n) => { const a = dizi(x); return a.length ? a[n % a.length] : ''; };
-
-async function getir(yol) {
-  for (const k of YOLLAR) {
-    try { const r = await fetch(k + yol, { cache: 'no-cache' }); if (r.ok) return await r.json(); } catch { /* sonraki */ }
-  }
-  return null;
-}
+export const IPTAL = Symbol('iptal');
+const KOPRU = ['Buna birazdan geleceğiz. Şimdi şunu soruyordum:', 'Bunu not aldım. Ama önce şuna dönelim:', 'Güzel soru; sırası gelince. Şimdilik şuna bakalım:'];
+const DIZI = (x) => (x == null ? [] : Array.isArray(x) ? x : [x]);
 
 export class Motor {
-  constructor(ui) { this.ui = ui; this.sira = []; this.cache = {}; this.d = null; this.s = null; this.sayac = 0; }
+  constructor(ui) { this.ui = ui; this.havuz = new Map(); this.no = 0; this.kopruSay = 0; }
 
-  async baslat() {
-    const j = await getir('_sira.json');
-    const l = Array.isArray(j) ? j : j?.sira || (j?.dallar && Object.values(j.dallar).flat()) || j?.dugumler || (j && Object.values(j).find(Array.isArray)) || [];
-    this.sira = l.map((x) => (typeof x === 'string' ? x : x.id)).filter(Boolean);
-    return this.sira;
-  }
-  async yukle(id) {
-    if (!(id in this.cache)) this.cache[id] = await getir(id + '.json');
-    return this.cache[id];
-  }
-  sonrakiId(id) { const i = this.sira.indexOf(id); return i >= 0 ? this.sira[i + 1] : null; }
-
-  /** Önkoşulların tamamı ikna ile kapanmış mı? (sırada olmayan önkoşul engel sayılmaz) */
-  onkosulTamam(d) { return dizi(d.onkosul).every((o) => durum.kapali[o] || !this.sira.includes(o)); }
-
-  async git(id) {
-    this.ui.temizle();
-    const d = await this.yukle(id);
-    durum.mevcut = id; durum.ziyaret[id] = true; kaydet();
-    if (!d) { this.d = null; this.ui.hazirlaniyor(id); this.ui.haritaGuncelle(); return; }
-    this.d = d;
-    this.s = { sahne: 0, faz: 'sahne', ek: 0, ilzam: d.ilzam?.soru || '', cipler: d.ilzam?.cipler || [] };
-    this.ui.dugumBasladi(d, { onkosulEksik: !this.onkosulTamam(d) });
-    // Daha önce kaydedilen konu dışı soruları hatırlat (düğüm anahtarlarıyla eşleşenleri).
-    const an = dugumAnahtarlari(d);
-    const hatirla = durum.konuDisi.filter((k) => k.id !== id && an.some((a) => normalize(k.metin).includes(a)));
-    if (hatirla.length) this.ui.sistem(`Daha önce şunu sormuştunuz, sırası geldi: “${hatirla[hatirla.length - 1].metin}”`);
-    this.ui.haritaGuncelle();
-    this.ileri();
+  yukle(veri) {
+    this.havuz.clear();
+    for (const b of veri?.bolgeler || []) for (const beat of b.beats || []) this.havuz.set(beat.id, beat);
+    return this.havuz.size;
   }
 
-  /** Sahneleri sırayla göster; bitince özet + ilzam. */
-  ileri() {
-    const { d, s } = this;
-    if (!d || s.faz !== 'sahne') return;
-    const sah = d.sahneler || [];
-    if (s.sahne < sah.length) {
-      this.ui.sahne(sah[s.sahne++]);
-      this.ui.kontrol({ mod: 'ileri', etiket: s.sahne < sah.length ? 'Devam' : 'Özete geç' });
-      return;
-    }
-    if (d.ozet) this.ui.ozet(d.ozet);
-    s.faz = 'ilzam';
-    this.ilzamSor();
-  }
+  k(no) { if (no !== this.no) throw IPTAL; }
 
-  ilzamSor() {
-    const { s } = this;
-    if (s.ilzam) this.ui.ilzam(s.ilzam);
-    this.ui.kontrol({ mod: 'cevap', cipler: s.cipler });
-  }
+  baslat(devam) { const no = ++this.no; return this.calis(no, devam); }
+  git(id) { this.ui.iptalEt(); durum.beat = id; durum.satir = 0; durum.asama = 'satir'; durum.soru = null; durum.bitti = false; kaydet(); return this.baslat(false); }
+  durdur() { this.no++; this.ui.iptalEt(); }
 
-  async cevapla(metin) {
-    const { d, s } = this;
-    if (!d || !metin.trim() || s.faz === 'sahne' || s.faz === 'bitti') return;
-    this.ui.kullanici(metin);
-    const id = d.id;
-    const n = d.niyetler || {};
-
-    if (s.faz === 'kompozisyon') {
-      const r0 = await siniflandir(metin, d);
-      if (r0.niyet === 'ara_ver') return this.araVer();
-      durum.kompozisyon[id] = metin; durum.tamam[id] = 'kompozisyon';
-      cevapEkle(id, { tip: 'kompozisyon', metin });
-      s.faz = 'bitti';
-      this.ui.sistem('Cevabınız için teşekkür ederiz; kaydettik. Konuyu zorlamayacağız; nasıl açıkladığınız sizin değerlendirmenizdir. İsterseniz yola devam edelim.');
-      this.ui.haritaGuncelle();
-      return this.sonrakiyeHazirla();
-    }
-
-    const r = await siniflandir(metin, d);
-    cevapEkle(id, { tip: 'ilzam', metin, niyet: r.niyet, itirazId: r.itirazId });
-    this.sayac++;
-    switch (r.niyet) {
-      case 'ara_ver': return this.araVer();
-      case 'ikna': {
-        const kapat = this.onkosulTamam(d);
-        if (kapat) { durum.kapali[id] = Date.now(); delete durum.tamam[id]; kaydet(); }
-        this.ui.sistem(sec(n.ikna?.yanit, this.sayac) || 'Teşekkür ederiz, bu noktayı böyle kapatıyoruz.');
-        if (!kapat) this.ui.sistem('Not: Bu düğümün ön adımları henüz tamamlanmadığı için “kapandı” sayılmadı; sıralı ilerleyince kapanacak.');
-        s.faz = 'bitti'; this.ui.haritaGuncelle();
-        return this.sonrakiyeHazirla();
+  async calis(no, devam) {
+    try {
+      let id = durum.beat || 'acilis.merhaba', devamMi = !!devam && !!durum.beat, atlama = 0;
+      while (id) {
+        this.k(no);
+        const r = await this.beatOynat(no, id, devamMi, atlama);
+        atlama = r?.atlama ?? 0;
+        devamMi = false;
+        id = r?.id ?? null;
       }
-      case 'itiraz': {
-        this.ui.itiraz((d.itirazlar || []).find((x) => x.id === r.itirazId));
-        this.ilzamSor();
-        return;
+    } catch (e) { if (e !== IPTAL) console.error(e); }
+  }
+
+  // Dönüş: {id, atlama} sıradaki beat veya null (bitiş/duraklama)
+  async beatOynat(no, id, devam, atlama) {
+    const beat = this.havuz.get(id);
+    if (!beat) { durum.beat = id; kaydet(); await this.yokKapanis(no); return null; }
+    if (!devam) {
+      const dal = (beat.dallan || []).find((d) => kosulSaglanir(d.kosul) && d.git !== id);
+      if (dal) {
+        if (atlama > 20) { await this.yokKapanis(no); return null; }
+        return { id: dal.git, atlama: atlama + 1 };
       }
-      case 'yonlendir': {
-        if (this.onkosulTamam(d)) { durum.kapali[id] = Date.now(); kaydet(); }
-        this.ui.sistem(sec(n.yonlendir?.[r.yon]?.yanit, 0) || 'Peki, o halde sizin düşündüğünüz ihtimali birlikte ele alalım.');
-        this.ui.haritaGuncelle();
-        return this.git(r.hedef);
+      Object.assign(durum, { beat: id, satir: 0, asama: 'satir', soru: null, bitti: false });
+      durum.ek[id] = 0;
+      kaydet();
+      await this.ui.beatBasla(false);
+      this.k(no);
+    } else {
+      await this.ui.beatBasla(true);
+    }
+    const mod0 = durum.asama === 'soru' && durum.soru ? durum.soru : null;
+    const ekSahne = mod0?.mod === 'ek' ? beat.ekOrnekler?.[mod0.idx]?.sahne : null;
+    if (beat.sahne || ekSahne) this.ui.sahneKur({ ...(beat.sahne || {}), ...(ekSahne || {}) });
+    const satirlar = beat.satirlar || [];
+    if (durum.asama !== 'soru') {
+      for (let i = durum.satir; i < satirlar.length; i++) {
+        durum.satir = i; kaydet();
+        await this.ui.satir(satirlar[i]); this.k(no);
       }
-      case 'kacamak':
-      case 'konu_disi': {
-        if (r.niyet === 'konu_disi') konuDisiEkle(id, metin);
-        this.ui.sistem(sec(n[r.niyet]?.yanit, this.sayac) ||
-          (r.niyet === 'konu_disi' ? 'Güzel bir soru; not aldık, sırası gelince buna döneceğiz.' : 'Buna sırası gelince döneceğiz; şimdilik elimizdeki soruya bir bakalım.'));
-        this.ilzamSor();
-        return;
+      durum.satir = satirlar.length;
+    }
+    if (!beat.soru) return this.sonrasi(no, beat.sonraki);
+    return this.soruDongusu(no, beat);
+  }
+
+  sonrasi(no, id) { return id ? { id, atlama: 0 } : this.son(no); }
+
+  async son(no) {
+    durum.bitti = true; kaydet();
+    await this.ui.kapanis(); this.k(no);
+    return null;
+  }
+
+  async yokKapanis(no) {
+    await this.ui.satirlar(['Bu kısmı hazırlıyoruz.', 'Şimdilik buraya kadar.']); this.k(no);
+    await this.ui.kapanis(); this.k(no);
+  }
+
+  kopru(beat) {
+    const l = DIZI(beat.kopru).length ? DIZI(beat.kopru) : KOPRU;
+    return l[this.kopruSay++ % l.length];
+  }
+
+  profilYaz(p) { if (p) { Object.assign(durum.profil, p); kaydet(); } }
+
+  async soruDongusu(no, beat) {
+    const id = beat.id, ekler = beat.ekOrnekler || [];
+    const s0 = beat.soru;
+    const ana = typeof s0 === 'string' ? { metin: s0 } : s0;
+    let { mod, idx } = durum.asama === 'soru' && durum.soru ? durum.soru : { mod: 'ana', idx: 0 };
+    const kur = () => {
+      if (mod === 'ek') { const e = ekler[idx]; return { metin: e.soru, cipler: e.cipler || ana.cipler || [], serbest: false }; }
+      if (mod === 'komp') return { metin: beat.kompozisyon, cipler: [], serbest: true };
+      return { metin: ana.metin, cipler: ana.cipler || [], serbest: !!ana.serbest };
+    };
+    const sonraki = () => this.sonrasi(no, beat.sonraki);
+    const varsayilan = () => this.sonrasi(no, beat.varsayilan || beat.sonraki);
+    for (;;) {
+      const q = kur();
+      Object.assign(durum, { asama: 'soru', soru: { mod, idx } }); kaydet();
+      const cevap = await this.ui.soruSor(q); this.k(no);
+      cevapEkle(id, cevap);
+      const s = await siniflandir({ cevap, beat, soru: q, mod }); this.k(no);
+      if (s.tur === 'ara') { this.araVer(); throw IPTAL; }
+      await this.ui.cevapGoster(cevap); this.k(no);
+      if (mod === 'komp') {
+        if (s.tur === 'kacamak') { await this.ui.satir(this.kopru(beat)); this.k(no); continue; }
+        durum.kompozisyon[id] = cevap; kaydet();
+        await this.ui.satir('Bunu not ettim. Bununla birlikte devam edelim.'); this.k(no);
+        return sonraki();
       }
-      default: return this.iknaOlmadi();
+      if (s.tur === 'yol') {
+        const y = s.yol; this.profilYaz(y.profil);
+        if (y.tur === 'itiraz') {
+          await this.ui.satirlar(DIZI(y.yanit)); this.k(no);
+          continue;
+        }
+        if (y.tur === 'ikna' || y.tur === 'yonlendir') kapat(beat.kapat || y.kapat);
+        if (y.git) return { id: y.git, atlama: 0 };
+        return y.tur === 'profil' ? varsayilan() : sonraki();
+      }
+      if (s.tur === 'serbest') { this.profilYaz({ [id]: cevap }); return varsayilan(); }
+      if (s.tur === 'onay') { kapat(beat.kapat); return sonraki(); }
+      if (s.tur === 'ret') {
+        const ni = mod === 'ana' ? 0 : idx + 1;
+        if (ni < ekler.length) {
+          mod = 'ek'; idx = ni; durum.ek[id] = ni;
+          const e = ekler[ni];
+          if (e.sahne) this.ui.sahneKur({ ...(beat.sahne || {}), ...e.sahne });
+          Object.assign(durum, { soru: { mod, idx } }); kaydet();
+          await this.ui.satirlar(e.satirlar || []); this.k(no);
+          continue;
+        }
+        if (beat.kompozisyon) { mod = 'komp'; idx = 0; continue; }
+        await this.ui.satir('Bunu not ettim. Bununla birlikte devam edelim.'); this.k(no);
+        return sonraki();
+      }
+      // kaçamak / konu dışı: köprü + aynı soru
+      if (s.tur === 'konu_disi') { durum.konuDisi.push({ id, metin: cevap, t: Date.now() }); kaydet(); }
+      await this.ui.satir(this.kopru(beat)); this.k(no);
     }
   }
 
-  iknaOlmadi() {
-    const { d, s } = this;
-    const ek = dizi(d.ekOrnekler);
-    if (s.ek < ek.length) {
-      const o = ek[s.ek++];
-      this.ui.sistem('Anlıyoruz; o halde konuya bir de şu açıdan bakalım.');
-      this.ui.ekOrnek(o);
-      if (d.ozet) this.ui.ozet(d.ozet, true);
-      s.ilzam = o.ilzam || d.ilzam?.soru || '';
-      this.ilzamSor();
-      return;
-    }
-    s.faz = 'kompozisyon';
-    this.ui.sistem('Örneklerin hepsini gösterdik. Sizi daha fazla zorlamadan tek bir şey soracağız.');
-    this.ui.ilzam(d.kompozisyon || 'Bu verilerin tamamını birlikte, tutarlı biçimde nasıl açıklıyorsunuz?');
-    this.ui.kontrol({ mod: 'cevap', cipler: [] });
-  }
-
-  sonrakiyeHazirla() {
-    const sn = this.d.sonraki || this.sonrakiId(this.d.id);
-    if (sn) this.ui.kontrol({ mod: 'devam', etiket: 'Devam et', hedef: sn });
-    else this.ui.kontrol({ mod: 'harita', etiket: 'Haritaya dön' });
-  }
-
-  araVer() {
-    kaydet();
-    this.ui.sistem('Elbette, ilerlemeniz kaydedildi. Dilediğiniz zaman kaldığınız yerden devam edebilirsiniz.');
-    this.ui.kontrol({ mod: 'harita', etiket: 'Haritaya dön' });
+  // Global "ara ver": kaydı koru, veda, dokununca kaldığı yerden devam.
+  async araVer() {
+    const no = ++this.no; this.ui.iptalEt(); kaydet();
+    try {
+      await this.ui.temizle(); this.k(no);
+      await this.ui.satirlar(['Tamam, burada duralım.', 'Hazır olduğunda kaldığımız yerden devam ederiz.']); this.k(no);
+      await this.ui.bekleDokun('devam etmek için dokun ya da bir tuşa bas'); this.k(no);
+    } catch (e) { if (e !== IPTAL) console.error(e); return; }
+    this.calis(++this.no, true);
   }
 }

@@ -1,0 +1,2510 @@
+{
+  "bolge": "samimiyet",
+  "giris": "samimiyet.giris",
+  "beats": [
+    {
+      "id": "samimiyet.giris",
+      "gizliDugum": "S1",
+      "satirlar": [
+        {
+          "metin": "Diyelim ki sen haklısın."
+        },
+        {
+          "metin": "Hâşâ, Muhammed bile bile yalan söyledi. 'Cebrail geldi' dedi, ama gelen kimse yoktu."
+        },
+        {
+          "metin": "Bir insan yalanı neden yaşar? Bir şey kazanmak için."
+        },
+        {
+          "metin": "Mal, güç, şöhret, rahatlık… Her yalanın bir ödülü olur."
+        },
+        {
+          "metin": "O hâlde test çok basit: sahte olsaydı, ne yapardı?",
+          "vurgu": true
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Bir sahtekâr…",
+                "maddeler": [
+                  "Yükü hafifletirdi",
+                  "Kalabalığın hoşuna gideni söylerdi",
+                  "Hatalarını saklardı",
+                  "Güç geldikçe rahata yönelirdi"
+                ]
+              },
+              "sag": {
+                "baslik": "O ise…",
+                "maddeler": [
+                  "Yükü ağırlaştırdı",
+                  "Atalara ve geleneğe karşı çıktı",
+                  "Kendini azarlayan sözleri okuttu",
+                  "Güç elindeyken sade yaşadı"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kutsal yalan",
+            "iyi niyetli",
+            "iyilik için",
+            "halk için"
+          ],
+          "git": "samimiyet.kutsalyalan",
+          "profil": {
+            "iddia": "sahtekar"
+          }
+        }
+      ],
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.teshis",
+      "dayanak": "S1, kitap s. 157-159: hedef iddia 'zeki toplum önderi, dini siyasal fikirlerine araç yaptı'; test: bu yorumlar tarihî verileri açıklıyor mu, kompozisyon kuruyor mu. Karşı-olgusal kalıp tüm bölümün omurgası. Bu delil tek başına nübüvveti ispatlamaz, yalnız 'bilerek yalan'ı kapatır (kapanış beat'inde belirtilir).",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "samimiyet"
+          },
+          "git": "haber.kalan"
+        }
+      ]
+    },
+    {
+      "id": "samimiyet.teshis",
+      "gizliDugum": "S1",
+      "satirlar": [
+        {
+          "metin": "Şimdi sana bir şey soracağım."
+        },
+        {
+          "metin": "Biri yirmi üç yıl boyunca bir yalanın içinde yaşıyorsa…"
+        },
+        {
+          "metin": "…mutlaka bir şey umuyordur. Bir menfaat, bir hedef."
+        }
+      ],
+      "soru": {
+        "metin": "Sence Muhammed bu yalanla ne kazanmak istedi?",
+        "cipler": [
+          "Güç ve iktidar",
+          "Mal ve zenginlik",
+          "Bilmiyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "mal",
+            "para",
+            "zengin",
+            "zenginlik",
+            "servet",
+            "dünyalık",
+            "altın",
+            "ticaret"
+          ],
+          "git": "samimiyet.mal"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "güç",
+            "iktidar",
+            "liderlik",
+            "hükümdar",
+            "kral",
+            "yönetim",
+            "siyaset",
+            "devlet",
+            "otorite",
+            "hükmetmek"
+          ],
+          "git": "samimiyet.guc"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "şöhret",
+            "ün",
+            "ünlü",
+            "saygınlık",
+            "itibar",
+            "tanınmak",
+            "hayranlık",
+            "prestij"
+          ],
+          "git": "samimiyet.sohret"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kadın",
+            "kadınlar",
+            "şehvet",
+            "evlilik",
+            "eş",
+            "cinsel"
+          ],
+          "git": "samimiyet.kadin"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kabile",
+            "aşiret",
+            "kavim",
+            "soy",
+            "kureyş",
+            "akraba",
+            "halkını"
+          ],
+          "git": "samimiyet.kabile"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "reform",
+            "toplumu değiştirmek",
+            "toplum",
+            "ahlak",
+            "düzen"
+          ],
+          "git": "samimiyet.deger"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kutsal yalan",
+            "iyi niyet",
+            "iyilik",
+            "davası için",
+            "inandığı için",
+            "samimi"
+          ],
+          "git": "samimiyet.kutsalyalan"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bilmiyorum",
+            "bilemem",
+            "emin değilim",
+            "hepsi"
+          ],
+          "git": "samimiyet.yuk"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        }
+      ],
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.yuk",
+      "dayanak": "S1 + şüphe indeksi (metod-haritasi §3). Teşhis beat'i: kullanıcının sandığı menfaate göre ilgili delile yönlendirir: mal -> S12/S13, güç -> S8/S14, şöhret -> S10/S9, kadın -> S12-S14 (+Watt), kabile -> S6/S7, toplumu değiştirme -> S3-S5, kutsal yalan -> S1 (Bruno/Diyojen) + çelişki, bilmiyorum -> S2 (mükellefiyet).",
+      "varsayilan": "samimiyet.yuk"
+    },
+    {
+      "id": "samimiyet.mal",
+      "gizliDugum": "S12",
+      "satirlar": [
+        {
+          "metin": "Mal istediyse, önünde kolay bir yol vardı."
+        },
+        {
+          "metin": "Mekke'de rahat bir ticaret hayatı vardı; Hatice ile birlikte refah içinde yaşıyordu."
+        },
+        {
+          "metin": "Sonra Arabistan'ın büyük bölümü onun yönetimine girdi."
+        },
+        {
+          "metin": "Yine de saray kurmadı, kapıcı tutmadı. Evi hurma lifinden örülmüştü; ev işini kendi yapardı."
+        },
+        {
+          "metin": "Öldüğünde zırhı, bir ölçü arpa karşılığında bir Yahudi komşusunda rehindi.",
+          "vurgu": true
+        },
+        {
+          "metin": "Bir devlet başkanı, azınlıktan bir komşusuna borçluydu."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama güç elindeyken zırhı rehinde ölen biri, mal için neden yalan söylesin?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "güç kazandı",
+            "güçlendi",
+            "devlet kurdu",
+            "iktidara geldi",
+            "sonradan güç",
+            "sonradan zengin"
+          ],
+          "yanit": [
+            "Evet, Medine'de bir devlet kurdu ve güçlü oldu. Bunu saklamıyoruz.",
+            "Soru şu: o güç ona ne kazandırdı? Saray yok, kapıcı yok, biriken servet yok, zırh rehinde.",
+            "Güç elinde olduğu hâlde dünyalık toplamadı. Güç, iddiayı kurtarmıyor; daha da zorlaştırıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir örnek daha."
+            },
+            {
+              "metin": "Mirasının ailesine kalmayacağını, topluma ait olduğunu söyledi."
+            },
+            {
+              "metin": "Gelen hediyeleri hemen dağıtırdı; bir takımdan fazla elbisesi olmadı."
+            }
+          ],
+          "soru": "Bir hanedan kurmak isteyen biri, çocuklarının geleceğini böyle mi kapatır?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de şunu düşün: yanındakilere de aynısını öğretti."
+            },
+            {
+              "metin": "Cübbesini kefen için isteyene çıkarıp verdi."
+            }
+          ],
+          "soru": "Servet biriktirmek isteyen biri, elindekini isteyene neden verir?"
+        }
+      ],
+      "kompozisyon": "Peki zırhı rehinde ölen, mirası devlete bırakan, hediyeleri dağıtan biri… bunlar 'mal için yalan' ile nasıl bir arada durur?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.aile",
+      "dayanak": "S12 (kitap s. 244-248): Caetani, Hodgson, Hazleton (kral ilan edebilirdi, Medine'ye döndü), Gibbon (ev işleri), Dermenghem/Margoliouth (zırh rehin, vefatta hâlâ rehin; Buhârî Cihâd/Rehn rivayetleri), Kadı Abdülcebbar (hurma lifi), Hitti (miras devlet mülkü), Armstrong (bir takım elbise, hediyeleri dağıtma), Dermenghem (cübbe/kefen). 'Hatice ile refah' ifadesi bank'ta Bodley'e dayanır (s. 244)."
+    },
+    {
+      "id": "samimiyet.aile",
+      "gizliDugum": "S13",
+      "satirlar": [
+        {
+          "metin": "Belki kendisi sade yaşadı, ama ailesine konfor sağladı?"
+        },
+        {
+          "metin": "Eşleri geçim darlığından yakındı. Üstelik bu, Medine'de, güçlü olduğu dönemdeydi."
+        },
+        {
+          "metin": "Çözüm bir saray olmadı. Eşlerine açık bir seçenek sunuldu: dünya hayatını mı istiyorsunuz, yoksa bu sadeliği mi?"
+        },
+        {
+          "metin": "Evde iki üç ay ateş yanmadığı olurdu; yiyecek hurma ve sudan ibaretti."
+        },
+        {
+          "metin": "Kızı Fatıma el değirmeninden elleri nasır tutmuşken bir hizmetçi istedi.",
+          "vurgu": true
+        },
+        {
+          "metin": "Vermedi. 'Bedir yetimleri senden önce gelir' dedi ve ona bir tesbih duası öğretti."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, elleri nasır tutmuş kendi kızına neden hizmetçi vermez?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "güç kazandı",
+            "güçlendi",
+            "devlet kurdu",
+            "iktidara geldi",
+            "sonradan güç",
+            "sonradan zengin"
+          ],
+          "yanit": [
+            "Evet, Medine'de bir devlet kurdu ve güçlü oldu. Bunu saklamıyoruz.",
+            "Soru şu: o güç ona ne kazandırdı? Saray yok, kapıcı yok, biriken servet yok, zırh rehinde.",
+            "Güç elinde olduğu hâlde dünyalık toplamadı. Güç, iddiayı kurtarmıyor; daha da zorlaştırıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir gün Ömer, Peygamber'in odasına girdi."
+            },
+            {
+              "metin": "Hasırın izi böğründe kalmıştı; odada neredeyse hiçbir şey yoktu."
+            },
+            {
+              "metin": "'Kisra ve Kayser refah içinde, sen böyle' dedi."
+            },
+            {
+              "metin": "Cevap: 'Onlar paylarını dünyada aldı; bizim payımız ahirette.'"
+            },
+            {
+              "metin": "Bu, Mekke fethinden sonra, gücün zirvesindeyken yaşandı."
+            }
+          ],
+          "soru": "Gücü elindeyken bile böyle yaşamayı sürdüren biri, bir yalandan ne bekliyordu?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de zekât: toplanan sadakayı kendi ihtiyaçlarına kullanmadı."
+            },
+            {
+              "metin": "Ailesi için de aynı ölçüyü korudu."
+            }
+          ],
+          "soru": "Menfaat için yalan söyleyen biri, kendi ailesine bile sadakayı bu kadar uzak tutar mı?"
+        }
+      ],
+      "kompozisyon": "Eşleri açlık çekerken, kızı el değirmeniyle uğraşırken, gücün zirvesinde… bu tablo 'çıkar için yalan' diyen birine ne söylüyor?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.guc",
+      "dayanak": "S13 (kitap s. 248-254): Medenî ayet 33/28-29 (muhayyerlik); Hz. Aişe rivayetleri (Tirmizi 2471; Buhârî Et'ime 5442, 5374; Müslim Zühd); Armstrong s. 346; Hz. Ömer'in hasır izi ziyareti (Dermenghem, Hazleton); Fatıma ve tesbih (Margoliouth; Kadı Abdülcebbar dn. s. 1030, 1032); zekâtı kullanmama (Margoliouth). 'Kisra/Kayser' sözü Müslim Eşribe/Tefsir rivayetleri çevresinde; tam sıhhati doğrulanmalı."
+    },
+    {
+      "id": "samimiyet.guc",
+      "gizliDugum": "S8",
+      "satirlar": [
+        {
+          "metin": "Belki derdi iktidardı? Mekke'de bunu ona bizzat teklif ettiler."
+        },
+        {
+          "metin": "Kureyş'in önde gelenlerinden biri geldi: 'İstersen servet toplarız, istersen seni başımıza geçiririz.'"
+        },
+        {
+          "metin": "Tek şart vardı: bu davadan vazgeç."
+        },
+        {
+          "metin": "Reddetti.",
+          "vurgu": true
+        },
+        {
+          "metin": "Anlatılanlara göre amcasına, gözyaşları içinde şöyle dedi:"
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Güneşi sağ elime, ayı sol elime koysalar bile bu davadan vazgeçmem.",
+              "kim": "Birçok Batılı tarihçinin naklettiği bir anlatı"
+            }
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama servet ve liderlik masada hazır dururken, bir sahtekâr neden 'hayır' der?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "güç kazandı",
+            "güçlendi",
+            "devlet kurdu",
+            "iktidara geldi",
+            "sonradan güç",
+            "sonradan zengin"
+          ],
+          "yanit": [
+            "Evet, Medine'de bir devlet kurdu ve güçlü oldu. Bunu saklamıyoruz.",
+            "Soru şu: o güç ona ne kazandırdı? Saray yok, kapıcı yok, biriken servet yok, zırh rehinde.",
+            "Güç elinde olduğu hâlde dünyalık toplamadı. Güç, iddiayı kurtarmıyor; daha da zorlaştırıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Yıllar sonra Mekke'yi fethetti."
+            },
+            {
+              "metin": "Kral ilan edilebilirdi; saray yaptırabilirdi."
+            },
+            {
+              "metin": "Mekke'yi başkent yapmadı. Medine'ye geri döndü."
+            }
+          ],
+          "soru": "Hükmetmek isteyen biri, en parlak zaferinde neden başkentini bile değiştirmez?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Teklif edenler ona hakaret edenler değildi; Mekke'nin saygın isimleriydi."
+            },
+            {
+              "metin": "'Hayır' demenin bedelini herkes biliyordu: ezilen yoksullar ve köleler onun yanındaydı."
+            }
+          ],
+          "soru": "Güçlüleri değil de en güçsüzleri yanına alan biri, iktidar için mi çalışıyor?"
+        }
+      ],
+      "kompozisyon": "Servet teklifini, liderlik teklifini reddeden, zaferde başkenti bile değiştirmeyen biri… iktidar hırsı ile bunu nasıl bağdaştırırsın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.uzlasma",
+      "dayanak": "S8 (kitap s. 213-219): Utbe'nin servet/liderlik/tedavi teklifi (Hazleton); 'güneşi sağ elime, ayı sol elime' anlatısı (Dozy, Caetani, Hazleton, Dermenghem, Gibbon, Armstrong, Arnold; sîret kaynaklarından İbn İshak). Rivayetin sıhhat derecesi tartışmalı; ekranda 'anlatı' olarak sunuldu. Fetih sonrası: Hazleton (kral ilan edebilirdi; Medine'ye döndü), s. 245-246."
+    },
+    {
+      "id": "samimiyet.uzlasma",
+      "gizliDugum": "S8",
+      "satirlar": [
+        {
+          "metin": "Teklifler yalnızca servet değildi. Bir de uzlaşma vardı."
+        },
+        {
+          "metin": "Kureyş şunu önerdi: biraz sen bizim ilahlarımıza saygı göster, biz de seninkine."
+        },
+        {
+          "metin": "Karşılığında barış, ticaret, itibar: bütün düşmanlıklar biterdi."
+        },
+        {
+          "metin": "Cevabı, Kur'an'da Kâfirûn suresi olarak kaldı: 'Ben sizin taptıklarınıza tapmam.'",
+          "vurgu": true
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Çevresindekilerin hoşuna gitmek için taviz vermeyi aklından bile geçirmedi.",
+              "kim": "Batılı bir tarihçi"
+            }
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Herkesin gönlünü almanın en kolay yolu uzlaşmaktı. Bir sahtekâr bu kapıyı neden kapatır?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Aynı tavrı Medine'de de sürdürdü."
+            },
+            {
+              "metin": "İsa'nın peygamberliğini ve annesinin temizliğini ilan etti: bu, Yahudilere ağır geldi."
+            },
+            {
+              "metin": "İsa'nın ilahlığını reddetti: bu da Hristiyanlara ağır geldi."
+            }
+          ],
+          "soru": "Gücünü artırmak isteyen biri, iki büyük topluluğu aynı anda karşısına alır mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Mekke'de amcası Ebu Talib'e baskı yaptılar: 'Yeğenini vazgeçir.'"
+            },
+            {
+              "metin": "Amcası zorlandı. O ise gözyaşları içinde aynı cevabı verdi."
+            },
+            {
+              "metin": "Kırk yaşına kadar hiç kimse onu yalanla itham etmemişti."
+            }
+          ],
+          "soru": "Kırk yıl boyunca doğru bilinmiş biri, birden ağlayarak bir yalan üzerinde mi ısrar eder?"
+        }
+      ],
+      "kompozisyon": "Uzlaşma tekliflerini reddeden, hem Mekke'yi hem Medine'yi karşısına alan biri… bu 'siyasi hesap' mı, yoksa gerçekten inanan birinin tavrı mı?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.taif",
+      "dayanak": "S8 (kitap s. 216-219): Armstrong (Kureyş'in çok tanrılı uzlaşma teklifi; 109/1-6), Dermenghem ('taviz vermeyi aklından bile geçirmedi' - kitabın tercümesinden paraphrase, tam metin doğrulanmalı), Medine'de Yahudi/Hristiyan: 5/73, 5/75; kırk yıl: 10/16 + Margoliouth (s. 328'e dayanan atıf)."
+    },
+    {
+      "id": "samimiyet.taif",
+      "gizliDugum": "S14",
+      "satirlar": [
+        {
+          "metin": "Belki beklemeye razıydı: kazanç sonra gelecekti?"
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "sayac",
+            "veri": {
+              "sayi": 13,
+              "etiket": "yıl boyunca ufukta hiçbir kazanç yoktu"
+            }
+          }
+        },
+        {
+          "metin": "Alay, dışlanma, işkence. Sevdiklerini de kaybetti: Hamza, Mus'ab, Cafer."
+        },
+        {
+          "metin": "Destek bulmak için Taif'e gitti. Çocuklar peşine takılıp onu taşladı."
+        },
+        {
+          "metin": "O gün şöyle dua etti: 'Allah'ım, gücümün zayıflığını sana şikâyet ederim.'",
+          "vurgu": true
+        },
+        {
+          "metin": "Bunu yalan olduğunu bilen biri, kimsenin duymayacağı bir yerde neden söylesin?"
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama on üç yıl boyunca yalnızca bedel ödeyen biri, bu yalandan ne bekliyordu?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Uhud'da 'Muhammed öldü' diye bir ses yayıldı."
+            },
+            {
+              "metin": "Dişi kırılmıştı, yaralıydı."
+            },
+            {
+              "metin": "Sonra inen ayet: 'Muhammed ancak bir peygamberdir. Ölürse ya da öldürülürse topuklarınız üstünde mi geri döneceksiniz?'"
+            }
+          ],
+          "soru": "Davayı kendi şahsının üstünde gören bu cümle, kişisel bir çıkar peşindeki zihne nasıl sığar?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kırk yaşına kadar Mekke'de dürüstlüğüyle tanınıyordu."
+            },
+            {
+              "metin": "Hira'da yalnız başına ne yapıyordu? Bir kazancı yoktu."
+            }
+          ],
+          "soru": "Hiçbir yalancı, yalan söylemek için kırk yıl beklemez. Bu neden bu kadar geç başladı?"
+        }
+      ],
+      "kompozisyon": "On üç yıl boyunca hiçbir kazanç görmeyen, sevdiklerini kaybeden, taşlanan biri… bunun yalan olduğunu nasıl öne sürebilirsin?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.sohret",
+      "dayanak": "S14 (kitap s. 254-260): Dermenghem, Hazleton, Caetani, Margoliouth (Mute); Taif duası (Dermenghem); Uhud ve 3/144 (Dermenghem, Hazleton); Ebu Cehil olayı (Dermenghem); 10/16 ve 68/4; Watt s. 260. 'On üç yıl' Mekke dönemi için kitabın kullandığı süre."
+    },
+    {
+      "id": "samimiyet.sohret",
+      "gizliDugum": "S10",
+      "satirlar": [
+        {
+          "metin": "Peki derdi şöhretse? Alkış, saygınlık, kusursuz bir lider imajı?"
+        },
+        {
+          "metin": "O zaman kendi hatalarını duyurmazdı."
+        },
+        {
+          "metin": "Oysa okuduğu metinde onu azarlayan cümleler var."
+        },
+        {
+          "metin": "Gözleri görmeyen bir adam yanına geldi, o yüz çevirdi. Bu olay metne girdi: 'Yüzünü ekşitti ve çevirdi.'"
+        },
+        {
+          "metin": "Bir başkasında: 'Allah seni affetsin, onlara neden izin verdin?'"
+        },
+        {
+          "metin": "Bir diğerinde: 'Neredeyse onlara biraz meyledecektin; o zaman sana kat kat azap tattırırdık.'",
+          "vurgu": true
+        },
+        {
+          "metin": "Bu cümleleri kendisi okudu, ezberletti, her gün tekrar ettirdi."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama imajını parlatmak isteyen biri, kendisini azarlayan cümleleri neden herkese okutur?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "manevra",
+            "taktik",
+            "güven kazanmak",
+            "dürüst görünmek",
+            "siyasi"
+          ],
+          "yanit": [
+            "'Güven kazanmak için küçük bir kusur itiraf eder' diyebilirsin.",
+            "Ama bu uyarıların çoğunun siyasi hiçbir işlevi yok: bir görmeyen adama yüz çevirmek, bir iç geçirme gibi.",
+            "Ağır olanlar ise doğrudan zarar: 'Neredeyse meyledecektin, kat kat azap' diyen bir lider, kendi halkına neden bunu okutsun?"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir örnek daha. Halkı iman etmeyince çok üzülürdü."
+            },
+            {
+              "metin": "Ayet inip şunu söyledi: 'Yüz çevirmeleri sana ağır geldiyse… sakın cahillerden olma.'"
+            },
+            {
+              "metin": "Bu üzüntünün hiçbir siyasi faydası yoktu."
+            }
+          ],
+          "soru": "Masa başında yazılan bir metin, yazarının iç geçirmesine bile böyle bir uyarı koyar mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Daha hassas bir örnek: Peygamber'in içinde sakladığı bir şeyi ayet ortaya çıkarır."
+            },
+            {
+              "metin": "Ayet onu savunmaz; 'insanlardan çekiniyordun, oysa Allah'tan çekinmen daha uygundu' der."
+            },
+            {
+              "metin": "Bu olay, ona yöneltilen en kaba iddiaların dayanağı yapıldı. Ama ayetin tonu savunma değil, uyarı."
+            }
+          ],
+          "soru": "Bir sahtekâr, kendi yazdığı metne bu tonu neden verir?"
+        }
+      ],
+      "kompozisyon": "Kendini azarlayan, uyaran, açığa çıkaran cümleleri bile titizlikle okutan biri… şöhret düşkünü bir sahtekâr böyle yapar mı?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.tutulma",
+      "dayanak": "S10 (kitap s. 231-241) 'ikinci irade': Abese 80/1-12 (Caetani), 9/43, 17/73-75, 6/35, 18/6, 6/52, 18/28; 33/37 (kitap dn. 519: ismet inancı korunur, uyarılar yalnızca ikinci iradeye işaret etmek için anılır; hassas, ölçülü anlatıldı). Meal ifadeleri serbest özetlemedir; ekranda aynen alıntı yapılacaksa meal seçilip doğrulanmalı."
+    },
+    {
+      "id": "samimiyet.tutulma",
+      "gizliDugum": "S9",
+      "satirlar": [
+        {
+          "metin": "Şimdi dönüm noktası."
+        },
+        {
+          "metin": "Küçük oğlu İbrahim vefat etti."
+        },
+        {
+          "metin": "Tam o gün, güneş tutuldu.",
+          "vurgu": true
+        },
+        {
+          "metin": "İnsanlar fısıldaştı: 'Güneş, İbrahim'in ölümüne tutuldu.'"
+        },
+        {
+          "metin": "Hüzünlü bir peygamber, sarsılmış bir topluluk, gökyüzünde bir alamet. Bundan güçlü bir fırsat olamaz."
+        },
+        {
+          "metin": "O kalktı ve şöyle dedi: 'Güneş ve ay Allah'ın iki ayetidir. Kimsenin ölümü ya da doğumu için tutulmaz.'"
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi oğlunun ölümünde gökyüzünün bile ağladığını söyleyen kalabalığı neden düzeltir?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "uydurma",
+            "sonradan eklenmiş",
+            "hadis",
+            "sonradan uydurulmuş"
+          ],
+          "yanit": [
+            "Bu söz, tüm hadis kitaplarında 'güneş tutulması namazı' başlığı altında geçer; peygamberlik delilleri arasında değil.",
+            "Delil olsun diye uydurulsaydı, delil sayılan yere konurdu.",
+            "Üstelik astronomik hesaplarla tutulmanın tarihi de bulunuyor: 27 Ocak 632."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "gösteri",
+            "oynadı",
+            "hesaplı",
+            "politika",
+            "dürüst görünmek"
+          ],
+          "yanit": [
+            "'Dürüst görünmek için yaptı' diyebilirsin.",
+            "Ama bu davranış ona hiçbir şey kazandırmadı: en güçlü alameti, en hüzünlü anında elinden bıraktı.",
+            "Kalabalık ona bir mucize veriyordu; o, geri çevirdi."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Hicret yolunda bir mağaraya saklandılar. Dışarıda onları arayanlar vardı."
+            },
+            {
+              "metin": "Ebubekir korktu. Peygamber sakindi: 'Üzülme, Allah bizimle.'"
+            },
+            {
+              "metin": "Ebubekir ona inanmış biriydi; suç ortağı değildi."
+            }
+          ],
+          "soru": "Yalanını bilen biri, tek tanığının önünde bile neden rolünü bırakmaz?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Gökte bir bulut görünce yüzünün rengi değişirdi."
+            },
+            {
+              "metin": "'Ad kavmi gibi azap olmasın' diye ürperirdi."
+            },
+            {
+              "metin": "Yağmur başlayınca rahatlardı."
+            }
+          ],
+          "soru": "Bulutun azap olabileceğinden gerçekten korkan biri, o inancı uydurmuş olabilir mi?"
+        }
+      ],
+      "kompozisyon": "Oğlunun ölümünde bile alametten yararlanmayan, bunu açıkça düzelten biri… sahtekârlık bu davranışı nasıl açıklar?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.kadin",
+      "dayanak": "S9a (kitap s. 220-223): Buhârî Küsûf 1, 3, 8; Müslim Küsûf 10; Apaydın, Siyer Kronolojisi (27 Ocak 632, hicri 10); Dermenghem 'sadık biri hakikati aleyhine de olsa söyler'; yazar bunu 'tek başına yeter' delili sayar; dn. 487 (hadis 'güneş tutulması namazı' bölümünde). Mağara: Bodley, Dermenghem, Hazleton, Margoliouth, 9/40 (s. 223-224). İkinci ekOrnek Ebubekir/3/144 hadisesi kitapta s. 256 civarında (S14) geçer; bu beat'te kullanılışı kitap dışı yerleşim, 'ek' işaretli ve doğrulanacak."
+    },
+    {
+      "id": "samimiyet.kadin",
+      "gizliDugum": "S12",
+      "satirlar": [
+        {
+          "metin": "Belki derdi kadındı. Eski Batı anlatıları tam bunu söylerdi."
+        },
+        {
+          "metin": "Orta Çağ'ın Avrupa'sında 'şehvet düşkünü sahte peygamber' anlatısı yaygındı."
+        },
+        {
+          "metin": "On dokuzuncu yüzyıla kadar bu görüş itirazsız dolaştı; sonra modern tarihçiler bunu bıraktı."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Aleyhindeki yaygın temelsiz iddialardan biri, şehvet uğruna bile bile sahte bir öğreti savunduğudur.",
+              "kim": "Hristiyan bir oryantalist"
+            }
+          }
+        },
+        {
+          "metin": "Dürüst olalım: Medine'de birden çok eşi oldu. Bunu geçiştirmiyoruz."
+        },
+        {
+          "metin": "Ama aynı eşler onunla birlikte açlık çekti. Onlara, istiyorlarsa ayrılabilecekleri açıkça söylendi."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian şehvete kapılmış bir sahtekârdı. Ama bu hayat, o iddianın bekleyeceği hayata benziyor mu?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "güç kazandı",
+            "güçlendi",
+            "devlet kurdu",
+            "iktidara geldi",
+            "sonradan güç",
+            "sonradan zengin"
+          ],
+          "yanit": [
+            "Evet, Medine'de bir devlet kurdu ve güçlü oldu. Bunu saklamıyoruz.",
+            "Soru şu: o güç ona ne kazandırdı? Saray yok, kapıcı yok, biriken servet yok, zırh rehinde.",
+            "Güç elinde olduğu hâlde dünyalık toplamadı. Güç, iddiayı kurtarmıyor; daha da zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "evlendi",
+            "çok eş",
+            "birden çok",
+            "evlilikler",
+            "siyasi evlilik"
+          ],
+          "yanit": [
+            "Evet, birden çok evliliği oldu ve tarihçiler bunların gerekçelerini tartışır; bunu burada hükme bağlamıyoruz.",
+            "Ölçütümüz şu: bu hayatı yaşayan biri, şehvet ya da konfor peşinde bir sahtekâr profiline uyuyor mu?",
+            "Evleri hurma lifinden, mutfaklarında günlerce ateş yanmayan bir hayat bunu açıklamıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Gençliğinin ve olgunluk yıllarının yaklaşık yirmi beş yılını tek bir eşle, Hatice ile geçirdi."
+            },
+            {
+              "metin": "Hatice vefat edene kadar başka evlilik yapmadı."
+            }
+          ],
+          "soru": "Şehvet peşindeki biri, hayatının en canlı yıllarını tek eşle mi geçirir?",
+          "ek": true
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Mekke'nin büyükleri ona, istediği kadınla evlendirmeyi bile teklif ettiler; bu rivayet siyer kaynaklarında geçer."
+            },
+            {
+              "metin": "O bu teklifi, diğerleri gibi, reddetti."
+            }
+          ],
+          "soru": "Hazır konan teklifi reddeden birinin derdi kadın mıydı?",
+          "ek": true
+        }
+      ],
+      "kompozisyon": "Hatice'yle yirmi beş yıl, sonra bu kadar sade bir hayat… kadın düşkünü bir sahtekâr tablosuna uyuyor mu?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.kabile",
+      "dayanak": "S12-S14 şüphe indeksi: 'Kadın/servet/iktidar düşkünü' (kitap s. 243-248, Watt s. 260: şehvet için bile bile sahtekârlık 'temelsiz iddia'; Orta Çağ Katolik papaz anlatısı, Carlyle'e kadar; Zeyd-Zeyneb 33/37 kaba yorumun sözde delili). Kitap dışı eklemeler (ek:true, onaya sunuldu): (1) Hatice vefatına kadar tek eşlilik (İbn Sa'd, Tabakât; İbn Hişam, Sîre); (2) Utbe/Kureyş teklifinde kadın seçeneği (İbn Hişam, Sîre). Hassas konu, ölçülü anlatım; çok evlilik meselesi dürüstçe kabul edildi."
+    },
+    {
+      "id": "samimiyet.kabile",
+      "gizliDugum": "S6",
+      "satirlar": [
+        {
+          "metin": "Belki derdi kabileydi: soyunu, halkını yükseltmek."
+        },
+        {
+          "metin": "Cahiliye Arabı için soy, atalar ve kan bağı her şeydi."
+        },
+        {
+          "metin": "Kolay yol belliydi: 'Atalarımız da doğru yoldaydı' demek. Hem düşman kazanmaz hem destek toplar."
+        },
+        {
+          "metin": "O ise şunu dedi: 'Ya atalarınız hiçbir şey anlamayan, doğru yolu bulamamış kimselerse?'",
+          "vurgu": true
+        },
+        {
+          "metin": "O toplumda bu, bir tür siyasi intihardı. Kabile korumasını yitiren birinin öldürülmesi cezasız kalırdı."
+        },
+        {
+          "metin": "Yeni düzende eski bir kölenin oğlu Usame, ordunun başına geçirildi."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama kabilesini yükseltmek isteyen biri, kabileciliğin tam kalbine neden saldırır?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "dini ihtiyaç",
+            "zaten bekleniyordu",
+            "talep",
+            "boşluk"
+          ],
+          "yanit": [
+            "'Arabistan'da zaten bir ihtiyaç vardı' diyebilirsin.",
+            "Batılı bir tarihçi tersini söyler: Arabistan'da bir dinî hareket yoktu; Arapların İslam'a ihtiyaçları olmadığı gibi istedikleri de yoktu.",
+            "Üstelik o, hem atalar kültüne hem putperest dine aynı anda saldırdı: iki manevi bağın ikisine birden."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Ebu Zer, Bilal'e kızdı ve 'Ey Habeşli kadının oğlu!' dedi."
+            },
+            {
+              "metin": "Peygamber'in cevabı: 'Sende hâlâ cahiliye var.'"
+            },
+            {
+              "metin": "Soy ve ırk üstünlüğünün en küçük belirtisine bile böyle karşı çıktı."
+            }
+          ],
+          "soru": "Kabile gücüyle büyümek isteyen biri, kendi yandaşını ırk yüzünden neden azarlar?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "İstersen en zor örneği de anlatayım; konu bana da ağır. Ölçülü anlatıyorum."
+            },
+            {
+              "metin": "Amcası Ebu Talib ölürken, onun için bağışlanma dilemek istedi. İlgili ayet buna izin vermedi."
+            },
+            {
+              "metin": "Kendi atalarının durumunu 'cennettelik' diye yumuşatmak hiçbir bedel getirmezdi; yumuşatmadı."
+            },
+            {
+              "metin": "Bunun bedelini de ödedi: amcasından sonra himaye kalktı; saldırılar arttı."
+            }
+          ],
+          "soru": "Hiçbir bedeli olmayacak bir yalan varken, bedeli ağır bir sözü seçen biri sahtekâr olabilir mi?"
+        }
+      ],
+      "kompozisyon": "Atalara, soya, kabile bağlarına meydan okuyan, bunun bedelini en yakınlarının hâlinden ödeyen biri… 'kabile çıkarı' bunu açıklar mı?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.yuk",
+      "dayanak": "S6 + S7 (kitap s. 185-213): Lapidus, Wellhausen, Goldziher, Izutsu, Armstrong (aile bağlarını parçalıyordu); 5/104, 31/21, 7/28, 43/22-25; Ebu Zer-Bilal (Buhârî İman 22; Müslim Eymân 40); Usame b. Zeyd (Rodinson); Ebu Talib ve anne-baba rivayetleri (Buhârî 1360, Müslim İman 40, 357-363, Cenâiz); Ebu Leheb korumayı kaldırdı (Dozy, Rodinson, Hazleton, Watt). Kitap bu rivayetleri anlatırken rahatsızlığını belirtir: 'yalnızca muhatap isterse' kuralı (metod-haritasi §4) gereği ekOrnek olarak, ölçülü dille. Caetani: 'Arabistan'da hiçbir hareket-i diniye yoktu...' (tam metin doğrulanacak)."
+    },
+    {
+      "id": "samimiyet.yuk",
+      "gizliDugum": "S2",
+      "satirlar": [
+        {
+          "metin": "Şimdi başka bir yönden bakalım: getirdiği yük."
+        },
+        {
+          "metin": "Sahte peygamberlerin ilk vaadi hep aynıdır: yükü hafiflet."
+        },
+        {
+          "metin": "Müseylime bir kabileye namazı kısaltma izni verdi. Tuleyha secdeyi kaldırdı."
+        },
+        {
+          "metin": "Muhammed ise içkiyi ve kumarı yasakladı. İçkiyi şiirle öven bir toplumda."
+        },
+        {
+          "metin": "Namazı farz kıldı. Yeni Müslümanlar, soylu Kureyşlilerin gözü önünde yere kapanamadı; vadilerde gizlice kıldılar."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Sahte peygamberler",
+                "maddeler": [
+                  "Namazı hafifletti",
+                  "Secdeyi kaldırdı",
+                  "Yükü azalttı"
+                ]
+              },
+              "sag": {
+                "baslik": "Muhammed",
+                "maddeler": [
+                  "İçkiyi yasakladı",
+                  "Namazı farz kıldı",
+                  "Yükü ağırlaştırdı"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, insanları çekmek varken neden en çok tepki çeken yükleri getirir?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "disiplin",
+            "ordu",
+            "kontrol",
+            "itaat",
+            "strateji",
+            "siyasi",
+            "plan"
+          ],
+          "yanit": [
+            "'Disiplinli bir toplum için yük koydu' diyebilirsin.",
+            "Ama yük koymanın bedeli, yeni katılımı engellemekti: içki yasağı yüzünden Hristiyanlığa geçenler bile oldu.",
+            "Kısa vadede kazandırmayan bir yük, strateji değil bir tercihtir; sormamız gereken, o tercihi neyin yaptırdığıdır."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Sakif heyeti geldi: 'Müslüman olalım, ama namazdan muaf tutul.'"
+            },
+            {
+              "metin": "Güçlü bir kabile, kendi isteğiyle gelmişti. Peygamber bu şartı kabul etmedi."
+            }
+          ],
+          "soru": "Güçlü bir kabile kapıdayken tek şartı reddetmek, hangi siyasi hesapla örtüşür?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bu yüklerin hepsi kolay değil: sabah erken kalkış, kışın abdest, uzun yaz günlerinde oruç."
+            },
+            {
+              "metin": "Batılı bir tarihçi bile şöyle der: onun dini kolay bir din değildi."
+            }
+          ],
+          "soru": "İnsanları kolay yoldan çekmek varken, zor yolu seçen bir sahtekâr olur mu?"
+        }
+      ],
+      "kompozisyon": "İçkiyi yasaklayan, namazı farz kılan, sakif heyetini reddeden biri… 'insanları kendine çekmek için' demek nasıl bir açıklama?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.gece",
+      "dayanak": "S2 (kitap s. 159-172): Arnold, Dermenghem, Dozy, Goldziher, Hitti (içki/fuhuş/oruç, 160-162); Goldziher, Armstrong, Watt (namaz direnişi, Sakif/Hevazin, 162-167); Müseylime ikindiyi kaldırdı/Temim izni (Goldziher, Dozy); Tuleyha secdeyi yasakladı (Kister); Rebia b. Ümeyye (Goldziher); Carlyle/Arnold ('kolay bir din değil', s. 169)."
+    },
+    {
+      "id": "samimiyet.gece",
+      "gizliDugum": "S2",
+      "satirlar": [
+        {
+          "metin": "Bu yükleri başkalarına yükleyip kendisi yapmayan biri olabilir miydi?"
+        },
+        {
+          "metin": "Hayır. İlk ve en çok kendisi yaptı."
+        },
+        {
+          "metin": "Gece namazı yalnızca ona farz kılınmıştı."
+        },
+        {
+          "metin": "O kadar uzun ayakta kalırdı ki, arkasındaki İbn Mesud 'oturmayı düşündüm' der."
+        },
+        {
+          "metin": "Orucu bile sahabeye yasakladığı kadar kendine yükledi: aralıksız oruç yalnız ona mahsus bir özellikti."
+        },
+        {
+          "metin": "Hepsini, hiç kimsenin izlemediği gecenin içinde.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kimse görmezken bile her gece saatlerce ayakta durup bir yalana mı secde eder?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "gösteriş",
+            "imaj",
+            "propaganda",
+            "rol",
+            "tiyatro"
+          ],
+          "yanit": [
+            "Gösteriş için olsaydı kalabalık önünde olurdu.",
+            "Oysa en zor ibadetler gecenin içinde, ev halkının görebildiği yerde.",
+            "Yıllarca süren, kimsenin izlemediği bir tiyatro kimin işine yarar?"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "İstersen bir deney yap."
+            },
+            {
+              "metin": "Bir ay boyunca her gece üçte kalk, dört rekât namaz kıl, sabaha kadar bahane bulma."
+            },
+            {
+              "metin": "Çoğumuz birkaç gecede vazgeçeriz."
+            },
+            {
+              "metin": "O ise yalnız kendine farz kılınmış bir yükü yıllarca taşıdı."
+            }
+          ],
+          "soru": "Bu kadar yükü, inanmadığı bir şey için taşıması mümkün mü?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Sabah namazından sonra sağ yanına yatıp tesbih ederdi."
+            },
+            {
+              "metin": "Bunu eve yalnızca ailesi görürdü; kalabalığa hiçbir faydası yoktu."
+            }
+          ],
+          "soru": "Seyircisiz bir rolü yıllarca oynayan biri, rolünü kime oynuyor?"
+        }
+      ],
+      "kompozisyon": "Gece namazını yalnız kendine farz kılan, yıllarca kimsenin görmediği yerde sürdüren biri… yalan bilen birinin davranışı mı bu?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.deger",
+      "dayanak": "S2e (kitap s. 170-172): vısâl orucu (Buhârî Savm 20; Müslim Siyam 55); gece namazı 73. sure ve 17/79 (yalnız ona farz kılınmış, kitabın okuması); İbn Mes'ud 'oturmayı düşündüm' (Buhârî Teheccüd 19; Müslim Müsâfirîn 204). Not: kitaptaki '17/79, hicri 5. yıl' ifadesi doğrulanacak, ekranda tarih verilmedi. Sabah namazı sonrası yatış: kitap s. 172."
+    },
+    {
+      "id": "samimiyet.deger",
+      "gizliDugum": "S3",
+      "satirlar": [
+        {
+          "metin": "Bir toplum önderi, toplumun değerlerine durduk yere dokunmaz."
+        },
+        {
+          "metin": "Cahiliyede af, korkaklıktı. Kan davası ise onurdu."
+        },
+        {
+          "metin": "Muhammed tam tersini öğretti: kötülüğe karşılığı en güzeliyle ver."
+        },
+        {
+          "metin": "Uhud'da amcası Hamza'ya yapılanlar, bir insanın kaldırabileceğinin ötesindeydi."
+        },
+        {
+          "metin": "Mekke'yi fethettiğinde, güç elindeyken, bunu yapanları affetti.",
+          "vurgu": true
+        },
+        {
+          "metin": "O toplumda bu, kendi yandaşlarının gözünde zayıflık sayılırdı."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian siyasi bir önderdi. Ama gücü eline geçince amcasının katilini affeden biri, hangi hesapla bunu yapar?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "siyaseten",
+            "politik",
+            "yumuşaklık",
+            "siyasi af"
+          ],
+          "yanit": [
+            "Siyaseten af beklenir diyebilirsin.",
+            "Ama o toplumda af korkaklık sayılıyordu: kendi destekçilerinin nazarında zayıflık göstermek demekti.",
+            "Üstelik affedilenler sıradan düşmanlar değildi; en yakınına yapılanın failleriydi."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Kızı Zeynep, Mekke'den göç ederken saldırıya uğradı; çocuğunu düşürdü, sonra vefat etti."
+            },
+            {
+              "metin": "Buna sebep olan Hebbâr, sonradan Müslüman olduğunda affedildi."
+            }
+          ],
+          "soru": "Kızının ölümüne sebep olanı affetmek hangi çıkara hizmet eder?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Cömertlik de aynı: cahiliyede cömertlik, gösterişli israf ve soyun övünmesiydi."
+            },
+            {
+              "metin": "Veda Haccı'nda Sa'd malının üçte ikisini bağışlamak istedi; Peygamber 'üçte biri bile çok' dedi."
+            },
+            {
+              "metin": "Mirasçılarını yoksul bırakmamasını öğütledi."
+            }
+          ],
+          "soru": "Gösterişi yücelten bir toplumun değerini kıran biri, halkın gönlünü hoş etmeyi mi amaçlar?"
+        }
+      ],
+      "kompozisyon": "Gücü eline geçtiğinde en yakınına yapılanı affeden, cömertliği israftan ayıran biri… toplumun alkışını mı arıyordu?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.etkilenme",
+      "dayanak": "S3-S5 (kitap s. 173-185): Goldziher, Rodinson (cahiliye değerleri; kan davası), Izutsu (kerîm/cömertlik 49/13, 17/26-27), Hamza/Hint/Vahşî (Dermenghem, Caetani, Hazleton, Rodinson, Watt, 180-182; Furkan 25/71, Nisa 4/116, Zümer 39/53), Zeynep/Hebbâr (Watt, Bodley, 183-184), Sa'd b. Ebi Vakkas (Buhârî Da'avât 43). Hamza'ya yapılanlar yumuşak dille anlatıldı."
+    },
+    {
+      "id": "samimiyet.etkilenme",
+      "gizliDugum": "S9",
+      "satirlar": [
+        {
+          "metin": "Bir de şuna bak: ölüm döşeğinde ne söylüyordu?"
+        },
+        {
+          "metin": "Hastayken halkın önüne çıktı: 'Sırtım ortada. Kimin hakkı varsa gelsin, alsın.'"
+        },
+        {
+          "metin": "Bilal'e şöyle derdi: 'Ezan oku, içimizi ferahlat.'"
+        },
+        {
+          "metin": "Son sözlerinden biri: 'Allah'ım, en yüce dost.'",
+          "vurgu": true
+        },
+        {
+          "metin": "Bunlar, yalanını bilen birinin son ânı gibi mi duruyor?"
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama ahireti uydurmuş biri, ölüm döşeğinde hesabı neden bu kadar ciddiye alır?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "İlk günlerde en yakınındaki Hatice, hiçbir mucize görmeden ona inandı."
+            },
+            {
+              "metin": "Onu kırk yıl boyunca tanımıştı."
+            }
+          ],
+          "soru": "Kırk yıl boyunca tanıdığı kocasında yalancı bir ruh görmeyen biri, neyi tanımıştı?"
+        }
+      ],
+      "kompozisyon": "Ölüm döşeğinde hakkı olanı çağıran, bulutta bile hesabı düşünen biri… bu, rol yapan birinin hâli mi?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.vahiy",
+      "dayanak": "S9b (kitap s. 223-226): Dermenghem (hastalıkta 'sırtım ortada'), Schimmel (Bilal'e ezan), Dermenghem ('en yüce dost'); rüzgâr ve bulut: Hz. Aişe rivayeti, 46/24, Müslim İstiska 15, Buhârî; Hatice: kitabın 'haber değerlendirmesi' vurgusu (s. 227)."
+    },
+    {
+      "id": "samimiyet.vahiy",
+      "gizliDugum": "S9",
+      "satirlar": [
+        {
+          "metin": "Peki ilk an? Yalanı planlayan biri o anı nasıl yaşar?"
+        },
+        {
+          "metin": "Hira'dan zaferle inmedi. Titreyerek eve koştu: 'Beni örtün!'"
+        },
+        {
+          "metin": "'Nefsim için korktum' dedi."
+        },
+        {
+          "metin": "Planlı bir yalancı bu sahneyi kendi lehine yazardı: nur, melek korosu, müjde."
+        },
+        {
+          "metin": "Oysa ilk beş ayet 'oku' ve 'öğretmek' üzerine: peygamberliğe dair tek kelime yok.",
+          "vurgu": true
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Hira'da ne olduğu bir yana, Muhammed'in katışıksız insani tepkisi en güçlü tarihî dayanaktır.",
+              "kim": "Batılı bir tarihçi"
+            }
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi 'büyük günü'nü neden korku ve şüpheyle anlatır?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hatice",
+            "mucize gördü",
+            "hatice mucize"
+          ],
+          "yanit": [
+            "Hatice mucize görmedi.",
+            "Kocasının kırk yıllık dürüstlüğünü tanıyordu; getirdiği haberi o dürüstlüğe göre değerlendirdi.",
+            "Bu, bir haber değerlendirmesiydi; bir gösteriye tanıklık değil."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "yanıldı",
+            "halüsinasyon",
+            "hasta",
+            "delirdi",
+            "epilepsi",
+            "kendi kendine",
+            "sanrı"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli",
+            "supheTuru": "hasta-yanildi"
+          }
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de ilk ayetlerin içeriği: Dozy'a göre bu metinde peygamberliği onaylayan bir işaret yok."
+            },
+            {
+              "metin": "Planlı bir yalancı ilk manifestosunda planladığı öncelikleri söylerdi."
+            }
+          ],
+          "soru": "Planı olmayan bir giriş, planlı bir yalanın girişi gibi durur mu?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Üstelik Kur'an'ı kendi normal bilincinden ayrı tuttu."
+            },
+            {
+              "metin": "Bir tarihçiye göre bu ayrım ona hayati bir şeydi: yoksa görevini sürdüremezdi."
+            }
+          ],
+          "soru": "Kendi sözünü vahiyden ayıran biri, bilerek karıştırmaz mı?"
+        }
+      ],
+      "kompozisyon": "Korkuyla eve koşan, 'beni örtün' diyen, ilk ayetlerinde bir iddia bile taşımayan biri… 'planlı yalan' bunu nasıl açıklar?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.ikinci",
+      "dayanak": "S9c (kitap s. 227-230): Buhârî Bed'ü'l-Vahy, Tefsir, Ta'bir; Müslim İman 252; Tirmizi; Hazleton ('katışıksız insani tepki en güçlü tarihî sav', tam metin doğrulanmalı); Armstrong, Hodgson; Dozy (ilk ayetlerde peygamberlik onayı yok); Watt (Kur'an'ı normal bilinçten ayırdı, s. 226). Hastalık/yanılma itirazı fetanet dalına yönlendirilir."
+    },
+    {
+      "id": "samimiyet.ikinci",
+      "gizliDugum": "S10",
+      "satirlar": [
+        {
+          "metin": "Bir de okuduğu metnin sesi var. Kime konuşuyor?"
+        },
+        {
+          "metin": "Kimi zaman onun adına değil, ona konuşuyor."
+        },
+        {
+          "metin": "Vahiy bir süre gecikti. Mekkeliler alay etti: 'Rabbi onu bıraktı.'"
+        },
+        {
+          "metin": "O zaman şu ayet indi: 'Rabbin seni bırakmadı, sana darılmadı.'"
+        },
+        {
+          "metin": "Hemen ardından bir emir: 'Yetimi ezme, isteyeni azarlama.'",
+          "vurgu": true
+        },
+        {
+          "metin": "Kendi sesi olsaydı, kendine teselli yazıp hemen ardından kendine ödev verir miydi?"
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi yazdığı metinde kendisini hem uyaran hem teselli eden ayrı bir ses neden kurar?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "sonradan eklendi",
+            "ayrı ses",
+            "kurgu",
+            "yazar kendi"
+          ],
+          "yanit": [
+            "Kendi yazdığı metne 'ikinci bir ses' koymak edebî bir hile olabilir diye düşünebilirsin.",
+            "Ama bu ses, siyasi bir amaca hizmet etmiyor: kendi isteğini bile yasaklıyor, kendi üzüntüsüne bile uyarı veriyor.",
+            "Böyle bir hile kimi memnun eder?"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Başka peygamberlerin de yalanlandığı hatırlatılır: 'Ulu peygamberler gibi sabret.'"
+            },
+            {
+              "metin": "'Balık sahibi gibi olma' denir: üzüntüden doğan öfke bile yönlendirilir."
+            }
+          ],
+          "soru": "Kendi kendine yazan biri, kendi moral konuşmasına neden 'sabret' emri ekler?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir tarihçi şöyle der: Muhammed, Kur'an'ı kendi bilincinden ayırt edebildiğine ikna olmuştu."
+            },
+            {
+              "metin": "Bir başkası: vahyi, kişisel düşüncelerinden büyük bir dikkatle ayırdı."
+            }
+          ],
+          "soru": "Bunu hesaplı bir yalancıdan beklemek mümkün mü?"
+        }
+      ],
+      "kompozisyon": "Kendi sesinden ayrı bir sese, teselliye ve emre sahip bir metin… kendi kendine yazan biri bunu neden yapar?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.kiyamet",
+      "dayanak": "S10 (kitap s. 236-241): Hazleton ('onun farkında olmadığı soruların cevabını veriyor'), Dermenghem ('tescil eden bir ses'; vahyi kişisel düşünceden ayırma), Watt; 93 Duhâ, 94 İnşirah, 73/10, 27/78-81, 15/97, 40/55, 16/127, 10/65, 52/48, 35/4, 6/33-34, 46/35, 68/48. Yazar bu delilin kendisini ateistken etkilediğini belirtir (s. 231, 235)."
+    },
+    {
+      "id": "samimiyet.kiyamet",
+      "gizliDugum": "S11",
+      "satirlar": [
+        {
+          "metin": "En son, küçük ama çok şey söyleyen bir an."
+        },
+        {
+          "metin": "75. sure kıyameti anlatır: ölüm, hesap, korku. Anlatı hızla yükselir."
+        },
+        {
+          "metin": "Tam ortasında bir cümle girer: 'Vahyi çarçabuk almak için dilini kımıldatma.'"
+        },
+        {
+          "metin": "'Onu toplamak ve okutmak bize aittir. Biz onu okuduğumuzda sen okunuşuna uy. Sonra açıklamak da bize aittir.'"
+        },
+        {
+          "metin": "Ardından sure kaldığı yerden devam eder."
+        },
+        {
+          "metin": "Hangi şair şiirini ortasından böyle keser?",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian bir sahtekârdı. Ama masa başında yazılmış bir metnin ortasına, yazan kişi kendini düzelten bir kesinti neden koyar?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "sonradan eklenmiş",
+            "eklenti",
+            "araya",
+            "sonradan eklendi"
+          ],
+          "yanit": [
+            "'Bu cümle sonradan eklenmiş olabilir' diyebilirsin.",
+            "O zaman araya ekleyen kişi, Peygamber'i yönlendiren ve onun iradesine karşı duran bir ses kurmuş olurdu.",
+            "Böyle bir eklemenin kime faydası olurdu?"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bu bir istisna değil. Kur'an'ın Peygamber'e hitabı genelde üç parçadan oluşur: uyarı, teselli, emir."
+            },
+            {
+              "metin": "Ona yönelik cümlelerin hiçbirinde 'sen harikasın' tonu yok."
+            }
+          ],
+          "soru": "Kendi iddiasını destekleyen bir metin, kendine bu kadar az methiye eder mi?"
+        }
+      ],
+      "kompozisyon": "Heyecanlı bir anlatının ortasında kendini susturan bir ses… bunu bile bile yazan biri neden böyle yapar?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.kapanis",
+      "dayanak": "S11 (kitap s. 241-243): Kıyâme 75/15-20; kitabın önerisi: hafızdan Arapça tilavet + eşzamanlı Türkçe meal dinletmek (ses desteği sonraki aşama). 'Methiye' ekOrneği S10 genel gözleminin özetidir (s. 241: uyarı-teselli-emir üslubu)."
+    },
+    {
+      "id": "samimiyet.kutsalyalan",
+      "gizliDugum": "S1",
+      "satirlar": [
+        {
+          "metin": "Bir ihtimal daha: bile bile söylenmiş ama iyi niyetli bir yalan."
+        },
+        {
+          "metin": "Yani halkı daha iyiye götürmek için bir melek hikâyesi uydurmak."
+        },
+        {
+          "metin": "Bu ihtimal ilk bakışta insani görünür. Ama iki şeyi birlikte taşıyamaz."
+        },
+        {
+          "metin": "'İyilik için yalan' diyen, yalanı yönetmek ister: işine gelince kullanır, gelmeyince susar."
+        },
+        {
+          "metin": "Oysa ortada yönetilen hiçbir şey yok: kendini azarlayan ayetler, oğlunun ölümünde reddettiği mucize, ağır yükler.",
+          "vurgu": true
+        },
+        {
+          "metin": "Yalan, kendi yalancısını bu kadar zora sokmaz."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian iyi niyetli bir yalandı. Ama halk için uydurulan bir yalan, neden yalancıyı bu kadar zora sokan şeylerle dolu?",
+        "cipler": [
+          "Haklısın, açıklaması zor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın",
+            "mantıklı",
+            "ikna oldum",
+            "katılıyorum",
+            "açıklaması zor",
+            "kabul ediyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "bruno",
+            "diyojen",
+            "samimi olmak",
+            "fedakar",
+            "fedakâr"
+          ],
+          "yanit": [
+            "Haklısın: samimiyet tek başına peygamberlik göstermez. Bruno da, Diyojen de samimiydi.",
+            "Ama onlar olağanüstü bir olayın nakilcisi değildi, bir teoriye bağlıydı, peygamberlik iddiası yoktu.",
+            "Burada konuştuğumuz tek şey şu: bilerek yalan söyleyip söylemediği."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerçekten inandı",
+            "inandığı için",
+            "samimi inanç",
+            "kendi inandı"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli",
+            "supheTuru": "hasta-yanildi"
+          }
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "strateji",
+            "siyasi deha",
+            "zeki",
+            "dâhi",
+            "deha",
+            "kurnaz",
+            "plan"
+          ],
+          "yanit": [
+            "Haklısın, zeki bir önder olduğunu söyleyen çok tarihçi var.",
+            "Ama zeki bir strateji kolay yolu seçer: yükü hafifletir, atalara dokunmaz, uzlaşır.",
+            "Burada ise her seferinde bedeli en yüksek yol seçilmiş. Zekâ bunu açıklamıyor, tersine zorlaştırıyor."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rivayet",
+            "sonradan uydurulmuş",
+            "nesiller",
+            "sonraki nesil",
+            "anlatmış",
+            "uydurma"
+          ],
+          "yanit": [
+            "Haklı bir soru: bunları bize sonraki nesiller aktardı.",
+            "Ama sonradan hikâye yazanlar kahramanı parlatır: bir saray, bir mucize, bir zafer masalı eklerler.",
+            "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
+            "Bunları kimse kahramanı parlatmak için uydurmaz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "İyi niyetli bir yalancı, davasının yükünü hafifletir; çünkü amacı insanları ikna etmektir."
+            },
+            {
+              "metin": "Oysa bu metin zorlayıcı emirlerle dolu: oruç, namaz, içki yasağı."
+            }
+          ],
+          "soru": "İnsanları ikna etmek isteyen iyi niyetli biri, neden en zorlayıcı emirleri seçer?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kırk yıl boyunca kimse onu yalanla itham etmemişti. 'Emin' diye anılırdı."
+            },
+            {
+              "metin": "Sonra aynı insan, birdenbire en büyük yalana mı girişti?"
+            }
+          ],
+          "soru": "Yalanla kırk yıl sınanmamış birinin, yalan için ömrünün sonunu ve gücünü harcaması mantıklı mı?"
+        }
+      ],
+      "kompozisyon": "İyi niyetli bile olsa, bir yalanın bu kadar kendi aleyhine işlediği bir hayat… sence hangi ölçüyle 'yalan' sayılır?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.yuk",
+      "dayanak": "S1 (kitap s. 157-159): Bruno/Diyojen farkı (olağanüstü olayın nakilcisi değiller; teoriye bağlılık; peygamberlik iddiaları yok) ve H16 (iyi niyetli toplum önderi iddiası). 'Kutsal yalan' formülü şüphe indeksindeki 'Peygamber iyi niyetli toplum önderiydi; halkı için melek geldi demiş olabilir' (H16, S1-S15) şüphesine karşılık gelir. 'Emin' lakabı: kitabın kaynakları arasında (10/16 ve Mekkelilerin sessizliği), tam atıf doğrulanmalı."
+    },
+    {
+      "id": "samimiyet.kapanis",
+      "gizliDugum": "S15",
+      "satirlar": [
+        {
+          "metin": "Toparlayalım."
+        },
+        {
+          "metin": "Diyelim ki bilerek yalan söylüyordu."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "demet",
+            "veri": {
+              "cubuklar": [
+                "Mal: zırhı rehinde öldü",
+                "İktidar: teklifleri reddetti",
+                "Şöhret: kendini azarlayan ayetleri okuttu",
+                "Rahatlık: en ağır yükleri getirdi",
+                "Kabile: atalara karşı çıktı",
+                "Kendi tepkisi: korku, gözyaşı, oğlunun ölümünde susma"
+              ]
+            }
+          }
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Kötü bir yalancı, milyonlarca insanın benimseyeceği bir dünya dinini kuramaz.",
+              "kim": "Batılı bir tarihçi"
+            }
+          }
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Samimi bir Muhammed'i açıklamak, sahtekâr bir Muhammed'i açıklamaktan çok daha kolaydır.",
+              "kim": "Batılı bir tarihçi"
+            }
+          }
+        },
+        {
+          "metin": "Bu, peygamberliği tek başına kanıtlamaz. Yalnızca bir ihtimali kapatır.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Bütün bunlardan sonra: 'bilerek yalan söyledi' demeye devam ediyor musun?",
+        "cipler": [
+          "Hayır, artık demiyorum",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "artık demiyorum",
+            "demiyorum",
+            "ikna oldum",
+            "haklısın",
+            "kabul ediyorum",
+            "mantıklı",
+            "açıklaması zor"
+          ],
+          "git": "haber.kalan"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de Batılı tarihçilerin kendi hükümlerine bak."
+            },
+            {
+              "metin": "Biri, modern bir tarihçinin bu hareketin menfaatçi bir sahtekâr tarafından başlatıldığına inanamayacağını söyler."
+            },
+            {
+              "metin": "",
+              "diyagram": {
+                "tur": "alinti",
+                "veri": {
+                  "metin": "Hilekâr ya da yaşlı bir şehvet düşkününün işi değil.",
+                  "kim": "Hristiyan bir oryantalist"
+                }
+              }
+            }
+          ],
+          "soru": "Birbirinden bağımsız bu kadar tarihçi aynı sonuca varmışsa, 'bilerek yalan' teorisi neyi açıklıyor?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de zamanlama: kırk yaşına kadar kimse onu yalanla itham etmemişti."
+            },
+            {
+              "metin": "Hiçbir yalancı, yalan söylemek için kırk yıl beklemez."
+            }
+          ],
+          "soru": "Kırk yıl boyunca doğru bilinmiş biri, nasıl birden 'yeryüzünün en büyük yalancısı' olur?"
+        }
+      ],
+      "kompozisyon": "Kendi cümlelerinle söyle: zırhı rehinde ölen, teklifleri reddeden, kendini azarlayan ayetleri okutan biri bilerek yalan söylüyor olabilir mi?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "kapat": "samimiyet",
+      "sonraki": "haber.kalan",
+      "dayanak": "S15 (kitap s. 260-264): Dozy ('kötü bir yalancı...'), Watt ('hilekâr ya da yaşlı şehvet düşkününün işi değil'; Carlyle sahtekârlık suçlamasını reddetti), Lewis ('modern tarihçi menfaatçi sahtekâr tarafından başlatıldığına inanamaz'), Caetani, Wellhausen, Rodinson ('samimi bir Muhammed'i açıklamak sahtekâr bir Muhammed'i açıklamaktan çok daha kolay' - kitaptan paraphrase), Dermenghem. Alıntılar kitabın Türkçe aktarımına dayanır; ekranda aynen verilmeden önce kaynak metinle doğrulanmalı. S1: bu delil tek başına nübüvveti ispatlamaz."
+    }
+  ]
+}
