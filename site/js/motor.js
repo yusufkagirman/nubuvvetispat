@@ -18,7 +18,7 @@ export class Motor {
 
   async baslat() {
     const j = await getir('_sira.json');
-    const l = Array.isArray(j) ? j : j?.sira || j?.dugumler || (j && Object.values(j).find(Array.isArray)) || [];
+    const l = Array.isArray(j) ? j : j?.sira || (j?.dallar && Object.values(j.dallar).flat()) || j?.dugumler || (j && Object.values(j).find(Array.isArray)) || [];
     this.sira = l.map((x) => (typeof x === 'string' ? x : x.id)).filter(Boolean);
     return this.sira;
   }
