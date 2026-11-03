@@ -144,7 +144,7 @@ export class Gok {
       const a = s.a * (0.72 + 0.28 * Math.sin(t * s.f + s.p)) * sonuk;
       x.fillStyle = `rgba(${s.renk},${a.toFixed(3)})`;
       x.beginPath(); x.arc(s.x, s.y, s.r, 0, TAU); x.fill();
-      if (s.r > 1.2) { x.fillStyle = `rgba(${s.renk},${(a * 0.12).toFixed(3)})`; x.beginPath(); x.arc(s.x, s.y, s.r * 4, 0, TAU); x.fill(); }
+      if (s.r > 1.2) { x.fillStyle = `rgba(${s.renk},${(a * 0.06).toFixed(3)})`; x.beginPath(); x.arc(s.x, s.y, s.r * 3, 0, TAU); x.fill(); }
     }
     const k = this.kayan;
     if (k) {
@@ -182,10 +182,10 @@ export class Gok {
     x.fillStyle = gr; x.fillRect(0, 0, W, H);
     // huzmeler
     x.translate(cx, cy);
-    for (let i = 0; i < 7; i++) {
-      const a = (i / 7) * TAU + t * 0.02, wd = 0.05 + 0.025 * Math.sin(t * 0.3 + i * 2);
+    for (let i = 0; i < 9; i++) {
+      const a = (i / 9) * TAU + t * 0.02, wd = 0.035 + 0.02 * Math.sin(t * 0.3 + i * 2);
       const gg = x.createLinearGradient(0, 0, Math.cos(a) * R * 1.3, Math.sin(a) * R * 1.3);
-      gg.addColorStop(0, 'rgba(255,236,190,.09)'); gg.addColorStop(1, 'rgba(255,236,190,0)');
+      gg.addColorStop(0, 'rgba(255,236,190,.04)'); gg.addColorStop(1, 'rgba(255,236,190,0)');
       x.fillStyle = gg; x.beginPath(); x.moveTo(0, 0);
       x.lineTo(Math.cos(a - wd) * R * 1.4, Math.sin(a - wd) * R * 1.4); x.lineTo(Math.cos(a + wd) * R * 1.4, Math.sin(a + wd) * R * 1.4);
       x.closePath(); x.fill();
