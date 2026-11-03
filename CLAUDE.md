@@ -42,7 +42,10 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 ## Durum
 - [x] Kitap repoya eklendi (`kitap/peygamberligin-ispati.pdf`, metin: `docs/metin/`)
 - [x] Bölüm analizleri (`docs/bolumler/01..07`), kaynakça (`docs/kaynakca.md`)
-- [ ] Kitabın bölüm bölüm metod haritası çıkarılacak (`docs/metod-haritasi.md`)
-- [ ] Oryantalist kaynak envanteri (`docs/kaynaklar.md`)
+- [x] Metod haritası: 93 düğüm (Z/H/S/F/M/R), şüphe→düğüm indeksi, profil ipuçları (`docs/metod-haritasi.md`)
+- [x] Teyit listesi (`docs/dogrulanacaklar.md`)
+- [x] Kitaptan 44 mushaf görseli (`public/gorseller/mushaflar/kitaptan/`, lisans doğrulanmadı; `docs/gorseller.md`)
+- [x] Kaynak envanteri: bölüm dosyalarında + `docs/kaynakca.md`
+- [ ] Ajan ilkeleri (`docs/ajan-ilkeleri.md`) ve sunum tasarımı taslağı (`docs/sunum-tasarimi.md`)
 - [ ] **Beyin fırtınası:** Çıktının formatı henüz netleşmedi. Metod tam kavrandıktan sonra kullanıcıyla birlikte "metodu en iyi nasıl yansıtırız" planı yapılacak. Format kararını kullanıcı vermeden kod/tasarım yazma.
 - [ ] Sunum mimarisi tasarımı
