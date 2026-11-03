@@ -33,6 +33,10 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - **Profil ölçme:** Başta sorularla muhatabın kabulleri ve seviyesi ölçülür (kaynaklara güven, Tanrı inancı, din geçmişi, peygamberlik algısı, bilgi seviyesi). Yol ve anlatım dili buna göre şekillenir; kronoloji korunur, derinlik/örnek seçimi değişir.
 - **Görseller:** Gerçek görseller kullanılır (ör. erken dönem mushaf fotoğrafları). Yalnız açık lisanslı (kamu malı / Wikimedia Commons / müze açık erişim) görsel; her görselde kaynak + lisans + kitaptaki sayfa atfı.
 - **Muslim AI ilişkisi:** henüz belirsiz.
+- **Lisans:** kullanıcıya göre sorun değil; kitap metni/görselleri kullanılabilir (atıf yine verilir).
+- **Dal kapanması:** Bir dal yalnızca **kullanıcı ikna olduğunu beyan edince** kapanır (sistem kendiliğinden kapatmaz).
+- **Kayıt/gizlilik:** Varsayılan: ilerleme yalnız tarayıcıda (localStorage). Kullanıcı isterse hesap açar ve ilerleme sunucuda saklanır. **Anonimlik önemli:** hesap için asgari veri (e-posta zorunlu değil tercih edilir, ör. kullanıcı adı + parola / anonim kod), sohbet içeriği gereksiz saklanmaz.
+- **AI modeli:** Ucuz API'li modeller (DeepSeek, GLM, Kimi vb.) değerlendiriliyor; sağlayıcıdan bağımsız mimari kurulacak (bkz. sunum-tasarimi açık kararlar).
 
 ## Çalışma Düzeni (Claude için)
 - Ana oturum **orkestra şefi**dir; context'i şişirme. Kitap okuma/özetleme, kaynak çıkarma gibi ağır işleri **Sonnet/Haiku alt agent'larına** ver; onlar sonuçları `docs/` altına yazsın.
