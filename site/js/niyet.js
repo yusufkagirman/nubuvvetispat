@@ -15,8 +15,9 @@ export function normalize(s) {
 
 const ARA_VER = ['ara ver', 'ara veriyorum', 'ara verelim', 'ara vermek istiyorum', 'sonra devam', 'sonra devam ederim',
   'sonra devam edelim', 'simdilik yeter', 'simdilik bu kadar', 'yeter bu kadar', 'sonra donerim', 'cikmak istiyorum', 'cik'];
-const KACAMAK = ['bilmiyorum', 'belki', 'ne bileyim', 'gec', 'pas', 'bos ver', 'farketmez', 'hmm', 'hmmm', 'ilginc'];
-const RET_DEGILSIZ = /\b(olmadim|olmadi|olmuyor|olmam|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala|ikna degilim)\b/;
+const KACAMAK = ['bilmiyorum', 'bilmem', 'belki', 'ne bileyim', 'gec', 'pas', 'bos ver', 'farketmez', 'fark etmez', 'hmm', 'hmmm', 'hmmmm', 'ilginc', 'neyse', 'ne diyeyim', 'nasil desem', 'valla', 'bilemedim'];
+const SERT_RET = /\b(olmadim|olmadi|olmuyor|olmam|katilmiyorum|inanmiyorum|saciyma|yine de|hala|ikna degilim)\b/;
+const HAYIR = /\bhayir\b/;
 const KATILIYORUM = /^(haklisin|haklisiniz|katiliyorum|kabul ediyorum)\b/;
 const GENEL_ONAY = /\b(evet|haklisin|haklisiniz|mantikli|katiliyorum|ikna oldum|kabul ediyorum|dogru|tabii|tabi)\b/;
 
@@ -27,7 +28,7 @@ const anahtarlar = (l) => (Array.isArray(l) ? l : l ? [l] : []).map(normalize).f
 const var_ = (m, a) => (a.length <= 4 ? kelimeVar(m, a) : basta(m, a));
 export const skor = (m, l) => anahtarlar(l).reduce((b, a) => (var_(m, a) && a.length > b ? a.length : b), 0);
 
-const ONCELIK = { yonlendir: 4, itiraz: 3, profil: 2, ikna: 1 };
+const ONCELIK = { ret: 5, yonlendir: 4, itiraz: 3, profil: 2, ikna: 1 };
 
 function beatKelimeleri(beat) {
   const kume = new Set();
@@ -43,19 +44,24 @@ async function kuralTabanli({ cevap, beat, soru }) {
   const m = normalize(cevap);
   if (ARA_VER.some((a) => kelimeVar(m, a))) return { tur: 'ara' };
   if (m.replace(/[^a-z0-9]/g, '').length < 2) return { tur: 'kacamak' };
-  const olumsuz = RET_DEGILSIZ.test(m) || (/\bdegil\b/.test(m) && !KATILIYORUM.test(m));
+  const sert = SERT_RET.test(m) || (/\bdegil\b/.test(m) && !KATILIYORUM.test(m));
   // 1) yollar: en uzun anahtar kazanır; eşitlikte yonlendir > itiraz > profil > ikna. Olumsuz cevapta "ikna" yolları devre dışı.
   let en = null;
   for (const y of beat.yollar || []) {
-    if (olumsuz && y.tur === 'ikna') continue;
     const k = skor(m, y.anahtar);
     if (!k) continue;
+    // 'ikna' yolları sert olumsuzlukta devre dışı; ama anahtarın kendisi olumsuzluk içeriyorsa ("kurgu değil") geçerli.
+    // Yalnız "hayır" ikna'yı engellemez ("Hayır, artık demiyorum", "Hayır, ya var ya yok" soruya verilen cevaptır).
+    if (y.tur === 'ikna' && sert) {
+      const eslesen = anahtarlar(y.anahtar).filter((a) => var_(m, a)).sort((a, b) => b.length - a.length)[0] || '';
+      if (!SERT_RET.test(eslesen) && !/\bdegil\b/.test(eslesen)) continue;
+    }
     const p = ONCELIK[y.tur] ?? 0;
     if (!en || k > en.k || (k === en.k && p > en.p)) en = { y, k, p };
   }
-  if (en) return { tur: 'yol', yol: en.y };
+  if (en) return en.y.tur === 'ret' ? { tur: 'ret' } : { tur: 'yol', yol: en.y };
   if (soru?.serbest) return { tur: 'serbest' };
-  if (olumsuz) return { tur: 'ret' };
+  if (sert || (HAYIR.test(m) && !GENEL_ONAY.test(m))) return { tur: 'ret' };
   if (GENEL_ONAY.test(m)) return { tur: 'onay' };
   if (KACAMAK.some((a) => kelimeVar(m, a))) return { tur: 'kacamak' };
   if (m.includes('?')) {

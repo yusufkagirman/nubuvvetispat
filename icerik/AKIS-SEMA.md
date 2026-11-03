@@ -8,6 +8,7 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 - Kullanıcı yalnız sorulara cevap verir (serbest yazı + 2–3 silik öneri çipi). Nereye gidileceğini **cevabın isabet ettiği yer** belirler.
 - Sunum önce **kullanıcının şüphesini ve düzeyini** öğrenir, sonra **yalnız o şüpheye isabet eden** kısa ve öz cevabı verir. Tatmin olmazsa her seferinde yeni, daha güçlü bir örnek gelir.
 - Hitap: **"sen"** (sıcak, saygılı, samimi). Peygamber için olumsuz ihtimal anılırken "hâşâ" edebi korunur. Hz. Muhammed adı ilk geçişte "Hz. Muhammed", sonra "o" / "Peygamber" olabilir; (s.a.v.) yazılmaz (ekranda sade), dayanak alanında serbest.
+- "Hayır" tek başına `ikna` yollarını engellemez ("Hayır, artık demiyorum"); "ikna olmadım / yine de / değil" gibi sert olumsuzluklar engeller (anahtarın kendisi olumsuzluk içeriyorsa geçerli).
 - Ekranda **yazar adı, kitap adı, sayfa numarası yok.** Gerekirse doğal dille: "Batılı bir tarihçi şöyle der…", "Bugün Birmingham Üniversitesi'nde duran bir sayfa…". Kurum/yer adı serbest; kişi adı yalnız herkesin bildiği tarihî figürse (ör. Herakleios, Ebu Süfyan).
 - **Uydurma yok.** Her olgu `dayanak` alanında (gizli) kaynağıyla durur. Bilgi bankası: `docs/bolumler/*.md`, `docs/metod-haritasi.md`. Kitap dışı ekleme → `"ek": true` ve bölgenin `docs/onay/<bolge>.md` listesine eklenir (kullanıcı onayı).
 
@@ -48,7 +49,8 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
     { "tur": "ikna",     "anahtar": ["değişmemiş", "haklısın", "mantıklı"], "git": "haber.giris" },
     { "tur": "itiraz",   "anahtar": ["karbon", "yanılabilir", "test"], "yanit": ["Karbon testi tek başına değil…", "…"] },
     { "tur": "yonlendir","anahtar": ["uydurdu", "yalan"], "git": "samimiyet.giris", "profil": { "iddia": "sahtekar" } },
-    { "tur": "profil",   "anahtar": ["evet", "inanıyorum"], "profil": { "tanri": "evet" } }
+    { "tur": "profil",   "anahtar": ["evet", "inanıyorum"], "profil": { "tanri": "evet" } },
+    { "tur": "ret",      "anahtar": ["evet bence var"] }          // cevap ret sayılır (sıradaki ekOrnek); "evet" gibi genel onay kelimeleri yanlış ikna sanılmasın diye
   ],
   "varsayilan": "acilis.sonraki",      // serbest sorularda hiçbir yol eşleşmezse
   "ekOrnekler": [                      // "ikna olmadım"/ret → sırayla; her biri yeni kısa sahne + kendi ilzam sorusu
@@ -70,7 +72,7 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
    - `yonlendir` / `ikna` → profil yaz, `kapat` varsa dalı kapat, `git` (yoksa `sonraki`).
 3. **Genel onay** (yolda tanımlı değilse): "evet, haklısın, mantıklı, katılıyorum, ikna oldum" → `ikna` gibi: `kapat`, `sonraki`.
 4. **Genel ret:** "hayır, ikna olmadım, katılmıyorum, emin değilim, yine de" → sıradaki `ekOrnek` (satırlar + soru). Bitti ise `kompozisyon` sorusu → her cevap kaydedilir → saygılı bir köprü ("Bunu not ettim. Bununla birlikte devam edelim.") → `sonraki`.
-5. **Kaçamak / boş / konu dışı:** `kopru` satırlarından biri + **aynı soru** tekrar. Konu dışı soru not edilir.
+5. **Kaçamak / boş / konu dışı:** `kopru` satırlarından biri + **aynı soru** tekrar. Konu dışı soru not edilir. **Döngü kırıcı:** art arda 3 kaçamak → "devam edelim" ile `sonraki`ye geçilir (dal kapanış sorusundaysa `mucize.giris`e); art arda 2 beat'te kaçamak → "ara verelim mi" önerisi. Aynı itiraz ikinci kez ya da 4. itiraz → itiraz cevabı tekrarlanmaz, sıradaki `ekOrnek`e geçilir. `samimiyet`/`fetanet` dalı baştan sona gezilip kapanmadıysa dala yeniden girişte (`*.giris`) tekrar edilmez, `mucize.giris`e geçilir.
 6. `serbest: true` ve eşleşme yok → cevabı `profil.<beat id>` olarak kaydet → `varsayilan` ya da `sonraki`.
 7. Var olmayan beat'e gidilirse: zarif bir "Bu kısmı hazırlıyoruz; şimdilik buraya kadar" kapanışı.
 
@@ -82,7 +84,7 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 - `supheTuru`: kuran-degisti | kaynak-guvensiz | uydurdu | hasta-yanildi | ogrendi | mucize-yok | genel
 - `iddia`: sahtekar | deli | dogru | kararsiz
 - `kapali`: motor tarafından tutulan kapalı dallar listesi (`samimiyet`, `fetanet`, `zemin`…); `"kosul": {"kapali": "x"}` = x kapalıysa.
-- Koşul eşleşmesi: değer string ise eşitlik, dizi ise "içinden biri".
+- Koşul eşleşmesi: değer string ise eşitlik, dizi ise "içinden biri". `"acik": ["samimiyet","fetanet"]` = listedekilerden en az biri HÂLÂ kapanmamış.
 
 ## Bölge giriş noktaları (sabit — bölgeler birbirine bunlarla bağlanır)
 | id | anlam |

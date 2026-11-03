@@ -68,6 +68,8 @@ export class Ekran {
     if (c.classList.contains('gidiyor')) return;
     c.style.position = 'absolute'; c.style.margin = '0';
     c.style.left = `${rect.left - cr.left}px`; c.style.top = `${rect.top - cr.top}px`; c.style.width = `${rect.width}px`;
+    c.style.setProperty('--yuk', `-${Math.round(rect.height + 40)}px`);
+    void c.offsetWidth;
     c.classList.add('gidiyor');
     setTimeout(() => c.remove(), this.zm(1100));
   }
@@ -127,7 +129,7 @@ export class Ekran {
     this.dgBeatAktif?.iptal(); this.dgBeatAktif = null;
     this.dgBeat.replaceChildren(); this.dgBeat.classList.remove('cik');
     this.dgSatir.replaceChildren(); this.dgSatir.classList.remove('cik');
-    this.sahneEl.classList.remove('dg-ust', 'dg-aktif', 'altyazi');
+    this.sahneEl.classList.remove('dg-ust', 'dg-aktif', 'altyazi', 'soru-an', 'acilis-an');
   }
 
   // ---------- satırlar ----------
@@ -139,6 +141,7 @@ export class Ekran {
     if (s.diyagram) { const ok = await this._dgSatir(s); if (ok) return; }
     const metin = (s.metin || '').trim();
     if (!metin) { if (s.gorsel) await this._oynat(4200, 1500); return; }
+    if (this.gok.revealAl()) await this._uyu(1900); // görsel önce net görünsün
     const kel = metin.split(/\s+/).length, vurgu = !!s.vurgu;
     const el = this._satirEl(metin, vurgu ? 'vurgu' : '');
     this._ekle(el, { tut: this.sahneEl.classList.contains('dg-ust') ? 1 : 2 });
@@ -188,6 +191,7 @@ export class Ekran {
   }
 
   soruSor(q) {
+    this.sahneEl.classList.add('soru-an');
     const { f, input } = this._form(q);
     const el = this._satirEl(q.metin, 'soru');
     this._ekle(el, { tut: this.sahneEl.classList.contains('dg-ust') ? 1 : 2, sonra: f });
@@ -211,6 +215,7 @@ export class Ekran {
 
   async cevapGoster(metin) {
     const el = this._satirEl(metin, 'cevap');
+    this.sahneEl.classList.remove('soru-an');
     this._ekle(el, { tut: 1 }); this._goster(el);
     await this._oynat(1300 + Math.min(metin.length * 45, 2100), 900, () => el.classList.add('tam'));
     this._hepsiniGonder();
@@ -235,7 +240,7 @@ export class Ekran {
   async acilis(devamVar) {
     if (!devamVar) {
       const el = this._satirEl('Biraz konuşalım mı?', 'acilis'); this._ekle(el); this._oku('Biraz konuşalım mı?');
-      setTimeout(() => this._goster(el), this.zm(1500));
+      setTimeout(() => { this._goster(el); this.sahneEl.classList.add('acilis-an'); }, this.zm(1500));
       await this._uyu(3000);
       await this.bekleDokun('dokun ya da bir tuşa bas');
       return 'baslat';

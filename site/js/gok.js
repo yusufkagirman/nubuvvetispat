@@ -75,7 +75,7 @@ export class Gok {
       this.katmanlar.forEach((k) => (k.hedef = 0));
       const img = this.yukle(istenen);
       const yon = [[1, 1], [-1, 1], [1, -1], [-1, -1]][Math.floor(Math.random() * 4)];
-      this.katmanlar.push({ src: istenen, img, w: 0, hedef: 1, t0: performance.now(), yon });
+      this.katmanlar.push({ src: istenen, img, w: 0, hedef: 1, t0: performance.now(), yon }); this.revealBekle = true;
     } else if (!istenen) this.katmanlar.forEach((k) => (k.hedef = 0));
     this.kirli = true;
     if (!this.calisiyor && !document.hidden) this.baslat();
@@ -85,6 +85,7 @@ export class Gok {
     if (!i) { i = new Image(); i.onload = () => { this.kirli = true; if (!this.calisiyor && !document.hidden) this.baslat(); }; i.src = src; this.onbellek.set(src, i); }
     return i;
   }
+  revealAl() { const r = !!this.revealBekle; this.revealBekle = false; return r; }
   onYukle(listesi) { (listesi || []).forEach((s) => this.yukle(s)); }
 
   // ---- çizim ----
@@ -238,14 +239,26 @@ export class Gok {
       const iw = img.naturalWidth * sc, ih = img.naturalHeight * sc;
       const ex = Math.max(0, iw - W), ey = Math.max(0, ih - H);
       const px = 0.5 + k.yon[0] * (p - 0.5) * 0.7, py = 0.5 + k.yon[1] * (p - 0.5) * 0.7;
-      x.globalAlpha = a; x.drawImage(img, -ex * px, -ey * py, iw, ih);
-      // koyulaştırma + vinyet + alt gradyan (yazıya karışsın)
-      x.fillStyle = 'rgba(4,6,12,.55)'; x.fillRect(0, 0, W, H);
-      const v = x.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.2, W / 2, H / 2, Math.hypot(W, H) * 0.6);
-      v.addColorStop(0, 'rgba(2,3,8,0)'); v.addColorStop(1, 'rgba(2,3,8,.85)');
+      // sinematik reveal: ilk ~1.6 sn görsel net ve aydınlık, sonra yazı için kararır
+      const rv = yumusat(Math.min(1, Math.max(0, (ts - 1.6) / 2.4)));
+      if (this.azHareket && rv < 1) this.kirli = true;
+      const koyu = 0.2 + 0.52 * rv;
+      const bulanik = 'filter' in x;
+      x.globalAlpha = a;
+      if (bulanik) x.filter = `blur(${(0.4 + 2 * rv).toFixed(2)}px)`;
+      x.drawImage(img, -ex * px, -ey * py, iw, ih);
+      if (bulanik) x.filter = 'none';
+      x.fillStyle = `rgba(3,5,10,${koyu.toFixed(3)})`; x.fillRect(0, 0, W, H);
+      const v = x.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.12, W / 2, H / 2, Math.hypot(W, H) * 0.55);
+      v.addColorStop(0, 'rgba(2,3,8,0)'); v.addColorStop(1, `rgba(2,3,8,${(0.55 + 0.35 * rv).toFixed(3)})`);
       x.fillStyle = v; x.fillRect(0, 0, W, H);
+      // yazı bölgesi: merkezde yumuşak koyu elips
+      x.save(); x.translate(W / 2, H * 0.5); x.scale(1, 0.55);
+      const m = x.createRadialGradient(0, 0, 0, 0, 0, Math.min(W * 0.62, 640));
+      m.addColorStop(0, `rgba(2,3,8,${(0.5 * rv).toFixed(3)})`); m.addColorStop(1, 'rgba(2,3,8,0)');
+      x.fillStyle = m; x.fillRect(-W, -W, W * 2, W * 2); x.restore();
       const b = x.createLinearGradient(0, H * 0.45, 0, H);
-      b.addColorStop(0, 'rgba(2,3,8,0)'); b.addColorStop(1, 'rgba(2,3,8,.88)');
+      b.addColorStop(0, 'rgba(2,3,8,0)'); b.addColorStop(1, `rgba(2,3,8,${(0.5 + 0.3 * rv).toFixed(3)})`);
       x.fillStyle = b; x.fillRect(0, 0, W, H);
     }
     x.globalAlpha = 1;

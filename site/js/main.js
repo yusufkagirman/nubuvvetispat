@@ -71,6 +71,6 @@ async function baslatBastan() {
 window.__sunum = {
   motor, ui, gok, ses, durum, siniflandiriciyiDegistir,
   git: (id) => { motor.git(id); },
-  hiz: (x) => { ui.hiz = x; },
+  hiz: (x) => { ui.hiz = x; document.documentElement.classList.toggle('hizli', x < 1); },
   durumYaz: () => kaydet(),
 };

@@ -7,7 +7,7 @@ const KOPRU = ['Buna birazdan geleceğiz. Şimdi şunu soruyordum:', 'Bunu not a
 const DIZI = (x) => (x == null ? [] : Array.isArray(x) ? x : [x]);
 
 export class Motor {
-  constructor(ui) { this.ui = ui; this.havuz = new Map(); this.no = 0; this.kopruSay = 0; }
+  constructor(ui) { this.ui = ui; this.havuz = new Map(); this.no = 0; this.kopruSay = 0; this.kacSeri = 0; this.notSay = 0; }
 
   yukle(veri) {
     this.havuz.clear();
@@ -26,7 +26,10 @@ export class Motor {
       let id = durum.beat || 'acilis.merhaba', devamMi = !!devam && !!durum.beat, atlama = 0;
       while (id) {
         this.k(no);
+        const b0 = this.havuz.get(id);
         const r = await this.beatOynat(no, id, devamMi, atlama);
+        // dal kapanış sorusu tamamlandı ama kullanıcı ikna olmadı (dal kapanmadı): not et, aynı yola tekrar sokma
+        if (b0 && /\.kapanis$/.test(id) && (b0.kapat === 'samimiyet' || b0.kapat === 'fetanet') && r?.id === 'haber.kalan' && !durum.kapali.includes(b0.kapat)) { (durum.tamam ||= {})[b0.kapat] = 1; kaydet(); }
         atlama = r?.atlama ?? 0;
         devamMi = false;
         id = r?.id ?? null;
@@ -39,6 +42,12 @@ export class Motor {
     const beat = this.havuz.get(id);
     if (!beat) { durum.beat = id; kaydet(); await this.yokKapanis(no); return null; }
     if (!devam) {
+      const gd = /^(samimiyet|fetanet)\.giris$/.exec(id);
+      if (gd && durum.tamam?.[gd[1]] && !durum.kapali.includes(gd[1]) && atlama < 20) {
+        // aynı dalı baştan sona gezdik, kullanıcı ikna olmadı: tekrar etmek yerine doğrudan delil yoluna geç
+        await this.ui.satirlar(['Bu yolu baştan sona birlikte gezdik.', 'İkna olmadığını saygıyla not ediyorum; zorlamam.', 'Şimdi yolun başka bir kapısına bakalım.']); this.k(no);
+        return { id: 'mucize.giris', atlama: atlama + 1 };
+      }
       const dal = (beat.dallan || []).find((d) => kosulSaglanir(d.kosul) && d.git !== id);
       if (dal) {
         if (atlama > 20) { await this.yokKapanis(no); return null; }
@@ -80,6 +89,8 @@ export class Motor {
     await this.ui.kapanis(); this.k(no);
   }
 
+  notEttim() { const l = ['Bunu not ettim. Bununla birlikte devam edelim.', 'Not aldım. Şimdi yola devam edelim.', 'Anladım, bunu da kaydettim. İlerleyelim.']; return l[this.notSay++ % l.length]; }
+
   kopru(beat) {
     const l = DIZI(beat.kopru).length ? DIZI(beat.kopru) : KOPRU;
     return l[this.kopruSay++ % l.length];
@@ -99,18 +110,25 @@ export class Motor {
     };
     const sonraki = () => this.sonrasi(no, beat.sonraki);
     const varsayilan = () => this.sonrasi(no, beat.varsayilan || beat.sonraki);
+    const gorulen = new Set(); let kacan = 0, itiraz = 0; // art arda kaçamak / aynı beat'te tekrarlanan itiraz sayacı (döngü kırıcı)
     for (;;) {
       const q = kur();
       Object.assign(durum, { asama: 'soru', soru: { mod, idx } }); kaydet();
       const cevap = await this.ui.soruSor(q); this.k(no);
       cevapEkle(id, cevap);
-      const s = await siniflandir({ cevap, beat, soru: q, mod }); this.k(no);
+      let s = await siniflandir({ cevap, beat, soru: q, mod }); this.k(no);
       if (s.tur === 'ara') { this.araVer(); throw IPTAL; }
       await this.ui.cevapGoster(cevap); this.k(no);
+      if (s.tur === 'yol' && s.yol.tur === 'itiraz') {
+        // aynı itiraz tekrar gelirse ya da üçüncü itiraz olursa aynı cevabı tekrarlamak yerine yeni örneğe geç
+        if (gorulen.has(s.yol) || ++itiraz > 3) s = { tur: 'ret' }; else gorulen.add(s.yol);
+      }
+      if (s.tur !== 'kacamak' && s.tur !== 'konu_disi') { kacan = 0; this.kacSeri = 0; }
       if (mod === 'komp') {
-        if (s.tur === 'kacamak') { await this.ui.satir(this.kopru(beat)); this.k(no); continue; }
+        if (s.tur === 'kacamak' && ++kacan < 3) { await this.ui.satir(this.kopru(beat)); this.k(no); continue; }
+        if (s.tur === 'kacamak') return this.kacisCik(no, beat, sonraki);
         durum.kompozisyon[id] = cevap; kaydet();
-        await this.ui.satir('Bunu not ettim. Bununla birlikte devam edelim.'); this.k(no);
+        await this.ui.satir(this.notEttim()); this.k(no);
         return sonraki();
       }
       if (s.tur === 'yol') {
@@ -137,13 +155,27 @@ export class Motor {
           continue;
         }
         if (beat.kompozisyon) { mod = 'komp'; idx = 0; continue; }
-        await this.ui.satir('Bunu not ettim. Bununla birlikte devam edelim.'); this.k(no);
+        await this.ui.satir(this.notEttim()); this.k(no);
         return sonraki();
       }
       // kaçamak / konu dışı: köprü + aynı soru
       if (s.tur === 'konu_disi') { durum.konuDisi.push({ id, metin: cevap, t: Date.now() }); kaydet(); }
+      if (++kacan >= 3) return this.kacisCik(no, beat, sonraki); // üç kez kaçamak/konu dışı: zorlamadan nazikçe ilerle
       await this.ui.satir(this.kopru(beat)); this.k(no);
     }
+  }
+
+  // Döngü kırıcı: dal kapatılmaz. Art arda iki beat'te kaçamaksa "ara verelim mi" önerisi; dal kapanış sorusundaysa doğrudan delil yoluna.
+  async kacisCik(no, beat, sonraki) {
+    this.kacSeri++;
+    if (this.kacSeri >= 2) {
+      this.kacSeri = 0;
+      await this.ui.satirlar(['Sanırım bu konu şu an seni pek çekmiyor.', 'Sorun değil; istersen biraz ara verelim.']); this.k(no);
+      this.araVer(); throw IPTAL;
+    }
+    await this.ui.satirlar(['Anlıyorum, bu soru seni şimdilik çekmedi.', 'Önemli değil; devam edelim.']); this.k(no);
+    if (beat.kapat === 'samimiyet' || beat.kapat === 'fetanet') return { id: 'mucize.giris', atlama: 0 };
+    return sonraki();
   }
 
   // Global "ara ver": kaydı koru, veda, dokununca kaldığı yerden devam.

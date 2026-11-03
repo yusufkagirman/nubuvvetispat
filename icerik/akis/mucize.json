@@ -384,7 +384,7 @@
         "serbest": false
       },
       "yollar": [
-        { "tur": "ikna", "anahtar": ["bilmiyorum", "bilmem", "hayır", "yok", "haklısın", "ikna oldum", "mantıklı", "evet haklısın", "katılıyorum"], "git": "kapanis.giris" },
+        { "tur": "ikna", "anahtar": ["bilmiyorum", "bilmem", "hayır", "yok", "haklısın", "ikna oldum", "mantıklı", "evet haklısın", "katılıyorum", "tanımıyorum", "tanımam", "rastlamadım", "duymadım", "bulamadım", "örnek yok", "hayır tanımıyorum"], "git": "kapanis.giris" },
         { "tur": "itiraz", "anahtar": ["bir örnek var", "örnek var", "var"], "yanit": ["Güzel. O örneği bu beş şarta karşı birlikte sınayalım.", "Şartları sağlıyorsa, “kimse yapamaz” iddiasından dönülür.", "O zaman ikinci soru gelir: bu kişi bunu nasıl yaptı? Kâhin mi, siyasi dahi mi, hâşâ hasta mı?", "Hem senin örneğin hem Hz. Muhammed için makul bir açıklama gerekir."] }
       ],
       "ekOrnekler": [
@@ -964,6 +964,7 @@
     {
       "id": "kapanis.harita",
       "gizliDugum": "R8",
+      "dallan": [{ "kosul": { "acik": ["samimiyet", "fetanet"] }, "git": "kapanis.harita-acik" }],
       "sahne": { "arkaplan": "isik" },
       "satirlar": [
         { "metin": "Yanlışsa iki yol vardı." },
@@ -977,6 +978,22 @@
       ],
       "sonraki": "kapanis.karar",
       "dayanak": "R8: kitap s. 509–511, devre hem negatif hem pozitif kapanır. Diyagramdaki kapalı dallar sabit gösterilir; kullanıcının gerçek kapalı dalları profilde tutulur — ileride motor profile göre kapali dizisini üzerine yazabilir (AKIS-SEMA: ihtimaller diyagramı veri.kapali)."
+    },
+    {
+      "id": "kapanis.harita-acik",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "isik" },
+      "satirlar": [
+        { "metin": "Yanlışsa iki yol vardı: bilerek ya da bilmeden." },
+        { "metin": "", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": null, "kapali": [] } } },
+        { "metin": "Haritada yalnız senin ikna olduğunu söylediğin yollar sönükleşir." },
+        { "metin": "Bazı yolları birlikte gezdik, bazılarına hiç girmedik." },
+        { "metin": "Hangisi sende açık kaldıysa, orada son sözü sen söylersin.", "vurgu": true },
+        { "metin": "Mucizeler ise haberin doğruluğuna doğrudan bakan delillerdir: dil, gelecek, geçmiş." },
+        { "metin": "Ağırlığını sen tartarsın." }
+      ],
+      "sonraki": "kapanis.karar",
+      "dayanak": "Yönlendirme beat'i, yeni olgu içermez: kullanıcı iki yanlış dalı da kendi beyanıyla kapatmadıysa kapanış haritası 'sönükleşti' iddiasında bulunmaz (kapanis.harita'nın dallan'ı buraya yönlendirir)."
     },
     {
       "id": "kapanis.karar",

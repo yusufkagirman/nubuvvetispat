@@ -535,6 +535,16 @@
             "Epilepsi ya da halüsinasyon yeni bir kapı değil. Bunlar, \"bilmeden yanılma\" kutusunun içinde.",
             "Çünkü orada kişi, gerçek olmayan bir şeyi gerçek sanıyor. Yani farkında olmadan yanlış haber veriyor."
           ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet bence var",
+            "bence var",
+            "başka ihtimal var",
+            "dördüncü ihtimal var",
+            "bir ihtimal daha var"
+          ]
         }
       ],
       "ekOrnekler": [
@@ -800,7 +810,11 @@
             "hayır",
             "bence değil",
             "vazgeçtim",
-            "diğer"
+            "diğer",
+            "başka ihtimale",
+            "başka ihtimal",
+            "başka birine",
+            "başka dala"
           ],
           "git": "haber.ihtimaller"
         },
@@ -882,7 +896,11 @@
             "hayır",
             "bence değil",
             "vazgeçtim",
-            "diğer"
+            "diğer",
+            "başka ihtimale",
+            "başka ihtimal",
+            "başka birine",
+            "başka dala"
           ],
           "git": "haber.ihtimaller"
         },
@@ -964,7 +982,11 @@
             "hayır",
             "bence değil",
             "vazgeçtim",
-            "diğer"
+            "diğer",
+            "başka ihtimale",
+            "başka ihtimal",
+            "başka birine",
+            "başka dala"
           ],
           "git": "haber.ihtimaller"
         },
@@ -1173,7 +1195,6 @@
             "gerçekten vahiy",
             "peygamberdir",
             "peygamberdi",
-            "haklı",
             "haklıydı",
             "haklıdır",
             "inanıyorum",
@@ -1239,6 +1260,18 @@
             "Haritada yer alan her olumsuz ihtimal, bu konuda söylenmiş bir itirazdır. Onları dürüstçe ele almak, ona saygının bir yoludur.",
             "Şimdi sence hangisi?"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "doğru söylemiyor",
+            "doğru değil",
+            "doğru söylemedi",
+            "doğru söylemiyordu",
+            "doğru olduğunu sanmıyorum",
+            "doğru olmadığını"
+          ],
+          "git": "haber.belirsiz"
         }
       ],
       "varsayilan": "haber.belirsiz",
@@ -1428,7 +1461,6 @@
             "gerçekten vahiy",
             "peygamberdir",
             "peygamberdi",
-            "haklı",
             "haklıydı",
             "haklıdır",
             "inanıyorum",
@@ -1696,7 +1728,6 @@
             "gerçekten vahiy",
             "peygamberdir",
             "peygamberdi",
-            "haklı",
             "haklıydı",
             "haklıdır",
             "inanıyorum",
@@ -1848,7 +1879,6 @@
             "gerçekten vahiy",
             "peygamberdir",
             "peygamberdi",
-            "haklı",
             "haklıydı",
             "haklıdır",
             "inanıyorum",

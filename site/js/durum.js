@@ -47,6 +47,7 @@ export function kosulSaglanir(kosul) {
   return anahtarlar.every((k) => {
     const v = kosul[k];
     if (k === 'kapali') return (Array.isArray(v) ? v : [v]).every((d) => durum.kapali.includes(d));
+    if (k === 'acik') return (Array.isArray(v) ? v : [v]).some((d) => !durum.kapali.includes(d)); // listedeki dallardan en az biri HÂLÂ açık
     const gercek = k.startsWith('profil.') ? durum.profil[k.slice(7)] : durum[k];
     return Array.isArray(v) ? v.includes(gercek) : gercek === v;
   });
