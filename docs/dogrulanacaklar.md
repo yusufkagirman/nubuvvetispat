@@ -13,13 +13,13 @@
 | 01 | 79–80, içindekiler | Mushaf sayıları | İçindekilerde 45 giriş; s. 79 "24 karbonlu" + "20 karbonsuz" (=44); s. 80 "44 yazma + 7 tek sayfa". Girişler ile özetin sayıları örtüşmüyor. | Basılı s. 79–80 ve içindekiler karşılaştırılmalı; sunumda yalnız kitabın kendi özet cümlesi kullanılmalı. | ● |
 | 01 | 42–79 (Arabe 331, Marcel 5, Leiden 14.545a/b) | Olası tekrar sayımı | Dört girişte aynı karbon sonucu (%89,3: 652–694; %6,1: 747–763); aynı çok parçalı yazmanın parçaları olabilir; kitap açıklamıyor. | Rakamı sunumdan önce doğrula veya "yazma parçaları" diye sun. | ● ○ |
 | 01 | 38, 45 | Kahire Mushafı | "Sayfa kalınlığı 40 cm" ifadesi muhtemelen yanlış. | Basılıyı kontrol et; kullanma. | ● |
-| 01 | 96 civarı (İnsan suresi dipnotu) | Ayet numarası | Kitap dipnotunda "76/2-4"; ayet muhtemelen 76:24. | Basılı dipnottan kontrol et. | ● |
-| 03 | 171–172 | Nisâ'/Müzzemmil değil İsrâ 17/79 | 17/79 için kitap "Mekkî, hicri 5. yıl civarı" der; Mekkî bir ayetle çelişik görünür, muhtemelen "nübüvvetin 5. yılı". | Kullanmadan önce basılı ve kaynakla doğrula. | ● |
+| 01 | 95–99 (İnsan suresi dipnotu) | Ayet numarası | Kitap dipnotunda "76/2-4"; ayet muhtemelen 76:24. | Basılı dipnottan kontrol et. | ● |
+| 03 | 171–172 | İsrâ 17/79'un iniş zamanı | 17/79 için kitap "Mekkî, hicri 5. yıl civarı" der; Mekkî bir ayetle çelişik görünür, muhtemelen "nübüvvetin 5. yılı". | Kullanmadan önce basılı ve kaynakla doğrula. | ● |
 | 03 | 205–206 | Zeyd karışıklığı | Zeyd b. Sabit ile Zeyd b. Harise karışıklığı olası. | Basılıdan kontrol et; rivayet hangi Zeyd? | ● |
-| 03 | 484–485 (Caetani c. 1; dn. 517) | "Kettanj" | Caetani adı OCR'da "Kettanj". | Basılı dipnottan eser/sayfa teyidi. | ● |
+| 03 | ? (Caetani c. 1, eser s. 484–485; dn. 517) | "Kettanj" | Caetani adı OCR'da "Kettanj". | Basılı dipnottan eser/sayfa teyidi. | ● |
 | 03 | 186, 188 (Lapidus dn. 402) | Dipnot sayfası | Lapidus dipnotunun eser sayfası OCR'dan okunamıyor. | Basılı dipnot. | ● |
 | 03 | 203, 247, 252–253 (Kadı Abdülcebbar 888/1030/1032) | Dipnot sayfaları | Sayfa numaraları OCR'da belirsiz (dn. 446 vb.). | Basılı dipnot. | ● |
-| 03 | 368 (Rodinson) | Dipnot sayfası | OCR "3G8". | Basılı dipnot. | ● |
+| 03 | ? (Rodinson, eser sayfası) | Dipnot sayfası | Eser sayfası OCR'da "3G8". | Basılı dipnot. | ● |
 | 03 | 185–219 (başlık) vs 211–213 | Sayfa aralığı | "d) Atalar kültü" başlığı s. 185–219 görünüyor; e) 211–213 ve f) 213–219 ayrıca başlık. Aralıklar örtüşüyor. | Basılı iç başlık sınırları (s. 185–211 olması muhtemel). | ● |
 | 04 | 372 / 373 | Metin kesiliyor | 04 dosyası s. 372'de Watt alıntısının ortasında kesiliyor; 05 s. 373'ten başlıyor. | İki dosya arasında kayıp metin var mı kontrol et. | ● |
 | 04 | 287–288 | "Üç sene" | OCR'da "üç sene" geçiyor; bağlamdan "yirmi üç sene" okunmuş. | Basılı kontrol. | ● |
@@ -48,7 +48,7 @@
 
 | Dosya | Sayfa | Konu | Sorun | Öneri | Basılı teyit |
 |---|---|---|---|---|---|
-| 01 | 86–88, 97–106, 104–105 vd. | Kimlik etiketleri | McDowell, Duygu, Dermenghem, Armstrong, Hitti, Kettani, Cerrahoğlu için kitapta kimlik/uzmanlık yok ("kitapta belirtilmiyor"). | Sunumda kimlik etiketi eklenmeden önce ayrıca doğrula. | ○ |
+| 01 | 86–88, 97–106 | Kimlik etiketleri | McDowell, Duygu, Dermenghem, Armstrong, Hitti, Kettani, Cerrahoğlu için kitapta kimlik/uzmanlık yok ("kitapta belirtilmiyor"). | Sunumda kimlik etiketi eklenmeden önce ayrıca doğrula. | ○ |
 | 01 | 42–79 | Yazma bilgilerinin dayanağı | Dipnotların çoğu islamic-awareness.org'a (Müslüman savunma sitesi) gider. | Muhatap sorarsa asıl akademik yayınlara in: Marx & Jocham 2019; Sadeghi & Bergmann 2010; Dutton 2007; Deroche; Altıkulaç. | ○ |
 | 01 | 30–33 (?) | Kadı Abdülcabbar'ın tarihi | Kitap, onu Hz. Muhammed'den ≈200 yıl sonra doğmuş gösterir; yaygın kabul ölümünü 11. yy başı verir. | Sunumda "Hicri 3–4. asır Mutezile âlimi" gibi belirsizlik korunsun; kesin tarih ayrıca doğrulansın. | ○ |
 | 01 | 33–34 | Hafız sayısı | Dünya hafız sayısı (≈3–4 milyon) kaba oransal tahmin; Diyanet haberine dayalı 200 bin rakamı. | "Kabaca" etiketiyle sun; Diyanet kaynağını doğrula. | ○ |
@@ -63,13 +63,13 @@
 | 03 | ? | Ebu Talib'in secde cevabı; Hz. Ömer'in kapısı | Rivayetlerin sahih kaynağı sunumdan önce kontrol edilmeli. | Kaynak teyidi. | ● ○ |
 | 03 | ? (dn. 372) | Goldziher'in hadis eleştirisi | Uyarı korunmalı. | Hadis kullanılan kartlarda uyarı notu. | ○ |
 | 03 | 169, 243, 262 | Carlyle | Doğrudan eser belirtilmiyor (Arnold ve Watt aracılığıyla). | İkinci el atıf olarak etiketle. | ● |
-| 03 | 36 vd. (Rodinson, Dermenghem) | Kimlik uyarısı | Rodinson ateist, Dermenghem Müslüman değil ve İslam'ı Hristiyanlıktan alıntı sayan pasajlar yazıyor; bu bilgiler görünür tutulmalı. | Kaynak kartlarında kimlik notu. | — |
+| 03 | ? (Rodinson, Dermenghem) | Kimlik uyarısı | Rodinson ateist, Dermenghem Müslüman değil ve İslam'ı Hristiyanlıktan alıntı sayan pasajlar yazıyor; bu bilgiler görünür tutulmalı. | Kaynak kartlarında kimlik notu. | — |
 | 04 | 313 | Margoliouth–Manning atfı | İkinci elden gönderme ("Manning, Old New Zealand"). | Alıntı kartında belirt. | ● |
 | 04 | 360–363 (dn. 838) | Rodinson "silik" ifadesi | Nebi için uygunsuz bir sıfat; kitap dipnotta alıntıyı aynen bırakıyor. | Alıntı kartlarında kullanma. | — |
-| 04 | 292–300 (dn. 683) | Irving uyarısı | Yazar Ömer övgüsüne tamamen katılmıyor; yalnız siyasi ferasetin ikrarı için alınmış. | Kartta bu sınırı belirt. | — |
+| 04 | ? (dn. 683) | Irving uyarısı | Yazar Ömer övgüsüne tamamen katılmıyor; yalnız siyasi ferasetin ikrarı için alınmış. | Kartta bu sınırı belirt. | — |
 | 04 | ? (dn. 611) | Bodley'in Arap karakter tasviri | Yazar "oryantalizmin özcü yaklaşımına düşme" uyarısı yapıyor. | Tek başına kullanma. | — |
 | 04 | 278–280, 288 | "53 yaşında ilk savaş", "40'a kadar siyasetle uğraşmadı" | Kitabın kendi hesabı. | Tarihlendirme sorulursa kaynakla destekle. | ○ |
-| 04 | 273–274, 360–363 | Cengiz karşılaştırması | Bu dosyada tamamlanmıyor ("bölüm sonunda gelecek"). | 05'teki s. 398–399 karşılaştırmasıyla birleştir. | — |
+| 04 | 273–274, 278–280 | Cengiz karşılaştırması | Bu dosyada tamamlanmıyor ("bölüm sonunda gelecek"). | 05'teki s. 398–399 karşılaştırmasıyla birleştir. | — |
 | 04 | 315–316 | Cinsiyete dayalı kürtaj istatistikleri | Konu dışı yan not, rakamlar (Gallup 2011, Hindistan 2025/2026–2030 tahminleri) güncelliğini yitirebilir. | Sunumda atla veya güncelle. | ○ |
 | 04 | 286 | Kadı Abdülcebbar ≠ yazar | Kadı'nın görüşü ile yazarın görüşü farklı. | Kartlarda ikisini ayır. | — |
 | 04 | ? (kimlik † işaretleri) | Kimlik etiketleri | † işaretli yazarlarda kitap kimlik vermiyor; genel bilgiyle yazılmış. | Sunumdan önce teyit. | ○ |
