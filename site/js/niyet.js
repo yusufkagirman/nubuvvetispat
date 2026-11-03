@@ -13,11 +13,19 @@ export function normalize(s) {
     .replace(/[^a-z0-9? ]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
-const ARA_VER = ['ara ver', 'ara veriyorum', 'sonra devam', 'sonra devam ederim', 'yeter', 'simdilik bu kadar', 'sonra donerim'];
+const ARA_VER = ['ara ver', 'ara veriyorum', 'ara verelim', 'ara vermek istiyorum', 'sonra devam', 'sonra devam ederim', 'yeter bu kadar', 'simdilik bu kadar', 'sonra donerim'];
+// Kelime sınırıyla eşleşir: "yeterli", "yetersiz" gibi sözcükler yanlışlıkla ara vermeye yol açmasın.
+const kelimeVar = (m, a) => (` ${m} `).includes(` ${a} `);
 const RET = /\b(olmadim|olmadi|olmuyor|olmam|degil|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala)\b/;
+const RET_DEGILSIZ = /\b(olmadim|olmadi|olmuyor|olmam|hayir|katilmiyorum|inanmiyorum|saciyma|yine de|hala)\b/;
+const KATILIYORUM = /^(haklisin|haklisiniz|katiliyorum|kabul ediyorum)\b/; // "Haklısınız, ... değil" gibi onay çipleri 'değil' içerse de onaydır
 
 const anahtarlar = (l) => (l || []).map(normalize).filter(Boolean);
-const esles = (m, l) => anahtarlar(l).some((a) => m.includes(a));
+// Kısa anahtarlar (<=4 harf: 'gec', 'sara', 'deli'...) tam sözcük olarak aranır; 'geçmiş', 'saray' gibi sözcüklere takılmasın.
+const var_ = (m, a) => (a.length <= 4 ? kelimeVar(m, a) : m.includes(a));
+const esles = (m, l) => anahtarlar(l).some((a) => var_(m, a));
+// En uzun eşleşen anahtarın uzunluğu (0 = eşleşme yok); çakışmada daha özgül (uzun) anahtar kazansın.
+const skor = (m, l) => anahtarlar(l).reduce((b, a) => (var_(m, a) && a.length > b ? a.length : b), 0);
 
 export function dugumAnahtarlari(d) {
   const n = d.niyetler || {}, out = [];
@@ -31,10 +39,16 @@ export function dugumAnahtarlari(d) {
 async function kuralTabanli(cevap, dugum) {
   const m = normalize(cevap);
   const n = dugum.niyetler || {};
-  if (ARA_VER.some((a) => m.includes(a))) return { niyet: 'ara_ver' };
+  if (ARA_VER.some((a) => kelimeVar(m, a))) return { niyet: 'ara_ver' };
+  // Yönlendirme ve itirazlar: en uzun (en özgül) anahtar kazanır; eşitlikte yönlendirme.
+  let en = { skor: 0 };
+  for (const [ad, y] of Object.entries(n.yonlendir || {})) { const k = skor(m, y.anahtar); if (k > en.skor) en = { skor: k, r: { niyet: 'yonlendir', hedef: y.hedef, yon: ad } }; }
+  if (!KATILIYORUM.test(m) || RET_DEGILSIZ.test(m)) {
+    for (const i of dugum.itirazlar || []) { const k = skor(m, i.anahtar); if (k > en.skor) en = { skor: k, r: { niyet: 'itiraz', itirazId: i.id } }; }
+  }
+  if (en.r) return en.r;
   if (m.replace(/\?/g, '').length < 3) return { niyet: 'kacamak' };
-  for (const [ad, y] of Object.entries(n.yonlendir || {})) if (esles(m, y.anahtar)) return { niyet: 'yonlendir', hedef: y.hedef, yon: ad };
-  for (const i of dugum.itirazlar || []) if (esles(m, i.anahtar)) return { niyet: 'itiraz', itirazId: i.id };
+  if (KATILIYORUM.test(m) && !RET_DEGILSIZ.test(m)) return { niyet: 'ikna' };
   if (RET.test(m)) return { niyet: 'ikna_olmadi' }; // "ikna olmadım" gibi olumsuzlama, 'ikna' anahtarından önce yakalanır
   if (esles(m, n.ikna?.anahtar)) return { niyet: 'ikna' };
   if (esles(m, n.kacamak?.anahtar)) return { niyet: 'kacamak' };

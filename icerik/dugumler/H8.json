@@ -72,7 +72,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: kitabın kastettiği fetanet ile sıradan zekâ aynı şey mi?",

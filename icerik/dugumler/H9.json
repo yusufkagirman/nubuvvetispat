@@ -75,7 +75,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: mucizeyi yalnızca doğa kanunlarının çiğnenmesine indirgemek, 'beşerî benzerini ortaya koymaktan aciz bırakan şey' tanımıyla nasıl bağdaşır?",

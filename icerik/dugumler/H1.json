@@ -89,7 +89,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Soruya dönersek: üç kutunun dışında dördüncü bir ihtimal düşünebiliyor musunuz?",

@@ -78,7 +78,8 @@
         "emin değilim",
         "geç",
         "devam",
-        "boşver"
+        "boşver",
+        "kararsızım"
       ],
       "yanit": [
         "Anlıyorum, hemen kesin bir cevap beklemek zorunda değilsiniz. Sınırı koyduk; şimdi bu sınır içinde nasıl ilerleyeceğimizi görelim, sonra tekrar sorarım.",

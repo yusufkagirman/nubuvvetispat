@@ -73,7 +73,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: epilepsi ya da iyi niyetli reformculuk hangi kutuda duruyor?",

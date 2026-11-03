@@ -85,7 +85,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: 'peygamber değil' demek, hangi dalın delillerini çürütmeyi gerektirir?",

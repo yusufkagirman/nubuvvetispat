@@ -68,7 +68,8 @@
         "emin değilim",
         "geç",
         "devam",
-        "boşver"
+        "boşver",
+        "kararsızım"
       ],
       "yanit": [
         "Tamam, verileri görünce bu soruya yeniden döneriz. Yalnızca ölçütü hatırlatayım: Aynı ölçüt herkese uygulanacak.",

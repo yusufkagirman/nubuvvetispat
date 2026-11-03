@@ -72,7 +72,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: örnek göstermeden 'belki başkası yapmıştır' demek nasıl bir delil sayılır?",

@@ -70,7 +70,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: 'bir melek gördüm' gibi olgusal bir bildirim, nasıl sadece bir teori olabilir?",

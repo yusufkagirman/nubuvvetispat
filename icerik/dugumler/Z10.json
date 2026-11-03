@@ -78,7 +78,8 @@
         "emin değilim",
         "geç",
         "devam",
-        "boşver"
+        "boşver",
+        "kararsızım"
       ],
       "yanit": [
         "Anlıyorum. Soruyu yeniden koyayım: Test malzemeyi tarihlerse ve sonuç bir aralık veriyorsa, alt sınırı yazının tarihi saymak neden doğru olsun?",

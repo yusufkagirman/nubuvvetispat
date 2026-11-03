@@ -76,7 +76,8 @@
         "emin değilim",
         "geç",
         "devam",
-        "boşver"
+        "boşver",
+        "kararsızım"
       ],
       "yanit": [
         "Anlıyorum. Soruyu açık bırakayım: Kendi kabul ettiğiniz metinler bu ölçütte daha zayıfsa, onları neden kabul edersiniz?",

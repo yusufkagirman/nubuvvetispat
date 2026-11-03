@@ -57,4 +57,5 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - [x] Ajan ilkeleri (`docs/ajan-ilkeleri.md`) ve sunum tasarımı taslağı (`docs/sunum-tasarimi.md`)
 - [ ] **Beyin fırtınası:** Çıktının formatı henüz netleşmedi. Metod tam kavrandıktan sonra kullanıcıyla birlikte "metodu en iyi nasıl yansıtırız" planı yapılacak. Format kararını kullanıcı vermeden kod/tasarım yazma.
 - [ ] Beyin fırtınası 2. tur: `docs/sunum-tasarimi.md` açık kararları (AI/RAG, lisans, dal kapanma anlamı + akış sırası, kayıt/gizlilik)
-- [ ] Sunum mimarisi / teknoloji
+- [x] İlk dilim: Z1–Z17 + H1–H16 içerik + statik motor, uçtan uca test geçti (`docs/test-raporu.md`)
+- [ ] Sonraki: S (samimiyet), F (fetanet), M (mucize), R (Rum) içerikleri; "kaldığım yerden devam" sahne kaydı; yayın (GitHub Pages)

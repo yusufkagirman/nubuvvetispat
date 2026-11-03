@@ -123,7 +123,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Bu soruyu acele cevaplamanız gerekmiyor; yine de ihtimalleri tekrar özetleyeyim: (1) Doğru söylüyor ve peygamberdir. (2) Haşa yalan söylüyor ve bunun farkında: bu durumda sahtekârlık ihtimali vardır. (3) Haşa yalan söylüyor ama farkında değil: bu durumda algının bozukluğu ihtimali vardır. Dördüncü bir ihtimal yok. Bunlardan hangisi size en yakın?",
@@ -155,8 +157,6 @@
           "iktidar",
           "siyasi",
           "siyaset",
-          "reformcu",
-          "toplum önderi",
           "lider",
           "halkı ikna",
           "uydurdu",
@@ -237,8 +237,6 @@
       "id": "H16-i2",
       "ozet": "Belki epilepsi ya da halüsinasyon vardı ama o yine de zeki bir liderdi.",
       "anahtar": [
-        "epilepsi",
-        "halüsinasyon",
         "zeki lider",
         "hasta ama zeki",
         "deha"

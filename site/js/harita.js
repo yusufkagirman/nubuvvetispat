@@ -37,11 +37,11 @@ export function haritaCiz(kap, ozet, mevcutDal, git) {
     const bitti = o.toplam > 0 && o.kapali >= o.toplam;
     const sinif = ['dugum', k === mevcutDal ? 'mevcut' : '', bitti ? 'kapali' : '', o.toplam === 0 ? 'bos' : '', bitti && d.isaret === '✗' ? 'carpi' : ''].join(' ');
     const g = e('g', { class: sinif, tabindex: 0, role: 'button', 'aria-label': `${d.ad}: ${d.alt}, ${o.kapali}/${o.toplam}` });
-    g.append(e('rect', { x: d.x - 55, y: d.y - 22, width: 110, height: 44, rx: 12 }));
+    g.append(e('rect', { x: d.x - 59, y: d.y - 22, width: 118, height: 44, rx: 12 }));
     g.append(e('text', { x: d.x, y: d.y - 3, 'text-anchor': 'middle', class: 'ad' }, d.ad));
     g.append(e('text', { x: d.x, y: d.y + 13, 'text-anchor': 'middle', class: 'alt' }, o.toplam ? `${d.alt} · ${o.kapali}/${o.toplam}` : d.alt));
-    if (bitti) g.append(e('text', { x: d.x + 46, y: d.y - 14, class: 'isaret', 'text-anchor': 'middle' }, d.isaret));
-    if (k === mevcutDal) g.append(e('circle', { cx: d.x - 46, cy: d.y - 14, r: 5, class: 'nokta' }));
+    if (bitti) g.append(e('text', { x: d.x + 50, y: d.y - 14, class: 'isaret', 'text-anchor': 'middle' }, d.isaret));
+    if (k === mevcutDal) g.append(e('circle', { cx: d.x - 50, cy: d.y - 14, r: 5, class: 'nokta' }));
     g.addEventListener('click', () => git(k));
     g.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); git(k); } });
     svg.append(g);

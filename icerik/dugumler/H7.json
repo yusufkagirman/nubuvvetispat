@@ -74,7 +74,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. Sorumuz şuydu: demet sopa benzetmesi mi yoksa zincir benzetmesi mi bu delillere daha uygun?",

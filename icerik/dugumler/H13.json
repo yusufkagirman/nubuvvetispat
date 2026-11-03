@@ -73,7 +73,9 @@
         "boş ver",
         "geç",
         "ilgilenmiyorum",
-        "önemli değil"
+        "önemli değil",
+        "emin değilim",
+        "kararsızım"
       ],
       "yanit": [
         "Buna sırası gelince döneceğiz. İsterseniz devam edelim. Sorumuz şuydu: hiçbir tavır almamak gerçekte tarafsızlık mıdır?",

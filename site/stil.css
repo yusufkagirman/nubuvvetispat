@@ -25,7 +25,7 @@ h3{font-size:1.05rem;margin:0 0 .4em}
 .dugum{cursor:pointer}
 .dugum rect{fill:var(--yuzey);stroke:var(--cizgi);stroke-width:1.5}
 .dugum .ad{fill:var(--metin);font:600 12.5px system-ui,sans-serif}
-.dugum .alt{fill:var(--soluk);font:10.5px system-ui,sans-serif}
+.dugum .alt{fill:var(--soluk);font:9px system-ui,sans-serif}
 .dugum.mevcut rect{stroke:var(--vurgu);stroke-width:3}
 .dugum.kapali rect{fill:color-mix(in srgb,var(--vurgu) 12%,var(--yuzey))}
 .dugum.carpi rect{fill:color-mix(in srgb,var(--kapali) 12%,var(--yuzey));stroke:var(--kapali)}
