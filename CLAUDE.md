@@ -20,6 +20,12 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 4. **Mucizeler:** Peygamberliği doğrudan ispat eden mucizelerle ispat ayrıca desteklenir.
 5. Samimiyet ve fetanet delilleri ağırlıklı olarak **oryantalist (Batılı, gayrimüslim) kaynaklarla** desteklenir — muhatabın kabul edeceği kaynaklar.
 
+## ⚠️ Güncel Yön (v2 — en üstte, öncekilerle çelişirse bu geçerli)
+- Kitap yalnızca **metodun örneği/ilhamı**; sunum **kitaptan bağımsız**. Ekranda **yazar adı, kitap adı, sayfa numarası, alıntı yığını yok.** Kitabın verileri bilgi bankasıdır; dayanaklar içerikte gizli `dayanak` alanında.
+- **Tek ekran, sinematik** (karanlık yıldızlı gece, kinetik tipografi, Ken Burns görseller, animasyonlu diyagramlar, aç/kapa hafif ambiyans sesi). Bölüm/menü/harita/ilerleme **görünmez**; şema arka planda.
+- Sunum kullanıcıyla **"sen" diliyle konuşur**, profilini ve **şüphesinin türü/düzeyini** sohbetle öğrenir, **yalnız o şüpheye isabet eden** kısa-öz cevabı verir. Geçiş yalnız cevabın isabet ettiği yere.
+- Sözleşme: `icerik/AKIS-SEMA.md` (beat şeması, cevap işleme, profil sözlüğü, giriş noktaları, diyagram kataloğu). İçerik: `icerik/akis/<bolge>.json`. Eski v1 içerik: `icerik/arsiv/`.
+
 ## Kurallar
 - Kitabın **mimarisine ve metoduna sadık** kal (iskelet: zemin → haber → ihtimaller ağacı → samimiyet/fetanet → mucize); adım atlama. **İçerik kitapla sınırlı değil:** iskeletin üzerine konsepte uyan başka argüman/örnek eklenebilir — ama kitap dışı her ekleme kaynaklı olur, `dogrulanacak:true` işaretlenir ve **kullanıcıya onaya sunulur** (`docs/onay-bekleyen-ekler.md`).
 - Kitaptaki kaynak/alıntıları (özellikle oryantalist) **uydurma**; yalnız kitapta veya doğrulanabilir kaynakta olanı kullan, atıf ver.
@@ -39,7 +45,7 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - **Öncelik (güncel):** Önce **AI'sız, kendi başına yeten** rehberli interaktif sunum yapılır (harita + profil anketi + sahneler/kartlar/görseller, tamamen önceden yazılmış içerik). Sohbet ajanı **sonraki aşama**dır; sunum ona bağımlı tasarlanmaz, ileride eklenebilecek bir katman olarak bırakılır.
 - **Etkileşim modeli (onaylandı, ayrıntı `docs/etkilesim-modeli.md`):** Düz "ikna oldunuz mu?" yerine kitaptaki gibi **özet + ana düşünce + ilzam sorusu** ("Senin iddian şuydu, veri şu; bu mantıken nasıl mümkün?"). Kullanıcı serbest cevap yazar; sistem niyeti sınıflandırır. Kullanıcı yalnız **kendi iddiasının dalını** görür (sahtekâr → samimiyet, deli → fetanet). İkna olmadıkça **her seferinde yeni bir örnek/hadise** gelir, argüman tekrar özetlenir, soru yeniden sorulur. Kaçarsa/konu dışına çıkarsa nazikçe konuya döndürülür ve soru tekrarlanır. Örnekler tükenince kompozisyon talebi. "Ara ver" her zaman serbest.
 - **Delil çeşitlendirme:** Kitaptaki dallar temel; her düğüme ek örnekler eklenir. Kitap dışı ek → kaynak zorunlu + `dogrulanacak:true` (kullanıcı onayı).
-- **İçerik şeması:** `icerik/SEMA.md`, düğümler `icerik/dugumler/<ID>.json`. Site: `site/` (statik, sunucusuz).
+- **İçerik şeması (v2):** `icerik/AKIS-SEMA.md`. Site: `site/` (statik, sunucusuz).
 - **AI modeli (sonraki aşama):** Ucuz API'li modeller (DeepSeek, GLM, Kimi vb.) değerlendiriliyor; sağlayıcıdan bağımsız mimari kurulacak (bkz. sunum-tasarimi açık kararlar).
 
 ## Çalışma Düzeni (Claude için)
