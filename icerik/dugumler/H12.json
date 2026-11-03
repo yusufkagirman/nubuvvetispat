@@ -1,0 +1,211 @@
+{
+  "id": "H12",
+  "baslik": "Bir Kompozisyon Kurmanın Gerekliliği",
+  "dal": "haber",
+  "sayfa": "141-144",
+  "onkosul": [
+    "H7"
+  ],
+  "sonraki": "H13",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "kaynaksiz"
+    ],
+    "atlanabilir": [
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bir tarihî olayı yorumlarken parçalı itirazlar yetmez; çünkü her ihtimalin kendi bütünlüğü olması gerekir. Buna kitap 'kompozisyon' diyor."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Burada yaptığımız kurguda, elimizdeki verilerden yola çıkarak tarihî bir kompozisyon oluşturmaya çalışıyoruz. Zaten işin ehli takdir edecektir ki tüm tarihî metinler, bu yaklaşımla okunur ve yorumlanır.",
+      "kaynak": {
+        "yazar": "Altay Cem Meriç",
+        "eser": "Peygamberliğin İspatı – Haber Delili (kitabın tanımı)",
+        "sayfa": "141-142"
+      },
+      "kitapSayfa": "141"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bir delile itiraz etmek, Peygamber'in deli ya da sahtekâr olduğunu ispat etmek anlamına gelmez; yalnızca 'haklı ya da haksız olarak delillerden birine itiraz etmiş' olursunuz. Müslümanlar da gayrimüslimlerin bir itirazına kendi kompozisyonları içinde cevap verir; aynı tutarlılık karşı taraftan da beklenir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Tutarsızlık örnekleri",
+      "metin": "Vahyi epilepsiye bağlayan biri, aynı zamanda Peygamber'i siyasi farkındalığı yüksek bir toplum önderi olarak tasvir edebiliyor. Oysa vahyin kendisi iradesiz bir nöbete bağlanıyorsa, o vahyin oluşturduğu siyaset onun siyasi farkındalığına nasıl bağlanır? Bir başka örnekte 'Hz. Muhammed hiç yaşamamıştır' diyen kişi, aynı kişi, evlilikleri üzerinden itiraz edebiliyor."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Tarihî şahısların hepsini kompozisyon üzerinden anlamaya çalışırız. Napolyon'un biyografisini yazan, onun faaliyetlerini kendi zihnindeki Napolyon kompozisyonuna göre yorumlar. Ancak söz konusu İslam Peygamberi olduğunda cımbızlanmış itirazlarla biyografi yazılabileceği düşünülüyor."
+    },
+    {
+      "tip": "alinti",
+      "metin": "İslamiyet tarih ışığında doğdu. Kökleri yüzey seviyesindedir. Kurucusunun hayatı bize 16. yüzyıl reformcularınınki kadar malumdur.",
+      "kaynak": {
+        "yazar": "Ernest Renan (Bernard Lewis aktarımıyla)",
+        "eser": "Lewis, Tarihte Araplar",
+        "sayfa": "17"
+      },
+      "kitapSayfa": "143"
+    },
+    {
+      "tip": "alinti",
+      "metin": "İslamiyet'in ortaya çıkışı ve olgunlaşması hakkında hadsiz hesapsız birçok tafsilat ve teferruata vâkıfız. Bunlara sair dinlerin tarihinde tesadüf edemeyiz.",
+      "kaynak": {
+        "yazar": "Leone Caetani",
+        "eser": "İslam Tarihi",
+        "sayfa": "221"
+      },
+      "kitapSayfa": "143-144"
+    },
+    {
+      "tip": "alinti",
+      "metin": "Muhammed söz konusu olduğunda tahminlere sık başvurmak zorunda olsak da bunları makul ölçülerde nesnel araştırma ilkeleri üzerine kurabiliriz. Zaman boyunca kimsenin itiraz etmediği ve bütün içinde makul bir yere oturan rivayetlere başvurmakta sakınca yoktur.",
+      "kaynak": {
+        "yazar": "Marshall Hodgson (kitaptaki aktarıma yakın ifade)",
+        "eser": "İslam'ın Serüveni",
+        "sayfa": "209"
+      },
+      "kitapSayfa": "144"
+    }
+  ],
+  "ozet": "Bir delile itiraz etmek kendi iddianızı ispat etmek değildir; 'peygamber değil' diyen, deli ya da sahtekâr seçmeli ve bütün tarihî veriyi o seçimle tutarlı açıklamalıdır. Veri bolluğu bu kompozisyon talebini haklı kılar.",
+  "ilzam": {
+    "soru": "Senin iddian, delillerden birine itiraz ettiğiniz için Peygamber'in peygamber olmadığını ispatlamış sayılacağınız idi. Mevcut veri, itirazın yalnızca bir delile yöneldiği ve bütün tarihî verinin tutarlı bir kompozisyonla açıklanmadığı. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, kompozisyon gerekir",
+      "Bence tek tek itiraz yeterli",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde sorumluluk iki taraflı: biz delilleri, siz de seçtiğiniz ihtimalin kompozisyonunu ortaya koyacağız. Şimdi kaçış gibi görünen üç tavra bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: bir delile itiraz etmek, kendi ihtimalinizin kompozisyonunu kurmak anlamına gelir mi?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: bir delile itiraz etmek, kendi ihtimalinizin kompozisyonunu kurmak anlamına gelir mi?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: kompozisyon kurmanın gerekliliği."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H12-i1",
+      "ozet": "Ben senin delilini reddettim; Peygamber'in sahtekâr olduğunu ispat etmek zorunda değilim.",
+      "anahtar": [
+        "ispat etmek zorunda değilim",
+        "delili reddettim",
+        "sahtekar olduğunu ispat",
+        "benim iddiam yok"
+      ],
+      "yanit": "Delile itiraz, kendi iddianızın ispatı değildir. 'Peygamber değil' diyorsanız bu, 'deli ya da sahtekâr' demektir. Bunlardan hangisini seçtiğinizi ve bütün tarihî veriyi o seçimle nasıl açıkladığınızı göstermeniz gerekir. Müslümanlar da evlilik gibi itirazlara kendi kompozisyonları içinde cevap veriyor; aynı tutarlılık sizden de beklenir.",
+      "kaynak": {
+        "kitapSayfa": "141-143"
+      }
+    },
+    {
+      "id": "H12-i2",
+      "ozet": "Erken dönem İslam kaynakları sonradan yazılmış; güvenemeyiz.",
+      "anahtar": [
+        "sonradan yazılmış",
+        "güvenemeyiz",
+        "güvenilmez kaynak",
+        "rivayetler",
+        "geç kaynak"
+      ],
+      "yanit": "Hodgson'a göre zaman boyunca kimsenin itiraz etmediği ve bütün içinde makul yere oturan rivayetler kullanılabilir. Lewis'in aktardığı Renan ve Caetani'ye göre veri bolluğu başka din tarihlerinde görülmez. Kaynakların güvenilirliğinin ayrıntılı ispatı zemin bölümünde yapılmıştı.",
+      "kaynak": {
+        "kitapSayfa": "143-144"
+      }
+    },
+    {
+      "id": "H12-i3",
+      "ozet": "Bunlar Müslüman yazarın seçmeci okuması.",
+      "anahtar": [
+        "seçmeci",
+        "cımbızlama",
+        "taraflı okuma",
+        "kitap yazarı müslüman"
+      ],
+      "yanit": "Kitap tam olarak seçmeci okumaya karşı çıkıyor: cımbızla rivayet seçmek yerine bütün veriyi açıklayan bir kompozisyon bekliyor. Aynı ölçü Müslüman anlatıya da uygulanır; bu yüzden oryantalist kaynaklar özellikle seçildi.",
+      "kaynak": {
+        "kitapSayfa": "142-144"
+      }
+    },
+    {
+      "id": "H12-i4",
+      "ozet": "Evlilikler gibi konular delil sayılmaz mı?",
+      "anahtar": [
+        "evlilik",
+        "evlatlığı",
+        "kadınlar",
+        "hz muhammed evlilikleri"
+      ],
+      "yanit": "Kitap bu tür itirazlara da kendi kompozisyonu içinde cevap verilmesi gerektiğini söyler ve yazar ayrı bir cevap video bağlantısı da vermiştir (dn. 295). Biz bu konuyu ilgili bölümlerde ele alacağız; şimdilik yalnızca cevap verilmesi gerektiğini ve itirazın tek başına ispat sayılmadığını not edelim.",
+      "kaynak": {
+        "kitapSayfa": "142"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Epilepsi ve siyaset",
+      "metin": "Vahyi epilepsiye bağlayıp aynı anda Peygamber'i siyasi önder olarak tasvir etmek tutarsızlıktır: vahiy iradesiz sayılıyorsa onun doğurduğu siyaset nasıl iradeli olur?",
+      "durum": "kitap",
+      "kitapSayfa": "142-143",
+      "ilzam": "İradesiz bir nöbetin ürünü olan bir vahiy, nasıl bilinçli bir siyasetin aracı olur?"
+    },
+    {
+      "baslik": "Mekkelilerin itirazları",
+      "metin": "Kur'an'da aktarılan 'yalancı, mecnun, sihirbaz' gibi birbiriyle çelişen itirazlar, 1400 yıldır değişmeyen tutarsız iddiaların da benzeridir.",
+      "durum": "kitap",
+      "kitapSayfa": "143",
+      "ilzam": "Birbiriyle çelişen itirazların hepsini aynı anda savunabilir misiniz?"
+    },
+    {
+      "baslik": "Veri bolluğu",
+      "metin": "Renan'ın ve Caetani'nin ifadesiyle İslam'ın doğuşu hakkında başka dinlerde görülmeyecek kadar tafsilat vardır; bu kadar veri varken kompozisyon kurmaktan kaçınmak yalnızca Hz. Muhammed'e münhasır bir tavırdır.",
+      "durum": "kitap",
+      "kitapSayfa": "143-144",
+      "ilzam": "Bu kadar veri olan bir olayı kompozisyon kurmadan yorumlamak başka bir tarihî şahıs için kabul edilir mi?"
+    }
+  ],
+  "kompozisyon": "Seçtiğiniz kutuya göre, bu verilerin hepsini tutarlı bir kompozisyonda nasıl açıklıyorsunuz?",
+  "notlar": "Margoliouth'un adı s. 144'te atıfsız geçer; sunumda kullanma, bkz. dogrulanacaklar.md. 'Evlatlık' ifadesi OCR'dan; ilgili bölüme yönlendirme yap. Alıntıların kimlik/uzmanlık etiketi kitapta yok, verme."
+}

@@ -1,0 +1,151 @@
+{
+  "id": "Z10",
+  "baslik": "Karbon testinin mahiyeti",
+  "dal": "zemin",
+  "sayfa": "37-41",
+  "onkosul": [
+    "Z9"
+  ],
+  "sonraki": "Z11",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Yazmalardan bahsedince karşımıza hep karbon testi çıkıyor. Önce bu testin tam olarak neyi ölçtüğünü anlayalım, çünkü yanlış anlaşılması 'Peygamber'den önce yazılmış Kur'an bulundu' gibi iddialara yol açıyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kronoloji",
+      "metin": "Nüzul 610-632; Hicret 622; Hz. Ebubekir 632-634; Hz. Ömer 634-644; Hz. Osman 644-656; Hz. Ali 656-661; Emevi sonu/Abbasi başı 750. Hicri 1. yüzyıl, miladi 622-719 arasıdır (s. 37)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Kur'an'dan ve Muhammed'in yaşam öykülerinden anlaşıldığı kadarıyla 7. yüzyıl başlarında Arabistan'da da kâğıt bilinmiyordu.",
+      "kaynak": {
+        "yazar": "Jonathan M. Bloom",
+        "eser": "Kâğıda İşlenen Uygarlık",
+        "sayfa": "73"
+      },
+      "kitapSayfa": "38"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Karbon testi yazının değil, yazının yazıldığı malzemenin yaşını verir, üstelik bir olasılık aralığı olarak (%95). Ama deri gibi pahalı malzemeler yıllarca boş bekletilmez; bu yüzden yazı ile malzeme arasında çok uzun bir zaman olamaz (s. 38). Örneğin Kahire mushafı 80 kg ağırlığında, 1087 varaktır."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Birmingham örneği",
+      "metin": "Birmingham yazmasının karbon testi 568-645 aralığını veriyor. Bu aralık 77 yıldır; Peygamber'in 63 yıllık ömründen bile uzundur. '610'dan önce Kur'an' iddiası bu %95 aralık mantığını bilmemekten doğar (s. 39-40)."
+    }
+  ],
+  "ozet": "Karbon testi bir aralık verir ve yazının değil malzemenin yaşını gösterir. Birmingham yazmasının 568-645 aralığı Peygamber'in ömründen uzundur; dolayısıyla bu sonuç 'Peygamber'den önceye ait Kur'an' demek için kullanılamaz. Ayrıca tarih, çapraz okumayla (Süryani, Bizans kaynakları) yapılır.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Birmingham yazmasının 568'e uzanan aralığı, Kur'an'ın Peygamber'den önce var olduğunu gösterir. Veri şu: Test yazıyı değil malzemeyi tarihler, sonuç 77 yıllık bir aralıktır ve malzeme pahalı olduğu için uzun süre boş bekletilmezdi. Alt sınırı 'yazının tarihi' saymak mantıken nasıl yapılabilir?",
+    "cipler": [
+      "Haklısınız, yapılamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; karbon testini doğru okuyunca yazmaların kronolojiyle uyumlu olduğunu görüyoruz. Şimdi bu yazmaların listesine bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Test malzemeyi tarihlerse ve sonuç bir aralık veriyorsa, alt sınırı yazının tarihi saymak neden doğru olsun?",
+        "Kısaca: %95 aralığın bir ucu, kesin tarih değil. Bunu nasıl yorumluyorsunuz?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Karbon testi neyi ölçer, neyi ölçmez?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z10-i1",
+      "ozet": "Peygamber'den önceye ait Kur'an bulundu diyorlar.",
+      "anahtar": [
+        "önceye ait",
+        "peygamber'den önce",
+        "610",
+        "daha eski",
+        "568"
+      ],
+      "yanit": "Bu iddia testin mantığını bilmemekten doğar: Birmingham yazmasının aralığı 568-645'tir, yani 77 yıl; Peygamber'in ömründen uzundur. Ayrıca test malzemeyi tarihler, yazıyı değil.",
+      "kaynak": {
+        "kitapSayfa": "39-40"
+      }
+    },
+    {
+      "id": "Z10-i2",
+      "ozet": "Karbon testi neyi gösterir?",
+      "anahtar": [
+        "karbon",
+        "karbon 14",
+        "test",
+        "tarihlendirme",
+        "ne gösterir"
+      ],
+      "yanit": "Yazının değil, yazının yazıldığı malzemenin yaşını; kesin bir tarih değil, %95 olasılıkla bir aralık verir. Pahalı malzemeler uzun süre boş bekletilmediği için yazı ile malzeme arasında çok uzun bir süre olması beklenmez.",
+      "kaynak": {
+        "kitapSayfa": "38"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Palimpsest",
+      "metin": "Silinip yeniden yazılan malzemelerde (palimpsest) alt metin okunabilir; Cambridge palimpsesti listeye alınmamıştır.",
+      "durum": "kitap",
+      "kitapSayfa": "38-39",
+      "ilzam": "Alt metnin bile okunabildiği malzemelerde bir tahrif izi bulunmaması hakkında ne düşünürsünüz?"
+    },
+    {
+      "baslik": "Seçim kriteri",
+      "metin": "Listeye 0-100 H arasına nispet edilen veya 50-150 gibi 50-100'e düşme ihtimali olanlar alınmış; 100-150 veya 100-200'e nispet edilenler alınmamıştır.",
+      "durum": "kitap",
+      "kitapSayfa": "40",
+      "ilzam": "Listeyi daha geniş tutsaydık sonuç değişir miydi? Değişmeseydi, bu seçim kriteri sizin itirazınızı nasıl etkiler?"
+    },
+    {
+      "baslik": "Çapraz okuma",
+      "metin": "Süryani ve Bizans kaynakları da Peygamber ve Müslümanların durumunu bilir; tarih çapraz okumayla yapılır.",
+      "durum": "kitap",
+      "kitapSayfa": "40",
+      "ilzam": "Tek bir test sonucuyla, bütün yazılı kayıtların çapraz tutarlılığını nasıl dengelersiniz?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani testin aralık mantığını, pahalı malzemenin kullanım hızını ve çapraz kaynakları birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Kitapta s. 40 ve 41 OCR'ı aynı paragrafları tekrarlıyor (docs/dogrulanacaklar.md). Bloom alıntısı dipnot 22-25."
+}

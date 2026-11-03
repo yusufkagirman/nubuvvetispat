@@ -1,0 +1,132 @@
+{
+  "id": "Z9",
+  "baslik": "Yazma eserler üzerinden varsayımsal akıl yürütme",
+  "dal": "zemin",
+  "sayfa": "34-36",
+  "onkosul": [
+    "Z7"
+  ],
+  "sonraki": "Z10",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi yazma eserlere geçiyoruz. Ama önce kitabın ilginç bir açıklamasını duyalım: Yazmalar zorunlu değil, 'fazladan' bir delil. Akli ve tarihî argümanlar yazmalar olmadan da yeterli."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bir senaryo",
+      "metin": "800 yılına ait tek bir mushafın bugünkü metinden farklı olduğunu düşünelim; 700-800 ve sonrası aynı. Bu durumda onu 'münferit bir metin' olarak açıklamak, tüm diğer verileri açıklamaktan çok daha makuldür. Çünkü tahrif iddiası tek bir mushafla ispat edilemez; belli bir tarihten sonraki yazmalarda sistematik aynı farkın görülmesi gerekir (s. 34-35)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bir kıyas",
+      "metin": "İstanbul'u Fatih yerine Kanuni'nin fethettiğini yazan tek bir yazma bulsak, bu yazmayı açıklamak diğer bütün belgeleri açıklamaktan daha kolay olurdu. Tek delille tüm tarihî verileri çürütmek modern tarih yöntemi değildir (s. 35)."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Elimizdeki gerçek ise şu: Kur'an'a muhalif tek bir yazma yok. İlk yüzyıla ait çok sayıda yazma var, bunlar belli bir döneme veya coğrafyaya yığılmamış ve hepsi Emevi dönemine ait. Üstelik pek çoğu henüz hiç incelenmemiş: Örneğin Birmingham yazması 100 yıl okunmadan beklemiş; aynı üniversitede 3.500 Arapça yazma incelenmeyi bekliyor (s. 36)."
+    }
+  ],
+  "ozet": "Tahrif iddiası, tek bir farklı yazmayla değil, belli bir dönemden sonra sistematik olarak tekrar eden farklarla kanıtlanabilir. Elimizde böyle bir fark yok; Kur'an'a muhalif tek bir yazma bile yok.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Kur'an zamanla değiştirilmiş olabilir. Bunun yazmalardaki karşılığı, belli bir tarihten sonra sistematik biçimde farklı yazmalar olurdu. Veri şu: İlk yüzyıla ait çok sayıda yazma var ve hiçbiri bugünkü metne muhalif değil. Bu iddia ile bu veri mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bir arada olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; şimdi bu yazmaların tarihlendirilmesinde kullanılan karbon testinin ne dediğine bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Elimizde muhalif tek bir yazma yokken tahrifi hangi veriyle savunuyorsunuz?",
+        "Peki bir örnek düşünelim: Kanuni'nin İstanbul'u fethettiğini yazan tek bir yazma, tarihi değiştirir mi?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Bir yazmanın farklı çıkması tahrifi ispatlar mı?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z9-i1",
+      "ozet": "Yazmalarda farklılık çıkarsa ne olur?",
+      "anahtar": [
+        "farklılık",
+        "farklı çıkarsa",
+        "fark bulunursa",
+        "farklı yazma"
+      ],
+      "yanit": "Tek bir farklı yazma tahrifi ispatlamaz; farkın belli bir tarihten sonra sistematik olması ve sonraki yazmalara yayılmış olması gerekir.",
+      "kaynak": {
+        "kitapSayfa": "34-35"
+      }
+    },
+    {
+      "id": "Z9-i2",
+      "ozet": "Tek bir farklı yazma bulunursa?",
+      "anahtar": [
+        "tek bir",
+        "bir yazma",
+        "tek yazma",
+        "bir tane"
+      ],
+      "yanit": "O zaman da bu yazma 'münferit bir metin' olarak açıklanır: Kanuni–Fatih örneğindeki gibi, tek delille tüm tarihî verileri çürütmek modern tarih yöntemi değildir.",
+      "kaynak": {
+        "kitapSayfa": "35"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Birmingham yazması",
+      "metin": "Birmingham yazması 100 yıl okunmadan beklemiş ve bir doktora öğrencisi tarafından fark edilmiştir; aynı üniversitede 3.500 Arapça yazma incelenmeyi bekliyor.",
+      "durum": "kitap",
+      "kitapSayfa": "36",
+      "ilzam": "Henüz incelenmemiş yazmalar hakkında 'belki farklıdır' demekle, elimizdeki incelenmiş yazmaların verisini nasıl dengelersiniz?"
+    },
+    {
+      "baslik": "Emevi dönemi",
+      "metin": "Elimizdeki yazmaların tümü Emevi dönemine aittir; Abbasi dönemi 132 H'den itibaren çok devletli bir dönemdir. Yani sonrası için tahrif aklen imkânsızdır.",
+      "durum": "kitap",
+      "kitapSayfa": "36",
+      "ilzam": "Çok devletli döneme ait tek bir farklı mushafın olmaması, hangi tarihî senaryoyla açıklanır?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani muhalif tek yazmanın bulunmamasını, yazmaların belli yere yığılmamasını ve çok sayıda olmasını birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Mütevatir kavramı için kitap dipnotta 'Hissi Mucizeler' bölümüne atıf yapar (s. 35). Kanuni–Fatih kıyası yazara aittir."
+}

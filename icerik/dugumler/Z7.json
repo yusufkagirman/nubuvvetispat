@@ -1,0 +1,167 @@
+{
+  "id": "Z7",
+  "baslik": "İhtilaf-ittifak ve sistemli tahrifin imkânsızlığı",
+  "dal": "zemin",
+  "sayfa": "28-33",
+  "onkosul": [
+    "Z6"
+  ],
+  "sonraki": "Z8",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Peki sonraki dönemlerde bir iktidar metni değiştirmiş olamaz mı? Kitap bu soruyu tersinden soruyor: Tahrife dair neden hiçbir ihtilaf nakledilmedi?"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Hristiyanlık örneğinde Roma'nın 'kanonik İnciller'i dikte etmesi muhalefeti sindirse de, apokrif İnciller, konsil kayıtları ve yasaklı listeler bugün hâlâ biliniyor. Tarihî veriyi tamamen yok etmek imkânsızdır (s. 28-29)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Rakip iktidarlar",
+      "metin": "Emevileri yıkan Abbasiler Kur'an'ın tahrifini 'yedi cihana' duyururdu; Abbasiler tahrif etseydi Endülüs Emevileri duyururdu. Hz. Muhammed'den yaklaşık 120 yıl sonra (m. 750 sonrası) tek devlet hâkimiyeti olmamıştır (s. 29-30)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Devletler ve krallıklar, olmuş ve gerçekleşmiş olan olayların üzerini örtüp gizleyemezler.",
+      "kaynak": {
+        "yazar": "Kadı Abdülcebbar",
+        "eser": "Tesbîtu Delâili'n-Nübüvve",
+        "sayfa": "684-688"
+      },
+      "kitapSayfa": "30"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Sorular",
+      "metin": "Tahrif iddiası şu sorulara delilli cevap vermelidir: Hangi dönemde? Kim tarafından? Hangi kayıtlarla? İtiraz olduysa nerede kaydedildi, olmadıysa neden olmadı? Sonrakiler neden işaret etmedi? Aksi hâlde 'tarih yorumlamak değil, dizi senaryosu yazmak' olur (s. 33)."
+    }
+  ],
+  "ozet": "Tahrifin en güçlü karşı delili, tahrife dair hiçbir ihtilafın nakledilmemesidir. Emevi, Abbasi ve Endülüs'ün rakip iktidarları, Haricilerin her ayet yorumunda gösterdiği hassasiyet ve muhaliflerin dükkânlarda sergilenen kitapları, sistemli bir tahrifi aklen imkânsız kılar.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Güçlü bir iktidar Kur'an'ı değiştirmiş ve muhalefeti susturmuş olabilir. Veri şu: Bu iktidarların her biri ötekinin kusurlarını (Kerbela ve Harre dahil) herkese duyurdu, hiçbiri tahrif suçlaması yapmadı; bir ayetin yorumu yüzünden kılıç çeken Hariciler bile metne dair tek ses çıkarmadı. Bir tahrifin rakip iktidarların, muhaliflerin ve tüm coğrafyaların gözü önünde kimsenin dikkatini çekmeden yapılması nasıl mümkün olabilir?",
+    "cipler": [
+      "Haklısınız, mümkün olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; yani yazılı, ezberli ve siyasi rakiplik zemininde tahrifin izi bulunmuyor. Şimdi ikinci koruma ayağına, ezbere bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu açık bırakayım: Tüm rakip iktidarların susup tahrifi herkese duyurmaması hangi gerekçeyle açıklanır?",
+        "Kısaca özetleyeyim: Tahrif iddiası bu soruları cevaplamak zorunda. Siz hangisini cevaplayabilirsiniz?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince değineceğiz. Şu an şunu konuşuyorduk: Rakip iktidarlar tahrifi neden duyurmadı?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z7-i1",
+      "ozet": "Güçlü bir iktidar muhalefeti susturabilir.",
+      "anahtar": [
+        "susturur",
+        "iktidar",
+        "güçlü devlet",
+        "baskı",
+        "yasakla"
+      ],
+      "yanit": "Hristiyan tarihinde Roma bile muhalefetin izini silemedi. İslam coğrafyasında ise 750'den sonra tek devlet hâkimiyeti hiç olmadı; rakip iktidarlar vardı. Üstelik Peygamber'i yalanlayan kitaplar bile İslam devletinin en güçlü döneminde dükkânlarda sergilendi.",
+      "kaynak": {
+        "kitapSayfa": "28-33"
+      }
+    },
+    {
+      "id": "Z7-i2",
+      "ozet": "Roma İncilleri dikte etti, İslam'da da böyle olmuştur.",
+      "anahtar": [
+        "roma",
+        "dikte",
+        "incil",
+        "konsil",
+        "hristiyanlık"
+      ],
+      "yanit": "Roma'nın dikte etmesine rağmen apokrif İnciller, konsil kayıtları ve yasaklı liste bugün bilinir. İslam'da ise böyle bir kayıt yoktur; tahrife dair bir ihtilaf, bir konsil, bir yasaklı liste nakledilmemiştir.",
+      "kaynak": {
+        "kitapSayfa": "28-29"
+      }
+    },
+    {
+      "id": "Z7-i3",
+      "ozet": "Bir iktidar tahrif etmiş olabilir.",
+      "anahtar": [
+        "bir iktidar",
+        "emevi",
+        "abbasi",
+        "halife değiştirdi"
+      ],
+      "yanit": "Emevileri yıkan Abbasiler bunu duyururdu; Abbasiler yapsa Endülüs Emevileri duyururdu. Emevilerin kötülükleri (Kerbela, Harre) gizlenemediği gibi, Abbasilerin bu kötülükleri afişe etmesine rağmen tahrif propagandası yapılmadığı da bilinir.",
+      "kaynak": {
+        "kitapSayfa": "29-30"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Hariciler",
+      "metin": "Hariciler, 'hüküm Allah'ındır' ayetinin yorumu yüzünden Ali'yi kâfir ilan edip kılıç çektiler ve yüzyıllarca isyan ettiler. Bir ayetin yorumunda bu kadar tutucu olanların Kur'an tahrif edilirken tek ses çıkarmaması düşünülemez.",
+      "durum": "kitap",
+      "kitapSayfa": "30",
+      "ilzam": "Senin iddian bir tahrifin fark edilmediğiydi. Tek bir ayetin yorumu için kılıç çeken bir grubun metin değişirken sessiz kalması mantıken nasıl mümkün olabilir?"
+    },
+    {
+      "baslik": "İlk iki halife döneminde itiraz",
+      "metin": "Kadı Abdülcebbar'a göre ilk iki halife döneminde bile İbn Mesud, Übeyy, Muaz, Zeyd, İbn Abbas gibi sahabe ictihadî meselelerde itiraz edebiliyordu. O hâlde sonraki dönemlerde itirazın engellenmesi mümkün değildir.",
+      "durum": "kitap",
+      "kitapSayfa": "31-33",
+      "ilzam": "İtirazın hiçbir dönemde engellenemediği bir ortamda, tahrife itirazın hiç kaydedilmemesini nasıl açıklarsınız?"
+    },
+    {
+      "baslik": "Peygamber'i yalanlayan kitaplar",
+      "metin": "Müslümanlar, Peygamber'i yalanlayan kitapları (el-Haddâd, el-Verrâk, İbnü'r-Râvendî, el-Husrî, el-Kindî, er-Râzî ve benzerleri) dükkânlarda harfi harfine sergilediler.",
+      "durum": "kitap",
+      "kitapSayfa": "31-32",
+      "ilzam": "Muhalif kitapların bile serbestçe dolaştığı bir dünyada, tahrife dair bir muhalif kaydın hiç bulunmamasını nasıl yorumlarsınız?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani rakip iktidarları, Haricileri, serbestçe dolaşan muhalif kitapları ve tahrife dair hiçbir kaydın bulunmamasını birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Kadı Abdülcebbar atıfı kitapta (s. 30-33; dipnot 17-19): Tesbîtu Delâili'n-Nübüvve s.684-688, 1076. Alıntının tam sayfası OCR'dan teyit edilmeli."
+}

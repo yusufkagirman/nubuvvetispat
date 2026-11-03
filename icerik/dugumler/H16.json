@@ -1,0 +1,329 @@
+{
+  "id": "H16",
+  "baslik": "Haberin Keskinliği: Orta Yol Yoktur",
+  "dal": "haber",
+  "sayfa": "149-156",
+  "onkosul": [
+    "H15"
+  ],
+  "sonraki": null,
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist",
+      "kaynaksiz"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi bölümün en önemli noktasına geliyoruz. Biraz önce üç kutuyu konuştuk; ama birçok kişi bu kutuların arasında yumuşak bir geçiş arar. Hem 'deli ama zeki' hem de 'sahtekâr ama iyi' diye bir orta yol var mı? Kitap buna 'haberin keskinliği' diyor."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Eğer o, Cebrail'i gördüğünü -hâşâ- zanneden ve farkında olmadan yalan söyleyen birisi ise 'zeki' olamaz. Ya da -hâşâ- Cebrail'i görmediğini bilen, ancak farkında olarak yalan söyleyen birisi ise 'iyi' olamaz. Haberin detayları bu tarz orta yollu kurgulara müsaade etmez.",
+      "kaynak": {
+        "yazar": "Altay Cem Meriç",
+        "eser": "Peygamberliğin İspatı – Haber Delili (kitabın tespiti)",
+        "sayfa": "149-150"
+      },
+      "kitapSayfa": "149-150"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bunu üç olayla görelim. Önemli bir not: Bunlar burada delil olarak değil, 'orta yol kurgusunun neden çalışmadığını' göstermek için kullanılıyor. Delilleri sonraki bölümlerde ele alacağız. Şimdi sizden istediğim, bir ihtimali yalnızca ciddiye alıp sonuçlarına bakmak. Haşa, Peygamber bunların hepsinden münezzehtir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Olay 1: Namazda iblis hadisi",
+      "metin": "Ebu'd-Derda'dan: Rasûlullah namazda 'Senden Allah'a sığınırım' der, üç kez 'Allah'ın laneti ile seni lanetlerim' der ve sanki bir şeyi yakalayacakmış gibi elini uzatır. Sahabe namazdan sonra sorar. Cevap: Allah'ın düşmanı iblis yüzüne bir ateş parçası yaklaştırdı; üç kere sığındım, üç kere lanetledim, kaçmadı; onu yakalamak istedim; Süleyman kardeşin duası olmasaydı mescidin direğine bağlanır, Medine çocukları onunla oynardı. (Müslim, Mesâcid 40; Nesâî, Sehv 19)"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu sahneyi önce 'haşa farkında olmadan yalan' diyen birinin gözüyle okuyalım. Bir mescit dolusu insan var; ön safta biri hayal görüyor, arkasındaki kimse görmüyor. Hayalini yalnızca bir his gibi yaşamıyor; eliyle koluyla engellemeye çalışıyor, karşısındakine bir şeyler söylüyor. Bu, işitsel, görsel ve dokunsal halüsinasyon demek; ağır bir psikotik tablo. Üstelik bu tablo başlangıçtan vefata kadar hiç azalmadan sürmüş olmalı: kalabalıkta da tek başına da, savaşta da dinlenirken de, mutlu da üzgün de."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi aynı sahneyi 'haşa farkında olarak yalan' diyen birinin gözüyle okuyalım. Arkanızda evladını, canını, malını, itibarını feda etmiş bir cemaat var. Siz bir anda itişme kakışma hareketleri yapıyor, birileriyle konuşuyormuş gibi mırıldanıyorsunuz, sorulunca bu sözleri söylüyorsunuz. Bu insanları manipüle ederek ne kazanırsınız? Sizi tasdik etmeyenler inanmaz; tasdik edenler için de ekstra bir getirisi yok. Bu, insanların aklıyla alay etmek ve temiz duygularını istismar etmek olmaz mı? (Kitabın dn. 310'a göre Nebi bundan münezzehtir; bu pasaj yalnızca böyle bir bakışın tutarsızlığını göstermek içindir.)"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Olay 2: Namaz vakitlerini Cebrail'in öğretmesi",
+      "metin": "Nebi, namazın ilk ve son vakitlerinde Cebrail'in arkasında namaz kılar ve vakitleri sahabeye öğretir; ilk gün öğle ve ikindinin ilk vakitlerinde, ikinci gün son vakitlerinde. (Buhârî, Bâbu Zikri'l-Melâike 3221; Muvatta, Vukûtu's-Salât 1) Bunu 'farkında olmadan yalan' saymak, aralıksız iki gün boyunca düzenli bir halüsinasyonun arkasında namaz kılmak demektir; üstelik bunun halüsinasyon olduğunun farkında bile olmadan."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Olay 3: Übey b. Ka'b ve Beyyine suresi",
+      "metin": "Hz. Peygamber Übey'e 'Allah, sana Beyyine suresini okumamı emretti' der. Übey heyecanla 'Allah size benim adımı mı andı ya Rasûlallah?' diye sorar; 'Evet' cevabını alınca sevinçten ağlar. (Buhârî, Menâkıbü'l-Ensâr 16; Müslim, Fezâilü's-Sahâbe 122) Bunu -haşa- bilerek ve sahabesini manipüle etmek için söylediği düşünülürse, en saf duyguların üstünde tepen, kötü karakterli biri olması gerekmez mi? Oysa 'iyi biri' ihtimali bu kurguda yaşayamaz."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Vahyin geliş şekillerini anlatan hadisler de ciddi bir yekûn oluşturuyor. Terleme, titreme, üzerini örtme gibi hâller var. Lesley Hazleton'a göre vahiyler Peygamber'i 'eşit miktarda gururlu, kararlı, yorgun ama güçlü, sersemlemiş ama aklı başında' yapıyordu; bazen soğukta bile ter içinde kalıyordu. Bunların hepsi kandırmaca olsaydı 'iyi bir toplum önderi ama bile bile yalan söylüyordu' kurgusuyla işin içinden çıkılamazdı."
+    },
+    {
+      "tip": "kart",
+      "baslik": "0'dan 100'e skala",
+      "metin": "Nübüvvet iddiasını 0 ile 100 arası bir skala gibi düşünelim. Biz 'peygamber' derken +100 diyoruz. Biri 'farkında olmadan yalan söylüyordu ama zeki bir liderdi' derse, 70-80 demiyor; 0 bile demiyor, -100 diyor. Çünkü bu tabloda Nebi, büyük işler başarmak şöyle dursun, günlük kişisel bakımını bile yapmasına şaşılacak, halk dilindeki ifadeyle 'zincirlik' bir hastalık tablosunda olmuş olur. Bu ihtimalin ayrıntısını Fetanet bölümünde göreceğiz."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Eski müellifler bu yüzden şunu söylemişler: 'İnsanların en faziletlilerinden (gerçek peygamberler) ve en düşüklerinden (sahte peygamberler) başkası nübüvvet iddiasında bulunmaz.' Kitapta kaynağı gösterilmemiş bir aktarımdır; ama fikir açık: orta hâlli bir peygamberlik iddiası yoktur. Kur'an da aynı çizgide: 'Kur'an gelmeden önce aranızda uzun bir süre yaşadım, aklınızı kullanmaz mısınız? Allah hakkında yalan uyduran ... kimden daha zalimdir?' (Yûnus 10/16-17)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Peygamberlik sıra dışı bir fenomendir ve bir peygamberin etkisinin, halkının yaşam biçimini külliyen değiştirip arkasında dünyanın büyük dinlerinden birini miras bırakması nadirdir.",
+      "kaynak": {
+        "yazar": "Ira M. Lapidus",
+        "eser": "İslâm Toplumları Tarihi",
+        "sayfa": "55"
+      },
+      "kitapSayfa": "156"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Şimdi sıra sizde",
+      "metin": "Haber karşımızda: Muhammed b. Abdullah kırk yaşında bir melek gördüğünü ve Allah'ın elçisi olduğunu söylüyor.\n1) Doğru söylüyor: peygamberdir.\n2) Haşa yalan söylüyor ve farkında: sahtekâr.\n3) Haşa yalan söylüyor ve farkında değil: algısı bozuk.\nOrta yol, yani 'deli ama zeki' ya da 'sahtekâr ama iyi', haberin ayrıntılarına inince çöküyor. Siz bu üç kutudan hangisine daha yakın duruyorsunuz? Cevabınıza göre o kutunun delillerini birlikte inceleyeceğiz."
+    }
+  ],
+  "ozet": "Haber üç ihtimalden başka bir şeye izin vermez: doğru, farkında olarak yalan, farkında olmadan yalan. 'Deli ama zeki' ya da 'sahtekâr ama iyi' diye orta yol kurulamaz; haberin ayrıntıları (iblis sahnesi, namaz vakitleri, Übey olayı, vahiy halleri) iki yönde de yumuşak geçişe izin vermez. Sıra, kendi kutunuzu seçmenizde.",
+  "ilzam": {
+    "soru": "Haber karşımızda ve orta yol kalmadı: Muhammed b. Abdullah bir melek gördüğünü ve Allah'ın elçisi olduğunu söylüyor. Bu haberi siz hangi kutuya koyuyorsunuz: doğru söylüyor, haşa bilerek yalan söylüyor ya da haşa farkında olmadan yalan söylüyor? Hangisini seçerseniz, o kutunun delillerine birlikte bakacağız.",
+    "cipler": [
+      "Bence doğru söylüyor",
+      "Bence bilerek yalan söylüyordu",
+      "Bence farkında olmadan yanılıyordu",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Orta yolun kalmadığını kabul ediyorsanız, şimdi kendi kutunuzu seçmeniz gerekiyor: doğru söylüyor mu, haşa bilerek mi yalan söylüyor, yoksa haşa farkında olmadan mı? Hangisine daha yakın hissediyorsunuz?"
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Bu soruyu acele cevaplamanız gerekmiyor; yine de ihtimalleri tekrar özetleyeyim: (1) Doğru söylüyor ve peygamberdir. (2) Haşa yalan söylüyor ve bunun farkında: bu durumda sahtekârlık ihtimali vardır. (3) Haşa yalan söylüyor ama farkında değil: bu durumda algının bozukluğu ihtimali vardır. Dördüncü bir ihtimal yok. Bunlardan hangisi size en yakın?",
+        "Kararsız olmanız çok doğal. İsterseniz kutuları yeniden hatırlatayım: doğru söylüyor, haşa bilerek yalan, haşa bilmeyerek yalan. Yani 'emin değilim' de bir kutu seçmeyi bekleyen bir durum; hangi kutuyu daha az çelişkili buluyorsunuz? Cevabınıza göre o dalın delillerine gideriz."
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: üç ihtimalden hangisini seçeceğiniz."
+      ]
+    },
+    "yonlendir": {
+      "sahtekar": {
+        "anahtar": [
+          "sahtekar",
+          "sahtekâr",
+          "yalan söylüyor",
+          "yalan söyledi",
+          "bile bile",
+          "bilerek",
+          "kandırdı",
+          "kandırıyor",
+          "aldattı",
+          "aldatıyor",
+          "yalancı",
+          "çıkar için",
+          "çıkarı vardı",
+          "güç için",
+          "iktidar",
+          "siyasi",
+          "siyaset",
+          "reformcu",
+          "toplum önderi",
+          "lider",
+          "halkı ikna",
+          "uydurdu",
+          "uydurma",
+          "manipüle",
+          "iyi niyetli yalan",
+          "amacı vardı",
+          "farkında olarak"
+        ],
+        "hedef": "S1"
+      },
+      "deli": {
+        "anahtar": [
+          "deli",
+          "akıl hastası",
+          "hasta",
+          "hayal",
+          "hayal gördü",
+          "halüsinasyon",
+          "halusinasyon",
+          "epilepsi",
+          "sara",
+          "nöbet",
+          "psikoz",
+          "şizofreni",
+          "kendi kafasında",
+          "gerçek sandı",
+          "zannetti",
+          "sanrı",
+          "zihinsel",
+          "akli dengesi",
+          "farkında olmadan",
+          "bilmeden",
+          "vehim",
+          "histeri",
+          "ruhsal"
+        ],
+        "hedef": "F1"
+      },
+      "dogru": {
+        "anahtar": [
+          "doğru söylüyor",
+          "doğru söyledi",
+          "peygamber",
+          "peygamberdir",
+          "elçi",
+          "gerçekten melek",
+          "vahiy aldı",
+          "vahiy gerçek",
+          "inanıyorum",
+          "müminim",
+          "gerçek peygamber",
+          "doğru haber",
+          "hak peygamber",
+          "allah elçisi"
+        ],
+        "hedef": "M1"
+      }
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H16-i1",
+      "ozet": "Peygamber iyi niyetli bir toplum önderiydi; halkını kurtarmak için 'melek geldi' demiş olabilir.",
+      "anahtar": [
+        "iyi niyetli",
+        "toplum önderi",
+        "halkını kurtarmak",
+        "reformcu",
+        "iyi biriydi"
+      ],
+      "yanit": "Bu, haberin köşelerini yuvarlamaktır. İblis hadisindeki gibi bir sahne (el kol hareketleri, mırıldanma, mescitte ilan) toplum önderliğiyle hiç ilgisi olmayan, aklıyla alay eden bir numara olurdu. Fedakâr bir kitlenin duygularını suiistimal eden, 23 yıl boyunca babaları oğullara düşman eden birine 'iyi' denemez. Haşa; bu kurgu haberin ayrıntılarıyla birlikte yaşayamaz.",
+      "kaynak": {
+        "kitapSayfa": "153-155"
+      }
+    },
+    {
+      "id": "H16-i2",
+      "ozet": "Belki epilepsi ya da halüsinasyon vardı ama o yine de zeki bir liderdi.",
+      "anahtar": [
+        "epilepsi",
+        "halüsinasyon",
+        "zeki lider",
+        "hasta ama zeki",
+        "deha"
+      ],
+      "yanit": "Sahne halüsinasyon olarak okunduğunda ağır bir psikoz tablosu çıkar: görsel, işitsel, dokunsal halüsinasyon; iki gün düzenli namaz vakti sahnesi; ölüme kadar hiç azalmayan seyir. Zeki ve başarılı bir önder tablosuyla bağdaşmaz. Skalada bu ihtimal 0 bile değil, -100'dür.",
+      "kaynak": {
+        "kitapSayfa": "150-153"
+      }
+    },
+    {
+      "id": "H16-i3",
+      "ozet": "İkisinin arası olamaz mı? Biraz yanılmış, biraz abartmış.",
+      "anahtar": [
+        "ikisinin arası",
+        "orta yol",
+        "biraz yanılmış",
+        "biraz abartmış",
+        "karışık"
+      ],
+      "yanit": "Eski müelliflerin tespitine göre nübüvvet iddiası orta hâlli biri tarafından yapılmaz: ya en faziletlilerden ya en düşüklerdendir. Haberin ayrıntıları (iblis sahnesi, namaz vakitleri, Übey olayı, vahiy halleri) iki yönde de orta yola izin vermez.",
+      "kaynak": {
+        "kitapSayfa": "155-156"
+      }
+    },
+    {
+      "id": "H16-i4",
+      "ozet": "İblis hadisi güvenilir bir rivayet mi, yoksa sonradan mı eklendi?",
+      "anahtar": [
+        "rivayet güvenilir",
+        "sonradan eklenmiş",
+        "hadis uydurma",
+        "sahih mi",
+        "hadis güvenilir değil"
+      ],
+      "yanit": "Bu rivayetler Müslim ve Nesâî gibi eserlerde yer alıyor; Z14'te konuştuğumuz gibi hadis tek başına delil olarak sunulmuyor. Burada hadis yalnızca 'orta yol kurgusunun nasıl çöktüğünü' göstermek için kullanılıyor; yani hadisleri kabul etmeseniz de 'bu rivayet doğruysa haber ne olurdu?' sorusuna cevap veriyorsunuz.",
+      "kaynak": {
+        "kitapSayfa": "150-151, 89-90"
+      }
+    },
+    {
+      "id": "H16-i5",
+      "ozet": "Bu anlatım Peygamber'e saygısızlık değil mi?",
+      "anahtar": [
+        "saygısızlık",
+        "hakaret",
+        "ayıp",
+        "yakışmaz",
+        "rahatsız oldum"
+      ],
+      "yanit": "Haklı bir hassasiyet. Kitap da bunu dn. 310'da açıkça belirtir: bu sahneler yalnızca muhalif kurgunun tutarsızlığını göstermek içindir; Nebi bunların hepsinden münezzehtir. Biz de 'haşa' diyerek ve yalnızca bu ihtimali ciddiye alıp sonucuna bakarak ilerliyoruz.",
+      "kaynak": {
+        "kitapSayfa": "153-155"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "İblis ve ateş parçası",
+      "metin": "Namazda eli uzanan, mırıldanan, mescitte ilan eden Nebi sahnesi: 'halüsinasyon' okumasında ağır bir psikoz, 'bilerek' okumasında anlamsız ve aklıyla alay eden bir manipülasyon olurdu; her iki okuma da toplum önderliğiyle ilgisiz.",
+      "durum": "kitap",
+      "kitapSayfa": "150-151, 153-154",
+      "ilzam": "Aynı sahneyi hem 'zeki lider' hem 'iyi insan' kurgusuyla açıklayabilir misiniz?"
+    },
+    {
+      "baslik": "Cebrail ve namaz vakitleri",
+      "metin": "İki gün boyunca düzenli bir halüsinasyonun arkasında namaz kılmak ve vakitleri sahabeye öğretmek; ayrıca Hendek sonrası Cebrail'in, Dozy'nin anlatımıyla elbiselerinin tozu silkelenmeden Benî Kurayza üzerine yürüme emri getirmesi.",
+      "durum": "kitap",
+      "kitapSayfa": "151-152",
+      "ilzam": "İki gün süren, düzenli bir ritüelin arkasındaki kişiyi 'zeki lider' kutusuna nasıl yerleştirirsiniz?"
+    },
+    {
+      "baslik": "Übey b. Ka'b ve Beyyine",
+      "metin": "'Allah, sana Beyyine suresini okumamı emretti' sözünü duyan Übey'in sevinçten ağlaması; bunu bilerek manipülasyon sayarsanız en saf duyguların üstünde tepen biri çıkar.",
+      "durum": "kitap",
+      "kitapSayfa": "155",
+      "ilzam": "En saf duygulara bile bile yalan söyleyen birini nasıl 'iyi bir insan' sayarsınız?"
+    },
+    {
+      "baslik": "Vahyin geliş şekilleri",
+      "metin": "Hazleton'a göre vahiy anları onu soğukta bile terleten, titreten, 'sersemlemiş ama aklı başında' hâlde bırakıyordu. Bunların hepsi kandırmaca ise 'iyi ama yalancı' kurgusu çöker.",
+      "durum": "kitap",
+      "kitapSayfa": "154",
+      "ilzam": "Terleme ve titreme gibi hâllerin hepsini bile bile oynanmış sayarsanız, kişinin 'iyi' kalmasını nasıl açıklarsınız?"
+    }
+  ],
+  "kompozisyon": "Haberin bu ayrıntılarının tamamını, hangi kutuda ve hangi tutarlı kompozisyonla açıklıyorsunuz?",
+  "notlar": "Bu düğüm H bölümünün dal seçen son düğümüdür (sonraki: null; niyetler.yonlendir: sahtekar->S1, deli->F1, dogru->M1). Kararsız kullanıcı için kacamak yanıtları ihtimalleri yeniden açıklar. Sert içerik: 'yalnızca bu ihtimali ciddiye alıp sonucuna bakıyoruz' çerçevesi şarttır; iblis sahnesi genişletilebilir kutu olarak sunulabilir. dn. 310 notu, 'eski müellifler' sözünün kaynağı kitapta yok (dogrulanacaklar.md), son sözler hadisi kaynaksız (kullanılmadı). Skala 0-100: s. 152-153. Hazleton: İlk Müslüman, s. 122 (dn. 311). Dozy: İslam Tarihi, s. 76 (dn. 307)."
+}

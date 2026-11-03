@@ -1,0 +1,153 @@
+{
+  "id": "H14",
+  "baslik": "Anlaşılmazlık Perdesi",
+  "dal": "haber",
+  "sayfa": "146-147",
+  "onkosul": [
+    "H13"
+  ],
+  "sonraki": "H15",
+  "profil": {
+    "kritik": [
+      "agnostik"
+    ],
+    "atlanabilir": [
+      "hristiyan",
+      "yahudi",
+      "deist"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "'Bu konuda kesin bir şey bilinemez' diyenlerin hakkı var; ama bu cümlenin bir bedeli de var. Bakalım."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Anlaşılmazlık perdesi",
+      "metin": "Umursamazlığın gündelik hayata yansıması şudur: 'Ne olduğunu bilemiyorum.' Yani meselenin üstüne bir örtü çekmek."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Hiçbir tarihî olguyu böyle bir bilinemezliğin arkasına atmıyoruz; hele bu kadar temel bir meselede hiç. Burada konuştuğumuz şey Nebi'nin hayatının ikincil bir ayrıntısı değil, 'ana arter' sorular. İnsanlık tarihini 1400 yıldır etkilemiş bir olayın en temel iddiasını tartışıyoruz."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "İslam hakkında konuşmadan geçmiş 1500 yılın hiçbir coğrafyasının tarihi yazılamaz. Bu fikrin temas etmediği hiçbir coğrafya, toplum ya da düşünür neredeyse yok."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Tutarlılık testi",
+      "metin": "'Bilemiyorum' diyen biri, bu dönemin bütün ayrıntıları hakkında da susmalı değil mi? Yoksa 'Alfabenin ilk harfi nedir?' sorusuna 'bilmiyorum' diyen birinin hemen ardından Kant'ın Saf Aklın Eleştirisi üzerine eleştiri yazmaya kalkması gibi bir durum ortaya çıkar."
+    }
+  ],
+  "ozet": "Temel iddiada 'bilemiyorum' diyen, o iddiadan türeyen bütün tarihî olgular hakkında konuşma hakkını da kaybeder. Elimizde yeterli veri olan önemli bir olay hakkında kompozisyon kurmadan konuşmak abestir.",
+  "ilzam": {
+    "soru": "Senin iddian, bu temel meselenin bilinemez olduğu idi. Mevcut veri, aynı kişinin bu dönemin savaşları, devletleri ve düşünce tarihi hakkında bilgiyle konuşabildiği. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, tutarlı olmaz",
+      "Bence ikisi farklı konular",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde 'bilemiyorum' demek mümkün, ama o zaman üstüne yorum yapmamak gerekir. Bir adım sonra bu perdenin popüler bir başka biçimine, kâhinlik iddiasına bakacağız."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: temelde 'bilemiyorum' diyen biri, üstüne yorum yapabilir mi?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: temelde 'bilemiyorum' diyen biri, üstüne yorum yapabilir mi?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: anlaşılmazlık perdesi ve tutarlılık."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H14-i1",
+      "ozet": "Bu konuda kesin bir şey bilinemez; ben agnostik kalıyorum.",
+      "anahtar": [
+        "agnostik",
+        "bilinemez",
+        "bilemiyorum",
+        "kesin değil",
+        "bilemeyiz"
+      ],
+      "yanit": "Agnostik kalmak başlı başına saygın bir tavır. Tek şart, tutarlı kalmak: temel iddiayı bilinemez sayan biri, ondan türeyen tarihî olgular hakkında da hüküm vermemeli. Kitap bunu 'alfabeyi bilmeyip Kant eleştirmek'e benzetir.",
+      "kaynak": {
+        "kitapSayfa": "146-147"
+      }
+    },
+    {
+      "id": "H14-i2",
+      "ozet": "Tarih hiçbir zaman kesin değildir; her şey için 'bilemiyorum' diyebilirim.",
+      "anahtar": [
+        "tarih kesin değil",
+        "her şey için",
+        "hiçbir şey kesin",
+        "tarihî bilgi güvenilmez"
+      ],
+      "yanit": "O zaman sadece bu olay için değil, bütün tarih için aynı şüpheyi taşımanız gerekir; hem Napolyon'u hem Sezar'ı hem de İslam sonrası olayları. Kitap burada seçici bilinemezliğin tutarsız olduğunu söyler; tam şüphecilik ise ayrı bir felsefi tutumdur.",
+      "kaynak": {
+        "kitapSayfa": "146-147"
+      }
+    },
+    {
+      "id": "H14-i3",
+      "ozet": "Elimizde yeterli veri yok.",
+      "anahtar": [
+        "yeterli veri yok",
+        "veri eksik",
+        "kanıt yok",
+        "belge yok"
+      ],
+      "yanit": "Veri durumuna daha önce baktık: Renan, Caetani ve Hodgson'a göre İslam'ın doğuşu hakkında başka dinlerde olmayan ölçüde tafsilat var. Veri yetersizliği iddiasını, bu bölümlerde karşılaştırmalı olarak kendiniz de tartabilirsiniz.",
+      "kaynak": {
+        "kitapSayfa": "143-144, 146-147"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Alfabe ve Kant",
+      "metin": "Alfabenin ilk harfini bilmeyen birinin Kant'ın Saf Aklın Eleştirisi'ne eleştiri yazmak istemesi gibi, temeli bilinemez sayıp üstüne yorum yapmak abestir.",
+      "durum": "kitap",
+      "kitapSayfa": "146-147",
+      "ilzam": "Temeli bilinemez sayan biri, üstüne yapılan yorumlara neden güvensin?"
+    },
+    {
+      "baslik": "Ana arter",
+      "metin": "Konuştuğumuz konu Nebi'nin hayatının ikincil bir ayrıntısı değil; 1400 yıldır insanlık tarihini etkilemiş bir dönemin en temel meselesidir.",
+      "durum": "kitap",
+      "kitapSayfa": "146",
+      "ilzam": "Bu kadar temel bir iddiada bilemiyorum demek, sonraki bütün tarihî yorumlar için ne anlama gelir?"
+    }
+  ],
+  "kompozisyon": "Bu verilerle birlikte, 'bilemiyorum' tutumunu tutarlı bir kompozisyonda nasıl yerleştiriyorsunuz?",
+  "notlar": "Agnostik profilde kritik: tutarlılık testi kartı. Kaynak: yazarın benzetmeleri (s. 146-147)."
+}

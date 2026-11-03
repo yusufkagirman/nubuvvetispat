@@ -1,0 +1,168 @@
+{
+  "id": "Z6",
+  "baslik": "Kur'an'ın erken yazımı ve çoğaltılması (Sıffin sahnesi)",
+  "dal": "zemin",
+  "sayfa": "23-28",
+  "onkosul": [
+    "Z5"
+  ],
+  "sonraki": "Z7",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "İlk soru şu: Kur'an ne zaman yazıya geçti? Matbaa öncesi dünyada metinlerin 500-600 hatta 1000 yıl sonra yazıya geçmesi bile normaldir. Kur'an için durum çok farklı."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Hz. Muhammed'in ölümü üzerinden bir yıldan fazla bir zaman geçtikten sonra, Hz. Ömer'in tavsiyesi üzerine Hz. Ebubekir, bu notları toplayıp münasip ve kolayca okunabilecek bir şekilde derlemesini Zeyd b. Sabit'e emretti.",
+      "kaynak": {
+        "yazar": "R. V. C. Bodley",
+        "eser": "Allah'ın Resulü Hazreti Muhammed (s.a.v.)",
+        "sayfa": "255"
+      },
+      "kitapSayfa": "23"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu, kitaplaşma sürecidir. Yazı ise Nebi hayattayken vahiy kâtipleri tarafından zaten yapılıyordu. Bu bilgiyi Sünni, Şii ve farklı grupların hepsi kabul ediyor; yazar ne Müslüman ne gayrimüslim bir yazarın buna itirazına rastlamadığını söylüyor."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Bir anda Suriyelilerin mızraklarının ucunda Kur'an sayfaları yükseldi. 'Allah'ın Kitabı'na bakın, bırakın aramızdaki ihtilafa karar versin.' diye haykırdılar. Ali'nin askerleri hemen silahlarını indirdiler.",
+      "kaynak": {
+        "yazar": "Washington Irving",
+        "eser": "Muhammed'in Haleflerinin Hayatları",
+        "sayfa": "262"
+      },
+      "kitapSayfa": "25"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Zaman şeridi",
+      "metin": "632: Peygamber'in vefatı. Yaklaşık 650: Hz. Osman'ın mushafları çoğaltması. Yaklaşık 657: Sıffin Savaşı. Sıffin, çoğaltmadan yaklaşık 7, vefattan yaklaşık 27 yıl sonradır; mızrağa takılan nüshaların sayısı bir tarafta 500 olarak aktarılır (s. 26-27)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "En azından bütün Müslümanlar Kur'an konusunda hemfikirdirler.",
+      "kaynak": {
+        "yazar": "Marshall G. S. Hodgson",
+        "eser": "İslam'ın Serüveni",
+        "sayfa": "126"
+      },
+      "kitapSayfa": "27"
+    }
+  ],
+  "ozet": "Kur'an, kitaplaşmadan çok önce yazıya geçti ve çoğaltmadan yaklaşık 7 yıl sonra, birbirine kılıç çeken iki ordu aynı mushafa başvurdu. Galip konumdaki taraf, mağlubun kaldırdığı Kur'an karşısında silahı bıraktı. Bu, metnin doğruluğunda ve tahrif edilmeyişinde iki tarafın da hemfikir olduğunu gösterir.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Hz. Osman mushafları çoğaltırken ve eskilerini yakarken asıl metin değişti ya da kayboldu. Veri şu: Bu işlemden yaklaşık 7 yıl sonra, birbirini öldürmekte olan iki ordu aynı metne başvurdu ve galip taraf kılıcını indirdi; kimse 'bu zaten değiştirilmiş' demedi. Bu iddia ile bu veri mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bir arada olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; yani metnin bu erken dönemde ortak kabul gördüğünü görüyoruz. Şimdi şunu soralım: Sonraki dönemlerde bir iktidar bunu değiştirmiş olabilir mi?"
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Birbirine kılıç çeken iki taraftan hiçbirinin 'bu metin değiştirilmiş' dememesi sizce neyi gösterir?",
+        "Acele etmeyelim. Sıffin sahnesini bir daha düşünün: Galip ordu neden silahı bıraktı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Hz. Osman'ın çoğaltmasından 7 yıl sonra iki ordunun ortak metni neydi?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z6-i1",
+      "ozet": "Kur'an çok sonra yazıya geçti; sözlü kültürde metin değişir.",
+      "anahtar": [
+        "sözlü",
+        "çok sonra",
+        "yazıya geçti",
+        "sözlü kültür",
+        "değişir"
+      ],
+      "yanit": "Matbaa öncesi eserlerin 500-1000 yıl sonra yazıya geçmesi normaldir; sözlü kültürde 'metnin aslı' kavramı yoktur ve icra sırasında metin değişir. Oysa Kur'an ve hadis nakli, 'fi ma kâl ev kemâ kâl' ihtiyatıyla metni korumaya çalışan, sözlü kültürün bittiği bir kültürdür. Sözlü kültürü tarihî kaynak sayıp Kur'an'ı saymamak tutarsızlıktır.",
+      "kaynak": {
+        "kitapSayfa": "23-24"
+      }
+    },
+    {
+      "id": "Z6-i2",
+      "ozet": "Osman mushafları yaktı, asıl metin kayboldu.",
+      "anahtar": [
+        "osman",
+        "yaktı",
+        "yakıldı",
+        "asıl metin",
+        "kayboldu"
+      ],
+      "yanit": "Aynı dönemin sahabesi susmadı mı? Vehim sahibi 'çağdaş sahabe neden itiraz etmedi' sorusuna cevap vermelidir. Üstelik Sıffin'de her iki cephe aynı metne başvurdu; sonraki yazma bulguları da aynı metni teyit eder.",
+      "kaynak": {
+        "kitapSayfa": "24"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "500 nüsha mızrağın ucunda",
+      "metin": "Cerrahoğlu'ndan: Sıffin'de 500 nüsha mızraklara takıldı. Karşı taraf da benzer sayıda varsayılsa 1000 eder; Mısır, Horasan, İran eklenirse çok daha fazla. Hz. Osman'ın çoğaltmasından yaklaşık 7 yıl sonra bu miktar dikkat çekicidir.",
+      "durum": "kitap",
+      "kitapSayfa": "26-27",
+      "ilzam": "Senin iddian metnin kısa sürede kaybolduğuydu. Yedi yıl içinde yüzlerce hatta binlerce nüshanın mevcut olması, bu iddiayla mantıken nasıl bağdaşır?"
+    },
+    {
+      "baslik": "Muir: özgüllüğün garantisi",
+      "metin": "Sir William Muir'e göre, Zeyd'in derlemesinin Ali ve taraftarlarıyla Osman'ın muhalifleri tarafından da kabul edilmesi 'onun özgüllüğünün en büyük garantisi'dir; koleksiyon derhâl ve sorgusuz kullanıldı.",
+      "durum": "kitap",
+      "kitapSayfa": "27-28",
+      "ilzam": "Muhalif tarafların bile kabul ettiği bir metin için 'sonradan değiştirildi' demek, hangi tarihî kayda dayanır?"
+    },
+    {
+      "baslik": "Sözlü kültür kıyası",
+      "metin": "Kitap, 'sözlü kültürü tarihî kaynak sayıp Kur'an ve hadisi saymamak' tutarsızlığına dikkat çeker; Homeros'un İlyada'sının icrada değişmesi buna örnek verilir.",
+      "durum": "kitap",
+      "kitapSayfa": "23-24",
+      "ilzam": "Kendi kabul ettiğin sözlü kültür metinlerinin, ezber ve nakil güvencesi daha zayıf olduğu hâlde kaynak sayılması ile Kur'an'ın reddi nasıl bir arada olabilir?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani erken yazımı, 7 yıl sonra iki ordunun ortak başvurusunu ve kimsenin tahrif iddiasında bulunmamasını birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Sıffin alıntıları: Irving s.262, Rodinson s.334, Lewis s.45, Wellhausen s.61 (kitap dipnotları 4-9). Alıntı metinleri OCR'dan düzeltildi; Bodley alıntısında OCR bozuğu anlamdan tamamlandı."
+}

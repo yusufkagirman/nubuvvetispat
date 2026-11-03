@@ -1,0 +1,154 @@
+{
+  "id": "H13",
+  "baslik": "Umursamazlık ve Yüz Çevirme",
+  "dal": "haber",
+  "sayfa": "144-146",
+  "onkosul": [
+    "H12"
+  ],
+  "sonraki": "H14",
+  "profil": {
+    "kritik": [
+      "agnostik"
+    ],
+    "atlanabilir": [
+      "hristiyan",
+      "yahudi"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi sakin bir konuya gelelim. Bazılarımız bu haberi hiç incelemeden bir kenara bırakır. 'Bu konu beni ilgilendirmiyor.' Bu da bir tavır; ama ne tür bir tavır?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Araba alarmı örneği",
+      "metin": "Biri size 'Arabanızın kilidini biri zorluyor' dese ciddiye almazsınız. Aynı kişi 'Alarmınız çalıyor' dese ve alarm sesini duysanız bile 'Benim arabamı çalmazlar' derseniz, araba çalınırsa, incelemediğiniz bir haberin sonucuna katlanmış olursunuz. Dünyadaki ve evrendeki varlığımız da bize böyle haberleri incelemeye yöneltmelidir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Net bir kompozisyon çizmeden, birkaç anlamadığımız ya da yanlış anladığımız ayrıntıdan yola çıkıp İslam'ın doğru olmadığına karar verirsek, üç ihtimalden fiilen 'peygamber değil'i seçmiş oluruz. Üstelik 'iki ihtimalden biri, ama hangisi olduğu beni ilgilendirmiyor' demiş oluruz."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu bir baskı değil; haberleri değerlendirirken doğal olarak yürüttüğümüz akli bir süreç. Kitap şunu da ayırır: böyle bir sorumluluk için haberi değerlendirmeye yetecek sağlıklı verinin kişiye ulaşmış olması gerekir; bunun takdiri Allah'a aittir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kur'an'da yüz çevirme",
+      "metin": "Tâhâ 20/48: '(Peygamberleri) yalanlayan ve yüz çevirenlere azap edilecektir.'\nel-Kıyâme 75/32: 'Aksine yalan saymış ve yüz çevirmişti.'\nel-Leyl 92/16: 'O ateşe ancak yalanlayıp yüz çeviren kötüler girer.'\nKur'an yüz çevirmeyi yalanlamayla eş değer görür."
+    }
+  ],
+  "ozet": "Tavır almamak da bir tavırdır: pratikte 'peygamber değil' ihtimalini seçmek ve yalanın çeşidine kayıtsız kalmaktır. Sorumluluk için haberi değerlendirmeye yetecek sağlıklı verinin ulaşması gerekir; takdiri Allah'a aittir.",
+  "ilzam": {
+    "soru": "Senin iddian, bu haber hakkında bir tavır almak zorunda olmadığınız idi. Mevcut veri, hiçbir tavır almamanın da fiilen 'peygamber değil' ihtimalini seçmek ve yalanın çeşidini umursamamak anlamına gelmesi. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bu da bir tavır",
+      "Bence tavır almamak tarafsızlıktır",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; elbette tamamen sizin tercihiniz. İsterseniz devam edelim, haberin içine daha dikkatle bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. İsterseniz devam edelim. Sorumuz şuydu: hiçbir tavır almamak gerçekte tarafsızlık mıdır?",
+        "Anlıyorum, acele etmek gerekmiyor. İsterseniz devam edelim. Sorumuz şuydu: hiçbir tavır almamak gerçekte tarafsızlık mıdır?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: tavır almamanın da bir tavır olması."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H13-i1",
+      "ozet": "Bu konu beni ilgilendirmiyor.",
+      "anahtar": [
+        "ilgilendirmiyor",
+        "beni alakadar etmez",
+        "umurumda değil",
+        "önemli değil",
+        "ilgimi çekmiyor"
+      ],
+      "yanit": "Bu sizin hakkınız ve kimse sizi zorlamıyor. Sadece şunu not edelim: tavır almamak da pratikte bir tercihtir; 'peygamber değil' ihtimalini ve yalanın çeşidine kayıtsızlığı seçmiş oluyorsunuz. Alarm çalan arabayı incelemeyen kişi gibi, haberi incelememenin sonucu da kişiye aittir.",
+      "kaynak": {
+        "kitapSayfa": "144-146"
+      }
+    },
+    {
+      "id": "H13-i2",
+      "ozet": "Mesajı yeterince duymamış biri de mi sorumlu?",
+      "anahtar": [
+        "yeterince duymamış",
+        "ulaşmamış",
+        "haberi duymadı",
+        "sorumlu mu",
+        "ulaşmayan"
+      ],
+      "yanit": "Kitap bunu açıkça ayırır: sorumluluk için haberi değerlendirmeye yetecek sağlıklı verinin ulaşmış olması gerekir. Ulaşıp ulaşmadığının takdiri ise Allah'a aittir; kimse bu hükmü başkası adına vermez.",
+      "kaynak": {
+        "kitapSayfa": "145"
+      }
+    },
+    {
+      "id": "H13-i3",
+      "ozet": "Bunu tehdit olarak hissediyorum.",
+      "anahtar": [
+        "tehdit",
+        "korkutma",
+        "baskı",
+        "dayatma",
+        "zorlama"
+      ],
+      "yanit": "Haklısınız, bu bir tehdit olmasın. Amaç sizi korkutmak değil, 'tavır almamanın da bir tavır olduğunu' sakin bir dille göstermek. Devam edip etmemek tamamen sizin kararınız; istediğiniz an ara verebilirsiniz.",
+      "kaynak": {
+        "kitapSayfa": "144-146"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Araba alarmı",
+      "metin": "Alarm çalarken 'Benim arabamı çalmazlar' diyerek incelemeyen kişi, çalınırsa incelemediği bir haberin sonucuna katlanır.",
+      "durum": "kitap",
+      "kitapSayfa": "144-145",
+      "ilzam": "Alarm çalan arabayı incelemeden bırakmak ile bir haberi incelemeden bırakmak arasında fark var mı?"
+    },
+    {
+      "baslik": "Yüz çevirme ayetleri",
+      "metin": "Tâhâ 20/48, en-Necm 53/29, el-Kıyâme 75/32 ve el-Leyl 92/16'da yüz çevirme, yalanlamayla yan yana ya da eş değer anılır.",
+      "durum": "kitap",
+      "kitapSayfa": "145-146",
+      "ilzam": "Yüz çevirmeyi yalanlamadan ayırmanın kendi içinde tutarlı bir gerekçesi olabilir mi?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamıyla birlikte, tavır almamayı hangi kutuda açıklıyorsunuz?",
+  "notlar": "Ton: sakin, baskısız. Mükellefiyetin ulaşmış sağlıklı veriye bağlı olduğu ve takdirin Allah'a ait olduğu vurgusu muhafaza edilmeli (s. 145). Yüz çevirme ayetleri: dn. atıfları bölüm dosyası §4.3."
+}

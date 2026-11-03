@@ -1,0 +1,165 @@
+{
+  "id": "H11",
+  "baslik": "Hz. Muhammed'in Şartlarını Aşan Mucize",
+  "dal": "haber",
+  "sayfa": "139-141",
+  "onkosul": [
+    "H9",
+    "H10"
+  ],
+  "sonraki": "H12",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Birinci kategori mucize bazen yanlış anlaşılıyor. Bu yüzden iki örnekle somutlaştıralım."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Yazılım örneği",
+      "metin": "Cep telefonunu bile kullanamayacak kadar teknolojiden uzak, çok yaşlı biri, 'Allah beni yönlendiriyor' dedikten kısa süre sonra, yazılım üzerine hiç çalışmamasına rağmen çok karmaşık bir bilgisayar yazılımı yazsa, bu onun açısından mucize olurdu. Yazılım yapan binlerce insan olsa da, geçmişi buna uygun olmayan kişinin bunu yapması lehine mucizevi bir yön taşır."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Organ nakli örneği",
+      "metin": "Doktorlukla ilgili hiçbir şey bilmeyen biri 'Melek beni yönlendiriyor' dedikten sonra, eğitim almadan çok karmaşık bir organ nakli ameliyatını ve ameliyat sonrası bakımını yapabilse bu da bir mucize olurdu; organ nakli yapan çok doktor olsa bile."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "İlke şu: 'Allah beni yönlendiriyor' diyen birinin kendi marifetleri üzerinde işler başarması, haberinin doğruluğuna delil olur. İnsanlar bunu 'olağanüstü' olarak algılar, çünkü olağan ve âdet aşılmıştır."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Somut bir örnek: Duhân 44/29",
+      "metin": "Kur'an'da: 'Gök ve yer onların ardından ağlamadı, onlara mühlet de verilmedi.' Eski bir Mısır metninde (British Museum, S. BM 10188, MÖ 4. yy., R. O. Faulkner çevirisi) ise şöyle geçer: 'The regions mourn for you, inasmuch as you are He-who-awakes-in-health; Heaven and earth weep for you, inasmuch as you are greater than the gods.' Yani 'gökler ve yer senin için ağlar'. Bu metin hiyeroglif/hiyeratik bir yazıdaydı ve 19. yüzyılın başlarında çözülmeden önce ölü bir dil ve alfabeydi; Hz. Muhammed'in bunu bilmesi mümkün değildi. Bu mucize doğa olayına muhalefet etmez ve hiç kimsenin yapamayacağı bir şey de değildir; ama onun şartlarında olağanüstüdür. Ayrıntıyı ilgili mucize bölümünde ayrıca göreceğiz; burada yalnızca birinci kategori örnek olarak anılıyor."
+    }
+  ],
+  "ozet": "Birinci kategori mucize, iddia sahibinin kendi geçmişiyle açıklanamayan bir başarıdır; 'Allah beni yönlendiriyor' diyen birinin kendi şartlarını aşan işler yapması, haberinin doğruluğuna delildir. Toplumda başka kimsenin yapamamış olması şart değildir.",
+  "ilzam": {
+    "soru": "Senin iddian, 'bunu binlerce kişi yapabilir, bunun neresi mucize' idi. Mevcut veri, mucizenin birinci kategoride 'iddia sahibinin kendi şartlarıyla açıklanamayan' bir iş olması. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, ölçüt kişinin şartları",
+      "Bence başkaları yapabiliyorsa mucize değildir",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde mesele 'herkes yapabilir mi?' değil, 'bu kişi kendi şartlarıyla yapabilir miydi?' sorusu. Şimdi bu çerçevede bir kompozisyon kurmanın neden gerekli olduğuna bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: kendi şartlarını aşan bir başarı, başkaları yapabiliyor diye mucize olmaktan çıkar mı?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: kendi şartlarını aşan bir başarı, başkaları yapabiliyor diye mucize olmaktan çıkar mı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: birinci kategori mucizenin ölçütü."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H11-i1",
+      "ozet": "Yazılımı binlerce kişi yazabiliyor; bunun neresi mucize?",
+      "anahtar": [
+        "binlerce kişi",
+        "yazılım",
+        "herkes yapabiliyor",
+        "neresi mucize",
+        "normal"
+      ],
+      "yanit": "Bu ikinci kategoriden (herkesi aşan) bir mucize değil; birinci kategoriden (iddia sahibinin şartlarını aşan) bir mucize. 'Allah beni yönlendiriyor' diyen birinin kendi geçmişiyle açıklanamayacak bir iş başarması haberinin doğruluğuna delildir.",
+      "kaynak": {
+        "kitapSayfa": "139-140"
+      }
+    },
+    {
+      "id": "H11-i2",
+      "ozet": "Duhân 44/29 ile Mısır metni arasındaki benzerlik tesadüf ya da dolaylı aktarım olabilir.",
+      "anahtar": [
+        "tesadüf",
+        "dolaylı aktarım",
+        "benzerlik",
+        "mısır metni",
+        "duhan",
+        "aktarılmış"
+      ],
+      "yanit": "Bu bölümde yalnızca birinci kategori mucizenin örneği olarak veriliyor; ayrıntılı savunması ilgili mucize bölümünde. Kitabın bu bölümdeki tutumu şu: metin ölü bir dil ve alfabedeydi, Hz. Muhammed'in bilmesi mümkün değildi, Kur'an doğrudan bu metne cevap veriyor. Tesadüf ya da aktarım iddiası kendi başına örnek ve kanıt gerektirir.",
+      "kaynak": {
+        "kitapSayfa": "140"
+      }
+    },
+    {
+      "id": "H11-i3",
+      "ozet": "'Allah beni yönlendiriyor' diyen herkes bir şey başarırsa mucize mi olur?",
+      "anahtar": [
+        "herkes",
+        "yönlendiriyor diyen",
+        "her iddia",
+        "her başarı"
+      ],
+      "yanit": "Hayır; ölçüt, kişinin kendi şartlarıyla açıklanabilir olup olmamasıdır. Kişi kendi geçmişiyle bunu açıklayabiliyorsa mucize sayılmaz. Bu yüzden bu tür delillerde 'bu kişinin donanımı neydi?' sorusu şarttır.",
+      "kaynak": {
+        "kitapSayfa": "139-140"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Yaşlı adam ve yazılım",
+      "metin": "Teknolojiden uzak çok yaşlı bir adamın, hiçbir çalışma yapmadan karmaşık bir yazılım yazması onun açısından olağanüstüdür; yazılım yazan binlerce kişi olsa da.",
+      "durum": "kitap",
+      "kitapSayfa": "139",
+      "ilzam": "Kişinin kendi geçmişi bir başarıyı açıklamıyorsa, başkalarının yapabilmesi bunu açıklar mı?"
+    },
+    {
+      "baslik": "Eğitimsiz cerrah",
+      "metin": "Doktorlukla ilgili hiçbir şey bilmeyen birinin eğitim almadan organ nakli yapması birinci kategori mucizedir.",
+      "durum": "kitap",
+      "kitapSayfa": "139",
+      "ilzam": "Bu kişinin kendi şartlarıyla bu başarıyı açıklamak için hangi gerekçeyi gösterirsiniz?"
+    },
+    {
+      "baslik": "Duhân 44/29",
+      "metin": "Hiyeratik Mısır metniyle Kur'an'daki ifade arasındaki benzerlik, birinci kategori mucizenin tarihî bir örneğidir; metin Hz. Muhammed'in dönemindeki erişimine kapalıydı.",
+      "durum": "kitap",
+      "kitapSayfa": "140-141",
+      "ilzam": "Çözülmemiş bir yazıdaki cümleye cevap veren bir metni, o yazıyı okuyamayan birinin şartlarıyla nasıl açıklarsınız?"
+    }
+  ],
+  "kompozisyon": "Birinci kategori mucizeyi göz önüne alarak, bu verilerin tamamını hangi kutuda tutarlı biçimde açıklıyorsunuz?",
+  "notlar": "Duhân 44/29 ayrıntısı M bölümüne (Firavun ağıtı) ertelenmiştir; burada yalnızca örnek. Metin ve çeviri atıfları kitap dn. 293-294'ten. Literatür notu s. 141: fetanet ve samimiyet delilleri âlimlerce sistemleştirilmemiştir."
+}

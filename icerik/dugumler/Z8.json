@@ -1,0 +1,134 @@
+{
+  "id": "Z8",
+  "baslik": "Hafızların ezberi",
+  "dal": "zemin",
+  "sayfa": "33-34",
+  "onkosul": [
+    "Z6"
+  ],
+  "sonraki": "Z9",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Metnin korunmasının ikinci ayağı yazı değil, ezber. Müslümanlar ilk günden beri Kur'an'ı ezberleyip namazda okuyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Silsile",
+      "metin": "Hafızlara bugün bile, silsilesinin başında Nebi'nin bulunduğu bir icazet verilir (s. 33-34)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kabaca rakamlar",
+      "metin": "Türkiye'de resmî belgeli yaklaşık 200 bin hafız var (Diyanet haberi). 1,6 milyarlık Müslüman nüfusun yaklaşık %5'i Türkiye'dir; aynı oran dünyaya uygulanırsa kabaca 4 milyon, 'belki 3 milyon' hafız eder. Yazar bunun üç aşağı beş yukarı bir tahmin olduğunu kendisi söylüyor (s. 34)."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yazarın sorusu: 'Yeryüzünde, aslına uygunluğu kabul edilen hangi kitabın 10 bin ezberleyeni vardır? Ya da Türkiye'de Kur'an dışında hangi kitabın 50 ezberleyeni bulunmaktadır?' (s. 34)"
+    }
+  ],
+  "ozet": "Kur'an'ın metni yalnızca el yazmalarına değil, her gün namazda okunan ve milyonlarca kişinin ezberinde taşıdığı bir silsileye de dayanır. Rakamlar kabadır, ama büyüklük mertebesi tartışmasızdır.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Metin birkaç elin yazdığı nüshalara dayanıyor ve değiştirilmiş olabilir. Veri şu: Aynı metin, kabaca 3-4 milyon kişinin ezberinde ve her gün namazda okunuyor; Kur'an dışında hiçbir metnin buna yaklaşan bir ezberleyeni yok. Bu kadar yaygın bir ezber geleneğinde, bir yazı değişikliğinin fark edilmeden yayılması mantıken nasıl mümkün olabilir?",
+    "cipler": [
+      "Haklısınız, mümkün olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; demek ki metin hem yazıda hem hafızada korunuyor. Şimdi yazma eserlerin ne gösterdiğini varsayımsal bir akıl yürütmeyle ele alalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Rakamları kesin kabul etmek zorunda değilsiniz; asıl soru büyüklük mertebesi: Kabaca milyonlarca hafızın ezberi bir yazı değişikliğini tolere eder mi?",
+        "Peki farklı bakalım: Kur'an dışında hangi metin bu kadar yaygın ezberleniyor?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Hafızların ezberi metnin korunmasında nasıl bir rol oynuyor?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z8-i1",
+      "ozet": "Sadece yazıya mı dayanıyor?",
+      "anahtar": [
+        "sadece yazı",
+        "yazıya mı",
+        "ezber",
+        "hafız",
+        "yalnızca"
+      ],
+      "yanit": "Hayır; korumanın ikinci ayağı yaygın ezberdir. Müslümanlar ilk günden beri Kur'an'ı ezberleyip namazda okur; hafızlara bugün bile silsilenin başında Nebi'nin bulunduğu icazet verilir.",
+      "kaynak": {
+        "kitapSayfa": "33-34"
+      }
+    },
+    {
+      "id": "Z8-i2",
+      "ozet": "Hafız rakamları kesin mi?",
+      "anahtar": [
+        "rakam",
+        "kaç hafız",
+        "kesin mi",
+        "4 milyon",
+        "sayı"
+      ],
+      "yanit": "Hayır, kabadır. Türkiye'deki yaklaşık 200 bin resmî belgeli hafızdan oransal bir tahmin yapılıyor; yazar 'üç aşağı beş yukarı' diyor ve 3 milyon olsa da rakamın inanılmaz olduğunu söylüyor.",
+      "kaynak": {
+        "kitapSayfa": "34"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Hiçbir kitabın ezberleyeni yok",
+      "metin": "'Yeryüzünde, aslına uygunluğu kabul edilen hangi kitabın 10 bin ezberleyeni vardır?' Yazar bu soruyu karşılaştırma ölçütü olarak kullanıyor.",
+      "durum": "kitap",
+      "kitapSayfa": "34",
+      "ilzam": "Senin güvenilir saydığın bir metinde, bu büyüklükte bir ezber güvencesi var mı? Yoksa o metinleri de reddetmen gerekmez mi?"
+    },
+    {
+      "baslik": "Silsile ve icazet",
+      "metin": "Hafızlara bugün bile, silsilesinin başında Nebi'nin bulunduğu icazet verilir; yani ezber, kesintisiz bir aktarım zincirine dayanır.",
+      "durum": "kitap",
+      "kitapSayfa": "33-34",
+      "ilzam": "Kesintisiz bir aktarım zincirinin ortasına bir değişikliğin nasıl sızdırılabileceğini açıklayabilir misiniz?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani erken yazıyı, yaygın ezberi ve rakip iktidarların sessizliğini birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Kaynak: Diyanet haberi (dipnot 20). Rakam oransal tahmin; sunumda 'kabaca' etiketi korunmalı."
+}

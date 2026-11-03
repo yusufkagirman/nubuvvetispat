@@ -1,0 +1,160 @@
+{
+  "id": "H15",
+  "baslik": "Kâhinlik İddiası",
+  "dal": "haber",
+  "sayfa": "147-149",
+  "onkosul": [
+    "H14"
+  ],
+  "sonraki": "H16",
+  "profil": {
+    "kritik": [
+      "ateist"
+    ],
+    "atlanabilir": [
+      "hristiyan",
+      "yahudi"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "'O çağlarda her yerde kâhinler vardı' sözü sık duyulur. Bu söz bir cevap mı, yoksa yeni bir soru mu?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Test sorusu",
+      "metin": "'O çağlarda dinî ritüeller yürüten, vahye benzer iddialarda bulunan kâhinlerin durumları sizce nedir?' Haber inşasını hiç düşünmeden cevap verecek biri büyük ihtimalle şöyle der: çoğu sahtekârdı, bilerek yalan söylüyordu; bazıları halüsinasyon görüyordu, hatta halüsinasyon için uyuşturucu alıyorlardı."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "İşte bu yüzden 'kâhin' kelimesi bizim sorumuza cevap olmuyor, cevaplanması gereken bir soru oluyor. Cevap da yine aynı iki kutuya düşüyor: farkında olarak yalan (sahtekâr) ya da farkında olmadan yalan (halüsinasyon). Hatta ikisi birden olabilir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Aydınlanma sonrası dünyada 'kâhin' kelimesi bu ikili tasnifin dışında anlaşılır bir kategori değildir. Bu, 19. yüzyılda kullanılan 'histeri' tanısına benzer; bugün bu ad pek çok farklı hastalığa karşılık gelir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Peki kâhinlerin gerçekten vahiy aldığına inanılıyorsa?",
+      "metin": "O zaman şu soru doğar: kâhinlerin vahiy aldığına inanıp Hz. Muhammed'in aldığına neden inanmıyorsunuz? Oysa hiçbir kâhinin hikâyesi onunki kadar ilginç değildir ve hiçbir kâhin, ileride göreceğimiz gibi, onun yaptıklarını yapamamıştır. Ayrıca gaipten haber alabileceğini kabul eden biri için materyalist bir felsefe tutarlı değildir: ruh, cin, melek gibi bütün metafizik olayları kabul etmiş olursunuz."
+    }
+  ],
+  "ozet": "'Kâhin' ayrı bir kutu değil, aynı iki kutunun adıdır: sahtekâr ya da halüsinasyon gören. Kâhinlerin gerçekten vahiy aldığına inanan ise Hz. Muhammed'i neden dışarıda bıraktığını ve materyalizmini bu kabulle nasıl bağdaştırdığını açıklamalıdır.",
+  "ilzam": {
+    "soru": "Senin iddian, Hz. Muhammed'in o çağın kâhinlerinden biri olduğu idi. Mevcut veri, kâhinlerin kendilerinin de ya sahtekâr ya halüsinasyon gören olarak açıklandığı ya da gerçekten vahiy alıyor sayılıp materyalizmin terk edildiği. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, kâhin ayrı bir kutu değil",
+      "Bence kâhinlik farklı bir olgu",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde kâhinlik de bizi aynı iki kutuya geri getirdi. Şimdi haberin köşelerine, yani 'orta yol' fikrine bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: kâhinlere ne diyorsunuz; sahtekâr mı, halüsinasyon mu, yoksa gerçekten vahiy alanlar mı?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: kâhinlere ne diyorsunuz; sahtekâr mı, halüsinasyon mu, yoksa gerçekten vahiy alanlar mı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: kâhinlik iddiasının aynı iki kutuya dönmesi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H15-i1",
+      "ozet": "O devirde kâhinler vardı; Muhammed de onlardan biriydi.",
+      "anahtar": [
+        "kahin",
+        "kâhin",
+        "falcı",
+        "cin çarpmış",
+        "o dönemde kâhinler"
+      ],
+      "yanit": "Kâhinlerin durumu sizce nedir? Cevabınız 'çoğu sahtekârdı, bir kısmı halüsinasyon görüyordu' ise iki kutuya geri dönmüşsünüz demektir; kâhin ayrı bir kutu değil. Kâhinlerin gerçekten vahiy aldığını kabul ediyorsanız, Hz. Muhammed'i neden dışarıda bırakıyorsunuz ve materyalizminizle bu kabulü nasıl bağdaştırıyorsunuz?",
+      "kaynak": {
+        "kitapSayfa": "147-149"
+      }
+    },
+    {
+      "id": "H15-i2",
+      "ozet": "Kur'an'da kâhin değildir deniyor; bu sizin tasnifinizle çelişmez mi?",
+      "anahtar": [
+        "kâhin değildir",
+        "tûr 52/29",
+        "kahin değilsin",
+        "kur'an kâhin diyor"
+      ],
+      "yanit": "Çelişmez; et-Tûr 52/29 'Sen ne bir kâhinsin ne de bir deli' der, yani kâhinlik ithamını da reddeder. Kitabın tasnifinde de kâhin iddiası ayrı bir kutu açmıyor; iki kutudan birine dönüyor.",
+      "kaynak": {
+        "kitapSayfa": "131, 147-149"
+      }
+    },
+    {
+      "id": "H15-i3",
+      "ozet": "Kâhinlik gerçek bir olgu olarak kabul edilebilir; bunu reddetmek peşin hüküm.",
+      "anahtar": [
+        "gerçek kahin",
+        "paranormal",
+        "kabul ederim",
+        "olabilir",
+        "gayb"
+      ],
+      "yanit": "Peşin hüküm vermiyoruz; kâhinleri gerçek kabul ediyorsanız bu bir kapıdır ve o zaman vahiy olgusunu ve metafizik olayları da kabul etmiş olursunuz. Bu durumda Hz. Muhammed'i dışarıda bırakmak için ayrı bir gerekçe gerekir.",
+      "kaynak": {
+        "kitapSayfa": "148-149"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Kâhinlere ne diyorsunuz?",
+      "metin": "Haber inşasını hiç düşünmeden verilen cevap çoğunlukla 'sahtekârdı' ya da 'halüsinasyon görüyordu' olur; yani iki kutu.",
+      "durum": "kitap",
+      "kitapSayfa": "148",
+      "ilzam": "Kâhinleri bu iki kutuyla açıklıyorsanız, Hz. Muhammed için üçüncü bir kutu neye dayanır?"
+    },
+    {
+      "baslik": "Histeri benzetmesi",
+      "metin": "'Histeri' 19. yüzyıl tanısıdır; bugün çok farklı hastalıklara karşılık gelir. 'Kâhin' kelimesi de aynı şekilde yeni bir kutu değil, eski ad.",
+      "durum": "kitap",
+      "kitapSayfa": "148",
+      "ilzam": "Bugünkü bilimsel dilde 'kâhin' hangi tanıya karşılık gelir?"
+    },
+    {
+      "baslik": "Materyalizm ve kâhinlik",
+      "metin": "Gaipten haber alan kâhinleri gerçek kabul eden biri, materyalist ya da pozitivist olamaz; çünkü ruh, cin ve melek gibi metafizik olayları kabul etmiş olur.",
+      "durum": "kitap",
+      "kitapSayfa": "148-149",
+      "ilzam": "Kâhinlik gerçekse, materyalizminiz nereye düşer?"
+    }
+  ],
+  "kompozisyon": "Kâhinleri hangi kutuda açıklıyor ve Hz. Muhammed'i neden onlardan ayırıyorsunuz ya da ayırmıyorsunuz?",
+  "notlar": "Ateist profilde kritik (materyalist tutarsızlık). Kaynak: yazarın histeri benzetmesi ve test sorusu (s. 147-149). 'Hiçbir kâhin Hz. Muhammed'in yaptıklarını yapamamıştır' iddiası kitapta ileride detaylandırılacak; burada ispat olarak sunulmaz."
+}

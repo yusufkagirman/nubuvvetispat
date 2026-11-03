@@ -1,0 +1,172 @@
+{
+  "id": "H10",
+  "baslik": "Mucize İddiası Nasıl Çürütülür?",
+  "dal": "haber",
+  "sayfa": "138-139",
+  "onkosul": [
+    "H9"
+  ],
+  "sonraki": "H11",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bir mucize iddiasıyla karşılaşan birçok kişi şöyle der: 'Bunu yapan birileri olmuş olabilir.' Bu cümle ilk bakışta makul görünüyor. Ama delil mi, yoksa tahmin mi? Bakalım."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Vehim, yani delilsiz kuruntu, ve kabul etmemek delil değildir. Doğru soru şudur: 'Bunu yapabilen başka bir insan olmuş mudur?' Gözümüzün önünde uçan bir insana 'Belki yapan başkaları da vardır' diye itiraz edebiliriz; ama ona 'Yapanı gösterin ya da örnek verin' demek yeter."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Aynı şey belagat için de geçerli. Mislini ya da onu aşanını getirme meydan okuması varken, 'belki yapabilecek biri vardır' demek örnek getirmekten kurtulmak anlamına gelmez."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Örnek getirilirse",
+      "metin": "Birinin 'bakın şu da yapmış' diye örnek getirmesi mucizeyi ortadan kaldırmaz. Delilin parlaklığı azalabilir; ama biz onu Nebi'nin şartlarıyla yeniden değerlendiririz: 'Onun donanımı ve şartlarıyla bu olay açıklanabilir mi?' Yani ikinci kategoriden düşen delil birinci kategoriye girer."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bir de mucizelerin yeri: İspat yükü esasen samimiyet ve fetanet delillerindedir; mucizeler ispatı pekiştirir. Hiçbir mucize olmasa da, yalan olmadığı bilinirse iman etmek gerekirdi."
+    }
+  ],
+  "ozet": "'Belki yapan olmuştur' bir delil değildir; doğru soru 'bunu yapabilen başka biri olmuş mudur?'dur. Örnek bulunursa mucize ortadan kalkmaz, birinci kategoriye döner. Mucizeler ispatı pekiştirir; esas yük samimiyet ve fetanettedir.",
+  "ilzam": {
+    "soru": "Senin iddian, 'bunu belki başkaları da yapmıştır' diyerek mucize iddiasının çürütülebileceği idi. Mevcut veri, böyle bir cümlenin örnek göstermediği ve yalnızca bir ihtimal olduğu. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, örnek gerekir",
+      "Bence ihtimal olması yeter",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde 'bilmiyoruz' bir delil değil, örnek istemek hakkaniyetli. Şimdi birinci kategori mucizenin neden önemsendiğine bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: örnek göstermeden 'belki başkası yapmıştır' demek nasıl bir delil sayılır?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: örnek göstermeden 'belki başkası yapmıştır' demek nasıl bir delil sayılır?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: mucize iddiasının çürütülme biçimi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H10-i1",
+      "ozet": "Bunu belki başka biri de yapmıştır; bilmiyoruz.",
+      "anahtar": [
+        "belki başka",
+        "başkası yapmıştır",
+        "bilmiyoruz",
+        "yapan olmuş olabilir",
+        "ihtimal"
+      ],
+      "yanit": "'Bilmiyoruz' bir delil değil. Çürütmek isteyen örnek göstermelidir. Örnek gösterirse mucize ortadan kalkmaz; birinci kategoriye döner ve Nebi'nin şartlarında yeniden değerlendirilir.",
+      "kaynak": {
+        "kitapSayfa": "138-139"
+      }
+    },
+    {
+      "id": "H10-i2",
+      "ozet": "Mucize yoksa hepsi çöker.",
+      "anahtar": [
+        "mucize yoksa",
+        "çöker",
+        "mucize şart",
+        "mucizeler olmadan"
+      ],
+      "yanit": "Hayır. Mucizeler ispatı pekiştirir; ama temel yük samimiyet ve fetanet delilleriyle iki yalan dalını kapatmaktadır. Hiçbir mucize olmasa bile yalan olmadığı bilinirse iman etmek gerekirdi.",
+      "kaynak": {
+        "kitapSayfa": "138-139"
+      }
+    },
+    {
+      "id": "H10-i3",
+      "ozet": "Ben örnek gösteremem ama bu da mucizeyi kanıtlamaz.",
+      "anahtar": [
+        "örnek gösteremem",
+        "kanıtlamaz",
+        "ispatlamaz",
+        "yetersiz"
+      ],
+      "yanit": "Bu çok dürüst bir cevap. Evet, örnek gösterememek tek başına mucizeyi ispat etmez; ama delilin kendisi örnek getirmenin imkânsızlığına dayanıyor. Sonraki bölümlerde somut delillere bakıp bu konuyu elle tutulur biçimde tartışabiliriz.",
+      "kaynak": {
+        "kitapSayfa": "138-139"
+      }
+    },
+    {
+      "id": "H10-i4",
+      "ozet": "Bu 'uçan adam' örneği çok absürt.",
+      "anahtar": [
+        "absürt",
+        "uçan adam",
+        "saçma örnek",
+        "abartı"
+      ],
+      "yanit": "Örnek bilerek uç bir noktadan seçildi: ağzından alev çıkarıp aynı anda beş yerde olan birine bile 'belki başka yapan vardır' demek mümkün. Amaç, 'belki'nin hiçbir şeyi çürütemediğini göstermek.",
+      "kaynak": {
+        "kitapSayfa": "138"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Uçan adam",
+      "metin": "Gözümüzün önünde uçan bir insana 'Belki yapan vardır' diyerek itiraz etmek mümkündür; ama ona 'yapanı gösterin' demek yeterlidir.",
+      "durum": "kitap",
+      "kitapSayfa": "138",
+      "ilzam": "Gözünüzün önünde uçan birine 'belki başkaları da uçmuştur' demek bir itiraz sayılır mı?"
+    },
+    {
+      "baslik": "Ateş ve beş yer",
+      "metin": "Ağzından alev çıkaran ve aynı anda beş yerde bulunan bir insana bile 'belki başka yapan vardır' denebilir; cevap yine 'örnek ver'dir.",
+      "durum": "kitap",
+      "kitapSayfa": "138",
+      "ilzam": "En uç durumda bile 'belki' demek örnek göstermek yerine geçer mi?"
+    },
+    {
+      "baslik": "Belagat meydan okuması",
+      "metin": "Mislini ya da aşanını getirme meydan okumasında, 'belki yapabilecek biri vardır' diyerek kaçmak delil getirmekten kurtulmak anlamına gelmez.",
+      "durum": "kitap",
+      "kitapSayfa": "138-139",
+      "ilzam": "Mislini getirme meydan okumasına cevap, 'belki biri getirir' olabilir mi?"
+    }
+  ],
+  "kompozisyon": "Bu çürütme kuralı çerçevesinde, mucize iddialarını hangi tutarlı kompozisyonla açıklıyorsunuz?",
+  "notlar": "Belagat ve diğer mucizeler M bölümünde işlenecek. Kaynak: yazarın örnekleri (s. 138-139)."
+}

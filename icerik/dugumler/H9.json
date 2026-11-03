@@ -1,0 +1,162 @@
+{
+  "id": "H9",
+  "baslik": "Mucize Nedir?",
+  "dal": "haber",
+  "sayfa": "137-138",
+  "onkosul": [
+    "H8"
+  ],
+  "sonraki": "H10",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "deist"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Mucize deyince çoğumuzun aklına ilk olarak ateşin yakmaması, denizin yarılması gibi doğa olaylarının aşılması gelir. Kitap önce bu kelimenin ne demek olduğunu netleştiriyor."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Mucize, beşerî benzerini ortaya koymaktan aciz bırakan şey demektir. Hakeza, 'kişinin marifeti ile açıklanamayacak olan şey' anlamında da alınabilir.",
+      "kaynak": {
+        "yazar": "Altay Cem Meriç",
+        "eser": "Peygamberliğin İspatı – Haber Delili (kitabın tanımı)",
+        "sayfa": "137-138"
+      },
+      "kitapSayfa": "137"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Türkçedeki karşılıkları olan 'olağanüstü', 'fevkalade', 'harikulade' da alışılmışın dışında olanı ifade eder; doğa kanunlarının çiğnenmesiyle sınırlı değil. Müslümanların hepsi Kur'an'ın mucize olduğunu söyler ve Kur'an doğa olaylarına muhalefet etmez. Bu bile mucizenin sadece doğa olayı olmadığını gösterir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "İki kategori",
+      "metin": "1) Nebi'nin şahsi marifetiyle açıklanamayacak durum: onun şartlarındaki biri için olağanın ve âdetin üstü. Haberin zemini Nebi olduğu için, delillerin onun şartlarını aşması bile haberi tasdik için yeterli bir mucize işlevi görür.\n2) Her insan ferdini aşan durum: insanlar için olağanın ve âdetin üstü."
+    }
+  ],
+  "ozet": "Mucize, beşerî benzerini ortaya koymaktan aciz bırakan ya da kişinin kendi marifetiyle açıklanamayan şeydir; doğa kanunlarının çiğnenmesine indirgenemez. İki kategorisi vardır: iddia sahibinin şartlarını aşan ve her insanı aşan.",
+  "ilzam": {
+    "soru": "Senin iddian, mucizenin ancak doğa kanunlarına aykırı bir olay olabileceği idi. Mevcut veri, 'beşerî benzerini ortaya koymaktan aciz bırakan' şeyin de mucize tanımına girdiği ve Müslümanların Kur'an'ı doğa olayı olmadığı hâlde mucize saydığı. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, tanım daha geniş",
+      "Bence mucize yalnızca doğa olayıdır",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; tanım böyle genişleyince 'mucize yok' demek de o kadar kolay olmuyor. Şimdi bir mucize iddiasının nasıl çürütülebileceğine bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: mucizeyi yalnızca doğa kanunlarının çiğnenmesine indirgemek, 'beşerî benzerini ortaya koymaktan aciz bırakan şey' tanımıyla nasıl bağdaşır?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: mucizeyi yalnızca doğa kanunlarının çiğnenmesine indirgemek, 'beşerî benzerini ortaya koymaktan aciz bırakan şey' tanımıyla nasıl bağdaşır?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: mucizenin tanımı ve iki kategorisi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H9-i1",
+      "ozet": "Mucize doğaya aykırı olay demektir; Kur'an'da doğa kanunu çiğnenmiyor ki.",
+      "anahtar": [
+        "doğaya aykırı",
+        "doğa kanunu",
+        "ateş yakmaz",
+        "deniz yarılması",
+        "olağandışı olay"
+      ],
+      "yanit": "Kitaba göre mucize 'beşerî benzerini ortaya koymaktan aciz bırakan şey'dir; doğa olaylarına muhalefetle sınırlı değildir. Müslümanların Kur'an'ı mucize saymaları bile bu algının eksik olduğunu gösterir. Geleceğe dair haberler gibi türleri de bu tanıma girer.",
+      "kaynak": {
+        "kitapSayfa": "137-138"
+      }
+    },
+    {
+      "id": "H9-i2",
+      "ozet": "Bu tanım mucizeyi çok geniş yapıyor; her başarı mucize olur.",
+      "anahtar": [
+        "geniş",
+        "her başarı",
+        "kolay",
+        "her şey mucize",
+        "fazla geniş"
+      ],
+      "yanit": "Hayır; tanım iki ölçüt koyar: ya hiç kimsenin benzerini getiremediği ya da iddia sahibinin kendi marifetiyle açıklanamadığı bir şey. Sıradan başarılar kişinin kendi şartlarıyla açıklanabildiği için bu tanıma girmez.",
+      "kaynak": {
+        "kitapSayfa": "137-138"
+      }
+    },
+    {
+      "id": "H9-i3",
+      "ozet": "Neden iki kategori? Tek tanım yetmez mi?",
+      "anahtar": [
+        "iki kategori",
+        "tek tanım",
+        "neden iki",
+        "kategori"
+      ],
+      "yanit": "Çünkü iki kategori iki ayrı soruya cevap verir. Birincisi 'bu kişi bunu kendi şartlarında yapabilir miydi?', ikincisi 'insan olarak kimse bunu yapabilir mi?' sorusudur. Biri bile haberin doğruluğu için yeterlidir; ikisini ayırmak, kategoriler arası geçişi (bir sonraki adım) anlamayı kolaylaştırır.",
+      "kaynak": {
+        "kitapSayfa": "137-138"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Kur'an'ın mucize sayılması",
+      "metin": "Müslümanların tamamı Kur'an'ın mucize olduğunu söyler; oysa Kur'an doğa olaylarına muhalefet etmez. Bu durum mucizenin yalnızca doğa olayına indirgenemeyeceğini gösterir.",
+      "durum": "kitap",
+      "kitapSayfa": "138",
+      "ilzam": "Doğaya muhalefet etmeyen bir şey mucize sayılıyorsa, tanımınızı genişletmeniz gerekmez mi?"
+    },
+    {
+      "baslik": "Rum suresi gelecek haberi",
+      "metin": "Kitap, Rum suresindeki geleceğe yönelik haberin de mucize olarak ele alınacağını söyler; bu mucize doğa kanunlarına aykırılık değil, beşerin bilemeyeceği bir haberdir. Ayrıntısı sonraki bölümlerdedir.",
+      "durum": "kitap",
+      "kitapSayfa": "137-138",
+      "ilzam": "Geleceği bilmek, doğa kanununu çiğnemeden de bir insanı aşan bir durum olabilir mi?"
+    },
+    {
+      "baslik": "Eski kitaplarda tanım",
+      "metin": "Yazara göre birinci kategori anlam eski kitaplarda geçen önemli bir tanımdır; bugün sık kullanılan anlam olmasa da.",
+      "durum": "kitap",
+      "kitapSayfa": "137-138",
+      "ilzam": "Bir tanım eski kitaplarda geçiyorsa, ona 'sonradan uydurulmuş' demek ne kadar isabetli olur?"
+    }
+  ],
+  "kompozisyon": "Mucize tanımının bu iki kategorisini göz önüne alarak, bu verilerin tamamını hangi kutuda açıklıyorsunuz?",
+  "notlar": "dn. 289: kitap ileride 'birinci ve ikinci kategorideki mucize çeşitleri'ne bu bölümden atıf yapar. Rum suresi M-bölümünde ele alınacak."
+}
