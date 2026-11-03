@@ -64,4 +64,5 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - [x] Beyin fırtınası 1. tur (format kararları yukarıda)
 - [x] Beyin fırtınası 2. tur (lisans, dal kapanması, kayıt/anonimlik, etkileşim modeli)
 - [x] İlk dilim: Z1–Z17 + H1–H16 içerik + statik motor, uçtan uca test geçti (`docs/test-raporu.md`)
-- [ ] Sonraki: S (samimiyet), F (fetanet), M (mucize), R (Rum) içerikleri; "kaldığım yerden devam" sahne kaydı; yayın (GitHub Pages)
+- [x] v2: sinematik motor + 6 bölge (~116 beat) + 6 persona testi; yayın: https://claude.ai/artifact/WgW3kpbPsYbHXzxd9XVu2G (`site/index.html` ile aynı yoldan güncellenir)
+- [ ] Sonraki: kullanıcı geri bildirimi; zemin kısaltma/"özet ve geç"; onay bekleyen ekler (`docs/onay/`); LLM sınıflandırıcı; GitHub Pages
