@@ -1,0 +1,1941 @@
+{
+  "bolge": "haber",
+  "giris": "haber.giris",
+  "beats": [
+    {
+      "id": "haber.giris",
+      "gizliDugum": "H1",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Bundan yaklaşık 1400 yıl önce, Mekke'de bir adam bir haber getirdi."
+        },
+        {
+          "metin": "Adı Muhammed'di. Yaşı kırktı."
+        },
+        {
+          "metin": "Dedi ki: \"Allah benimle bir melek aracılığıyla konuşuyor.\"",
+          "vurgu": true
+        },
+        {
+          "metin": "Bunu bir kez söylemedi. Yirmi üç yıl boyunca söyledi."
+        },
+        {
+          "metin": "Dikkat et: bu bir felsefe değil, bir görüş değil."
+        },
+        {
+          "metin": "Bu bir haber.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Başlamadan sorayım: sence bir haberle bir fikir arasında ne fark var?",
+        "cipler": [
+          "Haber doğru ya da yalandır",
+          "Pek düşünmedim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "aynı şey",
+            "aynı",
+            "fark yok",
+            "hepsi görüş",
+            "hepsi fikir"
+          ],
+          "yanit": [
+            "Şöyle düşün: \"Bence şu ekonomi sistemi iyidir\" bir fikirdir; yanılabilirsin, kimse sana yalancı demez.",
+            "\"Dün Ankara'daydım\" ise bir haberdir. Doğrudur ya da değildir; üçüncü bir kapı yok.",
+            "İkisi aynı şey olmuyor. Sence fark ne?"
+          ]
+        }
+      ],
+      "varsayilan": "haber.teori",
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de şunu düşün: bir tanık mahkemede \"Olay yerindeydim\" der."
+            },
+            {
+              "metin": "Hâkim bunu laboratuvarda denemez; tanığın söylediğini tartar."
+            }
+          ],
+          "soru": "Haber dediğimiz şey bu: deneyle değil, tanıklıkla tartılır. Sence bu fark önemli mi?",
+          "ek": true,
+          "dayanak": "Kitap dışı analoji (tanıklık/mahkeme). Kaynak gerektirmeyen benzetme; docs/onay/haber.md #1."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Biri sana \"dün Ankara'daydım\" dese, ona kanıt mı sorarsın, yoksa güvenilir mi diye mi bakarsın?"
+            },
+            {
+              "metin": "Çoğumuz ikincisini yaparız. Haberi hep böyle tartarız."
+            }
+          ],
+          "soru": "Bu haber de aynı şekilde tartılmaya uygun değil mi?"
+        }
+      ],
+      "kompozisyon": "Peki sence bir haberi, fikirmiş gibi tartmak neden sorun çıkarır? Kendi cümlelerinle anlat.",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "haber.teori",
+      "dayanak": "H1/H4 (kitap s. 127–128, 133). Haberin içeriği: kırk yaşında melek gördüğünü, Allah'ın elçisi olduğunu, 23 yıl bu meleği görmeye devam ettiğini söylüyor. 'Dün Ankara'daydım' örneği kitaptan; mahkeme tanığı örneği ek (analoji)."
+    },
+    {
+      "id": "haber.teori",
+      "gizliDugum": "H4",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir teoriyle bir haber çok farklıdır."
+        },
+        {
+          "metin": "Biri \"insanlığa en uygun ekonomi şudur\" derse, bu bir teoridir."
+        },
+        {
+          "metin": "Yanılabilir. Yanıldı diye ona deli ya da yalancı demeyiz."
+        },
+        {
+          "metin": "Ama biri sana \"dün Ankara'daydım\" derse?",
+          "vurgu": true
+        },
+        {
+          "metin": "Bu ya doğrudur ya yanlış. Burada masum bir yanılgı yok."
+        },
+        {
+          "metin": "Yanlışsa ya seni kandırıyordur, ya da orada olduğunu sanıyordur."
+        }
+      ],
+      "soru": {
+        "metin": "Sence \"dün Ankara'daydım\" sözü deneyle mi tartılır, yoksa söyleyeni tanıyarak mı?",
+        "cipler": [
+          "Söyleyeni tanıyarak",
+          "Kanıt arayarak"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "teori",
+            "fikir",
+            "görüş",
+            "dünya görüşü",
+            "yorum",
+            "öğreti",
+            "felsefe",
+            "ahlak öğretisi"
+          ],
+          "yanit": [
+            "Eğer sadece \"şöyle yaşayalım\" deseydi, bu bir görüş olurdu; haklı ya da haksız olabilirdi.",
+            "Ama o \"bir melek gördüm, Allah benimle konuştu\" dedi. Bu bir olgu bildirimi.",
+            "Olgu bildiriminde ya doğru söylersin ya yanlış; yanlışsa ya bilerek ya bilmeden."
+          ]
+        }
+      ],
+      "varsayilan": "haber.keskin",
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Platon bir teori kurdu; yanılmış olabilir."
+            },
+            {
+              "metin": "Bu, onun aklından ya da dürüstlüğünden şüphe etmemizi gerektirmez."
+            }
+          ],
+          "soru": "Peki Platon \"dün Atina'daydım\" deyip orada olmamış olsaydı, o zaman ne düşünürdük?",
+          "dayanak": "Kitap s. 133 (Platon ve iktisat teorisi örneği)."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Haber, teoriden farklı olarak yanılma payı bırakmaz."
+            },
+            {
+              "metin": "Yanlışsa, söyleyenin ya niyetinde ya algısında bir sorun vardır."
+            }
+          ],
+          "soru": "Bu tespit sana mantıklı geliyor mu?",
+          "dayanak": "Kitap s. 133 (haber/teori farkı)."
+        }
+      ],
+      "kompozisyon": "Peki bu iddiayı \"sadece bir fikir\" sayarsan, \"melek gördüm\" cümlesini nasıl açıklarsın?",
+      "kopru": [
+        "Bunu not ettim. Şimdi şuna dönelim:"
+      ],
+      "sonraki": "haber.keskin",
+      "dayanak": "H4 (kitap s. 133): teoride yanılmak mümkün, haberde değil; 'Ben bugün Ankara'daydım' örneği. Deney yerine tanıklığın değerlendirilmesi vurgusu yazarın haber yaklaşımına yorumdur."
+    },
+    {
+      "id": "haber.keskin",
+      "gizliDugum": "H16",
+      "sahne": {
+        "arkaplan": "isik"
+      },
+      "satirlar": [
+        {
+          "metin": "Bu haber üstelik çok keskin."
+        },
+        {
+          "metin": "\"Ben iyi bir insanım\" dese, yoruma açık olurdu."
+        },
+        {
+          "metin": "Ama \"bir melek gördüm\" dedi. Yirmi üç yıl boyunca vahiy aldığını söyledi."
+        },
+        {
+          "metin": "Melek ya geldi, ya gelmedi."
+        },
+        {
+          "metin": "Yarım melek yok. Biraz vahiy yok. Orta yol yok.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Sence bir adam \"melek gördüm\" deyip bunun yalnızca bir kısmı doğru olabilir mi?",
+        "cipler": [
+          "Bence olabilir",
+          "Hayır, ya var ya yok"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "ya var ya yok",
+            "orta yol yok",
+            "haklısın",
+            "olamaz",
+            "mantıklı",
+            "katılıyorum",
+            "hayır ya var"
+          ],
+          "git": "haber.agac"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "olabilir",
+            "kısmen",
+            "biraz",
+            "mecaz",
+            "mecazi",
+            "sembolik",
+            "ilham",
+            "rüya",
+            "manevi",
+            "iyi niyetli",
+            "reformcu",
+            "toplum önderi"
+          ],
+          "yanit": [
+            "\"Melek mecazdı\" demek için, o günün insanlarının onu mecaz gibi anladığını göstermelisin.",
+            "Oysa o mescitte, cemaatin önünde, elini uzatarak, konuşarak, namazı keserek bir şey anlattı. Mecaz böyle yaşanmaz.",
+            "Bir kişi hayalini yaşıyorsa bu hastalık; bilerek yapıyorsa hile. İkisinin arası yok."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir akşam namazında, mescit cemaatle dolu."
+            },
+            {
+              "metin": "Peygamber birden elini uzatır, bir şeye sığınır, bir şeyi lanetler."
+            },
+            {
+              "metin": "Sonra anlatır: iblis yüzüne ateş parçasıyla geldi; onu yakalamak istedi."
+            }
+          ],
+          "soru": "Bunu hâşâ hayal diye okursan ağır bir hastalık, bilerek diye okursan anlamsız bir hile çıkıyor. Orta yol nerede?",
+          "dayanak": "H16, iblis-ateş parçası hadisi (Müslim, Mesâcid 40; Nesâî, Sehv 19; kitap s. 150–151, 153–154)."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir başka olay: namaz vakitleri."
+            },
+            {
+              "metin": "İki gün üst üste, Cebrail'in arkasında namaz kıldığını anlattı."
+            },
+            {
+              "metin": "İlk gün vakitlerin başında, ikinci gün sonunda."
+            }
+          ],
+          "soru": "İki gün düzenli bir hayal mi, yoksa bilerek anlatılmış bir hikâye mi? Üçüncü bir açıklaman var mı?",
+          "dayanak": "H16, namaz vakitleri hadisi (Buhârî 3221; Muvatta, Vukûtu's-Salât 1; kitap s. 151–152)."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir sahabi vardı: Übey. Peygamber ona der: \"Allah sana Kur'an okumamı emretti.\""
+            },
+            {
+              "metin": "Übey sorar: \"Benim adımı mı andı?\" \"Evet.\""
+            },
+            {
+              "metin": "Übey sevinçten ağlar."
+            }
+          ],
+          "soru": "Bu, hâşâ bilerek kurulmuş bir sahne olsaydı, anlatan kişiye \"iyi bir insan\" diyebilir miydin?",
+          "dayanak": "H16, Übey b. Ka'b ve Beyyine suresi (Buhârî, Menâkıbü'l-Ensâr 16; Müslim, Fezâilü's-Sahâbe 122; kitap s. 155)."
+        }
+      ],
+      "kompozisyon": "Peki bu sahnelerin hepsini, orta yol bir açıklamayla nasıl birleştirirsin? Kendi cümlelerinle yaz.",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "haber.agac",
+      "dayanak": "H16 (kitap s. 149–156): haberin keskinliği; 'zeki deli' ve 'iyi sahtekâr' orta yolları; eski müelliflerin tespiti: nübüvvet iddiası ya en faziletlilerden ya en düşüklerden gelir (s. 155–156). Hâşâ edebi korunur; yalnızca çürütmek için anılır."
+    },
+    {
+      "id": "haber.agac",
+      "gizliDugum": "H1",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bu haberi nasıl yorumlayabiliriz? Sıfır noktasından bakalım.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Birinci ihtimal: doğru söylüyor. O zaman peygamberdir.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "dogru",
+              "kapali": []
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "İkinci ihtimal: hâşâ, yanlış söylüyor.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "yalan",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Yanlışsa ya bilerek: hâşâ, bir yalan.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "bilerek",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Ya da bilmeden: hâşâ, bir yanılgı, bir hastalık.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "bilmeyerek",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Bu kadar. Çünkü yalnızca iki soru sorduk: doğru mu? Yalansa, farkında mı?",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Olumsuz ihtimalleri yalnızca ciddiye alıp sonucuna bakmak için anıyoruz."
+        }
+      ],
+      "sonraki": "haber.dorduncu",
+      "dayanak": "H1/H6 (kitap s. 127–129, 134): üç ihtimal; 'sahtekâr' ve 'deli' kolaylık için konmuş adlardır, esas olan farkındalıktır (dn. 266)."
+    },
+    {
+      "id": "haber.dorduncu",
+      "gizliDugum": "H5",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Dördüncü bir kapı yok. Çünkü iki ölçüt, bütün ihtimalleri kapsar."
+        },
+        {
+          "metin": "Yine de sen dene. Aklına başka bir ihtimal geliyorsa söyle."
+        }
+      ],
+      "soru": {
+        "metin": "Sence dördüncü bir ihtimal var mı?",
+        "cipler": [
+          "Evet, bence var",
+          "Hayır, yok"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "yok",
+            "hayır yok",
+            "haklısın",
+            "katılıyorum",
+            "mantıklı",
+            "başka ihtimal yok",
+            "dördüncü yok",
+            "sanırım yok",
+            "bulamadım"
+          ],
+          "git": "haber.demet"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kaynaklara dönelim",
+            "kaynaklara dön",
+            "kaynak konusuna dön",
+            "önce kaynaklar",
+            "kaynakları konuşalım"
+          ],
+          "git": "zemin.giris",
+          "profil": {
+            "supheTuru": "kaynak-guvensiz"
+          }
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "efsane",
+            "efsaneydi",
+            "sonradan uydurulmuş",
+            "sonradan yazılmış",
+            "sonradan eklenmiş",
+            "rivayet",
+            "kaynaklar güvenilmez",
+            "tarihsel değil",
+            "hiç yaşamadı",
+            "yaşamadı"
+          ],
+          "yanit": [
+            "Bu itiraz haberin kendisine değil, bize ulaşma yoluna dair. Haklı bir soru.",
+            "Önce o zemin sağlam olmalı. İstersen kaynaklara dönüp oradan başlayalım: \"kaynaklara dönelim\" yazman yeter.",
+            "İstersen şimdilik haberi sağlam kabul edip ihtimallere devam edebiliriz. Dördüncü bir ihtimal var mı?"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "reformcu",
+            "iyi niyetli",
+            "iyi niyetle",
+            "toplum önderi",
+            "devrimci",
+            "mecaz",
+            "mecazi",
+            "sembolik",
+            "ilham",
+            "vizyon",
+            "rüya",
+            "manevi tecrübe",
+            "manevi",
+            "ahlak öğretmeni"
+          ],
+          "yanit": [
+            "İyi niyetli bir reformcu \"melek geldi\" derken bunun doğru olmadığını biliyorsa, bu ihtimal bilerek kutusundadır. Niyetin iyi olması kutuyu değiştirmez.",
+            "\"Mecazdı\" diyorsan, dönemin insanları bunu mecaz mı anladı? O cemaatin önünde anlatılanlar mecaz gibi durmuyor.",
+            "İsim değişti, kutu aynı. Yeni bir kapı açılmadı."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kısmen",
+            "biraz",
+            "bir kısmı",
+            "ikisi de",
+            "hem hem",
+            "arası",
+            "orta yol",
+            "kısmen doğru",
+            "yarı yarıya"
+          ],
+          "yanit": [
+            "\"Kısmen doğru\" demek, melek hakkındaki bir bölümün yanlış olduğunu söylemektir. Haberin içinde de ya bilerek ya bilmeden yanlış söyleyen biri çıkar.",
+            "Orta yol dediğin şey aslında yine aynı kutulardan birinin içinde."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kâhin",
+            "kahin",
+            "medyum",
+            "büyücü",
+            "sihirbaz",
+            "falcı",
+            "ruh çağıran"
+          ],
+          "yanit": [
+            "Kâhinler de bu devreden çıkmaz: onlara da ya hile ya hayal dersin.",
+            "Peki kâhinlerde gerçek bir şey görüldüğünü kabul edersen, onun söylediğini neden dışarıda bırakırsın?"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "epilepsi",
+            "halüsinasyon",
+            "hayal",
+            "hasta",
+            "yanılmış",
+            "yanılgı",
+            "sara"
+          ],
+          "yanit": [
+            "Epilepsi ya da halüsinasyon yeni bir kapı değil. Bunlar, \"bilmeden yanılma\" kutusunun içinde.",
+            "Çünkü orada kişi, gerçek olmayan bir şeyi gerçek sanıyor. Yani farkında olmadan yanlış haber veriyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir deneme yapalım: epilepsi, halüsinasyon, vizyon."
+            },
+            {
+              "metin": "Bunların hepsinde kişi, gerçek olmayanı gerçek sanıyor."
+            },
+            {
+              "metin": "O zaman hepsi aynı kutuda: bilmeden yanılma."
+            }
+          ],
+          "soru": "Sence yeni bir isim, yeni bir ihtimal doğurur mu?",
+          "dayanak": "H5 (kitap s. 134): epilepsi/halüsinasyon farkında olmadan yalan kutusunda; iyi niyetli toplum önderi farkında olarak yalan kutusunda."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Biri \"o iyi niyetli bir reformcuydu\" diyor."
+            },
+            {
+              "metin": "Ama reformcu \"melek geldi\" derken bunun gerçek olmadığını biliyorsa?"
+            },
+            {
+              "metin": "Bu hâlde niyeti iyi olsa da, bilerek yanlış söylemiş olur."
+            }
+          ],
+          "soru": "Bu iki özelliği bir arada tutmak sana mantıklı geliyor mu?",
+          "dayanak": "H5/H16 (kitap s. 134; s. 149–156)."
+        }
+      ],
+      "kompozisyon": "Peki sen bu üç kutunun dışında bir ihtimal kurmak istesen, haberin hangi detayını nasıl açıklardın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "haber.demet",
+      "dayanak": "H1/H5 (kitap s. 128, 134, 147–149). 'Dördüncü ihtimal yoktur' (s.128). Efsane/sonradan uydurma itirazları zemin (Z) bölümünde ele alınır; burada yönlendirme yapılır. Kâhinlik: H15 (s. 147–149)."
+    },
+    {
+      "id": "haber.demet",
+      "gizliDugum": "H7",
+      "sahne": {
+        "arkaplan": "isik",
+        "diyagram": {
+          "tur": "demet",
+          "veri": {
+            "cubuklar": [
+              "Mucize delilleri",
+              "Samimiyet delilleri",
+              "Fetanet delilleri"
+            ]
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi önemli bir şey: bu yolda tek bir delil yok."
+        },
+        {
+          "metin": "Bir sopayı kırmak kolay. Bir demeti kırmak değil.",
+          "diyagram": {
+            "tur": "demet",
+            "veri": {
+              "cubuklar": [
+                "Mucize delilleri",
+                "Samimiyet delilleri",
+                "Fetanet delilleri"
+              ]
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "Birine itiraz etmek, ispatı çürütmez."
+        },
+        {
+          "metin": "İtiraz edecek biri her delili tek tek çürütmeli."
+        },
+        {
+          "metin": "Üstelik seçtiği ihtimalle bütün tarihi tutarlı biçimde açıklamalı."
+        }
+      ],
+      "soru": {
+        "metin": "Bu yük sana adil geliyor mu?",
+        "cipler": [
+          "Evet, adil",
+          "Yine de tek delil yeter"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "adil",
+            "haklısın",
+            "mantıklı",
+            "katılıyorum",
+            "tamam",
+            "evet"
+          ],
+          "git": "haber.kisisel"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "zincir",
+            "en zayıf halka",
+            "zayıf halka",
+            "tek delil",
+            "bir delil yeter",
+            "birkaç delil",
+            "bir tanesini çürütsem"
+          ],
+          "yanit": [
+            "Zincirde bir halka kopunca bütün zincir kopar. Burada ise bağımsız deliller var; her biri ötekini destekler.",
+            "Bu yüzden bir demet sopa benzetmesi daha uygun: birini kırmak diğerlerini kırmaz.",
+            "Üstelik mucizelerden biri bile ispata yeterse, itiraz edenin hepsini çürütmesi gerekir."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kanıtlamak zorunda değilim",
+            "ispat etmek zorunda değilim",
+            "benim işim değil",
+            "senin işin",
+            "sen ispatla"
+          ],
+          "yanit": [
+            "Bir delile itiraz etmek, kendi iddianı ispat etmek değildir.",
+            "\"Peygamber değil\" diyorsan, \"neden böyle bir şey olmuş?\" sorusunu da açıklamak gerekir."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "On mucize, on samimiyet, on fetanet delili düşün."
+            },
+            {
+              "metin": "Muhalif otuzunu da çürütmeli."
+            },
+            {
+              "metin": "Üstelik her çürütmeyi, kendi kurduğu hikâyeyle uyumlu yapmalı."
+            }
+          ],
+          "soru": "Birkaçına itiraz etmek bu işin üstesinden gelmeye yeter mi?",
+          "dayanak": "H7 (kitap s. 135–136): 10'ar delil aritmetiği."
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "\"Ben şu delili kabul etmiyorum\" demek, bir iddia değildir."
+            },
+            {
+              "metin": "İddia, \"o şunu yaptı çünkü...\" diye başlar."
+            },
+            {
+              "metin": "O iddianın bütün tarihi tutması gerekir."
+            }
+          ],
+          "soru": "Sence bu iki şey aynı yük mü?",
+          "dayanak": "H12 (kitap s. 141–144): delile itiraz = kompozisyon kurmak değildir."
+        }
+      ],
+      "kompozisyon": "Peki sen bu yükü yüklenmek isteseydin, hangi ihtimalle başlardın ve nasıl bir hikâye kurardın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "haber.kisisel",
+      "dayanak": "H7 (kitap s. 135–136): demet sopa; 10'ar delil; itiraz edenin yapması gerekenler: mucizeleri tek tek çürütmek, yalanın çeşidini seçmek, o çeşidin delillerini tek tek çürütmek, tutarlı kompozisyon kurmak."
+    },
+    {
+      "id": "haber.kisisel",
+      "gizliDugum": "H5",
+      "dallan": [
+        {
+          "kosul": {
+            "profil.supheTuru": "uydurdu"
+          },
+          "git": "haber.kopru-uydurdu"
+        },
+        {
+          "kosul": {
+            "profil.supheTuru": [
+              "hasta-yanildi",
+              "ogrendi"
+            ]
+          },
+          "git": "haber.kopru-yanildi"
+        },
+        {
+          "kosul": {
+            "profil.supheTuru": "mucize-yok"
+          },
+          "git": "haber.kopru-mucize"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Metodun haritasını gördün."
+        },
+        {
+          "metin": "Şimdi sana dönelim: senin düşüncen bu haritanın neresinde?"
+        }
+      ],
+      "sonraki": "haber.ihtimaller",
+      "dayanak": "Yönlendirme beat'i: açılıştaki supheTuru'ne göre kişisel köprüler. Eşleşme yoksa doğrudan ihtimaller sorusuna geçer."
+    },
+    {
+      "id": "haber.kopru-uydurdu",
+      "gizliDugum": "H5/S1",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": "bilerek",
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Sen başta onun bunu uydurmuş olabileceğini söyledin."
+        },
+        {
+          "metin": "Haritada bu birinci kutu: bilerek yalan.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "bilerek",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Bu ihtimali atlamayacağız. Önce onu ciddiye alalım."
+        }
+      ],
+      "soru": {
+        "metin": "Önce bu ihtimali birlikte inceleyelim mi?",
+        "cipler": [
+          "Evet, bakalım",
+          "Başka ihtimale bakmak isterim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "başka",
+            "farklı",
+            "hayır",
+            "bence değil",
+            "vazgeçtim",
+            "diğer"
+          ],
+          "git": "haber.ihtimaller"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "evet",
+            "tamam",
+            "bakalım",
+            "olur",
+            "başlayalım",
+            "isterim",
+            "devam",
+            "buyur",
+            "peki",
+            "hadi",
+            "tabii"
+          ],
+          "git": "samimiyet.giris",
+          "profil": {
+            "iddia": "sahtekar"
+          }
+        }
+      ],
+      "varsayilan": "haber.ihtimaller",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/S1)."
+    },
+    {
+      "id": "haber.kopru-yanildi",
+      "gizliDugum": "H5/F24",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": "bilmeyerek",
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Sen başta onun bilmeden yanılmış olabileceğini düşündüğünü söyledin."
+        },
+        {
+          "metin": "Hastalık, hayal ya da çevresinden öğrendiği şeyler olabilir."
+        },
+        {
+          "metin": "Haritada bu ikinci kutu.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "bilmeyerek",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Önce bu ihtimali ciddiye alalım."
+        }
+      ],
+      "soru": {
+        "metin": "Bu ihtimali birlikte inceleyelim mi?",
+        "cipler": [
+          "Evet, bakalım",
+          "Başka ihtimale bakmak isterim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "başka",
+            "farklı",
+            "hayır",
+            "bence değil",
+            "vazgeçtim",
+            "diğer"
+          ],
+          "git": "haber.ihtimaller"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "evet",
+            "tamam",
+            "bakalım",
+            "olur",
+            "başlayalım",
+            "isterim",
+            "devam",
+            "buyur",
+            "peki",
+            "hadi",
+            "tabii"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli"
+          }
+        }
+      ],
+      "varsayilan": "haber.ihtimaller",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/F24)."
+    },
+    {
+      "id": "haber.kopru-mucize",
+      "gizliDugum": "H9/M",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": "dogru",
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Sen başta mucize olduğuna dair bir şey görmediğini söyledin."
+        },
+        {
+          "metin": "Haklısın, bu önemli bir soru."
+        },
+        {
+          "metin": "Haritada bu, \"doğru söylüyor\" kapısı.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "dogru",
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Onu doğrudan gösteren delillere bakalım."
+        }
+      ],
+      "soru": {
+        "metin": "Bu delillere bakalım mı?",
+        "cipler": [
+          "Evet, bakalım",
+          "Başka ihtimale bakmak isterim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "başka",
+            "farklı",
+            "hayır",
+            "bence değil",
+            "vazgeçtim",
+            "diğer"
+          ],
+          "git": "haber.ihtimaller"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "evet",
+            "tamam",
+            "bakalım",
+            "olur",
+            "başlayalım",
+            "isterim",
+            "devam",
+            "buyur",
+            "peki",
+            "hadi",
+            "tabii"
+          ],
+          "git": "mucize.giris",
+          "profil": {
+            "iddia": "dogru"
+          }
+        }
+      ],
+      "varsayilan": "haber.ihtimaller",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H9/M)."
+    },
+    {
+      "id": "haber.ihtimaller",
+      "gizliDugum": "H5",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi sıra sende."
+        },
+        {
+          "metin": "Üç kapı var: doğru söylüyor, bilerek yalan söylüyor, bilmeden yanılıyor."
+        },
+        {
+          "metin": "Dürüstçe, kendi aklınla: hangisine yakın duruyorsun?"
+        }
+      ],
+      "soru": {
+        "metin": "Sence hangisi?",
+        "cipler": [
+          "Bilerek yalan söylüyor",
+          "Bilmeden yanılıyor",
+          "Doğru söylüyor"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sahtekar",
+            "sahtekâr",
+            "yalan",
+            "yalan söylüyor",
+            "yalan söylemiş",
+            "yalan söylüyordu",
+            "yalan söyledi",
+            "yalan söylemiş olabilir",
+            "bilerek",
+            "bile bile",
+            "bilerek yalan",
+            "bilerek söylemiş",
+            "uydurdu",
+            "uydurmuş",
+            "uyduruyor",
+            "uydurmuş olabilir",
+            "uydurma",
+            "kandırdı",
+            "kandırmış",
+            "kandırıyor",
+            "kandırıyordu",
+            "aldattı",
+            "aldatmış",
+            "insanları kandırmış",
+            "çıkar",
+            "çıkar için",
+            "kendi çıkarı",
+            "iktidar",
+            "iktidar hırsı",
+            "siyasi",
+            "politik",
+            "güç için",
+            "para için",
+            "makam",
+            "şöhret",
+            "lider olmak için",
+            "liderlik hırsı",
+            "dolandırıcı",
+            "yalancı",
+            "hile",
+            "hileci",
+            "blöf",
+            "manipüle",
+            "manipülasyon",
+            "toplum önderi",
+            "reformcu",
+            "devrimci",
+            "siyasi lider",
+            "bile bile yalan",
+            "yalan uydurmuş"
+          ],
+          "git": "samimiyet.giris",
+          "profil": {
+            "iddia": "sahtekar"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "deli",
+            "delilik",
+            "hasta",
+            "hastalık",
+            "hastaydı",
+            "hasta olabilir",
+            "epilepsi",
+            "epilepsiydi",
+            "sara",
+            "saralı",
+            "hayal",
+            "hayal görmüş",
+            "hayal görüyordu",
+            "halüsinasyon",
+            "halusinasyon",
+            "hayal görme",
+            "yanıldı",
+            "yanılmış",
+            "yanılmıştır",
+            "yanılgı",
+            "yanılıyor",
+            "yanılıyordu",
+            "yanıldığını",
+            "bilmeden",
+            "bilmeyerek",
+            "bilmeden yanılıyor",
+            "farkında olmadan",
+            "kendini kandırmış",
+            "kendini kandırdı",
+            "kendi kendini kandırmış",
+            "kendine inanmış",
+            "psikolojik",
+            "ruhsal",
+            "akıl hastası",
+            "akıl sağlığı",
+            "şizofreni",
+            "paranoya",
+            "sanrı",
+            "zannetmiş",
+            "zannediyordu",
+            "sanmış",
+            "sandı",
+            "çevresinden öğrenmiş",
+            "çevresinden etkilenmiş",
+            "öğrenmiş",
+            "ogrenmis",
+            "etkilenmiş",
+            "etkilendi",
+            "rahipten",
+            "rahiplerden",
+            "bahira",
+            "varaka",
+            "yahudilerden",
+            "hristiyanlardan",
+            "kitaplardan öğrenmiş",
+            "travma",
+            "bilinçaltı",
+            "aklı karışık",
+            "ruhsal bozukluk",
+            "samimi yanılgı",
+            "iyi niyetle yanılmış"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "doğru",
+            "dogru",
+            "doğru söylüyor",
+            "doğru söylüyordu",
+            "doğru söylemiş",
+            "doğrudur",
+            "doğru söyledi",
+            "gerçekten melek",
+            "gerçekten peygamber",
+            "gerçekten vahiy",
+            "peygamberdir",
+            "peygamberdi",
+            "haklı",
+            "haklıydı",
+            "haklıdır",
+            "inanıyorum",
+            "söylediği doğru",
+            "vahiy gerçek",
+            "vahiy doğru",
+            "elçidir",
+            "allah'tan",
+            "allah'tan geldi",
+            "melek gerçekten geldi",
+            "bence doğru"
+          ],
+          "git": "mucize.giris",
+          "profil": {
+            "iddia": "dogru"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bilmiyorum",
+            "bilemiyorum",
+            "bilmem",
+            "kararsızım",
+            "kararsiz",
+            "emin değilim",
+            "emin degilim",
+            "hiçbiri",
+            "hiçbirine",
+            "fikrim yok",
+            "karar veremedim",
+            "karar veremiyorum",
+            "ne bileyim",
+            "her ikisi",
+            "ikisi de olabilir",
+            "hepsi olabilir",
+            "düşünmem lazım",
+            "düşünmem gerek",
+            "henüz karar vermedim",
+            "şimdilik bilmiyorum",
+            "sence",
+            "hangisi bilmiyorum"
+          ],
+          "git": "haber.belirsiz",
+          "profil": {
+            "iddia": "kararsiz"
+          }
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hakaret",
+            "saygısızlık",
+            "saygisizlik",
+            "ayıp",
+            "edepsizlik",
+            "haşa",
+            "hâşâ",
+            "incitici"
+          ],
+          "yanit": [
+            "Haklısın, bu kelimeler ağır. Biz onları iddia etmek için değil, çürütmek için anıyoruz.",
+            "Haritada yer alan her olumsuz ihtimal, bu konuda söylenmiş bir itirazdır. Onları dürüstçe ele almak, ona saygının bir yoludur.",
+            "Şimdi sence hangisi?"
+          ]
+        }
+      ],
+      "varsayilan": "haber.belirsiz",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "H5 (kitap s. 134): muhatabın iddiasını yerleştirdiği dal seçimi. CLAUDE.md etkileşim modeli: kullanıcı yalnız kendi iddiasının dalını görür."
+    },
+    {
+      "id": "haber.belirsiz",
+      "gizliDugum": "H5",
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Sorun değil. Karar vermek acele iş değil."
+        },
+        {
+          "metin": "Bir kez daha bakalım: haber ya doğru, ya yanlış."
+        },
+        {
+          "metin": "Yanlışsa ya bilerek, ya bilmeden."
+        },
+        {
+          "metin": "Hiçbirini seçmek zorunda değilsin; yalnızca ilk incelemek istediğini seç."
+        }
+      ],
+      "soru": {
+        "metin": "Hangisinden başlayalım?",
+        "cipler": [
+          "Bilerek yalan",
+          "Bilmeden yanılma",
+          "Doğru"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sahtekar",
+            "sahtekâr",
+            "yalan",
+            "yalan söylüyor",
+            "yalan söylemiş",
+            "yalan söylüyordu",
+            "yalan söyledi",
+            "yalan söylemiş olabilir",
+            "bilerek",
+            "bile bile",
+            "bilerek yalan",
+            "bilerek söylemiş",
+            "uydurdu",
+            "uydurmuş",
+            "uyduruyor",
+            "uydurmuş olabilir",
+            "uydurma",
+            "kandırdı",
+            "kandırmış",
+            "kandırıyor",
+            "kandırıyordu",
+            "aldattı",
+            "aldatmış",
+            "insanları kandırmış",
+            "çıkar",
+            "çıkar için",
+            "kendi çıkarı",
+            "iktidar",
+            "iktidar hırsı",
+            "siyasi",
+            "politik",
+            "güç için",
+            "para için",
+            "makam",
+            "şöhret",
+            "lider olmak için",
+            "liderlik hırsı",
+            "dolandırıcı",
+            "yalancı",
+            "hile",
+            "hileci",
+            "blöf",
+            "manipüle",
+            "manipülasyon",
+            "toplum önderi",
+            "reformcu",
+            "devrimci",
+            "siyasi lider",
+            "bile bile yalan",
+            "yalan uydurmuş"
+          ],
+          "git": "samimiyet.giris",
+          "profil": {
+            "iddia": "sahtekar"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "deli",
+            "delilik",
+            "hasta",
+            "hastalık",
+            "hastaydı",
+            "hasta olabilir",
+            "epilepsi",
+            "epilepsiydi",
+            "sara",
+            "saralı",
+            "hayal",
+            "hayal görmüş",
+            "hayal görüyordu",
+            "halüsinasyon",
+            "halusinasyon",
+            "hayal görme",
+            "yanıldı",
+            "yanılmış",
+            "yanılmıştır",
+            "yanılgı",
+            "yanılıyor",
+            "yanılıyordu",
+            "yanıldığını",
+            "bilmeden",
+            "bilmeyerek",
+            "bilmeden yanılıyor",
+            "farkında olmadan",
+            "kendini kandırmış",
+            "kendini kandırdı",
+            "kendi kendini kandırmış",
+            "kendine inanmış",
+            "psikolojik",
+            "ruhsal",
+            "akıl hastası",
+            "akıl sağlığı",
+            "şizofreni",
+            "paranoya",
+            "sanrı",
+            "zannetmiş",
+            "zannediyordu",
+            "sanmış",
+            "sandı",
+            "çevresinden öğrenmiş",
+            "çevresinden etkilenmiş",
+            "öğrenmiş",
+            "ogrenmis",
+            "etkilenmiş",
+            "etkilendi",
+            "rahipten",
+            "rahiplerden",
+            "bahira",
+            "varaka",
+            "yahudilerden",
+            "hristiyanlardan",
+            "kitaplardan öğrenmiş",
+            "travma",
+            "bilinçaltı",
+            "aklı karışık",
+            "ruhsal bozukluk",
+            "samimi yanılgı",
+            "iyi niyetle yanılmış"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "doğru",
+            "dogru",
+            "doğru söylüyor",
+            "doğru söylüyordu",
+            "doğru söylemiş",
+            "doğrudur",
+            "doğru söyledi",
+            "gerçekten melek",
+            "gerçekten peygamber",
+            "gerçekten vahiy",
+            "peygamberdir",
+            "peygamberdi",
+            "haklı",
+            "haklıydı",
+            "haklıdır",
+            "inanıyorum",
+            "söylediği doğru",
+            "vahiy gerçek",
+            "vahiy doğru",
+            "elçidir",
+            "allah'tan",
+            "allah'tan geldi",
+            "melek gerçekten geldi",
+            "bence doğru"
+          ],
+          "git": "mucize.giris",
+          "profil": {
+            "iddia": "dogru"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bilmiyorum",
+            "bilemiyorum",
+            "bilmem",
+            "kararsızım",
+            "kararsiz",
+            "emin değilim",
+            "emin degilim",
+            "hiçbiri",
+            "hiçbirine",
+            "fikrim yok",
+            "karar veremedim",
+            "karar veremiyorum",
+            "ne bileyim",
+            "her ikisi",
+            "ikisi de olabilir",
+            "hepsi olabilir",
+            "düşünmem lazım",
+            "düşünmem gerek",
+            "henüz karar vermedim",
+            "şimdilik bilmiyorum",
+            "sence",
+            "hangisi bilmiyorum"
+          ],
+          "git": "haber.sirayla",
+          "profil": {
+            "iddia": "kararsiz"
+          }
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hakaret",
+            "saygısızlık",
+            "saygisizlik",
+            "ayıp",
+            "edepsizlik",
+            "haşa",
+            "hâşâ",
+            "incitici"
+          ],
+          "yanit": [
+            "Haklısın, bu kelimeler ağır. Biz onları iddia etmek için değil, çürütmek için anıyoruz.",
+            "Haritada yer alan her olumsuz ihtimal, bu konuda söylenmiş bir itirazdır. Onları dürüstçe ele almak, ona saygının bir yoludur.",
+            "Şimdi sence hangisi?"
+          ]
+        }
+      ],
+      "varsayilan": "haber.sirayla",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "Kararsız kullanıcı için ihtimalleri bir kez daha açan beat."
+    },
+    {
+      "id": "haber.sirayla",
+      "gizliDugum": "H5",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "O hâlde sırayla gidelim."
+        },
+        {
+          "metin": "Önce bilerek yalan ihtimali. Acele yok; sen istedikçe ilerleriz."
+        }
+      ],
+      "sonraki": "samimiyet.giris",
+      "dayanak": "Kararsız kullanıcı için kronolojik varsayılan: samimiyet -> fetanet -> mucize."
+    },
+    {
+      "id": "haber.kalan",
+      "gizliDugum": "H6",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "samimiyet"
+          },
+          "git": "haber.kalan-s"
+        },
+        {
+          "kosul": {
+            "kapali": "fetanet"
+          },
+          "git": "haber.kalan-f"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Henüz kapanan bir ihtimal yok."
+        },
+        {
+          "metin": "Haritaya dönelim ve birlikte bakalım."
+        }
+      ],
+      "sonraki": "haber.ihtimaller",
+      "dayanak": "Dal kapanınca gelinir. Zincir: samimiyet kapalıysa kalan-s; fetanet kapalıysa kalan-f; ikisi de kapalıysa bu beat'lerin dallan'ı kalan-ikisi'ne gider."
+    },
+    {
+      "id": "haber.kalan-s",
+      "gizliDugum": "H6",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "fetanet"
+          },
+          "git": "haber.kalan-ikisi"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": [
+              "bilerek"
+            ]
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Bilerek yalan ihtimali kapandı.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": [
+                "bilerek"
+              ]
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "Geriye iki şey kaldı: bilmeden yanılma ya da doğruluk."
+        },
+        {
+          "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
+        }
+      ],
+      "soru": {
+        "metin": "Şimdi hangisini ciddiye almak istersin?",
+        "cipler": [
+          "Bilmeden yanılma",
+          "Doğru söylüyor"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "deli",
+            "delilik",
+            "hasta",
+            "hastalık",
+            "hastaydı",
+            "hasta olabilir",
+            "epilepsi",
+            "epilepsiydi",
+            "sara",
+            "saralı",
+            "hayal",
+            "hayal görmüş",
+            "hayal görüyordu",
+            "halüsinasyon",
+            "halusinasyon",
+            "hayal görme",
+            "yanıldı",
+            "yanılmış",
+            "yanılmıştır",
+            "yanılgı",
+            "yanılıyor",
+            "yanılıyordu",
+            "yanıldığını",
+            "bilmeden",
+            "bilmeyerek",
+            "bilmeden yanılıyor",
+            "farkında olmadan",
+            "kendini kandırmış",
+            "kendini kandırdı",
+            "kendi kendini kandırmış",
+            "kendine inanmış",
+            "psikolojik",
+            "ruhsal",
+            "akıl hastası",
+            "akıl sağlığı",
+            "şizofreni",
+            "paranoya",
+            "sanrı",
+            "zannetmiş",
+            "zannediyordu",
+            "sanmış",
+            "sandı",
+            "çevresinden öğrenmiş",
+            "çevresinden etkilenmiş",
+            "öğrenmiş",
+            "ogrenmis",
+            "etkilenmiş",
+            "etkilendi",
+            "rahipten",
+            "rahiplerden",
+            "bahira",
+            "varaka",
+            "yahudilerden",
+            "hristiyanlardan",
+            "kitaplardan öğrenmiş",
+            "travma",
+            "bilinçaltı",
+            "aklı karışık",
+            "ruhsal bozukluk",
+            "samimi yanılgı",
+            "iyi niyetle yanılmış",
+            "bilmeden yanılma"
+          ],
+          "git": "fetanet.giris",
+          "profil": {
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "doğru",
+            "dogru",
+            "doğru söylüyor",
+            "doğru söylüyordu",
+            "doğru söylemiş",
+            "doğrudur",
+            "doğru söyledi",
+            "gerçekten melek",
+            "gerçekten peygamber",
+            "gerçekten vahiy",
+            "peygamberdir",
+            "peygamberdi",
+            "haklı",
+            "haklıydı",
+            "haklıdır",
+            "inanıyorum",
+            "söylediği doğru",
+            "vahiy gerçek",
+            "vahiy doğru",
+            "elçidir",
+            "allah'tan",
+            "allah'tan geldi",
+            "melek gerçekten geldi",
+            "bence doğru"
+          ],
+          "git": "mucize.giris",
+          "profil": {
+            "iddia": "dogru"
+          }
+        }
+      ],
+      "varsayilan": "fetanet.giris",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "H6 (kitap s. 134): samimiyet dalı kapandı; kalan ihtimaller fetanet ve doğruluk."
+    },
+    {
+      "id": "haber.kalan-f",
+      "gizliDugum": "H6",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "samimiyet"
+          },
+          "git": "haber.kalan-ikisi"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": [
+              "bilmeyerek"
+            ]
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Bilmeden yanılma ihtimali kapandı.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": [
+                "bilmeyerek"
+              ]
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "Geriye iki şey kaldı: bilerek yalan ya da doğruluk."
+        },
+        {
+          "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
+        }
+      ],
+      "soru": {
+        "metin": "Şimdi hangisini ciddiye almak istersin?",
+        "cipler": [
+          "Bilerek yalan",
+          "Doğru söylüyor"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sahtekar",
+            "sahtekâr",
+            "yalan",
+            "yalan söylüyor",
+            "yalan söylemiş",
+            "yalan söylüyordu",
+            "yalan söyledi",
+            "yalan söylemiş olabilir",
+            "bilerek",
+            "bile bile",
+            "bilerek yalan",
+            "bilerek söylemiş",
+            "uydurdu",
+            "uydurmuş",
+            "uyduruyor",
+            "uydurmuş olabilir",
+            "uydurma",
+            "kandırdı",
+            "kandırmış",
+            "kandırıyor",
+            "kandırıyordu",
+            "aldattı",
+            "aldatmış",
+            "insanları kandırmış",
+            "çıkar",
+            "çıkar için",
+            "kendi çıkarı",
+            "iktidar",
+            "iktidar hırsı",
+            "siyasi",
+            "politik",
+            "güç için",
+            "para için",
+            "makam",
+            "şöhret",
+            "lider olmak için",
+            "liderlik hırsı",
+            "dolandırıcı",
+            "yalancı",
+            "hile",
+            "hileci",
+            "blöf",
+            "manipüle",
+            "manipülasyon",
+            "toplum önderi",
+            "reformcu",
+            "devrimci",
+            "siyasi lider",
+            "bile bile yalan",
+            "yalan uydurmuş"
+          ],
+          "git": "samimiyet.giris",
+          "profil": {
+            "iddia": "sahtekar"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "doğru",
+            "dogru",
+            "doğru söylüyor",
+            "doğru söylüyordu",
+            "doğru söylemiş",
+            "doğrudur",
+            "doğru söyledi",
+            "gerçekten melek",
+            "gerçekten peygamber",
+            "gerçekten vahiy",
+            "peygamberdir",
+            "peygamberdi",
+            "haklı",
+            "haklıydı",
+            "haklıdır",
+            "inanıyorum",
+            "söylediği doğru",
+            "vahiy gerçek",
+            "vahiy doğru",
+            "elçidir",
+            "allah'tan",
+            "allah'tan geldi",
+            "melek gerçekten geldi",
+            "bence doğru"
+          ],
+          "git": "mucize.giris",
+          "profil": {
+            "iddia": "dogru"
+          }
+        }
+      ],
+      "varsayilan": "samimiyet.giris",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "H6 (kitap s. 134): fetanet dalı kapandı; kalan ihtimaller samimiyet ve doğruluk."
+    },
+    {
+      "id": "haber.kalan-ikisi",
+      "gizliDugum": "H6",
+      "sahne": {
+        "arkaplan": "isik",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": null,
+            "kapali": [
+              "bilerek",
+              "bilmeyerek"
+            ]
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "İki yanlış ihtimal de kapandı.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": [
+                "bilerek",
+                "bilmeyerek"
+              ]
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "Bilerek yalan: kapandı. Bilmeden yanılma: kapandı."
+        },
+        {
+          "metin": "Geriye tek ihtimal kaldı.",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": "dogru",
+              "kapali": []
+            }
+          },
+          "vurgu": true
+        },
+        {
+          "metin": "Bunu ben söylemiyorum. Kendi verdiğin cevaplar seni buraya getirdi."
+        }
+      ],
+      "soru": {
+        "metin": "Geriye kalan ihtimal sana ne söylüyor?",
+        "cipler": [
+          "Doğru söylüyor olmalı",
+          "Hâlâ düşünüyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [],
+      "varsayilan": "mucize.giris",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "dayanak": "H6 (kitap s. 134): iki yalan dalı kapanınca geriye yalnızca doğru olma ihtimali kalır. Her cevap kabul edilir; mucize bölümü doğrudan delilleri sunar."
+    }
+  ]
+}
