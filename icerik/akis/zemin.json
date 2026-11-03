@@ -1,0 +1,1912 @@
+{
+  "bolge": "zemin",
+  "giris": "zemin.giris",
+  "beats": [
+    {
+      "id": "zemin.giris",
+      "gizliDugum": "Z5",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "zemin"
+          },
+          "git": "haber.giris"
+        },
+        {
+          "kosul": {
+            "profil.kaynakGuveni": "yuksek",
+            "profil.supheTuru": [
+              "uydurdu",
+              "hasta-yanildi",
+              "ogrendi",
+              "mucize-yok",
+              "genel"
+            ]
+          },
+          "git": "zemin.kisa"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Önce bir şeyi baştan söyleyeyim."
+        },
+        {
+          "metin": "Elimizde bir metin var: Kur'an."
+        },
+        {
+          "metin": "Bu metin sonradan değiştirilmişse, üzerine konuşmanın anlamı kalmaz."
+        },
+        {
+          "metin": "O yüzden önce metne bakacağız. Sağlam mı, değil mi?",
+          "vurgu": true
+        },
+        {
+          "metin": "Kabul etmediğin hiçbir şeye dayanmayacağım."
+        },
+        {
+          "metin": "Konuşan; tarihçiler, laboratuvarlar ve bin dört yüz yıllık sayfalar olacak."
+        }
+      ],
+      "soru": {
+        "metin": "Bu konuda sana en yakın düşünce hangisi?",
+        "cipler": [
+          "Sonradan değiştirilmiş olabilir",
+          "Çok geç yazıya geçilmiştir",
+          "Tarihî kaynaklara pek güvenmem"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "karbon",
+            "yazma",
+            "yazmalar",
+            "en eski",
+            "peygamber'den önce",
+            "peygamberden önce"
+          ],
+          "git": "zemin.karbon"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "antik",
+            "incil",
+            "tarihî kaynak",
+            "tarihi kaynak",
+            "güvenmem",
+            "güvenmiyorum",
+            "tarihçi"
+          ],
+          "git": "zemin.kiyas"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "değiştirilmiş",
+            "değişmiş",
+            "değişti",
+            "geç yazıya",
+            "sözlü",
+            "geç yazılmış",
+            "sonradan"
+          ],
+          "git": "zemin.yazim"
+        }
+      ],
+      "varsayilan": "zemin.yazim",
+      "dayanak": "Z5 (tutarlılık ilkesi, s. 22) ve Z1-Z4 çerçevesi: önce kaynağın sağlamlığı. Dallanma: kaynakGuveni yüksek + kaynak dışı şüphe -> zemin.kisa -> haber.giris. Bu sürüm 'giriş'te yalnız hangi yerden başlanacağını seçtirir (Z6/Z10/Z13)."
+    },
+    {
+      "id": "zemin.yazim",
+      "gizliDugum": "Z6",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "İlk soru: bu metin ne kadar çabuk yazıya geçti?"
+        },
+        {
+          "metin": "Çoğu eski eser, yazarından yüzlerce yıl sonra kâğıda döküldü."
+        },
+        {
+          "metin": "Bu metin farklı. Peygamber hayattayken kâtipler ayetleri yazıyordu."
+        },
+        {
+          "metin": "Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı."
+        },
+        {
+          "metin": "Yirmi yıl dolmadan, bu nüshadan çoğaltılan kopyalar şehirlere gitti."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "zaman",
+            "veri": {
+              "noktalar": [
+                {
+                  "yil": "610",
+                  "etiket": "İlk vahiyler"
+                },
+                {
+                  "yil": "632",
+                  "etiket": "Peygamber'in vefatı"
+                },
+                {
+                  "yil": "≈650",
+                  "etiket": "Çoğaltılan nüshalar şehirlere gider"
+                },
+                {
+                  "yil": "+7 yıl",
+                  "etiket": "Sıffin: iki ordu, tek metin"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Tek bir kuşak içinde: yazıldı, toplandı, çoğaltıldı.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Kaygın, metnin geç yazılıp değişmesiydi. Oysa neredeyse bir kuşak içinde yazıldı ve çoğaltıldı. Bu ikisi nasıl yan yana durur?",
+        "cipler": [
+          "Hızlı yazılmış, haklısın",
+          "Yine de değişmiş olabilir",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hızlı yazılmış",
+            "yan yana durmaz",
+            "durmaz",
+            "çelişiyor"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "yaktı",
+            "yaktırdı",
+            "yakılmış",
+            "yakıldı",
+            "osman",
+            "imha",
+            "yok edildi",
+            "yok etti",
+            "asıl metin"
+          ],
+          "yanit": [
+            "Evet, çoğaltmadan sonra farklı sayfaların toplatıldığı anlatılır.",
+            "Ama asıl metni yok etmek için, o günün Kur'an'ı ezbere bilen pek çok kişinin susması gerekirdi.",
+            "Hemen ardından göreceğin sahne de bunun tersini gösteriyor: düşman iki ordu, aynı metin."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de şuna bak: matbaadan önceki çağ."
+            },
+            {
+              "metin": "Çoğu eski eser, yazarından beş yüz ila bin yıl sonra yazıya geçti."
+            },
+            {
+              "metin": "Kur'an ise, dönemin ölçüsüyle, neredeyse anında kayda alındı."
+            }
+          ],
+          "soru": "Yüzyıllarca sözle yaşamış bir metinle, yazıya hemen geçmiş bir metni aynı kefeye koymak mantıklı mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir tarihçi, ilk derlemenin hemen kullanıldığını yazar."
+            },
+            {
+              "metin": "Üstelik bunu sorgulayan çıkmamış."
+            },
+            {
+              "metin": "Çoğaltma da aynı hızla, kimsenin itirazı olmadan yürümüş."
+            }
+          ],
+          "soru": "İlk derleme itirazsız kabul edildiyse, hangi aşamada ve kimden gizli bir değişiklik geçmiş olabilir?"
+        }
+      ],
+      "kompozisyon": "Peki sen, bu kadar erken yazıya geçmiş bir metnin sonradan değiştiğini hangi tarihî olguyla açıklarsın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.siffin",
+      "dayanak": "Z6, kitap s. 23-28: Bodley (Ebubekir/Zeyd derlemesi, s. 23); matbaa öncesi eserler 500-1000 yıl sonra yazıya geçer (s. 23-24); Muir (derlemenin derhal ve sorgusuz kullanımı, s. 27-28). Osman'ın farklı sayfaları toplatması: itiraz olarak kabul edilip cevaplanıyor; rivayet Buhârî, Fezâilü'l-Kur'ân (rakam teyit edilecek) - EK, docs/onay/acilis-zemin.md."
+    },
+    {
+      "id": "zemin.siffin",
+      "gizliDugum": "Z6",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bir sahneye gidelim."
+        },
+        {
+          "metin": "Çöl. İki ordu. Aynı dinden, ama birbirine düşman."
+        },
+        {
+          "metin": "Birinin zaferi yakın. Diğeri yenilmek üzere."
+        },
+        {
+          "metin": "Yenilmek üzere olan taraf, mızraklarının ucuna mushaf sayfaları bağlar."
+        },
+        {
+          "metin": "Ve galip ordu durur. Silahlar iner."
+        },
+        {
+          "metin": "Batılı tarihçiler bunu bir askerî hile olarak anlatır. Ama hile işe yaradı."
+        },
+        {
+          "metin": "Çünkü çoğaltmadan yedi yıl sonra bile, iki düşman ordu aynı metne bağlıydı.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Düşman iki ordu aynı metne boyun eğiyorsa, bu metnin gizlice değiştirilmiş olması mantıken nasıl mümkün?",
+        "cipler": [
+          "Olamaz galiba",
+          "Hile ama etkili olmuş",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "olamaz galiba",
+            "olamaz",
+            "hile ama",
+            "etkili olmuş",
+            "mümkün görünmüyor"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "tek olay",
+            "tek bir olay",
+            "sadece bir sahne",
+            "tek bir sahne",
+            "abartı",
+            "abartmış"
+          ],
+          "yanit": [
+            "Doğru: tek bir sahne bu.",
+            "Ama bu sahne yalnız durmuyor. Yazmalar, ezber ve rakip iktidarlar da aynı yöne işaret ediyor.",
+            "Şimdi onlara bakacağız."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir klasik tarihçi, o gün mızraklara beş yüz nüsha takıldığını aktarır."
+            },
+            {
+              "metin": "",
+              "diyagram": {
+                "tur": "sayac",
+                "veri": {
+                  "sayi": 500,
+                  "etiket": "mushaf, mızraklarda",
+                  "onek": "≈"
+                }
+              }
+            },
+            {
+              "metin": "Karşı ordu da benzer sayıda taşıdıysa, bin eder."
+            }
+          ],
+          "soru": "Yedi yıl önce çoğaltılmış bir metin bu kadar yayılmışsa, gizli bir değişikliğin fark edilmeden yayılması nasıl olur?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "",
+              "diyagram": {
+                "tur": "alinti",
+                "veri": {
+                  "metin": "En azından bütün Müslümanlar Kur'an konusunda hemfikirdirler.",
+                  "kim": "Batılı bir tarihçi"
+                }
+              }
+            },
+            {
+              "metin": "Bu cümleyi yazan, Müslüman değil."
+            },
+            {
+              "metin": "Yine de tarihe bakınca başka bir şey göremiyor."
+            }
+          ],
+          "soru": "Dışarıdan bakan bir tarihçi bile bu ittifakı görüyorsa, 'gizli değişiklik' hangi tarihî kayda dayanır?"
+        }
+      ],
+      "kompozisyon": "Peki sen bu sahneyi, 'Kur'an gizlice değiştirildi' diyerek tutarlı biçimde nasıl açıklarsın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.tahrif",
+      "dayanak": "Z6, s. 24-28: Sıffin; Irving, Rodinson (hile, ama sahabe itirazsız uydu; s. 25), Lewis, Wellhausen (s. 25-26); Cerrahoğlu, Mes'udî'ye atıfla 500 nüsha (s. 26-27; karşı ordu için 'varsayılsa' kitabın hesabı); Hodgson (s. 27), Muir (s. 27-28). Sıffin: çoğaltmadan ≈7, vefattan ≈27 yıl (kitap s. 25); ekranda yalnız '7 yıl'."
+    },
+    {
+      "id": "zemin.tahrif",
+      "gizliDugum": "Z7",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi tersinden düşünelim. Biri metni değiştirmek istiyor."
+        },
+        {
+          "metin": "Elinde ordu var, hazine var, saray var."
+        },
+        {
+          "metin": "Ama karşısında rakip iktidarlar var. Her biri rakibinin açığını kolluyor."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "demet",
+            "veri": {
+              "cubuklar": [
+                "Emeviler",
+                "Abbasiler",
+                "Endülüs",
+                "Hâricîler",
+                "Muhalifler"
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Emevileri yıkan Abbasiler, rakiplerinin her kusurunu duyurdu. Kerbela'yı bile."
+        },
+        {
+          "metin": "Ama metnin değiştirilmesi üzerine tek bir ihtilaf kaydı bilinmiyor."
+        },
+        {
+          "metin": "Yaklaşık 750'den sonra, hiçbir devlet tek başına her yere hâkim olamadı.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Hangi dönemde, kim, nasıl değiştirdi? Ve rakipleri neden bunu duyurmadı?",
+        "cipler": [
+          "Cevabım yok, haklısın",
+          "İktidar susturmuştur",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "cevabım yok",
+            "cevabım yok haklısın",
+            "haklısın"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "susturmuştur",
+            "susturdu",
+            "susturur",
+            "baskı",
+            "bastırdı",
+            "iktidar susturur",
+            "güçlüydü"
+          ],
+          "yanit": [
+            "Haklı bir soru: güçlü bir iktidar bir kişiyi susturabilir.",
+            "Ama bütün rakipleri, bütün coğrafyayı, bütün yüzyılları?",
+            "Hristiyan tarihinde bile, güçlü bir merkez dışladığı metinlerin izini silemedi. Bugün hepsini tanıyoruz."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de Hâricîler var."
+            },
+            {
+              "metin": "Bir ayetin yorumu yüzünden Ali'ye kılıç çektiler ve yüzyıllarca isyan ettiler."
+            },
+            {
+              "metin": "Bu kadar titiz bir grup, metin değiştirilirken susar mıydı?"
+            }
+          ],
+          "soru": "Tek bir ayetin yorumunda bu kadar keskin olanlar, metnin değiştirilmesine sessiz kalır mıydı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "İslam'ın en güçlü döneminde, Peygamber'i yalanlayan kitaplar yazıldı."
+            },
+            {
+              "metin": "Bir Mutezile âlimi bunların dükkânlarda bulunduğunu aktarır."
+            },
+            {
+              "metin": "İtirazın bile serbestçe yazıldığı bir dünya bu."
+            }
+          ],
+          "soru": "Peygamber'e en sert itirazların yazıldığı bir dünyada, sistemli bir değişiklik kaydı neden yok?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Semerkant'ta, Tunus'ta, İspanya'da insanlar aynı metinle namaz kıldı."
+            },
+            {
+              "metin": "Her biri kendi nüshasını, kendi hafızasını taşıyordu."
+            },
+            {
+              "metin": "Bir merkez bunların hepsine nasıl ulaşıp değiştirebilirdi?"
+            }
+          ],
+          "soru": "Birbirinden bu kadar uzak yerlerde, hepsinin elindeki metni sessizce değiştirmek mantıken nasıl olur?"
+        }
+      ],
+      "kompozisyon": "Peki sen, bunca rakibe, bunca coğrafyaya rağmen sistemli bir değişikliği nasıl mümkün görüyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.hafizlar",
+      "dayanak": "Z7, s. 28-33: Hristiyanlık örneği (s. 28-29); iktidar el değiştirme, 750 sonrası çok devletlilik (s. 29-30); Emevi hataları gizlenemedi (s. 30, 33); Hâriciler (s. 30); Kadı Abdülcabbar (Mutezile; s. 30-33; yaşadığı tarih için doğrulanacaklar'a bak, ekranda tarih verilmedi); Semerkant-Tunus-İspanya (s. 29-30)."
+    },
+    {
+      "id": "zemin.hafizlar",
+      "gizliDugum": "Z8",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi yazıyı bir kenara bırak. Yalnızca ezberi düşün."
+        },
+        {
+          "metin": "Dünyanın dört bir yanında insanlar bu metni ezbere okuyor."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "sayac",
+            "veri": {
+              "sayi": 200,
+              "etiket": "bin: Türkiye'de belgeli hafız (kabaca)",
+              "onek": "≈"
+            }
+          }
+        },
+        {
+          "metin": "Dünya genelinde kabaca milyonlarca. Rakam kesin değil; büyüklüğü ortada."
+        },
+        {
+          "metin": "Her hafız metni bir hocadan aldı. O da bir hocadan."
+        },
+        {
+          "metin": "Zincirin en başında Peygamber'in kendisi var."
+        },
+        {
+          "metin": "Metin iki kanaldan taşındı: yazı ve ezber. Biri sapsa, öteki yakalar.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Biri yazıda, diğeri hafızada: iki ayrı kanal. İkisinin birden, aynı yönde, sessizce değişmesi mantıken nasıl olur?",
+        "cipler": [
+          "Pek mümkün görünmüyor",
+          "Hafızlar da yanılabilir",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "pek mümkün görünmüyor",
+            "mümkün görünmüyor",
+            "görünmüyor"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hafızlar da yanılabilir",
+            "yanılabilir",
+            "unutur",
+            "insan unutur",
+            "ezber yanılır",
+            "hafıza"
+          ],
+          "yanit": [
+            "Doğru: tek bir hafız yanılabilir. Hepimiz yanılırız.",
+            "Ama ezber, tek başına yapılmaz: hafız okur, bir başkası dinler, hata düzeltilir.",
+            "Üstelik ezber yazıyla, yazı ezberle karşılaştırılır. Tutarsızlık hemen ortaya çıkar."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kıraat",
+            "kıraatler",
+            "farklı okunuş",
+            "okunuş farkı",
+            "yedi harf",
+            "farklı okuyuş"
+          ],
+          "yanit": [
+            "Doğru: farklı kıraatler var.",
+            "Bunlar aynı yazı iskeleti üzerinde, çoğunlukla telaffuz ve küçük okuyuş farklarıdır.",
+            "Her biri, Peygamber'e uzanan bir okuma zinciriyle aktarılır. İkinci bir Kur'an değil; aynı metnin okunuş çeşitleri."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir deneme yap: kendi dilinde, herhangi bir kitap düşün."
+            },
+            {
+              "metin": "Onu baştan sona ezbere bilen kaç kişi tanırsın?"
+            },
+            {
+              "metin": "Kur'an'ı ezbere bilenler ise milyonlarla ifade ediliyor."
+            }
+          ],
+          "soru": "Böyle yaygın bir ezber ağında, tek bir değişikliğin fark edilmeden yayılması nasıl olur?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Semerkant'taki bir hafızı, Tunus'taki bir hafızın yanına koy."
+            },
+            {
+              "metin": "Birbirini hiç görmemişler."
+            },
+            {
+              "metin": "Aynı metni, aynı sırayla okuyorlar."
+            }
+          ],
+          "soru": "Birbirinden habersiz bu kadar insan aynı metinde buluşuyorsa, gizli bir değişiklik bunu nasıl bozmadı?"
+        }
+      ],
+      "kompozisyon": "Peki sen, bu iki kanalın hep aynı metni taşımasını, değişiklik varsayımıyla nasıl uzlaştırıyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.yazmalar",
+      "dayanak": "Z8, s. 33-34: hafız sayısı kabaca (Türkiye ≈200 bin belgeli hafız, Diyanet haberi; dünya için oransal tahmin yazara ait; ekranda 'kabaca'); icazet silsilesi (s. 34). 'Türkiye'de Kur'an dışında hangi kitabın 50 ezberleyeni var?' (s. 34). Hafızlar da yanılabilir ve kıraat itirazlarının cevapları kısa ve genel bilgiyle yazılmıştır -> EK (docs/onay/acilis-zemin.md). Kıraatler yazma çıkarımı s. 82'de de geçer."
+    },
+    {
+      "id": "zemin.yazmalar",
+      "gizliDugum": "Z9",
+      "sahne": {
+        "arkaplan": "mushaf",
+        "gorsel": "gorseller/mushaflar/kitaptan/01-topkapi-1.jpg"
+      },
+      "satirlar": [
+        {
+          "metin": "Peki ya elimizde o dönemin sayfaları da varsa?"
+        },
+        {
+          "metin": "Var.",
+          "vurgu": true
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "galeri",
+            "veri": {
+              "gorseller": [
+                "gorseller/mushaflar/kitaptan/01-topkapi-1.jpg",
+                "gorseller/mushaflar/kitaptan/11-sana-camiul-kebir-1.jpg",
+                "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg",
+                "gorseller/mushaflar/kitaptan/22-paris-parisino-petropolitanus-1.jpg",
+                "gorseller/mushaflar/kitaptan/27-tubingen-1.jpg",
+                "gorseller/mushaflar/kitaptan/34-taskent-1.jpg",
+                "gorseller/mushaflar/kitaptan/21-londra-or2165-1.jpg",
+                "gorseller/mushaflar/kitaptan/05-kahire-huseyin-camii-1.jpg"
+              ],
+              "etiketler": [
+                "Topkapı Sarayı, İstanbul",
+                "Câmiu'l-Kebîr, San'a",
+                "Birmingham Üniversitesi",
+                "Fransa Millî Kütüphanesi, Paris",
+                "Tübingen Üniversitesi",
+                "Taşkent",
+                "British Library, Londra",
+                "Hüseyin Camii, Kahire"
+              ]
+            }
+          }
+        },
+        {
+          "metin": "İstanbul'da. San'a'da. Paris'te. Taşkent'te. Tübingen'de. Birmingham'da."
+        },
+        {
+          "metin": "Kimi deri üzerinde, kimi parşömende, kimi papirüste."
+        },
+        {
+          "metin": "Farklı kâtiplerce, birbirinden uzak yerlerde, farklı boyutlarda yazılmışlar."
+        },
+        {
+          "metin": "Küçük imla farkları dışında, hepsi aynı metni taşıyor.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Kaygın, metnin sonradan değişmesiydi. Oysa birbirinden uzak yerlerde yazılmış yapraklar aynı metni taşıyor. Bu mantıken nasıl mümkün?",
+        "cipler": [
+          "Gerçekten ilginç",
+          "Farklı bir yazma çıkarsa?",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "gerçekten ilginç",
+            "ilginç",
+            "etkileyici"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "farklı bir yazma çıkarsa",
+            "tek yazma",
+            "tek bir yazma",
+            "farklı bir yazma",
+            "farklı yazma",
+            "farklı çıkarsa",
+            "bulunursa"
+          ],
+          "yanit": [
+            "Diyelim ki yarın farklı bir yazma çıktı.",
+            "Tek bir sayfa, tahrifi göstermez. Sistemli ve sonraki yazmalara yayılmış bir fark gerekir.",
+            "İstanbul'u Fatih yerine Kanuni'nin aldığını yazan tek bir yazma bulsan, tarihi değiştirmezsin."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bunların çoğu hiç incelenmedi bile."
+            },
+            {
+              "metin": "Birmingham'daki yapraklar yaklaşık yüz yıl okunmadan bekledi.",
+              "gorsel": "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg"
+            },
+            {
+              "metin": "Onları fark eden, bir doktora öğrencisi oldu."
+            },
+            {
+              "metin": "Aynı üniversitede binlerce Arapça yazma, incelenmeyi bekliyor."
+            }
+          ],
+          "soru": "Bulunan her yeni sayfa aynı metni teyit ediyorsa, gizli bir fark hangi sayfada saklanıyor olabilir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kimi mushaf Kur'an'ın neredeyse tamamı. Kimi yalnızca birkaç yaprak."
+            },
+            {
+              "metin": "Birinde eksik olan, ötekinde tamamlanıyor."
+            },
+            {
+              "metin": "Hepsinde sure ve ayet sırası, bugünküyle aynı."
+            }
+          ],
+          "soru": "Sıra, sure ve ayetler ilk yüzyıldan bugüne aynıysa, 'sonradan düzenlendi' demek neye dayanır?"
+        }
+      ],
+      "kompozisyon": "Peki sen bu yaprakları, 'Kur'an sonradan değişti' diyerek nasıl açıklıyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.cografya",
+      "dayanak": "Z9/Z11, s. 34-83: Altıkulaç, Mesâhif-i Kadîme (birliktelik 'basit imla farkları ve sınırlı kâtip sehivleri bir yana', s. 80); mushaf farklı kâtiplerce, uzak bölgelerde, farklı boyut-satır düzenleriyle (s. 82-83); Kanuni-Fatih benzetmesi (s. 35); Birmingham 100 yıl okunmadan beklemiş, 3.500 yazma (s. 36); sure/ayet sırası aynı (s. 81). Görseller: public/gorseller/mushaflar/kitaptan/; lisans YAYIN ÖNCESİ doğrulanacak (docs/gorseller.md)."
+    },
+    {
+      "id": "zemin.cografya",
+      "gizliDugum": "Z11",
+      "sahne": {
+        "arkaplan": "mushaf",
+        "gorsel": "gorseller/mushaflar/kitaptan/22-paris-parisino-petropolitanus-1.jpg"
+      },
+      "satirlar": [
+        {
+          "metin": "Bu yapraklar rastgele değil. Haritaya dök."
+        },
+        {
+          "metin": "Rivayete göre Hz. Osman'ın çoğalttığı nüshalar dört şehre gitti."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Gönderilen merkezler",
+                "maddeler": [
+                  "Medine",
+                  "Basra",
+                  "Şam",
+                  "Kûfe"
+                ]
+              },
+              "sag": {
+                "baslik": "Bugün elimizdeki yazmalar",
+                "maddeler": [
+                  "Topkapı, San'a",
+                  "İstanbul (TİEM), St. Petersburg",
+                  "Londra, Paris, Tübingen",
+                  "Taşkent, Kahire"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "metin": "Yazmalar bu dört yöne oturuyor."
+        },
+        {
+          "metin": "Farklı kâtipler. Farklı boyutlar. Farklı satır düzenleri."
+        },
+        {
+          "metin": "Metin yine aynı."
+        },
+        {
+          "metin": "Gizli bir değişiklik, bu dört yönün hiçbirinde iz bırakmamış.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Dört ayrı yöne dağılmış nüshaların hepsinde aynı metin varsa, bir değişiklik hepsine aynı anda nasıl girebilirdi?",
+        "cipler": [
+          "Girebilmesi zor",
+          "Hepsi aynı merkezden çıkmış",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "girebilmesi zor",
+            "zor görünüyor"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hepsi aynı merkezden çıkmış",
+            "aynı merkezden",
+            "merkezden çıkmış",
+            "aynı kaynak",
+            "osman'dan",
+            "hepsi osman"
+          ],
+          "yanit": [
+            "Doğru: hepsi aynı merkezden çoğaltıldı. Anlatılan hikâye de zaten bu.",
+            "Asıl soru, o merkezdeki metnin ne olduğu: Peygamber'in metni mi, değil mi?",
+            "Bazı yaprakların karbon aralığı, çoğaltmadan da önceyi, Peygamber'in hayatını içine alıyor. Şimdi ona bakacağız."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Paris ve Tübingen'deki yazmalar, Şam nüshasıyla uyumlu."
+            },
+            {
+              "metin": "İkisinin karbon aralığı da 649 ile 675 arasına düşüyor."
+            },
+            {
+              "metin": "Bu, Peygamber'in vefatından yaklaşık kırk yıl içinde."
+            }
+          ],
+          "soru": "Peygamber'den en fazla kırk yıl sonrasına ait yapraklarda sistemli bir değişiklik izi yoksa, değişiklik nerede başladı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Yemen'de bir yazmanın karbon aralığı yayımlandı."
+            },
+            {
+              "metin": "Batılı akademisyenler: yüzde 68 ihtimalle 614 ile 656."
+            },
+            {
+              "metin": "Yüzde 95 ihtimalle 578 ile 669."
+            }
+          ],
+          "soru": "Peygamber'in zamanına bu kadar yakın bir yaprak bugünkü metni taşıyorsa, değişiklik için ne kadar zaman kalıyor?"
+        }
+      ],
+      "kompozisyon": "Peki sen bu coğrafi dağılımı, tek bir değişiklik varsayımıyla nasıl açıklıyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.karbon",
+      "dayanak": "Z11, s. 82: Osman nüshası eşleşmesi (Medine: Topkapı, San'a, MEFİ; Basra: TİEM, St. Petersburg; Şam: Londra, Paris, Tübingen; Kûfe: Taşkent, Kahire); Paris Deroche 649-675 (s. 59); Tübingen %95,4: 649-675 (s. 64); Codex San'a 1 Sadeghi & Bergmann 2010: %68 614-656, %95 578-669 (s. 51). Tekrar-sayım uyarısı: docs/dogrulanacaklar.md A."
+    },
+    {
+      "id": "zemin.karbon",
+      "gizliDugum": "Z10",
+      "sahne": {
+        "arkaplan": "mushaf",
+        "gorsel": "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg"
+      },
+      "satirlar": [
+        {
+          "metin": "Duymuş olabilirsin: 'Peygamber'den önceye ait Kur'an bulundu.'"
+        },
+        {
+          "metin": "Bu cümle, karbon testinin ne ölçtüğünü bilmemekten doğuyor."
+        },
+        {
+          "metin": "Test yazının değil, yazıldığı malzemenin yaşını ölçer. Tek yıl vermez; aralık verir."
+        },
+        {
+          "metin": "Birmingham'daki yaprak için aralık: 568 ile 645."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "zaman",
+            "veri": {
+              "noktalar": [
+                {
+                  "yil": "568",
+                  "etiket": "Aralığın başı"
+                },
+                {
+                  "yil": "610",
+                  "etiket": "İlk vahiyler"
+                },
+                {
+                  "yil": "632",
+                  "etiket": "Peygamber'in vefatı"
+                },
+                {
+                  "yil": "645",
+                  "etiket": "Aralığın sonu"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Bu aralık 77 yıl. Peygamber'in 63 yıllık ömründen bile uzun."
+        },
+        {
+          "metin": "Aralığın başına bakıp 'Peygamber'den önce' demek, testi yanlış okumaktır.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "İddia şuydu: test, Kur'an'ın Peygamber'den önce var olduğunu gösteriyor. Veri şu: test malzemeyi tarihler ve 77 yıllık bir aralık verir. 'Peygamber'den önce' sonucuna mantıken nasıl varılır?",
+        "cipler": [
+          "Varılamaz, haklısın",
+          "Test hata yapabilir",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "varılamaz",
+            "varılamaz haklısın",
+            "anladım"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hata payı",
+            "hata yapabilir",
+            "test hata yapabilir",
+            "yanlış çıkabilir",
+            "güvenilir değil",
+            "güvenilir mi",
+            "test yanlış"
+          ],
+          "yanit": [
+            "Haklısın: tek bir test kesin yıl vermez. Zaten aralık veriyor.",
+            "O yüzden tek test yetmez. Yazının biçimi, hafızlar, Süryani ve Bizans kayıtları birlikte okunur.",
+            "Tarih, tek bir yöntemin değil, çapraz okumanın işidir."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "palimpsest",
+            "palimpsesti",
+            "silinmiş",
+            "alt yazı",
+            "alt metin",
+            "sana palimpsesti",
+            "silinip"
+          ],
+          "yanit": [
+            "İyi bir örnek: silinip üstüne yeniden yazılan sayfalar var.",
+            "San'a'daki böyle bir yaprakta, silinmiş alt yazıda bazı küçük kelime ve sıra farkları bildirilir.",
+            "Ama bu tek bir yazma. Tek yazma, sistemli bir değişikliği göstermez.",
+            "Hatta o nüshanın silinip üstüne yeniden yazılması, ortak metne dönüldüğünü düşündürür."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir şey daha: deri pahalıdır."
+            },
+            {
+              "metin": "Kahire'deki bir mushaf bin seksen yedi varak, yaklaşık seksen kilo."
+            },
+            {
+              "metin": "Böyle bir malzeme yıllarca boş bekletilmez."
+            }
+          ],
+          "soru": "Pahalı bir malzemeyi on yıllarca boş bekletmek mantıklı mı? O hâlde yazı, malzemenin tarihinden ne kadar sonra olabilir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Karbon tek tanık değil."
+            },
+            {
+              "metin": "Aynı yıllarda Süryani ve Bizans yazarları da Müslümanları ve Peygamber'i anlatır."
+            },
+            {
+              "metin": "Peygamber'den önce bir Kur'an olsaydı, bu kayıtlar bunu hiç anmaz mıydı?"
+            }
+          ],
+          "soru": "Peygamber'den önceye ait bir Kur'an varsa, o çağın başka hangi kaydı bunu anlatıyor?"
+        }
+      ],
+      "kompozisyon": "Peki sen, bu aralıkları ve yazma verilerini birlikte nasıl okuyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.corpus",
+      "dayanak": "Z10, s. 37-41: Bloom (7. yy başı Arabistan'da kâğıt bilinmiyordu, s. 37-38); karbon malzemeyi tarihler, %95 aralık; Birmingham 568-645, 77 yıl > 63 yıl (s. 39-40); pahalı malzeme bekletilmez, 80 kg/1087 varak Kahire mushafı (s. 38-39); Süryani/Bizans çapraz okuma (s. 40). Sana palimpsesti cevabı kitapta yok (kitap yalnız Cambridge palimpsestini listeden çıkardığını söyler, s. 39) -> EK: Sadeghi & Goudarzi, 'Ṣanʿāʾ 1 and the Origins of the Qurʾān', Der Islam 87 (2012); docs/onay/acilis-zemin.md."
+    },
+    {
+      "id": "zemin.corpus",
+      "gizliDugum": "Z12",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bunlara körü körüne inanmak zorunda değilsin."
+        },
+        {
+          "metin": "Almanya'da akademik bir proje, ayet ayet yazma tarihlerini internete koydu."
+        },
+        {
+          "metin": "Bir ayet seç. En eski yazmalarını kendin gör."
+        },
+        {
+          "metin": "Mesela Tevbe suresinin son iki ayeti."
+        },
+        {
+          "metin": "Biri, bu iki ayetin sonradan eklendiğini ileri sürdü."
+        },
+        {
+          "metin": "Ayet, karbon aralığı 606 ile 649 olan bir yazmada bile yerinde duruyor."
+        },
+        {
+          "metin": "Peygamber'in zamanına çok yakın bir yazmada.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "İddia: son iki ayet sonradan eklendi. Veri: ayet, Peygamber'in zamanına çok yakın bir yazmada zaten var. 'Sonradan eklendi' mantıken nasıl savunulur?",
+        "cipler": [
+          "Savunulamaz",
+          "Kendim bakmak isterim",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "savunulamaz",
+            "savunulamıyor"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kendim bakmak isterim",
+            "kendim bakmak",
+            "nereden",
+            "site",
+            "adres",
+            "kendim"
+          ],
+          "yanit": [
+            "Aramaya 'Corpus Coranicum' yaz.",
+            "Sure ve ayet numarasını seç; yazma listesi ve tarihleri karşına çıkar."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir ayet daha: Rum suresinin beşinci ayeti."
+            },
+            {
+              "metin": "En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada."
+            },
+            {
+              "metin": "Yani Peygamber'den yaklaşık kırk yıl sonrasına inmiyor bile."
+            }
+          ],
+          "soru": "Bir ayet için bile Peygamber'in zamanına bu kadar yakın bir yazma varsa, 'sonradan eklendi' iddiası ne zaman, nasıl yapılmış olabilir?"
+        }
+      ],
+      "kompozisyon": "Peki sen, ayetlerin sonradan eklendiği iddiasını bu veriyle nasıl uzlaştırıyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.kiyas",
+      "dayanak": "Z12, s. 83-86: Corpus Coranicum; Tevbe 9:128-129 (Reşad Halife iddiası); en erken yazma 606-649 (Dam 01-27.1; yazarın kaba yıl-üzeri dağılımı ekranda kullanılmadı); Rum 30:5 için 649-675'ten başlayan dizi (s. 86). 'Yaklaşık kırk yıl sonrasına inmiyor' ifadesi 675-632=43 hesabıdır (ekranda 'yaklaşık')."
+    },
+    {
+      "id": "zemin.kiyas",
+      "gizliDugum": "Z13",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bir terazi kuralım."
+        },
+        {
+          "metin": "Tarih derslerinde Herodot'a, Eflatun'a, Demostenes'e güvenerek konuşuruz."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Yazım ile en eski kopya arası",
+                "maddeler": [
+                  "Homeros: yaklaşık 400 yıl",
+                  "Herodot: yaklaşık 1350 yıl",
+                  "Eflatun: yaklaşık 1300 yıl",
+                  "Demostenes: yaklaşık 1400 yıl"
+                ]
+              },
+              "sag": {
+                "baslik": "Kur'an",
+                "maddeler": [
+                  "En eski yapraklar Peygamber'in zamanına çok yakın",
+                  "Birkaç on yıl içinde çoğaltıldı",
+                  "Kırk dört erken yazma"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "metin": "Bir araştırmacının ifadesiyle: yeryüzünde bu kadar yazması olan başka kitap yok."
+        },
+        {
+          "metin": "Elimizdeki bütün bunlara güvenle 'tarih' diyoruz."
+        },
+        {
+          "metin": "Aynı ölçüyü herkese uygulamak, tutarlılıktır.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Aynı ölçüyle bakınca, Kur'an için duyulan şüphe, başka metinler için neden duyulmuyor?",
+        "cipler": [
+          "Haklısın, tutarlı olmalı",
+          "Bu kıyas adil görünmedi",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklısın tutarlı olmalı",
+            "tutarlı olmalı",
+            "tutarlı"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "adil görünmedi",
+            "elma armut",
+            "kıyas olmaz",
+            "aynı değil",
+            "farklı konu"
+          ],
+          "yanit": [
+            "Haklısın: konular farklı. Biri destan, biri tarih, biri vahiy iddiası.",
+            "Ama burada soru içerik değil: metnin kendisine ne kadar ulaştığımız.",
+            "Bu terazi, her metin için aynı olabilir."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "İncil'ler de tarihî metinlerdir. Akademik tahminler onları yaklaşık 70 ile 110 arasına yerleştirir."
+            },
+            {
+              "metin": "Bu, onların değersiz olduğu anlamına gelmez."
+            },
+            {
+              "metin": "Sadece ölçünün herkes için aynı olması gerekir."
+            }
+          ],
+          "soru": "Aynı ölçüyü her metne uyguladığımızda, yalnızca birine şüpheyle bakmak mantıken nasıl savunulur?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Şunu dene. Kur'an için üç ölçüt yaz:"
+            },
+            {
+              "metin": "Yazıya geçiş hızı. Yazma sayısı. Ezberleyenlerin sayısı."
+            },
+            {
+              "metin": "Bunların onda birine ulaşan başka bir metin bul."
+            }
+          ],
+          "soru": "Hangi metin bu üç ölçüde Kur'an'ın onda birine bile ulaşıyor?"
+        }
+      ],
+      "kompozisyon": "Peki sen hangi ölçütle, Kur'an'a şüpheyle bakıp öbür metinlere güveniyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.hadis",
+      "dayanak": "Z13/Z5, s. 22, 86-89: McDowell tablosu (Homeros yazım M.Ö. 800 / en eski kopya M.Ö. 400: 400 yıl; Herodot 1350; Eflatun 1300; Demostenes 1400); Duygu İncil tablosu (Markos ≈68-71, Matta/Luka 80-100, Yuhanna 90-110; yazarların çoğu 'bilinmiyor' kitabın ifadesi; ekranda saygılı dil için yalnız tarih aralığı). Altıkulaç: 'Yeryüzünde Kur'an-ı Kerim kadar yazma nüshası bulunan başka bir kitap yoktur' (s. 82-83). 'Kırk dört erken yazma' kitabın özeti (s. 79-80); 45/44 tutarsızlığı için docs/dogrulanacaklar.md A."
+    },
+    {
+      "id": "zemin.hadis",
+      "gizliDugum": "Z14",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir şey daha: hadisler."
+        },
+        {
+          "metin": "Bazıları der ki: 'Hadisler sonradan uydurulmuş.'"
+        },
+        {
+          "metin": "Bu çok teknik, çok tartışmalı bir alan."
+        },
+        {
+          "metin": "Bu yüzden ben hadise dayanan bir şey kurmayacağım."
+        },
+        {
+          "metin": "Kullanacağım hadisler, Batılı tarihçilerin de kullandığı hadisler olacak."
+        }
+      ],
+      "soru": {
+        "metin": "Bu şekilde ilerlemek sana adil geliyor mu?",
+        "cipler": [
+          "Evet, adil",
+          "Hadisleri hiç kullanma",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "evet adil",
+            "adil"
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hadisleri hiç kullanma",
+            "hiç kullanma",
+            "kullanma",
+            "hadis istemiyorum"
+          ],
+          "profil": {
+            "hadis": "kullanma"
+          },
+          "git": "zemin.ikincil",
+          "yanit": [
+            "Anlaşıldı. O zaman Kur'an'ın kendisinden, ve senin de kabul edeceğin kaynaklardan ilerleriz."
+          ]
+        }
+      ],
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.ikincil",
+      "dayanak": "Z14, s. 89-90: hadisin güvenilirliği ayrı bir eserin konusu; kullanılan hadisler gayrimüslim yazarların da olumlayarak kullandığı hadisler; amaç 'Müslümanlar bunları peygamberliği ispat için mi uydurdu?' şüphesini gidermek. 'hadis':'kullanma' profili sonraki bölgelerde hadissiz delil sırası için işaret."
+    },
+    {
+      "id": "zemin.ikincil",
+      "gizliDugum": "Z15",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi metnin kendisinden bir ipucu."
+        },
+        {
+          "metin": "Kazada biri yere düşer. Kalabalıktan biri bağırır: 'Doktor yardım et!'"
+        },
+        {
+          "metin": "Biri 'ben doktorum' dese, ispat için söylemiş olabilir."
+        },
+        {
+          "metin": "Ama kalabalığın doktoru çağırması, kimseyi ikna etmek için değildir. Bu yüzden daha güçlüdür."
+        },
+        {
+          "metin": "Kur'an müminlere 'sabredin' der. Zulüm olduğunu ispatlamaya çalışmaz."
+        },
+        {
+          "metin": "Ama sabır isteniyorsa, ortada çekilen bir sıkıntı vardır."
+        },
+        {
+          "metin": "İspat için yazılmayan cümle, kurgudan en uzak cümledir.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "İddia: bu cümleler kurgu. Veri: bu cümleler bir şeyi ispat için değil, yaşanan durumu varsayarak yazılmış. Bunu kurgu saymak mantıken nasıl olur?",
+        "cipler": [
+          "Mantıklı, kurgu değil",
+          "Propaganda olabilir",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "kurgu değil",
+            "mantıklı kurgu değil"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "propaganda",
+            "kendini ispat",
+            "kurgu",
+            "uydurma",
+            "propaganda olabilir"
+          ],
+          "yanit": [
+            "Propaganda doğrudan söyler: 'Biz haklıyız, işte kanıt.'",
+            "Burada ise bir toplulukla konuşuluyor ve ortak bir sahne varsayılıyor.",
+            "Peloponnesos Savaşı'nı biz bir Atinalının kaleminden okuyoruz. Yine de tarih yazılıyor."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an, 'diri diri gömülen kıza hangi suçla öldürüldüğü sorulacak' der."
+            },
+            {
+              "metin": "Ayet, böyle bir uygulamanın var olduğunu anlatmaz."
+            },
+            {
+              "metin": "Dinleyenlerin bunu bildiğini varsayar."
+            }
+          ],
+          "soru": "Bir uygulamayı kınayan ayet, dinleyenlerin onu bildiğini varsayıyorsa, bunu uydurma saymak ne kadar mümkün?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir başka ayet, Peygamber'e der: 'Yoksa onlardan ücret mi istiyorsun?'"
+            },
+            {
+              "metin": "Soru, onun ücret istemediğini herkesin bildiğini varsayar."
+            },
+            {
+              "metin": "Yani bu, ispat değil; ortak bilgi."
+            }
+          ],
+          "soru": "Ücret almadığı bilinmeyen birine, o toplum önünde böyle bir soru yöneltmek nasıl iş görürdü?"
+        }
+      ],
+      "kompozisyon": "Peki sen, ispat amacı taşımayan bu cümleleri nasıl yorumluyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.sahabe",
+      "dayanak": "Z15, s. 91-94: ikincil delil mantığı; kazadaki doktor örneği; Bakara 2:214 (sabır/zulüm), Kalem 68:46 (ücret), Tekvir 81:8-9 (diri diri gömülen kız); Thukydides/Peloponnesos örneği (s. 91-94). Ayetler ekranda serbest ifadeyle verildi."
+    },
+    {
+      "id": "zemin.sahabe",
+      "gizliDugum": "Z16",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bu metni ilk dinleyenlere bakalım."
+        },
+        {
+          "metin": "Kimdi onlar? Bilal. Ammar ve ailesi. Zayıf, korumasız insanlar."
+        },
+        {
+          "metin": "Eziyet gördüler. Mallarını, yakınlarını, yurtlarını kaybettiler."
+        },
+        {
+          "metin": "Dünyalık bir çıkar yoktu. Halife seçilen Ebubekir pazarda çalışmaya devam etti."
+        },
+        {
+          "metin": "Sorgulayan insanlardı: Hudeybiye'de Ömer bile 'bu neden?' diye sordu."
+        },
+        {
+          "metin": "Bir yalan ya da hata görselerdi, susmazlardı."
+        },
+        {
+          "metin": "Metinde tarihî bir yanlış olsaydı, önce onlar itiraz ederdi.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "İddia: metindeki bilgiler uydurulmuş olabilir. Veri: bunu ilk duyanlar, her şeyi feda eden, sorgulamayı bilen insanlardı ve bir itiraz kaydı yok. Bu mantıken nasıl mümkün?",
+        "cipler": [
+          "Samimi insanlar susmazdı",
+          "Körü körüne inanmış olabilirler",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "samimi insanlar susmazdı",
+            "susmazdı",
+            "susmazlardı"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "körü körüne",
+            "körleşmiş",
+            "deli gibi",
+            "saf",
+            "kandırılmış",
+            "sadakat",
+            "yanlış bir şeye",
+            "fanatik",
+            "körü körüne inanmış"
+          ],
+          "yanit": [
+            "Bazı insanlar yanlış bir şeye bile sadakatle bağlanabilir, doğru.",
+            "Ama bunlar sorgulayan, sarsılan, hatta ayrılan insanlardı. Her çeşit insanı içeren geniş bir topluluğun topluca sağduyuyu yitirmesi beklenmez.",
+            "Ayrıca körü körüne bağlılık zamanla güçlenir. Burada ağır baskı altında kalan bir topluluk var."
+          ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Miraç haberi duyulduğunda, bazı müminlerin imanı sarsıldı."
+            },
+            {
+              "metin": "Bir kısmı ayrıldı. Batılı tarihçiler de bunu aktarır."
+            },
+            {
+              "metin": "Görünmeyen bir olay bile bu tepkiyi doğurdu."
+            }
+          ],
+          "soru": "Görünmeyen bir olay bile tepki doğurduysa, herkesin bildiği bir olgudaki yanlışa ne tepki verirlerdi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Yusuf suresi, Peygamber'e der: 'Sen bundan önce haberi olmayanlardandın.'"
+            },
+            {
+              "metin": "O bu kıssaları yıllardır biliyor olsaydı, en yakınları bunu bilirdi."
+            },
+            {
+              "metin": "Ayetin yalan olduğunu en önce onlar söylerdi."
+            }
+          ],
+          "soru": "Bu ayet yalan olsaydı, en yakın çevresinin tepkisiz kalması nasıl açıklanır?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Huneyn'den sonra ganimet dağıtılırken, Medineli Müslümanlar kırıldı."
+            },
+            {
+              "metin": "Peygamber onlara dünyalığı değil, kendisini hatırlattı."
+            },
+            {
+              "metin": "Cevapları: 'Evlerimize Allah'ın Peygamberiyle döneceğiz.'"
+            }
+          ],
+          "soru": "Güçlendikleri bir anda bile dünyalıktan çok elçiyi seçen insanlar, bir yalan fark etseler susar mıydı?"
+        }
+      ],
+      "kompozisyon": "Peki sen, bu insanların bunca bedeli ödeyip itirazsız kalmasını nasıl açıklıyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.musrikler",
+      "dayanak": "Z16, s. 94-119: Bilal (Dermenghem), Ammar ve ailesi (Caetani) (s. 100-101); Habeş hicreti (Hazleton, s. 97); Ebubekir pazarda (Kadı Abdülcabbar, Hitti, s. 104-105); Hudeybiye'de Ömer (s. 114-119); 'körleşme' itirazına cevap (s. 113-114); Miraç'ta sarsılma (Caetani, Dozy, s. 115-116); Yusuf 12:3 (s. 118-119); Huneyn/ensar (Margoliouth, Armstrong, s. 102-103). Ebubekir'in 40 bin -> 5 bin dirhem verisi ekranda kullanılmadı."
+    },
+    {
+      "id": "zemin.musrikler",
+      "gizliDugum": "Z17",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bu insanların karşı tarafına bakalım."
+        },
+        {
+          "metin": "Mekke'nin müşrikleri. Medine'deki rakip topluluklar."
+        },
+        {
+          "metin": "Hepsinin Peygamber'i yıpratmak için sebebi vardı."
+        },
+        {
+          "metin": "Kur'an onların en zayıf itirazlarını bile kaydeder ve cevap verir."
+        },
+        {
+          "metin": "Kıble neden değişti? Sivrisinek örneği ne demek? Neden bir melek inmedi?"
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır.",
+              "kim": "Batılı bir oryantalist"
+            }
+          }
+        },
+        {
+          "metin": "Ama metindeki olgulara dair açık bir hata ya da yalan itirazı bilinmiyor.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "İddia: metne hatalı ya da uydurma bilgiler girmiş olabilir. Veri: onu kollayan düşmanları vardı ve hata suçlaması kaydı yok. Bu mantıken nasıl mümkün?",
+        "cipler": [
+          "Fark etselerdi söylerlerdi",
+          "Kayıt kaybolmuş olabilir",
+          "Emin değilim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "fark etselerdi söylerlerdi",
+            "söylerlerdi",
+            "fark etselerdi"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kayıt kaybolmuş",
+            "kaybolmuş",
+            "yok olmuş",
+            "yok edilmiş",
+            "kaydedilmemiş",
+            "kaybolmuş olabilir"
+          ],
+          "yanit": [
+            "Olabilir. Ama düşmanlar kendi iddialarını yok etmez; yaymak ister.",
+            "Üstelik Kur'an onların itirazlarını zaten metnin içinde kaydediyor.",
+            "O itirazlar bile bugün elimizde."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "sihirbaz",
+            "şair",
+            "kâhin",
+            "yalancı dediler",
+            "iftira attılar",
+            "sihir"
+          ],
+          "yanit": [
+            "Doğru: peygamberliğini reddettiler. Ona şair, kâhin, sihirbaz dediler.",
+            "Ama bu başka bir tartışma: peygamber mi, değil mi?",
+            "Şu an soru şu: metindeki somut bir olguda hata ya da yalan gösterebildiler mi?",
+            "Peygamberlik meselesine ayrıca geleceğiz."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "gerek yok",
+            "geçelim",
+            "atlayalım",
+            "zaten güveniyorum"
+          ],
+          "git": "zemin.ikna"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an bu rolü açıkça üstlenir."
+            },
+            {
+              "metin": "Sana bir itiraz getirmezler ki, biz sana doğrusunu getirmiş olmayalım, der."
+            },
+            {
+              "metin": "Yani itirazlar vardı ve cevaplandı."
+            }
+          ],
+          "soru": "Her itirazı aktarıp cevaplayan bir metinde, gizli bir yalan nasıl saklanır?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Peygamber hikâyeleri başka kitaplardan almış olsaydı, rakipleri kaynağı gösterirdi."
+            },
+            {
+              "metin": "Medine'de bu kitapları bilen, elinde okuyan insanlar vardı."
+            },
+            {
+              "metin": "'Öğrenmiş mi' sorusuna ayrıca geleceğiz."
+            }
+          ],
+          "soru": "Elinde somut bir kaynak olan düşmanın onu göstermemesi, mantıken nasıl açıklanır?"
+        }
+      ],
+      "kompozisyon": "Peki sen, metni bunca kollayan düşmanlara rağmen açık bir hata itirazının bulunmamasını nasıl yorumluyorsun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bu da önemli, not ettim. Ama önce şuna bakalım:"
+      ],
+      "sonraki": "zemin.ikna",
+      "dayanak": "Z17, s. 119-125: Margoliouth ('İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır', s. 119; çeviri kitaptan); itiraz-cevap ayetleri Bakara 2:142, 2:26, En'âm 6:8 (s. 120-123); Furkan 25:33 (s. 124); Margoliouth: kaynak gösterirlerdi (s. 119, 125). Armstrong'un 'hiçbiri sahte demedi' ifadesi kasten kullanılmadı: Kur'an'ın kendisi şair/kâhin/sihirbaz suçlamalarını kaydeder (Hicr 15:6, Sâffât 37:36, Yunus 10:2, Tûr 52:29) -> EK itiraz cevabı, docs/onay/acilis-zemin.md."
+    },
+    {
+      "id": "zemin.ikna",
+      "gizliDugum": "Z17",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir adım geri çekilip bakalım."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "denklem",
+            "veri": {
+              "parcalar": [
+                "Erken yazı",
+                "+",
+                "Dağınık yazmalar",
+                "+",
+                "Ezber zinciri",
+                "+",
+                "Rakiplerin sessizliği",
+                "=",
+                "Sağlam bir metin"
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Hızlı yazıldı. Çoğaltıldı. Düşman ordular bile aynı metne baktı."
+        },
+        {
+          "metin": "Rakip iktidarlardan, 'değiştirildi' diyen bir kayıt yok."
+        },
+        {
+          "metin": "Peygamber'in zamanına çok yakın yapraklar, bugünkü metinle örtüşüyor."
+        },
+        {
+          "metin": "İlk dinleyenler, bir yalan ya da hata görselerdi susmazlardı."
+        },
+        {
+          "metin": "Bu metni bir tarih belgesi olarak ciddiye almak için yeterince sebep var.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Peki sen ne dersin: bu metni, tarihî bir kaynak olarak ciddiye alabilir miyiz?",
+        "cipler": [
+          "Evet, alabiliriz",
+          "Henüz emin değilim",
+          "Biraz daha düşünmeliyim"
+        ]
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "evet alabiliriz",
+            "alabiliriz",
+            "ciddiye alabiliriz",
+            "güvenebilirim",
+            "tamam",
+            "ikna oldum",
+            "mantıklı",
+            "haklısın"
+          ],
+          "git": "zemin.kopru"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Tek tek bakınca her itirazın bir cevabı var."
+            },
+            {
+              "metin": "Birlikte bakınca iş değişir."
+            },
+            {
+              "metin": "Bir değişikliğin yazıyı, ezberi, rakipleri ve çok sayıda gözlemciyi aynı anda atlatması gerek."
+            }
+          ],
+          "soru": "Bunların hepsinin aynı anda ve sessizce atlatılması, mantıken ne kadar mümkün?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kendine şunu sor:"
+            },
+            {
+              "metin": "Hangi tarihî metne bu kadar güvenle bakabilirsin?"
+            },
+            {
+              "metin": "Ve onu hangi ölçüyle seçiyorsun?"
+            }
+          ],
+          "soru": "Bu metne güvenmeyen biri, hangi başka tarihî metne güvenebilir, hangi ölçüyle?"
+        }
+      ],
+      "kompozisyon": "Peki aklında hâlâ bir soru işareti kalıyorsa, hangisi? Yaz, not edeyim.",
+      "kopru": [
+        "Bunu not ettim. Bununla birlikte devam edelim."
+      ],
+      "kapat": "zemin",
+      "sonraki": "zemin.kopru",
+      "dayanak": "Zemin kapanışı (Z5-Z17 özeti, s. 22-125): kullanılacak metinlerin güvenilirliği ve yorum yöntemleri temellendirildi (s. 125). Dal yalnız kullanıcı 'ikna' dediğinde kapanır (CLAUDE.md)."
+    },
+    {
+      "id": "zemin.kopru",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Kaynak elimizde."
+        },
+        {
+          "metin": "Şimdi asıl soruya gelelim: bu metni getiren adam.",
+          "vurgu": true
+        },
+        {
+          "metin": "Hz. Muhammed."
+        }
+      ],
+      "sonraki": "haber.giris",
+      "dayanak": "Köprü: zemin -> haber.giris."
+    },
+    {
+      "id": "zemin.kisa",
+      "gizliDugum": "Z6",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Kaynaklara güvendiğini söyledin. O hâlde kısa geçelim."
+        },
+        {
+          "metin": "Peygamber hayattayken kâtipler ayetleri yazıyordu."
+        },
+        {
+          "metin": "Kısa sürede çoğaltıldı. Düşman ordular bile aynı metne baktı."
+        },
+        {
+          "metin": "Hafızlar onu bugüne taşıdı. Yazmalar, bugünkü metinle örtüşüyor."
+        },
+        {
+          "metin": "Şimdi asıl soruya gelelim: bu metni getiren adam.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "haber.giris",
+      "dayanak": "Kısa özet (Z6-Z11): erken yazım ve çoğaltma (s. 23-28), Sıffin (s. 24-26), hafızlar (s. 33-34), yazmalar (s. 42-83). Kaynağa zaten güvenen ve şüphesi kaynak dışı olan muhatap için."
+    }
+  ]
+}

@@ -1,0 +1,882 @@
+{
+  "bolge": "acilis",
+  "giris": "acilis.merhaba",
+  "beats": [
+    {
+      "id": "acilis.merhaba",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Gece."
+        },
+        {
+          "metin": "Her yer sessiz."
+        },
+        {
+          "metin": "Böyle sessiz bir anda, eski bir soru geri gelir."
+        },
+        {
+          "metin": "İnsanlık tarihinin en çok konuşulan iddialarından biri.",
+          "vurgu": true
+        },
+        {
+          "metin": "Bir adam, bin dört yüz yıl önce bir çölde bir şey söyledi."
+        },
+        {
+          "metin": "Kimi hayatını ona adadı. Kimi omuz silkti."
+        },
+        {
+          "metin": "Kimi de sessizce sordu: 'Acaba?'"
+        }
+      ],
+      "sonraki": "acilis.iddia",
+      "dayanak": "Sinematik açılış; kitap verisi yok. Hz. Muhammed'in iddiasının tarihî ağırlığına giriş (docs/metod-haritasi.md §1)."
+    },
+    {
+      "id": "acilis.iddia",
+      "gizliDugum": "H1",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Hz. Muhammed. Mekke'de yaşayan, kırk yaşında bir tüccar."
+        },
+        {
+          "metin": "Bir gün şöyle dedi:"
+        },
+        {
+          "metin": "'Allah benimle konuşuyor.'",
+          "vurgu": true
+        },
+        {
+          "metin": "'Cebrail adlı bir elçi aracılığıyla, Allah'tan bilgi alıyorum.'"
+        },
+        {
+          "metin": "Tıpkı 'dün Ankara'daydım' demek gibi bir haber bu."
+        },
+        {
+          "metin": "Doğru olabilir, yanlış olabilir. Ama kontrol edilebilir."
+        },
+        {
+          "metin": "Biz de tam olarak bunu yapacağız."
+        }
+      ],
+      "sonraki": "acilis.davet",
+      "dayanak": "Haber yöntemi: iddia 'dün Ankara'daydım' gibi doğruluk açısından değerlendirilebilir bir haberdir (CLAUDE.md, metod 2. adım; H1-H2). Peygamber'in ilk vahiy yaşı 40 (nüzul 610)."
+    },
+    {
+      "id": "acilis.davet",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Seni ikna etmeye çalışmayacağım.",
+          "vurgu": true
+        },
+        {
+          "metin": "Birlikte bakalım. Karar senin."
+        },
+        {
+          "metin": "Sana hiçbir şeyi dayatmam."
+        },
+        {
+          "metin": "Cevaplarını istediğin gibi yaz; ben anlamaya çalışırım."
+        },
+        {
+          "metin": "İstediğin an 'ara ver' de. Kaldığın yerden devam ederiz."
+        }
+      ],
+      "soru": {
+        "metin": "Başlayalım mı?",
+        "cipler": [
+          "Başlayalım",
+          "Biraz merak ediyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hayır",
+            "istemiyorum",
+            "gerek yok",
+            "ilgilenmiyorum",
+            "sıkıldım"
+          ],
+          "yanit": [
+            "Sorun değil. Zorlamak yok.",
+            "Yalnızca birkaç kısa soru soracağım. Canın istemezse bırakırız."
+          ]
+        }
+      ],
+      "varsayilan": "acilis.tanri",
+      "dayanak": "Özgürlük ilkesi: dayatma yok, saygılı diyalog (CLAUDE.md Amaç; docs/ajan-ilkeleri.md)."
+    },
+    {
+      "id": "acilis.tanri",
+      "gizliDugum": "Z1",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Önce seni biraz tanıyayım."
+        },
+        {
+          "metin": "Doğru cevap yok. Yalnızca nerede durduğunu bilmek istiyorum."
+        }
+      ],
+      "soru": {
+        "metin": "Bir Yaratıcı'ya, bir Tanrı'ya inanıyor musun?",
+        "cipler": [
+          "Evet",
+          "Hayır",
+          "Emin değilim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "evet",
+            "inanıyorum",
+            "inanırım",
+            "tanrı var",
+            "allah var",
+            "yaratıcıya inanıyorum",
+            "tanrıya inanıyorum",
+            "inançlıyım",
+            "dindarım",
+            "deistim",
+            "deist"
+          ],
+          "profil": {
+            "tanri": "evet"
+          },
+          "yanit": [
+            "Güzel. O zaman aramızda ortak bir zemin var.",
+            "Bir Yaratıcı'nın bulunabildiği bir dünyada konuşmak işimizi kolaylaştırır."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hayır",
+            "inanmıyorum",
+            "inanmam",
+            "tanrı yok",
+            "yok",
+            "ateistim",
+            "ateist",
+            "materyalistim",
+            "inançsızım",
+            "hiç inanmam"
+          ],
+          "profil": {
+            "tanri": "hayir"
+          },
+          "yanit": [
+            "Teşekkürler, dürüst bir cevap.",
+            "Merak etme: Tanrı'nın varlığını tartışmayacağız. Sana bir şeyi kabul ettirmeyeceğim."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "emin değilim",
+            "bilmiyorum",
+            "bilmem",
+            "kararsızım",
+            "agnostik",
+            "agnostikim",
+            "belki",
+            "bazen",
+            "ne bileyim",
+            "fikrim yok"
+          ],
+          "profil": {
+            "tanri": "emin-degil"
+          },
+          "yanit": [
+            "Dürüst bir yer burası. Çok insan orada duruyor.",
+            "Zaten kimseyi bir şeye inandırmaya çalışmıyoruz."
+          ]
+        }
+      ],
+      "varsayilan": "acilis.din",
+      "dayanak": "Profil: tanri. Z1/Z4: Tanrı'nın varlığı kapsam dışıdır; yöntem metafizik önkoşulsuz yürür (metod-haritasi Z1, Z4; s. 14-16, 19-20). Ateist/agnostik için ton: dayatmasız."
+    },
+    {
+      "id": "acilis.din",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi bir başka şey."
+        },
+        {
+          "metin": "Bir dinin ya da geleneğin içinde mi büyüdün?"
+        }
+      ],
+      "soru": {
+        "metin": "Hangi inanç ya da dünya görüşünden geliyorsun?",
+        "cipler": [
+          "Hiçbiri",
+          "Hristiyan",
+          "Yahudi",
+          "Başka bir dinden"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hiçbiri",
+            "hiçbir",
+            "dinsizim",
+            "dinim yok",
+            "dinsiz",
+            "ateist",
+            "ateistim",
+            "inançsız",
+            "deist",
+            "laik",
+            "seküler"
+          ],
+          "profil": {
+            "din": "yok"
+          },
+          "yanit": [
+            "Anladım. Tarafsız bir yerden bakıyorsun; bu iyi bir başlangıç."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hristiyan",
+            "hıristiyan",
+            "hristiyanım",
+            "hıristiyanım",
+            "katolik",
+            "ortodoks",
+            "protestan",
+            "kilise"
+          ],
+          "profil": {
+            "din": "hristiyan"
+          },
+          "yanit": [
+            "Hristiyan bir gelenekten geliyorsun.",
+            "Kendi kutsal kitabına da saygıyla konuşacağız; bunu baştan söyleyeyim."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "yahudi",
+            "yahudiyim",
+            "musevi",
+            "museviyim",
+            "sinagog",
+            "tevrat"
+          ],
+          "profil": {
+            "din": "yahudi"
+          },
+          "yanit": [
+            "Yahudi bir gelenekten geliyorsun.",
+            "Musa'nın mirasına da saygıyla konuşacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "budist",
+            "budistim",
+            "hindu",
+            "sikh",
+            "pagan",
+            "taoist",
+            "başka bir dinden",
+            "başka bir din",
+            "başka din",
+            "ruhani",
+            "bahai"
+          ],
+          "profil": {
+            "din": "diger"
+          },
+          "yanit": [
+            "Farklı bir gelenekten geliyorsun. Bu bakış açısını önemsiyorum."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "müslümanım",
+            "müslüman ailede",
+            "müslüman olarak büyüdüm",
+            "doğuştan müslüman",
+            "müslüman doğdum",
+            "müslümandım",
+            "eskiden müslüman",
+            "müslümanlıktan çıktım"
+          ],
+          "profil": {
+            "din": "diger",
+            "koken": "musluman"
+          },
+          "yanit": [
+            "Müslüman bir gelenekten geliyorsun, ama sorularınla buradasın. Bu çok değerli.",
+            "Kimseyi yargılamıyorum. Sorular serbest."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "müslüman değilim",
+            "müslüman değil"
+          ],
+          "profil": {
+            "din": "musluman-degil"
+          },
+          "yanit": [
+            "Anlaşıldı. Bu konuşma tam senin gibiler için."
+          ]
+        }
+      ],
+      "varsayilan": "acilis.bilgi",
+      "dayanak": "Profil: din. Hristiyan/Yahudi için nötr dil ('muharref' yok), Z3 ve profil ipuçları (metod-haritasi §5). Şüpheci Müslüman kökenli muhatap için ek anahtar 'koken'."
+    },
+    {
+      "id": "acilis.bilgi",
+      "gizliDugum": "H1",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi Hz. Muhammed'e gelelim."
+        },
+        {
+          "metin": "Doğru ya da yanlış yok. Aklındakini olduğu gibi yaz."
+        }
+      ],
+      "soru": {
+        "metin": "Onun hakkında ne düşünüyorsun? Ya da ne biliyorsun?",
+        "cipler": [
+          "Pek bilmiyorum",
+          "Biraz biliyorum",
+          "Çok araştırdım"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "uydurma",
+            "uydurmuş",
+            "uydurdu",
+            "yalan",
+            "yalancı",
+            "sahtekar",
+            "sahtekâr",
+            "çıkar",
+            "çıkarı",
+            "iktidar",
+            "para için",
+            "güç için",
+            "siyasi lider",
+            "kandırdı",
+            "kandırmış"
+          ],
+          "profil": {
+            "iddia": "sahtekar",
+            "bilgi": "orta"
+          },
+          "yanit": [
+            "Yani sana göre bilerek söylemiş olabilir. Bu çok eski ve çok ciddi bir ihtimal.",
+            "Onu da dürüstçe masaya koyacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hasta",
+            "deli",
+            "epilepsi",
+            "sara",
+            "hayal",
+            "hayal görmüş",
+            "halüsinasyon",
+            "psikolojik",
+            "yanılmış",
+            "sanrı",
+            "akıl sağlığı"
+          ],
+          "profil": {
+            "iddia": "deli",
+            "bilgi": "orta"
+          },
+          "yanit": [
+            "Yani samimi ama yanılmış olabilir. O da ciddi bir ihtimal.",
+            "Onu da masaya koyacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "pek bilmiyorum",
+            "çok bilmiyorum",
+            "hiç bilmiyorum",
+            "az biliyorum",
+            "bilmiyorum",
+            "fikrim yok",
+            "merak ediyorum",
+            "kararsızım"
+          ],
+          "profil": {
+            "iddia": "kararsiz",
+            "bilgi": "az"
+          },
+          "yanit": [
+            "Sorun değil. Zaten sıfırdan başlıyoruz.",
+            "Bilmek zorunda değilsin."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "saygı duyuyorum",
+            "büyük bir lider",
+            "önemli biri",
+            "bilge biri",
+            "saygıdeğer"
+          ],
+          "profil": {
+            "iddia": "kararsiz",
+            "bilgi": "orta"
+          },
+          "yanit": [
+            "Saygı duyman güzel.",
+            "Ama 'saygın biri' ile 'Allah'tan haber getiren biri' arasında büyük bir fark var. Oraya bakacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "biraz biliyorum",
+            "biraz okudum",
+            "biraz bilgim var",
+            "duydum",
+            "okulda",
+            "belgesel"
+          ],
+          "profil": {
+            "bilgi": "orta"
+          },
+          "yanit": [
+            "İyi. Bir temel var."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "çok araştırdım",
+            "araştırdım",
+            "çok okudum",
+            "okudum",
+            "siyer",
+            "akademik",
+            "uzmanım",
+            "biliyorum"
+          ],
+          "profil": {
+            "bilgi": "cok"
+          },
+          "yanit": [
+            "O hâlde zor sorular da sorabilirsin. Kaçmayacağım."
+          ]
+        }
+      ],
+      "varsayilan": "acilis.kaynak",
+      "dayanak": "Profil: bilgi + iddia ön işareti (sahtekar -> samimiyet dalı; deli -> fetanet dalı). docs/etkilesim-modeli.md dal yönlendirmesi; metod-haritasi §5."
+    },
+    {
+      "id": "acilis.kaynak",
+      "gizliDugum": "Z5",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir de şu var: tarih."
+        },
+        {
+          "metin": "Elimizdeki her şey; eski yazmalar, kayıtlar, tarihçiler."
+        }
+      ],
+      "soru": {
+        "metin": "Tarihî kaynaklara, eski yazmalara ve tarihçilere ne kadar güvenirsin?",
+        "cipler": [
+          "Çok güvenirim",
+          "Duruma göre",
+          "Pek güvenmem"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "çok güvenirim",
+            "güvenirim",
+            "genelde güvenirim",
+            "yüksek",
+            "tamamen",
+            "bilimsel yöntem",
+            "akademik"
+          ],
+          "profil": {
+            "kaynakGuveni": "yuksek"
+          },
+          "yanit": [
+            "Güzel. O zaman elimizdeki malzeme senin için değerli."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "pek güvenmem",
+            "güvenmem",
+            "güvenmiyorum",
+            "hiç güvenmem",
+            "düşük",
+            "kazananlar yazar",
+            "sonradan yazılmış",
+            "taraflı",
+            "tarih uydurmadır",
+            "şüpheyle bakarım"
+          ],
+          "profil": {
+            "kaynakGuveni": "dusuk"
+          },
+          "yanit": [
+            "Haklı bir temkin.",
+            "Tam da bu yüzden her şeyi kontrol edilebilir yerden alacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "duruma göre",
+            "orta",
+            "bazen",
+            "kaynağa bağlı",
+            "yarı yarıya",
+            "bazılarına"
+          ],
+          "profil": {
+            "kaynakGuveni": "orta"
+          },
+          "yanit": [
+            "Sağlıklı bir denge. Kaynağa göre değişir, değil mi?"
+          ]
+        }
+      ],
+      "varsayilan": "acilis.sorun",
+      "dayanak": "Profil: kaynakGuveni. Z3/Z5: kaynak seçimi tutarlı olmalı; kaynaklara güvenmeyen muhatap için Z5-Z14 kritik (metod-haritasi §5)."
+    },
+    {
+      "id": "acilis.sorun",
+      "gizliDugum": "Z1",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Son bir şey."
+        },
+        {
+          "metin": "Bu konuda aklına takılan çok şey olabilir."
+        },
+        {
+          "metin": "Hepsini sırayla ele alacağız. Ama nereden başlayalım?"
+        }
+      ],
+      "soru": {
+        "metin": "Seni bu konuda en çok düşündüren, en çok takıldığın şey ne?",
+        "cipler": [
+          "Metin sonradan yazılmış olabilir",
+          "Kendi çıkarı için uydurmuş olabilir",
+          "Sadece merak ediyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "sonradan yazılmış",
+            "sonradan yazıldı",
+            "sonradan değiştirilmiş",
+            "değiştirilmiş",
+            "değişmiş",
+            "değiştirildi",
+            "değişti",
+            "tahrif",
+            "bozulmuş",
+            "eklenmiş",
+            "çıkarılmış",
+            "kitap değişmiş",
+            "kur'an değişmiş",
+            "kuran değişmiş",
+            "orijinal",
+            "aslı"
+          ],
+          "profil": {
+            "supheTuru": "kuran-degisti"
+          },
+          "git": "acilis.zeminKopru",
+          "yanit": [
+            "Yerinde bir soru: metin elimize ulaşırken değişmiş mi?",
+            "Öyleyse, geri kalan her şeyin anlamı kalmaz. Önce oraya bakalım."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "kaynak",
+            "kaynaklar",
+            "güvenilmez",
+            "tarih",
+            "tarihî",
+            "tarihi",
+            "rivayet",
+            "hadis",
+            "yıllar sonra",
+            "sonradan toplanmış",
+            "belge yok",
+            "kayıt yok",
+            "kaynak yok",
+            "tarihçi"
+          ],
+          "profil": {
+            "supheTuru": "kaynak-guvensiz"
+          },
+          "git": "acilis.zeminKopru",
+          "yanit": [
+            "Haklısın: bir iddiaya bakmadan önce, bilgiyi nereden aldığımıza bakmalıyız.",
+            "Önce kaynak sağlam mı, onu kontrol edelim."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "uydurma",
+            "uydurdu",
+            "uydurmuş",
+            "yalan",
+            "yalancı",
+            "sahtekar",
+            "sahtekâr",
+            "kendisi yazdı",
+            "kendi yazdı",
+            "çıkarı vardı",
+            "çıkar",
+            "çıkarı için",
+            "iktidar",
+            "güç",
+            "para",
+            "siyasi",
+            "hırs",
+            "kandırdı",
+            "kandırmış",
+            "dolandırdı",
+            "lider olmak"
+          ],
+          "profil": {
+            "supheTuru": "uydurdu",
+            "iddia": "sahtekar"
+          },
+          "git": "acilis.yonlendir",
+          "yanit": [
+            "En eski ve en ciddi itiraz bu: 'Bilerek söylemiş olabilir.'",
+            "Bunu da pas geçmeden, dürüstçe inceleyeceğiz."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "epilepsi",
+            "sara",
+            "hasta",
+            "hayal",
+            "hayal görmüş",
+            "halüsinasyon",
+            "sanrı",
+            "psikolojik",
+            "akıl hastası",
+            "deli",
+            "delirmiş",
+            "vehim",
+            "yanılmış",
+            "yanıldı",
+            "kendini peygamber sandı",
+            "zihinsel",
+            "nöbet",
+            "travma"
+          ],
+          "profil": {
+            "supheTuru": "hasta-yanildi",
+            "iddia": "deli"
+          },
+          "git": "acilis.yonlendir",
+          "yanit": [
+            "Samimi ama yanılmış olabilir: bu da ciddi bir ihtimal.",
+            "Onu da gerçek verilerle ele alacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "yahudilerden",
+            "hristiyanlardan",
+            "rahipten",
+            "bahira",
+            "öğrenmiş",
+            "öğrenmiş olabilir",
+            "öğrendi",
+            "bilgi aldı",
+            "kitaplardan",
+            "tevrat'tan",
+            "incil'den",
+            "varaka",
+            "başkasından",
+            "çevresinden",
+            "kopyalamış",
+            "ödünç",
+            "aktarmış"
+          ],
+          "profil": {
+            "supheTuru": "ogrendi"
+          },
+          "git": "acilis.yonlendir",
+          "yanit": [
+            "Yani bilgiyi bir yerden almış olabilir. Güzel soru: kaynağı ne?",
+            "Bunu da ele alacağız."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "mucize yok",
+            "mucizesi yok",
+            "mucize",
+            "kanıt istiyorum",
+            "delil istiyorum",
+            "kanıtı ne",
+            "neden bir şey göstermedi",
+            "olağanüstü",
+            "doğaüstü",
+            "gösterseydi",
+            "ispatla"
+          ],
+          "profil": {
+            "supheTuru": "mucize-yok"
+          },
+          "git": "acilis.yonlendir",
+          "yanit": [
+            "Makul bir bekleyiş: bir elçiyse, bunu gösteren bir şey olmalı.",
+            "Bu soruya da geleceğiz."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "sadece merak",
+            "merak",
+            "bilmiyorum",
+            "bilmem",
+            "hiçbiri",
+            "hepsi",
+            "kafam karışık",
+            "emin değilim",
+            "genel",
+            "fikrim yok",
+            "karışık"
+          ],
+          "profil": {
+            "supheTuru": "genel"
+          },
+          "git": "acilis.yonlendir",
+          "yanit": [
+            "Sorun değil. Merak, en iyi başlangıç.",
+            "Baştan, düz bir çizgide gidelim."
+          ]
+        }
+      ],
+      "varsayilan": "acilis.yonlendir",
+      "dayanak": "Şüphe teşhisi. supheTuru -> bölge: kuran-degisti/kaynak-guvensiz -> Z (metod-haritasi §4.1); uydurdu -> S; hasta-yanildi/ogrendi -> F (F1, F23, F24); mucize-yok -> M. Haber bölümü supheTuru'na göre yön verir."
+    },
+    {
+      "id": "acilis.zeminKopru",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Önce bir şeyi netleştirelim."
+        },
+        {
+          "metin": "Elimizdeki kaynak sağlam mı?",
+          "vurgu": true
+        },
+        {
+          "metin": "Bu soruyu atlarsak, üzerine kurduğumuz hiçbir şey sağlam durmaz."
+        }
+      ],
+      "sonraki": "zemin.giris",
+      "dayanak": "Köprü: kaynak şüphesi (supheTuru kuran-degisti/kaynak-guvensiz) veya kaynakGuveni düşük/orta -> zemin bölgesi."
+    },
+    {
+      "id": "acilis.yonlendir",
+      "dallan": [
+        {
+          "kosul": {
+            "profil.kaynakGuveni": [
+              "dusuk",
+              "orta"
+            ]
+          },
+          "git": "acilis.zeminKopru"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Anlaşıldı."
+        },
+        {
+          "metin": "O hâlde doğrudan ana soruya gidelim."
+        },
+        {
+          "metin": "Haberin kendisine."
+        }
+      ],
+      "sonraki": "haber.giris",
+      "dayanak": "Yönlendirme: kaynakGuveni düşük/orta ise önce zemin; aksi halde haber.giris (haber bölümü supheTuru'na göre yön verir)."
+    }
+  ]
+}
