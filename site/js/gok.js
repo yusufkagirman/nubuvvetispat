@@ -26,11 +26,11 @@ export class Gok {
     this.W = innerWidth; this.H = innerHeight; this.dpr = dpr;
     this.c.width = Math.round(this.W * dpr); this.c.height = Math.round(this.H * dpr);
     this.x.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const n = Math.min(900, Math.round((this.W * this.H) / 2600));
+    const n = Math.min(900, Math.round((this.W * this.H) / 1700));
     this.yildizlar = Array.from({ length: n }, () => {
       const z = [0.25, 0.55, 1][Math.floor(Math.random() * 3)];
       const sicak = Math.random();
-      return { x: rnd(0, this.W), y: rnd(0, this.H), z, r: rnd(0.35, 1.1) * (0.6 + z * 0.7), a: rnd(0.35, 1) * (0.45 + z * 0.55),
+      return { x: rnd(0, this.W), y: rnd(0, this.H), z, r: rnd(0.35, 1.1) * (0.6 + z * 0.7), a: rnd(0.45, 1) * (0.55 + z * 0.45),
         f: rnd(0.4, 1.8), p: rnd(0, TAU), renk: sicak > 0.85 ? '255,226,190' : sicak > 0.6 ? '190,210,255' : '235,240,255' };
     });
     this.nebula();

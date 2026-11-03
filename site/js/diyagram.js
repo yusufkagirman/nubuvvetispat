@@ -1,5 +1,6 @@
 // diyagram.js — diyagram kataloğu (icerik/AKIS-SEMA.md). Her çizici {kok, sure, basla(), bitir(), iptal()} döndürür.
 // sure: animasyonun tamamlanma süresi (ms). CSS animasyonları `.goster` sınıfıyla başlar; `.hizli` her şeyi son hâline atlatır.
+import { durum } from './durum.js';
 const NS = 'http://www.w3.org/2000/svg';
 const h = (tag, cls, metin, ata) => { const e = document.createElement(tag); if (cls) e.className = cls; if (metin != null) e.textContent = metin; if (ata) ata.appendChild(e); return e; };
 const s = (tag, a = {}, ata) => { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); if (ata) ata.appendChild(e); return e; };
@@ -18,7 +19,10 @@ function temel(kok, sure, ekstra = {}) {
 
 // ---- ihtimaller: Haber -> Doğru / Yalan -> Bilerek / Bilmeyerek ----
 function ihtimaller(v = {}, ctx) {
-  const kapali = new Set(v.kapali || []), vurgu = v.vurgu || null;
+  // kapali: verilmemiş/"auto" ise kullanıcının gerçek kapalı dalları; verilmişse onlarla birleşir (samimiyet->bilerek, fetanet->bilmeyerek)
+  const kapali = new Set(Array.isArray(v.kapali) ? v.kapali : []), vurgu = v.vurgu || null;
+  if (durum.kapali.includes('samimiyet')) kapali.add('bilerek');
+  if (durum.kapali.includes('fetanet')) kapali.add('bilmeyerek');
   if (kapali.has('bilerek') && kapali.has('bilmeyerek')) kapali.add('yalan');
   const N = { haber: [345, 44, 'Haber'], dogru: [150, 190, 'Doğru'], yalan: [540, 190, 'Yalan'], bilerek: [410, 350, 'Bilerek'], bilmeyerek: [670, 350, 'Bilmeyerek'] };
   const E = [['haber', 'dogru'], ['haber', 'yalan'], ['yalan', 'bilerek'], ['yalan', 'bilmeyerek']];

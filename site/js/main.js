@@ -19,6 +19,7 @@ const gok = new Gok($('gok'), { azHareket });
 const ses = new Ses();
 const ui = new Ekran({ sahne: $('sahne'), yigin: $('yigin'), dgBeat: $('dg-beat'), dgSatir: $('dg-satir'), okuyucu: $('okuyucu') }, { gok, ses });
 const motor = new Motor(ui);
+ui.onBastan = () => baslatBastan();
 gok.baslat();
 
 // ---- köşe kontrolleri ----
@@ -69,7 +70,7 @@ async function baslatBastan() {
 // ---- test kancaları ----
 window.__sunum = {
   motor, ui, gok, ses, durum, siniflandiriciyiDegistir,
-  git: (id) => motor.git(id),
+  git: (id) => { motor.git(id); },
   hiz: (x) => { ui.hiz = x; },
   durumYaz: () => kaydet(),
 };

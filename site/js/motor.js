@@ -119,6 +119,7 @@ export class Motor {
           await this.ui.satirlar(DIZI(y.yanit)); this.k(no);
           continue;
         }
+        if (y.yanit) { await this.ui.satirlar(DIZI(y.yanit)); this.k(no); }
         if (y.tur === 'ikna' || y.tur === 'yonlendir') kapat(beat.kapat || y.kapat);
         if (y.git) return { id: y.git, atlama: 0 };
         return y.tur === 'profil' ? varsayilan() : sonraki();

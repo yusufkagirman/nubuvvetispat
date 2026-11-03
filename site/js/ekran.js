@@ -119,6 +119,7 @@ export class Ekran {
   }
 
   async temizle() {
+    this._ipucuKaldir();
     const bos = !this.yigin.children.length && !this.dgBeat.firstChild && !this.dgSatir.firstChild;
     this._hepsiniGonder();
     this.dgBeat.classList.add('cik'); this.dgSatir.classList.add('cik');
@@ -244,8 +245,12 @@ export class Ekran {
     return /bas|hayir|yeni/i.test(c.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()) ? 'bastan' : 'devam';
   }
 
+  // oturum sonu: sakin bitiş; yıldızlar kalır, küçük "Baştan başla" bağlantısı belirir
   async kapanis() {
     await this._uyu(1800);
-    this._ipucu('baştan başlamak için sol üstteki ⋯');
+    this._ipucuKaldir();
+    const e = h('div', 'ipucu bitis'); const b = h('button', 'baglanti', 'Baştan başla', e); b.type = 'button';
+    b.addEventListener('click', () => this.onBastan?.());
+    this.sahneEl.appendChild(e); this.ipucuEl = e; setTimeout(() => e.classList.add('goster'), 40);
   }
 }
