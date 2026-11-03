@@ -251,7 +251,7 @@ Not: "Kimlik" sütunu kitaptaki nitelemeye (örn. "oryantalist", "ateist") dayan
 | Louis Massignon | *İslam Tasavvufu* | Oryantalist | Ebu Zer'in zahidane hayatı ve Muaviye'yi Tevbe 9:34 ile tenkidi | 105-106 |
 | Ira M. Lapidus | *İslâm Toplumları Tarihi* | Batılı akademisyen | Ebubekir'in özel yetkisiz seçilip ertesi gün kabul görmesi | 107 |
 | Reinhart Dozy | *İslam Tarihi* | Oryantalist | Ridde'de Ebubekir'in uzlaşmayı reddi; Miraç'ta şüphe | 108, 116 |
-| Ahmet/Kettani | *İslam Tarihi* | Müslüman (yalnızca dipnotta Bilal olayı için) | Aynı olayın başka kaynaktan nakli | 100 |
+| Kettani | *İslam Tarihi* | Müslüman (dipnotta, kitapta ayrıca belirtilmiyor) | Aynı olayın başka kaynaktan nakli | 100 |
 | Buhârî, Müslim | Sahih'ler | Klasik İslami hadis | Bi'rimaûne (Harâm), ensarlı misafir, Hayber'deki adam | 99, 111, 114 |
 
 ### 3.2 Ayetler ve kullanım amacı
@@ -266,7 +266,7 @@ Not: "Kimlik" sütunu kitaptaki nitelemeye (örn. "oryantalist", "ateist") dayan
 | İnsan 76 (kitapta 76/2-4; muhtemelen 76:24) | "Rabbinin hükmüne sabret, kâfire itaat etme" | 96 |
 | Ahkâf 46:35 | Azim sahibi peygamberler gibi sabret | 96 |
 | En'âm 6:34 | Peygamberler yalanlandı ve eziyet gördü, sonra yardım geldi | 97 |
-| A'râf 7:126 | Fir'avn'un sihirbazlarının sabır duası (inananlara yönelik hınç) | 97 |
+| A'râf 7:126 | "Sırf Rabbimizin ayetlerine iman ettiğimiz için hınç duyuyorsun, bize sabır yağdır" duası | 97 |
 | Tevbe 9:34 | Ebu Zer'in Muaviye'yi eleştirmek için okuduğu ayet (mal yığma) | 106 |
 | Nur 24:22 | Ebubekir'in Mistah'a yardım yeminini bozması | 110 |
 | Âl-i İmrân 3:92 | Ebu Talha'nın bahçeyi infak etmesi | 111 |
@@ -361,7 +361,7 @@ Not: "Kimlik" sütunu kitaptaki nitelemeye (örn. "oryantalist", "ateist") dayan
 5. **Antik metin kıyas tablosu (Homeros ... Plinius) ve İncil yazılış tarihleri:** Yazım-ile-en-eski-kopya arasındaki yıl farkı çubuk grafiği; yanına Kur'an için "Nebi'nin hayatı içinde yazım; en eski yazmalar karbon testine göre aynı yüzyılın başı" satırı.
 6. **Sıffin sahnesi zaman çizelgesi:** Peygamber'in vefatı (632) - Osman çoğaltma (~650) - Sıffin (~657): 27 yıl ve 7 yıl göstergeleri, 500+500 mushaf.
 7. **Hafız tahmini infografiği:** 200 bin (Türkiye) → ~4 milyon (dünya); "kabaca" etiketi.
-8. **Ekim-örnek haritası (Corpus Coranicum):** Tevbe 9:128 ve Rum 30:5 için yazma tarihlerinin zaman ekseni; Dam 01-27.1'in %60/5/24/11 olasılık dağılımı (yazarın kaba hesabı olduğu belirtilerek).
+8. **Corpus Coranicum örnek ayetleri:** Tevbe 9:128 ve Rum 30:5 için yazma tarihlerinin zaman ekseni; Dam 01-27.1'in %60/5/24/11 olasılık dağılımı (yazarın kaba hesabı olduğu belirtilerek).
 9. **Samimiyet vakaları kartları:** Bilal, Ammar, İbn Mesud, Osman, Akabe biatı, Ebubekir'in 40 bin → 5 bin dirhemi, Ebu Talha'nın bahçesi, Abdurrahman b. Avf'ın ağlaması: her biri kaynak yazar adıyla.
 
 ### 4.3 Sunumda dikkat edilmesi gereken noktalar
@@ -370,6 +370,6 @@ Not: "Kimlik" sütunu kitaptaki nitelemeye (örn. "oryantalist", "ateist") dayan
 - **Olası tekrar sayımı (kitaptaki verilere dayalı uyarı):** Arabe 331, Marcel 5, Leiden 14.545a ve 14.545b için kitap aynı karbon sonucunu (%89,3: 652-694; %6,1: 747-763) verir. Bu, bunların aynı çok parçalı yazmanın dağınık parçaları olabileceğini düşündürür; kitap bunu açıklamaz. Rakam sunumdan önce doğrulanmalı veya "yazma parçaları" olarak sunulmalıdır.
 - **İç tutarsızlıklar (OCR veya baskı):** İçindekilerde 45 giriş vardır; s. 79 "24 karbonlu" der ve 24 aralık sıralar; s. 80 "44 yazma metin + 7 tek sayfa" der. Ayrıca s. 79 "karbon testi olmayan 20" der (24 + 20 = 44). Kahire Mushafı için "sayfa kalınlığı 40 cm" ifadesi muhtemelen yanlıştır (s. 38 ve 45).
 - **Kadı Abdülcabbar tarihi:** Kitap, onun Hz. Muhammed'den yaklaşık 200 yıl sonra doğduğunu söyler; yaygın kabul ölümünü 11. yüzyıl başı olarak verir. Sunumda "Hicri 3-4. asır Mutezile âlimi" gibi belirsizliği koruyan bir ifade tercih edilmeli, kesin tarih kitaptan değil ayrıca doğrulanarak verilmelidir.
-- **İnsan ssesi:** Yazar "Margoliouth'un pespaye üslubu için özür" diler (s. 103); sunumda bu tür yargılar taşınmamalı, yalnızca olgusal alıntı aktarılmalıdır.
+- **Üslup:** Yazar "Margoliouth'un pespaye üslubu için özür" diler (s. 103); sunumda bu tür yargılar taşınmamalı, yalnızca olgusal alıntı aktarılmalıdır.
 - **Atıf ve uyarı:** Yazar, oryantalist kaynağın "doğrulamak için değil, muhatap için" kullanıldığını açıkça söyler (s. 19); sunum da aynı dili kullanmalıdır. Kitaptaki "haşa" edebi ve peygamberi anarken saygılı dil korunmalıdır.
-- **Ileri atıflar:** Bu bölüm, sonraki bölümlerde şu başlıklara dayanak olur: Samimiyet Delilleri (sahabenin samimiyeti), Fetanet Delilleri (Hudeybiye, Fetih Suresi, Fetihlerin Ruhu), Mucize Delilleri (Belagat, Hissi Mucizeler/mütevatir, Rum Suresi). Sunum akışında bu bölümün sonundaki iki yorum aracı (sahabe tepkisizliği ve müşrik sessizliği) bir "kural kartı" olarak sabitlenebilir.
+- **İleri atıflar:** Bu bölüm, sonraki bölümlerde şu başlıklara dayanak olur: Samimiyet Delilleri (sahabenin samimiyeti), Fetanet Delilleri (Hudeybiye, Fetih Suresi, Fetihlerin Ruhu), Mucize Delilleri (Belagat, Hissi Mucizeler/mütevatir, Rum Suresi). Sunum akışında bu bölümün sonundaki iki yorum aracı (sahabe tepkisizliği ve müşrik sessizliği) bir "kural kartı" olarak sabitlenebilir.
