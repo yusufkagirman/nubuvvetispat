@@ -27,6 +27,13 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - Muhatap profili (ateist, agnostik, başka din, şüpheci Müslüman vb.) ve kabulleri sunumun giriş noktasını belirler.
 - Dil: Türkçe (ileride çok dilli olabilir).
 
+## Alınan Kararlar (ayrıntı: `docs/plan-1-beyin-firtinasi.md`)
+- **Omurga: A + B hibrit.** Ekranda ihtimaller ağacı haritası yön verir (kullanıcı dal seçer, kapanan dal ✗). İçerikte kitaba bağlı, uydurmayan bir sohbet ajanı akışı yürütür. Rehberli sahneler/kartlar/görsel modüller harita düğümlerinin içeriğidir.
+- **Hedef kitle:** Müslüman olmayan herkes. (Davetçi/eğitimci sürümü ayrı bir çalışma olacak.)
+- **Profil ölçme:** Başta sorularla muhatabın kabulleri ve seviyesi ölçülür (kaynaklara güven, Tanrı inancı, din geçmişi, peygamberlik algısı, bilgi seviyesi). Yol ve anlatım dili buna göre şekillenir; kronoloji korunur, derinlik/örnek seçimi değişir.
+- **Görseller:** Gerçek görseller kullanılır (ör. erken dönem mushaf fotoğrafları). Yalnız açık lisanslı (kamu malı / Wikimedia Commons / müze açık erişim) görsel; her görselde kaynak + lisans + kitaptaki sayfa atfı.
+- **Muslim AI ilişkisi:** henüz belirsiz.
+
 ## Çalışma Düzeni (Claude için)
 - Ana oturum **orkestra şefi**dir; context'i şişirme. Kitap okuma/özetleme, kaynak çıkarma gibi ağır işleri **Sonnet/Haiku alt agent'larına** ver; onlar sonuçları `docs/` altına yazsın.
 - Kitap dosyaları: `kitap/`. Metod ve bölüm özetleri: `docs/`.
@@ -34,7 +41,7 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 
 ## Durum
 - [x] Kitap repoya eklendi (`kitap/peygamberligin-ispati.pdf`, metin: `docs/metin/`)
-- [ ] Bölüm analizleri (`docs/bolumler/`)
+- [x] Bölüm analizleri (`docs/bolumler/01..07`), kaynakça (`docs/kaynakca.md`)
 - [ ] Kitabın bölüm bölüm metod haritası çıkarılacak (`docs/metod-haritasi.md`)
 - [ ] Oryantalist kaynak envanteri (`docs/kaynaklar.md`)
 - [ ] **Beyin fırtınası:** Çıktının formatı henüz netleşmedi. Metod tam kavrandıktan sonra kullanıcıyla birlikte "metodu en iyi nasıl yansıtırız" planı yapılacak. Format kararını kullanıcı vermeden kod/tasarım yazma.
