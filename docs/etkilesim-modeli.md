@@ -19,9 +19,9 @@
 Kullanıcının kendi görüşüne göre: `sahtekar` → Samimiyet; `deli` → Fetanet; `dogru` → Mucizeler; `kararsiz` → ihtimaller açılır, soru tekrar. Kullanıcı yalnız kendi iddiasının dalını görür; o dal kapandıktan sonra "peki geriye ne kalıyor?" ile ağaç ilerler (gerekirse diğer dala geçer).
 
 ## Delil çeşitlendirme
-Kitaptaki dallar temeldir ve her biri için yeterli cevap vardır. Her düğüme **ek örnekler/hadiseler** eklenir:
+Kitabın **mimarisi** iskelettir; içerik kitapla sınırlı değildir. Kitaptaki dallar temeldir ve her biri için yeterli cevap vardır; üzerine konsepte uyan başka argüman/örnekler eklenebilir. Her düğüme **ek örnekler/hadiseler** eklenir:
 - `durum: "kitap"` → kitapta geçen (sayfa zorunlu).
-- `durum: "ek"` → kitap dışı ekleme; **kaynak zorunlu**, kullanıcı onayına kadar `"dogrulanacak": true`. Uydurma yasak.
+- `durum: "ek"` → kitap dışı ekleme; **kaynak zorunlu**, kullanıcı onayına kadar `"dogrulanacak": true`; her dilim sonunda `docs/onay-bekleyen-ekler.md` ile kullanıcıya sorulur. Uydurma yasak.
 
 ## Niyet sınıflandırma
 - v1 (AI'sız): anahtar kelime/kalıp eşleştirme + öneri çipleri.

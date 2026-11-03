@@ -21,7 +21,7 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 5. Samimiyet ve fetanet delilleri ağırlıklı olarak **oryantalist (Batılı, gayrimüslim) kaynaklarla** desteklenir — muhatabın kabul edeceği kaynaklar.
 
 ## Kurallar
-- Kitabın **kronolojisine ve metoduna sadık** kal; adım atlama, sonraki adımı öncekinin üstüne kur.
+- Kitabın **mimarisine ve metoduna sadık** kal (iskelet: zemin → haber → ihtimaller ağacı → samimiyet/fetanet → mucize); adım atlama. **İçerik kitapla sınırlı değil:** iskeletin üzerine konsepte uyan başka argüman/örnek eklenebilir — ama kitap dışı her ekleme kaynaklı olur, `dogrulanacak:true` işaretlenir ve **kullanıcıya onaya sunulur** (`docs/onay-bekleyen-ekler.md`).
 - Kitaptaki kaynak/alıntıları (özellikle oryantalist) **uydurma**; yalnız kitapta veya doğrulanabilir kaynakta olanı kullan, atıf ver.
 - Ton: saygılı, sohbet havası, muhatabı küçümsemeyen. Peygamber için olumsuz ihtimaller anılırken "haşa" edebi korunur.
 - Muhatap profili (ateist, agnostik, başka din, şüpheci Müslüman vb.) ve kabulleri sunumun giriş noktasını belirler.
@@ -55,7 +55,7 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - [x] Kitaptan 44 mushaf görseli (`public/gorseller/mushaflar/kitaptan/`, lisans doğrulanmadı; `docs/gorseller.md`)
 - [x] Kaynak envanteri: bölüm dosyalarında + `docs/kaynakca.md`
 - [x] Ajan ilkeleri (`docs/ajan-ilkeleri.md`) ve sunum tasarımı taslağı (`docs/sunum-tasarimi.md`)
-- [ ] **Beyin fırtınası:** Çıktının formatı henüz netleşmedi. Metod tam kavrandıktan sonra kullanıcıyla birlikte "metodu en iyi nasıl yansıtırız" planı yapılacak. Format kararını kullanıcı vermeden kod/tasarım yazma.
-- [ ] Beyin fırtınası 2. tur: `docs/sunum-tasarimi.md` açık kararları (AI/RAG, lisans, dal kapanma anlamı + akış sırası, kayıt/gizlilik)
+- [x] Beyin fırtınası 1. tur (format kararları yukarıda)
+- [x] Beyin fırtınası 2. tur (lisans, dal kapanması, kayıt/anonimlik, etkileşim modeli)
 - [x] İlk dilim: Z1–Z17 + H1–H16 içerik + statik motor, uçtan uca test geçti (`docs/test-raporu.md`)
 - [ ] Sonraki: S (samimiyet), F (fetanet), M (mucize), R (Rum) içerikleri; "kaldığım yerden devam" sahne kaydı; yayın (GitHub Pages)
