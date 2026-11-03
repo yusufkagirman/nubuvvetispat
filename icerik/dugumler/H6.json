@@ -1,0 +1,171 @@
+{
+  "id": "H6",
+  "baslik": "Delillerin Tasnifi",
+  "dal": "haber",
+  "sayfa": "134-135",
+  "onkosul": [
+    "H5"
+  ],
+  "sonraki": "H7",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist",
+      "kaynaksiz"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi üç ihtimalin karşısına hangi delil ailelerinin konduğuna bakalım. Bu, ağacın bütün mantığını gösteren ana sahne."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Fetanet delilleri",
+      "metin": "'Farkında olmadan yalan söylüyor' iddiasını çürüten delillerdir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Samimiyet delilleri",
+      "metin": "'Farkında olarak yalan söylüyor' iddiasını çürüten delillerdir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Mucizeler",
+      "metin": "Yalan ihtimalini dışlamakla hiç uğraşmadan haberin doğruluğunu doğrudan gösteren delillerdir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu iki yalan dalı da kapandığında geriye yalnızca 'doğru' ihtimali kalır. Çünkü başka kutu yok. Mucizeler ise bağımsız, doğrudan bir yoldur."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Sahabenin birçoğunun da kendi dilleriyle böyle düşündüğüne işaret eden izler var. Biri Peygamber'in yüzünü görüp 'Bu yüz yalan söylemez' diyerek iman ediyor; bu, samimiyet deliline işaret. Peygamber de onlara 'Sizin aranızda bir ömür yaşadım, aklınızı kullanmaz mısınız?' diyor (Yûnus 10/16); bu da hem fetanet hem samimiyet atfı. Yazar sahabenin bu sistemi böyle kurduğunu iddia etmiyor; yalnızca tepkilerinin bu ailelere işaret ettiğini söylüyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Ağaç",
+      "metin": "Haber doğru mu?\n- Doğru: peygamberdir.\n- Yanlış (haşa):\n   - Bilerek: Samimiyet delilleri bu dalı kapatır.\n   - Bilmeyerek: Fetanet delilleri bu dalı kapatır.\nİki dal da kapanınca geriye yalnızca 'doğru' kalır. Mucizeler ayrıca doğrudan ispat eder."
+    }
+  ],
+  "ozet": "Bilerek yalan dalının karşısında samimiyet, bilmeyerek yalan dalının karşısında fetanet delilleri durur. İki dal kapanınca geriye yalnızca doğru kalır; mucizeler ise doğrudan ispat yoludur.",
+  "ilzam": {
+    "soru": "Senin iddian, Peygamber'in peygamber olmadığı idi. Mevcut düzen şu: bu iddia ya bilerek ya bilmeyerek yalan demek ve her ikisinin karşısında ayrı delil aileleri var. O hâlde peygamber olmadığını söylemek, hangi dalı seçip o dalın delillerini çürütmeyi gerektirir. Bu yükü nasıl karşılarsınız?",
+    "cipler": [
+      "Haklısınız, bir dal seçmeliyim",
+      "Bence tek bir dal seçmek gerekmez",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel. O hâlde bu bir üç yollu kavşak: doğru, bilerek yalan, bilmeyerek yalan. Şimdi, delillere itiraz etmek isteyen birinin ne yapması gerektiğine bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: 'peygamber değil' demek, hangi dalın delillerini çürütmeyi gerektirir?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: 'peygamber değil' demek, hangi dalın delillerini çürütmeyi gerektirir?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: üç ihtimalin karşısındaki üç delil ailesi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H6-i1",
+      "ozet": "Bunlar sonradan icat edilmiş bir terminoloji; ilk Müslümanlar böyle düşünmüyordu.",
+      "anahtar": [
+        "terminoloji",
+        "icat",
+        "sonradan",
+        "ilk müslümanlar",
+        "sahabe böyle düşünmedi"
+      ],
+      "yanit": "Yazar sahabenin bu sistemi sarahaten kurduğunu söylemiyor. 'Bu yüz yalan söylemez' tepkisinin ve Yûnus 10/16'nın bu ailelere işaret ettiğini söylüyor. Kitabın katkısı, halk ve âlimlerce bilinip uygulanan bu yaklaşımı sistemli bir yapıya dönüştürmek.",
+      "kaynak": {
+        "kitapSayfa": "134-135, 141"
+      }
+    },
+    {
+      "id": "H6-i2",
+      "ozet": "Mucize yoksa hepsi çöker.",
+      "anahtar": [
+        "mucize yoksa",
+        "mucize olmasa",
+        "çöker",
+        "mucize şart"
+      ],
+      "yanit": "Hayır. Mucizeler ispatı pekiştirir ama şart değildir. Samimiyet ve fetanet delilleri iki yalan dalını kapattığında, mucize olmasa bile geriye 'doğru' kalır.",
+      "kaynak": {
+        "kitapSayfa": "138-139"
+      }
+    },
+    {
+      "id": "H6-i3",
+      "ozet": "İki dal dışında üçüncü bir yalan çeşidi olabilir.",
+      "anahtar": [
+        "üçüncü yalan",
+        "başka çeşit",
+        "yarı bilinçli",
+        "kısmen farkında"
+      ],
+      "yanit": "Tasnif iki ölçüte dayanır: yalan mı, değil mi; yalansa farkında mı, değil mi. 'Kısmen farkında' gibi karışık durumlar bu iki ölçütün arasında bir yere düşer; o hâlde her iki dalın delillerinin de çürütülmesi gerekir. Yani üçüncü bir çeşit yeni bir kutu değil, iki kutunun birleşimidir.",
+      "kaynak": {
+        "kitapSayfa": "128, 134"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Bu yüz yalan söylemez",
+      "metin": "Hz. Muhammed'i görünce 'Bu yüz yalan söylemez' diyerek iman eden sahabinin tepkisi, yazara göre samimiyet deliline işaret eder.",
+      "durum": "kitap",
+      "kitapSayfa": "134-135",
+      "ilzam": "Biri sizin hakkınızda 'bu yüz yalan söylemez' diyorsa, bu hüküm neyi gösterir?"
+    },
+    {
+      "baslik": "Yûnus 10/16",
+      "metin": "'Ben bundan önce sizin içinizde bir ömür sürdüm; hâlâ akıllanmayacak mısınız?' Peygamber'i eskiden beri tanıyanlar onun deli olmadığını biliyorlardı; bu, fetanet deliline atıftır. Dipnot 288'e göre ifadede samimiyet deliline de atıf vardır.",
+      "durum": "kitap",
+      "kitapSayfa": "135",
+      "ilzam": "Kırk yıl aranızda yaşamış birine bir anda 'delisin' demek ne kadar tutarlıdır?"
+    },
+    {
+      "baslik": "Mucize bağımsız yoldur",
+      "metin": "Hiçbir yalan ihtimalini dışlamakla uğraşmadan haberin doğruluğunu doğrudan ispatlayan deliller (mucizeler) ayrıca vardır.",
+      "durum": "kitap",
+      "kitapSayfa": "135",
+      "ilzam": "Doğrudan bir ispat yolu varken, yalnızca dolaylı yolu eleştirmek yeterli olur mu?"
+    }
+  ],
+  "kompozisyon": "Bu üç delil ailesini birlikte düşündüğünüzde, 'peygamber değil' ihtimalini hangi tutarlı kompozisyonla savunuyorsunuz?",
+  "notlar": "Ağaç diyagramı: metod-haritasi §2. Yûnus 10/16 için dn. 288. Bu düğüm ağacın ana şemasıdır; arayüzde görsel olarak sunulmalı."
+}

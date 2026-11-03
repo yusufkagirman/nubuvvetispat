@@ -1,0 +1,151 @@
+{
+  "id": "H4",
+  "baslik": "Haber ve Teori Arasındaki Fark",
+  "dal": "haber",
+  "sayfa": "133",
+  "onkosul": [
+    "H1"
+  ],
+  "sonraki": "H5",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "deist"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi çok önemli ince bir noktaya geliyoruz: haber ile teori aynı şey değildir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Teori",
+      "metin": "Platon bir teori ortaya koydu ve yanıldı diyelim. Bu bizi onun akıl sağlığından şüphe etmeye ya da sahtekâr saymaya götürmez; çünkü teori kurarken herkes yanılabilir. Mesela ben 'insanlık için en uygun iktisadi sistem şudur' diye bir teori kursam, ne deli ne sahtekâr olmadan yanılmış olabilirim."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Haber",
+      "metin": "Ama ben 'Bugün Ankara'daydım' dersem durum başka. Bu ya doğrudur ya yalandır. Yalansa ya sizi kandırmak istemişimdir (sahtekâr), ya da Ankara'da olmadığım hâlde orada olduğumu sanıyorumdur (algım bozuk). Masum bir yanılma ihtimali burada yok."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Peygamber'in iddiası 'ben şöyle düşünüyorum' değildi; 'bir melek gördüm, Allah benimle konuştu' idi. Yani olgusal bir bildirim. O yüzden 'sadece yanlış bir dünya görüşü kurmuş olabilir' demek, haberi teori sanmak anlamına gelir."
+    }
+  ],
+  "ozet": "Teoride deli ya da sahtekâr olmadan yanılmak mümkündür; haberde mümkün değildir. 'Bir melek gördüm, Allah benimle konuştu' bir görüş değil, olgusal bir bildirimdir.",
+  "ilzam": {
+    "soru": "Senin iddian, Peygamber'in sadece yanlış bir görüş ya da teori ortaya koymuş olabileceği idi. Mevcut veri, onun bir görüş değil 'bir melek gördüm' diyen olgusal bir haber getirdiği. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bu bir haber",
+      "Bence yine de teori sayılabilir",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde masum yanılma payı yok: haber yalansa ya bilerek ya bilmeyerek yalan. Bu da bizi üç kutuya geri getiriyor."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: 'bir melek gördüm' gibi olgusal bir bildirim, nasıl sadece bir teori olabilir?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: 'bir melek gördüm' gibi olgusal bir bildirim, nasıl sadece bir teori olabilir?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: teori ile haberin farkı."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H4-i1",
+      "ozet": "Peygamber sadece yanlış bir dünya görüşü kurmuş olabilir.",
+      "anahtar": [
+        "dünya görüşü",
+        "teori",
+        "felsefe",
+        "fikir",
+        "yanılmış olabilir"
+      ],
+      "yanit": "Teori ile haber ayrı kategorilerdir. Peygamber'in iddiası 'şöyle düşünüyorum' değil, 'bir melek gördüm, Allah benimle konuştu'dur. Olgusal bildirimde masum yanılma yoktur; yanlışsa ya bilinçli yalan ya da algı bozukluğudur.",
+      "kaynak": {
+        "kitapSayfa": "133"
+      }
+    },
+    {
+      "id": "H4-i2",
+      "ozet": "İnsan bir şeyi gerçekten görmüş sanıp yanılabilir; bu yalan değil.",
+      "anahtar": [
+        "görmüş sanıp",
+        "yanılabilir",
+        "algı",
+        "yanılsama",
+        "gözlem hatası"
+      ],
+      "yanit": "Elbette; ama bu tam olarak 'farkında olmadan yalan' kutusudur. Kitap bunu dışlamıyor; yalnızca ayrı bir kutu olarak koyuyor ve Fetanet bölümünde ayrıca ele alıyor.",
+      "kaynak": {
+        "kitapSayfa": "133"
+      }
+    },
+    {
+      "id": "H4-i3",
+      "ozet": "Peygamber 'melek' derken mecaz kullanmış olabilir.",
+      "anahtar": [
+        "mecaz",
+        "sembolik",
+        "metafor",
+        "ilham",
+        "iç ses"
+      ],
+      "yanit": "Bu bir yorum önerisi; yani haberin içeriğini yeniden tanımlıyor. Ama yorumlamadan önce haberin ilk muhataplarının nasıl anladığına bakmak gerekir: onlar bunu olgu olarak anladılar ve buna göre 'deli' ya da 'yalancı' dediler. İlk dinleyenlerin tepkisi mecaz okumayı desteklemiyor.",
+      "kaynak": {
+        "kitapSayfa": "129-133"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Platon örneği",
+      "metin": "Platon bir teori ortaya koymuşsa ve yanılmışsa bu onun deli ya da sahtekâr olduğunu göstermez. Teoride her insan masumca yanılabilir.",
+      "durum": "kitap",
+      "kitapSayfa": "133",
+      "ilzam": "Platon'un teorisindeki yanılgıyla bir olgu bildirimindeki yanılgı aynı şey olabilir mi?"
+    },
+    {
+      "baslik": "İktisadi sistem örneği",
+      "metin": "'İnsanlık için en uygun iktisadi sistem şudur' diyen biri, yanılsa bile ne deli ne sahtekâr olur. Ama 'ben bugün Ankara'daydım' diyen için bu geçerli değildir.",
+      "durum": "kitap",
+      "kitapSayfa": "133",
+      "ilzam": "Bu iki cümleden hangisi 'Bir melek gördüm' cümlesine daha yakın?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, haberi teori sayarak mı açıklıyorsunuz? Öyleyse 'bir melek gördüm' cümlesine nasıl bir yer veriyorsunuz?",
+  "notlar": "Platon ve iktisat örnekleri yazarın kendi örnekleri (s. 133). dn. 285-286."
+}

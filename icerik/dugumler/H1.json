@@ -1,0 +1,170 @@
+{
+  "id": "H1",
+  "baslik": "Haberin Niteliği ve İhtimaller",
+  "dal": "haber",
+  "sayfa": "127-129",
+  "onkosul": [
+    "Z17"
+  ],
+  "sonraki": "H2",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist",
+      "kaynaksiz"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdiye kadar konuşacağımız kaynakların ve yorum yöntemlerinin zeminini hazırladık. Şimdi asıl konuya geliyoruz ve işe şu soruyla başlayalım: tartıştığımız şey tam olarak nedir?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Haber",
+      "metin": "Mekke'de Muhammed b. Abdullah, kırk yaşında bir melek gördüğünü, Allah'ın elçisi olduğunu ve Allah'ın emirlerinin kendisi aracılığıyla topluma ulaşacağını söylüyor. Yirmi üç yıl boyunca bu meleği görmeye devam ettiğini, meleğin kendisini yönlendirdiğini de ekliyor. İnsanlar bu habere doğru ya da yalan diyerek ikiye ayrılıyor: doğru diyenlere mümin, yalan diyenlere kâfir deniyor."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu bir teori değil, bir haber. Tıpkı birinin 'Dün Ankara'daydım' demesi gibi. Böyle bir söz ya doğrudur ya yalandır. Biz de sıfır noktasından, bugünden geriye bakarak soruyoruz: bu haberi nasıl yorumlayabiliriz?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "İhtimaller",
+      "metin": "1) Doğru söylüyor: o hâlde peygamberdir.\n2) Haşa yalan söylüyor. Bu durumda iki alt ihtimal var:\n   a) Yalan söylediğinin farkında: haşa sahtekârdır, bile bile aldatmıştır.\n   b) Yalan söylediğinin farkında değil: haşa gerçeği algılayışı bozuktur, söylediklerini kendi bilinçli iradesiyle söylememektedir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Dördüncü bir ihtimal yoktur. Çünkü haberi yalnızca iki ölçüte göre sınıflandırdık: (1) doğru mu, yalan mı? (2) Yalansa, söyleyen bunun farkında mı? Bu iki sorunun cevapları bütün olasılıkları kapsar."
+    },
+    {
+      "tip": "alinti",
+      "metin": "'Sahtekâr' ve 'deli' kelimeleri yalnızca anlatım kolaylığı için konmuş adlardır. Epilepsi ya da halüsinasyon gibi 'farkında olmadan yalan söyleme' ihtimalleri bugünkü kullanımla 'delilik' diye adlandırılmaz. Dikkat edilecek nokta isim değil, farkındalıktır.",
+      "kaynak": {
+        "yazar": "Altay Cem Meriç",
+        "eser": "Peygamberliğin İspatı – Haber Delili, dn. 266",
+        "sayfa": "128"
+      },
+      "kitapSayfa": "128"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu ihtimalleri biz ortaya atmıyoruz; Peygamber'in hakkındaki bütün itirazların ister eski ister yeni olsun bu kutulardan birine girdiğini göstermek istiyoruz. Olumsuz ihtimalleri yalnızca ciddiye alıp sonuçlarına bakmak, yani çürütmek için anacağız. Haşa, Peygamber bunların hepsinden münezzehtir."
+    }
+  ],
+  "ozet": "Haber ya doğrudur ya yalandır; yalansa söyleyen ya farkındadır ya değildir. Üç yol var: doğru, farkında olarak yalan, farkında olmadan yalan. Dördüncüsü yok. İsimler kolaylık içindir, esas olan farkındalıktır.",
+  "ilzam": {
+    "soru": "Siz bu haberin 'Dün Ankara'daydım' türünden bir haber olduğunu kabul ediyorsunuz; yani doğru ya da yalan. Yalansa da söyleyen ya farkında ya değil. Bu üç kutunun dışında, mantıken dördüncü bir ihtimal kurabilir misiniz?",
+    "cipler": [
+      "Hayır, kuramam",
+      "Bence dördüncü bir ihtimal var...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel. O hâlde masada üç ihtimal var ve bunlardan birini seçmeden hiçbir yoruma geçemeyeceğiz. Önce bu tasnifin sağlam olup olmadığına bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Soruya dönersek: üç kutunun dışında dördüncü bir ihtimal düşünebiliyor musunuz?",
+        "Anlıyorum, acele etmek gerekmiyor. Soruya dönersek: üç kutunun dışında dördüncü bir ihtimal düşünebiliyor musunuz?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: haberin ya doğru ya yalan olması, yalansa söyleyenin farkında olup olmaması."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H1-i1",
+      "ozet": "'Deli/sahtekâr' demek Peygamber'e hakaret değil mi?",
+      "anahtar": [
+        "hakaret",
+        "saygısızlık",
+        "deli demek",
+        "sahtekar demek",
+        "ayıp"
+      ],
+      "yanit": "Bu adlar yalnızca anlatım kolaylığı için konmuş etiketlerdir; esas olan 'farkında olma / olmama' ayrımıdır. Epilepsi ve halüsinasyon gibi bugünkü iddialar da 'farkında olmadan yalan' kutusundadır. Bu ihtimaller muhalifin kendi ihtimalleridir; kitap onları ancak çürütmek için anar ve hep 'haşa' diyerek anar.",
+      "kaynak": {
+        "kitapSayfa": "128"
+      }
+    },
+    {
+      "id": "H1-i2",
+      "ozet": "İyi niyetle yanılmışsa? 'Yalan' ağır değil mi?",
+      "anahtar": [
+        "iyi niyet",
+        "yanılmış",
+        "yalan ağır",
+        "kasıt",
+        "masum"
+      ],
+      "yanit": "Burada 'yalan' kasıt anlamında kullanılmıyor; 'gerçeğe uygun olmayan haber' demek. İyi niyetle yanılma 'farkında olmadan' kutusuna girer. Kasıtlı olana da 'farkında olarak' kutusu var. Yani iyi niyetli yanılgı da kapsam dışı kalmıyor.",
+      "kaynak": {
+        "kitapSayfa": "128"
+      }
+    },
+    {
+      "id": "H1-i3",
+      "ozet": "Başka bir ihtimal var: abartılmış bir hikâye, efsane.",
+      "anahtar": [
+        "efsane",
+        "abartı",
+        "mitoloji",
+        "sonradan eklenmiş",
+        "hikaye"
+      ],
+      "yanit": "Efsane ihtimali haberin kendisini değil kaynakların güvenilirliğini sorgular; o yüzden zemin bölümünde (Kur'an'ın erken yazımı, çoğaltılması) bu konuyu önce ele almıştık. Şu an kaynakların sağlam olduğu varsayımıyla haberin kendisine bakıyoruz.",
+      "kaynak": {
+        "kitapSayfa": "127"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Ankara örneği",
+      "metin": "Birisi size 'Bugün Ankara'daydım' dese, bu iddia ya doğrudur ya yalan. Yalansa ya sizi kandırmak için söylüyordur ya da Ankara'da olmadığı hâlde orada olduğunu zannediyordur. Üçüncü bir şık bulmak mümkün mü?",
+      "durum": "kitap",
+      "kitapSayfa": "133",
+      "ilzam": "Bu örnekte üç kutunun dışına çıkabiliyor musunuz?"
+    },
+    {
+      "baslik": "Kur'an'ın aynı ayrımı",
+      "metin": "Kur'an hem 'deli' (bilmeyerek) hem 'yalancı/uyduruyor' (bilerek) ithamını aktarır; yani tasnif sonradan giydirilmiş değildir. Ayrıntısı sonraki adımda.",
+      "durum": "kitap",
+      "kitapSayfa": "129-133",
+      "ilzam": "Karşı çıkanların kendileri de bu iki kutudan başka bir şey söylemiyorsa, dördüncü ihtimal nerede?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamına bakınca, haberi üç kutudan hangisine koyarak tutarlı biçimde açıklıyorsunuz?",
+  "notlar": "Z17 bitince açılır. 'Haşa' edebi korunmalı. Kimlik etiketi gerekmez; kitap kaynak göstermiyor, tanımlar yazarın. Kaynak: dn. 265-266."
+}

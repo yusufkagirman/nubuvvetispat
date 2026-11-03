@@ -1,0 +1,162 @@
+{
+  "id": "H3",
+  "baslik": "Kur'an'da Haber Tasnifi",
+  "dal": "haber",
+  "sayfa": "129-133",
+  "onkosul": [
+    "H1",
+    "Z17"
+  ],
+  "sonraki": "H4",
+  "profil": {
+    "kritik": [
+      "kaynaksiz",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": [
+      "ateist"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bu tasnifin bize ait bir şema olup olmadığını merak edebilirsiniz. Haklı bir merak. Kur'an'a bakalım; ilk muhatapların kendi sözleri ne diyor?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Sayılar",
+      "metin": "'Yalan' kökü (k-z-b) Kur'an'da yaklaşık 220 defa geçer ve çoğunlukla müşriklerin yalanlamasından bahseder. Yani yalanlama meselesi Kur'an'ın merkezî bir konusu."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bilmeyerek dalı: 'delisin' ithamı",
+      "metin": "el-Hicr 15/6: 'Ey kendisine sözde Kur'an indirilen adam! Sen elbette delinin birisin.'\nes-Sâffât 37/36: 'Biz, deli bir şair için ilahlarımızı mı terk edeceğiz?'\nel-Kalem 68/51: 'Hiç şüphe yok o bir delidir, diyorlar.'\nel-Mü'minûn 23/70: 'Onda delilik var, diyorlar.'\nez-Zâriyât 51/52: Hiçbir peygamber gelmemiştir ki 'sihirbaz veya deli' dememiş olsunlar."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bilerek dalı: 'uydurdu, yalancı' ithamı",
+      "metin": "es-Secde 32/3: 'Onu Peygamber kendisi uydurdu, diyorlar.'\nel-Ahkâf 46/11: 'Bu eski bir yalandır.'\nSâd 38/4: 'Bu, yalancı bir sihirbazdır.'\nel-Kamer 54/25: 'O yalancının, şımarığın biridir.'"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Gördüğünüz gibi Kur'an iki ayrı ithamı aktarıyor: biri 'farkında değil, deli', diğeri 'uyduruyor, yalancı'. Bu, kitabın iki kutusuyla örtüşüyor. Üstelik ayetler, yalanlayanların çoğunlukla yalanın çeşidini incelemediğini de gösteriyor; bu noktaya biraz sonra, umursamazlık başlığında döneceğiz."
+    }
+  ],
+  "ozet": "Kur'an hem 'deli' hem 'yalancı' ithamını aktarır; yani iki kutu sonradan giydirilmiş bir şema değil, ilk muhatapların kendi itirazlarıdır. Yalanlayanlar ise çoğu zaman yalanın çeşidini incelemeden geçmişlerdir.",
+  "ilzam": {
+    "soru": "Siz tasnifin sonradan giydirildiğini düşünüyordunuz. Ama ilk muhataplar da aynı iki şeyi söylemişler: 'deli' ve 'uyduruyor'. Bu iki itham dışında bir üçüncü itiraz çeşidi bulabiliyor musunuz?",
+    "cipler": [
+      "Haklısınız, şema yapay değil",
+      "Bence başka bir itiraz da vardı...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel. O hâlde bu iki kutu ilk günden beri tartışmanın içinde. Şimdi bu tasnifin neden bir teori tartışmasından farklı olduğuna bakalım."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: Kur'an'ın aktardığı itirazlar iki kutunun dışında kalıyor mu?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: Kur'an'ın aktardığı itirazlar iki kutunun dışında kalıyor mu?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: Kur'an'ın 'deli' ve 'yalancı' ithamlarını birlikte aktarması."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H3-i1",
+      "ozet": "Bu tasnif senin Kur'an'a giydirdiğin bir şema.",
+      "anahtar": [
+        "şema",
+        "giydirme",
+        "sonradan",
+        "yapay",
+        "senin tasnifin"
+      ],
+      "yanit": "Ayetlere bakın: biri açıkça 'deli' der (bilmeyerek), diğeri 'uydurdu, yalancı' der (yalan). Kitap bu iki aileyi ayırıyor. Yani tasnif metinden çıkıyor, metne dışarıdan konmuyor. Elbette ayetleri kendiniz de okuyup karar verebilirsiniz.",
+      "kaynak": {
+        "kitapSayfa": "130-133"
+      }
+    },
+    {
+      "id": "H3-i2",
+      "ozet": "Ayetler Müslümanların kitabı; bu onların kendi propagandası.",
+      "anahtar": [
+        "propaganda",
+        "kendi kitabı",
+        "taraflı",
+        "müslüman kaynağı"
+      ],
+      "yanit": "Önceki adımlarda gördüğümüz yöntem şuydu: Kur'an düşmanlarının itirazlarını aktarıp cevaplıyorsa, o itirazlar uydurma olamaz; çünkü bir propagandacı kendisine yöneltilen en ağır ithamları kayda geçirmezdi. Bu kural ikincil delil mantığına dayanıyor ve zemin bölümünde ele alınmıştı.",
+      "kaynak": {
+        "kitapSayfa": "129-133"
+      }
+    },
+    {
+      "id": "H3-i3",
+      "ozet": "'Sihirbaz' da deniyor; bu üçüncü bir kutu değil mi?",
+      "anahtar": [
+        "sihirbaz",
+        "büyücü",
+        "sihir",
+        "üçüncü kutu"
+      ],
+      "yanit": "Ayetlerde 'sihirbaz' da geçer, ama genelde 'sihirbaz veya deli' ya da 'yalancı sihirbaz' şeklinde. Sihir iddiası gerçekte bir yalan ya da algı bozukluğu iddiasıdır; yani yine aynı iki kutudan birine düşer. Sihre gerçekten inanan biri için de doğaüstüne açık kapı demektir, o da ayrı bir sorudur.",
+      "kaynak": {
+        "kitapSayfa": "131-132"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Firavun ve Musa",
+      "metin": "eş-Şuarâ 26/27'de Firavun, Musa için 'Size gönderilen bu elçiniz mutlaka delidir' der; ez-Zâriyât 51/39'da ise 'O, ya bir sihirbaz veya bir delidir.' Aynı ikili itham başka elçiler için de kullanılıyor.",
+      "durum": "kitap",
+      "kitapSayfa": "130-131",
+      "ilzam": "Yalanlayanlar hep aynı iki ithamı tekrar ediyorsa, bu ithamların dışında yeni bir kutu açabilir misiniz?"
+    },
+    {
+      "baslik": "Kâhin değil, deli değil",
+      "metin": "et-Tûr 52/29: 'Sen ne bir kâhinsin ne de bir deli.' Kâhinlik ithamı da aynı bağlamda anılır; ileride bu ithamın da iki kutuya döndüğünü göreceğiz.",
+      "durum": "kitap",
+      "kitapSayfa": "131",
+      "ilzam": "Kâhinlik ithamını hangi kutuya koyardınız?"
+    },
+    {
+      "baslik": "Yalanlama nasıl anılır",
+      "metin": "Kur'an yalanlayanların çoğu zaman yalanın çeşidini önemsemediğini de not eder: 'uydurdu', 'eski yalan', 'yalancı şımarık' gibi sıfatlar yan yana gelir. Bu, yalanlamanın niteliğini incelememeye işaret eder.",
+      "durum": "kitap",
+      "kitapSayfa": "132-133",
+      "ilzam": "Yalanın çeşidini hiç incelemeden verilen bir hüküm, tutarlı bir kompozisyon sayılır mı?"
+    }
+  ],
+  "kompozisyon": "Bu ayetlerin tamamını, 'deli' ve 'yalancı' ithamlarıyla birlikte, hangi kutuda tutarlı biçimde açıklıyorsunuz?",
+  "notlar": "Ayet numaraları kitabın dipnotlarından (OCR notu: bölüm dosyası §4.3). Z17'deki itiraz-cevap kuralıyla bağlantılı."
+}

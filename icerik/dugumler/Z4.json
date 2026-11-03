@@ -1,0 +1,138 @@
+{
+  "id": "Z4",
+  "baslik": "Aydınlanma ve nübüvvetin ispatı: metafizik önkoşulsuz",
+  "dal": "zemin",
+  "sayfa": "19-20",
+  "onkosul": [
+    "Z1"
+  ],
+  "sonraki": "Z5",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik"
+    ],
+    "atlanabilir": [
+      "hristiyan",
+      "yahudi",
+      "deist"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Pek çok kişi şöyle der: 'Önce olağanüstü bir olayın mümkün olduğunu ispatlayın, sonra peygamberlikten konuşuruz.' Bu çok anlaşılır bir talep. Ama kitap bu sırayı gerekli bulmuyor. Nedenini görelim."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Geleneksel sıra",
+      "metin": "1) Olağanüstü olay mümkündür. 2) O hâlde nübüvvet mümkündür. 3) Bu kişi peygamberdir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kitabın sırası",
+      "metin": "1) Gözlemlenen tarihî veri. 2) Haberin doğruluğu. 3) Doğruluk tasdik edilince, haberin içeriği, yani melek, vahiy gibi unsurlar, bu tasdik edilmiş nübüvvetin parçası olarak kabul edilir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yani metafizik, yöntemin girişinde değil çıkışındadır. Yöntem sadece gözlemlenebilir tarihî verilerle yürür; içeriğin metafiziği sonuçtan çıkar (s. 19-20)."
+    }
+  ],
+  "ozet": "Nübüvvet, önce doğaüstünün imkânı ispatlanarak değil, gözlemlenen tarihî veriden tasdik edilir. Melek ve vahiy gibi unsurlar, tasdik edilmiş nübüvvetin içeriği olarak sonradan gelir.",
+  "ilzam": {
+    "soru": "Senin şartın şuydu: Doğaüstü mümkün olduğu kanıtlanmadan bir peygamberlik iddiası değerlendirilemez. Oysa gündelik hayatta birinin 'dün Ankara'daydım' haberini, Ankara'ya bizzat gitmeden, o kişinin doğruluğuna bakarak değerlendiririz. Haberin içeriğini peşin kabul veya reddetmek yerine habere ve haberciye bakmak, senin şartınla mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, haber ayrı değerlendirilebilir",
+      "Bence önce metafizik çözülmeli",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel, o hâlde haberi önkabulsüz, tarihî verilerle tartabiliriz. Sıradaki adım: Hangi tarihî kaynaklara dayanacağımızı belirlemek."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Tamam, bu soru açık kalsın. Şunu not edeyim: Sunum doğaüstü bir önkabul istemiyor; sizden istenen yalnızca verilere bakmak. Bu şart sizi rahatsız ediyor mu?",
+        "Peki, farklı soralım: Gündelik bir haberi değerlendirirken içeriğin imkânından önce haberciye bakmaz mıyız?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Doğaüstünün imkânı peşinen ispatlanmadan nübüvvet değerlendirilebilir mi?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z4-i1",
+      "ozet": "Önce doğaüstünün mümkün olduğunu ispatlayın.",
+      "anahtar": [
+        "doğaüstü",
+        "mümkün",
+        "olağanüstü",
+        "önce ispat",
+        "mucize mümkün"
+      ],
+      "yanit": "Gerek yok: Yöntem yalnızca gözlemlenebilir tarihî verilerle yürür. Nübüvvet bu verilerden tasdik edilir; melek, vahiy gibi unsurlar tasdik edilmiş nübüvvetin içeriği olarak sonradan kabul edilir.",
+      "kaynak": {
+        "kitapSayfa": "19-20"
+      }
+    },
+    {
+      "id": "Z4-i2",
+      "ozet": "Melek ve vahiy ispatlanmadan bu haber nasıl değerlendirilir?",
+      "anahtar": [
+        "melek",
+        "vahiy",
+        "cebrail",
+        "görünmeyen"
+      ],
+      "yanit": "Haber, içeriği peşinen kabul edilerek değil, doğruluğu sınanarak değerlendirilir. Haberin doğru olduğu tasdik edildiğinde, içindeki melek ve vahiy gibi unsurlar da o tasdikin parçası olarak kabul edilir.",
+      "kaynak": {
+        "kitapSayfa": "19-20"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Sıra tersine çevrilirse",
+      "metin": "Kitaba göre 'önce olağanüstü olay mümkündür, sonra nübüvvet' sırasına gerek yoktur; nübüvvet gözlemlenen tarihî veriden tasdik edilir.",
+      "durum": "kitap",
+      "kitapSayfa": "19-20",
+      "ilzam": "Verileri gözlemlemeden önce sonucun imkânını tartışmaya şart koşmak, hangi alanda yöntem sayılır?"
+    },
+    {
+      "baslik": "Tarihî veri esası",
+      "metin": "Yöntem, aydınlanma sonrası metafizik eleştirisini aşar: Doğaüstüne önceden atıf yapmadan, gözlemlenen dünyadan nübüvveti tasdik eder.",
+      "durum": "kitap",
+      "kitapSayfa": "19",
+      "ilzam": "Metafizik varsayım içermeyen bir yöntemin sonucuna, metafiziğe önceden karşı çıkarak itiraz etmek mantıken nasıl bir arada olabilir?"
+    }
+  ],
+  "kompozisyon": "Doğaüstü bir varsayım olmadan, yalnızca tarihî verilerle ilerlenebileceğini gördünüz. Bu durumda sunumun yöntemine hangi mantıksal gerekçeyle itiraz edersiniz?",
+  "notlar": "Kaynak: yazarın beyanı (s. 19-20). 'Dün Ankara'daydım' benzetmesi CLAUDE.md'deki haber tanımından; kitap sayfası teyit edilmeli."
+}

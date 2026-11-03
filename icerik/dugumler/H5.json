@@ -1,0 +1,155 @@
+{
+  "id": "H5",
+  "baslik": "Habere Dair Güncel Söylemler",
+  "dal": "haber",
+  "sayfa": "134",
+  "onkosul": [
+    "H1",
+    "H4"
+  ],
+  "sonraki": "H6",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Belki şunu diyorsunuz: 'Ben ne deli diyorum ne sahtekâr. Epilepsi vardı, halüsinasyon gördü ya da iyi niyetli bir reformcuydu.' Bu çok yaygın bir görüş. Kitap bu yeni isimleri nasıl yerleştiriyor, bakalım."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Epilepsi / halüsinasyon",
+      "metin": "Söylediklerinin farkında olmadan gerçeğe aykırı haber veriyorsa, bu 'farkında olmadan yalan' kutusudur. Yani isim yeni, kutu eski. Ayrıca bu ihtimalde meleklerle konuşmak gibi olağanüstü olaylar da gerçek algıdan kopuk olacağı için, bugünkü kullanımla 'akıl sağlığı yerinde değil' demek olur."
+    },
+    {
+      "tip": "kart",
+      "baslik": "İyi niyetli reformcu / toplum önderi",
+      "metin": "Halkını ikna etmek için 'melek geldi' dediyse, bile bile yanlış bir şey söylemiştir. Bu da 'farkında olarak yalan' kutusudur. Amaç iyi olabilir, ama haber yine bilinçli bir yanlış bildirimdir."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Kısacası yeni bir isim yeni bir kutu açmıyor. Kitap bu çağdaş ihtimallerin hepsini ele alacak ve her biri için kendi delil ailesini sunacak. Ayrıca epilepsi gibi bir hâl, Peygamber'in tarihî olarak gerçekleştirdiği olaylarla da bağdaştırılamaz; bunu Fetanet bölümünde ayrıntılı göreceğiz."
+    }
+  ],
+  "ozet": "Epilepsi ve halüsinasyon 'farkında olmadan yalan' kutusundadır; iyi niyetli reformcu ise 'farkında olarak yalan' kutusundadır. İsimler değişir, ihtimal sayısı değişmez.",
+  "ilzam": {
+    "soru": "Senin iddian, Peygamber'in ne deli ne sahtekâr, ama epilepsi hastası ya da iyi niyetli bir reformcu olduğu idi. Mevcut veri şu: epilepsi ya da halüsinasyon söylediklerinin farkında olmamayı, reformcu ise farkında olarak söylemeyi gerektiriyor. Bu ikisi arasında üçüncü bir kutu nasıl olabilir?",
+    "cipler": [
+      "Haklısınız, üçüncü kutu yok",
+      "Bence üçüncü kutu var...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde yeni isimler bizi yeni bir kutuya götürmüyor. İki yalan kutusunun karşısında hangi delillerin durduğuna geçebiliriz."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: epilepsi ya da iyi niyetli reformculuk hangi kutuda duruyor?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: epilepsi ya da iyi niyetli reformculuk hangi kutuda duruyor?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: çağdaş itirazların aynı üç kutuya düşmesi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H5-i1",
+      "ozet": "Ben ne deli diyorum ne sahtekâr: epilepsi, halüsinasyon ya da iyi niyetli reformcu.",
+      "anahtar": [
+        "epilepsi",
+        "halüsinasyon",
+        "reformcu",
+        "iyi niyetli",
+        "önder",
+        "toplum önderi"
+      ],
+      "yanit": "Epilepsi ve halüsinasyon 'farkında olmadan yalan' kutusunda; iyi niyetli reformcu ise 'farkında olarak yalan' kutusunda. Yeni bir isim yeni bir kutu açmıyor. Şimdilik sizi bu kutulardan hangisine yakın hissediyorsanız, ilerleyen adımlarda o kutunun delillerini birlikte inceleyeceğiz.",
+      "kaynak": {
+        "kitapSayfa": "134"
+      }
+    },
+    {
+      "id": "H5-i2",
+      "ozet": "Epilepsi bilimsel bir teşhis, 'deli' değil.",
+      "anahtar": [
+        "bilimsel",
+        "teşhis",
+        "tıbbi",
+        "hastalık",
+        "nörolojik"
+      ],
+      "yanit": "Doğru; bu yüzden kitap 'deli' kelimesini yalnızca anlatım kolaylığı için kullandığını söyler. Önemli olan kelime değil, farkındalıktır: söyleyen söylediği şeyin gerçeğe uymadığının farkında değilse bu kutu devrededir. Epilepsi bu kutunun tıbbî bir adıdır.",
+      "kaynak": {
+        "kitapSayfa": "128, 134"
+      }
+    },
+    {
+      "id": "H5-i3",
+      "ozet": "Peygamber ikisi birden olabilir: önce samimi, sonra siyasi.",
+      "anahtar": [
+        "ikisi birden",
+        "önce samimi",
+        "sonra siyasi",
+        "karışık",
+        "evrim"
+      ],
+      "yanit": "Bu ikisini birleştiren bir kompozisyon kurulabilir; ama o zaman her iki kutunun delillerini de çürütmek ve tek bir tutarlı anlatıda açıklamak gerekir. Sonraki adımlarda bu kompozisyon talebine döneceğiz.",
+      "kaynak": {
+        "kitapSayfa": "134, 141-144"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Kitabın yerleştirmesi",
+      "metin": "Epilepsi, halüsinasyon: 'farkında olmadan yalan'. Toplum önderi, devrimci, halkı ikna için yalan: 'farkında olarak yalan'. Kitap bu iki çağdaş söylemin de üçlü sınıflamanın dışına çıkmadığını söyler.",
+      "durum": "kitap",
+      "kitapSayfa": "134",
+      "ilzam": "Bu iki söylemin dışında, haberi açıklayan üçüncü bir kutu önerebilir misiniz?"
+    },
+    {
+      "baslik": "Farkındalık ve olay",
+      "metin": "Epilepsi nöbeti gibi farkındalıktan uzak bir hâl, Peygamber'in tarihî olarak gerçekleştirdiği faaliyetlere bağlanamaz; bunun ayrıntısı Fetanet delillerinde gelecektir.",
+      "durum": "kitap",
+      "kitapSayfa": "134",
+      "ilzam": "Farkındalıktan uzak bir hâl, yirmi üç yıl süren organize bir faaliyetle nasıl bağdaşır?"
+    }
+  ],
+  "kompozisyon": "Seçtiğiniz kutuya göre, bütün tarihî veriyi tutarlı biçimde nasıl açıklıyorsunuz?",
+  "notlar": "Kullanıcının 'iddiamı yerleştir' tercihi burada ilk kez hissettirilir; asıl yönlendirme H16'da. Kaynak: s. 134 (yazarın tasnifi)."
+}

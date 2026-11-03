@@ -1,0 +1,146 @@
+{
+  "id": "H2",
+  "baslik": "Haber Tasnifinin İmandaki Önemi",
+  "dal": "haber",
+  "sayfa": "129",
+  "onkosul": [
+    "H1"
+  ],
+  "sonraki": "H3",
+  "profil": {
+    "kritik": [
+      "kaynaksiz",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": [
+      "ateist",
+      "agnostik"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bu tasnif sadece bir mantık oyunu değil. Klasik İslam literatürünün kendisi de imanı ve küfrü tam olarak bu haber çerçevesinde tanımlar."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Küfür, bize anlattığı ne ise onun herhangi bir ciheti konusunda Allah elçisinin tekzibidir. Tekzip (yalanlama) literal olarak, bir kişiyi yalancı çıkartmak, onun söylediğini yalan addetmektir ve tasdikin zıddıdır. Tasdikin anlamı ise bir şeyi doğru kabul etmek, ona iman etmektir.",
+      "kaynak": {
+        "yazar": "Gazali (Izutsu aracılığıyla)",
+        "eser": "Izutsu, İslam Düşüncesinde İman Kavramı",
+        "sayfa": "61"
+      },
+      "kitapSayfa": "129"
+    },
+    {
+      "tip": "alinti",
+      "metin": "İnsanlar, haberlerle gerçek nebiyi sahtesinden, doğru olanı yalancıdan ayırt ederler.",
+      "kaynak": {
+        "yazar": "Cahız",
+        "eser": "Kitâbü Hüceci'n-Nübüvve",
+        "sayfa": "50"
+      },
+      "kitapSayfa": "129"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yani mesele, bir duygu ya da sezgi meselesi olmadan önce, bir haberin doğru kabul edilip edilmemesi meselesidir. Kitabın kurduğu çerçeve de tam olarak bu: önceki sayfadaki şıklar etrafında dönen bir değerlendirme."
+    }
+  ],
+  "ozet": "İman, haberi doğru kabul etmek; küfür ise haberi yalan saymaktır. Klasik literatür de meseleyi bu haber çerçevesinde kurar. Yani doğru mu, yalan mı sorusu yapay değil, meselenin kendisidir.",
+  "ilzam": {
+    "soru": "Siz iman ve inkâr meselesinin sezgiye bırakılabileceğini düşünüyorsunuz. Ama kendi kaynakları bile bunu haberi tasdik ya da tekzip olarak tanımlıyor. Haber doğru mu yalan mı diye sormadan, bir haber hakkında nasıl tavır alınabilir?",
+    "cipler": [
+      "Haklısınız, tavır alınamaz",
+      "Bence sezgi ayrı bir yoldur",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde haberin doğru ya da yalan olup olmadığını sormak yapay bir soru değil, imanın kendi sorusu. Şimdi Kur'an'ın bu tasnife nasıl baktığına geçelim."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: haber hakkında doğru ya da yalan demeden nasıl bir tavır alınabilir?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: haber hakkında doğru ya da yalan demeden nasıl bir tavır alınabilir?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: imanın haberi tasdik, küfrün tekzip olarak tanımlanması."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H2-i1",
+      "ozet": "İman bir sezgi/duygu meselesi, bunu masaya yatırmak yapay.",
+      "anahtar": [
+        "sezgi",
+        "duygu",
+        "kalbi",
+        "his",
+        "yapay"
+      ],
+      "yanit": "Gazali'nin tanımına göre küfür elçiyi tekzip, iman tasdiktir; Cahız'a göre insanlar gerçek nebiyi sahtesinden haberlerle ayırt eder. Yani klasik literatürün kendisi meseleyi haber çerçevesinde kurmuştur. Sezginin yeri elbette var, ama kitap burada akıl yürütmeyi tarif ediyor; kimseye sezgisini bırakmasını söylemiyor.",
+      "kaynak": {
+        "kitapSayfa": "129"
+      }
+    },
+    {
+      "id": "H2-i2",
+      "ozet": "Bu Müslümanların kendi iç tanımı; benim için bağlayıcı değil.",
+      "anahtar": [
+        "bağlayıcı değil",
+        "iç tanım",
+        "sizin tanımınız",
+        "müslümanlara özel"
+      ],
+      "yanit": "Haklısınız; bu alıntılar Müslümanların nasıl düşündüğünü göstermek için. Kitabın ispatı bu tanıma dayanmıyor; ispat, haberin doğru-yalan ihtimalleri ve onları çürüten delillerle yürüyor. Tanımları yalnızca çerçevenin keyfî olmadığını göstermek için aktarıyoruz.",
+      "kaynak": {
+        "kitapSayfa": "129"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Cahız: görenler görmeyenlere haber verir",
+      "metin": "Allah peygamberlerin delillerini ve tasarruflarını bütün insanlara doğrudan göstermedi; bu yüzden görenlerin görmeyenlere haber vermesi gerekir. Yani nübüvvet, tarih boyunca haber yoluyla taşınan bir mesele.",
+      "durum": "kitap",
+      "kitapSayfa": "129",
+      "ilzam": "Madem nübüvvet haber yoluyla taşınıyor, haberi değerlendirmeden başka hangi yol kalıyor?"
+    },
+    {
+      "baslik": "Gazali: tekzip ve tasdik",
+      "metin": "Tekzip bir kişiyi yalancı çıkarmak, tasdik ise doğru kabul etmektir. Aradaki fark tamamen haberin doğruluğuna dair verilen hükümdür.",
+      "durum": "kitap",
+      "kitapSayfa": "129",
+      "ilzam": "Siz haber hakkında hükmü hangi ölçüyle vermeyi öneriyorsunuz?"
+    }
+  ],
+  "kompozisyon": "Haberi tekzip ya da tasdik dışında bir yere koyamıyorsanız, bu verilerin hepsiyle birlikte hangi hükümde duruyorsunuz?",
+  "notlar": "Izutsu/Gazali ve Cahız aktarımları dn. 267-269 (s. 129). Cahız dn. 269 için sayfa 62."
+}

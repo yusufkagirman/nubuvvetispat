@@ -1,0 +1,132 @@
+{
+  "id": "Z5",
+  "baslik": "Kaynak seçiminde tutarlılık ilkesi",
+  "dal": "zemin",
+  "sayfa": "22",
+  "onkosul": [
+    "Z3"
+  ],
+  "sonraki": "Z6",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Her tarih çalışması bir kaynak seçmekle başlar. Bu seçimin keyfî olmaması gerekir; yoksa ‘işime geleni alırım, gelmeyeni atarım’ denmiş olur."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Tutarlılık ilkesi",
+      "metin": "Antik dünya ya da Hristiyanlık hakkında kaynak saydığınız metinlerden çok daha güçlü metinleri reddediyorsanız, bu ilmî bir tutarsızlıktır (s. 22)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Ana kaynaklar",
+      "metin": "Kur'an ve (kısmen) hadis. Bunları nakleden sahabe de bu sürecin bir parçasıdır; kitap onların da tarihî kaynaklığını ayrıca temellendirecek."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu ilkenin kapanışı ileride gelecek: Kur'an'ın güvenilirlik verilerini, kabul edilen antik metinlerle kıyaslarken (Z13) bu ilkeye geri döneceğiz."
+    }
+  ],
+  "ozet": "Kaynak seçimi tutarlı olmak zorundadır: Kendi kabul ettiğiniz tarihî metinlerin sağlamlık ölçütünü, başka bir metne uygulamamak keyfîliktir. Kur'an ve hadis ana kaynaktır; sahabe de bu sürecin bir parçasıdır.",
+  "ilzam": {
+    "soru": "Senin ilken: Bir metnin tarihî kaynak sayılması için yazımı ile elimizdeki kopyaları arasındaki süre kısa ve nakli güvenilir olmalı. Sunum, bu ölçütleri hem Kur'an'a hem senin kabul ettiğin antik metinlere aynı şekilde uygulayacak. Aynı ölçütle, kendi kabul ettiğin metinleri kabul edip Kur'an'ı reddetmek mantıken nasıl tutarlı olabilir?",
+    "cipler": [
+      "Haklısınız, tutarlı olamaz",
+      "Bence ölçüt farklı olmalı",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel, ölçütte anlaştık. Şimdi bu ölçütle Kur'an'ın verilerine bakacağız."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Tamam, verileri görünce bu soruya yeniden döneriz. Yalnızca ölçütü hatırlatayım: Aynı ölçüt herkese uygulanacak.",
+        "Anlıyorum. Ölçüt sizce ne olmalı? Cevabınızı sonraki verilerle birlikte tartacağız."
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince cevaplayacağız. Şu an kaynak seçimindeki tutarlılığı konuşuyorduk."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z5-i1",
+      "ozet": "Neden Kur'an'ı tarih kaynağı sayıyorsunuz?",
+      "anahtar": [
+        "tarih kaynağı",
+        "neden kuran",
+        "kuran kaynak",
+        "kitap kaynak"
+      ],
+      "yanit": "Çünkü kaynak seçimi tutarlı olmalıdır: Kur'an'ın güvenilirlik verileri, tarih çalışmalarında kaynak saydığımız pek çok antik metinden çok daha güçlüdür. Bu karşılaştırma Z13'te rakamlarla yapılacak.",
+      "kaynak": {
+        "kitapSayfa": "22"
+      }
+    },
+    {
+      "id": "Z5-i2",
+      "ozet": "Hadis ve sahabe neden kaynak?",
+      "anahtar": [
+        "hadis",
+        "sahabe",
+        "nakleden",
+        "rivayet"
+      ],
+      "yanit": "Kitap hadisi ağırlıklı kaynak yapmaz; hadislere ayrı bir yerde (Z14) ve sınırlı bir çerçevede bakacağız. Sahabenin kaynaklığı ise ayrıca temellendirilecek (Z16).",
+      "kaynak": {
+        "kitapSayfa": "22, 89-90"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Tutarlılık terazisi",
+      "metin": "Antik dünya ve Hristiyanlık hakkında kaynak saydığınız metinler bir kefede, Kur'an'ın güvenilirlik verileri öbür kefede tartılacak (Z13 ile birleşik).",
+      "durum": "kitap",
+      "kitapSayfa": "22, 86-89",
+      "ilzam": "Kendi ölçütünle kabul ettiğin metinlerden daha güçlü bir metni, aynı ölçütle reddetmek hangi mantıkla savunulabilir?"
+    },
+    {
+      "baslik": "Keyfîlik tehlikesi",
+      "metin": "Kitaba göre kaynağı keyfî seçen kişi ilmî tutarsızlık sergiler.",
+      "durum": "kitap",
+      "kitapSayfa": "22",
+      "ilzam": "'İşime gelen kaynağı alırım, gelmeyeni atarım' yaklaşımı ile kaynak ilkesi nasıl bir arada olabilir?"
+    }
+  ],
+  "kompozisyon": "Kaynak tutarlılığı ilkesini kabul ediyorsanız, Kur'an dışındaki tarihî metinleri hangi ölçütle kabul ettiğinizi ve bu ölçütün Kur'an'a neden uygulanmayacağını nasıl açıklıyorsunuz?",
+  "notlar": "Kapanış Z13'te (s. 89). Kaynak: yazarın ilkesi (s. 22)."
+}

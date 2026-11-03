@@ -1,0 +1,154 @@
+{
+  "id": "H7",
+  "baslik": "Delilleri Çürütmek İsteyen Ne Yapmalı?",
+  "dal": "haber",
+  "sayfa": "135-136",
+  "onkosul": [
+    "H6"
+  ],
+  "sonraki": "H8",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "kaynaksiz"
+    ],
+    "atlanabilir": [
+      "hristiyan",
+      "yahudi"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi sizi bir yüke davet etmeden önce, o yükün kuralını açıkça söylemek istiyorum. Çünkü bu sunum sizi hiçbir şeye zorlamıyor; ama itiraz etmek isterseniz, yolun ne olduğunu bilmeniz adil olur."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Çürütme yol haritası",
+      "metin": "1) Önce haberin doğruluğunu gösteren mucize delillerini teker teker çürütmelisiniz.\n2) 'Yalancı' diyorsanız, yalanın hangi çeşit olduğuna karar vermelisiniz (bilerek mi, bilmeyerek mi).\n3) O çeşidin karşısındaki delilleri (samimiyet ya da fetanet) teker teker çürütmelisiniz.\n4) Seçtiğiniz kompozisyon içinde bütün tarihî veriyi tutarlı biçimde açıklamalısınız."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Burada 'Zincirin gücü en zayıf halkanın gücü kadardır' sözünü hatırlayabilirsiniz. Doğru bir söz, ama bu delillere uygun bir benzetme değil. Daha iyi bir benzetme, bir demet sopayı kırmaya çalışan adamdır: her delil diğerini takviye eder, birine itiraz etmekle ispat çürümüş olmaz."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Aritmetik",
+      "metin": "Diyelim 10 mucize, 10 fetanet, 10 samimiyet delili var. Mucizelerden biri bile haberin doğruluğunu ispata yetiyorsa, çürütücünün hepsini çürütmesi gerekir. Sonra seçtiği yalan çeşidinin 10 deliline tek tek cevap vermesi ve bunu tutarlı bir kompozisyonla bağlaması gerekir. Zayıf saydığı birer delile itiraz etmek, problemin içinden çıkmaya yetmez."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Kitabın kendi iddiası daha mütevazı: birer fetanet, samimiyet delili ve bir mucize iddiası bile amaca ulaşmaya yeterdi. Fazlası, ispatı pekiştiren demetin kendisidir."
+    }
+  ],
+  "ozet": "Delillere itiraz etmek, ancak mucizeleri teker teker çürütmek, yalanın çeşidine karar vermek, o çeşidin delillerini çürütmek ve tutarlı bir kompozisyon kurmakla mümkündür. Deliller zincir değil, demet sopadır.",
+  "ilzam": {
+    "soru": "Senin iddian, en zayıf delili çürütürseniz bütün ispatın çökeceği idi. Mevcut veri, delillerin demet sopa gibi birbirini desteklediği ve mucizelerden birinin bile yeteceği. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, demet sopa benzetmesi daha uygun",
+      "Bence zincir benzetmesi hâlâ geçerli",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde itiraz mümkün, ama yolu belli. Bu yolun önemli bir parçası olan terimleri netleştirelim."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: demet sopa benzetmesi mi yoksa zincir benzetmesi mi bu delillere daha uygun?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: demet sopa benzetmesi mi yoksa zincir benzetmesi mi bu delillere daha uygun?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: delillere itirazın yolu ve demet sopa benzetmesi."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H7-i1",
+      "ozet": "Zincirin gücü en zayıf halkanın gücü kadardır.",
+      "anahtar": [
+        "zincir",
+        "en zayıf halka",
+        "zayıf delil",
+        "halka"
+      ],
+      "yanit": "Zincirde halkalar art arda bağlıdır; biri kopunca bütünü çöker. Buradaki deliller ise bağımsızdır ve her biri diğerini takviye eder. Üstelik mucizelerden biri bile haberin doğruluğunu ispata yeter. Bu yüzden demet sopa benzetmesi daha uygundur.",
+      "kaynak": {
+        "kitapSayfa": "135-136"
+      }
+    },
+    {
+      "id": "H7-i2",
+      "ozet": "Ben sadece birkaç delilinize itiraz ediyorum, o yeter.",
+      "anahtar": [
+        "birkaç delil",
+        "bazı deliller",
+        "iki üç delil",
+        "yeter",
+        "bir kaçına itiraz"
+      ],
+      "yanit": "Yetmez; çünkü birkaç delile itiraz, Peygamber'in deli ya da sahtekâr olduğunu ispat etmez. 'Haklı ya da haksız olarak delillerden birine itiraz etmiş' olursunuz. Kendi ihtimalinizi bütünlüklü bir kompozisyonla kurmanız gerekir.",
+      "kaynak": {
+        "kitapSayfa": "135-136, 142"
+      }
+    },
+    {
+      "id": "H7-i3",
+      "ozet": "Bu yol bana yük yüklüyor; ben delil getirmek zorunda değilim.",
+      "anahtar": [
+        "yük",
+        "zorunda değilim",
+        "kanıt yükü",
+        "ispat yükü",
+        "ben iddia etmiyorum"
+      ],
+      "yanit": "İsterseniz hiçbir iddiada bulunmayabilirsiniz; bu sunum sizi zorlamıyor. Ama 'peygamber değil' diyorsanız, bu sizin de bir iddianız olur ve o iddianın kutusu vardır. Yük, kimsenin üzerine dayatılmıyor; yalnızca iddianın doğasından geliyor.",
+      "kaynak": {
+        "kitapSayfa": "135-136"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Birer delil yeterdi",
+      "metin": "Yazar, birer adet fetanet ve samimiyet delili ile bir mucize iddiasının bile maksadına ulaşmak için yeteceğini söyler; geri kalanı demeti güçlendirir.",
+      "durum": "kitap",
+      "kitapSayfa": "135-136",
+      "ilzam": "Tek bir sağlam delil varken, ona itiraz etmek hangi sonucu doğurur?"
+    },
+    {
+      "baslik": "10×10 aritmetiği",
+      "metin": "10 mucize, 10 fetanet, 10 samimiyet delili varsa, tek tek itiraz etmek yetmez: mucizelerin hepsi, seçilen yalan çeşidinin delillerinin hepsi çürütülmeli ve sonra kompozisyon kurulmalıdır.",
+      "durum": "kitap",
+      "kitapSayfa": "135-136",
+      "ilzam": "Otuz delilin hepsine tutarlı cevap veren bir kompozisyonunuz var mı?"
+    }
+  ],
+  "kompozisyon": "Bu çürütme yolunu izlediğinizde, bütün tarihî veriyi hangi kompozisyonda tutarlı biçimde açıklıyorsunuz?",
+  "notlar": "Yol haritası: bölüm dosyası §3.5. Demet sopa arayüzde animasyonla gösterilebilir. Kaynak: yazarın aritmetiği (s. 135-136)."
+}

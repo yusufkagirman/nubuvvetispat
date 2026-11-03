@@ -1,0 +1,144 @@
+{
+  "id": "Z1",
+  "baslik": "Ön söz ve kitabın sınırları",
+  "dal": "zemin",
+  "sayfa": "14-16",
+  "onkosul": [],
+  "sonraki": "Z2",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Başlamadan önce bir şeyi açık söyleyelim: Bu sohbet, her sorunuza cevap verecek bir sohbet değil. Dürüst bir tartışma, neyin konuşulup neyin konuşulmayacağını baştan söylemekle başlar."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Fikrin pazarında tek geçerli akçe delildir.",
+      "kaynak": {
+        "yazar": "Altay Cem Meriç",
+        "eser": "Peygamberliğin İspatı – Haber Delili",
+        "sayfa": "14"
+      },
+      "kitapSayfa": "14"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu yüzden kitabın yazarı kendi hikâyesini delil olarak sunmuyor. Yöntemin kendisini ateizmden İslam'a geçişinde belirleyici bulduğunu söylüyor ama \"beni ikna eden şey\" ile \"sizi ikna etmesi gereken şey\" arasındaki farkı koruyor: Geriye yalnızca deliller kalıyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bu sunumun yaptığı",
+      "metin": "Tek bir yöntemi ayrıntılı işler: Hz. Muhammed'in getirdiği haberi, tarihî veriler üzerinden, doğruluk açısından değerlendirmek. Kitap bu yönteme 'haber yöntemi' diyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bu sunumun yapmadığı",
+      "metin": "İslam'a yöneltilen bütün itirazlara cevap vermez. Tanrı'nın varlığını tartışmaz. Fikirlerin içeriğini kıyaslamaz (ör. sara iddiasını fikir adamlarıyla). Bilimsel ya da matematiksel mucizeye girmez. Çünkü herkesin kabul ettiği tarihsel süreç üzerinden gitmek daha az tartışmalıdır (s. 15)."
+    }
+  ],
+  "ozet": "Bu sunum tek bir soruya odaklanır: Hz. Muhammed'in getirdiği haber, tarihî verilerle ölçüldüğünde doğru mu? Kapsam bilinçli olarak dardır ve eser maksadına göre değerlendirilmelidir. Delil dışındaki hiçbir şey, kişisel hikâye dahi, ispat sayılmaz.",
+  "ilzam": {
+    "soru": "Senin beklentin şuydu: Böyle bir sunum önce her itirazı cevaplamalı, hatta Tanrı'nın varlığını ispatlamalı. Sunumun açıkça ilan ettiği kapsam ise tek bir sorudur: tarihî veriler ışığında haberin doğruluğu. Bir iddiayı değerlendirmek için önce sınırlarını çizip o sınır içinde delilleri tartmakla her konuyu aynı anda tartışmayı şart koşmak, mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, sınırlı bir soruyu ayrı ele almak makul",
+      "Bence önce başka bir konu çözülmeli",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel, o hâlde bu tek soruya odaklanıp ilerleyelim. Kuralları birlikte kurduk; şimdi yöntemin nasıl kurulduğuna bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum, hemen kesin bir cevap beklemek zorunda değilsiniz. Sınırı koyduk; şimdi bu sınır içinde nasıl ilerleyeceğimizi görelim, sonra tekrar sorarım.",
+        "Acele yok. Şunu hatırlatayım: Şu an konuşmamız gereken tek şey, bu sunumun neyi yapıp neyi yapmadığı."
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona döneceğiz, not aldım. Şu an şunu konuşuyorduk: Bu sunumun kapsamı nedir ve neden bu kadar dar tutulmuş?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z1-i1",
+      "ozet": "Kitap Hristiyanlık, ateizm ve bilim itirazlarına cevap vermiyor mu?",
+      "anahtar": [
+        "hristiyan",
+        "ateizm",
+        "bilim",
+        "cevap vermiyor",
+        "diğer itiraz"
+      ],
+      "yanit": "Hayır, vermiyor ve bunu baştan söylüyor. Kitap yalnızca haber yöntemini sistemleştirir; İslam'a yönelik bütün itirazları, Tanrı'nın varlığı tartışmasını, içerik kıyaslarını ve bilimsel mucizeyi kapsam dışı bırakır. Eser, maksadına göre değerlendirilmelidir.",
+      "kaynak": {
+        "kitapSayfa": "15"
+      }
+    },
+    {
+      "id": "Z1-i2",
+      "ozet": "Önce Tanrı'nın varlığını ispatlayın.",
+      "anahtar": [
+        "tanrı",
+        "allah",
+        "varlığını",
+        "ispatla",
+        "yok"
+      ],
+      "yanit": "Tanrı'nın varlığı bu kitabın konusu değil. Metodun bu önkoşulu nasıl ele aldığını bir sonraki adımlarda, özellikle 'metafizik önkoşulsuz' başlığında göreceğiz; kısaca: tarihî veriden yola çıkılıyor.",
+      "kaynak": {
+        "kitapSayfa": "14-16"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Teorik içerik kıyası neden dışarıda?",
+      "metin": "Kitap, örneğin delilik/sara iddiasını fikir adamlarıyla kıyaslamak gibi teorik karşılaştırmaları bilinçli olarak dışarıda bırakıyor. Gerekçe: herkesin kabul ettiği tarihsel süreç üzerinden gitmek daha az tartışmalıdır.",
+      "durum": "kitap",
+      "kitapSayfa": "15",
+      "ilzam": "Senin yaklaşımın içerik tartışmasıyla başlamaktı. Kitap, tartışmasız tarihî verilerle başlamayı seçiyor. Üzerinde anlaşılan veriyle başlamayı, anlaşılmayan bir zeminde başlamaya tercih etmek hangi noktada yanlış olur?"
+    },
+    {
+      "baslik": "Eser maksadına göre değerlendirilir",
+      "metin": "Yazar, eserin maksadının tek yöntemi ayrıntılandırmak olduğunu söylüyor; yani kitabın 'neden şunu da içermiyor' türünden eleştirileri, kapsamın baştan ilan edilmiş olması bakımından cevaplanmış sayılır.",
+      "durum": "kitap",
+      "kitapSayfa": "15",
+      "ilzam": "Bir eserin ilan ettiği amaç içinde tutarlı olup olmadığı yerine, ilan etmediği konuları içermediği için reddedilmesi nasıl savunulabilir?"
+    }
+  ],
+  "kompozisyon": "Sunumun sınırlarını gördünüz. Bu sınırlar içinde kalan tek soruyu, yani haberin doğruluğunu, hangi ölçütle değerlendirmeyi öneriyorsunuz?",
+  "notlar": "Kitaptaki 'Eserin Sınırları' bölümünün sunuma dönüşümü. Kaynaklar yazarın kendi beyanı (s. 14-16)."
+}

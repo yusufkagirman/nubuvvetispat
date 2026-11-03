@@ -1,0 +1,138 @@
+{
+  "id": "H8",
+  "baslik": "Delil İsimlendirmeleri",
+  "dal": "haber",
+  "sayfa": "136-137",
+  "onkosul": [
+    "H6"
+  ],
+  "sonraki": "H9",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "hristiyan",
+      "yahudi",
+      "deist"
+    ],
+    "atlanabilir": [
+      "kaynaksiz"
+    ]
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Terimleri baştan netleştirelim; çünkü 'samimiyet' ve 'fetanet' günlük dilde çok geçen kelimeler değil."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Samimiyet delilleri",
+      "metin": "Nebi'nin, farkında olarak 'Allah, meleği aracılığıyla benimle konuştu' diye yalan söyleyen biri olma ihtimalini çürüten delillerdir. Buradaki vurgu farkındalığadır: toplumu bile bile kandırma ve bir yere yönlendirme amacı. Bu yüzden 'sahtekâr olmadığını gösteren deliller' denir."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Fetanet delilleri",
+      "metin": "Nebi'nin olağanüstü zekâsını gösteren delillerdir. Buradaki fetanet, sıradan bir insanın zeki olması gibi düşünülmemeli. Normal bir insanın ulaşamayacağı, 'Allah'ın yardımı olmaksızın böyle bir düzeye çıkılamaz' diyebileceğimiz bir zekâdır. Yazar 'inayet' ya da 'tevfik-i ilahi' gibi adların da uygun olabileceğini söyler."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bu yüzden fetanet delilleri, insan zekâsıyla açıklanamayacak düzeyde olduğu için mucize kabilindendir. Yani 'deli' ithamını çürütürken aslında hiç kimsenin göstermediği derecede yüksek zekâ gösteren şeyler ortaya koymuş oluyoruz."
+    }
+  ],
+  "ozet": "Samimiyet delilleri 'sahtekâr değil'i, fetanet delilleri 'deli değil'i gösterir. Fetanet sıradan zekâ değil, beşer takatini aşan, Allah'ın yardımıyla ulaşılabilecek bir zekâdır; bu yüzden fetanet delilleri mucize kabilindendir.",
+  "ilzam": {
+    "soru": "Senin iddian, fetanetin sıradan bir zekâ olduğu ve zeki insanın çok olduğu idi. Mevcut veri, kitabın fetanet ile beşer takatini aşan bir zekâyı kastettiği. Bu ikisi mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, kastedilen farklı",
+      "Bence yine de sıradan zekâ yeter",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "doğru",
+        "evet",
+        "katılıyorum",
+        "anladım",
+        "kabul"
+      ],
+      "yanit": "Güzel; o hâlde terimler netleşti. Şimdi mucize kavramına geçebiliriz."
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "boş ver",
+        "geç",
+        "ilgilenmiyorum",
+        "önemli değil"
+      ],
+      "yanit": [
+        "Buna sırası gelince döneceğiz. Sorumuz şuydu: kitabın kastettiği fetanet ile sıradan zekâ aynı şey mi?",
+        "Anlıyorum, acele etmek gerekmiyor. Sorumuz şuydu: kitabın kastettiği fetanet ile sıradan zekâ aynı şey mi?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince ona da döneceğiz, not aldım. Şu an şunu konuşuyorduk: samimiyet ve fetanet terimlerinin tanımı."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "H8-i1",
+      "ozet": "Fetanet sıradan zekâ demek; zeki insan çok.",
+      "anahtar": [
+        "sıradan zekâ",
+        "zeki insan çok",
+        "zeka",
+        "fetanet nedir",
+        "zekilik"
+      ],
+      "yanit": "Hayır; kastedilen sıradan zekâ değil, beşer takatinin üzerinde, Allah'ın yardımı olmadan ulaşılamayacak bir zekâdır. Bu yüzden fetanet delilleri mucize kabilindendir. Elbette bunun gerçekten öyle olup olmadığını Fetanet bölümündeki veriler gösterecek; şimdilik yalnızca terimin neyi kastettiğini söylüyoruz.",
+      "kaynak": {
+        "kitapSayfa": "136-137"
+      }
+    },
+    {
+      "id": "H8-i2",
+      "ozet": "Bu terimler Müslümanca; bana neden bu isimleri kullanıyorsunuz?",
+      "anahtar": [
+        "müslümanca",
+        "terim",
+        "isim",
+        "kavram",
+        "neden bu kelimeler"
+      ],
+      "yanit": "Terimler yalnızca kolaylık için. İsterseniz 'sahtekâr olmadığını gösteren deliller' ve 'deli olmadığını gösteren deliller' diyebilirsiniz; kitap da zaten bu anlamı kasteder. Yazar fetanet için 'zekâ delilleri' adının da kullanılabileceğini söylüyor.",
+      "kaynak": {
+        "kitapSayfa": "136-137"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Alternatif adlar",
+      "metin": "Yazar fetanet delilleri için 'zekâ delilleri', 'inayet', 'tevfik-i ilahi' gibi adların da kullanılabileceğini, bunların zekânın beşer tabakasının üstünde olduğunu daha doğru gösterebileceğini söyler; yine de 'fetanet' kelimesini seçtiğini belirtir.",
+      "durum": "kitap",
+      "kitapSayfa": "136",
+      "ilzam": "Bir zekâ, yalnızca sıradan insan zekâsı olsaydı 'deli' ithamının karşısında yeterli olur muydu?"
+    },
+    {
+      "baslik": "Samimiyet vurgusu",
+      "metin": "'Samimiyet' adı, farkındalık vurgusundan gelir: toplumu bilerek kandırma ihtimalini gösteren deliller. Bu nedenle 'sahtekâr olmadığını gösteren deliller' anlamı taşır.",
+      "durum": "kitap",
+      "kitapSayfa": "136",
+      "ilzam": "Birinin bile bile kandırdığına dair ihtimal, onun samimiyetini gösteren delillerle nasıl bağdaşır?"
+    }
+  ],
+  "kompozisyon": "Samimiyet ve fetanet tanımları ışığında, bu iki delil ailesinin karşısında hangi kutuyu savunacaksınız?",
+  "notlar": "Tanımlar yazarın (s. 136-137). Terim sözlüğü kartı olarak tooltip'te de kullanılabilir."
+}

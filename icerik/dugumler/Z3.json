@@ -1,0 +1,134 @@
+{
+  "id": "Z3",
+  "baslik": "Kaynak kullanımı ve oryantalizm",
+  "dal": "zemin",
+  "sayfa": "18-19",
+  "onkosul": [
+    "Z2"
+  ],
+  "sonraki": "Z4",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bu sunumda sık sık Batılı, gayrimüslim araştırmacıların adını göreceksiniz. Bunun sebebini baştan söyleyelim, çünkü yanlış anlaşılması kolay."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Neden oryantalist kaynaklar?",
+      "metin": "Kitaba göre sebep, onların daha güvenilir olması değil, muhatabın onları kabul etmesidir. Yani 'onlar söyledi, o hâlde doğrudur' denmiyor; 'bunu sizin kabul ettiğiniz kaynaklar da söylüyor' deniyor."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yazar ayrıca oryantalistlerin donanımının gereğinden fazla ciddiye alındığı kanaatinde. Eseri bu 'kötü âdete' katkı yapmaktan çekiniyor. Yalnızca ilim ehline yazsaydı oryantalistlere hiç başvurmayacağını da söylüyor (s. 18-19)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Sıra",
+      "metin": "Oryantalist alıntılar, kitabın kendi delillerinden sonra ve vurgu için kullanılır. Delil önce kurulur; alıntı onun muhatabınca kabul edilen bir teyidi olarak gelir."
+    }
+  ],
+  "ozet": "Oryantalist kaynaklar bu sunumda delilin sahibi değil, muhatabın kabul ettiği tanıktır. Delil önce kendi mantığıyla kurulur, sonra bu tanıklarla desteklenir. Bu isimler güvenilir oldukları için değil, sizin kabul ettiğiniz kaynaklar oldukları için anılır.",
+  "ilzam": {
+    "soru": "Senin ölçün şuydu: Gayrimüslim, akademik kaynakların aktardığı veri taraflı sayılamaz; Müslüman kaynaklara temkinli yaklaşırsın. Sunum tam bu ölçüyü kullanıyor ve aynı veriyi karşı tarafın kalemlerinden aktarıyor. Kendi kabul ettiğin kaynakların aktardığı bir veriyi hem 'tarafsız kaynak' saymak hem de reddetmek mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, ikisi bir arada olamaz",
+      "Bence bu kaynaklar da taraflı",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel, kaynak ilkesinde anlaştık: Sizin kabul ettiğiniz kaynaklar kullanılacak, ama deliller kendi mantığıyla da ayakta kalacak."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Tamam, bu konuyu zorlamayayım. Şunu hatırlatayım: Kaynak ilkesi, 'sizin kabul ettiğiniz kaynaklarla konuşmak'. Buna itirazınız varsa nedenini duymak isterim.",
+        "Anlıyorum. Yine de soruyu açık bırakıyorum: Karşı tarafın kaleminden gelen veriyi reddetmek hangi gerekçeye dayanır?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; ileride kaynakları tek tek görürken döneceğiz. Şu an kaynak ilkesini, yani neden oryantalist kaynaklara başvurulduğunu konuşuyorduk."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z3-i1",
+      "ozet": "Neden hep Batılı yazarlar?",
+      "anahtar": [
+        "batılı",
+        "oryantalist",
+        "yabancı",
+        "neden hep"
+      ],
+      "yanit": "Çünkü bu kitle, muhatabın kabul edeceği kaynaklardır; onlar daha güvenilir oldukları için değil. Yazar, yalnızca ilim ehline yazsaydı oryantalistlere başvurmayacağını söylüyor.",
+      "kaynak": {
+        "kitapSayfa": "18-19"
+      }
+    },
+    {
+      "id": "Z3-i2",
+      "ozet": "Bu kaynaklara neden güveniyorsunuz?",
+      "anahtar": [
+        "güven",
+        "neden inanıyorsunuz",
+        "itibar",
+        "kaynaklara"
+      ],
+      "yanit": "Güvenilmiyor; kullanılıyor. Kitabın ifadesiyle onlara dayanma sebebi güvenilirlikleri değil, muhatabın onları kabul etmesidir. Oryantalist alıntılar delilden sonra, vurgu için gelir.",
+      "kaynak": {
+        "kitapSayfa": "18-19"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Oryantalistlerin ciddiye alınması üzerine",
+      "metin": "Yazar, oryantalistlerin donanımının gereğinden fazla ciddiye alındığı kanaatinde ve eserinin bu 'kötü âdete' katkı yapmasından çekindiğini belirtiyor.",
+      "durum": "kitap",
+      "kitapSayfa": "19",
+      "ilzam": "Kaynağı kullanan kişinin kaynağa itimat etmediğini açıkça söylemesi, onun güvenilirliği konusunda sizce sunumu güçlendirir mi zayıflatır mı?"
+    },
+    {
+      "baslik": "Kendi delilinden sonra",
+      "metin": "Oryantalist alıntılar kitabın kendi delillerinden sonra gelir; yani delil alıntıya değil, alıntı delile yaslanır.",
+      "durum": "kitap",
+      "kitapSayfa": "18-19",
+      "ilzam": "Delil kendi mantığıyla ayaktaysa ve karşı tarafın kaynakları da aynısını söylüyorsa, 'kaynak taraflı' itirazı delilin hangi parçasını çürütür?"
+    }
+  ],
+  "kompozisyon": "Kaynak ilkesini kabul ettiniz mi diye değil de şöyle soralım: Hangi tür kaynağın aktardığı veriyi kabul edersiniz ve neden?",
+  "notlar": "Z3 kaynağı yazarın beyanıdır (s. 18-19). Kaynak rozeti sistemi: oryantalist / gayrimüslim / Müslüman."
+}

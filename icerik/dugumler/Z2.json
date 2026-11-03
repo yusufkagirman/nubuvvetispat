@@ -1,0 +1,135 @@
+{
+  "id": "Z2",
+  "baslik": "Eserin yöntemi",
+  "dal": "zemin",
+  "sayfa": "16-18",
+  "onkosul": [
+    "Z1"
+  ],
+  "sonraki": "Z3",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Bu yöntem yeni bir icat değil. Kitaba göre, Müslümanların bilinçaltında zaten uyguladığı yaklaşımın sistemleştirilmesi. Yani şimdi göreceğiniz şey, tanıdık bir düşünme biçiminin düzenli hâli."
+    },
+    {
+      "tip": "kart",
+      "baslik": "İtiraz–cevap usulü",
+      "metin": "Kitap, delilleri peş peşe sıralamak yerine zemini kurup itirazları önceden yapan ve cevaplayan bir yapıda yazılmış. Yayımdan önce bir yıl boyunca hem Müslüman hem gayrimüslim okurlara 'sert tenkit' için gönderilmiş; gelen itirazlar metne işlenmiş, gerektiğinde sıralama değiştirilmiş (s. 16-17)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Çapraz atıf",
+      "metin": "Aynı rivayet birden fazla delilin parçası olabilir. Kitap tekrarı önlemek için rivayeti en uygun başlıkta işler, diğerlerinde atıf yapar. Bu yüzden bir delilin yanında 'bu aynı zamanda şu delilin de parçasıdır' notu görürseniz şaşırmayın (s. 17-18)."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bir de şu var: Deliller 'tükenir' diye düşünülmüyor. Yöntemi kavrayan, kendi delilini de çıkarabilir. Ayrıca kitap, 'kronolojik olmayan bir siyer' gibi de okunabilir (s. 18)."
+    }
+  ],
+  "ozet": "Yöntem, itirazı önceden dinleyip cevaplayan, delilleri tek tek test eden bir yapıdadır; kendi davasını kolaylaştırmak için değil, itiraz eden okurun karşısında sağlam durmak için kurulmuştur. Açıklanamayan olaylarda önce muhatabın kendi varsayımsal açıklaması alınır, sonra bunun neden mümkün olmadığı gösterilir.",
+  "ilzam": {
+    "soru": "Senin kuşkun, delillerin davayı ispat etmek için uydurulmuş olabileceğiydi. Yöntemin kuralı ise şu: Açıklanamayan her olayda önce senin kendi açıklaman alınacak, sonra bunun neden işlemediği gösterilecek; üstelik kitap yayımdan önce gayrimüslim okurların sert tenkidine açıldı. İtirazına söz hakkı veren bir yapının 'kendi davasına göre kurulduğu' iddiası, bu iki olguyla mantıken nasıl bağdaşır?",
+    "cipler": [
+      "Haklısınız, bağdaşmıyor",
+      "Bence yine de uydurulmuş olabilir",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; o hâlde yöntemin nasıl işleyeceğini kabul ettik. Şimdi bu yöntemin hangi kaynaklara dayanacağına bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Tamam, bu kuşku sizin için açık kalabilir; zaten delillere geldikçe tek tek sınanacak. Şimdilik yöntemin nasıl kurulduğuna odaklanalım.",
+        "Belki bir örnekle netleşir; yine de önce soruya dönelim: İtirazına söz veren bir yöntem kendi davası için mi kurulmuş olur?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "İyi bir nokta; sırası gelince değineceğiz, not aldım. Şu an yöntemin kendisini, yani itiraz–cevap usulünü konuşuyorduk."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z2-i1",
+      "ozet": "Bu deliller Müslümanlar tarafından davalarını ispat için uydurulmuş olmasın?",
+      "anahtar": [
+        "uydur",
+        "ispat için",
+        "dava",
+        "kendi lehine",
+        "taraflı"
+      ],
+      "yanit": "Kitabın cevabı: Gayrimüslim bakışla açıklanamayan olaylarda önce o muhatabın varsayımsal açıklaması aktarılır, sonra bu açıklamanın neden mümkün olmadığı gösterilir. Ayrıca kullanılan hadislerin neredeyse tamamı gayrimüslim yazarların da kullandığı hadislerdir (s. 18, 90).",
+      "kaynak": {
+        "kitapSayfa": "18"
+      }
+    },
+    {
+      "id": "Z2-i2",
+      "ozet": "Deliller yeterince kapsamlı mı?",
+      "anahtar": [
+        "kapsamlı",
+        "yeterli",
+        "eksik",
+        "tüm deliller"
+      ],
+      "yanit": "Kitap delilleri 'tüketici' olarak sunmuyor. Yöntemi kavrayan kendi delilini de çıkarabilir; her delilin orijinal olması da gerekmiyor, sık kullanılan delil değer kaybetmiyor.",
+      "kaynak": {
+        "kitapSayfa": "17"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Yayımdan önce bir yıl tenkit",
+      "metin": "Eser, yayımdan önce bir yıl boyunca Müslüman ve gayrimüslim okurlara sert tenkit için gönderilmiş ve gelen itirazlara metin içinde cevap verilmiş; bu yüzden okur çoğu zaman aklına gelmeyen bir itirazla da karşılaşır.",
+      "durum": "kitap",
+      "kitapSayfa": "16-17",
+      "ilzam": "Senin kuşkun taraflı bir yapı olduğuydu. Karşı görüşteki okurların sert eleştirisine açılmış bir metni 'taraflı' saymak ile bu eleştirilerin metne işlenmiş olması nasıl bir arada olabilir?"
+    },
+    {
+      "baslik": "Varsayımsal açıklama ilkesi",
+      "metin": "Gayrimüslim bakışla açıklanamayan olaylar için önce o muhatabın olası açıklaması aktarılır; ardından bunun neden mümkün olmadığı gösterilir.",
+      "durum": "kitap",
+      "kitapSayfa": "18",
+      "ilzam": "Kendi açıklamanı dinleyip sonra test eden bir yöntemin 'uydurma' olduğunu söylemek için senin açıklamanın hangi noktada işlediğini göstermen gerekmez mi?"
+    }
+  ],
+  "kompozisyon": "Yöntemin kendi itirazınızı da içerdiğini gördünüz. Bu delillerin tamamını 'uydurma' kabul etmek için hangi tutarlı açıklamayı öneriyorsunuz?",
+  "notlar": "Z2'nin kaynağı yazarın beyanıdır (s. 16-18). Cevap için bkz. s. 18 ve 90."
+}
