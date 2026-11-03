@@ -235,7 +235,7 @@ export class Ekran {
     if (!devamVar) {
       const el = this._satirEl('Biraz konuşalım mı?', 'acilis'); this._ekle(el); this._oku('Biraz konuşalım mı?');
       setTimeout(() => this._goster(el), this.zm(1500));
-      await this._uyu(4200);
+      await this._uyu(3000);
       await this.bekleDokun('dokun ya da bir tuşa bas');
       return 'baslat';
     }

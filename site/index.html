@@ -2,48 +2,41 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nübüvvet İspatı</title>
-<meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#02030a">
+<meta name="color-scheme" content="dark">
+<title>Biraz konuşalım</title>
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-<div class="uygulama">
-  <nav class="ust">
-    <strong class="marka">Nübüvvet İspatı</strong>
-    <details class="menu">
-      <summary>Menü</summary>
-      <div class="menu-ic">
-        <button id="m-cevaplar" type="button">Cevaplarımı değiştir</button>
-        <button id="m-aktar" type="button">Dışa aktar (JSON)</button>
-        <button id="m-sifirla" type="button">Baştan başla</button>
-      </div>
-    </details>
-  </nav>
+<canvas id="gok" aria-hidden="true"></canvas>
 
-  <section id="karsilama" hidden class="ortala">
-    <h1>Peygamberliğin İspatı</h1>
-    <p class="giris">Başlamadan bir not: burada kimseyi ikna etmeye çalışmıyoruz. Elimizdeki tarihî verileri sırayla gösteriyor, sizin neye nasıl baktığınızı merak ediyoruz.</p>
-    <p class="giris">İstediğiniz yerde durabilir, atlayabilir, itiraz edebilirsiniz. Önce size birkaç kısa soru soracağız; hepsi atlanabilir.</p>
-    <button id="baslat" class="birincil buyuk" type="button">Başlayalım</button>
-  </section>
+<main id="sahne" class="sahne">
+  <div id="dg-beat" class="diyagram dg-beat" aria-hidden="true"></div>
+  <div id="dg-satir" class="diyagram dg-satir" aria-hidden="true"></div>
+  <div id="yigin" class="yigin"></div>
+</main>
+<div id="okuyucu" class="sr" aria-live="polite" role="status"></div>
 
-  <section id="anket" hidden class="ortala">
-    <div id="anket-kap"></div>
-    <button id="anket-atla" class="baglanti" type="button">Anketi tamamen atla</button>
-  </section>
-
-  <section id="ana" hidden class="ana">
-    <aside class="yan">
-      <div id="harita-kap" class="harita"></div>
-      <details class="liste" open><summary>Düğümler</summary><div id="dugum-liste" class="dugum-liste"></div></details>
-    </aside>
-    <main class="orta">
-      <div id="akis" aria-live="polite"></div>
-      <div id="kontrol" class="kontrol"></div>
-    </main>
-  </section>
+<div class="kose sol">
+  <button id="menu-btn" class="ikon" type="button" aria-label="Menü" aria-haspopup="true" aria-expanded="false">⋯</button>
+  <div id="menu" class="menu" hidden>
+    <button id="m-bastan" type="button">Baştan başla</button>
+    <button id="m-ara" type="button">Ara ver</button>
+  </div>
 </div>
-<script type="module">import { baslat } from './js/ui.js'; baslat();</script>
+<div class="kose sag">
+  <button id="ses-btn" class="ikon" type="button" aria-label="Sesi aç" aria-pressed="false">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z"/>
+      <g class="dalga"><path d="M15.5 9a4 4 0 0 1 0 6"/><path d="M18 6.5a8 8 0 0 1 0 11"/></g>
+      <path class="sus" d="M16 9.5l5 5M21 9.5l-5 5"/>
+    </svg>
+  </button>
+</div>
+
+<noscript><p class="ns">Bu sunum için JavaScript gerekir.</p></noscript>
+<script src="akis-veri.js" onerror="void 0"></script>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
