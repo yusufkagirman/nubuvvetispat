@@ -1,0 +1,2293 @@
+{
+  "bolge": "fetanet",
+  "giris": "fetanet.giris",
+  "beats": [
+    {
+      "id": "fetanet.giris",
+      "gizliDugum": "F1",
+      "dallan": [
+        {
+          "kosul": {
+            "kapali": "fetanet"
+          },
+          "git": "haber.kalan"
+        }
+      ],
+      "sahne": {
+        "arkaplan": "gokyuzu",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": "bilmeyerek",
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Diyelim ki şunu söyledin: hâşâ, samimiydi."
+        },
+        {
+          "metin": "Yalan söylemiyordu. Gördüğüne gerçekten inanıyordu."
+        },
+        {
+          "metin": "Ama gördükleri gerçek değildi."
+        },
+        {
+          "metin": "Peki bu tıbben ne demek?"
+        },
+        {
+          "metin": "Yirmi üç yıl. Gece gündüz. Mutlu günde, yas gününde."
+        },
+        {
+          "metin": "Görerek, duyarak, bedeninde hissederek. Ölünceye kadar."
+        },
+        {
+          "metin": "Bugünün tıbbında bu, en ağır psikoz tablolarından biridir.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "fetanet.doktor",
+      "dayanak": "Kitap s. 265. Kurgunun tanımı: Nebi samimiyetle Cebrail'i gördüğünü zannediyor ama görmüyor. Görsel, işitsel, dokunsal halüsinasyon; hasta farkındalığı düşük; mutlu ve hüzünlü anlarda, gece gündüz, mekân fark etmeksizin 23 yıl, ölüme kadar. 'Ama çok zekiydi' kaçışı Haber İnşası'nda (H) kapatılmıştı. docs/bolumler/04-fetanet-1.md §1-2.0."
+    },
+    {
+      "id": "fetanet.doktor",
+      "gizliDugum": "F1",
+      "satirlar": [
+        {
+          "metin": "Bir deney yapalım. Tanıdığın bir doktoru ara."
+        },
+        {
+          "metin": "'Amcam üç aydır melek görüyor,' de."
+        },
+        {
+          "metin": "'Melek ona emirler veriyor. Yapmazsa kötü olacağını söylüyor.'"
+        },
+        {
+          "metin": "'Kendini özel biri sanıyor. Gerekirse herkesi ve her şeyi feda edecek.'"
+        },
+        {
+          "metin": "'Meleği hem görüyor, hem duyuyor.'"
+        },
+        {
+          "metin": "Şimdi doktorun yüzüne bak."
+        }
+      ],
+      "soru": {
+        "metin": "Sence doktor bu hikâyeye ne der?",
+        "cipler": [
+          "Ciddi bir rahatsızlık der",
+          "Bilmiyorum"
+        ],
+        "serbest": true
+      },
+      "varsayilan": "fetanet.teshis",
+      "sonraki": "fetanet.teshis",
+      "dayanak": "Kitap s. 265-266, doktor deneyi (metin neredeyse kitaptaki gibi, 'amcam' anlatımı). Gerçeği değilse ve gerçek olduğuna inanıyorsa modern psikiyatrinin en ağır tablolarından biri."
+    },
+    {
+      "id": "fetanet.teshis",
+      "gizliDugum": "F1",
+      "satirlar": [
+        {
+          "metin": "Doktor büyük ihtimalle gülmez."
+        },
+        {
+          "metin": "Ciddi bir tablo olduğunu söyler."
+        },
+        {
+          "metin": "İşte bu yüzden iddia, göründüğünden çok ağır."
+        },
+        {
+          "metin": "Senin yerine karar vermeyeceğim. Önce seni dinlemek istiyorum."
+        }
+      ],
+      "soru": {
+        "metin": "Sence ne oldu?",
+        "cipler": [
+          "Hasta olabilir",
+          "Birinden öğrendi",
+          "Çok zekiydi, kendini kandırdı",
+          "Bilmiyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "hasta",
+            "hastalik",
+            "epilepsi",
+            "sara",
+            "halusinasyon",
+            "hayal",
+            "psikoz",
+            "deli",
+            "akli",
+            "nobet",
+            "sanri"
+          ],
+          "git": "fetanet.hastalik",
+          "profil": {
+            "supheTuru": "hasta-yanildi",
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "ogrendi",
+            "ogrenmis",
+            "birinden",
+            "bahira",
+            "rahip",
+            "yahudi",
+            "hristiyan",
+            "kitap ehli",
+            "cevre",
+            "cevresinden",
+            "kopya",
+            "kopyaladi"
+          ],
+          "git": "fetanet.ogrenme",
+          "profil": {
+            "supheTuru": "ogrendi",
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "zeki",
+            "zekiydi",
+            "zeka",
+            "dahi",
+            "deha",
+            "kendini kandirdi",
+            "kandirdi"
+          ],
+          "git": "fetanet.zeka",
+          "profil": {
+            "supheTuru": "hasta-yanildi",
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bilmiyorum",
+            "bilmem",
+            "fikrim yok",
+            "sen anlat",
+            "sen soyle"
+          ],
+          "git": "fetanet.formul",
+          "profil": {
+            "supheTuru": "genel",
+            "iddia": "deli"
+          }
+        }
+      ],
+      "varsayilan": "fetanet.formul",
+      "sonraki": "fetanet.formul",
+      "dayanak": "Teşhis dallanması: hastalık/halüsinasyon/sara (F24), çevresinden öğrenme (F11, F20-F23), zekâ-psikoz çelişkisi (F1, H16), belirsiz (ana yol: başarılar). Metod haritası §4.6."
+    },
+    {
+      "id": "fetanet.hastalik",
+      "gizliDugum": "F24",
+      "satirlar": [
+        {
+          "metin": "Hastalık dedin. Bunu ciddiye alıyorum."
+        },
+        {
+          "metin": "Ama 'hastalık' tek kelime, içinde iki ayrı iddia var."
+        },
+        {
+          "metin": "Biri sara: nöbetler, bilinç kaybı, bedenin kasılması."
+        },
+        {
+          "metin": "Diğeri halüsinasyon: olmayan bir şeyi görmek, duymak."
+        },
+        {
+          "metin": "İkisine de dürüstçe bakacağız."
+        }
+      ],
+      "soru": {
+        "metin": "Sen hangisini kastediyorsun?",
+        "cipler": [
+          "Sara",
+          "Halüsinasyon"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sara",
+            "epilepsi",
+            "nobet",
+            "kasilma"
+          ],
+          "git": "fetanet.sara"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "halusinasyon",
+            "gorme",
+            "duyma",
+            "psikoz",
+            "hayal",
+            "sanri"
+          ],
+          "git": "fetanet.formul"
+        }
+      ],
+      "varsayilan": "fetanet.sara",
+      "sonraki": "fetanet.sara",
+      "dayanak": "Kitap s. 392-393 (2.6). Bu beat yalnız tıbbi iddiayı ikiye ayırır: sara (F24, burada) ve halüsinasyon (giriş beat'lerinde konuşuldu; cevabı başarıların kendisi: formül beat'i)."
+    },
+    {
+      "id": "fetanet.sara",
+      "gizliDugum": "F24",
+      "satirlar": [
+        {
+          "metin": "Sara iddiası yeni değil."
+        },
+        {
+          "metin": "Orta Çağ Avrupası'ndan gelir. Sonra bazı Batılı yazarlarda sürdü."
+        },
+        {
+          "metin": "Bugün ise ciddi bir savunucusu yok."
+        },
+        {
+          "metin": "Sara nöbetinden sonra zihin berrak çıkmaz. Hekimler bunu bilir."
+        },
+        {
+          "metin": "Oysa o, vefatından bir hafta öncesine kadar sağlıklıydı."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Aklı başında ve salim düşünceli tek insan varsa Muhammed'di.",
+              "kim": "Batılı bir biyografi yazarı"
+            }
+          }
+        },
+        {
+          "metin": "Batılı bir tarihçi de anlatılan belirtilerin sarayla uyuşmadığını yazar."
+        }
+      ],
+      "soru": {
+        "metin": "Bu tablo, sara ile açıklanabilir mi sence?",
+        "cipler": [
+          "Açıklanamıyor gibi",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "aciklanamiyor",
+            "olamaz",
+            "imkansiz",
+            "haklisin",
+            "mantikli",
+            "evet",
+            "ikna oldum",
+            "tamam"
+          ],
+          "git": "fetanet.formul"
+        },
+        {
+          "tur": "itiraz",
+          "ek": true,
+          "anahtar": [
+            "deli dediler",
+            "deli dendi",
+            "mecnun",
+            "cinnet",
+            "deli demisler",
+            "delisin"
+          ],
+          "yanit": [
+            "Doğru, düşmanları ona 'deli' dedi.",
+            "Ama kayıtlarda bu söz bir hakaret olarak geçiyor.",
+            "Bir nöbet ya da hastalık tarifiyle birlikte gelmiyor.",
+            "Hakaret ile teşhis aynı şey değil."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "deha delilik",
+            "dahi deli",
+            "ince cizgi",
+            "yakin"
+          ],
+          "yanit": [
+            "Diyelim ki deha ile delilik yakın.",
+            "Yakın olmak, aynı olmak değil.",
+            "Biz bir başarıyı açıklamaya çalışıyoruz: 23 yıl, şaşmayan, planlı.",
+            "Bunu açıklayacak bir hastalık adı bulabilirsen dinlerim."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir dönem bazı Batılı yazarlar histeri dedi."
+            },
+            {
+              "metin": "Sonra Fransız nörolog Babinski bu tanının yanlış olduğunu gösterdi."
+            },
+            {
+              "metin": "Bir tanı düşünce, genelde bir başkası gelir. O da düştü."
+            }
+          ],
+          "soru": "Tanılar tek tek düşüyorsa, geriye ne kalıyor sence?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Gerçekten nöbetler olsaydı, Mekke'deki muhalifleri düşün."
+            },
+            {
+              "metin": "Batılı bir yazar şunu hatırlatır: bundan fazlasıyla yararlanırlardı."
+            },
+            {
+              "metin": "Çünkü bunlar, o günün insanlarının çok iyi bildiği şeylerdi."
+            }
+          ],
+          "soru": "Sence muhalifler böyle bir fırsatı kaçırır mıydı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir şey daha. Başarılı birinin hikâyesini dinlerken tıp kitaplarına koşar mıyız?"
+            },
+            {
+              "metin": "Bir hastalık böyle sonuçlar verseydi, tıp onu tedavi değil, inceleme konusu yapardı."
+            },
+            {
+              "metin": "Oysa tarihte hiçbir hastalık böyle bir sonuç vermedi."
+            }
+          ],
+          "soru": "Başarıyı hastalıkla açıklamak sence bir açıklama mı, yoksa bir ön kabul mü?"
+        }
+      ],
+      "kompozisyon": "Peki tüm bu verileri birlikte nasıl açıklıyorsun? İstersen kendi cümlelerinle yaz.",
+      "kopru": [
+        "Bunu not ettim. Ama sorumuz şuydu:"
+      ],
+      "sonraki": "fetanet.formul",
+      "dayanak": "Kitap s. 393-396 (2.7). Watt (belirtiler sarayla aynı değil; son ana kadar yetenekleri tam), Caetani (sara-dinî his bağı bilinmez; saralı olmadığı sabit), Dermenghem (Sprenger'in histeri iddiası Babinski ile çürüdü; dehası, iradesi saralı görmeye engel), Hazleton (muhalifler yararlanırdı), Bodley ('aklı başında ve salim düşünceli tek insan varsa Muhammed'di'; nöbet sonrası berrak olmaz; vefatından bir hafta öncesine kadar sağlıklı). Bodley kimliği kitapta açılmıyor; ekranda 'Batılı bir biyografi yazarı'. 'Mecnun' itirazı kitap dışı ek: Hicr 15/6, Duhân 44/14, Kalem 68/2 (Kur'an bu etiketi kaydeder); onay listesinde. 'Deha ile delilik' yanıtı mantık, olgu iddiası içermez."
+    },
+    {
+      "id": "fetanet.zeka",
+      "gizliDugum": "F1",
+      "satirlar": [
+        {
+          "metin": "Çok zeki biri kendini kandırabilir mi? Ciddiye alalım."
+        },
+        {
+          "metin": "Zekâ, insanı hataya düşmekten korumaz. Bu doğru."
+        },
+        {
+          "metin": "Ama bizim sorumuz biraz farklı."
+        },
+        {
+          "metin": "Kendini kandıran biri, 23 yıl aynı şeyi görmeye devam eder."
+        },
+        {
+          "metin": "Bu sırada ordu kurar, hukuk koyar, yüzlerce kararı şaşmadan verir."
+        },
+        {
+          "metin": "Ağır bir sanrı ile bu kadar berrak bir akıl, aynı kişide, yan yana mı?",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Zeki biri hem ağır bir sanrı yaşayıp hem bu başarıları sürdürebilir mi sence?",
+        "cipler": [
+          "Zor görünüyor",
+          "Yine de olabilir"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "zor",
+            "olamaz",
+            "imkansiz",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli",
+            "tamam"
+          ],
+          "git": "fetanet.formul"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "deha delilik",
+            "dahi",
+            "ince cizgi",
+            "yakin",
+            "deha ile"
+          ],
+          "yanit": [
+            "Diyelim ki deha ile delilik yakın.",
+            "Yakın olmak, aynı olmak değil.",
+            "Aranan şey bir yakınlık değil: 23 yıl süren, planlı, tutarlı bir başarı.",
+            "Batılı bir yazar onun nefsine hâkimiyetini, iradesini ve ileriyi görüşünü sayar; meczup görmemizi engellediğini söyler."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir sanrının ürünü olan düzen, sahibi gidince çöker."
+            },
+            {
+              "metin": "Ömer, Halid'i görevden aldı. Fetihler durmadı."
+            },
+            {
+              "metin": "Ömer vefat etti. Fetihler yine durmadı."
+            },
+            {
+              "metin": "İskender, Timur ve Cengiz'de kurucunun ardından büyük parçalanma görülür."
+            }
+          ],
+          "soru": "Bir kişinin hayaline dayanan düzen, ondan sonra bu kadar işler mi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Uhud'da savaş alanını ustalıkla seçmişti."
+            },
+            {
+              "metin": "Batılı bir tarihçi yazar: vaha korunmasız kalsa bile, küçük mevzilerin Mekkelileri oyalayacağını hesaplamıştı."
+            },
+            {
+              "metin": "Bu soğukkanlı bir askerî hesap."
+            }
+          ],
+          "soru": "Sanrının içindeki biri böyle hesap yapabilir mi?"
+        }
+      ],
+      "kompozisyon": "Zekâ ile ağır psikozu aynı kişide nasıl bir araya getiriyorsun? Kendi sözlerinle anlatır mısın?",
+      "kopru": [
+        "Bu konuya birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.formul",
+      "dayanak": "Kitap s. 265-266 ('Ama çok zekiydi' kaçışı Haber İnşası'nda kapatılmıştı), s. 394 (Dermenghem: dehası, iradesi, nefsine hâkimiyeti), s. 279 (kurumsallaşma: Ömer-Halid, Ömer'in vefatı; İskender/Timur/Cengiz parçalanması), s. 289-290 (Watt, Uhud). 'Deha ile delilik yakındır' itirazına yanıt mantıksaldır; olgu iddiası içermez."
+    },
+    {
+      "id": "fetanet.ogrenme",
+      "gizliDugum": "F23",
+      "satirlar": [
+        {
+          "metin": "Birinden öğrenmiş olabilir. Bu da ciddi bir ihtimal."
+        },
+        {
+          "metin": "Ama bu iddia üç soruya cevap vermek zorunda."
+        },
+        {
+          "metin": "Kimden öğrendi? Ne zaman? Neden kimse itiraz etmedi?"
+        },
+        {
+          "metin": "Yani bir isim, bir zaman ve tanık lazım."
+        },
+        {
+          "metin": "En bilinen iddia bir rahip: Bahira. Bir de Yahudi ve Hristiyan çevre."
+        }
+      ],
+      "soru": {
+        "metin": "Hangisinden başlayalım?",
+        "cipler": [
+          "Bahira",
+          "Yahudi ve Hristiyanlar"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bahira",
+            "rahip",
+            "kervan"
+          ],
+          "git": "fetanet.bahira"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "yahudi",
+            "hristiyan",
+            "kitap ehli",
+            "cevre",
+            "cevresinden",
+            "kiliseden"
+          ],
+          "git": "fetanet.kitapehli"
+        }
+      ],
+      "varsayilan": "fetanet.bahira",
+      "sonraki": "fetanet.bahira",
+      "dayanak": "Kitap s. 379-392 ve s. 329. Bahira modülü yalnız muhatap getirirse açılır (docs/bolumler/05 §4.2-3)."
+    },
+    {
+      "id": "fetanet.bahira",
+      "gizliDugum": "F23",
+      "satirlar": [
+        {
+          "metin": "Bahira hikâyesini muhtemelen duymuşsundur."
+        },
+        {
+          "metin": "Önce şunu soralım: bu rivayet ne kadar sağlam?"
+        },
+        {
+          "metin": "İki ana metin var. Biri hadis kitabında, biri bir siyer kitabında."
+        },
+        {
+          "metin": "Hadis kitabındaki metinde Bilal'in adı geçer. Hadis âlimleri bunu açık hata sayar."
+        },
+        {
+          "metin": "Üstelik tüm yollar tek bir ravide toplanır. Birbirini desteklemez."
+        },
+        {
+          "metin": "Siyer kitabındaki metnin ise zinciri yok. Kimden alındığı bilinmez."
+        },
+        {
+          "metin": "Yani elimizde güvenilir bir rivayet yok.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Bu kadar zayıf bir rivayetle, 23 yıllık bir sistemi açıklamak sence sağlam mı?",
+        "cipler": [
+          "Zayıf görünüyor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "zayif",
+            "olmaz",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli",
+            "tamam",
+            "ikna oldum"
+          ],
+          "git": "fetanet.bahira2"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Amerikalı bir Sami dilleri bilgini, Bahira'ya dair Süryanice metinleri inceledi."
+            },
+            {
+              "metin": "Hepsini uydurma saydı."
+            },
+            {
+              "metin": "Örneğin yazar Bakara suresinin adını duymuş. Bilgi boşluğunu 'inek Kitabı boynuzlarında getirdi' öyküsüyle doldurmuş."
+            },
+            {
+              "metin": "Bir okumaya göre bu hikâye, yenilen tarafın teselli anlatısı."
+            }
+          ],
+          "soru": "Rivayetin kaynağı buysa, ona dayanmak sence ne kadar mantıklı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Eski Müslüman âlimlerin kendisi bu rivayeti sahih saymadı."
+            },
+            {
+              "metin": "Oysa olağanüstü yönleri İslam lehine delil olabilirdi."
+            },
+            {
+              "metin": "Yani kendi lehlerine olsa bile ilmî ölçüyü bıraktılar."
+            }
+          ],
+          "soru": "Kendi lehindeki rivayeti bile eleyen biri hakkında ne düşünürsün?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı tarihçilerin çoğu bu anlatıyı kendileri de eleştirir."
+            },
+            {
+              "metin": "Savunan oryantaliste ise rastlanmaz."
+            },
+            {
+              "metin": "Orta Çağ'da 'yoldan çıkmış Hristiyan' söylemi de buradan doğmuş olabilir."
+            }
+          ],
+          "soru": "Bu kadar eleştirilen bir anlatı, sence güvenilir bir temel olabilir mi?"
+        }
+      ],
+      "kompozisyon": "Rivayeti kendi başına nasıl değerlendiriyorsun? İstersen kendi cümlelerinle yaz.",
+      "kopru": [
+        "Bu konuya birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.bahira2",
+      "dayanak": "Kitap s. 381-392. Sened: Tirmizi metni (tek sahabi Ebu Musa el-Eş'ari; ortak ravi Abdurrahman b. Gazvan; Bilal'in adı geçmesi: Zehebi mevzu der, İbn Hacer, İbnu'l-Esir, Mübarekfuri, İbn Kayyım işaret eder); İbn İshak metni senedsiz. Ekranda 'Bilal'in o tarihte doğmamış olması' iddiasını KULLANMA (kitabın hadis eleştirisi; hadis uzmanı teyidi gerek, docs/dogrulanacaklar.md B/05 s. 381-385). Hükümler 'hadis ilminin ölçüleriyle değerlendirme' olarak sunulur. Gottheil, A Christian Bahira Legend (Bakara-inek, s. 45); Gottheil kimliği: Amerikalı Sami dilleri bilgini (kitap tablosu). Süryani kökeni tezi 'bir okuma' (yazarın Allahu a'lem'i). Caetani s. 241, Lewis s. 20 eleştirenlerden."
+    },
+    {
+      "id": "fetanet.bahira2",
+      "gizliDugum": "F23",
+      "satirlar": [
+        {
+          "metin": "Rivayeti doğru kabul edelim. Hadi bunu bile yapalım."
+        },
+        {
+          "metin": "Bir kervan bir konakta kaç gün bekler? Birkaç gün, belki birkaç hafta."
+        },
+        {
+          "metin": "O sürede atalar kültünü, ırkçılığın reddini, bütün bir öğretiyi mi öğrendi?"
+        },
+        {
+          "metin": "Hikâyede Kureyş'in ileri gelenleri de oradaydı."
+        },
+        {
+          "metin": "Sonradan şiddetle karşı çıkanlar neden hiç 'orada öğrendin' demedi?"
+        },
+        {
+          "metin": "Peygamberlik iddiasına yaklaşık yirmi sekiz yıl var. Tek bir şey kaçırmadı mı?",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Cevabı olmayan bir senaryo, sence tarih mi, yoksa kurgu mu?",
+        "cipler": [
+          "Kurgu gibi",
+          "Yine de olabilir"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "kurgu",
+            "masal",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli",
+            "tamam",
+            "ikna oldum"
+          ],
+          "git": "fetanet.devam"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an, kıssaları anlatırken 'öncesinde bunları bilmiyordun' der."
+            },
+            {
+              "metin": "Bunu duyanlar arasında, o kervanın tanıkları da vardı."
+            },
+            {
+              "metin": "Yalanlayabilirlerdi. Yalanlayan çıkmadı."
+            }
+          ],
+          "soru": "Tanıklar varken itirazın hiç gelmemesi sence neyi gösterir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Tek başına eğitim aldıysa, bu dikkat çekerdi."
+            },
+            {
+              "metin": "İnsanlarla birlikte aldıysa, herkes onun orada olduğunu bilirdi."
+            },
+            {
+              "metin": "İkisinde de iz kalırdı."
+            }
+          ],
+          "soru": "Sence bu iki ihtimalden hangisi iz bırakmadan geçebilir?"
+        }
+      ],
+      "kompozisyon": "Peki bu iddiayı delille nasıl destekleyebilirsin? İstersen kendi cümlelerinle yaz.",
+      "kopru": [
+        "Bunu not ettim. Ama sorumuz şuydu:"
+      ],
+      "sonraki": "fetanet.devam",
+      "dayanak": "Kitap s. 390-392 ('velev ki' bağlamı): kervan konağının süresi, kompleks öğretinin kısa sürede öğrenilmesi, itiraz yokluğu (ikincil delil mantığı: Kasas 28/86, Şûrâ 42/52, Yûsuf 12/3 vb.), 28 yıllık sessizlik, 'senaryo kurmak ile tarih yazmak aynı şey değildir'."
+    },
+    {
+      "id": "fetanet.kitapehli",
+      "gizliDugum": "F11",
+      "satirlar": [
+        {
+          "metin": "Yahudi ve Hristiyanlardan öğrendiyse, önce şunu soralım."
+        },
+        {
+          "metin": "Araplar onlarla yüzlerce yıldır komşuydu."
+        },
+        {
+          "metin": "Ama kırk yıl boyunca, hatta davetin son dönemine kadar, tek tanrıcılığa geçmediler."
+        },
+        {
+          "metin": "Gassaniler Bizans'ın, Lahmiler İran'ın komşusuydu. Orada böyle bir atılım olmadı."
+        },
+        {
+          "metin": "Temas varsa, bu sıçrama neden yalnız onunla başladı?",
+          "vurgu": true
+        },
+        {
+          "metin": "Kıssaların karşılaştırması ayrı bir konu. İstersen oraya birlikte bakarız."
+        }
+      ],
+      "soru": {
+        "metin": "Kıssalara şimdi mi bakmak istersin, yoksa devam mı edelim?",
+        "cipler": [
+          "Kıssalara bakalım",
+          "Devam edelim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kissa",
+            "kissalara",
+            "tevrat",
+            "incil",
+            "karsilastir"
+          ],
+          "git": "mucize.giris"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "devam",
+            "sonra",
+            "gec"
+          ],
+          "git": "fetanet.devam"
+        }
+      ],
+      "varsayilan": "fetanet.devam",
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir ilmi öğrenen kişi aşamalardan geçer: hocasını arar, sohbetine devam eder."
+            },
+            {
+              "metin": "Bunu çağdaşları bilir. Gizlenemez."
+            },
+            {
+              "metin": "Üstelik o dönemin ilim sahipleri sonradan düşmanı olacak kesimdi."
+            },
+            {
+              "metin": "Öğrenmiş olsa, bunu ilk onlar duyururdu. Eski bir İslam âlimi böyle der."
+            }
+          ],
+          "soru": "Böyle bir öğrenme sürecinin yıllarca gizli kalması mümkün mü?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an, çevrenin çok iyi bildiği olaylar için 'sen orada değildin' der."
+            },
+            {
+              "metin": "Örneğin Meryem'in kura olayında yanlarında olmadığını söyler."
+            },
+            {
+              "metin": "Yalan olsaydı, bu söz kolayca yalanlanırdı."
+            }
+          ],
+          "soru": "Yalanlanabilecek bir sözün hiç yalanlanmaması, sence neyi gösterir?"
+        }
+      ],
+      "kompozisyon": "Yahudi ve Hristiyan çevreden öğrenme iddiasını kendi cümlelerinle nasıl savunursun?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.devam",
+      "dayanak": "Kitap s. 329 (F11: temas varken tek tanrıcılığa geçilmedi; dn. 772: kıssaların öğrenilmesi iddiası Mucize bölümünde ele alınır), s. 351 (F14: Gassani/Lahmi uydu devletlerde böyle atılım olmadı), s. 380-381 (Kadı Abdülcebbar: öğrenme gizlenemez; Kadı'nın görüşü ≠ yazarın görüşü), 3/44 (Âl-i İmrân). 'Kıssalara bakalım' yolu mucize.giris'e gider (kıssa karşılaştırmaları M4-M7)."
+    },
+    {
+      "id": "fetanet.devam",
+      "gizliDugum": "F23",
+      "satirlar": [
+        {
+          "metin": "Öğrenme yollarını birlikte gözden geçirdik."
+        },
+        {
+          "metin": "Elimizde isim yok, zaman yok, tanık yok."
+        },
+        {
+          "metin": "Şimdi bir de başarıların kendisine bakmak gerek."
+        }
+      ],
+      "soru": {
+        "metin": "Başarılara daha önce baktık mı, yoksa şimdi mi bakalım?",
+        "cipler": [
+          "Henüz bakmadık",
+          "Baktık, toparlayalım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "henuz",
+            "bakmadik",
+            "basari",
+            "bakalim"
+          ],
+          "git": "fetanet.formul"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "baktik",
+            "toparlayalim",
+            "toparla",
+            "ozet"
+          ],
+          "git": "fetanet.kapanis"
+        }
+      ],
+      "varsayilan": "fetanet.formul",
+      "sonraki": "fetanet.kapanis",
+      "dayanak": "Köprü beat'i. Bahira/kitap ehli modülünden sonra, kullanıcı başarılar zincirini henüz görmediyse formül beat'ine, gördüyse kapanışa döner (profil değişkeni kullanılmaz; döngüyü önlemek için kullanıcıya sorulur)."
+    },
+    {
+      "id": "fetanet.formul",
+      "gizliDugum": "F1",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Hangi yoldan geldiysek, sınav hep aynı."
+        },
+        {
+          "metin": "İddia ne olursa olsun, bir insanın başarısı ölçülebilir."
+        },
+        {
+          "metin": "Tek bir delile bakacağız: yaptıkları."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "denklem",
+            "veri": {
+              "parcalar": [
+                "Başarı",
+                "=",
+                "Son durum",
+                "−",
+                "(Toplum + Birey)"
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Yani vardığı yerden, başladığı yerin payını çıkarıyoruz."
+        },
+        {
+          "metin": "Önce toplumun payını, sonra kişinin kendi payını."
+        },
+        {
+          "metin": "Geriye kalanı hangi hastalık açıklıyor, ona bakacağız.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Bu ölçü sana adil geliyor mu?",
+        "cipler": [
+          "Adil gibi",
+          "Biraz tuhaf"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "adil",
+            "mantikli",
+            "evet",
+            "tamam",
+            "olur",
+            "haklisin",
+            "kabul"
+          ],
+          "git": "fetanet.toplum",
+          "profil": {
+            "supheTuru": "genel"
+          }
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "tuhaf",
+            "garip",
+            "kuru",
+            "ne alaka",
+            "saçma",
+            "sacma"
+          ],
+          "yanit": [
+            "Haklısın, ilk bakışta kuru gelebilir.",
+            "Ama biz hayatta hep böyle ölçeriz.",
+            "Bir köyden çıkan bir çocuk dünya şampiyonu olunca 'şartlar mı, yetenek mi?' diye sorarız.",
+            "Burada da aynı soruyu soruyoruz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir benzetme yapalım. Cep telefonu bile kullanmamış, çok yaşlı biri düşün."
+            },
+            {
+              "metin": "72 yaşında 'Bana Cebrail göründü' diyor."
+            },
+            {
+              "metin": "Sonra eğitim almadan, çok karmaşık bir yazılım sistemi ortaya koyuyor."
+            }
+          ],
+          "soru": "Bu başarıyı onun geçmişi açıklar mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Burada üç katman var. Biz yalnız en alttakini kullanacağız."
+            },
+            {
+              "metin": "Birincisi: başarı belki mucizedir. Şimdilik bunu kenara koyuyoruz."
+            },
+            {
+              "metin": "İkincisi: bu şartlardaki biri bunu başarabilir mi?"
+            },
+            {
+              "metin": "Üçüncüsü: bir hastalık böyle bir başarıyı üretebilir mi?"
+            },
+            {
+              "metin": "Mucizeyi hiç kabul etmesen de bu son sorunun cevabı değişmez."
+            }
+          ],
+          "soru": "Böyle bir çerçeve sence adil mi?"
+        }
+      ],
+      "kompozisyon": "Peki sen bir başarıyı nasıl ölçerdin? Kendi yöntemini yazar mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.toplum",
+      "dayanak": "Kitap s. 266-268, 273-274, 373. Formül: Başarı = Son durum − (toplum koşulları + bireyin koşulları). Üç katman: mucize / koşul / fetanet (asgari). 72 yaşında yazılım benzetmesi kitaptan (s. 266-274). 'Tarihin en başarılı insanı' stratejisi. 'ikna' yolu profile supheTuru:genel yazar (devam/öğrenme döngüsünü önlemek için)."
+    },
+    {
+      "id": "fetanet.toplum",
+      "gizliDugum": "F2",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Önce başladığı yere bakalım. Toplumun payı."
+        },
+        {
+          "metin": "Batılı bir din tarihçisi yazar: Pers de Bizans da Arabistan'ı işgale değer görmüyordu."
+        },
+        {
+          "metin": "Kimse orada yeni bir dinin doğacağını düşünmüyordu."
+        },
+        {
+          "metin": "Kabile her şeydi. Kan bağı dışında hiçbir birlik tanınmazdı."
+        },
+        {
+          "metin": "Kişilerden bağımsız devlet kavramı yoktu. Arapçada bunu anlatan kelime bile yoktu."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Başlangıç",
+                "maddeler": [
+                  "Çöl, verimsiz topraklar",
+                  "Kan bağından başka birlik yok",
+                  "Devlet yok",
+                  "Yollar güvensiz"
+                ]
+              },
+              "sag": {
+                "baslik": "23 yıl sonra",
+                "maddeler": [
+                  "Tek bir topluluk",
+                  "Ortak hukuk ve ahlak",
+                  "Örgütlü bir yönetim",
+                  "Şiddetin kökleri kurumuş"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Bu zeminde 23 yılda böyle bir toplum kurmak, hangi hastalığın işi olurdu sence?",
+        "cipler": [
+          "Hiçbirinin",
+          "Olağanüstü bir lider işi"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hicbirinin",
+            "hicbiri",
+            "hic",
+            "imkansiz",
+            "olamaz",
+            "aciklanamiyor",
+            "lider",
+            "deha",
+            "siyasi",
+            "haklisin"
+          ],
+          "git": "fetanet.siyasi"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "cengiz",
+            "iskender",
+            "napolyon",
+            "timur"
+          ],
+          "yanit": [
+            "Cengiz ve İskender'i anmak yerinde.",
+            "Onlar da kendi toplumlarının çocuğuydu: ordu, devlet ve eğitim hazırdı.",
+            "Burada böyle bir zemin yok. Bunu birazdan ayrıca konuşacağız."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Medine'de kan davalı kabileler vardı."
+            },
+            {
+              "metin": "Muhacirler ve Medineliler arasında kardeşlik kuruldu."
+            },
+            {
+              "metin": "Hollandalı bir tarihçi şunu aktarır: her muhacir bir Medineli kardeş seçti. Bu bağ öz kardeşlikten güçlü sayıldı."
+            }
+          ],
+          "soru": "Kan bağından başka bağ tanımayan bir toplumda, bu bağı kim kurabilir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir benzetme yapalım. 1650'de Osmanlı'dayız."
+            },
+            {
+              "metin": "Bir kişi, 23 yıl içinde ulus devletin toplumsal bağlarını yerleştirebilir miydi?"
+            },
+            {
+              "metin": "Üstelik ikna ederek, tek tek, silahsız."
+            }
+          ],
+          "soru": "Böyle bir şey o dönemde sence beklenir miydi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Başlangıçta onu savunan bir sosyal sınıf yoktu."
+            },
+            {
+              "metin": "İlk yıllar için bir Batılı tarihçi 'hayal kırıcı' der, muhalefet neredeyse topluydu."
+            },
+            {
+              "metin": "Katılımın yavaşlığı, ortada bir toplumsal talep olmadığını gösterir."
+            }
+          ],
+          "soru": "Talebi olmayan bir toplumda, tek bir kişinin sanrısı bunu nasıl başarır?"
+        }
+      ],
+      "kompozisyon": "Bu başlangıç şartlarından bu sonuca nasıl varıldığını kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.siyasi",
+      "dayanak": "Kitap s. 268-278 (F2). Armstrong (Pers/Bizans Arabistan'ı işgale değer görmüyordu), Caetani (gayrişahsi devlet kavramı Arapçada yoktu, s. 278), Lewis/Watt/Lapidus (kabile dayanışması), Dozy (Muhacir-Ensar kardeşliği, s. 276), Lapidus (ilk yıllar hayal kırıcı, s. 400), 1650 Osmanlı benzetmesi (s. 276-277), tabansızlık analizi (s. 399-402, sayı analizi varsayımsal; ekranda sayı kullanılmadı). Karşılaştırma tablosunun 'şiddetin kökleri kurumuş': Armstrong s. 277-278."
+    },
+    {
+      "id": "fetanet.siyasi",
+      "gizliDugum": "F3",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Sonra ne oldu? Yirmi üç yıl."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "sayac",
+            "veri": {
+              "sayi": 23,
+              "etiket": "yılda bir toplum",
+              "onek": "",
+              "sonek": ""
+            }
+          }
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "zaman",
+            "veri": {
+              "noktalar": [
+                {
+                  "yil": "610",
+                  "etiket": "İlk vahiy"
+                },
+                {
+                  "yil": "622",
+                  "etiket": "Medine'ye hicret"
+                },
+                {
+                  "yil": "628",
+                  "etiket": "Hudeybiye"
+                },
+                {
+                  "yil": "630",
+                  "etiket": "Mekke'nin fethi"
+                },
+                {
+                  "yil": "632",
+                  "etiket": "Vefat"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "metin": "İlk on üç yıl boyunca silah yok. Yalnızca ikna."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Tek başarısı bu politik gelişme olsa bile hayranlığımızı kazanmaya yeterdi.",
+              "kim": "Batılı bir din tarihçisi"
+            }
+          }
+        },
+        {
+          "metin": "Kan davalı kabileler, tek bir toplum oldu. Güçle değil, fikir ve ahlakla."
+        },
+        {
+          "metin": "Üstelik o gidince de dağılmadı."
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian: ağır bir sanrı yaşıyordu. Veri: bir toplum kurdu. Bu mantıken nasıl bir araya gelir?",
+        "cipler": [
+          "Gelmiyor",
+          "Cengiz Han da yaptı"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "gelmiyor",
+            "olamaz",
+            "imkansiz",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli"
+          ],
+          "git": "fetanet.ongoru"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "cengiz",
+            "iskender",
+            "napolyon",
+            "timur",
+            "mogol",
+            "han da"
+          ],
+          "git": "fetanet.cengiz"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Ebubekir halife seçilince ilk konuşmasında şöyle dedi:"
+            },
+            {
+              "metin": "'Ben içinizde en iyiniz değilim. Doğru yaparsam yardım edin, yanlış yaparsam düzeltin.'"
+            },
+            {
+              "metin": "Bu, kendini yücelten bir sanrının sesi mi?"
+            }
+          ],
+          "soru": "Sence bu söz hangi tür bir zihinden çıkar?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir sosyolog şunu yazar:"
+            },
+            {
+              "metin": "Yüz yıl sonra torunları, Loire'dan Indus'a uzanan bir dünyayı komuta ediyordu."
+            },
+            {
+              "metin": "Kurucu gittikten sonra da fetihler durmadı. Bu kurumsallaşmanın işaretidir."
+            }
+          ],
+          "soru": "Bir sanrı, yüz yıl sonra dünyanın yarısını nasıl yönetir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kendisi de bunu sade tutardı."
+            },
+            {
+              "metin": "'Ben kral değilim. Güneşte kurutulmuş et yiyen bir kadının oğluyum.'"
+            },
+            {
+              "metin": "Mekke fethinden sonra heyecanlanan birine böyle dedi."
+            }
+          ],
+          "soru": "Kendini yüceltme sanrısı olan biri, zafer anında böyle konuşur mu?"
+        }
+      ],
+      "kompozisyon": "Bu başarının arkasında ne olabileceğini kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.ongoru",
+      "dayanak": "Kitap s. 272-278 (Armstrong: birleşmeleri imkânsız görülüyordu; 'tek başarısı bu politik gelişme olsa bile hayranlığımızı kazanmaya yeterdi'), s. 274 (güç değil fikir), s. 277 (ilk 13 yıl ikna), s. 279 (kurumsallaşma), s. 279-280 (Rodinson: yüz yıl sonra Loire'dan Indus'a), s. 306-307 (Ebubekir hutbesi: Armstrong, Irving), s. 376 (İbn Mace Et'ime 30; Hâkim). Zaman çizelgesi tarihleri genel kabul gören hicret/fetih tarihleridir. Armstrong ekranda 'Batılı bir din tarihçisi'; Rodinson 'Batılı bir sosyolog' (kitap Fransız oryantalist/sosyolog der)."
+    },
+    {
+      "id": "fetanet.cengiz",
+      "gizliDugum": "F25",
+      "satirlar": [
+        {
+          "metin": "Cengiz Han'ı anıyorsun. Kıyas yerinde."
+        },
+        {
+          "metin": "Bir şey soracağım. Cengiz'in başarısına bakıp onu sanrılı demiyorsun, değil mi?"
+        },
+        {
+          "metin": "Başarı bunu gösteriyorsa, aynı ölçü burada da geçerli."
+        },
+        {
+          "metin": "Şimdi farklara bakalım. Moğollar, Cengiz'den önce de savaşçıydı."
+        },
+        {
+          "metin": "Burada ise savaş sanatını bilmeyen bir toplum vardı. Kendisi de kırk yaşına kadar siyasetle uğraşmadı."
+        },
+        {
+          "metin": "Cengiz'in imparatorluğu ölümünden sonra parçalandı. İskender'inki de."
+        },
+        {
+          "metin": "Tarihin en etkili yüz kişisini sıralayan Batılı bir yazar, tek karşılaştırılabilir fethin Cengiz'inki olduğunu, ama kalıcı olmadığını yazar."
+        }
+      ],
+      "soru": {
+        "metin": "Cengiz'i başarısına bakıp hasta saymıyorsun. Burada neden saymalıyız?",
+        "cipler": [
+          "Haklısın, saymamalıyız",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "haklisin",
+            "saymamaliyiz",
+            "mantikli",
+            "evet",
+            "tamam",
+            "ikna oldum",
+            "sayma"
+          ],
+          "git": "fetanet.ongoru"
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "İskender'in babası II. Philip, profesyonel orduyu kurmuştu."
+            },
+            {
+              "metin": "Pers seferinin planı bile hazırdı. Hocası Aristoteles'ti."
+            },
+            {
+              "metin": "İskender'in başarısını bu zeminle açıklayabilirsin."
+            }
+          ],
+          "soru": "Aynı zemin, Hz. Muhammed'in başarısını açıklar mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Sokrates ahlakta büyüktü, ama siyasette mağlup, askerlikte yoktu."
+            },
+            {
+              "metin": "Platon öğretisinde büyüktü, ama iktisatta yoktu."
+            },
+            {
+              "metin": "Hz. Muhammed'in öğretisi sofra adabından hukuka kadar uzanır. Üstelik uygulandı."
+            }
+          ],
+          "soru": "Bunca alanın tek bir kişide, bir sanrının içinde buluşması sence olası mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir benzetme: 0'dan 10'a puan verelim."
+            },
+            {
+              "metin": "2 puanlık bir toplumda 9 puanlık eğitim alan, 9 puanlık toplumda aynı eğitimi alanla aynı yere varamaz."
+            },
+            {
+              "metin": "Bu bir benzetme. Gerçek bir ölçüm değil."
+            },
+            {
+              "metin": "Hz. Muhammed'in toplumu çok düşük puanlıydı. İmkânı da kısıtlıydı."
+            }
+          ],
+          "soru": "Böyle bir koşulda bu seviyeye çıkmak, bir eğitimin ürünü olabilir mi?"
+        }
+      ],
+      "kompozisyon": "Cengiz ve İskender ile bu başarı arasındaki farkı kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.ongoru",
+      "dayanak": "Kitap s. 273-274 ve dn. 623-624 ('velev ki' muhakemesi: Cengiz'in ağır psikotik olmadığını başarısından kabul eden Nebi için de aynısını kabul eder), s. 278-280 (Margoliouth: cahiliye Arapları savaş sanatını bilmiyordu; İskender/Timur/Cengiz parçalanması), s. 398-399 (karşılaştırmalar), s. 399-404 (İskender: II. Philip, Aristoteles; 0-10 puan benzetmesi GERÇEK VERİ DEĞİL), s. 404-406 (Hart, s. 28-29; Hart kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'). 'Kırk yaşına kadar siyasetle uğraşmadı' kitabın hesabı (s. 288); 53 yaş savaş hesabı ekranda yok."
+    },
+    {
+      "id": "fetanet.ongoru",
+      "gizliDugum": "F4",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi geleceğe bakalım."
+        },
+        {
+          "metin": "Mekke'de işkence görürken, alay edilirken bile bir vaadi vardı."
+        },
+        {
+          "metin": "Bir gün yolcu San'a'dan Hadramevt'e gidecek. Allah'tan ve koyunu için kurttan başka şeyden korkmayacak."
+        },
+        {
+          "metin": "Müslümanlar zayıf ve yoksuldu. Muhalifler onlara bakıp alay ederdi: 'Bunlar İran'a vâris olacak!'"
+        },
+        {
+          "metin": "Hendek'te de alay ettiler: 'Bize İran'ı vaat ediyor, biz tuvalete bile gidemiyoruz.'"
+        },
+        {
+          "metin": "Vefatından sonraki yirmi yıl içinde Sasani toprakları halifenin hâkimiyetine girdi.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Gördüklerinin gerçek olmadığını söylüyorsun. Ama söyledikleri ayrıntısıyla tuttu. Bu nasıl mümkün?",
+        "cipler": [
+          "Tesadüf olabilir",
+          "Açıklamak zor"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "aciklamak zor",
+            "zor",
+            "imkansiz",
+            "olamaz",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli"
+          ],
+          "git": "fetanet.hudeybiye"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "tesaduf",
+            "iyimserlik",
+            "iyimser",
+            "sans"
+          ],
+          "yanit": [
+            "Tesadüf ya da genel bir iyimserlik olsaydı, ayrıntı olmazdı.",
+            "Burada yol güvenliği, İran, Bizans gibi somut hedefler var.",
+            "Üstelik zamanı en kötü an: işkence, kuşatma.",
+            "Eski bir İslam âlimi der ki: tedbir ve hesap, kâfirlerin galibiyetini gerektirirdi."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "cengiz",
+            "iskender",
+            "napolyon",
+            "timur"
+          ],
+          "yanit": [
+            "Onlar planlarını güçlü bir ordu ve hazır bir devletle yaptı.",
+            "Burada ise ne ordu vardı, ne devlet.",
+            "İkisi aynı denklem değil."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir benzetme yapalım. Bugünün Irak'ında özel eğitim almamış biri doğuyor."
+            },
+            {
+              "metin": "Toplumun yapısını değiştiriyor. Ölümünden sonra on yıl içinde Irak, onun öğretisiyle Çin ve ABD'den güçlü hale geliyor."
+            },
+            {
+              "metin": "Bu hikâyeyi duysan, ilginç bir olay olarak bakmaz mıydın?"
+            }
+          ],
+          "soru": "Böyle birine 'hastaydı' demek sana makul gelir miydi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir tarihçi şunu yazar:"
+            },
+            {
+              "metin": "Olaylar tarihen sabit olmasa, alay edilen Mekkeli bir peygamberin şehrine muzaffer fatih olarak gireceğine çok az kişi inanırdı."
+            },
+            {
+              "metin": "Bunu o gün öngören tek kişi, kendisiydi."
+            }
+          ],
+          "soru": "O gün bu ihtimale sence kaç kişi inanırdı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir şey daha: 'Zarar veremezler' haberi."
+            },
+            {
+              "metin": "Tek başına bir adamken Kureyş'e, bütün Arap kabilelerine ve kitap ehline şöyle dedi: 'Beni öldüremezsiniz.'"
+            },
+            {
+              "metin": "Eski bir İslam âlimi der ki: bu, ancak çok güçlü bir güvenin akıllı bir adamda görülen duruşudur."
+            }
+          ],
+          "soru": "Sanrının içindeki biri, düşmanlarının ortasında bu güveni neye dayandırır?"
+        }
+      ],
+      "kompozisyon": "Bu ayrıntılı ve tutan öngörülerin kaynağı sence neydi? Kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.hudeybiye",
+      "dayanak": "Kitap s. 271-272, 283-288 (F4). Habbab b. Eret hadisi; Caetani (Esved'in alayı: 'Bunlar yeryüzünün hükümdarlarıdır, İran'a varis olacaklardır', s. 283); Hendek'te münafıkların alayı (s. 285, ayet no verilmemiş; ekranda ayet yok); Pedersen (632'den sonra yirmi yıl içinde Arabistan, Suriye, Irak, Sasani toprakları halifenin hâkimiyetinde, s. 280); Kadı Abdülcebbar (tedbir kâfirlerin galibiyetini gerektirirdi; zarar veremezler, s. 285-286; Kadı'nın görüşü ≠ yazarın görüşü); Irak benzetmesi (s. 287); Watt (Medine'de; muzaffer fatih, s. 406-407). 4:113, 8:62, 2:214 ayetleri ekranda yok. 'Bunu o gün öngören tek kişi kendisiydi' kitabın yorumu (s. 283: dönemin müşrik veya mümini öngöremedi). Bu beat fetanet + mucize çifte delildir; ayrıntı mucize bölümünde."
+    },
+    {
+      "id": "fetanet.hudeybiye",
+      "gizliDugum": "F6",
+      "satirlar": [
+        {
+          "metin": "Bir sahneye bak: Hudeybiye."
+        },
+        {
+          "metin": "Silahsız umre için yola çıktılar. Mekkeliler izin vermedi."
+        },
+        {
+          "metin": "Antlaşma, Müslümanların aleyhine gibi görünüyordu. Sahabenin çoğu öyle sandı."
+        },
+        {
+          "metin": "Ömer bile sordu: 'Gerçekten bu bir fetih mi?' Cevap: 'Evet, bu bir fetihti.'"
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "sayac",
+            "veri": {
+              "sayi": 10000,
+              "etiket": "kişiyle Mekke'ye yürüdüler; Hudeybiye'de 1400 kişiydiler",
+              "onek": "",
+              "sonek": ""
+            }
+          }
+        },
+        {
+          "metin": "Tüm tecrübeli siyasetçiler yanılırken, o doğru okudu.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Bir sanrıda bu hesap nasıl yapılır? Bu doğru okuma nereden gelir?",
+        "cipler": [
+          "Şans olabilir",
+          "Açıklamak zor"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "aciklamak zor",
+            "zor",
+            "imkansiz",
+            "olamaz",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli"
+          ],
+          "git": "fetanet.ahlak"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "sans",
+            "tesaduf",
+            "iyi cikti"
+          ],
+          "yanit": [
+            "Şans tek bir şey olur. Burada birkaç sonuç birden tuttu.",
+            "Mekke, İslam'ı hukuken tanımaya başladı.",
+            "Çekinen kabileler daveti dinlemeye başladı.",
+            "Barış ortamında davet büyük devletlerin hükümdarlarına ulaştı.",
+            "İki yıl sonra Mekke savaşsız teslim oldu."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir biyografi yazarı şöyle der:"
+            },
+            {
+              "metin": "Silahsız umreyle Mekkelileri de silahsızlandırdı."
+            },
+            {
+              "metin": "Savaşla elde edilemeyeni, barışla elde etti."
+            }
+          ],
+          "soru": "Bu kadar ince bir hamle, sence bir sanrının ürünü olabilir mi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bedir'de bir kamp yeri seçti. Medineli bir sahabi sordu:"
+            },
+            {
+              "metin": "'Bu vahiy mi, yoksa senin görüşün mü?' 'Benim görüşüm.'"
+            },
+            {
+              "metin": "'O zaman son kuyunun yanına kuralım.' Kabul etti."
+            },
+            {
+              "metin": "Vahiy ile kendi fikrini ayırıyordu."
+            }
+          ],
+          "soru": "Sanrının içindeki biri, kendi fikriyle vahyi böyle ayırır mı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Hendek'e bak. Batılı bir tarihçi bunu üstün bir strateji sayar."
+            },
+            {
+              "metin": "Hendek, Mekkelilerin zafer umudu olan süvariye karşıydı."
+            },
+            {
+              "metin": "Mekke, bundan sonra bir daha hücum savaşı yapacak gücü bulamadı."
+            }
+          ],
+          "soru": "Hendek gibi bir fikri sanrı mı üretir, akıl mı?"
+        }
+      ],
+      "kompozisyon": "Hudeybiye'deki bu tutumu ve sonucunu kendi cümlelerinle nasıl açıklarsın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.ahlak",
+      "dayanak": "Kitap s. 292-300 (F6). Altı sonuç (s. 297-298); Caetani (Hudeybiye'de 1400 kişi, iki yıl sonra Mekke'ye 10.000 kişi, s. 300); Dermenghem ('Evet, bu bir fetihti', s. 297); Hazleton (silahsız umre; Clausewitz'den önce, s. 299-300); Bedir mevzi sahnesi: Dozy (s. 298-299); Hendek: Watt (s. 290-291). Fetih suresi 48/1 ve ilgili ayet ekranda doğrudan anılmadı. Fetanet + mucize çifte delil (s. 300)."
+    },
+    {
+      "id": "fetanet.ahlak",
+      "gizliDugum": "F10",
+      "satirlar": [
+        {
+          "metin": "Bir de ahlaka bakalım. Önce başladığı yere."
+        },
+        {
+          "metin": "Kız çocuklarını diri diri gömmek, yaygın bir gelenekti."
+        },
+        {
+          "metin": "Kasıtlı ve kasıtsız öldürme arasındaki fark bile pek yoktu."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "İslam öncesi",
+                "maddeler": [
+                  "Düşmanın hakkı yok",
+                  "Güç ve servet ahlakı",
+                  "Hukuk: güçlünün intikamı"
+                ]
+              },
+              "sag": {
+                "baslik": "Fetihlerde",
+                "maddeler": [
+                  "Kiliselere el sürülmez",
+                  "Komutan sade yaşar",
+                  "Sözün hakkı verilir"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "metin": "Halife Ömer Kudüs'te, patriğin teklif ettiği kilisede namaz kılmadı."
+        },
+        {
+          "metin": "Sebebi: sonra Müslümanlar burayı mescide çevirir diye."
+        }
+      ],
+      "soru": {
+        "metin": "Kız çocuğunu gömen bir toplumdan, düşmanın kilisesini koruyan bir ahlak çıktı. Bunu çevre mi açıklıyor, hastalık mı?",
+        "cipler": [
+          "İkisi de açıklamıyor",
+          "Çevre açıklar"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "ikisi de",
+            "aciklamiyor",
+            "hicbiri",
+            "olamaz",
+            "imkansiz",
+            "haklisin",
+            "mantikli"
+          ],
+          "git": "fetanet.tolerans"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "cevre",
+            "toplum",
+            "ganimet",
+            "ekonomi",
+            "cikar",
+            "yagma",
+            "ekonomik"
+          ],
+          "yanit": [
+            "Çevre, kızını gömen ahlaktı.",
+            "Ganimet isteyen bir ordu, lüksten kaçınmaz.",
+            "Komutanlara 'yemekte ve giyimde lüksten kaçının' diye yazıldı.",
+            "Bunu bir sonraki örnekte daha açık göreceğiz."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bizans ordusu toplanıyordu. Müslüman komutan şehirlere yazdı:"
+            },
+            {
+              "metin": "'Aldığımız cizyeyi iade edin. Sizi şimdi koruyamıyoruz. Galip gelirsek koruyacağız.'"
+            },
+            {
+              "metin": "Hristiyanlar dua etti: 'Allah sizi Romalılar üzerine muzaffer kılsın.'"
+            }
+          ],
+          "soru": "Çıkarına bakan bir ordu parayı böyle geri verir mi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Sasani'nin üst düzey bir komutanı, Medine'ye taçla geldi."
+            },
+            {
+              "metin": "Halife Ömer'i mescitte yatarken buldu."
+            },
+            {
+              "metin": "'Arapların kralı bu mu? Muhafızsız mı uyuyor?' diye şaşırdı."
+            }
+          ],
+          "soru": "Böyle bir sadelik, nasıl bir zihinden ve nasıl bir eğitimden çıkar?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Düşmanın gözünden Müslümanlara bakalım."
+            },
+            {
+              "metin": "Her biri ölümü hayata, alçakgönüllülüğü şaşaaya tercih ediyor."
+            },
+            {
+              "metin": "Başkanlarını herhangi birinden ayıramazsın. Namaz vakti herkes abdest alır."
+            }
+          ],
+          "soru": "Bu davranış kendiliğinden mi geliyor, yoksa bir eğitimin ürünü mü?"
+        }
+      ],
+      "kompozisyon": "Bu ahlak değişimini kendi cümlelerinle nasıl açıklarsın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.tolerans",
+      "dayanak": "Kitap s. 312-324 (F9, F10). Rodinson (kız çocuğu öldürme yaygın gelenek, Allah yasakladı, s. 313), Margoliouth (kasıtlı-kasıtsız ayrımı, s. 318), Dermenghem (Ömer ve patrik, kilisede namaz, s. 333), Arnold (cizye iadesi; Hristiyanların duası, s. 339), Dionysios/Duygu (aynı olay, s. 339-340), Irving (Hürmüzan sahnesi, s. 308-309; komutanlara mektup, s. 307-308), Hitti (düşmanın gözünden Müslümanlar, Cyrus'un elçileri, s. 310-311). 'Sasani'nin üst düzey bir komutanı': Hürmüzan (satrap). Kız çocuğu kürtaj istatistikleri bilinçli olarak kullanılmadı. 'Sözün hakkı verilir': cizye iadesi ve zimmî sözleşmeleri. Armstrong'un kız çocuğu cümlesi OCR sorunlu (kullanılmadı)."
+    },
+    {
+      "id": "fetanet.tolerans",
+      "gizliDugum": "F12",
+      "satirlar": [
+        {
+          "metin": "Bir konu daha: başka dinlere davranış."
+        },
+        {
+          "metin": "Bunu en iyi, fethedilenlerin kendi yazdıklarından okuruz."
+        },
+        {
+          "metin": "Süryani bir Hristiyan yazar, Tanrı'nın onları Romalıların elinden Araplarla kurtardığını yazar."
+        },
+        {
+          "metin": "Bir Nasturi patriği, Müslümanlaşan bir şehre sitem eder: Araplar dinimize, rahiplerimize saygı gösteriyor."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "alinti",
+            "veri": {
+              "metin": "Daha tesirli başka saikler aramak mecburiyetindeyiz.",
+              "kim": "Batılı bir tarihçi, kılıçla din değiştirme iddiası için"
+            }
+          }
+        },
+        {
+          "metin": "Kiliseler bugüne kadar ayakta kaldı. Bu da bir işaret."
+        }
+      ],
+      "soru": {
+        "metin": "Bu hoşgörü çevreden mi geldi, hastalıktan mı, yoksa başka bir kaynaktan mı?",
+        "cipler": [
+          "Başka bir kaynaktan",
+          "Çevreden geldi"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "baska",
+            "kaynak",
+            "ogreti",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli",
+            "ikisi de"
+          ],
+          "git": "fetanet.birey"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "cevre",
+            "cevreden",
+            "siyasi",
+            "cizye",
+            "vergi",
+            "kilic",
+            "zorla"
+          ],
+          "yanit": [
+            "Vergi için dinini değiştiren insan sayısı, ağır baskı altında bile az olmuştur.",
+            "Monofizit Hristiyanlar yüzyıllarca Bizans baskısına direndi.",
+            "Vergi gelirleri de zamanla düştü: önce ödediler, sonra yavaş yavaş kendi istekleriyle Müslüman oldular."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Batılı bir tarihçi yazar: Müslümanlar Filistin'i alırken Yahudileri rahat bıraktı."
+            },
+            {
+              "metin": "Remle kurulur kurulmaz Yahudiler yerleşti, sinagog yaptı."
+            },
+            {
+              "metin": "Meslek kısıtlaması yoktu. Yalnız orduya alınmazlardı."
+            }
+          ],
+          "soru": "Bu davranış, onların çevresinden mi öğrendiği bir şey?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Emesa halkı Herakleios'un ordusuna kapıları kapattı."
+            },
+            {
+              "metin": "'Sizin yönetiminizi, Rumların adaletsizliğine tercih ederiz,' dediler."
+            },
+            {
+              "metin": "Bunu söyleyenler Hristiyandı."
+            }
+          ],
+          "soru": "Kendi dindaşlarının orduları yerine fatihleri seçenler hakkında ne düşünürsün?"
+        }
+      ],
+      "kompozisyon": "Bu hoşgörünün kaynağı sence ne? Kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.birey",
+      "dayanak": "Kitap s. 330-344 (F12). Süryani Michael Rabo (Lewis ve Hitti aracılığıyla, s. 322), Nasturi Patriği III. İshoyahb mektubu (Arnold, s. 335-336), Arnold: 'daha tesirli başka saikler aramak mecburiyetindeyiz' (s. 342), cizye ve Monofizit direnci (s. 336-337), Bauer (Yahudiler, Remle, s. 338), Arnold (Emesa, s. 342). Vergi gelirlerinin düşmesi kitabın argümanı (s. 337); kitaptaki ifade kapalı, sunumdan önce basılı teyit önerilir. Haçlı Kudüs kıyası bilinçli olarak kullanılmadı."
+    },
+    {
+      "id": "fetanet.birey",
+      "gizliDugum": "F20",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Toplum açıklamıyor. Peki birey açıklıyor mu?"
+        },
+        {
+          "metin": "Başarının son parçası: kişinin kendi şartları."
+        },
+        {
+          "metin": "Bir insan, içinde yetiştiği toplumun ufku kadar görür."
+        },
+        {
+          "metin": "Toplumdan çıkmıyorsa, kendi eğitiminden çıkıyor olmalı."
+        },
+        {
+          "metin": "Eğitimine bakalım: yetiştiği ortama, yazıya, hocalara.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "fetanet.yetisme",
+      "dayanak": "Kitap s. 373 (2.1): bireyin donanımı yaklaşık toplumun ilmî-kültürel birikimi kadardır (balığın etrafındaki deniz benzetmesi). Geçiş beat'i."
+    },
+    {
+      "id": "fetanet.yetisme",
+      "gizliDugum": "F20",
+      "satirlar": [
+        {
+          "metin": "Babası o doğmadan ölmüştü. Mirası beş deve, birkaç koyun, bir köleydi."
+        },
+        {
+          "metin": "Altı yaşında annesini de kaybetti."
+        },
+        {
+          "metin": "Dedesi, sonra amcası baktı. Bir yetime yapılabilecek, çoğu zaman açlıktan korumaktı."
+        },
+        {
+          "metin": "Batılı bir yazar onu Mekke'de ücret ve komisyonla çalışan biri olarak anlatır."
+        },
+        {
+          "metin": "Sosyetede yeri yoktu."
+        },
+        {
+          "metin": "Kendini öne çıkarmaya hevesli biri de değildi. Batılı bir din tarihçisi bunu özellikle belirtir."
+        }
+      ],
+      "soru": {
+        "metin": "Bu ortamda, özel bir eğitim alacak bir imkân görüyor musun?",
+        "cipler": [
+          "Görmüyorum",
+          "Yine de bir şekilde öğrenmiştir"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "gormuyorum",
+            "yok",
+            "aciklanamiyor",
+            "haklisin",
+            "mantikli",
+            "tamam"
+          ],
+          "git": "fetanet.ummi"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hirsli",
+            "hirs",
+            "one cikmak",
+            "one cikmis"
+          ],
+          "yanit": [
+            "Hırslı biriyse, kendini öne çıkarmaya çalışırdı.",
+            "Batılı din tarihçisi tam tersini yazar.",
+            "Kendi sözü de şuydu: 'Ben kral değilim. Güneşte kurutulmuş et yiyen bir kadının oğluyum.'"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Mekkeli müşrikler Kur'an hakkında şöyle dedi:"
+            },
+            {
+              "metin": "'Bu Kur'an, şu iki şehrin büyük bir adamına indirilseydi!'"
+            },
+            {
+              "metin": "Yani düşmanları bile onu büyük bir adam saymıyordu."
+            }
+          ],
+          "soru": "Düşmanı bile büyük saymıyorsa, kim onu eğitmiş olabilir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an ona şunu hatırlatır:"
+            },
+            {
+              "metin": "'Seni yetim bulup barındırmadı mı? Yol bilmezken yöneltmedi mi? Yoksulken zengin etmedi mi?'"
+            },
+            {
+              "metin": "Bu sözler, onu yakından tanıyanların önünde okundu."
+            }
+          ],
+          "soru": "Yanlış olsaydı, bu sözler sence yalanlanmaz mıydı?"
+        }
+      ],
+      "kompozisyon": "Bu koşullarda bu kadar şeyi nasıl başardığını kendi cümlelerinle anlatır mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.ummi",
+      "dayanak": "Kitap s. 374-377 (F20). Dozy (baba mirası beş deve, birkaç koyun, bir köle), Watt (dedesi, amcası, annenin altı yaşında ölümü), Hazleton (babasız doğmak mirastan mahrumiyet), Bodley (ücret ve komisyonla çalışan müstahdem; kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'), Armstrong (kendini ortaya atmaya hevesli biri değildi, s. 377). Zuhruf 43/31 ve Duhâ 93/6-8 (ikincil delil mantığı). Hadis: İbn Mace Et'ime 30; Hâkim III, 50/4366. 'Babası doğmadan ölmüştü' ifadesi kitabın bağlamı (Hazleton: babasız doğmak)."
+    },
+    {
+      "id": "fetanet.ummi",
+      "gizliDugum": "F21",
+      "satirlar": [
+        {
+          "metin": "Peki okuma yazma? 'Ümmi' kelimesi tam bunu anlatır."
+        },
+        {
+          "metin": "'Ümm', anne demek. Anadan doğduğu gibi: eğitim almamış."
+        },
+        {
+          "metin": "Batılı bir din tarihçisi: okur-yazar olduğuna dair bir kayıt yok."
+        },
+        {
+          "metin": "Mektuplarını bile başkasına yazdırırdı."
+        },
+        {
+          "metin": "Bilip gizlemiş olsaydı, buna 'el-Emin' demezlerdi."
+        },
+        {
+          "metin": "Sözlü eğitim de gizlenemez. Öğrenen kişi hocasını arar, sohbetine devam eder."
+        },
+        {
+          "metin": "O dönemin ilim sahipleri, sonradan onun düşmanı olacaklardı.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Senin iddian: kendi kendine yanıldı. Veri: toplum, eğitim, hiçbiri açıklamıyor; başarı ise ortada. Bu mantıken nasıl bir araya gelir?",
+        "cipler": [
+          "Açıklanamıyor",
+          "Biri ona öğretmiş olabilir"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "aciklanamiyor",
+            "imkansiz",
+            "olamaz",
+            "haklisin",
+            "mantikli",
+            "tamam",
+            "ikna oldum"
+          ],
+          "git": "fetanet.kapanis"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "ogretmis",
+            "ogretti",
+            "ogrenmis",
+            "biri",
+            "bahira",
+            "rahip",
+            "yahudi",
+            "hristiyan"
+          ],
+          "git": "fetanet.ogrenme"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "tuccar",
+            "hesap",
+            "yazi bilirdi",
+            "yazi hesap"
+          ],
+          "yanit": [
+            "Tüccar olmak, okur-yazar olmayı göstermez.",
+            "Bazı Batılılar bunu ileri sürdü, ama bir kayıt gösteremedi.",
+            "Mektuplarını Ali gibi birine yazdırırdı."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Ümmi olduğu halde, bugün bile dünya nüfusunun önemli bir kısmınca ilmin toplandığı bir kitabı getiren kişi sayılır."
+            },
+            {
+              "metin": "Bunu bir Lübnan asıllı tarihçi de not eder."
+            }
+          ],
+          "soru": "Eğitimsiz biri bu kadar büyük bir bilgi sistemini nasıl kurar?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Kur'an der: 'Bundan önce kitap okumuyor, sağ elinle yazmıyordun.'"
+            },
+            {
+              "metin": "Açık çatışma ortamında okundu. Öyle olsaydı, şüphe edenler bunu hemen yüzüne vururdu."
+            },
+            {
+              "metin": "İtiraz eden olmadı."
+            }
+          ],
+          "soru": "Böyle bir söze itiraz edilmemesi, sence neyi gösterir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir şey daha: 'Kitap nedir, iman nedir bilmiyordun.'"
+            },
+            {
+              "metin": "'Bu kitabın sana vahyolunacağını ummazdın.'"
+            },
+            {
+              "metin": "Bu sözler, onu yakından tanıyan düşmanların önünde okundu."
+            }
+          ],
+          "soru": "Bunca tanık varken, bu sözlerin yalanlanmaması neyi gösterir?"
+        }
+      ],
+      "kompozisyon": "Eğitim yolları kapandığına göre, geriye ne kalıyor? Kendi cümlelerinle yazar mısın?",
+      "kopru": [
+        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.kapanis",
+      "dayanak": "Kitap s. 377-381 (F21, F22). Ümmi: 'ümm' = anne; Armstrong (kayıt yok; mektubu Ali'ye yazdırması; gizlemesi el-Emin'e yakışmaz, s. 378), Hitti (s. 379; Hitti kimliği kitapta belirtilmiyor, 'Lübnan asıllı tarihçi' kitabın kimlik tablosundaki ifade †teyit), Ankebût 29/48, Şûrâ 42/52, Kasas 28/86; Kadı Abdülcebbar (s. 380-381; Kadı'nın görüşü ≠ yazarın görüşü). Vefata yakın yazı öğrendi mi tartışması ekranda yok (başlangıç birikimi esas). 'Biri ona öğretmiş olabilir' yolu fetanet.ogrenme hub'ına gider; oradan devam beat'i ile geri döner."
+    },
+    {
+      "id": "fetanet.kapanis",
+      "gizliDugum": "F27",
+      "sahne": {
+        "arkaplan": "isik",
+        "diyagram": {
+          "tur": "ihtimaller",
+          "veri": {
+            "vurgu": "bilmeyerek",
+            "kapali": []
+          }
+        }
+      },
+      "satirlar": [
+        {
+          "metin": "Toparlayalım. Senin iddian: hâşâ samimiydi, ama yanılıyordu."
+        },
+        {
+          "metin": "Yanılıyorsa, bu en ağır tablolardan biri: 23 yıl, her ortamda."
+        },
+        {
+          "metin": "Oysa toplum ona ufuk vermiyor. Eğitim ona ufuk vermiyor."
+        },
+        {
+          "metin": "Batılı kaynaklar bile: sara tutmuyor, histeri düştü, başarı hastalıkla açıklanamıyor."
+        },
+        {
+          "metin": "Plan, hukuk, ahlak, devlet: bunlar sanrının değil, berrak bir aklın işi."
+        },
+        {
+          "metin": "Benzerini başaran bir insan gösterebilir misin?",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Bu verilerle 'samimiydi ama yanılıyordu' iddiası mantıken ayakta durabiliyor mu?",
+        "cipler": [
+          "Durmuyor",
+          "Yine de ikna olmadım"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "durmuyor",
+            "ayakta kalmiyor",
+            "ikna oldum",
+            "haklisin",
+            "mantikli",
+            "evet",
+            "tamam",
+            "kapandi",
+            "aciklanamiyor"
+          ],
+          "git": "haber.kalan"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "sara",
+            "epilepsi",
+            "halusinasyon",
+            "hastaydi",
+            "hasta"
+          ],
+          "yanit": [
+            "Sarayı konuştuk: Batılı yazarlar belirtilerin uyuşmadığını ve zihnin son ana kadar berrak olduğunu yazar.",
+            "Hastalıkla başarı arasında kurulan bağ, bir açıklama değil, bir ön kabul.",
+            "Hastalık bunu açıklıyorsa, hangi hastalık bunu başka birine yaptırmış?"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "cengiz",
+            "iskender",
+            "napolyon",
+            "dahi",
+            "deha"
+          ],
+          "yanit": [
+            "Onların başarısı toplum, miras ve eğitimle açıklanır.",
+            "Burada toplum ufuk vermiyor, eğitim ufuk vermiyor.",
+            "Formülde ikisini de çıkarınca, geriye kimse kalmıyor."
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Tarihin en etkili yüz kişisini sıralayan Batılı bir yazar, Hz. Muhammed'i birinci sıraya koyar."
+            },
+            {
+              "metin": "Gerekçesi: hem dinî hem din dışı alanlarda üstün başarı gösteren tek kişi."
+            },
+            {
+              "metin": "Üstelik dünyanın geri kalmış bir köşesinde, mütevazı koşullarda doğdu."
+            }
+          ],
+          "soru": "Bu ölçüt, başarıyı bir hastalığa mı bağlar, yoksa başarıyı başarı olarak mı görür?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir başka Batılı tarihçi şunu yazar:"
+            },
+            {
+              "metin": "Dünya tarihinde neredeyse benzeri olmayan bu olaylar zinciri, çağdaşlarında bizden daha büyük bir hayret doğurmalıydı."
+            }
+          ],
+          "soru": "Bu olaylar zincirini bir sanrıyla açıklamak, sence hayreti mi yatıştırıyor, yoksa görmezden mi geliyor?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir soru bırakayım. Bu başarıyı beşer takatiyle açıklayan biri, benzerini başaran başka bir beşeri göstermeli."
+            },
+            {
+              "metin": "Gösteremezse, bu iş onun takatiyle açıklanamaz."
+            }
+          ],
+          "soru": "Böyle bir örnek aklına geliyor mu?"
+        }
+      ],
+      "kompozisyon": "Tüm bu verileri bir araya getirdiğinde 'samimi ama yanılıyordu' iddiasını nasıl savunursun? Kendi cümlelerinle yazar mısın?",
+      "kopru": [
+        "Bunu not ettim. Ama sorumuz şuydu:"
+      ],
+      "kapat": "fetanet",
+      "sonraki": "haber.kalan",
+      "dayanak": "Kitap s. 404-407 (F26, F27 nihai yargı). Hart (Dünyaya Yön Veren En Etkin 100; hem dinî hem din dışı üstün başarı; mütevazı köken, s. 25; kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'), Caetani (dünya tarihinde neredeyse benzeri olmayan vakalar silsilesi, s. 406), Watt/Dermenghem. Nihai yargı: toplumla, bireyin koşullarıyla ve hastalıkla açıklanamaz; 'benzerini başaran bir beşeri göstermelidir' (s. 407). Bu beat'te 'ikna' → fetanet kapanır, haber.kalan'a gider."
+    }
+  ]
+}
