@@ -1,0 +1,21 @@
+{
+  "id": "Z1", "baslik": "Konuşmanın Zemini (örnek)", "dal": "zemin", "sayfa": "9-12",
+  "onkosul": [], "sonraki": "H1", "profil": { "kritik": [], "atlanabilir": [] },
+  "sahneler": [
+    { "tip": "anlatim", "metin": "Önce bir ilke: burada yalnızca senin kabul edeceğin kaynaklarla ve yöntemlerle konuşacağız." },
+    { "tip": "kart", "baslik": "Kaynak ilkesi", "metin": "Bir bilginin değeri, kaynağının güvenilirliğiyle ölçülür. Bunu önce birlikte netleştirelim.", "kitapSayfa": "10" },
+    { "tip": "alinti", "metin": "Örnek alıntı metni (test amaçlı yer tutucu).", "kaynak": { "yazar": "Örnek Yazar", "eser": "Örnek Eser", "sayfa": "1" }, "kitapSayfa": "11" }
+  ],
+  "ozet": "Konuşmanın zemini, kabul edilebilir kaynaklar ve yöntem üzerinde anlaşmaktır.",
+  "ilzam": { "soru": "Senin iddian, kaynağa bakmadan hüküm verilebileceği idi. Oysa gündelik hayatta kaynağı bilinmeyen habere güvenmiyoruz. Bu ikisi nasıl bir arada olabilir?", "cipler": ["Haklısınız, bir arada olamaz", "Bence şöyle açıklanabilir...", "Emin değilim"] },
+  "niyetler": {
+    "ikna": { "anahtar": ["haklisin", "mantikli", "ikna oldum", "olamaz"], "yanit": "Teşekkürler; zemin üzerinde anlaştığımıza göre habere geçebiliriz." },
+    "kacamak": { "anahtar": ["bilmem", "fark etmez", "neyse"], "yanit": ["Buna sırası gelince döneceğiz; şimdilik soruya bir daha bakalım."] },
+    "konu_disi": { "yanit": ["Güzel bir soru; sırası gelince döneceğiz. Şu an kaynak ilkesini konuşuyorduk."] }
+  },
+  "itirazlar": [{ "id": "Z1-i1", "ozet": "Kaynak neden bu kadar önemli?", "anahtar": ["neden kaynak"], "yanit": "Çünkü bilginin doğruluğu aktaranın güvenilirliğine bağlıdır." }],
+  "ekOrnekler": [
+    { "baslik": "Gündelik bir örnek", "metin": "Birisi sana 'dün Ankara'daydım' dese, önce kim olduğuna ve neden söylediğine bakarsın.", "durum": "kitap", "kitapSayfa": "12", "ilzam": "Kaynağına bakmadan bu habere hüküm verir miydin? O halde zemin ilkesinde ne eksik görüyorsun?" }
+  ],
+  "kompozisyon": "Bu verilerin tamamını birlikte nasıl açıklıyorsunuz?"
+}

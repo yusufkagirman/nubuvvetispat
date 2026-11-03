@@ -1,0 +1,13 @@
+{
+  "id": "H1", "baslik": "Haber Tasnifi (örnek)", "dal": "haber", "sayfa": "127-129",
+  "onkosul": ["Z1"], "sonraki": "H16",
+  "sahneler": [
+    { "tip": "anlatim", "metin": "Hz. Muhammed bir haber getirdi: 'Allah benimle Cebrail vasıtasıyla görüştü.' Bu haberin değeri, 'dün Ankara'daydım' demek gibi, doğruluk açısından değerlendirilebilir." },
+    { "tip": "gorsel", "dosya": "gorseller/olmayan-gorsel.jpg", "altyazi": "Örnek görsel (yüklenemezse yer tutucu görünür).", "kitapSayfa": "57" }
+  ],
+  "ozet": "Haber ya doğrudur ya yanlış; yanlışsa ya bilerek ya bilmeyerek.",
+  "ilzam": { "soru": "Haber ya doğru ya yanlış. Yanlışsa ya bilerek ya bilmeyerek. Bu üç ihtimalin dışında dördüncü bir ihtimal olabilir mi?", "cipler": ["Olamaz, haklısınız", "Teori kurmuş olabilir"] },
+  "niyetler": { "ikna": { "anahtar": ["olamaz", "haklisin", "mantikli"], "yanit": "O halde ihtimalleri tek tek sınayalım." } },
+  "itirazlar": [{ "id": "H1-i1", "ozet": "Haber ile teori aynı şey değil mi?", "anahtar": ["teori", "hipotez"], "yanit": "Teori de bir haberdir: 'Allah benimle konuşuyor' iddiası bir olgu bildirir; ya olgudur ya değildir.", "kaynak": { "kitapSayfa": "133" } }],
+  "ekOrnekler": []
+}

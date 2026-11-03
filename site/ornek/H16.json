@@ -1,0 +1,16 @@
+{
+  "id": "H16", "baslik": "Hangi İhtimal? (yönlendirme, örnek)", "dal": "haber", "sayfa": "190",
+  "onkosul": ["H1"], "sonraki": null,
+  "sahneler": [{ "tip": "anlatim", "metin": "Orta yol yok: ya doğru söylüyor, ya yanlış. Yanlışsa bilerek mi bilmeyerek mi? Sizce hangisi?" }],
+  "ozet": "Üç ihtimal kaldı; sizin düşündüğünüz dalı birlikte inceleyelim.",
+  "ilzam": { "soru": "Sizce bu haber neden yanlış (ya da doğru) olabilir?", "cipler": ["Yalan söylüyor, çıkar için", "Hasta, hayal görüyor", "Doğru söylüyor", "Bilmiyorum"] },
+  "niyetler": {
+    "kacamak": { "anahtar": ["bilmiyorum"], "yanit": ["Sorun değil; ihtimaller açık duruyor, birini seçmek zorunda değilsiniz. Soruya bir daha bakalım."] },
+    "yonlendir": {
+      "sahtekar": { "anahtar": ["yalan", "cikar", "kandir"], "hedef": "S1", "yanit": "Peki, bilerek yanlış söylediği ihtimalini, yani samimiyet dalını birlikte inceleyelim." },
+      "deli": { "anahtar": ["hasta", "hayal", "epilepsi", "halusinasyon"], "hedef": "F1" },
+      "dogru": { "anahtar": ["dogru soyluyor", "peygamber"], "hedef": "M1" }
+    }
+  },
+  "itirazlar": [], "ekOrnekler": []
+}

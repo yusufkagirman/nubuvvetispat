@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nübüvvet İspatı</title>
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<div class="uygulama">
+  <nav class="ust">
+    <strong class="marka">Nübüvvet İspatı</strong>
+    <details class="menu">
+      <summary>Menü</summary>
+      <div class="menu-ic">
+        <button id="m-cevaplar" type="button">Cevaplarımı değiştir</button>
+        <button id="m-aktar" type="button">Dışa aktar (JSON)</button>
+        <button id="m-sifirla" type="button">Baştan başla</button>
+      </div>
+    </details>
+  </nav>
+
+  <section id="karsilama" hidden class="ortala">
+    <h1>Peygamberliğin İspatı</h1>
+    <p class="giris">Başlamadan bir not: burada kimseyi ikna etmeye çalışmıyoruz. Elimizdeki tarihî verileri sırayla gösteriyor, sizin neye nasıl baktığınızı merak ediyoruz.</p>
+    <p class="giris">İstediğiniz yerde durabilir, atlayabilir, itiraz edebilirsiniz. Önce size birkaç kısa soru soracağız; hepsi atlanabilir.</p>
+    <button id="baslat" class="birincil buyuk" type="button">Başlayalım</button>
+  </section>
+
+  <section id="anket" hidden class="ortala">
+    <div id="anket-kap"></div>
+    <button id="anket-atla" class="baglanti" type="button">Anketi tamamen atla</button>
+  </section>
+
+  <section id="ana" hidden class="ana">
+    <aside class="yan">
+      <div id="harita-kap" class="harita"></div>
+      <details class="liste" open><summary>Düğümler</summary><div id="dugum-liste" class="dugum-liste"></div></details>
+    </aside>
+    <main class="orta">
+      <div id="akis" aria-live="polite"></div>
+      <div id="kontrol" class="kontrol"></div>
+    </main>
+  </section>
+</div>
+<script type="module">import { baslat } from './js/ui.js'; baslat();</script>
+</body>
+</html>
