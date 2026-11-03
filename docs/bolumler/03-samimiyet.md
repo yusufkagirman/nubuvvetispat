@@ -84,7 +84,7 @@ Genel iskelet:
 
 #### c) Affetme ve öç alma algısı (s. 178–185)
 - **Tez:** Cahiliyede affetmek korkaklık, kan davası "mürüvvet"; Kur'an 3/134 ve 41/34–35 tam tersini öğretir. Goldziher (Eski Mısırlılar ve Yunanlıların da böyle düşündüğü; cahiliye şiiri; Ebu Mihcen'in kinle övünmesi), Rodinson (kan davası), Arnold (kötülüğe kötülükle karşılık).
-- **Örnek 1: Amcasının katillerini affetmesi (s. 180–182).** Uhud: Kureyş kadınları şehitleri mesleder, Hint Hz. Hamza'nın ciğerini çiğner (Dermenghem, Caetani). Mekke fethinde Hint ve katili Vahşî affedilir (Hazleton, Dermenghem, Rodinson, Watt). Vahşî'ye Furkan 25/70–71, Nisa 4/116, Zümer 39/53 okunur (İslam Ansiklopedisi'nde nakil). Vahşî sonra Müseylime'yi öldürür. **Cevap:** Küçük bir affın bile korkaklık sayıldığı toplumda bu tavır siyaseten anlaşılmaz.
+- **Örnek 1: Amcasının katillerini affetmesi (s. 180–182).** Uhud: Kureyş kadınları şehitleri mesleder, Hint Hz. Hamza'nın ciğerini çiğner (Dermenghem, Caetani). Mekke fethinde Hint ve katili Vahşî affedilir (Hazleton, Dermenghem, Rodinson, Watt). Vahşî'ye Furkan 25/71, Nisa 4/116, Zümer 39/53 okunur (İslam Ansiklopedisi'nde nakil). Vahşî sonra Müseylime'yi öldürür. **Cevap:** Küçük bir affın bile korkaklık sayıldığı toplumda bu tavır siyaseten anlaşılmaz.
 - **Örnek 2: Kızı ve torununun ölümüne sebep olanları affetmesi (s. 183–184).** Zeynep'in fidye olarak Hatice'nin gerdanlığını göndermesi ve Peygamber'in duygulanması (Watt); Mekkelilerin Zeynep'e kötü muamelesi, çocuğunu düşürmesi, sonraki ölümü (Bodley); sebep olan Hebbâr b. Esved Müslüman olunca affedildi (Watt).
 - Karakter delili: 23 yıl yalan söyleyen siyasi figürden güç eline geçince böyle merhamet beklenmez. "Aktarılması güç, derin tefekkürle anlaşılır" (s. 184).
 - Sahabeye de emrediyor: İbn Abbas rivayeti, söven biri varken susan kişi adına melekler cevap verir; kişi söverek karşılık verince melekler kalkar (Edebü'l-Müfred 151). Bu konuyu "Fetanet Delilleri"nde toplumsal ilkeye dönüşmesiyle ele alacak.
@@ -166,7 +166,7 @@ Genel iskelet:
 - Watt: Hz. Muhammed kendi dışından gelen mesajı ayırt edebileceğine ikna olmuştu; samimiyet olmadan görevine devam edemezdi. Dermenghem: Vahiy ile kişisel düşüncelerini büyük dikkatle ayırdı.
 
 ### 2.6 Kıyamet suresinin ortasındaki dört ayet (s. 241–243)
-- **75/16–19:** "Vahyi çarçabuk almak için dilini kımıldatma; toplamak ve okutmak bize aittir; biz okuduğumuzda sen uy; açıklamak da bize aittir." Surenin tamamı kıyamet ve ölüm üzerine, 15. ayetten 20. ayete heyecanlı anlatı bu dört ayetle kesiliyor.
+- **75/16–19:** "Vahyi çarçabuk almak için dilini kımıldatma; toplamak ve okutmak bize aittir; biz okuduğumuzda sen uy; açıklamak da bize aittir." Surenin tamamı kıyamet ve ölüm üzerine; heyecanlı anlatı (ayet 15 ile 20 arasında) bu dört ayetle kesiliyor.
 - **Tavsiye:** Hafızların Arapça okuyup Türkçe meal akan bir videosunu açıp bölünmeyi hissedin.
 - **Cevap:** Hangi şair şiirini böyle böler? Masa başında yazılmış hangi eserde bu görülür? Peygamber gerçekten Cebrail'in böyle bir uyarısı olduğunu düşünüyordu; deli olmadığı fetanette gösterilecek.
 
@@ -210,11 +210,11 @@ Sütunlar: **Yazar | Eser | Kimlik | Alıntının özü | Sayfa** (kitap sayfas�
 
 | Yazar | Eser | Kimlik | Alıntının özü | Sayfa |
 |---|---|---|---|---|
-| T. W. Arnold | İslam'ın Tebliğ Tarihi (s. 69, 70, 534, 32) | Oryantalist (İngiliz, Hristiyan) | İlk Araplar tebliği alayla karşıladı; içki/kadın/müzik cahiliyede vazgeçilmezdi, Peygamber bunlarda tavizsizdi. Din kolay değil (Carlyle'den). Kötülüğe kötülükle karşılık verme zihniyeti ters çevrildi; eşitlik, kabile gururuna ters; Ebu Talib–güneş-ay anlatısı | 160, 161, 169, 180, 192, 207 (Afrika/Asya yayılması), 217 (dn.) |
-| Reinhart Dozy | İslam Tarihi (s. 132, 144, 49, 45, 55, 95, 31, 33) | Oryantalist (Hollandalı) | Araplar içkiye düşkün; Müseylime Temim'e namaz tavizi; Ebu Leheb korumayı Abdülmuttalib sözünden kaldırdı; Ebu Talib–güneş-ay anlatısı; aile bağları dinden güçlü; yoksulları unutmadı; ilk ayetlerde peygamberlik belirtisi yok; "kötü bir yalancı dünya dini kuramaz" | 160, 168, 197, 212, 217 (dn.), 230, 245, 260 |
+| T. W. Arnold | İslam'ın Tebliğ Tarihi (s. 69, 70, 534, 32) | Oryantalist (İngiliz, Hristiyan) | İlk Araplar tebliği alayla karşıladı; içki/kadın/müzik cahiliyede vazgeçilmezdi, Peygamber bunlarda tavizsizdi. Din kolay değil (Carlyle'den). Kötülüğe kötülükle karşılık verme zihniyeti ters çevrildi; eşitlik, kabile gururuna ters; "güneşi sağ elime, ayı sol elime koysalar" anlatısı | 160, 161, 169, 180, 192, 207 (Afrika/Asya yayılması), 217 (dn.) |
+| Reinhart Dozy | İslam Tarihi (s. 132, 144, 49, 45, 55, 95, 31, 33) | Oryantalist (Hollandalı) | Araplar içkiye düşkün; Müseylime Temim'e namaz tavizi; Ebu Leheb korumayı Abdülmuttalib sözünden kaldırdı; "güneşi sağ elime, ayı sol elime koysalar" anlatısı; aile bağları dinden güçlü; yoksulları unutmadı; ilk ayetlerde peygamberlik belirtisi yok; "kötü bir yalancı dünya dini kuramaz" | 160, 168, 197, 212, 217 (dn.), 230, 245, 260 |
 | Ignaz Goldziher | İslam Kültürü Araştırmaları, c. 1 (s. 41, 42, 47, 55, 57–60, 61, 69–70, 76, 81, 83, 85, 88, 110–113, 125, 375 Veda Hutbesi) | Oryantalist (Macar, Yahudi kökenli); yazar hadis eleştirisinde yanıldığını belirtir (dn. 372) | Ebu Mihcen ve Ebu'l-Hindi şiirleri; Huzeyl fuhuş talebi; şarap ve cinsellik tahdidine karşı en şiddetli muhalefet; Rebia b. Ümeyye Hristiyan oldu; namaza en çok mukavemet; Sakif muafiyet isteği; Müseylime ikindiyi kaldırdı; Karmatîler; Kur'an değerleri ters yüz etti; af, mürüvvet, öç; soy ve irsiyet; kabile parolaları; münâfere; Ehad ehad; hilf kaldırıldı; Veda Hutbesi | 160–161, 162, 164, 167, 173–174, 178–179, 186–188, 199 |
 | Philip Hitti | Siyasi ve Kültürel İslam Tarihi (s. 162, 170, 172, 122, 230, 196) | Oryantalist (Lübnanlı Hristiyan, Amerikalı) | Şarap ve kumar bir ayetle yasaklandı; Cebele'nin tokat meselesi; Ubâde b. Sâmit–Mukavkıs (Cyrus); Arap nesep ilmi; kerpiç ev ve zühd; vahiy anlatısı | 161, 199, 203, 207, 228 (dn.), 248 |
-| Emile Dermenghem | Hz. Muhammed ve Risâleti (s. 239, 305, 265, 266, 303, 291, 328, 178, 161, 383, 385, 87, 103, 102–103, 107, 159, 194–196, 334–335, 264) | Oryantalist (Fransız), Müslüman değil; İslam'ı Hristiyanlıktan alıntı sayan pasajlar yazmıştır (yazar notu, s. 222) | Hurma şarabı; oruç tarzı eşsiz; Uhud şehit mesleti, Hamza; köle kısası; Ebu Zer–Bilal; "taviz düşünmedi"; güneş tutulması "yalancı sözü mü?"; mağara; Taif duası; veda konuşması ve "en yüce dost"; vahyi kişisel düşünceden ayırma; zühd ve evinde kendi işini görme; zırh rehni; Hz. Ömer ziyareti; Mus'ab; Ebu Cehil işkembe; Ebu Talib–güneş-ay; samimiyetsizlik imkânsız | 160, 161, 180–181, 200, 201, 219, 221, 223, 224–225, 236, 241, 245–246, 250, 254, 256, 264 |
+| Emile Dermenghem | Hz. Muhammed ve Risâleti (s. 239, 305, 265, 266, 303, 291, 328, 178, 161, 383, 385, 87, 103, 102–103, 107, 159, 194–196, 334–335, 264) | Oryantalist (Fransız), Müslüman değil; İslam'ı Hristiyanlıktan alıntı sayan pasajlar yazmıştır (yazar notu, s. 222) | Hurma şarabı; oruç tarzı eşsiz; Uhud şehit mesleti, Hamza; köle kısası; Ebu Zer–Bilal; "taviz düşünmedi"; güneş tutulması "yalancı sözü mü?"; mağara; Taif duası; veda konuşması ve "en yüce dost"; vahyi kişisel düşünceden ayırma; zühd ve evinde kendi işini görme; zırh rehni; Hz. Ömer ziyareti; Mus'ab; Ebu Cehil işkembe; "güneşi sağ elime…" anlatısı; samimiyetsizlik imkânsız | 160, 161, 180–181, 200, 201, 219, 221, 223, 224–225, 236, 241, 245–246, 250, 254, 256, 264 |
 | Karen Armstrong | Tanrı'nın Tarihi (s. 229, 238); İslam Peygamberinin Biyografisi (s. 68, 130, 150, 170, 194, 346) | Batılı (İngiliz, eski rahibe); Hristiyan kökenli akademik yazar | Kureyşlilerin namazdan korkusu (secde); Hz. Muhammed aile bağlarını parçaladı; çok tanrılı uzlaşma teklifini reddetti; insani figür; sade yaşam, hediyeleri dağıtma; geçim sıkıntısı (muhayyer ayeti) | 163, 192, 216, 217 (dn.), 229, 247, 249 |
 | W. Montgomery Watt | Muhammed Mekke'de (s. 122, 178, 90, 181–182); Muhammed Medine'de (s. 104, 380, 383); Hz. Muhammed Peygamber ve Devlet Adamı (s. 235, 87, 95, 97, 256, 26, 263, 265) | Oryantalist (İskoç, Anglikan rahip) | Hevazin ordusu iki kat; Zıtlık olmasa muhalefet olmazdı; ataların dini; güvenlik kaybı felaket; Mekke döneminde "yalnızca Allah'a sığınma"; İbrahim doğumu (~630); Zeynep'in gerdanlığı; Hebbâr ve Hint affı; Kur'an'ı normal bilinçten ayırdı; temelsiz iddia: şehvet için bile bile sahtekârlık; samimiyetsizlik gelişimi anlaşılmaz kılar; Carlyle'den beri reddedildi; hilekâr işi değil | 163, 174, 183–184, 198, 212, 221, 224, 226, 241, 260–261, 262–263 |
 | Meir J. Kister | İlk Dönem İslam Tarihi Üzerine Makaleler (s. 135–139) | Oryantalist (İsrailli Yahudi akademisyen) | Sakif heyeti namaz/secde muafiyeti istedi; "Namazın olmadığı dinde hayır yok"; öşür, askerlik, put, tefecilik tavizleri; Ebu Talib'in secde cevabı; Müseylime, Tuleyha secdeyi kaldırdı | 164–165, 167–168 |
@@ -228,11 +228,11 @@ Sütunlar: **Yazar | Eser | Kimlik | Alıntının özü | Sayfa** (kitap sayfas�
 | Bernard Lewis | Orta Doğu'da Irk Kavramı ve Kölelik (s. 34, 42, 43, 58, 91); Tarihte Araplar (s. 30) | Oryantalist (İngiliz-Amerikalı) | Doğuştan kölelik fikri reddedildi; İbn Hazm; Kur'an ten rengine önyargısız; Ubâde b. Sâmit; "menfaatçi sahtekâr tarafından başlatıldığına inanılamaz" | 200–201, 204–206, 261 |
 | D. S. Margoliouth | Muhammed ve İslam'ın Yükselişi (s. 90, 174, 197, 212–213, 328, 380) | Oryantalist (İngiliz) | İslam kardeşliği; Ebubekir suç ortağı değildi; zırh rehni; ipek elbise reddi; zekât almamak, açlık; Mute şehitleri; yalancı kırk yıl beklemez | 201, 224, 247, 251, 257 |
 | Ernest Renan | (Canatan, İslam Terakkiye Mâni midir?, s. 18 aracılığıyla) | Fransız oryantalist/filolog; ırkçı temayüllü (yazar notu) | Müslüman olunca ırk ve milliyet farkları kalkar (Renan için yergi) | 205 |
-| Edward Gibbon | Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (c. 5, s. 443, 471) | Batılı tarihçi (İngiliz) | Güneş-ay anlatısı; kraliyet ihtişamını hor görme, ev işini kendisi görme | 217 (dn.), 245 |
+| Edward Gibbon | Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (c. 5, s. 443, 471) | Batılı tarihçi (İngiliz) | "Güneşi sağ elime…" anlatısı; kraliyet ihtişamını hor görme, ev işini kendisi görme | 217 (dn.), 245 |
 | Marshall Hodgson | İslam'ın Serüveni (s. 217, 232) | Batılı tarihçi (Amerikalı) | Kişiliği çağrının karşılık görmesinde etkili; mütevazı hayat | 229, 245 |
 | Annemarie Schimmel | Hz. Muhammed (s. 21) | Batılı (Alman İslamolog) | Bilal'e "ezanla içimizi ferahlat" | 225 |
 | Thomas Carlyle | (Arnold ve Watt aracılığıyla; doğrudan eser belirtilmiyor) | Batılı yazar (İskoç) | Samimiyet savunusu; Batı'da ilk güçlü itiraz; "Onun dini kolay değil" | 169, 243, 262 |
-| Apaydın (Hüseyin Cahit Yalçın çevirisi Caetani'ye ait) | Siyer Kronolojisi (s. 726) | Türk Müslüman siyer araştırmacısı | 27 Ocak 632 güneş tutulması tarihi | 221 |
+| Apaydın | Siyer Kronolojisi (s. 726) | Türk Müslüman siyer araştırmacısı | 27 Ocak 632 güneş tutulması tarihi | 221 |
 
 *Not: Yazar bu bölümde Goldziher ve Caetani'yi çevirmen/üslup nedeniyle sadeleştirdiğini belirtir (s. 261, dn. 592; Hüseyin Cahit Yalçın çevirisi, s. 262).*
 
@@ -261,7 +261,7 @@ Giordano Bruno ve Kinik Diyojen (samimi ama haber nakilcisi değil, s. 159); Ari
 | 17/26–27 (İsra) | Savurganlık yasağı; cömertlik algısının değişmesi | 176 |
 | 3/134 (Âl-i İmrân) | Öfkeyi yenmek, affetmek | 179 |
 | 41/34–35 (Fussilet) | Kötülüğü iyilikle savmak | 179 |
-| 25/70–71 (Furkan), 4/116 (Nisa), 39/53 (Zümer) | Vahşî'ye tevbe ve mağfiret | 182 |
+| 25/71 (Furkan), 4/116 (Nisa), 39/53 (Zümer) | Vahşî'ye tevbe ve mağfiret | 182 |
 | 5/104 (Mâide) | "Atalarımız bize yeter": atalar kültüne itiraz | 189 |
 | 31/21 (Lokman) | Atalara uyma eleştirisi | 189–190 |
 | 7/28 (A'râf) | Ataların kötülüğünün Allah'a isnadı | 190 |
@@ -319,7 +319,7 @@ Giordano Bruno ve Kinik Diyojen (samimi ama haber nakilcisi değil, s. 159); Ari
 | Tirmizi 2471; Buhari 'Taam' 5442, 5374; Müslim 'Zühd' 2976 (Aişe) | Evde ateş yanmaz, hurma ve su, buğday ekmeği yenmez | 249 |
 | Müslim 'Eşribe' 140 | Peygamber, Ebubekir ve Ömer açlıktan evden çıkar | 253 |
 | Hz. Ali rivayeti (Kadı Abdülcebbar s. 1030) | Fatıma'nın el değirmeni ve hizmetçi isteği | 251–252 |
-| Buhari (Mekke fetih/vefat anlatıları, dn. 574 civarı); Rodinson ss. 329–350 | Ebu Cehil'in ensesine işkembe koyması (Dermenghem); vefat sonrası Ömer/Ebubekir kıssası | 255–256 |
+| Buhari (dn. 574; ayrıca Rodinson ss. 329–350) | Peygamber'in vefatında Ömer'in inkârı ve Ebubekir'in 3/144'ü okuması | 255–256 |
 
 ---
 
