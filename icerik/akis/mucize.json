@@ -1,0 +1,1027 @@
+{
+  "bolge": "mucize",
+  "giris": "mucize.giris",
+  "beats": [
+    {
+      "id": "mucize.giris",
+      "gizliDugum": "M0",
+      "dallan": [
+        { "kosul": { "profil.iddia": "dogru" }, "git": "mucize.giris-dogru" },
+        { "kosul": { "profil.supheTuru": "mucize-yok" }, "git": "mucize.giris-yok" },
+        { "kosul": { "kapali": ["samimiyet", "fetanet"] }, "git": "mucize.giris-kapali" }
+      ],
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Buraya kadar geldin." },
+        { "metin": "Şimdi yolun başka bir kapısına bakacağız." },
+        { "metin": "Bu kapı, haberin doğruluğuna doğrudan bakar.", "vurgu": true }
+      ],
+      "sonraki": "mucize.tanim",
+      "dayanak": "Mucize bölümünün genel çerçevesi: negatif ispattan sonra pozitif ispat (kitap s. 409). Varsayılan giriş; profil bilgisi yoksa buraya düşer."
+    },
+    {
+      "id": "mucize.giris-kapali",
+      "gizliDugum": "M0",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Yanlış ihtimallerden bir kısmını sen kapattın." },
+        { "metin": "Geriye kalan yol artık daha ağır basıyor." },
+        { "metin": "Peki ya haberin kendisine doğrudan bakan bir delil olsa?", "vurgu": true },
+        { "metin": "Buna mucize diyoruz. Önce ne demek istediğimizi netleştirelim." }
+      ],
+      "sonraki": "mucize.tanim",
+      "dayanak": "dallan: kapali içinde samimiyet/fetanet'ten biri varsa buraya gelir. Mucize, iman için şart değil, ek bir pencere (kitap s. 409)."
+    },
+    {
+      "id": "mucize.giris-dogru",
+      "gizliDugum": "M0",
+      "sahne": { "arkaplan": "safak" },
+      "satirlar": [
+        { "metin": "“Doğru olabilir” dedin." },
+        { "metin": "Bu, dürüst ve cesur bir cümle." },
+        { "metin": "Şimdi bu ihtimali doğrudan destekleyen delillere bakalım.", "vurgu": true },
+        { "metin": "Dayatma yok. Ben gösteririm, tartmak sana ait." }
+      ],
+      "sonraki": "mucize.tanim",
+      "dayanak": "dallan: profil.iddia = dogru. Pozitif ayak: mucize delilleri (kitap s. 409–411, 509–510)."
+    },
+    {
+      "id": "mucize.giris-yok",
+      "gizliDugum": "M0",
+      "sahne": { "arkaplan": "col" },
+      "satirlar": [
+        { "metin": "“Mucize yok” dedin." },
+        { "metin": "Bu makul bir temkin. Delilsiz kabul etmeni kimse istemez." },
+        { "metin": "O yüzden önce mucizenin ne demek olduğunu konuşalım.", "vurgu": true },
+        { "metin": "İstersen sonra mucize kelimesini bırakıp yalnızca veriye bakarız." }
+      ],
+      "sonraki": "mucize.tanim",
+      "dayanak": "dallan: profil.supheTuru = mucize-yok. Ayrıntı: M9–M10 (kitap s. 477–482)."
+    },
+    {
+      "id": "mucize.tanim",
+      "gizliDugum": "M1",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Mucize, sadece “olağanüstü bir olay” demek değil." },
+        { "metin": "İki parçası var." },
+        { "metin": "Biri: getirenin kendi şartlarını aşan bir iş." },
+        { "metin": "Diğeri: iddiasıyla birlikte gelen bir meydan okuma." },
+        { "metin": "", "diyagram": { "tur": "denklem", "veri": { "parcalar": ["Kendi şartlarını aşan iş", "+", "İddiayla gelen meydan okuma", "=", "Mucize"] } } }
+      ],
+      "soru": {
+        "metin": "Biri “yapın bakalım” diye meydan okusa ve kimse yapamasa, bu iddia hakkında ne düşünürdün?",
+        "cipler": ["Dikkate değer bulurdum", "Yine de şüphem olurdu"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["dikkate değer", "ciddiye", "düşündürür", "anlamlı"], "git": "mucize.teshis" },
+        { "tur": "yonlendir", "anahtar": ["inanmıyorum", "mucize yok", "olağanüstü olay olmaz", "doğaüstü"], "git": "mucize.haber-felsefesi", "profil": { "supheTuru": "mucize-yok" } },
+        { "tur": "itiraz", "anahtar": ["şüphe", "kuşku", "emin değilim"], "yanit": ["Şüphe duymak hakkın. Zaten bu yüzden delili önüne koyacağım.", "Meydan okuma ancak cevapsız kalırsa bir şey söyler. Cevabı birlikte arayacağız."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Başka bir örnek: bir basketbolcu “üç atışın üçü de girer” diyor." },
+            { "metin": "“Yap bakalım” diyorsun. O da “zemin şöyle, pota böyle” diyor." }
+          ],
+          "soru": "Bu tartışmada “yapmamak” ile “yapamamak” arasında bir fark kalır mı?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir meydan okuma bin dört yüz yıldır ortada duruyor olsun." },
+            { "metin": "Kimse karşılık vermiyor." }
+          ],
+          "soru": "Bu sessizlik sana bir şey söylüyor mu, yoksa sıradan mı?"
+        }
+      ],
+      "kompozisyon": "Peki bir iddia, meydan okuma ve cevapsızlık birlikte gelirse, bunu nasıl yorumlarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.teshis",
+      "dayanak": "Mucizenin tanımı: kitap s. 409–411 ve s. 423–424 (basketbol benzetmesi: yapmamak = yapamamak). Bu beat tanımı yerleştirir; delil sonraki beat'lerde."
+    },
+    {
+      "id": "mucize.teshis",
+      "gizliDugum": "M1",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Mucizenin birkaç penceresi var." },
+        { "metin": "Hepsine birden bakmak zorunda değilsin." },
+        { "metin": "Önce sen seç.", "vurgu": true }
+      ],
+      "soru": {
+        "metin": "Seni en çok ne ilgilendirir?",
+        "cipler": ["Dil ve edebiyat", "Geleceğe dair haberler", "Eski kıssalar ve tarih", "Mucizelere inanmıyorum"],
+        "serbest": true
+      },
+      "yollar": [
+        { "tur": "yonlendir", "anahtar": ["dil", "edebiyat", "şiir", "belagat", "güzel söz", "üslup", "meydan okuma"], "git": "mucize.belagat-giris" },
+        { "tur": "yonlendir", "anahtar": ["gelecek", "geleceğe", "gayb", "haber", "tahmin", "kehanet", "savaş", "rum", "bizans", "öngörü"], "git": "mucize.rum-giris" },
+        { "tur": "yonlendir", "anahtar": ["tarih", "kıssa", "kıssalar", "tevrat", "incil", "kopya", "kopyaladı", "eski hikâyeler"], "git": "mucize.kissa-giris" },
+        { "tur": "yonlendir", "anahtar": ["inanmıyorum", "mucize yok", "mucizelere", "olağanüstü", "doğaüstü", "büyü"], "git": "mucize.haber-felsefesi", "profil": { "supheTuru": "mucize-yok" } }
+      ],
+      "varsayilan": "mucize.rum-giris",
+      "dayanak": "Kitap yalnızca üç eksen seçer: belagat, gayb, hissî mucizeler (s. 410). Teşhis: M1, M2, M4–M7, M9. Varsayılan: en sinematik delil, Rum Suresi (R1–R7)."
+    },
+    {
+      "id": "mucize.rum-giris",
+      "gizliDugum": "R1",
+      "sahne": { "arkaplan": "col" },
+      "satirlar": [
+        { "metin": "Şimdi sana bir an anlatacağım." },
+        { "metin": "Yıl 614. Persler Kudüs'ü aldı." },
+        { "metin": "İki büyük devlet vardı: Bizans ve Pers. Biri yıkılıyordu." },
+        { "metin": "Persler Suriye'yi, Mısır'ı, Anadolu'nun büyük kısmını almıştı." },
+        { "metin": "Karargâhları İstanbul'un karşı yakasında, Üsküdar'a kuruldu." },
+        { "metin": "", "diyagram": { "tur": "zaman", "veri": { "noktalar": [
+          { "yil": "603", "etiket": "Bizans–Pers savaşı başlar" },
+          { "yil": "610", "etiket": "Herakleios tahta çıkar" },
+          { "yil": "612", "etiket": "Persler Antakya'da" },
+          { "yil": "614", "etiket": "Persler Kudüs'ü alır" },
+          { "yil": "616", "etiket": "Mısır, yani tahıl ambarı gider" },
+          { "yil": "617", "etiket": "Avar ve Slavlar Trakya'ya girer" },
+          { "yil": "619", "etiket": "Herakleios kaçmaya hazırlanır" }
+        ] } } },
+        { "metin": "Hazine boş. Ordu dağınık. Kralın kendisi umutsuz.", "vurgu": true },
+        { "metin": "Herkesin gözünde bu devlet bitmek üzereydi." }
+      ],
+      "sonraki": "mucize.rum-ayet",
+      "dayanak": "R1/R3: kitap s. 490–496. Kaynaklar (ekranda yok): Lemerle (612 Antakya, 614 Kudüs; kitapta 614 ya da 615 — ekranda 614 kullanıldı), Oman (616 Mısır), Bailly (617 Avar/Slav; 619 kaçma girişimi), Stathakopoulos, Vasiliev (Üsküdar/Kadıköy karargâhı), Bauer (barış/haraç teklifi). Kudüs tarihi 614/615 belirsizliği docs/dogrulanacaklar.md A bölümünde."
+    },
+    {
+      "id": "mucize.rum-ayet",
+      "gizliDugum": "R2",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Tam bu yıllarda, Mekke'de küçük bir topluluk eziliyordu." },
+        { "metin": "Hz. Muhammed şu ayetleri okudu:" },
+        { "metin": "“Rumlar yenildi. Yakın bir yerde. Ama yenilgilerinden sonra galip gelecekler.”", "vurgu": true },
+        { "metin": "“Birkaç yıl içinde.” Ayetteki kelime: bid'. Yani üç ile on arası." },
+        { "metin": "Müşrikler güldü: “Bize benzeyen Mecusiler, size benzeyen Hristiyanları yendi.”" },
+        { "metin": "Ebubekir bahse girdi: üç yıl, on deve. Sonra süre on yıla, deve yüze çıktı." },
+        { "metin": "Metne bakılırsa ayet 614 ile 618 arasında, Mekke'de indi." },
+        { "metin": "", "diyagram": { "tur": "zaman", "veri": { "noktalar": [
+          { "yil": "614", "etiket": "En erken iniş" },
+          { "yil": "618", "etiket": "En geç iniş" },
+          { "yil": "624", "etiket": "614 + 10 yıl" },
+          { "yil": "628", "etiket": "618 + 10 yıl" }
+        ] } } },
+        { "metin": "Bu sureyi Mekkî sayan, Batılı araştırmacıların da ortak görüşü." }
+      ],
+      "soru": {
+        "metin": "Bu söz olaydan sonra yazılsaydı, o gün Mekke'de bu alay ve bu bahis olur muydu?",
+        "cipler": ["Olmazdı", "Yine de sonradan yazılmış olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["olmazdı", "olmaz", "mantıklı", "haklısın"], "git": "mucize.rum-tahmin" },
+        { "tur": "itiraz", "anahtar": ["sonradan", "sonradan yazılmış", "eklenmiş", "değiştirilmiş", "olaydan sonra", "nesh edilmiş"], "yanit": ["Metindeki zamana bak: “yenildiler” geçmiş, “yenecekler” gelecek zaman.", "Olaydan sonra yazan biri “yendiler” derdi.", "Üstelik net bir yıl verilmemiş. Sonradan yazan, net yıl yazardı.", "Değiştirildi demek için, değişikliğin delili gerekir. Delil iddia edene düşer."] },
+        { "tur": "itiraz", "anahtar": ["ne zaman indi", "belli değil", "tarih belli değil"], "yanit": ["Tarih kaynakları olmasa bile metin zamanını ele verir.", "“O gün müminler ferahlayacak” demek, müminlerin ezildiği Mekke dönemini gösterir.", "Batılı araştırmacıların hepsi de sureyi Mekkî sayar."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Bir ayrıntı daha: süre üç yıldan on yıla çıkarılmıştı." },
+            { "metin": "Üçüncü yılda Herakleios henüz sefere bile çıkmamıştı." }
+          ],
+          "soru": "Süre uzatılmasaydı bahis kaybedilmiş olurdu. Bu ayrıntı sana ne söylüyor?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Ayette bir cümle daha var: “O gün müminler sevinecek.”" },
+            { "metin": "Ezilen küçük bir topluluk, “ferahlık gelecek” diyor." }
+          ],
+          "soru": "Mekke'de dışlanmış biri, bu ferahlığı neye dayanarak söyler?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Batılı bir araştırmacı şunu yazar:" },
+            { "metin": "", "diyagram": { "tur": "alinti", "veri": { "metin": "Muhammed'in bu kadar erken tarihte Bizans'ın siyasi kaderi lehine bir görüş ortaya koymasını açıklamak zordur.", "kim": "Batılı bir Kur'an araştırmacısı" } } }
+          ],
+          "soru": "Bu sözü Müslüman olmayan biri yazıyor. Sence neden bu kadar temkinli?"
+        }
+      ],
+      "kompozisyon": "Peki alay, bahis, süre ve ayetin zamanı birlikte hangi senaryoyla açıklanır?",
+      "kopru": ["Buna geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.rum-tahmin",
+      "dayanak": "R1–R2: kitap s. 483–489. Rum 30/1–7. Nüzul: Hirschfeld, Bell, Muir, Weil (Mekkî; s. 488, 490). Bell alıntısı kitap s. 502; ekranda serbest çeviri olarak yer alır, kitaptaki çeviriyle karşılaştırılmalı. Ebubekir–Übey iddialaşması (3 yıl/10 deve -> 10 yıl/100 deve), s. 485. Süre uzatma: s. 503. Net tarih verilmemesi: dn. 1145, s. 503. Bedir yorumu bilinçli olarak alınmadı (yazarın kendi ihtimali, s. 503–504)."
+    },
+    {
+      "id": "mucize.rum-tahmin",
+      "gizliDugum": "R3",
+      "sahne": { "arkaplan": "col" },
+      "satirlar": [
+        { "metin": "Şimdi bunu Müslüman kaynaklara değil, Batılı tarihçilere soralım." },
+        { "metin": "Persler İstanbul'un karşısında on yıldan fazla ordugâh kurmuştu." },
+        { "metin": "Kuzeyden Avarlar ve Slavlar vuruyordu. Herakleios esir düşmekten zor kurtuldu." },
+        { "metin": "İçeride iç savaş, boş hazine, vergi vermeyen halk vardı." },
+        { "metin": "Mısır'ın gitmesiyle şehrin tahılı da bitti." },
+        { "metin": "Herakleios barış istedi, haraç önerdi. Pers kralı reddetti." },
+        { "metin": "619'da başkenti terk edip Afrika'ya kaçmaya hazırlandı.", "vurgu": true },
+        { "metin": "Patrik onu kilisede yemin ettirerek vazgeçirdi." },
+        { "metin": "Şimdi bir an kendini o günün Mekke'sine koy." }
+      ],
+      "soru": {
+        "metin": "Bu koşullarda Bizans'ın kazanacağına ihtimal verir miydin? Tüm hayatını buna bağlar mıydın?",
+        "cipler": ["Vermezdim", "Bir tahmin olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["vermezdim", "vermez", "hayır", "imkânsız", "imkansız", "zor"], "git": "mucize.rum-donus" },
+        { "tur": "itiraz", "anahtar": ["belliydi", "öngörülebilir", "şans", "öngörü", "tesadüf", "bir tahmin olabilir"], "yanit": ["Bizans tarihçileri bu dönüşü “beklenmedik” diye anlatır.", "Gidişat bilinseydi, Herakleios kendi başkentinden kaçmayı düşünmezdi.", "Tahmin sonradan kolay görünür. Mesele, o gün söylenmiş olması."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Kralın kendisi bile umutsuzdu." },
+            { "metin": "Barış için haraç önerdi. Cevap: hayır." }
+          ],
+          "soru": "Savaşı yöneten kral bile şans tanımıyorsa, Mekke'deki bir kişi neye güvenir?"
+        },
+        {
+          "satirlar": [
+            { "metin": "O gün bahis şirketleri olsaydı, Bizans'a bire yüz verirlerdi." },
+            { "metin": "Tarihçiler bunu böyle sezdirir." }
+          ],
+          "soru": "Bire yüz oranla, bütün hayatını ortaya koyar mıydın?"
+        },
+        {
+          "satirlar": [
+            { "metin": "616'da Mısır gitti. İstanbul'un ekmeği oradan geliyordu." },
+            { "metin": "Bedava ekmek dağıtımı durdu." }
+          ],
+          "soru": "Karnı aç bir şehir, bir orduyu sıfırdan nasıl kurar?"
+        }
+      ],
+      "kompozisyon": "Peki bu tabloyla “Bizans kazanacak” demeyi, hangi makul gerekçeyle açıklarsın?",
+      "kopru": ["Buna geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.rum-donus",
+      "dayanak": "R3: kitap s. 490–496. Gibbon (490–492, 495–499), Stathakopoulos (490–495), Vasiliev (490–494), Lemerle (491), Bailly (491–493, 494–496; kitap 'abartılı anlatım' notu düşer), Oman (616 Mısır, s. 494), Bauer (haraç teklifi, s. 494–496). 'Bahis şirketi' benzetmesi kitabın s. 507 civarındaki beş şart bölümünden. 'Neredeyse beklenmedik' ifadesi Stathakopoulos'tan aktarılan özet; ekranda doğrudan alıntı olarak verilmedi."
+    },
+    {
+      "id": "mucize.rum-donus",
+      "gizliDugum": "R4",
+      "sahne": { "arkaplan": "safak" },
+      "satirlar": [
+        { "metin": "Sonra, kimsenin beklemediği şey oldu." },
+        { "metin": "Herakleios on bir yıl boyunca başarısızdı." },
+        { "metin": "621'de kilisenin kutsal kaplarını nakde çevirdi, orduyu sıfırdan kurdu." },
+        { "metin": "622'de ilk sefer. Persler Anadolu'dan çıkarıldı." },
+        { "metin": "623–624'te Pers topraklarına girdi. Ateş tapınakları yıkıldı." },
+        { "metin": "627'de Ninova'da son darbe." },
+        { "metin": "", "diyagram": { "tur": "zaman", "veri": { "noktalar": [
+          { "yil": "610", "etiket": "On bir başarısız yıl başlar" },
+          { "yil": "621", "etiket": "Hazırlık, yeni ordu" },
+          { "yil": "622", "etiket": "İlk sefer" },
+          { "yil": "624", "etiket": "Ganzak ve Thebarmes tapınakları" },
+          { "yil": "627", "etiket": "Ninova" }
+        ] } } },
+        { "metin": "Ayetin penceresi: 614'ten 618'e, on yıl ekle. Yani 624 ile 628.", "vurgu": true },
+        { "metin": "Üç sefer, tam bu pencerenin içinde." },
+        { "metin": "Batılı tarihçiler bu dönemi İskender'in seferlerine benzetir." },
+        { "metin": "Sonra Herakleios yine eski uyuşukluğuna döner." }
+      ],
+      "soru": {
+        "metin": "Dar bir süre, tüm belirtilerin tersi, tutan bir sonuç. Bu sana neyi düşündürüyor?",
+        "cipler": ["Açıklaması zor", "Sıradan bir tahmin", "Tutmasaydı nesh derlerdi"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["açıklaması zor", "açıklayamıyorum", "etkileyici", "hayret", "düşündürüyor", "tesadüf olamaz"], "git": "mucize.rum-kehanet" },
+        { "tur": "yonlendir", "anahtar": ["nesh", "tutmasaydı", "tutmayabilirdi"], "git": "mucize.rum-nesh" },
+        { "tur": "yonlendir", "anahtar": ["kehanet", "nostradamus", "baba vanga", "vanga", "falcı", "sıradan bir tahmin", "tahmin"], "git": "mucize.rum-kehanet" },
+        { "tur": "itiraz", "anahtar": ["toparlanma", "toparlandı", "sıradan", "askerî", "askeri", "normal"], "yanit": ["Toparlanma sonradan açıklanır. Ama bu söz, olmadan önce söylendi.", "Üstelik söyleyen, bütün iddiasını bu sözün üstüne koymuştu.", "Yanılsaydı, elinde hiçbir şey kalmazdı."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "On bir yıl başarısız. Altı yıl parlak. Sonra yine uyuşuk." },
+            { "metin": "Batılı bir tarihçi bu garipliğin sebebini sorar ve kendisi bulamaz." }
+          ],
+          "soru": "Tarih, bu keskin değişimin zamanlamasını neye bağlayabilir?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir risk hesabı yapalım." },
+            { "metin": "Tutmazsa: müşrikler elini güçlendirir, mesajın itibarı biter." }
+          ],
+          "soru": "Biri yanılma ihtimali bu kadar yüksekken, iddiasını bu tahmine neden bağlar?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir şey daha: ayette net bir yıl yok." },
+            { "metin": "Sonradan yazılsaydı, kesin tarih yazılırdı." }
+          ],
+          "soru": "Belirsiz bir aralık vermek, olaydan sonra yazıldığı fikriyle uyuşur mu?"
+        }
+      ],
+      "kompozisyon": "Peki “bir tahmin”, “tesadüf” ve “sonradan yazıldı” demenin hangisi bu tabloyu tek başına açıklar?",
+      "kopru": ["Buna geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.rum-kehanet",
+      "dayanak": "R4–R5: kitap s. 496–504. Gibbon, Stathakopoulos, Bauer, Theophanes (s. 496–502); Oman, Vasiliev, Gregory (s. 500–501); Uspensky (Vasiliev üzerinden, s. 497). 610–621 on bir yıl; 622 ilk sefer; 623–624 Ganzak/Thebarmes; 627 Ninova (kitapta dn. 1094 savaşın bitişini 627, metin 628 verir — ekranda yalnız 627 kullanıldı, 627-628 aralığı yazılmadı; bkz. dogrulanacaklar A). Pencere hesabı yazarın: 614+10=624; 618+10=628 (s. 501)."
+    },
+    {
+      "id": "mucize.rum-nesh",
+      "gizliDugum": "R6",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "En sık itirazlardan biri: “Tutmasaydı nesh derdiniz.”" },
+        { "metin": "Dört kısa cevap." },
+        { "metin": "Bir: bu bir varsayım. Varsayım delil değildir." },
+        { "metin": "İki: nesh hükümlerde olur. “Şöyle olacak” türü haberlerde olmaz." },
+        { "metin": "Üç: sürekli yanılan birini, düşmanı da dostu da sessizce taşır mıydı?" },
+        { "metin": "Dört: tutmayan tahmine “Allah fikrini değiştirdi” diyenler tarihte bilinir." },
+        { "metin": "O başka bir şey: ona “beda” denir, nesh değil." }
+      ],
+      "soru": {
+        "metin": "Bir lider sürekli yanlış açıklama yapsa, çevresi bunu yıllarca sessizce kabul eder miydi?",
+        "cipler": ["Etmezdi", "Edebilirdi"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["etmezdi", "etmez", "mantıklı", "haklısın"], "git": "mucize.rum-kehanet" },
+        { "tur": "itiraz", "anahtar": ["edebilirdi", "olabilir", "yine de"], "yanit": ["Düşmanın elinde bundan güçlü bir koz olamazdı.", "Böyle bir açık, onu savunanları da zor durumda bırakırdı.", "Olgu duruyor: Bizans kazandı. Nesh dersek bile olgu açıklanmış olmaz."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Bugünün bir siyasi lideri düşün." },
+            { "metin": "Sürekli yanlış öngörüyor ve her seferinde “değişti” diyor." }
+          ],
+          "soru": "Böyle birini, hayatını tehlikeye atarak kim yıllarca savunur?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Tarihte sahte mehdilik iddiaları da oldu." },
+            { "metin": "Tutmayan tahminlerine “fikir değişti” dediler; bu kayıtlar bize ulaştı." }
+          ],
+          "soru": "Tutmayan tahminler bize ulaşıyorsa, Rum öngörüsü neden tutan taraftan ulaşıyor?"
+        }
+      ],
+      "kompozisyon": "Peki “nesh derdiniz” itirazı, bu olguyu ortadan kaldırıyor mu?",
+      "kopru": ["Buna geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.rum-kehanet",
+      "dayanak": "R6: kitap s. 504–505, yazarın dört maddelik cevabı. Beda/sahte mehdi örneği yazarın aktarımıdır; ekranda isim verilmedi."
+    },
+    {
+      "id": "mucize.rum-kehanet",
+      "gizliDugum": "R7",
+      "sahne": { "arkaplan": "isik" },
+      "kapat": "mucize",
+      "satirlar": [
+        { "metin": "Bir itiraz daha: “Bu kehanet. Baba Vanga da, Nostradamus da yapıyor.”" },
+        { "metin": "Güzel. O zaman ölçelim." },
+        { "metin": "Beş şart koyuyorum. Bir kehanet hepsini sağlıyorsa, ciddiye alırım." },
+        { "metin": "Bir: konu herkesçe bilinen, iki büyük devletin kaderi.", "vurgu": true },
+        { "metin": "İki: net bir zaman aralığı. “Bir ateş çıkacak” türü sis değil.", "vurgu": true },
+        { "metin": "Üç: beklentinin tam tersi.", "vurgu": true },
+        { "metin": "Dört: binlerce tahminden tutan tek biri değil.", "vurgu": true },
+        { "metin": "Beş: söyleyenin kırk yaşına kadar tek bir kehanet iddiası yok.", "vurgu": true }
+      ],
+      "soru": {
+        "metin": "Bu beş şartı birlikte sağlayan bir kehanet örneği biliyor musun?",
+        "cipler": ["Bilmiyorum", "Bir örnek var"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["bilmiyorum", "bilmem", "hayır", "yok", "haklısın", "ikna oldum", "mantıklı", "evet haklısın", "katılıyorum"], "git": "kapanis.giris" },
+        { "tur": "itiraz", "anahtar": ["bir örnek var", "örnek var", "var"], "yanit": ["Güzel. O örneği bu beş şarta karşı birlikte sınayalım.", "Şartları sağlıyorsa, “kimse yapamaz” iddiasından dönülür.", "O zaman ikinci soru gelir: bu kişi bunu nasıl yaptı? Kâhin mi, siyasi dahi mi, hâşâ hasta mı?", "Hem senin örneğin hem Hz. Muhammed için makul bir açıklama gerekir."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Bir deney önereyim. Sosyologlar, psikologlar, filozoflar bir heyet kursun." },
+            { "metin": "Yakın bir tarih verip, herkesin beklentisinin tersini ilan etsinler." }
+          ],
+          "soru": "Karizmasını ve itibarını riske atarak bunu yapacak birini tanıyor musun?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Hz. Muhammed'i nereye koyacaksın?" },
+            { "metin": "Kâhin mi, siyasi dahi mi, hâşâ halüsinasyon gören biri mi?" }
+          ],
+          "soru": "Bu üç kategoriden hangisi, böyle bir tahmini kendi içinde tutarlı biçimde açıklar?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir fark daha: tahmin edenlerin çoğu çok tahmin yapar, bazısı tutar." },
+            { "metin": "Burada tek bir tahmin var ve her şey ona bağlı." }
+          ],
+          "soru": "Bol tahminden biri tutmakla, tek tahmine her şeyini bağlamak aynı şey mi?"
+        }
+      ],
+      "kompozisyon": "Peki tüm bu verileri — dar süre, tersine tahmin, tek hamle, şartlar — birlikte nasıl açıklıyorsun?",
+      "kopru": ["Buna geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.devam",
+      "dayanak": "R7: kitap s. 506–508, yazarın beş şartı. Mucize mantığı: 'başkası da yapmıştır' diyen örnek göstermeli; örnek gelirse ikinci katmana geçilir (s. 506). Heyet/basın açıklaması önerisi s. 508. 'Bahis şirketleri' sezdirmesi s. 507. Bu, Rum mucizesinin kapanış beat'idir: ikna -> kapat 'mucize' -> kapanis.giris; ret/kompozisyon sonrası mucize.devam."
+    },
+    {
+      "id": "mucize.belagat-giris",
+      "gizliDugum": "M1",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Şimdi dile bakalım." },
+        { "metin": "Kur'an kendisi bir meydan okur: “Benzerini getirin.”", "vurgu": true },
+        { "metin": "Ayetteki kelime: “misl”. Çoğu çeviri “benzer” der." },
+        { "metin": "Ama misl, “denk” demektir. Taklit değil, eşdeğer bir eser." },
+        { "metin": "Türkçede de öyle: “Messi'nin misli Ronaldo'dur” denir. Benzemez, denktir." },
+        { "metin": "Yani taklit gerekmiyor. Kendi özgün eserinle de yarışabilirsin." },
+        { "metin": "Tek şart: denk eser, içerik ve etki bakımından da denk olmalı." }
+      ],
+      "soru": {
+        "metin": "Biri “Ben de yaparım, sadece denemiyorum” dese, böyle bir meydan okumada bu ne anlama gelir?",
+        "cipler": ["Yapmamak, yapamamak demek", "Bu bir bahane"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["yapamamak", "yapamıyor", "bahane", "anlamı yok", "haklısın"], "git": "mucize.belagat-siir" },
+        { "tur": "itiraz", "anahtar": ["taklit", "benzeri olamaz", "edebî eser", "edebi eser"], "yanit": ["“Misl” benzer değil, denk demek.", "Özgün bir eserle de karşılık verilebilir.", "Dostoyevski, Gogol'e benzemez; ama onun dengidir."] },
+        { "tur": "itiraz", "anahtar": ["yüzyıllar", "sonra", "benim eserim", "gelecekte"], "yanit": ["Bu kitabın etkisi yüzyıllar sürmedi. Elli yılda bir toplum dönüştü.", "O toplum iki okyanusa uzandı. Senin eserin de bunu yapabilir mi?"] },
+        { "tur": "itiraz", "anahtar": ["şartlarım", "şartlar", "imkân", "imkan"], "yanit": ["Hz. Muhammed yetimdi, destekçisizdi, eğitimi toplumunu aşmıyordu.", "Senin şartların bundan çok daha elverişli."] },
+        { "tur": "itiraz", "anahtar": ["şiirden anlamam", "anlamayız", "anlamam"], "yanit": ["Bu yüzden heyet kurmak serbest.", "Şair al, edebiyatçı al, profesör al."] },
+        { "tur": "itiraz", "anahtar": ["ben de yaparım", "denemiyorum"], "yanit": ["“Üç atışın üçü de girer” diyen biri, “zemin şöyle” diyorsa iddiası düşer.", "Bu tartışmada yapmamak, yapamamaktır."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Çağdaşlar denedi. Müseylime hitabet yeteneği olan biriydi." },
+            { "metin": "Batılı bir yazar, onun “Kur'an”ının değerinin sıfır olduğunu yazar." }
+          ],
+          "soru": "Deneyip de sonuç çıkaramayan çağdaşlar için ne düşünürdün?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Onlar edebî yolu bırakıp savaşın pahalı yolunu seçti." },
+            { "metin": "Kur'an onların lafını da aktarır: “İstesek biz de söyleriz.”" }
+          ],
+          "soru": "“İstesek biz de söyleriz” diyen, söylemediğinde ne anlaşılır?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir basketbol hatırlatması: “üç atışın üçü de girer” diyen biri." },
+            { "metin": "“Yap” denince “zemin yanlış” diyor." }
+          ],
+          "soru": "Bu savunma, iddiayı güçlendirir mi, zayıflatır mı?"
+        }
+      ],
+      "kompozisyon": "Peki “denk eser” meydan okumasına yıllarca cevap verilmemesini nasıl yorumlarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.belagat-siir",
+      "dayanak": "M1 a–b–c: kitap s. 410–415, 424. Misl = denk; Messi/Ronaldo ve Dostoyevski–Gogol örnekleri s. 411. Bodley (Müseylime, s. 414). Basketbol benzetmesi: yapmamak = yapamamak, 2/24 (s. 424). 8/31 (s. 424). Dipnot 942: bu hitap gayrimüslime yöneliktir; müminler hepsini vahiyle yapıldığına inanır."
+    },
+    {
+      "id": "mucize.belagat-siir",
+      "gizliDugum": "M1",
+      "sahne": { "arkaplan": "safak" },
+      "satirlar": [
+        { "metin": "Peki bu meydan okuma kime yapıldı?" },
+        { "metin": "Şiirin “her şey” olduğu bir topluma.", "vurgu": true },
+        { "metin": "Şair, gazeteci, tarihçi ve sözcü yerine geçerdi." },
+        { "metin": "Bir hiciv, bir kabileyi yıkabilirdi. Şairler kiralanırdı." },
+        { "metin": "Batılı bir tarihçi, Ukaz panayırını bir “Fransız Akademisi”ne benzetir." },
+        { "metin": "Arapça da şiire en elverişli dildi. Batılı yazarlar bunu yazar." },
+        { "metin": "Yani meydan okuma, toplumun en güçlü olduğu alana yapıldı." }
+      ],
+      "soru": {
+        "metin": "Bir toplum en güçlü olduğu alanda sınanıyor ve kimse cevap veremiyor. Sen bunu nasıl yorumlarsın?",
+        "cipler": ["Gerçek bir üstünlük", "Başka sebepler olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["üstünlük", "gerçek", "aciz", "cevap veremedi", "haklısın"], "git": "mucize.belagat-nebi" },
+        { "tur": "itiraz", "anahtar": ["başka sebep", "ilgilenmedi", "önemsemedi", "olabilir"], "yanit": ["Şiir yarışı onların en büyük gururuydu. İlgisiz kalmaları zor.", "Edebî yolu denemek ucuzdu. Savaşın pahalı yolunu seçtiler."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Bir anı aktarılır: Fransız bir müzisyen, Kur'an'ın şiir değil düzyazı olduğunu öğrenmiş." },
+            { "metin": "“Düzyazıda ritim olmaz. Burada var. Bir harf çıksa kulak tırmalar,” demiş." }
+          ],
+          "soru": "Düzyazı olup ritmi bu kadar belirgin bir metin hangi kategoriye girer?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir test öner: Türkçede Mehmet Akif'in Çanakkale şiirinin üstünde bir eser." },
+            { "metin": "Yabancıları bile müzikaliteyle etkileyen, tarih yazan bir metin." }
+          ],
+          "soru": "Bunu bir heyet bugün yapabilir mi? Yapabilirse neden yapmıyor?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Mekke'nin tanınmış bir şiir bilgini, dinlediği ayetler için “şiire de kâhin sözüne de benzemiyor” demiş." },
+            { "metin": "Sonra kavmine bir etiket bulmak için “sihir” demiş." }
+          ],
+          "soru": "Bir şiir uzmanı, bu metni şiir kategorilerine koyamıyorsa ne anlaşılır?"
+        }
+      ],
+      "kompozisyon": "Peki şiirin hükümran olduğu bir toplumda cevap verilememesi, tüm bu verilerle nasıl açıklanır?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.belagat-nebi",
+      "dayanak": "M1 d–f: kitap s. 415–421. Şairin işlevi: Hazleton, Watt, Armstrong, Goldziher, Hitti (415–418). Ukaz–Fransız Akademisi: Hitti. Arapçanın şiire uygunluğu: Rodinson, Hazleton, Margoliouth, Hitti (418–419). Müzisyen anısı (Hamidullah'ın aktarımı, s. 420–421) — Hamidullah'ın aktarımı olarak etiketlenmeli (dogrulanacaklar B). Çanakkale testi s. 419–420. ekOrnek 3 (Velid b. Muğire) KİTAP DIŞI: ek=true, bkz. docs/onay/mucize.md.",
+      "ek": true
+    },
+    {
+      "id": "mucize.belagat-nebi",
+      "gizliDugum": "M1",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "kapat": "mucize",
+      "satirlar": [
+        { "metin": "Şimdi daha ince bir soru: bunu söyleyen kimdi?" },
+        { "metin": "Kırk yaşından önce şiirle ilgilendiğine dair tek bir kayıt yok.", "vurgu": true },
+        { "metin": "Bir savaşta iki dize şiir okurken vezni bozduğu aktarılır." },
+        { "metin": "Ebubekir: “Biz ona şiir öğretmedik; zaten ona yakışmazdı.”" },
+        { "metin": "", "diyagram": { "tur": "karsilastirma", "veri": {
+          "sol": { "baslik": "Bilinen dize", "maddeler": ["Allahumme lâ hayra illâ hayru'l-âhirah", "fağfir li'l-ensâri ve'l-muhâcirah"] },
+          "sag": { "baslik": "Hz. Muhammed'in okuyuşu", "maddeler": ["Lâ hayra illâ hayru'l-âhira", "fağfir li'l-muhâcirâti ve'l-ensâr"] }
+        } } },
+        { "metin": "Arapça bilmesen de, ikincisinde ritmin bozulduğunu duyarsın." },
+        { "metin": "Batılı bir araştırmacı: şiire kulağı yoktu, kabile nağmelerini bile geç ezberledi." },
+        { "metin": "Bir başka Batılı yazar: düşmanlar vahiylerin sahte olduğunu iddia etmedi." },
+        { "metin": "Açıklayamadıkları bir şey olduğu belliydi." }
+      ],
+      "soru": {
+        "metin": "Şiire kulağı olmayan biri, şiirin hükümran olduğu toplumu aciz bırakan bir metni nasıl yazar?",
+        "cipler": ["Açıklaması zor", "Bilinçaltından gelmiş olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["açıklaması zor", "açıklayamıyorum", "zor", "aciz", "haklısın", "ikna oldum", "mantıklı", "katılıyorum"], "git": "kapanis.giris" },
+        { "tur": "itiraz", "anahtar": ["bilinçaltı", "bilinçaltından", "ilham", "içinden geldi"], "yanit": ["Bir Batılı yazar “bilinçaltından” der. Bu, açıklamayı sisin ardına atmaktır.", "Kırk yaşında ilk kez şiir yazmaya başlayan ve ilk vahyi görünce korkan biri düşün.", "Bu bir açıklama değil, açıklamama biçimi."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Kur'an da bunu söyler: “Ona şiir öğretmedik, yakışmazdı.”" },
+            { "metin": "Bir şair kendini böyle tanımlar mı?" }
+          ],
+          "soru": "Bu cümle, bir metnin kendi kaynağını gizlemesine mi benziyor, yoksa dürüst bir tespite mi?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Batılı bir yazar, gündelik hayatında belagatının izini bulamaz." },
+            { "metin": "Kısa bir dönem “hayranlık verici” metinler çıktığını yazar." }
+          ],
+          "soru": "Aynı kişide hem sıradan konuşma hem bu üslup bir arada nasıl açıklanır?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir hatırlatma: bu, mucizelerin en katmerlisi." },
+            { "metin": "Şiirle ilgisi olmayan biri, şiirin hükümran olduğu toplumda, şiire en uygun dilde." }
+          ],
+          "soru": "Üç şart bir arada gelirse, tesadüf ne kadar makul kalır?"
+        }
+      ],
+      "kompozisyon": "Peki şiirden uzak biri, vezni bozan biri, bu metni kendi başına nasıl üretmiş olabilir?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.devam",
+      "dayanak": "M1 g–h: kitap s. 421–424. Kırk yaşından önce şiir yok; iki okunuş karşılaştırması (s. 422). Ebubekir sözü, 36/69 (Hamidullah, s. 421). Margoliouth, Rodinson (s. 421–423); Rodinson'un 'bilinçaltı' ifadesine yazarın itirazı (s. 423). Armstrong: 'düşmanlar vahiylerin sahte olduğunu iddia etmedi' (s. 423). Rodinson'un 'silik' ifadesi (dogrulanacaklar B) kullanılmadı. Belagat yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris."
+    },
+    {
+      "id": "mucize.kissa-giris",
+      "gizliDugum": "M4",
+      "sahne": { "arkaplan": "col" },
+      "satirlar": [
+        { "metin": "Şimdi tarihe bakalım. Çok duyulan bir iddia var." },
+        { "metin": "“Kur'an, Tevrat'tan ve İncil'den kopyalandı.”", "vurgu": true },
+        { "metin": "Güzel bir iddia, çünkü test edilebilir." },
+        { "metin": "Kopyalayan biri metni de kopyalar, hatalarını da." },
+        { "metin": "O yüzden iki metni yan yana koyacağız." }
+      ],
+      "soru": {
+        "metin": "Bir metni kopyalayan, onun hatalarını da kopyalar. Bu sana makul geliyor mu?",
+        "cipler": ["Evet, genelde öyle olur", "Düzeltip de kopyalayabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["evet", "genelde öyle", "makul", "katılıyorum", "haklısın"], "git": "mucize.kissa-yusuf" },
+        { "tur": "itiraz", "anahtar": ["düzeltip", "düzelt", "düzeltebilir"], "yanit": ["Düzeltmek için hatayı fark edip doğrusunu bilmek gerekir.", "Peki o doğru bilgi nereden gelmiş olurdu?"] },
+        { "tur": "itiraz", "anahtar": ["köle", "köleler", "bir beşer", "hristiyan bir", "öğretti"], "yanit": ["Bu kölelerin adı bile kesin değil. Ne mal, ne makam aldılar.", "Kaynak onlarsa, Kur'an neden Tevrat'la uyuşmuyor?", "Yirmi üç yıl boyunca evdekilerden nasıl gizlenmiş olurlar?", "Mekkeliler kendi kölelerine baskın yapıp bunu kolayca açığa çıkarırdı."] },
+        { "tur": "itiraz", "anahtar": ["varaka"], "yanit": ["Varaka'nın varlığını gösteren tek kaynak, onun vahiyden hemen sonra öldüğünü de söyler.", "Hadisin yarısını alıp yarısını bırakmak için gerekçe yok."] },
+        { "tur": "itiraz", "anahtar": ["yazılı", "okudu", "kütüphane", "kitaptan"], "yanit": ["Okuma yazması olmayan biri için yazılı kaynak zor.", "Batılı akademisyenlerin hazırladığı muhtemel kaynak listesi 24 sayfa tutar.", "Yalnız kutsal kitaplar için altı dil gerekir."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Batılı akademisyenlerin Kur'an kaynakları listesi 24 sayfa tutar." },
+            { "metin": "Yalnız kutsal kitapları okumak için altı dil gerekir." }
+          ],
+          "soru": "Okuma yazması olmayan biri, bu kitaplığı hangi kütüphanede gezmiş olabilir?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Apokrif metinlerin çoğu 1945'te Mısır'da bulundu." },
+            { "metin": "Daha önce yok edilmiş sayılırlardı." }
+          ],
+          "soru": "O coğrafyada ne yazılı ne sözlü bilinemeyecek metinler nasıl aktarılmış olur?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Aynı ismin iki metinde geçmesi, alıntı kanıtı değil." },
+            { "metin": "1980 darbesini anlatan herkes Kenan Evren'i yazar." }
+          ],
+          "soru": "O halde Âdem'in adının iki kitapta geçmesi neyi kanıtlar?"
+        }
+      ],
+      "kompozisyon": "Peki “kopyalandı” iddiasını, hataları ve farkları birlikte düşününce nasıl tartarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.kissa-yusuf",
+      "dayanak": "M4–M6: kitap s. 436–448, 453–454. Furkan 25/4–6 ve Nahl 16/103 itirazının sekiz cevabından dördü seçildi (s. 441–443). Varaka: s. 445. Yazılı kaynak: Corpus Coranicum 24 sayfa liste (s. 446, dn. 1002–1004); altı dil (s. 447); Nag Hammadi 1945 (s. 447). Kenan Evren örneği s. 453. Ekranda 'Tevrat'ı hakaretsiz anma' ilkesi: 'eldeki Tevrat metni', 'farklı metin geleneği'."
+    },
+    {
+      "id": "mucize.kissa-yusuf",
+      "gizliDugum": "M6",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Yusuf kıssasına bakalım. İki anlatı, yan yana." },
+        { "metin": "Metne saygıyla bakıyoruz; yalnız karşılaştırıyoruz." },
+        { "metin": "", "diyagram": { "tur": "karsilastirma", "veri": {
+          "sol": { "baslik": "Eldeki Tevrat metni", "maddeler": [
+            "Yakup, rüyadan dolayı Yusuf'u azarlar",
+            "Kanlı gömleği görünce “vahşi hayvan yemiş” der",
+            "Rüyadaki “ay” anneyi simgeler; anne çoktan ölmüştür"
+          ] },
+          "sag": { "baslik": "Kur'an", "maddeler": [
+            "Yakup: “Rüyanı anlatma; Rabbin seni seçecek”",
+            "“Nefsiniz sizi bir işe sürükledi; güzel sabır”",
+            "Anne anılmaz; rüya kıssanın sonunda gerçekleşir"
+          ] }
+        } } },
+        { "metin": "Kur'an anlatısı kendi içinde tutarlı." }
+      ],
+      "soru": {
+        "metin": "Kopyalayan biri hatayı bırakıp tutarlısını nasıl yazmış olur?",
+        "cipler": ["Kur'an tutarlı görünüyor", "Fark küçük bir ayrıntı"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["kur'an tutarlı", "tutarlı", "haklısın", "mantıklı", "zor"], "git": "mucize.kissa-adem" },
+        { "tur": "itiraz", "anahtar": ["küçük", "ayrıntı", "aynı kişi", "aynı isim", "aynı hikâye"], "yanit": ["Aynı kişinin adının geçmesi, kopya kanıtı değil.", "Üstelik rüyaya tepki, hikâyenin kilit noktası. Ayrıntı sayılmaz.", "Sadece bu kıssadaki farklar bile küçük bir kitap tutar."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Eyyub kıssası. Eldeki metinde Eyyub doğduğu güne lanet eder." },
+            { "metin": "Kur'an'da Eyyub baştan sona sabır timsalidir." }
+          ],
+          "soru": "Kopyalayan, bir figürün karakterini neden bu kadar baştan yazsın?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Eldeki metinde bazı peygamberlere ağır ifadeler atfedilir." },
+            { "metin": "Kur'an bunları nakletmez." }
+          ],
+          "soru": "Kopyalayan bunları neden dışarıda bırakırdı?"
+        }
+      ],
+      "kompozisyon": "Peki aynı kıssada üç ayrı noktada farklılık, kopyalama fikriyle birlikte nasıl yorumlanır?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.kissa-adem",
+      "dayanak": "M6 Tablo 2 (Yusuf): kitap s. 454–457. Tekvin 37/9–11, 37/33–35, 35/17–20; Kur'an 12/5–6, 12/18. Rahel'in ölümü/ay sembolü: yazarın karşılaştırması (s. 456). Tablo 1 (Eyyub): s. 451–453 (21/83, 38/41–43). Peygamberlere atfedilen ifadeler: s. 449–450; dn. 1011 yazarın 'peygamberler bu iftiralardan münezzeh' notu. Hassas kutu: yalnızca bu ekOrnek ile açılır; ayrıntıya girilmez."
+    },
+    {
+      "id": "mucize.kissa-adem",
+      "gizliDugum": "M6",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Şimdi Âdem'e gelelim." },
+        { "metin": "", "diyagram": { "tur": "karsilastirma", "veri": {
+          "sol": { "baslik": "Eldeki Tevrat metni", "maddeler": [
+            "Tanrı: “Yerseniz ölürsünüz”",
+            "Yılan: “Kesinlikle ölmezsiniz”",
+            "Sonra: “İnsan bizden biri gibi oldu”",
+            "Suç, aldatılan kadına yüklenir"
+          ] },
+          "sag": { "baslik": "Kur'an", "maddeler": [
+            "Şeytan aldatıcı vaat eder: “ebedî olursunuz”",
+            "Şeytan yalan söyler, yemin bile eder",
+            "“Şeytan ikisinin ayağını kaydırdı”",
+            "Suç kadına yüklenmez"
+          ] }
+        } } },
+        { "metin": "Eldeki metni okuyan biri sorabilir: yılan mı doğru söyledi?" },
+        { "metin": "Kur'an anlatısında bu soru doğmaz. Şeytan yalan söyler.", "vurgu": true }
+      ],
+      "soru": {
+        "metin": "Kopyalayan, teolojik bir çelişkiyi bilerek düzeltmiş olabilir mi? Peki neye dayanarak?",
+        "cipler": ["Düzeltmiş olması zor", "Başka kaynak olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["düzeltmiş olması zor", "zor", "mantıklı", "haklısın", "açıklayamıyorum"], "git": "mucize.kissa-yaratilis" },
+        { "tur": "itiraz", "anahtar": ["başka kaynak", "şifahi", "rivayet", "sözlü"], "yanit": ["Başka kaynak varsa, onu göstermek iddia sahibine düşer.", "“Açıklayamıyoruz, o halde vardır” bir delil değil."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Doğuma bakalım. Bir anlatıda doğum sancısı günahın cezasıdır." },
+            { "metin": "Kur'an'da anneye hakkı hatırlatan bir ahlak dersidir." }
+          ],
+          "soru": "Aynı konu, iki anlatıda bu kadar farklı bir ders verir mi?"
+        },
+        {
+          "satirlar": [
+            { "metin": "“Hepsi aynı İbrahimî gelenek” denir." },
+            { "metin": "Ama kıssa kıssa bakınca farklar küçük değil." }
+          ],
+          "soru": "Ortak bir gelenek, bu kadar sistematik bir ayrılığı nasıl taşır?"
+        }
+      ],
+      "kompozisyon": "Peki Yusuf, Eyyub ve Âdem'de aynı yönde fark görünce, bunu nasıl açıklarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.kissa-yaratilis",
+      "dayanak": "M6 Tablo 3 (Âdem): kitap s. 457–459. Tekvin 3/2–5, 3/22; 1. Timoteos 2/13–14 (Yeni Ahit); Kur'an 2/35, 20/115, 20/120, 7/20–21, 2/36, 31/14–15. 'İbrahimî gelenek' vurgusu s. 459. Cadı avı bağlantısı ekranda kullanılmadı."
+    },
+    {
+      "id": "mucize.kissa-yaratilis",
+      "gizliDugum": "M6",
+      "sahne": { "arkaplan": "isik" },
+      "satirlar": [
+        { "metin": "Yaratılışa gelelim. İki cümle yeter." },
+        { "metin": "", "diyagram": { "tur": "karsilastirma", "veri": {
+          "sol": { "baslik": "Eldeki Tevrat metni", "maddeler": [
+            "“Yedinci gün Tanrı dinlendi”",
+            "“Yerin direkleri Rab'bindir”"
+          ] },
+          "sag": { "baslik": "Kur'an", "maddeler": [
+            "“Altı günde yarattık, bize hiçbir yorgunluk dokunmadı”",
+            "“Gökleri, gördüğünüz direkler olmadan yükselten O”"
+          ] }
+        } } },
+        { "metin": "Bu cümleler, eski bir anlatının doğrudan düzeltmesi gibi okunur.", "vurgu": true }
+      ],
+      "soru": {
+        "metin": "Bu cümleler eski bir metnin kopyası gibi mi duruyor, yoksa onu düzelten bir ses gibi mi?",
+        "cipler": ["Düzeltme gibi", "Tesadüf olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["düzeltme gibi", "düzeltme", "düzelten", "haklısın", "mantıklı"], "git": "mucize.kissa-sonuc" },
+        { "tur": "itiraz", "anahtar": ["tesadüf", "olabilir", "yine de"], "yanit": ["Bir kez tesadüf olabilir.", "Ama kıssa kıssa, her seferinde aynı yönde fark çıkıyor.", "Tesadüf sayısı arttıkça, tesadüf olmayan açıklama aranır."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "İnsanın yeryüzü tarihi: Tevrat'ın soy kütükleri, Âdem'i yaklaşık 37 asır geriye koyar." },
+            { "metin": "Bilimsel kalıntılar çok daha eskiye gider. Kur'an böyle bir tarih vermez." }
+          ],
+          "soru": "Kur'an'ın bu tarihi vermemesi bir tesadüf olabilir mi?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Fransız bir doktor, İncil ve Kur'an'ı bilimle karşılaştırdı." },
+            { "metin": "Bilimsel eleştiri alan konulardan hiçbirini Kur'an'da bulamadı." }
+          ],
+          "soru": "Hatalı bilgiler tek tek ayıklanmış olabilir mi? Kim tarafından?"
+        }
+      ],
+      "kompozisyon": "Peki dinlenme, direkler, tarih: üç alanda aynı yönde fark. Bunu nasıl yorumlarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.kissa-sonuc",
+      "dayanak": "M6 'Hataları düzeltmesi/nakletmemesi' tablosu: kitap s. 459–462. Kur'an 50/38, 13/2. Tekvin 2/2; 1. Samuel 2/8; Eyüp 9/1–6; Mezmurlar 75/1–4 (kitap atıf biçimi bozuk, dogrulanacaklar A: ekranda kutsal kitap atıf numarası verilmedi). Bucaille (s. 328; ekranda 'Fransız bir doktor' denir, isim verilmez). 'Ağaç–yıldız sırası' satırı BİLİNÇLİ OLARAK ALINMADI (gün numarası kayması, dogrulanacaklar A, s. 462)."
+    },
+    {
+      "id": "mucize.kissa-sonuc",
+      "gizliDugum": "M7",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "kapat": "mucize",
+      "satirlar": [
+        { "metin": "Toparlayalım." },
+        { "metin": "Kur'an hiçbir kıssada Tevrat'ın kopyası değil.", "vurgu": true },
+        { "metin": "Ya sorunlu yeri anlatmaz, ya düzelterek anlatır." },
+        { "metin": "“Mekke'de şifahi anlatı vardı” diyen, o anlatıyı göstermeli." },
+        { "metin": "Gösteremiyorsa, “açıklayamıyoruz, o halde vardır” demiş olur. Bu delil değil." },
+        { "metin": "Üstelik Kur'an der ki: “Bunları ne sen ne kavmin biliyordunuz.”" }
+      ],
+      "soru": {
+        "metin": "Kopyalamadığı, hataları da taşımadığı bir anlatıyı, okuma yazması olmayan biri nereden getirmiş olabilir?",
+        "cipler": ["Açıklaması zor", "Mekke'de bilinen anlatılardan"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["açıklaması zor", "açıklayamıyorum", "zor", "haklısın", "ikna oldum", "mantıklı", "katılıyorum"], "git": "kapanis.giris" },
+        { "tur": "itiraz", "anahtar": ["mekke", "şifahi", "sözlü", "bilinen", "dolaşıyordu"], "yanit": ["Bilgi düzeylerini sırala: Kur'an anlatısı, başka yerlerdeki Yahudi bilgisi, Arap Yahudilerinin bilgisi, Mekke müşriklerinin bilgisi.", "Mekke'nin bilgisi, anlatının düzeyine yetmez.", "“Vardı” diyen, bunu göstermek zorunda."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Bir okuma olarak: Kur'an ölen firavun için “gök ve yer ağlamadı” der." },
+            { "metin": "Eski Mısır'ın bir ritüel metni ise “gökler ve yer senin için ağlar” der." }
+          ],
+          "soru": "O yazıların okunamadığı bir çağda, bir ritüel metne kelimesi kelimesine cevap nereden gelir?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir ayet der ki: “Tevrat'ı getirip okuyun.”" },
+            { "metin": "Atıf yapılan pasaj, Kur'an'ın söylediğini doğrulayan bir ayrıntı taşır." }
+          ],
+          "soru": "Yazılı bir pasaja bu kadar isabetli atıf, sözlü rivayetle mümkün mü?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir kelime daha: “Râ'inâ demeyin.”" },
+            { "metin": "Eski İbranice bir sözün hakaret çağrışımı taşıdığı yorumlanır." }
+          ],
+          "soru": "Başka bir dilin gizli hakaretini fark etmek hangi bilgiyi gerektirir?"
+        }
+      ],
+      "kompozisyon": "Peki tüm bu kıssa verilerini — düzeltmeler, atıflar, bilgi düzeyi — birlikte nasıl açıklarsın?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.devam",
+      "dayanak": "M7: kitap s. 462–474. Watt'ın ön yargı itirazı ve delil yükü (s. 463–464). Açık beyan: 11/49, 12/3, 3/44, 42/52 (s. 465–466). Skala (s. 468). Firavun ağıtı: 44/29 ve The Songs of Isis and Nephthys (BM 10188; çev. Faulkner) — 'yazarın okuması' etiketi şart (dogrulanacaklar B). 3/93–Tekvin 32/31–32 (s. 470–471). 'Râ'inâ' 2/104 (s. 472). 'Ares' etimolojisi kullanılmadı (zayıf; dogrulanacaklar B). Kıssa yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris."
+    },
+    {
+      "id": "mucize.haber-felsefesi",
+      "gizliDugum": "M9",
+      "sahne": { "arkaplan": "col" },
+      "satirlar": [
+        { "metin": "“Mucizelere inanmıyorum” demek meşru bir tutum." },
+        { "metin": "Mucize kelimesini bir kenara koyalım." },
+        { "metin": "Hiç gitmediğin bir şehrin varlığını nasıl biliyorsun?" },
+        { "metin": "Haberle. Bildiklerimizin çoğu haberdir.", "vurgu": true },
+        { "metin": "Kalabalık bir topluluğun yalanda birleşemeyeceği haber bilgi verir. Buna “mütevatir” denir." },
+        { "metin": "Mucize haberleri tek tek zayıf olabilir. Ama hepsi ortak bir şeyi söyler." },
+        { "metin": "“Olağanüstü olaylar oldu.” Ortak anlam sayısız ağızdan geliyor." },
+        { "metin": "Bu bir dayatma değil. Sadece soruyorum: haber nasıl bilgi olur?" }
+      ],
+      "soru": {
+        "metin": "Hiç görmediğin bir şehri haberle kabul ediyorsun. Aynı ölçüyü burada da uygulamak sana makul geliyor mu?",
+        "cipler": ["Makul geliyor", "Konu farklı"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["makul geliyor", "makul", "mantıklı", "haklısın", "uygulanabilir"], "git": "mucize.sihir" },
+        { "tur": "yonlendir", "anahtar": ["geleceğe", "rum", "bizans", "kehanet"], "git": "mucize.rum-giris" },
+        { "tur": "yonlendir", "anahtar": ["dil", "edebiyat", "şiir", "belagat"], "git": "mucize.belagat-giris" },
+        { "tur": "itiraz", "anahtar": ["konu farklı", "farklı", "olağanüstü", "doğaüstü"], "yanit": ["Ölçü, sonuç görülmeden konur: kaç kişi, hangi çıkarla, nasıl bir karakterle anlatıyor?", "Sonucu önceden bilip haberi ona göre reddetmek, delili incelemek sayılmaz.", "İstersen mucize saymadan, dil ve geleceğe dair haberlere bakabiliriz."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Düz dünya meselesi. Fizikçi değilsen, nasıl reddedersin?" },
+            { "metin": "Çoğumuz: “Bu kadar bilim insanı neden yalan söylesin?” deriz." }
+          ],
+          "soru": "Bu, haber ölçütüne dayanmıyor mu?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Psikologlar, bir ünlü deneyi çoğu zaman tekrar etmeden kabul eder." },
+            { "metin": "Bilimin ilerlemesi de bu güvenle olur." }
+          ],
+          "soru": "Güvene dayanan bilgi, bilgi sayılmaz mı?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Bir ayrıntı: mucize haberlerinin çoğu birkaç ravide kalır." },
+            { "metin": "Bir defalık olayda şahit azdır; namazda çoktur. Beklenen de bu." }
+          ],
+          "soru": "Az şahitli rivayet uydurma olsaydı, uyduranlar şahit sayısını artırmaz mıydı?"
+        }
+      ],
+      "kompozisyon": "Peki “haber bilgi verir mi?” sorusuna kendi cevabın ne?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.sihir",
+      "dayanak": "M9: kitap s. 477–480 (haber felsefesi, mütevatir, manevî tevatür; Ağrı örneği s. 480; düz dünya s. 479; tıp/kozmoloji s. 479; Milgram s. 480). Dn. 1058: mucize hadislerinin birkaç ravide kalması senedlerin sonradan uydurulmadığının göstergesi (s. 477). Batı–haber eleştirisi ekranda kullanılmadı."
+    },
+    {
+      "id": "mucize.sihir",
+      "gizliDugum": "M8",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "kapat": "mucize",
+      "satirlar": [
+        { "metin": "Bir ipucu daha. Müşrikler Hz. Muhammed'e “sihirbaz” diyordu." },
+        { "metin": "Düşmanlık ortamında karşındakine ne zaman “sihirbaz” dersin?" },
+        { "metin": "Tartışmada asla. Ancak karşındaki gözünün önünde şaşırtıcı bir şey yapmışsa.", "vurgu": true },
+        { "metin": "Kur'an bunu pekiştirerek aktarır: “Bu apaçık bir sihirbazdır.”" },
+        { "metin": "İtirazın kendisi, bir şey yaşandığını ele verir." }
+      ],
+      "soru": {
+        "metin": "Kimseye tartışmada “sihirbaz” demezsin. Bu söz sence neyin işareti olabilir?",
+        "cipler": ["Şaşırtıcı bir şey yaşandı", "Mecaz olabilir"],
+        "serbest": false
+      },
+      "yollar": [
+        { "tur": "ikna", "anahtar": ["şaşırtıcı", "yaşandı", "haklısın", "ikna oldum", "mantıklı", "katılıyorum", "anlamlı"], "git": "kapanis.giris" },
+        { "tur": "itiraz", "anahtar": ["mecaz", "mecazen", "etkileyici söz", "etkileyici"], "yanit": ["Mecaz, hakiki anlamın üstüne delille kurulur.", "Kur'an'da sihir, Firavun'un sihirbazları kıssasında hakiki anlamıyla geçer.", "Mecaz olsa bile: şiirle işi olmayan birinin sözüyle toplumu büyülemesi, belagat mucizesinin itirafıdır."] }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            { "metin": "Müşrikler somut mucize istedi: “Uhud altına dönüşsün.”" },
+            { "metin": "Neden verilmedi? Her isteğe cevap veren bir din, gösteriye dönerdi." }
+          ],
+          "soru": "Her isteği yerine getiren bir mesaj, bir kuşak sonra neyi ispat ederdi?"
+        },
+        {
+          "satirlar": [
+            { "metin": "Sahabenin çoğu mucize görerek Müslüman olmadı." },
+            { "metin": "“Bu yüz yalan söylemez” diyerek haber incelemesi yaptılar." }
+          ],
+          "soru": "Birine bakıp “bu yalan söylemez” dedirten şey ne olabilir?"
+        }
+      ],
+      "kompozisyon": "Peki “sihirbaz” itirazını, bu verilerle birlikte nasıl yorumluyorsun?",
+      "kopru": ["Buna birazdan geleceğiz. Şimdi şunu soruyordum:"],
+      "sonraki": "mucize.devam",
+      "dayanak": "M8, M10: kitap s. 474–482. 10/2, 38/4, 46/7, 51/52, Tâhâ 20/56–76. Mecaz itirazı ve cevabı s. 476. Uhud altın isteği: s. 481. Sahabenin ihtidası: s. 482. Haber yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris."
+    },
+    {
+      "id": "mucize.devam",
+      "gizliDugum": "M10",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Bir pencere daha mı açalım, yoksa toparlayalım?" },
+        { "metin": "Acele yok. Hangisi sana daha yakınsa." }
+      ],
+      "soru": {
+        "metin": "Nereden devam edelim?",
+        "cipler": ["Dil ve edebiyat", "Geleceğe dair haberler", "Eski kıssalar", "Toparlayalım"],
+        "serbest": true
+      },
+      "yollar": [
+        { "tur": "yonlendir", "anahtar": ["dil", "edebiyat", "şiir", "belagat"], "git": "mucize.belagat-giris" },
+        { "tur": "yonlendir", "anahtar": ["gelecek", "geleceğe", "gayb", "rum", "bizans", "kehanet", "haber"], "git": "mucize.rum-giris" },
+        { "tur": "yonlendir", "anahtar": ["kıssa", "kıssalar", "tevrat", "incil", "eski", "tarih"], "git": "mucize.kissa-giris" },
+        { "tur": "yonlendir", "anahtar": ["toparla", "toparlayalım", "bitir", "yeter", "tamam"], "git": "kapanis.giris" }
+      ],
+      "varsayilan": "kapanis.giris",
+      "dayanak": "Merkez: ret ve kompozisyon sonrası, ya da bir yolun sonunda ikna olmamış kullanıcıya diğer pencereleri sunar. M10 (kitap s. 480–482): mucize iman için şart değil, ek bir penceredir."
+    },
+    {
+      "id": "kapanis.giris",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Buraya kadar geldin. Teşekkür ederim." },
+        { "metin": "Bu zaman kolay verilmez." },
+        { "metin": "Şimdi yolculuğu tek bir şemada toplayalım." },
+        { "metin": "", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": null, "kapali": [] } } },
+        { "metin": "Haber şuydu: “Allah, Cebrail aracılığıyla benimle konuşuyor.”", "vurgu": true },
+        { "metin": "Bu haber ya doğruydu, ya yanlıştı." }
+      ],
+      "sonraki": "kapanis.harita",
+      "dayanak": "R8, Son Söz: kitap s. 509–511 (yöntem yeni değil; kaçamağa yer bırakmama; kapalı devre). KAPANIŞ GİRİŞ NOKTASI — AKIS-SEMA sabit id."
+    },
+    {
+      "id": "kapanis.harita",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "isik" },
+      "satirlar": [
+        { "metin": "Yanlışsa iki yol vardı." },
+        { "metin": "Bilerek söylemişse: hâşâ, bir sahtekârlık.", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "bilerek", "kapali": [] } } },
+        { "metin": "Samimiyet delillerine baktın. Bu yol sönükleşti.", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "bilerek", "kapali": ["bilerek"] } } },
+        { "metin": "Bilmeden söylemişse: hâşâ, bir yanılgı.", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "bilmeyerek", "kapali": ["bilerek"] } } },
+        { "metin": "Fetanet delillerine baktın. Bu yol da sönükleşti.", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "bilmeyerek", "kapali": ["bilerek", "bilmeyerek"] } } },
+        { "metin": "Geriye tek yol parlıyor: haber doğruydu.", "vurgu": true, "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "dogru", "kapali": ["bilerek", "bilmeyerek"] } } },
+        { "metin": "Mucizeler bu yolu doğrudan destekler: dil, gelecek, geçmiş." },
+        { "metin": "Ağırlığını sen tartarsın." }
+      ],
+      "sonraki": "kapanis.karar",
+      "dayanak": "R8: kitap s. 509–511, devre hem negatif hem pozitif kapanır. Diyagramdaki kapalı dallar sabit gösterilir; kullanıcının gerçek kapalı dalları profilde tutulur — ileride motor profile göre kapali dizisini üzerine yazabilir (AKIS-SEMA: ihtimaller diyagramı veri.kapali)."
+    },
+    {
+      "id": "kapanis.karar",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "safak" },
+      "satirlar": [
+        { "metin": "Şunu açıkça söyleyeyim: hiçbirini dayatmak istemedim." },
+        { "metin": "Bu yol delil toplamaktan fazlası. Müslümanlar buna “hidayet” der ve bir lütuf bilir." },
+        { "metin": "Delilleri gördün. Tartmak sana ait." },
+        { "metin": "Kararın ne olursa olsun, buraya kadar dürüstçe düşündün." },
+        { "metin": "Karar senin.", "vurgu": true }
+      ],
+      "sonraki": "kapanis.soru",
+      "dayanak": "Son Söz'ün tevazu kısmı (kitap s. 510–511; 'hak etme değil lütfetme' cümlesi OCR bozuk, dogrulanacaklar A — doğrudan alıntılanmadı, serbest ve kısaltılmış ifade). Dayatmama ilkesi: CLAUDE.md 'Kullanıcı kendini özgür hissetmeli'."
+    },
+    {
+      "id": "kapanis.soru",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Son bir soru. İstersen kısaca yaz." }
+      ],
+      "soru": {
+        "metin": "Bugün aklında kalan ne oldu?",
+        "cipler": ["Düşünmem gerek", "Daha fazla sormak istiyorum"],
+        "serbest": true
+      },
+      "yollar": [
+        { "tur": "yonlendir", "anahtar": ["daha fazla", "sormak istiyorum", "sorum var", "devam etmek istiyorum"], "git": "mucize.devam" }
+      ],
+      "varsayilan": "kapanis.veda",
+      "dayanak": "Serbest cevap profil.kapanis.soru olarak kaydedilir. Hiçbir cevap yanlış sayılmaz; sınıflandırma yapılmaz."
+    },
+    {
+      "id": "kapanis.veda",
+      "gizliDugum": "R8",
+      "sahne": { "arkaplan": "gokyuzu" },
+      "satirlar": [
+        { "metin": "Yazdığın için teşekkür ederim." },
+        { "metin": "Hangi yönde olursa olsun, saygıyla ayrılıyoruz." },
+        { "metin": "Sorularını bırakma. İyi sorular, iyi bir yolun işaretidir." },
+        { "metin": "İstersen yarın kaldığın yerden devam edebiliriz.", "vurgu": true },
+        { "metin": "Kendine iyi bak." }
+      ],
+      "dayanak": "Son beat: sonraki yok; motor oturumu sakin biçimde kapatır ve ilerlemeyi kaydeder ('kaldığın yerden devam')."
+    }
+  ]
+}
