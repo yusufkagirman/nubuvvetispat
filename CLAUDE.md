@@ -37,6 +37,9 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - **Dal kapanması:** Bir dal yalnızca **kullanıcı ikna olduğunu beyan edince** kapanır (sistem kendiliğinden kapatmaz).
 - **Kayıt/gizlilik:** Varsayılan: ilerleme yalnız tarayıcıda (localStorage). Kullanıcı isterse hesap açar ve ilerleme sunucuda saklanır. **Anonimlik önemli:** hesap için asgari veri (e-posta zorunlu değil tercih edilir, ör. kullanıcı adı + parola / anonim kod), sohbet içeriği gereksiz saklanmaz.
 - **Öncelik (güncel):** Önce **AI'sız, kendi başına yeten** rehberli interaktif sunum yapılır (harita + profil anketi + sahneler/kartlar/görseller, tamamen önceden yazılmış içerik). Sohbet ajanı **sonraki aşama**dır; sunum ona bağımlı tasarlanmaz, ileride eklenebilecek bir katman olarak bırakılır.
+- **Etkileşim modeli (onaylandı, ayrıntı `docs/etkilesim-modeli.md`):** Düz "ikna oldunuz mu?" yerine kitaptaki gibi **özet + ana düşünce + ilzam sorusu** ("Senin iddian şuydu, veri şu; bu mantıken nasıl mümkün?"). Kullanıcı serbest cevap yazar; sistem niyeti sınıflandırır. Kullanıcı yalnız **kendi iddiasının dalını** görür (sahtekâr → samimiyet, deli → fetanet). İkna olmadıkça **her seferinde yeni bir örnek/hadise** gelir, argüman tekrar özetlenir, soru yeniden sorulur. Kaçarsa/konu dışına çıkarsa nazikçe konuya döndürülür ve soru tekrarlanır. Örnekler tükenince kompozisyon talebi. "Ara ver" her zaman serbest.
+- **Delil çeşitlendirme:** Kitaptaki dallar temel; her düğüme ek örnekler eklenir. Kitap dışı ek → kaynak zorunlu + `dogrulanacak:true` (kullanıcı onayı).
+- **İçerik şeması:** `icerik/SEMA.md`, düğümler `icerik/dugumler/<ID>.json`. Site: `site/` (statik, sunucusuz).
 - **AI modeli (sonraki aşama):** Ucuz API'li modeller (DeepSeek, GLM, Kimi vb.) değerlendiriliyor; sağlayıcıdan bağımsız mimari kurulacak (bkz. sunum-tasarimi açık kararlar).
 
 ## Çalışma Düzeni (Claude için)
