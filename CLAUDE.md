@@ -28,7 +28,7 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - Dil: Türkçe (ileride çok dilli olabilir).
 
 ## Alınan Kararlar (ayrıntı: `docs/plan-1-beyin-firtinasi.md`)
-- **Omurga: A + B hibrit.** Ekranda ihtimaller ağacı haritası yön verir (kullanıcı dal seçer, kapanan dal ✗). İçerikte kitaba bağlı, uydurmayan bir sohbet ajanı akışı yürütür. Rehberli sahneler/kartlar/görsel modüller harita düğümlerinin içeriğidir.
+- **Omurga: A + B hibrit (B = sonraki aşama).** Ekranda ihtimaller ağacı haritası yön verir (kullanıcı dal seçer, kapanan dal ✗). İçerikte kitaba bağlı, uydurmayan bir sohbet ajanı akışı yürütür. Rehberli sahneler/kartlar/görsel modüller harita düğümlerinin içeriğidir.
 - **Hedef kitle:** Müslüman olmayan herkes. (Davetçi/eğitimci sürümü ayrı bir çalışma olacak.)
 - **Profil ölçme:** Başta sorularla muhatabın kabulleri ve seviyesi ölçülür (kaynaklara güven, Tanrı inancı, din geçmişi, peygamberlik algısı, bilgi seviyesi). Yol ve anlatım dili buna göre şekillenir; kronoloji korunur, derinlik/örnek seçimi değişir.
 - **Görseller:** Gerçek görseller kullanılır (ör. erken dönem mushaf fotoğrafları). Yalnız açık lisanslı (kamu malı / Wikimedia Commons / müze açık erişim) görsel; her görselde kaynak + lisans + kitaptaki sayfa atfı.
@@ -36,7 +36,8 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - **Lisans:** kullanıcıya göre sorun değil; kitap metni/görselleri kullanılabilir (atıf yine verilir).
 - **Dal kapanması:** Bir dal yalnızca **kullanıcı ikna olduğunu beyan edince** kapanır (sistem kendiliğinden kapatmaz).
 - **Kayıt/gizlilik:** Varsayılan: ilerleme yalnız tarayıcıda (localStorage). Kullanıcı isterse hesap açar ve ilerleme sunucuda saklanır. **Anonimlik önemli:** hesap için asgari veri (e-posta zorunlu değil tercih edilir, ör. kullanıcı adı + parola / anonim kod), sohbet içeriği gereksiz saklanmaz.
-- **AI modeli:** Ucuz API'li modeller (DeepSeek, GLM, Kimi vb.) değerlendiriliyor; sağlayıcıdan bağımsız mimari kurulacak (bkz. sunum-tasarimi açık kararlar).
+- **Öncelik (güncel):** Önce **AI'sız, kendi başına yeten** rehberli interaktif sunum yapılır (harita + profil anketi + sahneler/kartlar/görseller, tamamen önceden yazılmış içerik). Sohbet ajanı **sonraki aşama**dır; sunum ona bağımlı tasarlanmaz, ileride eklenebilecek bir katman olarak bırakılır.
+- **AI modeli (sonraki aşama):** Ucuz API'li modeller (DeepSeek, GLM, Kimi vb.) değerlendiriliyor; sağlayıcıdan bağımsız mimari kurulacak (bkz. sunum-tasarimi açık kararlar).
 
 ## Çalışma Düzeni (Claude için)
 - Ana oturum **orkestra şefi**dir; context'i şişirme. Kitap okuma/özetleme, kaynak çıkarma gibi ağır işleri **Sonnet/Haiku alt agent'larına** ver; onlar sonuçları `docs/` altına yazsın.
