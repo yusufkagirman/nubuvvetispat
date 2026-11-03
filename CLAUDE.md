@@ -33,7 +33,9 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - Geliştirme dalı: `claude/eager-euler-t6usyb`. Değişiklikleri commit + push et.
 
 ## Durum
-- [ ] Kitap repoya eklenecek (`kitap/`)
+- [x] Kitap repoya eklendi (`kitap/peygamberligin-ispati.pdf`, metin: `docs/metin/`)
+- [ ] Bölüm analizleri (`docs/bolumler/`)
 - [ ] Kitabın bölüm bölüm metod haritası çıkarılacak (`docs/metod-haritasi.md`)
 - [ ] Oryantalist kaynak envanteri (`docs/kaynaklar.md`)
+- [ ] **Beyin fırtınası:** Çıktının formatı henüz netleşmedi. Metod tam kavrandıktan sonra kullanıcıyla birlikte "metodu en iyi nasıl yansıtırız" planı yapılacak. Format kararını kullanıcı vermeden kod/tasarım yazma.
 - [ ] Sunum mimarisi tasarımı
