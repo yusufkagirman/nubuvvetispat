@@ -1,0 +1,182 @@
+{
+  "id": "Z16",
+  "baslik": "Sahabenin tarihî kaynaklığı (tepkisizlik argümanı)",
+  "dal": "zemin",
+  "sayfa": "94-119",
+  "onkosul": [
+    "Z15"
+  ],
+  "sonraki": "Z17",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "deist",
+      "hristiyan",
+      "yahudi",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "İkinci yorum aracı sahabeyle ilgili. Kitabın önerisi: 'Bu olayları yaşayan bir arkadaşınızı hayal edin.' Sizin yakın arkadaşınız ağır baskılara, yoksulluğa, yalnızlığa katlanıyor; bunu bir yalan için yapar mı? (s. 95)"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Ayetler ve tarih kaynakları: baskı",
+      "metin": "Ankebut 29:10, Bakara 2:155, A'râf 7:126 gibi ayetler sabır telkin eder; bu da ikincil delil olarak baskıyı gösterir. Hazleton, Habeş hicretinin baskıya delil olduğunu belirtir; Watt, çoğunun samimi olduğunun anlaşıldığını söyler; Caetani, Kureyş'in her ailede Müslüman olanlara zulmettiğini, aç susuz bıraktığını anlatır (s. 95-99)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bireysel ve ailevi bedeller",
+      "metin": "Bilal, Ammar b. Yasir ve ailesi (annesi işkencede öldü), İbn Mesud'un Kâbe'de Kur'an okuyup dayak yemesi, Osman'ın amcası tarafından bağlanması. Ebubekir'in sermayesi 40 bin dirhemden 5 bine düştü (Watt'a göre esas olarak iktisadi baskı nedeniyle). Ebu Talha en sevdiği bahçeyi infak etti (s. 100-111)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Müslüman propagandasının başlangıcının, hiçbir yalancılık kastına kapılmayan, yalnız hakikat-i kusva (nihai gerçek) hakkında derin bir itikat ile hareket eden dindar bir ruhun, namuskârane ve samimi inkişafından... ibaret bulunması keyfiyetini ispata bol bol kifayet eyleyeceğini göstermiş oldu.",
+      "kaynak": {
+        "yazar": "Leone Caetani",
+        "eser": "İslam Tarihi",
+        "sayfa": "362"
+      },
+      "kitapSayfa": "112-113"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Sorgulayan sahabe",
+      "metin": "Sahabe sorgulamayan insanlar değildi: Hayber'de 'cehennem ehlindendir' denilen adam savaşıp yaralanınca 'neredeyse bazılarımız şüpheye düşecekti'; Hudeybiye'de Ömer 'Sen bize Kâbe'yi tavaf edeceğimizi vaat etmedin mi?' diye sordu; Miraç anlatısında bazılarının imanı sarsıldı. Bodley: 'Dine davet ettiklerimin içinden, tereddüt ve şaşkınlık göstermeyen hiç kimse çıkmadı. Sadece Ebubekir müstesna.' (s. 114-119)"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Çıkarım: Görünmeyen bir anlatı bile dinden çıkmaya yol açıyorsa, görünür dünyaya ait ve herkesin bilebileceği hatalı bir bilgi çok daha büyük tepkiler doğururdu. Örnek uygulama: Yusuf 12:3 ('Sen bundan önce haberi olmayanlardandın.') Peygamber bu kıssaları 40 yaşından önce bilse ve anlatsa yakın arkadaşları haberdar olurdu (s. 118-119)."
+    }
+  ],
+  "ozet": "Ağır baskıya, yoksulluğa ve iktidarsızlığa dayanan, üstelik sorgulayan bir topluluk, Kur'an tahrif edilse ya da kendi toplumlarına dair apaçık bir hata içerse tepki gösterirdi. Tepkinin olmaması, Kur'an'daki tarihî bilgilere başka hiçbir kitapta olmayan bir 'yorum güvenilirliği' kazandırır.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Sahabe yanlış bir şeye bile sadakatle inanabilir; Kur'an'da tarihî bir hata varsa fark etmeyebilirler. Veri şu: Aynı insanlar Hayber, Hudeybiye ve Miraç anlatılarında bile şüpheye düşecek kadar sorguluyordu ve bedelini peşin ödüyordu. Toplumlarına dair apaçık bir hatayı fark edip sessiz kalmaları mantıken nasıl mümkün olabilir?",
+    "cipler": [
+      "Haklısınız, mümkün olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; sahabenin tepkisizliği bir yorum güvenilirliği sağlıyor. Şimdi aynı mantığı Kur'an'ın düşmanlarına uygulayalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Bu kadar bedel ödeyen ve sorgulayan insanların, apaçık bir hatayı fark etmemesi hangi gerekçeyle açıklanır?",
+        "Bir örnek düşünelim: Yakın arkadaşınız sizin yanınızda böyle bir bedel ödese, bunu bir yalana mı bağlardı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Sahabenin fedakârlığı Kur'an'ın tarihî bilgilerine nasıl güvenilirlik kazandırıyor?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z16-i1",
+      "ozet": "Sahabe yanlış bir şeye bile sadakatle inanabilir.",
+      "anahtar": [
+        "sadakat",
+        "yanlış şeye",
+        "körü körüne",
+        "inanabilir",
+        "saf"
+      ],
+      "yanit": "Bazı insanlar için bu mümkündür; ama çok geniş ve her çeşit insanı içeren bir topluluğun topluca sağduyuyu yitirmesi beklenmez. Üstelik zamanla güçlenme değil zayıflama beklenir; oysa bunlar zorluk arttıkça bağlılığını sürdürdü.",
+      "kaynak": {
+        "kitapSayfa": "113-114"
+      }
+    },
+    {
+      "id": "Z16-i2",
+      "ozet": "Deliler gibi inanıp körleşebilirler.",
+      "anahtar": [
+        "körleşme",
+        "deli gibi",
+        "taassup",
+        "mitleştir",
+        "sorgulamadan"
+      ],
+      "yanit": "Kitap bu 'mitleştirmeyi' reddeder: Sahabe sorgulayan insanlardı. Hayber, Hudeybiye, Miraç olaylarında şüpheye düşenler, hatta dinden ayrılanlar oldu. Bodley'e göre sadece Ebubekir tereddüt göstermedi ve onun tavrı da saflıktan değil Peygamber'i en iyi tanımasından kaynaklanıyordu.",
+      "kaynak": {
+        "kitapSayfa": "114-119"
+      }
+    },
+    {
+      "id": "Z16-i3",
+      "ozet": "Kur'an'da tarihî hata varsa?",
+      "anahtar": [
+        "tarihi hata",
+        "hata varsa",
+        "yanlış bilgi",
+        "tarihî yanlış"
+      ],
+      "yanit": "Her ihtimalde sahabe tepki gösterirdi: Görünmeyen bir anlatı bile bazılarını dinden uzaklaştırıyorsa, görünür dünyaya dair herkesin bilebileceği bir hata çok daha büyük sarsıntı yaratırdı. İtiraz konusu olmamış her tarihî bilgi bu yüzden 'yorum güvenilirliği' kazanır.",
+      "kaynak": {
+        "kitapSayfa": "113, 117-119"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "İfk hadisesi",
+      "metin": "Ebubekir, Hz. Aişe'ye atılan iftiraya karışan Mistah'a yardımı kesme yemini etmişti; Nur 24:22 inince yeminini bozup kefaret verdi ve yardıma devam etti. Cahiliye ahlakında bu bağışlama aşağılık sayılırdı.",
+      "durum": "kitap",
+      "kitapSayfa": "110-111",
+      "ilzam": "Cahiliye ahlakına zıt olan bu tavrı, çıkar için bir kurgunun parçası saymak mantıken nasıl bir arada olabilir?"
+    },
+    {
+      "baslik": "Ebubekir'in serveti",
+      "metin": "Armstrong ve Watt'a göre boykot sonrası Ebubekir'in sermayesi 40 bin dirhemden 5 bine düştü; Watt: 'Ebubekir'in servetindeki gerilemenin, esas olarak Müslümanların muhaliflerinin çeşitli biçimlerdeki iktisadi baskılarından kaynaklandığı sonucuna varılabilir.'",
+      "durum": "kitap",
+      "kitapSayfa": "105",
+      "ilzam": "Servetini ve konumunu kaybeden birinin, 23 yıl boyunca görünürde dünyevi bir çıkar olmadan bir yalanı sürdürmesi mantıken nasıl mümkün olabilir?"
+    },
+    {
+      "baslik": "Akabe biatı",
+      "metin": "Dermenghem'e göre Abbas b. Ubade, Hazrecîlere biatın 'kırmızı ve siyah insana karşı' bütün savaşları kabul etmek olduğunu hatırlatır; karşılık 'cennet'tir. Abbas'ın saydıkları gerçekten başlarına geldi.",
+      "durum": "kitap",
+      "kitapSayfa": "98",
+      "ilzam": "Dünyevi bir karşılığı olmayan bir bedeli peşin ödeyen bir topluluğun samimiyetinden şüphe etmek neye dayanır?"
+    },
+    {
+      "baslik": "Hayber sahnesi",
+      "metin": "Hayber'de 'cehennem ehlindendir' denilen adam savaşıp yaralanınca 'neredeyse bazılarımız şüpheye düşecekti'; sonra intihar ettiği anlaşıldı. Bu, sahabenin sorgulayan yapısını gösterir ve bu hadis 'sorgulama' bağlamında kullanılmak için uydurulmamıştır.",
+      "durum": "kitap",
+      "kitapSayfa": "114-115",
+      "ilzam": "Sorgulayan bir topluluğun, apaçık bir tarihî hatayı fark edip sessiz kalması mantıken nasıl mümkün olur?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani ağır bedelleri, dünyevi çıkar beklemeyen yaşantıları ve sorgulayan yapıları birlikte nasıl açıklıyorsunuz? Kur'an'da tarihî bir hata olsaydı, bu insanların sessiz kalması neden beklenirdi?",
+  "notlar": "Kitap sayfaları kısmen OCR'dan: Akabe s. 98, Hayber s. 114-115, ifk s. 110-111 OCR işaretlerinden teyit edildi; ayrıntı docs/bolumler/01 'a)' ve 'i)'. Caetani alıntısı dn. 227 (İslam Tarihi s. 362); OCR bozukluğu düzeltilmiş, '...' kısaltma. Rodinson (dn. 226), Arnold (dn. 228) alıntıları da s. 112-113'te."
+}

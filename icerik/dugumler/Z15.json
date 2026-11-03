@@ -1,0 +1,150 @@
+{
+  "id": "Z15",
+  "baslik": "İkincil delil mantığı",
+  "dal": "zemin",
+  "sayfa": "91-94",
+  "onkosul": [
+    "Z14"
+  ],
+  "sonraki": "Z16",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "deist",
+      "hristiyan",
+      "yahudi",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi sunumun en çok kullanacağı üç yorum aracından ilkini tanıyalım. Önce gündelik bir örnek."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Doktor örneği",
+      "metin": "Bir ortamda doktor olduğumun inkâr edildiğini ve gergin bir tartışma yaşandığını düşünün; doktor kimlik kartımı göstersem 'zaten bunu ispat için yaptırmış olabilir' dersiniz. Ama trafik kazasında beni tanıyan herkes 'Doktor yardım et!' dese ve ben müdahale etsem, bu ortam doktor olduğumu ispatlamak için kurulmuş sayılmaz. İşte buna 'ikincil delil' diyoruz (s. 92)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kur'an'dan örnek: Bakara 2:214",
+      "metin": "'Yoksa sizden önce gelip geçenlerin hâli başınıza gelmeden cennete gireceğinizi mi sandınız?...' Ayet müminlere sabır telkin ediyor. Bu yüzden Müslüman olmadan da 'bir zulüm yaşanmış olmalı' çıkarımını yaparız (s. 91-92)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kalem 68:46 ve Tekvir 81:8-9",
+      "metin": "'Yoksa sen onlardan bir ücret istiyorsun da borç altında mı kalıyorlar?': Muhatapla 'ücret istenmediği' üzerinde ortak zemin yoksa bu hitap anlamsız olur. Diri diri gömülen kıza dair ayet de, bunun zaten herkesçe bilinen bir uygulama olduğunu varsayar (s. 93)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kural",
+      "metin": "Metin bir şeyi ispat için yazılmamış ama bağlamı onu varsayıyorsa, bu ikincil delil direkt iddiadan daha güçlüdür; çünkü kurgu töhmetinden uzaktır. Bu, her metne uygulanan bir okuma yöntemidir (s. 92-93)."
+    }
+  ],
+  "ozet": "Bir metin bir olguyu ispat için yazılmamış ama o olguyu varsayıyorsa, bu ikincil delil direkt iddiadan daha güçlüdür; kurgu şüphesinden uzaktır. Bu yöntem her tarihî metinde kullanılır ve Kur'an'a özgü bir ayrıcalık değildir.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Kur'an'daki bu cümleler kurgu; kendini ispat için yazılmış bir propaganda. Veri şu: Bakara 2:214'ün Müslüman olmayan bir okuyucuya bile 'bir zulüm yaşanmış' dedirttiği, Kalem 68:46'nın ücret konusunda muhatapla ortak bir zemini varsaydığı ve Tekvir 81:8-9'un herkesçe bilinen bir uygulamayı kınadığı görülüyor; hiçbiri o olguyu ispat için söylenmiyor. Bu ayetlerin 'ispat için kurgulandığı' iddiası bu veriyle mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bir arada olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; ikincil delil kuralını kabul ettiniz. Şimdi bu kuralı sahabeye uygulayacağız: Onların tepkisizliği ne anlatıyor?"
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Bir metin bir olguyu ispat için yazılmamışken o olguyu varsayıyorsa, bu neden kurgu olsun?",
+        "Doktor örneğine dönelim: 'Doktor yardım et!' çığlığı kimlik kartından neden daha güçlü?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: İkincil delil nedir ve neden kurgu şüphesinden uzaktır?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z15-i1",
+      "ozet": "Kur'an'daki bu cümleler kurgudur.",
+      "anahtar": [
+        "kurgu",
+        "uydurma cümle",
+        "yazılmış",
+        "hikaye"
+      ],
+      "yanit": "İkincil delil kurgu şüphesini dışarıda bırakır: Ayetin amacı o olguyu ispat etmek değildir; bağlamı onu varsayar. Doktor örneğindeki gibi, ispat için kurulmamış ortam daha güçlü delildir.",
+      "kaynak": {
+        "kitapSayfa": "92"
+      }
+    },
+    {
+      "id": "Z15-i2",
+      "ozet": "Kur'an Müslümanların yazdığı propaganda, kendini ispat için yazılmış.",
+      "anahtar": [
+        "propaganda",
+        "kendini ispat",
+        "yazmışlar",
+        "kendi kitapları"
+      ],
+      "yanit": "Bu okuma yöntemi sadece İslami deliller için değil, her metin için kullanılır: Peloponnesos Savaşı yalnızca Atinalı Thukydides'ten okunur; Osmanlı tarihi padişah kontrolünde yazılmış olsa da, eleştirilebilecek olaylar bu okumayla tespit edilir. Üstelik ispat için kurulmamış ayetler ispat iddiasında olmadıkları için propaganda sayılamaz.",
+      "kaynak": {
+        "kitapSayfa": "93"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Peloponnesos Savaşı",
+      "metin": "Peloponnesos Savaşı yalnızca Atinalılardan (Thukydides) okunur; ama bu yöntemle metin neredeyse objektif biçimde ele alınır. Osmanlı tarihi padişah kontrolünde yazılmış olsa da eleştirilebilecek olgular bu okumayla tespit edilir.",
+      "durum": "kitap",
+      "kitapSayfa": "93-94",
+      "ilzam": "Tarih yazımında her gün uyguladığınız bu yöntemi, yalnızca Kur'an'a uygulamamak mantıken nasıl savunulur?"
+    },
+    {
+      "baslik": "Kalem 68:46",
+      "metin": "'Yoksa sen onlardan bir ücret istiyorsun da borç yüzünden ağır bir yük altında mı kalıyorlar?' Muhatapla ücret istenmediği üzerinde hemfikir olmak gibi bir zemin olmasa bu hitap anlamsız olurdu; 'Ücret istemiyordu' önermesi doğal olarak çıkar.",
+      "durum": "kitap",
+      "kitapSayfa": "93",
+      "ilzam": "Bu hitabın muhataplarca anlaşılabilmesi için ortak bir zemin gerekmiyor mu? Bu zemin kurgu olabilir mi?"
+    },
+    {
+      "baslik": "Tekvir 81:8-9",
+      "metin": "Diri diri gömülen kıza dair ayet, ispat sadedinde değildir; herkesçe bilinen bir uygulamayı kınar. Kınamanın muhatapları bu uygulamadan haberdardır; olaya bu kadar yakın bir tarih vesikası yoktur.",
+      "durum": "kitap",
+      "kitapSayfa": "93-94",
+      "ilzam": "Muhatapların bildiği bir uygulamayı kınayan metnin, o uygulamayı kurgulamış olması mantıken nasıl mümkün olur?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani ispat amacı taşımayan ayetlerin bağlamsal olarak olguları varsaymasını, birlikte nasıl açıklıyorsunuz? Bu ayetlerin kurgu olduğunu hangi veriyle savunursunuz?",
+  "notlar": "Sonraki bölümlerde 'ikincil delil' kısaltılarak çağrılır. Bakara 2:214 = dn. 175; Kalem 68:46 = dn. 176; Tekvir 81:8-9 = dn. 177."
+}

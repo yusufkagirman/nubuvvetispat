@@ -1,0 +1,174 @@
+{
+  "id": "Z17",
+  "baslik": "Mekke müşriklerinin sessizliği",
+  "dal": "zemin",
+  "sayfa": "119-125",
+  "onkosul": [
+    "Z16"
+  ],
+  "sonraki": "H1",
+  "profil": {
+    "kritik": [
+      "ateist",
+      "agnostik",
+      "deist",
+      "hristiyan",
+      "yahudi",
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Üçüncü araç: Düşmanların sessizliği. Bu mesaj Mekke'de müşriklerin, Medine'de Yahudilerin ve münafıkların düşmanlığı altında gelişti. Eğer Kur'an'da yalan ya da hatalı bir bilgi olsaydı, rakipleri bunu kullanırlardı."
+    },
+    {
+      "tip": "alinti",
+      "metin": "İslam'ın, yapısı gereği polemikçi olduğu asla unutulmamalıdır.",
+      "kaynak": {
+        "yazar": "D. S. Margoliouth",
+        "eser": "Muhammed ve İslam'ın Yükselişi",
+        "sayfa": "117"
+      },
+      "kitapSayfa": "119"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Zayıf itirazlara bile cevap",
+      "metin": "Kur'an düşmanlarının çok zayıf itirazlarını bile aktarıp cevaplar: kıble değişikliği (Bakara 2:142), sivrisinek misali (2:26), 'melek inmeliydi' (En'âm 6:8), 'dilesek benzerini söylerdik, masallar' (Enfâl 8:31), 'Azap ne zaman?' (Enbiyâ 21:38), 'iki şehrin büyüğüne inmeliydi' (Zuhruf 43:31), 'alışveriş de faiz gibi' (Bakara 2:275) ve daha fazlası (s. 120-123)."
+    },
+    {
+      "tip": "alinti",
+      "metin": "Muhammed'in düşmanlarının hiçbirinin, vahiylerin sahte olduğunu iddia etmemesi ilginçtir. Açıklayamadıkları bir şeylerin olduğu belliydi.",
+      "kaynak": {
+        "yazar": "Karen Armstrong",
+        "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed",
+        "sayfa": "180"
+      },
+      "kitapSayfa": "124"
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yusuf 12:3 örneği: Margoliouth'a göre, 'Eğer Peygamber, Hristiyan ve Yahudilerin kitaplarında yazılan hikâyeleri anlatmış olsaydı, rakipleri hocasının adını söyleyip kaynakları gösterirlerdi.' Oysa böyle bir itiraz nakledilmez. Böylece Kur'an, tüm toplumların pür dikkat incelediği, 'spot ışıkları altında' bir metin olarak değerlendirilir (s. 119-125)."
+    }
+  ],
+  "ozet": "Müşrikler, Yahudiler ve münafıklar Kur'an'ı spot ışığı altında incelediler; en zayıf itirazları bile Kur'an'ın cevapladığı bir ortamda, apaçık bir tarihî hata ya da yalan olsaydı bunun propaganda konusu olması kaçınılmazdı. İtiraz konusu olmayan her tarihî bilgi bu yüzden yorum güvenilirliği kazanır. Böylece kullanılacak metinlerin güvenilirliği ve yorum yöntemleri temellendirilmiş olur.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Kur'an'daki tarihî bilgiler hatalı olabilir ya da bir kaynaktan alınmış olabilir. Veri şu: Düşmanlar çok daha küçük konularda bile propaganda yaptı, Kur'an bunlara cevap verdi, ama kimse 'şu kıssa bundan alındı' ya da 'şu tarihî bilgi yanlış' demedi. Bu kadar kalabalık ve düşman bir muhatap kitlesinin apaçık bir hatayı sessizce geçmesi mantıken nasıl mümkün olabilir?",
+    "cipler": [
+      "Haklısınız, mümkün olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; böylece zemini tamamladık: Kaynakların güvenilirliği ve yorum yöntemleri temellendirildi. Şimdi asıl soruya, Hz. Muhammed'in getirdiği habere geçebiliriz."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu yeniden koyayım: Düşmanların çok daha hafif konularda bile itiraz ettiği bir ortamda, apaçık bir hata nasıl fark edilmeden kalır?",
+        "Bir örnek düşünelim: Rakipleriniz sizin hatanızı yakalasa bunu kullanmaz mıydı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Müşriklerin ve Yahudilerin tepkisizliği Kur'an'daki tarihî bilgiler hakkında ne söylüyor?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z17-i1",
+      "ozet": "Peki Kur'an'da hatalı bir tarihî bilgi olsaydı?",
+      "anahtar": [
+        "hatalı",
+        "hata olsaydı",
+        "yanlış bilgi",
+        "tarihî yanlış"
+      ],
+      "yanit": "İtiraz konusu olmamış her tarihî bilgi, sahabe ve müşrik tepkisizliği sayesinde yorum güvenilirliği kazanır. Kur'an, tüm toplumların pür dikkat incelediği bir metindir; apaçık bir hata büyük bir çalkantı yaratır ve Kur'an'ın cevap vermesini gerektirirdi.",
+      "kaynak": {
+        "kitapSayfa": "125"
+      }
+    },
+    {
+      "id": "Z17-i2",
+      "ozet": "Peygamber kitaplardan hikâye anlatmış olsa rakipleri söylemez miydi?",
+      "anahtar": [
+        "kitaplardan",
+        "hikaye",
+        "kaynak",
+        "hocası",
+        "yahudi hristiyan"
+      ],
+      "yanit": "Kitaba göre söylerdi: Margoliouth'a göre rakipler hocasının adını söyleyip kaynakları gösterirlerdi. Yusuf 12:3'ün 'Sen bu kıssaları daha önce bilmiyordun' ifadesine rağmen böyle bir itiraz nakledilmez. (Bu konuyu ileride daha ayrıntılı ele alacağız.)",
+      "kaynak": {
+        "kitapSayfa": "119, 125"
+      }
+    },
+    {
+      "id": "Z17-i3",
+      "ozet": "Müşrikler zaten itiraz etmiş, bu yüzden bir şey değişmez mi?",
+      "anahtar": [
+        "itiraz etti",
+        "söylediler",
+        "yalan dedi",
+        "müşrikler söyledi"
+      ],
+      "yanit": "Müşriklerin itirazları nakledilir ve cevaplanır; ama hiçbiri 'şu tarihî bilgi yanlış' ya da 'vahiyler sahte' biçiminde değildir. Armstrong'a göre düşmanların hiçbiri vahiylerin sahte olduğunu iddia etmemiştir ve açıklayamadıkları bir şeylerin olduğu belliydi.",
+      "kaynak": {
+        "kitapSayfa": "124"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Furkan 25:33",
+      "metin": "Kur'an cevap verdiğini ilan eder: 'Onların getirdiği hiçbir örnek yoktur ki, mutlaka biz sana hakkı ve daha güzel olan bir açıklamasını getirmişizdir.' Kitaba göre Kur'an'ın tamamı iddia ve cevap içerir.",
+      "durum": "kitap",
+      "kitapSayfa": "124",
+      "ilzam": "Düşmanların her itirazına cevap veren bir metinde, cevapsız kalan bir tarihî hatanın bulunması mantıken nasıl bir arada olabilir?"
+    },
+    {
+      "baslik": "Hafif itirazlara cevap",
+      "metin": "Kur'an; kıble değişikliği, sivrisinek misali, 'malımız evladımız çok', 'Allah fakir biz zenginiz' gibi çok hafif itirazlara bile cevap verir.",
+      "durum": "kitap",
+      "kitapSayfa": "120-123",
+      "ilzam": "Bu kadar hafif konulara cevap veren bir metnin, apaçık bir hatayı cevapsız bırakması beklenir mi?"
+    },
+    {
+      "baslik": "Spot ışığı",
+      "metin": "Kur'an, kendisinden haberdar olan tüm toplumların pür dikkat incelediği, tüm spot ışıklarının yöneldiği bir kaynaktır; apaçık bir hata büyük bir çalkantı yaratırdı.",
+      "durum": "kitap",
+      "kitapSayfa": "125",
+      "ilzam": "Tüm toplumların gözü önünde yazılan bir metinde, bir hatanın fark edilmeden kalması hangi tarihî senaryoyla açıklanır?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani sahabenin fedakârlığını ve sorgulamasını, müşriklerin ve Yahudilerin sessizliğini ve Kur'an'ın zayıf itirazlara bile cevap vermesini birlikte nasıl açıklıyorsunuz? Kur'an'daki tarihî bilgilere neden güvenmeyelim?",
+  "notlar": "Armstrong alıntısı dn. 263 (s. 180). Margoliouth dn. 240 (s.117). Z17 sonrası H1'e geçilir. Kitabın kapanış cümlesi s. 125."
+}

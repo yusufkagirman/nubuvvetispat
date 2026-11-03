@@ -1,0 +1,148 @@
+{
+  "id": "Z13",
+  "baslik": "Antik metinlerle ve İncillerle kıyas",
+  "dal": "zemin",
+  "sayfa": "86-89",
+  "onkosul": [
+    "Z11",
+    "Z5"
+  ],
+  "sonraki": "Z14",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen",
+      "hristiyan",
+      "yahudi"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Z5'te kaynak seçiminde tutarlılık ilkesini koymuştuk. Şimdi bu ilkenin sınavı: Neredeyse herkesin kabul ettiği antik metinler, yazıldıkları tarih ile elimizdeki en eski kopya arasındaki zaman farkı açısından ne durumda?"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Antik metinler (McDowell tablosu)",
+      "metin": "Homeros, İlyada: İ.Ö. 800 / en eski kopya İ.Ö. 400 / 400 yıl. Herodot: 1350 yıl. Thukydides: 1300 yıl. Eflatun: 1300 yıl. Demostenes: 1400 yıl. Sezar, Galya Savaşları: 1000 yıl. Livius: 400 / 1000 yıl. Tacitus, Annals: 1000 yıl. Genç Plinius, Doğa Tarihi: 750 yıl (Josh McDowell, s. 91'deki tablo; kitap s. 86-87)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Yeni Ahit için tahminî yazılış tarihleri",
+      "metin": "Kitabın aktardığı tabloya (Duygu) göre: Markos tahminen 68-71; Matta ve Luka tahminen 80-100; Yuhanna tahminen 90-110; Elçilerin İşleri tahminen 80-150; Pavlus'un mektupları 50'li ve 60'lı yıllar. Birçok metnin yazarı 'bilinmiyor' diye geçer. (Bu, yazım tarihi tahminidir; kitap bunu, Kur'an'ın yazım ve kopya verileriyle kıyas için verir, s. 87-88.)"
+    },
+    {
+      "tip": "kart",
+      "baslik": "Kur'an'ın durumu",
+      "metin": "Yazı Nebi hayattayken yapıldı; kitaplaşma yaklaşık 1 yıl sonra; ilk yüzyıla nispet edilen 44 yazma metin ve 7 varak elimizde; yüz binlerce hafız; kanlı bıçaklı grupların bile ittifak ettiği metin (s. 89)."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Yazarın sonucu: Bu metinlerden birini orijinal kabul eden biri, Kur'an hakkında 'orijinal değildir' diyemez. Kur'an hakkında güvenilirlik tartışması açmak isteyen, bu ölçütlerin her birinde Kur'an'ın onda biri kadar delile ulaşan başka bir metin göstermelidir (s. 89)."
+    }
+  ],
+  "ozet": "Kur'an, yazım ile en eski kopya arasındaki zaman farkı, yazma sayısı, ezberleyen sayısı ve muhalif grupların ittifakı bakımından kıyaslanabilir antik metinlerin hiçbirinde bulunmayan bir güvenilirlik düzeyine sahiptir. Z5'teki tutarlılık ilkesi böylece kapanır.",
+  "ilzam": {
+    "soru": "Senin ölçün şuydu: Bir metnin tarihî kaynak sayılması için yazım ile elimizdeki kopya arasındaki süre ve nakil güvencesi yeterli olmalı. Antik metinler tabloda yüzlerce yıl fark taşıyor; Kur'an'da ise yazı Nebi hayattayken başladı, yazmalar ilk yüzyıla uzanıyor ve metin milyonlarca kişinin ezberinde. Aynı ölçütle o metinleri kabul edip Kur'an hakkında 'acaba?' demek mantıken nasıl tutarlı olur?",
+    "cipler": [
+      "Haklısınız, tutarlı olmaz",
+      "Bence ölçüt farklı olmalı",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; kaynak ilkesi tamamlandı: Metinler için kullandığımız ölçütle Kur'an en yüksek güvenilirlik düzeyinde. Şimdi hadis konusundaki sınırımıza bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Soruyu açık bırakayım: Kendi kabul ettiğiniz metinler bu ölçütte daha zayıfsa, onları neden kabul edersiniz?",
+        "Tabloya yeniden bakın: Hangi metin Kur'an'ın verilerinin onda birine ulaşıyor?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Kur'an'ın tarihî güvenilirliği diğer antik metinlerle kıyaslandığında nerede duruyor?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z13-i1",
+      "ozet": "Kur'an tarihte diğer antik metinlere göre ne durumda?",
+      "anahtar": [
+        "antik",
+        "homeros",
+        "diğer metinler",
+        "kıyas",
+        "tarihte"
+      ],
+      "yanit": "Kitabın tablosuna göre Homeros'un İlyada'sı (400 yıl), Herodot (1350 yıl), Thukydides (1300 yıl), Eflatun (1300 yıl) gibi metinlerin yazım–en eski kopya aralığı yüzlerce yıldır; bunları orijinal kabul eden biri Kur'an hakkında 'acaba?' diyemez.",
+      "kaynak": {
+        "kitapSayfa": "86-87"
+      }
+    },
+    {
+      "id": "Z13-i2",
+      "ozet": "Kur'an'ı İncil'le kıyaslamak ne anlama geliyor?",
+      "anahtar": [
+        "incil",
+        "hristiyan",
+        "yeni ahit",
+        "kutsal kitap"
+      ],
+      "yanit": "Bu kıyas, kutsal kitapların kutsiyetini değil, yalnızca tarihî belgelenme ölçütlerini ele alır: Yeni Ahit metinlerinin yazılış tarihleri (Duygu'nun aktardığı tahminlere göre) 50'li yıllardan 150'ye uzanır ve birçok yazar 'bilinmiyor' olarak geçer; Kur'an'da ise yazı Nebi hayattayken başlar.",
+      "kaynak": {
+        "kitapSayfa": "87-88"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Kitaplaşma hızı",
+      "metin": "Kur'an'ın kitaplaşması Peygamber'in vefatından yaklaşık bir yıl sonradır; antik metinlerin 500-1000 yıl sonra yazıya geçmesi normal kabul edilir.",
+      "durum": "kitap",
+      "kitapSayfa": "23",
+      "ilzam": "Antik metinlerde 500-1000 yıl sonra yazıya geçmeyi 'normal' sayıp Kur'an'ın bir yılda kitaplaşmasını şüpheyle karşılamak mantıken nasıl tutarlı olur?"
+    },
+    {
+      "baslik": "Yazma sayısı",
+      "metin": "Altıkulaç: 'Yeryüzünde, Kur'an-ı Kerim kadar yazma nüshası bulunan, baskısı yapılan başka bir kitap yoktur.'",
+      "durum": "kitap",
+      "kitapSayfa": "81",
+      "ilzam": "Yazma sayısı bakımından bu kadar belgeli bir metin hakkında, daha az belgeli metinleri kabul edip bunu reddetmenin ilmî dayanağı nedir?"
+    },
+    {
+      "baslik": "Muhalif grupların ittifakı",
+      "metin": "Kitaba göre Kur'an, birbiriyle kanlı bıçaklı grupların bile üzerinde ittifak ettiği bir tarihî metindir; kitaptaki antik metinler için böyle bir ittifak belirtilmez.",
+      "durum": "kitap",
+      "kitapSayfa": "89",
+      "ilzam": "Karşı gruplar arasında bile ittifak edilen bir metinde, hangi noktada tahrif olasılığı doğar?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani Kur'an'ın zaman farkı, yazma sayısı, ezberleyen sayısı ve muhalif grupların ittifakı bakımından antik metinlerin hepsini aşmasını, kaynak ilkenizle birlikte nasıl açıklıyorsunuz?",
+  "notlar": "McDowell tablosu s. 86-87; Duygu tablosu s. 87-88 (OCR bozuk, yalnızca okunabilen satırlar kullanıldı). Hristiyan muhataba nötr dil kullanılmalı. Duygu tablosu yazılış tarihidir, Kur'an kıyasında ek dikkat gerekir."
+}

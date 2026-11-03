@@ -1,0 +1,150 @@
+{
+  "id": "Z12",
+  "baslik": "Corpus Coranicum: ayet bazında yazma tarihleri",
+  "dal": "zemin",
+  "sayfa": "83-86",
+  "onkosul": [
+    "Z11"
+  ],
+  "sonraki": "Z13",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Peki bu yazmaları kendi gözlerinizle denetleyebilir misiniz? Kitap bunun yolunu gösteriyor: Corpus Coranicum, oryantalistlere ait bir web sitesi. Kur'an'da seçtiğiniz her ayetin, yaklaşık 1000 yılından önceki yazmalarını veri tabanındaki eserler üzerinden gösteriyor (s. 83)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "İki örnek ayet",
+      "metin": "Seçim maksatlı değil: Biri kitapta uzun tefsiri yapılan Rum suresi 5. ayet; diğeri Tevbe suresinin son iki ayeti. Reşad Halife, 20. yüzyılda '19 mucizesi' dediği bir yapı yüzünden Tevbe'nin son iki ayetinin Kur'an'dan olmadığını iddia etmişti."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Tevbe 9:128",
+      "metin": "Sitede çıkan yazmaların tarihleri 606-649'dan başlayıp 1000-1200'e kadar uzanıyor. En erkeni San'a'daki Codex Dam 01-27.1 (606-649). Yazarın yıl üzerinden kaba hesabıyla: %60 Hz. Muhammed dönemi, %5 Hz. Ebubekir, %24 Hz. Ömer, %11 Hz. Osman'ın ilk 5 yılı. Ayet, kodeks içinde öncesi ve sonrasıyla birlikte duruyor (s. 84-85)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Rum 30:5",
+      "metin": "Aynı arama 649-675'ten başlayıp 1200'e uzanan bir yazma dizisi veriyor (s. 85-86). Yani bu ayet de ilk yüzyıldan itibaren yazmalarda yer alıyor."
+    }
+  ],
+  "ozet": "Muhatap, ayet bazında yazma tarihlerini oryantalistlerin kendi veri tabanından denetleyebilir. Tevbe 9:128-129'un ilk yüzyıldan itibaren yazmalarda öncesi ve sonrasıyla birlikte bulunması, 'son iki ayet sonradan eklendi' iddiasını tek başına çürütmeye yeter. (Kaba yüzdeler yazarın kendi hesabıdır.)",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Tevbe suresinin son iki ayeti Kur'an'a sonradan eklendi. Veri şu: Oryantalistlerin kendi veri tabanında bu ayet, 606-649 aralığına tarihlenen bir kodekste öncesi ve sonrasıyla birlikte bulunuyor ve sonrasında da düzenli olarak yazmalarda görünüyor. Bu iddia ile bu veri mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bir arada olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; yani en azından bu örnekte yazmalar iddiayı desteklemiyor. Şimdi Kur'an'ın güvenilirliğini diğer antik metinlerle kıyaslayalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Sitenin bağlantısını kendiniz de inceleyebilirsiniz; sonra soruyu yeniden koyayım: Erken yazmalarda bulunan bir ayet sonradan nasıl eklenmiş olur?",
+        "Peki farklı bir örnek: Rum 30:5'in yazmalardaki durumu iddiayı nasıl etkiler?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Ayet bazında yazma tarihleri."
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z12-i1",
+      "ozet": "Reşad Halife: Tevbe'nin son iki ayeti sonradan eklendi.",
+      "anahtar": [
+        "reşad",
+        "halife",
+        "tevbe",
+        "son iki ayet",
+        "19 mucizesi",
+        "sonradan eklendi"
+      ],
+      "yanit": "Corpus Coranicum'da Tevbe 9:128 için çıkan en erken yazma 606-649 aralığındaki Codex Dam 01-27.1'dir; ayet kodekste öncesi ve sonrasıyla birliktedir ve sonraki yazmalarda düzenli görünür. Üstelik sitenin veri tabanı tüm eski mushafları içermez; yine de bu durum iddiayı çürütmeye yeter.",
+      "kaynak": {
+        "kitapSayfa": "85"
+      }
+    },
+    {
+      "id": "Z12-i2",
+      "ozet": "Kendim denetleyebilir miyim?",
+      "anahtar": [
+        "kendim",
+        "denetle",
+        "kontrol",
+        "site",
+        "nasıl bakarım"
+      ],
+      "yanit": "Evet: Corpus Coranicum sitesinde 'verse navigator' ile her ayetin ilgili yazmalarına bakabilirsiniz. Kitap, bu denetimi muhataba bırakmak için iki ayeti örnek veriyor (s. 83).",
+      "kaynak": {
+        "kitapSayfa": "83"
+      }
+    },
+    {
+      "id": "Z12-i3",
+      "ozet": "Yüzdeler kesin mi?",
+      "anahtar": [
+        "yüzde",
+        "kesin mi",
+        "%60",
+        "hesap"
+      ],
+      "yanit": "Hayır; yazarın karbon test aralığından yıl üzerinden yaptığı kaba bir ihtimal hesabıdır. Sunumda da 'yazarın kaba hesabı' etiketiyle verilir.",
+      "kaynak": {
+        "kitapSayfa": "85"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Rum 30:5'in yazma dizisi",
+      "metin": "Rum suresi 5. ayet için sitede çıkan sonuçlar yaklaşık olarak 649-675, 680-798, 700, 700-900, 700-1000, 750 ve devamı şeklinde sıralanır.",
+      "durum": "kitap",
+      "kitapSayfa": "85-86",
+      "ilzam": "Aynı ayetin ilk yüzyıldan itibaren kesintisiz yazma dizisi içinde yer alması, 'sonradan eklendi' iddiasıyla nasıl bağdaşır?"
+    },
+    {
+      "baslik": "Seçimin maksatsızlığı",
+      "metin": "Yazar, seçiminin maksatlı olmadığını göstermek için ayetlerden birini kendi eserinde uzun tefsir yaptığı Rum suresinden, diğerini ise Reşad Halife'nin itiraz ettiği Tevbe'den seçmiştir.",
+      "durum": "kitap",
+      "kitapSayfa": "83",
+      "ilzam": "Karşı iddianın en güçlü olduğu ayetin bile yazmalarda erken görülmesi, diğer ayetlerin durumu hakkında size ne düşündürür?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani ayetin erken yazmalarda öncesi ve sonrasıyla birlikte bulunmasını ve denetlenebilir olmasını birlikte nasıl açıklıyorsunuz?",
+  "notlar": "Dam 01-27.1 için yüzdeler yazarın kaba hesabıdır; kesin bilimsel sonuç gibi sunulmamalı. Corpus Coranicum bağlantısı canlı kontrol edilmeli (kitapta son erişim 20.05.2022)."
+}

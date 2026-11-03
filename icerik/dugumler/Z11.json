@@ -1,0 +1,183 @@
+{
+  "id": "Z11",
+  "baslik": "Mushaf listesi ve çıkarımlar",
+  "dal": "zemin",
+  "sayfa": "42-83",
+  "onkosul": [
+    "Z10"
+  ],
+  "sonraki": "Z12",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Şimdi veri çekirdeğine geliyoruz: Hicri ilk yüzyıla, yani 0-100 yıllarına ait olan ya da olma ihtimali bulunan mushaflar. Kitap bunları ülke ülke sayıyor (toplam 45 giriş). Karbon testi yapılmış 24 mushafın tarih aralıkları 543'ten 777'ye uzanıyor; yapılmamış 20 mushafın 10'u hicri 0-100'e, 10'u hicri 50-150'ye nispet ediliyor. Buna 7 tek sayfalık parça ayrıca ekleniyor (s. 79-80). İşte öne çıkanlardan beşi:"
+    },
+    {
+      "tip": "gorsel",
+      "dosya": "gorseller/mushaflar/kitaptan/01-topkapi-1.jpg",
+      "altyazi": "Topkapı Mushafı (Topkapı Sarayı, İstanbul): 408 varak, deri üzerine kûfî hat; elimizdeki Kur'an'ın yaklaşık 601 sayfasına denk gelir.",
+      "kitapSayfa": "42"
+    },
+    {
+      "tip": "gorsel",
+      "dosya": "gorseller/mushaflar/kitaptan/05-kahire-huseyin-camii-1.jpg",
+      "altyazi": "Kahire Mushafı (Hüseyin Camii, Kahire): 57 x 68 cm, 1087 varak, yaklaşık 80 kg; Altıkulaç'a göre I. asrın 2. yarısına ait.",
+      "kitapSayfa": "45"
+    },
+    {
+      "tip": "gorsel",
+      "dosya": "gorseller/mushaflar/kitaptan/11-sana-camiul-kebir-1.jpg",
+      "altyazi": "San'a Mushafı (Câmiu'l-Kebîr, San'a): 275 varak, Kur'an'ın yaklaşık %86'sını içerir; I. yüzyıl sonu - II. yüzyıl başı.",
+      "kitapSayfa": "50"
+    },
+    {
+      "tip": "gorsel",
+      "dosya": "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg",
+      "altyazi": "Birmingham Nüshası (Birmingham Üniversitesi): 18 varak, Kur'an'ın yaklaşık %8,3'ü; karbon testi aralığı 568-645.",
+      "kitapSayfa": "57"
+    },
+    {
+      "tip": "gorsel",
+      "dosya": "gorseller/mushaflar/kitaptan/22-paris-parisino-petropolitanus-1.jpg",
+      "altyazi": "Paris Mushafı (Codex Parisino-Petropolitanus, Bibliothèque nationale de France): 98 varak, Kur'an'ın yaklaşık %46'sı; Deroche'a göre 649-675.",
+      "kitapSayfa": "59"
+    }
+  ],
+  "ozet": "İlk yüzyıla nispet edilen 44 yazma metin ve 7 tek sayfalık varak, belli bir tarihe, coğrafyaya ya da sureye yığılmamıştır; birbirini tamamlar ve bugünkü mushafla birliktelik içindedir. Kitaba göre bu, kabaca 2-3 yılda bir mushaf anlamına gelir. Yazmalar Medine, Basra, Şam ve Kûfe'ye gönderilen Osman nüshalarıyla eşleşir.",
+  "ilzam": {
+    "soru": "Senin iddian şuydu: Kur'an'ın metni ilk yüzyılda ya da sonrasında bilinmeyen biçimlerde değişmiş olabilir. Veri şu: İlk yüzyıla nispet edilen 44 yazma metin, farklı coğrafyalarda ve birbirini görmemiş kâtiplerce yazılmış olduğu hâlde, basit imla farkları dışında bugünkü mushafla aynı. Bu iddia ile bu veri mantıken nasıl bir arada olabilir?",
+    "cipler": [
+      "Haklısınız, bir arada olamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; yani yazmalar, ezber ve tarihî kayıtlar aynı sonuca işaret ediyor. Şimdi bu yazmaların ayet bazında nasıl denetlenebileceğine bakalım."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Kitap bu veriyi 'inanılmaz bir rakam' olarak niteliyor; siz hangi noktaya itiraz ediyorsunuz? Soruyu açık tutuyorum: Bu kadar yazma ile tahrif iddiası nasıl bağdaşır?",
+        "Bir de şunu düşünün: Aynı dönemden bu kadar çok yazması olan başka bir metin var mı?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: İlk yüzyıla ait yazmalar bugünkü mushafla ne kadar uyumlu?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z11-i1",
+      "ozet": "Elimizdeki en eski Kur'an ne zaman?",
+      "anahtar": [
+        "en eski",
+        "ne zaman yazıldı",
+        "en eski kuran",
+        "en eski yazma"
+      ],
+      "yanit": "Kitaba göre ilk yüzyıla nispet edilen 44 yazma metin ve 7 tek sayfalık varak var. Karbon testi yapılmış 24 mushafın aralıkları 543-643'ten 680-777'ye uzanıyor; Birmingham yazması 568-645. Ancak aralıklar kesin yıl değildir (bkz. Z10).",
+      "kaynak": {
+        "kitapSayfa": "79-80"
+      }
+    },
+    {
+      "id": "Z11-i2",
+      "ozet": "Kur'an tarihte kaç yazma ile belgeli?",
+      "anahtar": [
+        "kaç yazma",
+        "kaç nüsha",
+        "yazma sayısı",
+        "belgeli"
+      ],
+      "yanit": "İlk yüzyıla nispet edilen 44 yazma metin ve 7 tek sayfalık varak; Altıkulaç'a göre yeryüzünde Kur'an kadar yazma nüshası bulunan başka bir kitap yoktur. Hamidullah de milyonlarca el yazması arasında yazım hatası dışında fark bulunmadığını söyler.",
+      "kaynak": {
+        "kitapSayfa": "80-81"
+      }
+    },
+    {
+      "id": "Z11-i3",
+      "ozet": "Yazmalar Osman mushafına bağlanabiliyor mu?",
+      "anahtar": [
+        "osman nüshası",
+        "hangi nüsha",
+        "medine",
+        "basra",
+        "şam",
+        "kûfe"
+      ],
+      "yanit": "Kitaba göre evet: Topkapı, Sana ve MEFİ Medine nüshasıyla; TIEM ve St. Petersburg Basra nüshasıyla; Londra, Paris ve Tübingen Şam nüshasıyla; Taşkent ve Kahire Kûfe nüshasıyla uyumludur.",
+      "kaynak": {
+        "kitapSayfa": "82"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Altıkulaç: tam bir birliktelik",
+      "metin": "Tayyar Altıkulaç: 'Bu nüshalar ile bugün basılan mushaflar arasında, basit imla farkları ve sınırlı sayıdaki kâtip sehivleri bir yana, tam bir birliktelik mevcuttur... Yani nereye gitsek aynı mushafla karşılaşmaktadır.' (Mesâhif-i Kadîme, s. 27-28)",
+      "durum": "kitap",
+      "kitapSayfa": "80",
+      "ilzam": "Senin iddian metnin farklı yazmalarda farklı olduğuydu. Birbirinden uzak coğrafyalarda, birbirini görmemiş kâtiplerin yazdığı nüshaların muhtevalarının aynı olması bu iddiayla nasıl bağdaşır?"
+    },
+    {
+      "baslik": "Hamidullah: milyonlarca yazma",
+      "metin": "Muhammed Hamidullah: Mağrip'ten Malezya, Taşkent ve Seylan'a uzanan bölgelerde milyonlarca el yazması nüsha arasında yazıcıların yazım hatalarından başka hiçbir farkın bulunmadığını tespit etmek heyecan vericidir. (Kur'an-ı Kerim Tarihi, s. 93)",
+      "durum": "kitap",
+      "kitapSayfa": "81",
+      "ilzam": "Kıtalar arası milyonlarca nüshada yalnızca yazım hataları varsa, 'sistemli bir değişiklik' ne zaman ve nerede yapılmış olabilir?"
+    },
+    {
+      "baslik": "Tertip ve sıra",
+      "metin": "Mushaflar Fatiha'dan Nas'a doğru gider; sure ve ayet sırası bugünküyle aynıdır. Bu, 'tertip tevkifî mi, ictihadî mi' tartışmasında delil sayılabilir.",
+      "durum": "kitap",
+      "kitapSayfa": "81",
+      "ilzam": "Yüzlerce yıl önceki yazmalarda sıra bugünküyle aynıysa, sıranın sonradan değiştirildiği hangi veriyle savunulur?"
+    },
+    {
+      "baslik": "San'a 1 palimpsesti ve karbon tarihlendirmesi",
+      "metin": "Sadeghi ve Bergmann'ın 'Codex of a Companion of the Prophet' çalışması, San'a 1 yazmasının alt metnini inceler ve karbon tarihlendirmesine göre erken tarihli olduğunu ileri sürer. (Kitap da bu çalışmaya dipnotta atıf yapar.)",
+      "durum": "ek",
+      "kaynak": {
+        "yazar": "Behnam Sadeghi ve Uwe Bergmann",
+        "eser": "The Codex of a Companion of the Prophet and the Qur'ān of the Prophet, Arabica 57 (2010)",
+        "sayfa": "343-436"
+      },
+      "dogrulanacak": true,
+      "ilzam": "Akademik bir çalışmanın bile erken bir alt metin tarihlendirmesi bulduğu bir yazma hakkında, 'sonradan değiştirildi' iddiasını hangi veriyle savunursunuz?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani yazmaların sayısını, dağılımını, birbirinden bağımsız kâtiplerce yazılmış olmalarını ve metindeki birlikteliği nasıl açıklıyorsunuz?",
+  "notlar": "Mushaf tablosu docs/gorseller.md (s. 42-81). Görsel lisansları doğrulanmadı; yayından önce lisans/izin gerekli. Sahne sayısı 6 sınırı nedeniyle 5 mushaf seçildi; diğer görseller ek sahne olarak eklenebilir (Londra 21-londra-or2165-1.jpg s.58, Tiem 02-tiem-457-1.jpg s.43, Taşkent 34-taskent-1.jpg s.70-71). Sadeghi-Bergmann sayfa aralığı ve içerik özeti teyit edilmeli. Tekrar-sayım uyarısı için dogrulanacaklar.md'ye bakınız."
+}

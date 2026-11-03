@@ -1,0 +1,132 @@
+{
+  "id": "Z14",
+  "baslik": "Hadis: kullanımın sınırı",
+  "dal": "zemin",
+  "sayfa": "89-90",
+  "onkosul": [
+    "Z5"
+  ],
+  "sonraki": "Z15",
+  "profil": {
+    "kritik": [
+      "kaynak_guvenmeyen"
+    ],
+    "atlanabilir": []
+  },
+  "sahneler": [
+    {
+      "tip": "anlatim",
+      "metin": "Hadis konusunu burada kısa tutacağız ve bunun sebebi bilinçli. Kitap, hadislerin güvenilirliğini temellendirmeyi bu eserin işi olarak görmüyor."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Neden hadis tartışması yok?",
+      "metin": "Gayrimüslimlere de hitap eden bir eserde, bazı Müslüman gruplarca bile tartışılan bir veriyi kullanmak mümkün değil. Ayrıca hadis, fazlasıyla teknik bir alan; basit bir özet bile bir kitap hacmi gerektirir (s. 89)."
+    },
+    {
+      "tip": "kart",
+      "baslik": "Bu eserde ne yapılıyor?",
+      "metin": "Genel tarihî çıkarım ağırlıkla ayetlerden ve gayrimüslim yazarların alıntılarından yapılıyor. Kullanılan hadislerin neredeyse tamamı, gayrimüslim yazarların da olumlayarak kullandığı hadisler. Bunun sebebi onlara itimat değil; okuyucunun 'Acaba Müslümanlar bunları peygamberliği ispatlamak için mi uydurdu?' sorusundan kurtulması (s. 90)."
+    },
+    {
+      "tip": "anlatim",
+      "metin": "Bir hatırlatma: Bu bir 'hadis tek başına delil değildir' çerçevesi. Hadisleri kabul etmeyen biri için bile delil zinciri, ayetler ve gayrimüslim kaynaklarla kurulacak."
+    }
+  ],
+  "ozet": "Bu sunumda hadis, delilin tek taşıyıcısı değil. Genel tarihî çıkarım ayetlerle ve gayrimüslim yazarların da kullandığı hadislerle yapılır; böylece 'Müslümanlar bunları peygamberliği ispat için mi uydurdu?' şüphesi ortadan kalkar.",
+  "ilzam": {
+    "soru": "Senin kuşkun şuydu: Hadisler sonradan uydurulmuş olabilir. Sunumun çözümü bu kuşkuyu peşinen kabul etmek: Hadisleri tek başına delil yapmıyor, yalnızca gayrimüslim yazarların da olumlayarak kullandığı hadislere başvuruyor. Kuşkunu bu kadar dikkate alan bir yöntemi, hadislere dayandığı gerekçesiyle reddetmek mantıken nasıl savunulur?",
+    "cipler": [
+      "Haklısınız, savunulamaz",
+      "Bence şöyle açıklanabilir...",
+      "Emin değilim"
+    ]
+  },
+  "niyetler": {
+    "ikna": {
+      "anahtar": [
+        "haklısın",
+        "haklısınız",
+        "mantıklı",
+        "ikna",
+        "olamaz",
+        "bir arada olamaz",
+        "doğru",
+        "kabul ediyorum",
+        "tutarlı değil",
+        "çelişiyor"
+      ],
+      "yanit": [
+        "Güzel; hadis konusundaki ihtiyatımızı kabul ettiniz. Şimdi sunumun üç yorum aracından ilkine geçelim: İkincil delil mantığı."
+      ]
+    },
+    "kacamak": {
+      "anahtar": [
+        "bilmem",
+        "fark etmez",
+        "neyse",
+        "emin değilim",
+        "geç",
+        "devam",
+        "boşver"
+      ],
+      "yanit": [
+        "Anlıyorum. Hadisler hakkındaki görüşünüz bu sunumun akışını değiştirmiyor; delil zinciri hadissiz de ilerleyecek. Soruyu yeniden koyayım: Hadis dışı delillere itirazınız var mı?",
+        "Belki bir örnekle netleşir; ama önce şu: Hadislere hiç başvurmayan bir delil zincirine hadis eleştirisi nasıl itiraz olabilir?"
+      ]
+    },
+    "konu_disi": {
+      "yanit": [
+        "Güzel bir soru; sırası gelince döneceğiz. Şu an şunu konuşuyorduk: Bu sunumda hadisler nasıl ve ne ölçüde kullanılıyor?"
+      ]
+    }
+  },
+  "itirazlar": [
+    {
+      "id": "Z14-i1",
+      "ozet": "Hadisler sonradan uydurulmuştur.",
+      "anahtar": [
+        "uydurma",
+        "uydurulmuş",
+        "sonradan",
+        "hadis güvenilir değil",
+        "rivayet"
+      ],
+      "yanit": "Kitap hadisi tek başına delil yapmaz; kullanılan hadisler gayrimüslim yazarların da olumlayarak kullandığı hadislerdir. Amaç onlara itimat etmek değil, okuyucunun 'Müslümanlar bunları ispat için mi uydurdu?' şüphesini gidermek. Hadislerin ayrıntılı değerlendirilmesi ayrı bir eserin konusudur.",
+      "kaynak": {
+        "kitapSayfa": "89-90"
+      }
+    },
+    {
+      "id": "Z14-i2",
+      "ozet": "Hadis güvenilir değil, neden kullanıyorsunuz?",
+      "anahtar": [
+        "neden kullanıyorsunuz",
+        "güvenilir değil",
+        "hadis neden"
+      ],
+      "yanit": "Sınırlı kullanılıyor: Genel çıkarım ayetlerden ve gayrimüslim yazarlardan yapılıyor. Yazar 'bence güvenilir' pek çok hadisi bile kullanmadığını söylüyor, çünkü hadis teknik bir alan ve bu eserin amacını aşıyor.",
+      "kaynak": {
+        "kitapSayfa": "90"
+      }
+    }
+  ],
+  "ekOrnekler": [
+    {
+      "baslik": "Hadis eleştirisinin zorluğu",
+      "metin": "Yazar, hadis konusunun 'oryantalist tenkit' ve medya karikatürü yüzünden kısaca özetlenmesinin zor olduğunu, Aristoteles'in Metafizik'ine dair medya şüphesine benzetir.",
+      "durum": "kitap",
+      "kitapSayfa": "89-90",
+      "ilzam": "Teknik bir alanın kısa özetle değerlendirilemeyeceğini kabul edip delil zincirini hadissiz kurmak, sizce makul bir yaklaşım mı?"
+    },
+    {
+      "baslik": "Hadissiz delil",
+      "metin": "Kitap genel tarihî çıkarımı hadise bağlamadan, ayetler ve gayrimüslim yazarların alıntılarıyla yapmayı tercih eder.",
+      "durum": "kitap",
+      "kitapSayfa": "90",
+      "ilzam": "Hadise hiç dayanmayan bir delilin sonucunu, 'hadisler güvenilmez' gerekçesiyle reddetmek mantıken nasıl mümkün olur?"
+    }
+  ],
+  "kompozisyon": "Bu verilerin tamamını, yani hadislere olan ihtiyatı, gayrimüslim yazarların kullandığı hadislerle sınırlı kullanımı ve delil zincirinin ayetlere dayanmasını birlikte nasıl değerlendiriyorsunuz?",
+  "notlar": "Kaynak: yazarın beyanı (s. 89-90). M2 (gayb haberleri) ile ilişkili."
+}
