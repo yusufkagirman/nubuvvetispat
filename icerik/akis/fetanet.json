@@ -25,10 +25,7 @@
       },
       "satirlar": [
         {
-          "metin": "Diyelim ki şunu söyledin: hâşâ, samimiydi."
-        },
-        {
-          "metin": "Yalan söylemiyordu. Gördüğüne gerçekten inanıyordu."
+          "metin": "Diyelim ki, hâşâ, samimiydi: yalan söylemiyordu, gördüğüne gerçekten inanıyordu."
         },
         {
           "metin": "Ama gördükleri gerçek değildi."
@@ -43,7 +40,7 @@
           "metin": "Görerek, duyarak, bedeninde hissederek. Ölünceye kadar."
         },
         {
-          "metin": "Bugünün tıbbında bu, en ağır psikoz tablolarından biridir.",
+          "metin": "Bugünün tıbbında bu, ciddi bir hastalık tablosu olabilir.",
           "vurgu": true
         }
       ],
@@ -315,9 +312,6 @@
             "aciklanamiyor",
             "olamaz",
             "imkansiz",
-            "haklisin",
-            "mantikli",
-            "evet",
             "ikna oldum",
             "tamam"
           ],
@@ -354,6 +348,15 @@
             "Yakın olmak, aynı olmak değil.",
             "Biz bir başarıyı açıklamaya çalışıyoruz: 23 yıl, şaşmayan, planlı.",
             "Bunu açıklayacak bir hastalık adı bulabilirsen dinlerim."
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet",
+            "açıklanabilir",
+            "olabilir",
+            "mümkün"
           ]
         }
       ],
@@ -403,20 +406,6 @@
             }
           ],
           "soru": "Sence muhalifler böyle bir fırsatı kaçırır mıydı?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir şey daha. Başarılı birinin hikâyesini dinlerken tıp kitaplarına koşar mıyız?"
-            },
-            {
-              "metin": "Bir hastalık böyle sonuçlar verseydi, tıp onu tedavi değil, inceleme konusu yapardı."
-            },
-            {
-              "metin": "Oysa tarihte hiçbir hastalık böyle bir sonuç vermedi."
-            }
-          ],
-          "soru": "Başarıyı hastalıkla açıklamak sence bir açıklama mı, yoksa bir ön kabul mü?"
         }
       ],
       "kompozisyon": "Peki tüm bu verileri birlikte nasıl açıklıyorsun? İstersen kendi cümlelerinle yaz.",
@@ -487,6 +476,31 @@
             "Aranan şey bir yakınlık değil: 23 yıl süren, planlı, tutarlı bir başarı.",
             "Emile Dermenghem onun nefsine hâkimiyetini, iradesini ve ileriyi görüşünü sayar; meczup görmemizi engellediğini söyler."
           ]
+        },
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hayır etmez",
+            "etmez",
+            "yapmaz",
+            "olmaz",
+            "mümkün değil",
+            "sanmıyorum",
+            "zor görünüyor",
+            "pek değil"
+          ],
+          "git": "fetanet.formul"
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet olur",
+            "evet eder",
+            "eder",
+            "yapar",
+            "olabilir",
+            "mümkün"
+          ]
         }
       ],
       "ekOrnekler": [
@@ -533,7 +547,7 @@
       ],
       "kompozisyon": "Zekâ ile ağır psikozu aynı kişide nasıl bir araya getiriyorsun? Kendi sözlerinle anlatır mısın?",
       "kopru": [
-        "Bu konuya birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.formul",
       "dayanak": "Kitap s. 265-266 ('Ama çok zekiydi' kaçışı Haber İnşası'nda kapatılmıştı), s. 394 (Dermenghem: dehası, iradesi, nefsine hâkimiyeti), s. 279 (kurumsallaşma: Ömer-Halid, Ömer'in vefatı; İskender/Timur/Cengiz parçalanması), s. 289-290 (Watt, Uhud). 'Deha ile delilik yakındır' itirazına yanıt mantıksaldır; olgu iddiası içermez."
@@ -701,7 +715,7 @@
       ],
       "kompozisyon": "Rivayeti kendi başına nasıl değerlendiriyorsun? İstersen kendi cümlelerinle yaz.",
       "kopru": [
-        "Bu konuya birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.bahira2",
       "dayanak": "Kitap s. 381-392. Sened: Tirmizi metni (tek sahabi Ebu Musa el-Eş'ari; ortak ravi Abdurrahman b. Gazvan; Bilal'in adı geçmesi: Zehebi mevzu der, İbn Hacer, İbnu'l-Esir, Mübarekfuri, İbn Kayyım işaret eder); İbn İshak metni senedsiz. Ekranda 'Bilal'in o tarihte doğmamış olması' iddiasını KULLANMA (kitabın hadis eleştirisi; hadis uzmanı teyidi gerek, docs/dogrulanacaklar.md B/05 s. 381-385). Hükümler 'hadis ilminin ölçüleriyle değerlendirme' olarak sunulur. Gottheil, A Christian Bahira Legend (Bakara-inek, s. 45); Gottheil kimliği: Amerikalı Sami dilleri bilgini (kitap tablosu). Süryani kökeni tezi 'bir okuma' (yazarın Allahu a'lem'i). Caetani s. 241, Lewis s. 20 eleştirenlerden."
@@ -801,10 +815,13 @@
           "metin": "Araplar onlarla yüzlerce yıldır komşuydu."
         },
         {
-          "metin": "Ama kırk yıl boyunca, hatta davetin son dönemine kadar, tek tanrıcılığa geçmediler."
+          "metin": "Gassaniler Hristiyan'dı ve Bizans'ın, Lahmiler Hristiyan'dı ve İran'ın komşusuydu."
         },
         {
-          "metin": "Gassaniler Bizans'ın, Lahmiler İran'ın komşusuydu. Orada böyle bir atılım olmadı."
+          "metin": "Yemen'de bir dönem Yahudi bir krallık bile vardı."
+        },
+        {
+          "metin": "Yine de bu temaslardan, Arabistan'ı bir kuşakta değiştiren bir hareket doğmadı."
         },
         {
           "metin": "Temas varsa, bu sıçrama neden yalnız onunla başladı?",
@@ -880,7 +897,7 @@
       ],
       "kompozisyon": "Yahudi ve Hristiyan çevreden öğrenme iddiasını kendi cümlelerinle nasıl savunursun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.devam",
       "dayanak": "Kitap s. 329 (F11: temas varken tek tanrıcılığa geçilmedi; dn. 772: kıssaların öğrenilmesi iddiası Mucize bölümünde ele alınır), s. 351 (F14: Gassani/Lahmi uydu devletlerde böyle atılım olmadı), s. 380-381 (Kadı Abdülcebbar: öğrenme gizlenemez; Kadı'nın görüşü ≠ yazarın görüşü), 3/44 (Âl-i İmrân). 'Kıssalara bakalım' yolu mucize.giris'e gider (kıssa karşılaştırmaları M4-M7)."
@@ -896,14 +913,14 @@
           "metin": "Elimizde isim yok, zaman yok, tanık yok."
         },
         {
-          "metin": "Şimdi bir de başarıların kendisine bakmak gerek."
+          "metin": "Şimdi bu yolların hangi ihtimali bıraktığına bakalım."
         }
       ],
       "soru": {
-        "metin": "Başarılara daha önce baktık mı, yoksa şimdi mi bakalım?",
+        "metin": "Devam edelim mi?",
         "cipler": [
-          "Henüz bakmadık",
-          "Baktık, toparlayalım"
+          "Devam",
+          "Bir daha bakalım"
         ],
         "serbest": false
       },
@@ -911,12 +928,24 @@
         {
           "tur": "yonlendir",
           "anahtar": [
-            "henuz",
-            "bakmadik",
+            "devam",
+            "evet",
+            "tamam",
+            "olur",
             "basari",
-            "bakalim"
+            "henuz",
+            "bakmadik"
           ],
           "git": "fetanet.formul"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bir daha",
+            "tekrar",
+            "bastan"
+          ],
+          "git": "fetanet.ogrenme"
         },
         {
           "tur": "yonlendir",
@@ -1022,20 +1051,6 @@
         {
           "satirlar": [
             {
-              "metin": "Bir benzetme yapalım. Cep telefonu bile kullanmamış, çok yaşlı biri düşün."
-            },
-            {
-              "metin": "72 yaşında 'Bana Cebrail göründü' diyor."
-            },
-            {
-              "metin": "Sonra eğitim almadan, çok karmaşık bir yazılım sistemi ortaya koyuyor."
-            }
-          ],
-          "soru": "Bu başarıyı onun geçmişi açıklar mı?"
-        },
-        {
-          "satirlar": [
-            {
               "metin": "Burada üç katman var. Biz yalnız en alttakini kullanacağız."
             },
             {
@@ -1056,7 +1071,7 @@
       ],
       "kompozisyon": "Peki sen bir başarıyı nasıl ölçerdin? Kendi yöntemini yazar mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.toplum",
       "dayanak": "Kitap s. 266-268, 273-274, 373. Formül: Başarı = Son durum − (toplum koşulları + bireyin koşulları). Üç katman: mucize / koşul / fetanet (asgari). 72 yaşında yazılım benzetmesi kitaptan (s. 266-274). 'Tarihin en başarılı insanı' stratejisi. 'ikna' yolu profile supheTuru:genel yazar (devam/öğrenme döngüsünü önlemek için)."
@@ -1155,7 +1170,7 @@
           "yanit": [
             "Cengiz ve İskender'i anmak yerinde.",
             "Onlar da kendi toplumlarının çocuğuydu: ordu, devlet ve eğitim hazırdı.",
-            "Burada böyle bir zemin yok. Bunu birazdan ayrıca konuşacağız."
+            "Burada böyle bir zemin yok. Bunu not ettim."
           ]
         }
       ],
@@ -1186,20 +1201,6 @@
         {
           "satirlar": [
             {
-              "metin": "Bir benzetme yapalım. 1650'de Osmanlı'dayız."
-            },
-            {
-              "metin": "Bir kişi, 23 yıl içinde ulus devletin toplumsal bağlarını yerleştirebilir miydi?"
-            },
-            {
-              "metin": "Üstelik ikna ederek, tek tek, silahsız."
-            }
-          ],
-          "soru": "Böyle bir şey o dönemde sence beklenir miydi?"
-        },
-        {
-          "satirlar": [
-            {
               "metin": "Başlangıçta onu savunan bir sosyal sınıf yoktu."
             },
             {
@@ -1223,7 +1224,7 @@
       ],
       "kompozisyon": "Bu başlangıç şartlarından bu sonuca nasıl varıldığını kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.siyasi",
       "dayanak": "Kitap s. 268-278 (F2). Armstrong (Pers/Bizans Arabistan'ı işgale değer görmüyordu), Caetani (gayrişahsi devlet kavramı Arapçada yoktu, s. 278), Lewis/Watt/Lapidus (kabile dayanışması), Dozy (Muhacir-Ensar kardeşliği, s. 276), Lapidus (ilk yıllar hayal kırıcı, s. 400), 1650 Osmanlı benzetmesi (s. 276-277), tabansızlık analizi (s. 399-402, sayı analizi varsayımsal; ekranda sayı kullanılmadı). Karşılaştırma tablosunun 'şiddetin kökleri kurumuş': Armstrong s. 277-278."
@@ -1303,14 +1304,21 @@
           }
         },
         {
-          "metin": "Kan davalı kabileler, tek bir toplum oldu. Güçle değil, fikir ve ahlakla."
+          "metin": "Sonra Medine geldi, savaşlar da: Bedir, Uhud, Hendek. Bunu saklamıyoruz."
         },
         {
-          "metin": "Üstelik o gidince de dağılmadı."
+          "metin": "Kan davalı kabileler, ortak hukuka ve ortak sadakate bağlanan tek bir toplum oldu."
+        },
+        {
+          "metin": "Vefatından hemen sonra ciddi bir kriz yaşandı (Ridde savaşları). Düzen yine de ayakta kaldı."
+        },
+        {
+          "metin": "Ama soru şu: yalnız kılıç, bunu tek başına yapar mı?",
+          "vurgu": true
         }
       ],
       "soru": {
-        "metin": "Senin iddian: ağır bir sanrı yaşıyordu. Veri: bir toplum kurdu. Bu mantıken nasıl bir araya gelir?",
+        "metin": "Diyelim ki, hâşâ, ağır bir sanrı yaşıyordu. Savaşlara ve kriz günlerine rağmen bir toplum kurması mantıken nasıl bir araya gelir?",
         "cipler": [
           "Gelmiyor",
           "Cengiz Han da yaptı"
@@ -1398,7 +1406,7 @@
       ],
       "kompozisyon": "Bu başarının arkasında ne olabileceğini kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.ongoru",
       "dayanak": "Kitap s. 272-278 (Armstrong: birleşmeleri imkânsız görülüyordu; 'tek başarısı bu politik gelişme olsa bile hayranlığımızı kazanmaya yeterdi'), s. 274 (güç değil fikir), s. 277 (ilk 13 yıl ikna), s. 279 (kurumsallaşma), s. 279-280 (Rodinson: yüz yıl sonra Loire'dan Indus'a), s. 306-307 (Ebubekir hutbesi: Armstrong, Irving), s. 376 (İbn Mace Et'ime 30; Hâkim). Zaman çizelgesi tarihleri genel kabul gören hicret/fetih tarihleridir. Armstrong ekranda 'Batılı bir din tarihçisi'; Rodinson 'Batılı bir sosyolog' (kitap Fransız oryantalist/sosyolog der)."
@@ -1420,7 +1428,10 @@
           "metin": "Şimdi farklara bakalım. Moğollar, Cengiz'den önce de savaşçıydı."
         },
         {
-          "metin": "Burada ise savaş sanatını bilmeyen bir toplum vardı. Kendisi de kırk yaşına kadar siyasetle uğraşmadı."
+          "metin": "Burada ise kabile baskını vardı; ama devlet, düzenli ordu ve ortak hukuk yoktu."
+        },
+        {
+          "metin": "Baskın yapmak ile devlet kurmak aynı şey değil. Kendisi de kırk yaşına kadar siyasetle uğraşmadı."
         },
         {
           "metin": "Cengiz'in imparatorluğu ölümünden sonra parçalandı. İskender'inki de."
@@ -1510,7 +1521,7 @@
       ],
       "kompozisyon": "Cengiz ve İskender ile bu başarı arasındaki farkı kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.ongoru",
       "dayanak": "Kitap s. 273-274 ve dn. 623-624 ('velev ki' muhakemesi: Cengiz'in ağır psikotik olmadığını başarısından kabul eden Nebi için de aynısını kabul eder), s. 278-280 (Margoliouth: cahiliye Arapları savaş sanatını bilmiyordu; İskender/Timur/Cengiz parçalanması), s. 398-399 (karşılaştırmalar), s. 399-404 (İskender: II. Philip, Aristoteles; 0-10 puan benzetmesi GERÇEK VERİ DEĞİL), s. 404-406 (Hart, s. 28-29; Hart kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'). 'Kırk yaşına kadar siyasetle uğraşmadı' kitabın hesabı (s. 288); 53 yaş savaş hesabı ekranda yok."
@@ -1576,7 +1587,7 @@
             "Tesadüf ya da genel bir iyimserlik olsaydı, ayrıntı olmazdı.",
             "Burada yol güvenliği, İran, Bizans gibi somut hedefler var.",
             "Üstelik zamanı en kötü an: işkence, kuşatma.",
-            "Eski bir İslam âlimi der ki: tedbir ve hesap, kâfirlerin galibiyetini gerektirirdi."
+            "Mutezile âlimi Kadı Abdülcabbar'a göre: tedbir ve hesap, kâfirlerin galibiyetini gerektirirdi."
           ]
         },
         {
@@ -1592,23 +1603,34 @@
             "Burada ise ne ordu vardı, ne devlet.",
             "İkisi aynı denklem değil."
           ]
+        },
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hayır etmez",
+            "etmez",
+            "yapmaz",
+            "olmaz",
+            "mümkün değil",
+            "sanmıyorum",
+            "zor görünüyor",
+            "pek değil"
+          ],
+          "git": "fetanet.hudeybiye"
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet olur",
+            "evet eder",
+            "eder",
+            "yapar",
+            "olabilir",
+            "mümkün"
+          ]
         }
       ],
       "ekOrnekler": [
-        {
-          "satirlar": [
-            {
-              "metin": "Bir benzetme yapalım. Bugünün Irak'ında özel eğitim almamış biri doğuyor."
-            },
-            {
-              "metin": "Toplumun yapısını değiştiriyor. Ölümünden sonra on yıl içinde Irak, onun öğretisiyle Çin ve ABD'den güçlü hale geliyor."
-            },
-            {
-              "metin": "Bu hikâyeyi duysan, ilginç bir olay olarak bakmaz mıydın?"
-            }
-          ],
-          "soru": "Böyle birine 'hastaydı' demek sana makul gelir miydi?"
-        },
         {
           "satirlar": [
             {
@@ -1631,25 +1653,11 @@
             }
           ],
           "soru": "O gün bu ihtimale sence kaç kişi inanırdı?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir şey daha: 'Zarar veremezler' haberi."
-            },
-            {
-              "metin": "Tek başına bir adamken Kureyş'e, bütün Arap kabilelerine ve kitap ehline şöyle dedi: 'Beni öldüremezsiniz.'"
-            },
-            {
-              "metin": "Eski bir İslam âlimi der ki: bu, ancak çok güçlü bir güvenin akıllı bir adamda görülen duruşudur."
-            }
-          ],
-          "soru": "Sanrının içindeki biri, düşmanlarının ortasında bu güveni neye dayandırır?"
         }
       ],
       "kompozisyon": "Bu ayrıntılı ve tutan öngörülerin kaynağı sence neydi? Kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.hudeybiye",
       "dayanak": "Kitap s. 271-272, 283-288 (F4). Habbab b. Eret hadisi; Caetani (Esved'in alayı: 'Bunlar yeryüzünün hükümdarlarıdır, İran'a varis olacaklardır', s. 283); Hendek'te münafıkların alayı (s. 285, ayet no verilmemiş; ekranda ayet yok); Pedersen (632'den sonra yirmi yıl içinde Arabistan, Suriye, Irak, Sasani toprakları halifenin hâkimiyetinde, s. 280); Kadı Abdülcebbar (tedbir kâfirlerin galibiyetini gerektirirdi; zarar veremezler, s. 285-286; Kadı'nın görüşü ≠ yazarın görüşü); Irak benzetmesi (s. 287); Watt (Medine'de; muzaffer fatih, s. 406-407). 4:113, 8:62, 2:214 ayetleri ekranda yok. 'Bunu o gün öngören tek kişi kendisiydi' kitabın yorumu (s. 283: dönemin müşrik veya mümini öngöremedi). Bu beat fetanet + mucize çifte delildir; ayrıntı mucize bölümünde."
@@ -1792,7 +1800,7 @@
       ],
       "kompozisyon": "Hudeybiye'deki bu tutumu ve sonucunu kendi cümlelerinle nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.ahlak",
       "dayanak": "Kitap s. 292-300 (F6). Altı sonuç (s. 297-298); Caetani (Hudeybiye'de 1400 kişi, iki yıl sonra Mekke'ye 10.000 kişi, s. 300); Dermenghem ('Evet, bu bir fetihti', s. 297); Hazleton (silahsız umre; Clausewitz'den önce, s. 299-300); Bedir mevzi sahnesi: Dozy (s. 298-299); Hendek: Watt (s. 290-291). Fetih suresi 48/1 ve ilgili ayet ekranda doğrudan anılmadı. Fetanet + mucize çifte delil (s. 300)."
@@ -1805,7 +1813,7 @@
           "metin": "Bir de ahlaka bakalım. Önce başladığı yere."
         },
         {
-          "metin": "Kız çocuklarını diri diri gömmek, yaygın bir gelenekti."
+          "metin": "Kız çocuklarını diri diri gömmek, bazı kabilelerde görülen bir gelenekti."
         },
         {
           "metin": "Kasıtlı ve kasıtsız öldürme arasındaki fark bile pek yoktu."
@@ -1928,7 +1936,7 @@
       ],
       "kompozisyon": "Bu ahlak değişimini kendi cümlelerinle nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.tolerans",
       "dayanak": "Kitap s. 312-324 (F9, F10). Rodinson (kız çocuğu öldürme yaygın gelenek, Allah yasakladı, s. 313), Margoliouth (kasıtlı-kasıtsız ayrımı, s. 318), Dermenghem (Ömer ve patrik, kilisede namaz, s. 333), Arnold (cizye iadesi; Hristiyanların duası, s. 339), Dionysios/Duygu (aynı olay, s. 339-340), Irving (Hürmüzan sahnesi, s. 308-309; komutanlara mektup, s. 307-308), Hitti (düşmanın gözünden Müslümanlar, Cyrus'un elçileri, s. 310-311). 'Sasani'nin üst düzey bir komutanı': Hürmüzan (satrap). Kız çocuğu kürtaj istatistikleri bilinçli olarak kullanılmadı. 'Sözün hakkı verilir': cizye iadesi ve zimmî sözleşmeleri. Armstrong'un kız çocuğu cümlesi OCR sorunlu (kullanılmadı)."
@@ -2015,36 +2023,13 @@
             "zorla"
           ],
           "yanit": [
-            "Vergi için dinini değiştiren insan sayısı, ağır baskı altında bile az olmuştur.",
+            "Kimi araştırmacılara göre vergi için dinini değiştiren insan sayısı, ağır baskı altında bile az olmuştur.",
             "Monofizit Hristiyanlar yüzyıllarca Bizans baskısına direndi.",
             "Vergi gelirleri de zamanla düştü: önce ödediler, sonra yavaş yavaş kendi istekleriyle Müslüman oldular."
           ]
         }
       ],
       "ekOrnekler": [
-        {
-          "satirlar": [
-            {
-              "metin": "Tarihçi Bauer yazar: Müslümanlar Filistin'i alırken Yahudileri rahat bıraktı.",
-              "kaynak": {
-                "yazar": "Bauer (Thomas ya da Susan Wise Bauer; teyit edilecek)",
-                "eser": "",
-                "yer": "",
-                "yil": "",
-                "sayfa": "",
-                "not": "Tarihçi",
-                "dogrulanacak": true
-              }
-            },
-            {
-              "metin": "Remle kurulur kurulmaz Yahudiler yerleşti, sinagog yaptı."
-            },
-            {
-              "metin": "Meslek kısıtlaması yoktu. Yalnız orduya alınmazlardı."
-            }
-          ],
-          "soru": "Bu davranış, onların çevresinden mi öğrendiği bir şey?"
-        },
         {
           "satirlar": [
             {
@@ -2062,7 +2047,7 @@
       ],
       "kompozisyon": "Bu hoşgörünün kaynağı sence ne? Kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.birey",
       "dayanak": "Kitap s. 330-344 (F12). Süryani Michael Rabo (Lewis ve Hitti aracılığıyla, s. 322), Nasturi Patriği III. İshoyahb mektubu (Arnold, s. 335-336), Arnold: 'daha tesirli başka saikler aramak mecburiyetindeyiz' (s. 342), cizye ve Monofizit direnci (s. 336-337), Bauer (Yahudiler, Remle, s. 338), Arnold (Emesa, s. 342). Vergi gelirlerinin düşmesi kitabın argümanı (s. 337); kitaptaki ifade kapalı, sunumdan önce basılı teyit önerilir. Haçlı Kudüs kıyası bilinçli olarak kullanılmadı."
@@ -2225,7 +2210,7 @@
       ],
       "kompozisyon": "Bu koşullarda bu kadar şeyi nasıl başardığını kendi cümlelerinle anlatır mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.ummi",
       "dayanak": "Kitap s. 374-377 (F20). Dozy (baba mirası beş deve, birkaç koyun, bir köle), Watt (dedesi, amcası, annenin altı yaşında ölümü), Hazleton (babasız doğmak mirastan mahrumiyet), Bodley (ücret ve komisyonla çalışan müstahdem; kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'), Armstrong (kendini ortaya atmaya hevesli biri değildi, s. 377). Zuhruf 43/31 ve Duhâ 93/6-8 (ikincil delil mantığı). Hadis: İbn Mace Et'ime 30; Hâkim III, 50/4366. 'Babası doğmadan ölmüştü' ifadesi kitabın bağlamı (Hazleton: babasız doğmak). [AYET Zuhruf 31] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Duhâ 6-8]"
@@ -2235,10 +2220,13 @@
       "gizliDugum": "F21",
       "satirlar": [
         {
-          "metin": "Peki okuma yazma? 'Ümmi' kelimesi tam bunu anlatır."
+          "metin": "Peki okuma yazma? Kur'an ona 'ümmî' der."
         },
         {
-          "metin": "'Ümm', anne demek. Anadan doğduğu gibi: eğitim almamış."
+          "metin": "Kelimenin tam anlamı tartışılır: okuma yazma bilmeyen ya da kutsal kitap verilmemiş bir Arap."
+        },
+        {
+          "metin": "İki durumda da sonuç aynı: kitaplarla yetişmiş biri değildi."
         },
         {
           "metin": "Karen Armstrong: okur-yazar olduğuna dair bir kayıt yok.",
@@ -2270,9 +2258,6 @@
           }
         },
         {
-          "metin": "Bilip gizlemiş olsaydı, buna 'el-Emin' demezlerdi."
-        },
-        {
           "metin": "Sözlü eğitim de gizlenemez. Öğrenen kişi hocasını arar, sohbetine devam eder."
         },
         {
@@ -2281,7 +2266,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian: kendi kendine yanıldı. Veri: toplum, eğitim, hiçbiri açıklamıyor; başarı ise ortada. Bu mantıken nasıl bir araya gelir?",
+        "metin": "Diyelim ki, hâşâ, kendi kendine yanıldı. Toplum da eğitim de açıklamıyor; başarı ise ortada. Bu nasıl bir araya gelir?",
         "cipler": [
           "Açıklanamıyor",
           "Biri ona öğretmiş olabilir"
@@ -2335,17 +2320,6 @@
         {
           "satirlar": [
             {
-              "metin": "Ümmi olduğu halde, bugün bile dünya nüfusunun önemli bir kısmınca ilmin toplandığı bir kitabı getiren kişi sayılır."
-            },
-            {
-              "metin": "Bunu bir Lübnan asıllı tarihçi de not eder."
-            }
-          ],
-          "soru": "Eğitimsiz biri bu kadar büyük bir bilgi sistemini nasıl kurar?"
-        },
-        {
-          "satirlar": [
-            {
               "metin": "Kur'an der: 'Bundan önce kitap okumuyor, sağ elinle yazmıyordun.'"
             },
             {
@@ -2385,7 +2359,7 @@
       ],
       "kompozisyon": "Eğitim yolları kapandığına göre, geriye ne kalıyor? Kendi cümlelerinle yazar mısın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.kapanis",
       "dayanak": "Kitap s. 377-381 (F21, F22). Ümmi: 'ümm' = anne; Armstrong (kayıt yok; mektubu Ali'ye yazdırması; gizlemesi el-Emin'e yakışmaz, s. 378), Hitti (s. 379; Hitti kimliği kitapta belirtilmiyor, 'Lübnan asıllı tarihçi' kitabın kimlik tablosundaki ifade †teyit), Ankebût 29/48, Şûrâ 42/52, Kasas 28/86; Kadı Abdülcebbar (s. 380-381; Kadı'nın görüşü ≠ yazarın görüşü). Vefata yakın yazı öğrendi mi tartışması ekranda yok (başlangıç birikimi esas). 'Biri ona öğretmiş olabilir' yolu fetanet.ogrenme hub'ına gider; oradan devam beat'i ile geri döner. [AYET Ankebût 48] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Kasas 86]"
@@ -2405,10 +2379,10 @@
       },
       "satirlar": [
         {
-          "metin": "Toparlayalım. Senin iddian: hâşâ samimiydi, ama yanılıyordu."
+          "metin": "Toparlayalım. Diyelim ki, hâşâ, samimiydi ama yanılıyordu."
         },
         {
-          "metin": "Yanılıyorsa, bu en ağır tablolardan biri: 23 yıl, her ortamda."
+          "metin": "Yanılıyorsa, bu ciddi bir tablo: 23 yıl, her ortamda."
         },
         {
           "metin": "Oysa toplum ona ufuk vermiyor. Eğitim ona ufuk vermiyor."
@@ -2441,7 +2415,6 @@
             "ikna oldum",
             "haklisin",
             "mantikli",
-            "evet",
             "tamam",
             "kapandi",
             "aciklanamiyor"
@@ -2476,6 +2449,14 @@
             "Onların başarısı toplum, miras ve eğitimle açıklanır.",
             "Burada toplum ufuk vermiyor, eğitim ufuk vermiyor.",
             "Formülde ikisini de çıkarınca, geriye kimse kalmıyor."
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet",
+            "durabilir",
+            "duruyor"
           ]
         }
       ],
@@ -2522,17 +2503,6 @@
             }
           ],
           "soru": "Bu olaylar zincirini bir sanrıyla açıklamak, sence hayreti mi yatıştırıyor, yoksa görmezden mi geliyor?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir soru bırakayım. Bu başarıyı beşer takatiyle açıklayan biri, benzerini başaran başka bir beşeri göstermeli."
-            },
-            {
-              "metin": "Gösteremezse, bu iş onun takatiyle açıklanamaz."
-            }
-          ],
-          "soru": "Böyle bir örnek aklına geliyor mu?"
         }
       ],
       "kompozisyon": "Tüm bu verileri bir araya getirdiğinde 'samimi ama yanılıyordu' iddiasını nasıl savunursun? Kendi cümlelerinle yazar mısın?",

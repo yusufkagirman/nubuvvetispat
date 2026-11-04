@@ -820,6 +820,60 @@
       }
      ],
      "dayanak": "Yalnız tasarım/motor testi için. Ayet örneği (Rûm 30:2-4) Arapça metin ve meal yayın öncesi iki mushaf/meal kaynağıyla teyit edilmelidir (dogrulanacak)."
+    },
+    {
+     "id": "ornek.kunye",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Tarihçi Örnek Yazar bu konuda şöyle der.",
+       "kaynak": {
+        "yazar": "Örnek Yazar",
+        "eser": "Örnek Eser",
+        "yer": "Örnek Şehir",
+        "yil": "1953",
+        "sayfa": "52",
+        "not": "Kimlik: Deneme verisi; gerçek bir kişi değildir",
+        "alinti": "Bu cümle yalnız tasarım denemesi içindir; kimseye ait değildir.",
+        "dogrulanacak": false
+       }
+      },
+      {
+       "metin": "Bir başka tanıklık, *metnin korunmuşluğu* üzerine.",
+       "kaynak": {
+        "yazar": "Örnek Kurum",
+        "eser": "Örnek Rapor",
+        "yil": "2015",
+        "kimlik": "Deneme verisi; künyesi doğrulanmamış",
+        "dogrulanacak": true
+       }
+      },
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "alinti",
+        "veri": {
+         "metin": "Bu haber, doğru ya da yanlış olarak sınanabilir.",
+         "kim": "Bir sınama ilkesi",
+         "kaynak": {
+          "yazar": "Örnek Alıntı Yazarı",
+          "eser": "Örnek Alıntı Kitabı",
+          "yil": "2000",
+          "sayfa": "7",
+          "kimlik": "Deneme verisi",
+          "alinti": "Yalnız tasarım denemesi içindir."
+         }
+        }
+       }
+      },
+      {
+       "metin": "Bu kadar.",
+       "vurgu": true
+      }
+     ],
+     "dayanak": "Yalnız tasarım/motor testi için. Ayet örneği (Rûm 30:2-4) Arapça metin ve meal yayın öncesi iki mushaf/meal kaynağıyla teyit edilmelidir (dogrulanacak)."
     }
    ]
   }
