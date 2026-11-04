@@ -9,7 +9,9 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 - Sunum önce **kullanıcının şüphesini ve düzeyini** öğrenir, sonra **yalnız o şüpheye isabet eden** kısa ve öz cevabı verir. Tatmin olmazsa her seferinde yeni, daha güçlü bir örnek gelir.
 - Hitap: **"sen"** (sıcak, saygılı, samimi). Peygamber için olumsuz ihtimal anılırken "hâşâ" edebi korunur. Hz. Muhammed adı ilk geçişte "Hz. Muhammed", sonra "o" / "Peygamber" olabilir; (s.a.v.) yazılmaz (ekranda sade), dayanak alanında serbest.
 - "Hayır" tek başına `ikna` yollarını engellemez ("Hayır, artık demiyorum"); "ikna olmadım / yine de / değil" gibi sert olumsuzluklar engeller (anahtarın kendisi olumsuzluk içeriyorsa geçerli).
-- Ekranda **yazar adı, kitap adı, sayfa numarası yok.** Gerekirse doğal dille: "Batılı bir tarihçi şöyle der…", "Bugün Birmingham Üniversitesi'nde duran bir sayfa…". Kurum/yer adı serbest; kişi adı yalnız herkesin bildiği tarihî figürse (ör. Herakleios, Ebu Süfyan).
+- **Kaynaklar sunumun İÇİNDE (v2.1):** Oryantalist/akademik tanıklıklar **isimle** verilir ("Tarihçi W. Montgomery Watt şöyle der…"). Her olgu/alıntı satırı `kaynak` alanı taşır; motor bunu satırın altında küçük künye olarak gösterir, dokununca tam künye sunum içinde açılır. Kullanıcı sunumun dışına (link) gönderilmez. Sunumun sonunda (ve "⋯" menüsünde) **Kaynakça** sahnesi vardır.
+- Kitabın kendisi (Peygamberliğin İspatı) ekranda kaynak olarak anılmaz; kitabın aktardığı **asıl kaynaklar** (Watt, Hitti, Corpus Coranicum, Birmingham Üniversitesi raporu vb.) anılır.
+- Açılışta format bir kez açıklanır: "Konuşurken çoğunlukla Müslüman olmayan, Batılı akademisyenlerin kaynaklarını kullanacağız — çünkü tarafsız bir zemin istiyoruz." 
 - **Uydurma yok.** Her olgu `dayanak` alanında (gizli) kaynağıyla durur. Bilgi bankası: `docs/bolumler/*.md`, `docs/metod-haritasi.md`. Kitap dışı ekleme → `"ek": true` ve bölgenin `docs/onay/<bolge>.md` listesine eklenir (kullanıcı onayı).
 
 ## Dosyalar
@@ -109,8 +111,15 @@ Dal kapanınca ("ikna" + `kapat`) yazar `haber.kalan` beat'ine gider (haber.json
 | `sayac` | `{ "sayi": 45, "etiket": "…", "onek": "", "sonek": "" }` | büyük sayı sayarak belirir |
 | `karsilastirma` | `{ "sol": {"baslik","maddeler":[]}, "sag": {…} }` | iki sütun |
 | `denklem` | `{ "parcalar": ["Başarı", "=", "Son durum", "−", "(Toplum + Birey)"] }` | parça parça beliren denklem |
-| `alinti` | `{ "metin": "…", "kim": "Batılı bir tarihçi" }` | büyük, ince yazıyla alıntı |
+| `alinti` | `{ "metin": "…", "kim": "W. Montgomery Watt", "kaynak": {…} }` | büyük, ince yazıyla alıntı |
 | `galeri` | `{ "gorseller": ["gorseller/…jpg", …], "etiketler": ["…"] }` | yavaş geçişli görsel dizisi |
+
+## Kaynak alanı (v2.1)
+Satıra veya diyagram verisine eklenir:
+```json
+"kaynak": { "yazar": "W. Montgomery Watt", "eser": "Muhammad at Mecca", "yer": "Oxford", "yil": "1953", "sayfa": "52", "not": "Kimlik: İskoç oryantalist, Edinburgh Üniv.", "dogrulanacak": false }
+```
+Künye bilgisi bilgi bankasında (docs/bolumler, docs/kaynakca.md) yoksa uydurulmaz: bilinen alanlar yazılır, eksik alan için `"dogrulanacak": true` ve `docs/eksikler.md`'ye satır eklenir.
 
 ## Görseller
 Yalnız `gorseller/mushaflar/kitaptan/*.jpg` (repo: `public/gorseller/mushaflar/kitaptan/`) mevcut. Başka görsel yolu yazma; atmosfer (çöl, şafak, ışık, yıldız) motor tarafından prosedürel üretilir.

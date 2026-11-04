@@ -21,7 +21,9 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 5. Samimiyet ve fetanet delilleri ağırlıklı olarak **oryantalist (Batılı, gayrimüslim) kaynaklarla** desteklenir — muhatabın kabul edeceği kaynaklar.
 
 ## ⚠️ Güncel Yön (v2 — en üstte, öncekilerle çelişirse bu geçerli)
-- Kitap yalnızca **metodun örneği/ilhamı**; sunum **kitaptan bağımsız**. Ekranda **yazar adı, kitap adı, sayfa numarası, alıntı yığını yok.** Kitabın verileri bilgi bankasıdır; dayanaklar içerikte gizli `dayanak` alanında.
+- Kitap yalnızca **metodun örneği/ilhamı**; sunum **kitaptan bağımsız** (kitabın kendisi ekranda anılmaz, alıntı yığını yok).
+- **(v2.1) Kaynaklar sunumun içinde:** Oryantalist/akademik kaynaklar **isimle** ve **künyesiyle** satır altında gösterilir; tam künye ve kaynakça sunum içinde açılır, kullanıcı dışarı gönderilmez. Açılışta format ve **neden oryantalist kaynak kullandığımız** anlatılır. Zemin bölümünde diğer antik metinlerle (İlyada, Bizans tarihçileri, İncil yazmaları vb.) yazım-yazma arası süre kıyası yapılır.
+- İnternetsiz ortamda eklenemeyenler `docs/eksikler.md`'de tutulur (yerel oturumda tamamlanacak).
 - **Tek ekran, sinematik** (karanlık yıldızlı gece, kinetik tipografi, Ken Burns görseller, animasyonlu diyagramlar, aç/kapa hafif ambiyans sesi). Bölüm/menü/harita/ilerleme **görünmez**; şema arka planda.
 - Sunum kullanıcıyla **"sen" diliyle konuşur**, profilini ve **şüphesinin türü/düzeyini** sohbetle öğrenir, **yalnız o şüpheye isabet eden** kısa-öz cevabı verir. Geçiş yalnız cevabın isabet ettiği yere.
 - Sözleşme: `icerik/AKIS-SEMA.md` (beat şeması, cevap işleme, profil sözlüğü, giriş noktaları, diyagram kataloğu). İçerik: `icerik/akis/<bolge>.json`. Eski v1 içerik: `icerik/arsiv/`.
