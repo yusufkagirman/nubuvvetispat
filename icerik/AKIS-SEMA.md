@@ -119,7 +119,22 @@ Satıra veya diyagram verisine eklenir:
 ```json
 "kaynak": { "yazar": "W. Montgomery Watt", "eser": "Muhammad at Mecca", "yer": "Oxford", "yil": "1953", "sayfa": "52", "not": "Kimlik: İskoç oryantalist, Edinburgh Üniv.", "dogrulanacak": false }
 ```
+Alanlar: `yazar`, `eser`, `yer`, `yil`, `sayfa` (kaynak eserin sayfası), `not` (= `kimlik`, takma ad; kart/alıntı altında kimlik satırı), `alinti` (kartta gösterilen kısa metin), `dogrulanacak` (true ise kartta/kaynakçada küçük "doğrulanıyor" işareti). Motor: satır belirdikten ~700 ms sonra altında fısıltı künyesi (`Yazar · Eser · Yer, Yıl · s. N`; dar ekranda `Yazar · Eser, Yıl`); satırdaki yazar adı sözcüğü altı noktalı çizgiyle dokunulabilir olur; künyeye/isme dokununca sahne duraklar, cam kaynak kartı açılır (Esc / dışarı dokun / aşağı kaydır kapatır; dış bağlantı yok). `alinti` diyagramında `veri.kaynak` varsa `kim` düğmeye döner ve altına kimlik satırı gelir. Görülen kaynaklar karşılaşma sırasıyla yerelde tutulur; "⋯ > Kaynaklar" ve kapanıştaki "Kaynakça" sahnesi görülenleri parlak, görülmeyenleri soluk listeler.
+
 Künye bilgisi bilgi bankasında (docs/bolumler, docs/kaynakca.md) yoksa uydurulmaz: bilinen alanlar yazılır, eksik alan için `"dogrulanacak": true` ve `docs/eksikler.md`'ye satır eklenir.
 
 ## Görseller
 Yalnız `gorseller/mushaflar/kitaptan/*.jpg` (repo: `public/gorseller/mushaflar/kitaptan/`) mevcut. Başka görsel yolu yazma; atmosfer (çöl, şafak, ışık, yıldız) motor tarafından prosedürel üretilir.
+
+## Anlatı ritmi ve tipografi alanları (v3)
+Satır (`satirlar[]`) üzerinde, hepsi isteğe bağlı ve geriye uyumlu:
+| alan | değer | etki |
+|---|---|---|
+| `tempo` | `"hizli"` \| `"yavas"` | hızlı: kelimeler 36 ms aralıkla, kısa süre (kısa vuruşlar); yavaş: 150 ms aralık, ağır blur'lu, uzun süre. Varsayılan mevcut ritim. Kalıp: soru ← kısa vuruşlar ← uzun nefes ← vurgu ← soru |
+| `duraklama` | ms | satır bittikten sonra ek bekleme (dokununca atlanır) |
+| `sessiz` | `true` | satır yok: sahne boşalır, `duraklama` (vars. 2500 ms) kadar yalnız yıldızlar; ses açıksa ana ses %20'ye iner |
+| `vurgu` | `true` \| `"an"` | `true`: altın, büyük. `"an"`: aha anı — sahne boşalır, yıldızlar 700 ms söner, tek satır en büyük/ince ve harf aralığı açılarak belirir, altın hale, alçak tını. **Kural: sunumda en çok ~12 `an`, bölge başına 1–2** |
+| `ayet` | `{arapca, meal, sure, no}` | ayet anı: Arapça büyük, sağdan sola (Amiri, OFL, `site/fonts/`) kelime kelime belirir; sonra Türkçe meal; sonra `Rûm Sûresi, 2–4` künyesi. Diyagram olarak da: `{tur:"ayet", veri:{…}}`. Ayet metni yayın öncesi iki kaynaktan teyit edilir (`dogrulanacak`) |
+Metin içinde `*anahtar sözcük*` → altın, ağırlık 500 (yıldız karakteri başka amaçla kullanılmaz; ekrana basılmaz).
+Soru (`soru{}` ve `ekOrnekler[].ipucu`): `ipucu` = giriş alanı yer tutucusu (yoksa "Aklından geçeni yaz…"); `buyuk: true` = büyük soru, form 3 sn sonra (varsayılan 1.8–2.6 sn) gelir. Soru satırından sonra form hep kısa bir nefesle gelir; dokununca atlanır.
+Motor (içerik yazmaz): yazarken gökyüzü yavaşlar, imleç ucunda yıldız nabzı; cevap parşömen renkte altın sol çizgiyle 1.5 sn kalıp yıldızlara karışır; kapanan dal diyagramda söner (yıldız kararır, çizgi kopar, bakır halka); menüde Hız: Yavaş/Normal/Hızlı. Tasarım denemesi: `index.html?ornek=1` → `site/ornek-akis.json` yüklenir.

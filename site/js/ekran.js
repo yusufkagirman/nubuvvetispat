@@ -434,7 +434,7 @@ export class Ekran {
     const alt = h('div', 'kart-alt', null, kart);
     if (!this.katmanlar.some((x) => x.kok.classList.contains('kaynakca'))) { const g = h('button', 'kart-dugme', 'Kaynakça’da gör', alt); g.type = 'button'; g.addEventListener('click', () => { katman.kapat(); setTimeout(() => this.kaynakcaAc(), 120); }); }
     const kp = h('button', 'kart-dugme birincil', 'Kapat', alt); kp.type = 'button';
-    const katman = this._katmanAc(kok, { tetik, ilkOdak: () => kp });
+    const katman = this._katmanAc(kok, { tetik, ilkOdak: () => kart });
     kok.dataset.tur = 'kart';
     perde.addEventListener('click', () => katman.kapat());
     kp.addEventListener('click', () => katman.kapat());
@@ -466,7 +466,8 @@ export class Ekran {
       b.addEventListener('click', () => this.kaynakAc(k, b));
     });
     const kp = h('button', 'kk-kapat', 'Geri dön', kok); kp.type = 'button';
-    const katman = this._katmanAc(kok, { tetik, ilkOdak: () => kp });
+    kok.tabIndex = -1;
+    const katman = this._katmanAc(kok, { tetik, ilkOdak: () => kok });
     kp.addEventListener('click', () => katman.kapat());
     return katman;
   }
