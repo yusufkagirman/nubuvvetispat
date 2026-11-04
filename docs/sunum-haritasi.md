@@ -2,7 +2,7 @@
 
 > Otomatik üretilir: `scripts/panel-ekran.sh` (içerik değişince yeniden çalıştır). Düzenleme: `icerik/akis/*.json`. Etkileşimli görünüm: `site/panel.html`.
 
-Toplam 126 kare.
+Toplam 138 kare.
 
 ## Bölge: acilis
 
@@ -48,8 +48,8 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Seni ikna etmeye çalışmayacağım. _[vurgu]_
-2. Birlikte bakalım. Karar senin.
+1. Sana bazı şeyler göstermek istiyorum; karar senin. _[vurgu]_
+2. Birlikte bakalım.
 3. Sana hiçbir şeyi dayatmam.
 4. Cevaplarını istediğin gibi yaz; ben anlamaya çalışırım.
 5. İstediğin an 'ara ver' de. Kaldığın yerden devam ederiz.
@@ -70,7 +70,7 @@ Toplam 126 kare.
 **Satırlar:**
 
 1. Bir şeyi baştan söyleyeyim: kimlerin sözüne kulak vereceğiz?
-2. Çoğunlukla Müslüman olmayan, Batılı akademisyenlerin: oryantalistlerin ve tarihçilerin.
+2. Çoğunlukla Müslüman olmayan Batılı tarihçilerin ve akademisyenlerin sözüne kulak vereceğiz.
 3. Neden? Çünkü tarafsız bir zemin istiyorum. Kendi kaynağıyla kendini ispat eden bir döngü olmasın.
 4. Her cümlenin altında kaynağını göreceksin. Dokunursan kim yazmış, nerede yazmış, açılır.
 5. Karşı tarafın tanıklarıyla konuşacağız. _[vurgu]_
@@ -111,7 +111,8 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| profil | evet, inanıyorum, inanırım, tanrı var, allah var, yaratıcıya inanıyorum, tanrıya inanıyorum, inançlıyım, dindarım, deistim, deist | (sonraki/varsayılan) |
+| profil | deist, deistim, deizm, deist biriyim | (sonraki/varsayılan) |
+| profil | evet, inanıyorum, inanırım, tanrı var, allah var, yaratıcıya inanıyorum, tanrıya inanıyorum, inançlıyım, dindarım | (sonraki/varsayılan) |
 | profil | hayır, inanmıyorum, inanmam, tanrı yok, yok, ateistim, ateist, materyalistim, inançsızım, hiç inanmam | (sonraki/varsayılan) |
 | profil | emin değilim, bilmiyorum, bilmem, kararsızım, agnostik, agnostikim, belki, bazen, ne bileyim, fikrim yok | (sonraki/varsayılan) |
 | varsayılan | — | acilis.din |
@@ -131,7 +132,8 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| profil | hiçbiri, hiçbir, dinsizim, dinim yok, dinsiz, ateist, ateistim, inançsız, deist, laik, seküler | (sonraki/varsayılan) |
+| profil | deist, deistim, deizm, deist biriyim | (sonraki/varsayılan) |
+| profil | hiçbiri, hiçbir, dinsizim, dinim yok, dinsiz, ateist, ateistim, inançsız, laik, seküler | (sonraki/varsayılan) |
 | profil | hristiyan, hıristiyan, hristiyanım, hıristiyanım, katolik, ortodoks, protestan, kilise | (sonraki/varsayılan) |
 | profil | yahudi, yahudiyim, musevi, museviyim, sinagog, tevrat | (sonraki/varsayılan) |
 | profil | budist, budistim, hindu, sikh, pagan, taoist, başka bir dinden, başka bir din, başka din, ruhani, bahai | (sonraki/varsayılan) |
@@ -204,7 +206,7 @@ Toplam 126 kare.
 | profil | epilepsi, sara, hasta, hayal, hayal görmüş, halüsinasyon, sanrı, psikolojik, akıl hastası, deli, delirmiş, vehim, yanılmış, yanıldı, kendini peygamber sandı, zihinsel, nöbet, travma | acilis.yonlendir |
 | profil | yahudilerden, hristiyanlardan, rahipten, bahira, öğrenmiş, öğrenmiş olabilir, öğrendi, bilgi aldı, kitaplardan, tevrat'tan, incil'den, varaka, başkasından, çevresinden, kopyalamış, ödünç, aktarmış | acilis.yonlendir |
 | profil | mucize yok, mucizesi yok, mucize, kanıt istiyorum, delil istiyorum, kanıtı ne, neden bir şey göstermedi, olağanüstü, doğaüstü, gösterseydi, ispatla | acilis.yonlendir |
-| profil | sadece merak, merak, bilmiyorum, bilmem, hiçbiri, hepsi, kafam karışık, emin değilim, genel, fikrim yok, karışık | acilis.yonlendir |
+| profil | sadece merak, merak, bilmiyorum, bilmem, hiçbiri, kafam karışık, emin değilim, genel, fikrim yok, karışık | acilis.yonlendir |
 | varsayılan | — | acilis.yonlendir |
 
 ### acilis.zeminKopru
@@ -228,6 +230,7 @@ Toplam 126 kare.
 **Girişte dallan:**
 
 - `{"profil.kaynakGuveni":["dusuk","orta"]}` → `acilis.zeminKopru`
+- `{"profil.deizm":"evet"}` → `haber.vahiy-gerek`
 
 **Satırlar:**
 
@@ -299,7 +302,7 @@ Toplam 126 kare.
 
 1. Kısa yolda dört an göstereceğim.
 2. Birincisi, hız: Peygamber hayattayken kâtipler ayetleri yazıyordu.
-3. Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı.
+3. Geleneksel anlatıya göre, vefatından yaklaşık bir yıl sonra yazılanlar tek bir nüshada toplandı.
 4. Yirmi yıl dolmadan, çoğaltılan kopyalar şehirlere gitti.
 5. Metin bir de ezberle taşındı. Dünyada kabaca milyonlarca hafız var.
 6. Yazı ve ezber: iki kanal. Biri sapsa, öteki yakalar. _[vurgu]_
@@ -317,8 +320,9 @@ Toplam 126 kare.
 1. İkincisi: elimizde o dönemin sayfaları var.
 2. İstanbul'da, San'a'da, Paris'te, Tübingen'de, Birmingham'da.
 3. Birmingham Üniversitesi'ndeki yaprak için aralık: 568 ile 645. _[kaynak: Oxford Radiocarbon Accelerator Unit ve Birmingham Üniversitesi, "Birmingham Kur'an yapraklarının radyokarbon tarihlemesi", Birmingham 2015, Üniversite açıklaması ve laboratuvar sonucu [doğrulanacak]]_
-4. (metinsiz) _[diyagram: zaman]_
-5. Küçük imla farkları dışında, hepsi aynı metni taşıyor. _[vurgu]_
+4. Karbon yazının en erken tarihini verir: yazı, deriden sonra gelir.
+5. (metinsiz) _[diyagram: zaman]_
+6. Elimizdeki erken yazmaların çoğu, küçük imla farkları dışında aynı metni taşıyor. _[vurgu]_
 
 | tür | anahtarlar | hedef |
 |---|---|---|
@@ -385,7 +389,7 @@ Toplam 126 kare.
 1. İlk soru: bu metin ne kadar çabuk yazıya geçti?
 2. Çoğu eski eser, yazarından yüzlerce yıl sonra kâğıda döküldü.
 3. Bu metin farklı. Peygamber hayattayken kâtipler ayetleri yazıyordu.
-4. Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı.
+4. Geleneksel anlatıya göre, vefatından yaklaşık bir yıl sonra yazılanlar tek bir nüshada toplandı.
 5. Yirmi yıl dolmadan, bu nüshadan çoğaltılan kopyalar şehirlere gitti.
 6. (metinsiz) _[diyagram: zaman]_
 7. Tek bir kuşak içinde: yazıldı, toplandı, çoğaltıldı. _[vurgu]_
@@ -451,7 +455,7 @@ Toplam 126 kare.
 3. Ama karşısında rakip iktidarlar var. Her biri rakibinin açığını kolluyor.
 4. (metinsiz) _[diyagram: demet]_
 5. Emevileri yıkan Abbasiler, rakiplerinin her kusurunu duyurdu. Kerbela'yı bile.
-6. Ama metnin değiştirilmesi üzerine tek bir ihtilaf kaydı bilinmiyor.
+6. Ama metnin sistemli biçimde değiştirildiğini iddia eden tek bir ihtilaf kaydı bilinmiyor.
 7. Yaklaşık 750'den sonra, hiçbir devlet tek başına her yere hâkim olamadı. _[vurgu]_
 
 **Soru:** Hangi dönemde, kim, nasıl değiştirdi? Ve rakipleri neden bunu duyurmadı?
@@ -462,6 +466,7 @@ Toplam 126 kare.
 |---|---|---|
 | ikna | cevabım yok, cevabım yok haklısın, haklısın | (sonraki/varsayılan) |
 | itiraz | susturmuştur, susturdu, susturur, baskı, bastırdı, iktidar susturur, güçlüydü | (yanıt, aynı soru) |
+| itiraz | haccac, haccâc, ibn mesud, mesud, übey, şii, şia, farklı mushaf, tahrif rivayeti | (yanıt, aynı soru) |
 | yonlendir | gerek yok, geçelim, atlayalım, zaten güveniyorum | zemin.ikna |
 | sonraki | — | zemin.hafizlar |
 
@@ -547,10 +552,10 @@ Toplam 126 kare.
 1. Bu yapraklar rastgele değil. Haritaya dök.
 2. Rivayete göre Hz. Osman'ın çoğalttığı nüshalar dört şehre gitti.
 3. (metinsiz) _[diyagram: karsilastirma]_
-4. Yazmalar bu dört yöne oturuyor.
+4. Yazmaların bir kısmı bu dört yöne bağlanır; eşleştirme tartışmalıdır.
 5. Farklı kâtipler. Farklı boyutlar. Farklı satır düzenleri.
 6. Metin yine aynı.
-7. Gizli bir değişiklik, bu dört yönün hiçbirinde iz bırakmamış. _[vurgu]_
+7. Gizli bir değişiklik, bu yazmaların hiçbirinde iz bırakmamış. _[vurgu]_
 
 **Soru:** Dört ayrı yöne dağılmış nüshaların hepsinde aynı metin varsa, bir değişiklik hepsine aynı anda nasıl girebilirdi?
 
@@ -563,10 +568,9 @@ Toplam 126 kare.
 | yonlendir | gerek yok, geçelim, atlayalım, zaten güveniyorum | zemin.ikna |
 | sonraki | — | zemin.karbon |
 
-**Ek örnekler (2):**
+**Ek örnekler (1):**
 
-1. Paris'teki BnF yazması ve Tübingen'deki yazma, Şam nüshasıyla uyumlu. İkisinin karbon aralığı da 649 ile 675 arasına düşüyor. Bu, Peygamber'in vefatından yaklaşık kırk yıl içinde. → _Peygamber'den en fazla kırk yıl sonrasına ait yapraklarda sistemli bir değişiklik izi yoksa, değişiklik nerede başladı?_
-2. Yemen'de bir yazmanın karbon aralığı yayımlandı. Sadeghi ve Bergmann: yüzde 68 ihtimalle 614 ile 656. Yüzde 95 ihtimalle 578 ile 669. → _Peygamber'in zamanına bu kadar yakın bir yaprak bugünkü metni taşıyorsa, değişiklik için ne kadar zaman kalıyor?_
+1. Tübingen Üniversitesi'ndeki yazmayı düşün. Karbon sonucu: yüzde 95,4 ihtimalle 649 ile 675. Bu, Peygamber'in vefatından yaklaşık kırk yıl sonrası: ilk kuşak. → _Peygamber'den yaklaşık kırk yıl sonrasına ait bir yazmada sistemli değişiklik izi yoksa, değişiklik nerede başladı?_
 
 **Kompozisyon:** Peki sen bu coğrafi dağılımı, tek bir değişiklik varsayımıyla nasıl açıklıyorsun?
 
@@ -615,10 +619,10 @@ Toplam 126 kare.
 4. Mesela Tevbe suresinin son iki ayeti.
 5. (metinsiz)
 6. Reşad Halife, bu iki ayetin sonradan eklendiğini ileri sürdü.
-7. Ayet, karbon aralığı 606 ile 649 olan bir yazmada bile yerinde duruyor. _[kaynak: Corpus Coranicum, "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü", Almanya, Almanya merkezli akademik Kur'an metni projesi [doğrulanacak]]_
-8. Peygamber'in zamanına çok yakın bir yazmada. _[vurgu]_
+7. Ayet, ilk yüzyıla ait en eski yazmalarında da yerinde duruyor. _[kaynak: Corpus Coranicum, "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü", Almanya, Almanya merkezli akademik Kur'an metni projesi [doğrulanacak]]_
+8. Yani 'sonradan eklendi' diyen için erken bir tanık yok. _[vurgu]_
 
-**Soru:** İddia: son iki ayet sonradan eklendi. Veri: ayet, Peygamber'in zamanına çok yakın bir yazmada zaten var. 'Sonradan eklendi' mantıken nasıl savunulur?
+**Soru:** İddia: son iki ayet sonradan eklendi. Veri: ayet, ilk yüzyılın yazmalarında zaten var. 'Sonradan eklendi' mantıken nasıl savunulur?
 
 Çipler: “Savunulamaz” · “Kendim bakmak isterim” · “Emin değilim”
 
@@ -631,7 +635,7 @@ Toplam 126 kare.
 
 **Ek örnekler (1):**
 
-1. Bir ayet daha: Rum suresinin beşinci ayeti.  En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada. Yani Peygamber'den yaklaşık kırk yıl sonrasına inmiyor bile. → _Bir ayet için bile Peygamber'in zamanına bu kadar yakın bir yazma varsa, 'sonradan eklendi' iddiası ne zaman, nasıl yapılmış olabilir?_
+1. Bir ayet daha: Rum suresinin beşinci ayeti.  En erken yazma dizisi, karbon aralığı 649 ile 675 olan yazmalarla başlıyor. Yani ilk yüzyılın içinde: Peygamber'den sonraki ilk kuşakta. → _Bir ayet için bile ilk yüzyılın yazmaları varsa, 'sonradan eklendi' iddiası ne zaman, nasıl yapılmış olabilir?_
 
 **Kompozisyon:** Peki sen, ayetlerin sonradan eklendiği iddiasını bu veriyle nasıl uzlaştırıyorsun?
 
@@ -645,7 +649,7 @@ Toplam 126 kare.
 2. Tarih derslerinde Herodot'a, Eflatun'a, Demostenes'e güvenerek konuşuruz.
 3. Peki bu eserlerin elimizdeki en eski kopyaları ne zaman yazılmış?
 4. (metinsiz) _[diyagram: karsilastirma]_
-5. Hiçbirinde aradaki süre dört yüz yılın altına inmiyor.
+5. Hiçbirinde aradaki süre yaklaşık dört yüz yılın altına inmiyor.
 6. Buna rağmen bu eserlere 'tarih' deriz. _[vurgu]_
 
 | tür | anahtarlar | hedef |
@@ -664,8 +668,9 @@ Toplam 126 kare.
 2. (metinsiz) _[diyagram: karsilastirma]_
 3. Yeni Ahit gerçekten iyi belgelenmiş: en eski parçalar ikinci yüzyıla uzanır. _[kaynak: Bruce M. Metzger, "The Text of the New Testament", Amerikalı Yeni Ahit metin bilimcisi [doğrulanacak]]_
 4. Bizans'ta Theophanes, Herakleios savaşlarını olaylardan yaklaşık 190 yıl sonra yazdı. _[kaynak: Cyril Mango ve Roger Scott, "The Chronicle of Theophanes Confessor (Theophanes, Chronographia çevirisi)", Oxford 1997, Bizans uzmanı akademisyenler; Theophanes yaklaşık 810–814 arasında yazdı [doğrulanacak]]_
-5. Mushaf uzmanı Tayyar Altıkulaç: yeryüzünde Kur'an kadar yazması olan başka kitap yok. _[kaynak: Tayyar Altıkulaç, "Mesâhif-i Kadîme (IRCICA)", İstanbul 2015, Türk akademisyen, mushaf neşri uzmanı [doğrulanacak]]_
-6. Aynı ölçüyü herkese uygulamak, tutarlılıktır. _[vurgu]_
+5. Yazma sayısında Yeni Ahit açık ara önde.
+6. Kur'an'ın farkı sayı değil, hız; ezber zinciri de bugüne kesintisiz.
+7. Aynı ölçüyü herkese uygulamak, tutarlılıktır. _[vurgu]_
 
 **Soru:** Aynı ölçüyle bakınca, Kur'an için duyulan şüphe, başka metinler için neden duyulmuyor?
 
@@ -680,8 +685,8 @@ Toplam 126 kare.
 
 **Ek örnekler (2):**
 
-1. Yeni Ahit için de böyle: araştırmacı Zafer Duygu'nun tablosunda İnciller yaklaşık 68 ile 110 arasına yerleşir. Bu, onların değersiz olduğu anlamına gelmez. Sadece ölçünün herkes için aynı olması gerekir. → _Aynı ölçüyü her metne uyguladığımızda, yalnızca birine şüpheyle bakmak mantıken nasıl savunulur?_
-2. Şunu dene. Kur'an için üç ölçüt yaz: Yazıya geçiş hızı. Yazma sayısı. Ezberleyenlerin sayısı. Bunların onda birine ulaşan başka bir metin bul. → _Hangi metin bu üç ölçüde Kur'an'ın onda birine bile ulaşıyor?_
+1. Yeni Ahit araştırmacılarının yaygın tarihlemesinde İnciller yaklaşık 70 ile 110 arasına yerleşir. Bu, onların değersiz olduğu anlamına gelmez. Sadece ölçünün herkes için aynı olması gerekir. → _Aynı ölçüyü her metne uyguladığımızda, yalnızca birine şüpheyle bakmak mantıken nasıl savunulur?_
+2. Şunu dene. Kur'an için iki ölçüt yaz: Yazıya geçiş hızı. Ezber zincirinin kesintisizliği. Bu iki ölçüde Kur'an'a yaklaşan başka bir metin bul. → _Hangi metin bu iki ölçüde Kur'an'ın yanına yaklaşıyor?_
 
 **Kompozisyon:** Peki sen hangi ölçütle, Kur'an'a şüpheyle bakıp öbür metinlere güveniyorsun?
 
@@ -750,10 +755,10 @@ Toplam 126 kare.
 3. Eziyet gördüler. Mallarını, yakınlarını, yurtlarını kaybettiler.
 4. Dünyalık bir çıkar yoktu. Halife seçilen Ebubekir pazarda çalışmaya devam etti.
 5. Sorgulayan insanlardı: Hudeybiye'de Ömer bile 'bu neden?' diye sordu.
-6. Bir yalan ya da hata görselerdi, susmazlardı.
-7. Metinde tarihî bir yanlış olsaydı, önce onlar itiraz ederdi. _[vurgu]_
+6. Metne bir şey eklenip çıkarılsaydı, susmazlardı.
+7. Metin sonradan değiştirilseydi, önce onlar itiraz ederdi. _[vurgu]_
 
-**Soru:** İddia: metindeki bilgiler uydurulmuş olabilir. Veri: bunu ilk duyanlar, her şeyi feda eden, sorgulamayı bilen insanlardı ve bir itiraz kaydı yok. Bu mantıken nasıl mümkün?
+**Soru:** İddia: metin sonradan değişti. Veri: bunu ilk duyanlar, her şeyi feda eden, sorgulamayı bilen insanlardı ve bir itiraz kaydı yok. Bu mantıken nasıl mümkün?
 
 Çipler: “Samimi insanlar susmazdı” · “Körü körüne inanmış olabilirler” · “Emin değilim”
 
@@ -766,9 +771,9 @@ Toplam 126 kare.
 
 **Ek örnekler (3):**
 
-1. Miraç haberi duyulduğunda, bazı müminlerin imanı sarsıldı. Bir kısmı ayrıldı. Caetani ve Dozy da bunu aktarır. Görünmeyen bir olay bile bu tepkiyi doğurdu. → _Görünmeyen bir olay bile tepki doğurduysa, herkesin bildiği bir olgudaki yanlışa ne tepki verirlerdi?_
+1. Miraç haberi duyulduğunda, bazı müminlerin imanı sarsıldı. Bir kısmı ayrıldı. Caetani ve Dozy da bunu aktarır. Görünmeyen bir olay bile bu tepkiyi doğurdu. → _Görünmeyen bir olay bile tepki doğurduysa, herkesin bildiği metindeki bir değişikliğe ne tepki verirlerdi?_
 2. Yusuf suresi, Peygamber'e der: 'Sen bundan önce haberi olmayanlardandın.'  O bu kıssaları yıllardır biliyor olsaydı, en yakınları bunu bilirdi. Ayetin yalan olduğunu en önce onlar söylerdi. → _Bu ayet yalan olsaydı, en yakın çevresinin tepkisiz kalması nasıl açıklanır?_
-3. Huneyn'den sonra ganimet dağıtılırken, Medineli Müslümanlar kırıldı. Peygamber onlara dünyalığı değil, kendisini hatırlattı. Cevapları: 'Evlerimize Allah'ın Peygamberiyle döneceğiz.' → _Güçlendikleri bir anda bile dünyalıktan çok elçiyi seçen insanlar, bir yalan fark etseler susar mıydı?_
+3. Huneyn'den sonra ganimet dağıtılırken, Medineli Müslümanlar kırıldı. Peygamber onlara dünyalığı değil, kendisini hatırlattı. Cevapları: 'Evlerimize Allah'ın Peygamberiyle döneceğiz.' → _Güçlendikleri bir anda bile dünyalıktan çok elçiyi seçen insanlar, metne yapılan bir müdahaleyi fark etseler susar mıydı?_
 
 **Kompozisyon:** Peki sen, bu insanların bunca bedeli ödeyip itirazsız kalmasını nasıl açıklıyorsun?
 
@@ -784,9 +789,9 @@ Toplam 126 kare.
 4. Kur'an onların en zayıf itirazlarını bile kaydeder ve cevap verir.
 5. Kıble neden değişti? Sivrisinek örneği ne demek? Neden bir melek inmedi?
 6. (metinsiz) _[diyagram: alinti]_
-7. Ama metindeki olgulara dair açık bir hata ya da yalan itirazı bilinmiyor. _[vurgu]_
+7. Ama bu itirazların hiçbiri şunu demiyor: 'Bu metin sonradan değiştirildi.' _[vurgu]_
 
-**Soru:** İddia: metne hatalı ya da uydurma bilgiler girmiş olabilir. Veri: onu kollayan düşmanları vardı ve hata suçlaması kaydı yok. Bu mantıken nasıl mümkün?
+**Soru:** İddia: metin sonradan değişti. Veri: onu kollayan düşmanları vardı, itirazlarını yazdılar ve 'değiştirildi' diyen tek bir kayıt yok. Bu mantıken nasıl mümkün?
 
 Çipler: “Fark etselerdi söylerlerdi” · “Kayıt kaybolmuş olabilir” · “Emin değilim”
 
@@ -794,6 +799,7 @@ Toplam 126 kare.
 |---|---|---|
 | ikna | fark etselerdi söylerlerdi, söylerlerdi, fark etselerdi | (sonraki/varsayılan) |
 | itiraz | kayıt kaybolmuş, kaybolmuş, yok olmuş, yok edilmiş, kaydedilmemiş, kaybolmuş olabilir | (yanıt, aynı soru) |
+| itiraz | meryem, harun, haman, hata var, tarihî hata, yanlış bilgi, zülkarneyn, üzeyr | (yanıt, aynı soru) |
 | itiraz | sihirbaz, şair, kâhin, yalancı dediler, iftira attılar, sihir | (yanıt, aynı soru) |
 | yonlendir | gerek yok, geçelim, atlayalım, zaten güveniyorum | zemin.ikna |
 | sonraki | — | zemin.ikna |
@@ -801,7 +807,7 @@ Toplam 126 kare.
 **Ek örnekler (2):**
 
 1. Kur'an bu rolü açıkça üstlenir. Sana bir itiraz getirmezler ki, biz sana doğrusunu getirmiş olmayalım, der.  Yani itirazlar vardı ve cevaplandı. → _Her itirazı aktarıp cevaplayan bir metinde, gizli bir yalan nasıl saklanır?_
-2. Peygamber hikâyeleri başka kitaplardan almış olsaydı, rakipleri kaynağı gösterirdi. Medine'de bu kitapları bilen, elinde okuyan insanlar vardı. 'Öğrenmiş mi' sorusuna ayrıca geleceğiz. → _Elinde somut bir kaynak olan düşmanın onu göstermemesi, mantıken nasıl açıklanır?_
+2. Kur'an, 'ona bir insan öğretiyor' suçlamasını kendisi kaydeder (Nahl 103). İtirazlar saklanmadı; metnin içinde duruyor. Bir metin yalnız kendi lehine olanı korumaz. → _İtirazlarını bile içinde taşıyan bir metin, sonradan değiştirilmeye mi yatkın, korunmaya mı?_ [ek]
 
 **Kompozisyon:** Peki sen, metni bunca kollayan düşmanlara rağmen açık bir hata itirazının bulunmamasını nasıl yorumluyorsun?
 
@@ -871,6 +877,32 @@ Toplam 126 kare.
 | sonraki | — | haber.giris |
 
 ## Bölge: haber
+
+### haber.vahiy-gerek (düğüm Z1)
+
+**Etiket: ek (kitap dışı)**
+
+![haber.vahiy-gerek](../site/panel/ekran/haber.vahiy-gerek.jpg)
+
+**Satırlar:**
+
+1. Bir Yaratıcı'ya inanıyorsun ama bir dine değil.
+2. O zaman doğal bir soru çıkıyor: “Neden bir insanla konuşsun?” _[vurgu]_
+3. Bu soruyu peşinen cevaplamayacağım.
+4. Yalnız şunu söylüyorum: Yaratıcı'nın insanla konuşması mantıksal olarak imkânsız değil.
+5. Biri “O benimle konuşuyor” diyorsa, sözünü bir haber olarak tartabiliriz.
+
+**Soru:** Bir Yaratıcı insanlara yol göstermek isteseydi, bunu hangi yolla yapmasını beklerdin? _(serbest)_
+
+Çipler: “Akıl yeter” · “Bir elçi gönderebilir” · “Bilmiyorum”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| itiraz | akıl yeter, akıl, vahye gerek yok, gerek yok | (yanıt, aynı soru) |
+| itiraz | konuşmaz, konuşmuyor, neden konuşsun, imkânsız | (yanıt, aynı soru) |
+| ikna | elçi, gönderebilir, peygamber, olabilir, bilmiyorum | haber.giris |
+| sonraki | — | haber.giris |
+| varsayılan | — | haber.giris |
 
 ### haber.giris (düğüm H1)
 
@@ -972,7 +1004,7 @@ Toplam 126 kare.
 2. Birinci ihtimal: doğru söylüyor. O zaman peygamberdir. _[vurgu; diyagram: ihtimaller]_
 3. İkinci ihtimal: hâşâ, yanlış söylüyor. _[diyagram: ihtimaller]_
 4. Yanlışsa ya bilerek: hâşâ, bir yalan. _[diyagram: ihtimaller]_
-5. Ya da bilmeden: hâşâ, bir yanılgı, bir hastalık. _[diyagram: ihtimaller]_
+5. Ya da bilmeden: hâşâ, içtenlikle yanılmış — bir hastalık, bir hayal ya da yanlış bir yorum. _[diyagram: ihtimaller]_
 6. Bu kadar. Çünkü yalnızca iki soru sorduk: doğru mu? Yalansa, farkında mı? _[diyagram: ihtimaller]_
 7. Olumsuz ihtimalleri yalnızca ciddiye alıp sonucuna bakmak için anıyoruz.
 
@@ -998,11 +1030,14 @@ Toplam 126 kare.
 | ikna | yok, hayır yok, haklısın, katılıyorum, mantıklı, başka ihtimal yok, dördüncü yok, sanırım yok, bulamadım | haber.demet |
 | yonlendir | kaynaklara dönelim, kaynaklara dön, kaynak konusuna dön, önce kaynaklar, kaynakları konuşalım | zemin.giris |
 | itiraz | efsane, efsaneydi, sonradan uydurulmuş, sonradan yazılmış, sonradan eklenmiş, rivayet, kaynaklar güvenilmez, tarihsel değil, hiç yaşamadı, yaşamadı | (yanıt, aynı soru) |
-| itiraz | reformcu, iyi niyetli, iyi niyetle, toplum önderi, devrimci, mecaz, mecazi, sembolik, ilham, vizyon, rüya, manevi tecrübe, manevi, ahlak öğretmeni | (yanıt, aynı soru) |
+| itiraz | reformcu, iyi niyetli, iyi niyetle, toplum önderi, devrimci, mecaz, mecazi, sembolik, ahlak öğretmeni | (yanıt, aynı soru) |
+| profil | vizyon, ilham, rüya, manevi tecrübe, manevi, dinî deneyim, hasta değil, hasta değildi, sağlıklıydı, sağlıklı biriydi, bilinçaltı, kendi zihni, içinden geldi | fetanet.vizyoner |
 | itiraz | kısmen, biraz, bir kısmı, ikisi de, hem hem, arası, orta yol, kısmen doğru, yarı yarıya | (yanıt, aynı soru) |
 | itiraz | kâhin, kahin, medyum, büyücü, sihirbaz, falcı, ruh çağıran | (yanıt, aynı soru) |
 | itiraz | epilepsi, halüsinasyon, hayal, hasta, yanılmış, yanılgı, sara | (yanıt, aynı soru) |
 | ret | evet bence var, bence var, başka ihtimal var, dördüncü ihtimal var, bir ihtimal daha var | (ret → ek örnek) |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | sonraki | — | haber.demet |
 
 **Ek örnekler (2):**
@@ -1032,7 +1067,7 @@ Toplam 126 kare.
 |---|---|---|
 | ikna | adil, haklısın, mantıklı, katılıyorum, tamam, evet | haber.kisisel |
 | itiraz | zincir, en zayıf halka, zayıf halka, tek delil, bir delil yeter, birkaç delil, bir tanesini çürütsem | (yanıt, aynı soru) |
-| itiraz | kanıtlamak zorunda değilim, ispat etmek zorunda değilim, benim işim değil, senin işin, sen ispatla | (yanıt, aynı soru) |
+| itiraz | kanıtlamak zorunda değilim, ispat etmek zorunda değilim, benim işim değil, senin işin, sen ispatla, ispatlamak, ispat yükü, yük iddia edende, iddia sahibi, kanıtlama yükü | (yanıt, aynı soru) |
 | sonraki | — | haber.kisisel |
 
 **Ek örnekler (2):**
@@ -1071,7 +1106,7 @@ Toplam 126 kare.
 1. Sen başta onun bunu uydurmuş olabileceğini söyledin.
 2. Haritada bu birinci kutu: bilerek yalan. _[diyagram: ihtimaller]_
 3. Bu ihtimali atlamayacağız. Önce onu ciddiye alalım.
-4. Kazanç de bedel de ölçülebilir. Peki bu iddianın hesabı nasıl çıkıyor?… _[vurgu]_
+4. Kazanç da bedel de ölçülebilir. Bu iddianın hesabı nasıl çıkıyor… _[vurgu]_
 
 **Soru:** Önce bu ihtimali birlikte inceleyelim mi? _(serbest)_
 
@@ -1149,6 +1184,8 @@ Toplam 126 kare.
 | yonlendir | bilmiyorum, bilemiyorum, bilmem, kararsızım, kararsiz, emin değilim, emin degilim, hiçbiri, hiçbirine, fikrim yok, karar veremedim, karar veremiyorum, ne bileyim, her ikisi, ikisi de olabilir, hepsi olabilir, düşünmem lazım, düşünmem gerek, henüz karar vermedim, şimdilik bilmiyorum, sence, hangisi bilmiyorum | haber.belirsiz |
 | itiraz | hakaret, saygısızlık, saygisizlik, ayıp, edepsizlik, haşa, hâşâ, incitici | (yanıt, aynı soru) |
 | yonlendir | doğru söylemiyor, doğru değil, doğru söylemedi, doğru söylemiyordu, doğru olduğunu sanmıyorum, doğru olmadığını | haber.belirsiz |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | varsayılan | — | haber.belirsiz |
 
 ### haber.belirsiz (düğüm H5)
@@ -1220,7 +1257,7 @@ Toplam 126 kare.
 1. Bilerek yalan ihtimali kapandı. _[vurgu; diyagram: ihtimaller]_
 2. Geriye iki şey kaldı: bilmeden yanılma ya da doğruluk.
 3. Bunu sen kendi ikna olduğun adımlarla buldun.
-4. Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik… _[vurgu]_
+4. Bir kapı kapandı. Bilmeden yanılma kapısında ne var, henüz görmedik… _[vurgu]_
 
 **Soru:** Şimdi hangisini ciddiye almak istersin? _(serbest)_
 
@@ -1245,7 +1282,7 @@ Toplam 126 kare.
 1. Bilmeden yanılma ihtimali kapandı. _[vurgu; diyagram: ihtimaller]_
 2. Geriye iki şey kaldı: bilerek yalan ya da doğruluk.
 3. Bunu sen kendi ikna olduğun adımlarla buldun.
-4. Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik… _[vurgu]_
+4. Bir kapı kapandı. Bilerek yalan kapısında ne var, henüz görmedik… _[vurgu]_
 
 **Soru:** Şimdi hangisini ciddiye almak istersin? _(serbest)_
 
@@ -1327,6 +1364,7 @@ Toplam 126 kare.
 | yonlendir | bilmiyorum, bilemem, emin değilim, hepsi | samimiyet.yuk |
 | itiraz | strateji, siyasi deha, zeki, dâhi, deha, kurnaz, plan | (yanıt, aynı soru) |
 | itiraz | rivayet, sonradan uydurulmuş, nesiller, sonraki nesil, anlatmış, uydurma | (yanıt, aynı soru) |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | sonraki | — | samimiyet.yuk |
 | varsayılan | — | samimiyet.yuk |
 
@@ -1343,7 +1381,7 @@ Toplam 126 kare.
 5. Öldüğünde zırhı, bir ölçü arpa karşılığında bir Yahudi komşusunda rehindi. _[vurgu]_
 6. Bir devlet başkanı, azınlıktan bir komşusuna borçluydu.
 
-**Soru:** Senin iddian bir sahtekârdı. Ama güç elindeyken zırhı rehinde ölen biri, mal için neden yalan söylesin?
+**Soru:** Diyelim ki, hâşâ, amacı maldı. Güç elindeyken zırhı rehinde ölen biri, bu yalandan ne kazandı?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1375,7 +1413,7 @@ Toplam 126 kare.
 5. Kızı Fatıma el değirmeninden elleri nasır tutmuşken bir hizmetçi istedi. _[vurgu]_
 6. Vermedi. 'Bedir yetimleri senden önce gelir' dedi ve ona bir tesbih duası öğretti.
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, elleri nasır tutmuş kendi kızına neden hizmetçi vermez?
+**Soru:** Diyelim ki, hâşâ, ailesine konfor sağlamak istedi. Kızının elleri el değirmeninden nasır tutmuşken ona hizmetçi vermeyen biri bu yalandan ne bekliyordu?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1407,7 +1445,7 @@ Toplam 126 kare.
 5. Anlatılanlara göre amcasına, gözyaşları içinde şöyle dedi:
 6. (metinsiz) _[diyagram: alinti]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama servet ve liderlik masada hazır dururken, bir sahtekâr neden 'hayır' der?
+**Soru:** Diyelim ki, hâşâ, derdi iktidardı. Servet ve liderlik masada hazırken 'hayır' diyen biri bu yalandan ne bekliyordu?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1439,7 +1477,7 @@ Toplam 126 kare.
 5. (metinsiz)
 6. (metinsiz) _[diyagram: alinti]_
 
-**Soru:** Herkesin gönlünü almanın en kolay yolu uzlaşmaktı. Bir sahtekâr bu kapıyı neden kapatır?
+**Soru:** Diyelim ki, hâşâ, herkesin gönlünü almak istedi. Uzlaşmanın bu kadar kolay olduğu bir yerde kapıyı neden kapattı?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1470,7 +1508,7 @@ Toplam 126 kare.
 5. O gün şöyle dua etti: 'Allah'ım, gücümün zayıflığını sana şikâyet ederim.' _[vurgu]_
 6. Bunu yalan olduğunu bilen biri, kimsenin duymayacağı bir yerde neden söylesin?
 
-**Soru:** Senin iddian bir sahtekârdı. Ama on üç yıl boyunca yalnızca bedel ödeyen biri, bu yalandan ne bekliyordu?
+**Soru:** Diyelim ki, hâşâ, kazanç bekliyordu. On üç yıl boyunca yalnız bedel ödeyen biri neyi bekliyordu?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1505,7 +1543,7 @@ Toplam 126 kare.
 9. (metinsiz)
 10. Bu cümleleri kendisi okudu, ezberletti, her gün tekrar ettirdi.
 
-**Soru:** Senin iddian bir sahtekârdı. Ama imajını parlatmak isteyen biri, kendisini azarlayan cümleleri neden herkese okutur?
+**Soru:** Diyelim ki, hâşâ, derdi şöhretti. Kendisini azarlayan cümleleri herkese okutan biri imajını nasıl kurmuş olur?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1515,6 +1553,7 @@ Toplam 126 kare.
 | itiraz | strateji, siyasi deha, zeki, dâhi, deha, kurnaz, plan | (yanıt, aynı soru) |
 | itiraz | rivayet, sonradan uydurulmuş, nesiller, sonraki nesil, anlatmış, uydurma | (yanıt, aynı soru) |
 | itiraz | manevra, taktik, güven kazanmak, dürüst görünmek, siyasi | (yanıt, aynı soru) |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | sonraki | — | samimiyet.tutulma |
 
 **Ek örnekler (2):**
@@ -1535,9 +1574,9 @@ Toplam 126 kare.
 3. Tam o gün, güneş tutuldu. _[vurgu]_
 4. İnsanlar fısıldaştı: 'Güneş, İbrahim'in ölümüne tutuldu.'
 5. Hüzünlü bir peygamber, sarsılmış bir topluluk, gökyüzünde bir alamet. Bundan güçlü bir fırsat olamaz.
-6. O kalktı ve şöyle dedi: 'Güneş ve ay Allah'ın iki ayetidir. Kimsenin ölümü ya da doğumu için tutulmaz.'
+6. O kalktı ve şöyle dedi: 'Güneş ve ay Allah'ın iki ayetidir. Kimsenin ölümü ya da doğumu için tutulmaz.' _[vurgu]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi oğlunun ölümünde gökyüzünün bile ağladığını söyleyen kalabalığı neden düzeltir?
+**Soru:** Diyelim ki, hâşâ, bir fırsat kolluyordu. Oğlunun ölümünde gökyüzünün 'ağladığını' söyleyen kalabalığı düzelten biri fırsatı neden kaçırdı?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1564,12 +1603,12 @@ Toplam 126 kare.
 
 1. Belki derdi kadındı. Eski Batı anlatıları tam bunu söylerdi.
 2. Orta Çağ'ın Avrupa'sında 'şehvet düşkünü sahte peygamber' anlatısı yaygındı.
-3. On dokuzuncu yüzyıla kadar bu görüş itirazsız dolaştı; sonra modern tarihçiler bunu bıraktı.
+3. On dokuzuncu yüzyıla kadar bu görüş itirazsız dolaştı; sonra modern tarihçilerin çoğu bunu bıraktı.
 4. (metinsiz) _[diyagram: alinti]_
 5. Dürüst olalım: Medine'de birden çok eşi oldu. Bunu geçiştirmiyoruz.
 6. Ama aynı eşler onunla birlikte açlık çekti. Onlara, istiyorlarsa ayrılabilecekleri açıkça söylendi.
 
-**Soru:** Senin iddian şehvete kapılmış bir sahtekârdı. Ama bu hayat, o iddianın bekleyeceği hayata benziyor mu?
+**Soru:** Diyelim ki, hâşâ, derdi şehvetti. Bu hayat, böyle bir derdin bekleyeceği hayata benziyor mu?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1580,6 +1619,9 @@ Toplam 126 kare.
 | itiraz | rivayet, sonradan uydurulmuş, nesiller, sonraki nesil, anlatmış, uydurma | (yanıt, aynı soru) |
 | itiraz | güç kazandı, güçlendi, devlet kurdu, iktidara geldi, sonradan güç, sonradan zengin | (yanıt, aynı soru) |
 | itiraz | evlendi, çok eş, birden çok, evlilikler, siyasi evlilik | (yanıt, aynı soru) |
+| ikna | hayır benzemiyor, benzemiyor, hayır, pek değil, sanmıyorum, zor görünüyor | samimiyet.kapanis |
+| ret | evet benziyor, benziyor, evet, olabilir | (ret → ek örnek) |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet, zeynep, zeyneb, evlatlık, zeyd | samimiyet.isine-gelen |
 | sonraki | — | samimiyet.kabile |
 
 **Ek örnekler (2):**
@@ -1603,7 +1645,7 @@ Toplam 126 kare.
 6. O toplumda bu, bir tür siyasi intihardı. Kabile korumasını yitiren birinin öldürülmesi cezasız kalırdı.
 7. Yeni düzende eski bir kölenin oğlu Usame, ordunun başına geçirildi.
 
-**Soru:** Senin iddian bir sahtekârdı. Ama kabilesini yükseltmek isteyen biri, kabileciliğin tam kalbine neden saldırır?
+**Soru:** Diyelim ki, hâşâ, kabilesini yükseltmek istedi. Kabileciliğin tam kalbine saldıran biri bunu neden yapar?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1618,7 +1660,7 @@ Toplam 126 kare.
 **Ek örnekler (2):**
 
 1. Ebu Zer, Bilal'e kızdı ve 'Ey Habeşli kadının oğlu!' dedi. Peygamber'in cevabı: 'Sende hâlâ cahiliye var.' Soy ve ırk üstünlüğünün en küçük belirtisine bile böyle karşı çıktı. → _Kabile gücüyle büyümek isteyen biri, kendi yandaşını ırk yüzünden neden azarlar?_
-2. İstersen en zor örneği de anlatayım; konu bana da ağır. Ölçülü anlatıyorum. Amcası Ebu Talib ölürken, onun için bağışlanma dilemek istedi. İlgili ayet buna izin vermedi. Kendi atalarının durumunu 'cennettelik' diye yumuşatmak hiçbir bedel getirmezdi; yumuşatmadı. Bunun bedelini de ödedi: amcasından sonra himaye kalktı; saldırılar arttı. → _Hiçbir bedeli olmayacak bir yalan varken, bedeli ağır bir sözü seçen biri sahtekâr olabilir mi?_
+2. İstersen en hassas örneği de anlatayım; ölçülü anlatacağım. Amcası Ebu Talib ölürken, onun için bağışlanma dilemek istedi. İlgili ayet buna izin vermedi. Kendi atalarının durumunu 'cennettelik' diye yumuşatmak hiçbir bedel getirmezdi; yumuşatmadı. Bunun bedelini de ödedi: amcasından sonra himaye kalktı; saldırılar arttı. → _Hiçbir bedeli olmayacak bir yalan varken, bedeli ağır bir sözü seçen biri sahtekâr olabilir mi?_
 
 **Kompozisyon:** Atalara, soya, kabile bağlarına meydan okuyan, bunun bedelini en yakınlarının hâlinden ödeyen biri… 'kabile çıkarı' bunu açıklar mı?
 
@@ -1635,7 +1677,7 @@ Toplam 126 kare.
 5. Namazı farz kıldı. Yeni Müslümanlar, soylu Kureyşlilerin gözü önünde yere kapanamadı; vadilerde gizlice kıldılar.
 6. (metinsiz) _[diyagram: karsilastirma]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, insanları çekmek varken neden en çok tepki çeken yükleri getirir?
+**Soru:** Diyelim ki, hâşâ, insanları çekmek istedi. En çok tepki çeken yükleri getiren biri bunu neden yapar?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1666,7 +1708,7 @@ Toplam 126 kare.
 5. Orucu bile sahabeye yasakladığı kadar kendine yükledi: aralıksız oruç yalnız ona mahsus bir özellikti.
 6. Hepsini, hiç kimsenin izlemediği gecenin içinde. _[vurgu]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, kimse görmezken bile her gece saatlerce ayakta durup bir yalana mı secde eder?
+**Soru:** Diyelim ki, hâşâ, bunun bir yalan olduğunu biliyordu. Kimse görmezken saatlerce ayakta durması neye hizmet ediyor?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1697,7 +1739,7 @@ Toplam 126 kare.
 5. Mekke'yi fethettiğinde, güç elindeyken, bunu yapanları affetti. _[vurgu]_
 6. O toplumda bu, kendi yandaşlarının gözünde zayıflık sayılırdı.
 
-**Soru:** Senin iddian siyasi bir önderdi. Ama gücü eline geçince amcasının katilini affeden biri, hangi hesapla bunu yapar?
+**Soru:** Diyelim ki, hâşâ, siyasi bir hesap yapıyordu. Gücü eline geçince amcasının katilini affeden biri hangi hesabı yapıyor?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1727,7 +1769,7 @@ Toplam 126 kare.
 4. Son sözlerinden biri: 'Allah'ım, en yüce dost.' _[vurgu]_
 5. Bunlar, yalanını bilen birinin son ânı gibi mi duruyor?
 
-**Soru:** Senin iddian bir sahtekârdı. Ama ahireti uydurmuş biri, ölüm döşeğinde hesabı neden bu kadar ciddiye alır?
+**Soru:** Diyelim ki, hâşâ, ahireti uydurmuştu. Ölüm döşeğinde hesabı bu kadar ciddiye alması neye hizmet eder?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1758,7 +1800,7 @@ Toplam 126 kare.
 6. (metinsiz)
 7. (metinsiz) _[diyagram: alinti]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi 'büyük günü'nü neden korku ve şüpheyle anlatır?
+**Soru:** Diyelim ki, hâşâ, her şeyi planlamıştı. Planlı bir yalancı kendi 'büyük günü'nü neden korku ve şüpheyle anlatır?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1792,7 +1834,7 @@ Toplam 126 kare.
 7. (metinsiz)
 8. Kendi sesi olsaydı, kendine teselli yazıp hemen ardından kendine ödev verir miydi?
 
-**Soru:** Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi yazdığı metinde kendisini hem uyaran hem teselli eden ayrı bir ses neden kurar?
+**Soru:** Diyelim ki, hâşâ, bu metni kendisi yazdı. Kendisini hem uyaran hem teselli eden ayrı bir ses neden kurar?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1801,6 +1843,7 @@ Toplam 126 kare.
 | ikna | haklısın, mantıklı, ikna oldum, katılıyorum, açıklaması zor, kabul ediyorum | samimiyet.kapanis |
 | itiraz | rivayet, sonradan uydurulmuş, nesiller, sonraki nesil, anlatmış, uydurma | (yanıt, aynı soru) |
 | itiraz | sonradan eklendi, ayrı ses, kurgu, yazar kendi | (yanıt, aynı soru) |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | sonraki | — | samimiyet.kiyamet |
 
 **Ek örnekler (2):**
@@ -1823,7 +1866,7 @@ Toplam 126 kare.
 5. Ardından sure kaldığı yerden devam eder.
 6. Hangi şair şiirini ortasından böyle keser? _[vurgu]_
 
-**Soru:** Senin iddian bir sahtekârdı. Ama masa başında yazılmış bir metnin ortasına, yazan kişi kendini düzelten bir kesinti neden koyar?
+**Soru:** Diyelim ki, hâşâ, bu metni masa başında yazdı. Yazanın kendisini düzelten bir kesinti koyması neye yarar?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1832,6 +1875,7 @@ Toplam 126 kare.
 | ikna | haklısın, mantıklı, ikna oldum, katılıyorum, açıklaması zor, kabul ediyorum | samimiyet.kapanis |
 | itiraz | rivayet, sonradan uydurulmuş, nesiller, sonraki nesil, anlatmış, uydurma | (yanıt, aynı soru) |
 | itiraz | sonradan eklenmiş, eklenti, araya, sonradan eklendi | (yanıt, aynı soru) |
+| yonlendir | işine gel, işine geldi, işine geliyor, işine geliyordu, işine gelen, işine gelir, işine gelmiş, keyfine göre, keyfine, kendi lehine, kendi lehinde, istediği ayet, istediği ayeti, istediği zaman ayet, tam zamanında, tam zamanında ayet | samimiyet.isine-gelen |
 | sonraki | — | samimiyet.kapanis |
 
 **Ek örnekler (1):**
@@ -1839,6 +1883,43 @@ Toplam 126 kare.
 1. Bu bir istisna değil. Kur'an'ın Peygamber'e hitabı genelde üç parçadan oluşur: uyarı, teselli, emir. Ona yönelik cümlelerin hiçbirinde 'sen harikasın' tonu yok. → _Kendi iddiasını destekleyen bir metin, kendine bu kadar az methiye eder mi?_
 
 **Kompozisyon:** Heyecanlı bir anlatının ortasında kendini susturan bir ses… bunu bile bile yazan biri neden böyle yapar?
+
+### samimiyet.isine-gelen (düğüm S10)
+
+**Etiket: ek (kitap dışı)**
+
+![samimiyet.isine-gelen](../site/panel/ekran/samimiyet.isine-gelen.jpg)
+
+**Satırlar:**
+
+1. Şimdi en güçlü itirazlardan birini adıyla söyleyeyim: 'Ayetler hep tam işine geliyordu.'
+2. Bu itiraz Müslüman geleneğin içinden de gelir. Hz. Aişe'ye atfedilen söz şu:
+3. 'Rabbinin arzularına çabuk yetiştiğini görüyorum.' _[vurgu; kaynak: Buhârî, "el-Câmiʿu's-sahîh, Tefsîr (Ahzâb sûresi bölümü)", Hadis kaynağı; rivayet numarası teyit edilecek [doğrulanacak]]_
+4. Doğru: Ahzâb 33:50-52, Peygamber'e özgü evlilik hükümleri içerir. Bunu inkâr etmiyorum.
+5. Hepsi onu azarlıyor demeyeceğim. Ama aynı metinde bambaşka bir tür ayet de var.
+6. (metinsiz)
+7. (metinsiz)
+
+**Soru:** Kendi işine gelen ayetleri öne çıkarıp aleyhine olanları saklamak çok kolaydı. Bir sahtekâr, kendi aleyhine ayetleri neden saklamaz?
+
+Çipler: “Açıklaması zor” · “Seçici okuyorsun” · “Bilmiyorum”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| ikna | açıklaması zor, haklısın, mantıklı, katılıyorum | samimiyet.kapanis |
+| itiraz | seçici, seçerek, cherry, kiraz, bile bile, dürüst değil | (yanıt, aynı soru) |
+| itiraz | nüzul, nüzul sebebi, olay üzerine, olaya göre, sebeb-i nüzul, sonradan bağlanmış | (yanıt, aynı soru) |
+| itiraz | kendini eleştirdi, kendi kendini, kendini disipline, kendini düzeltmek, bell | (yanıt, aynı soru) |
+| ret | bilmiyorum, emin değilim | (ret → ek örnek) |
+| sonraki | — | samimiyet.kapanis |
+
+**Ek örnekler (3):**
+
+1. Bir örnek daha: ona ve çevresine yaklaşan bir ayartılma ihtimali.  → _Kendi sözünü savunan bir metin, 'neredeyse meyledecektin' der mi?_
+2. Daha hassas bir örnek: Ahzâb 37, Peygamber'in özel hayatına dair. Ayet onu savunmaz: 'İnsanlardan çekiniyordun; oysa Allah'tan çekinmen daha uygundu.' Gizlenen şeyin ne olduğu klasik tefsirde tartışılır. Burada yalnız dilin tonuna bakıyoruz. → _Bu ton, kendini savunan bir metnin tonu mu?_
+3. Bir de kıyamet suresinin ortasındaki kesinti:  → _Kendi metnini yazan biri, kendi aceleciliğini düzelten bir cümleyi neden araya koyar?_
+
+**Kompozisyon:** Peygamber'e özgü hükümler de var, onu azarlayan ayetler de. Bir sahtekâr bu ikinci türü neden metinden çıkarmaz?
 
 ### samimiyet.kutsalyalan (düğüm S1)
 
@@ -1853,7 +1934,7 @@ Toplam 126 kare.
 5. Oysa ortada yönetilen hiçbir şey yok: kendini azarlayan ayetler, oğlunun ölümünde reddettiği mucize, ağır yükler. _[vurgu]_
 6. Yalan, kendi yalancısını bu kadar zora sokmaz.
 
-**Soru:** Senin iddian iyi niyetli bir yalandı. Ama halk için uydurulan bir yalan, neden yalancıyı bu kadar zora sokan şeylerle dolu?
+**Soru:** Diyelim ki, hâşâ, halk için bir yalan uydurdu. O hâlde bu yalan, yalancıyı neden bu kadar zora sokan şeylerle dolu?
 
 Çipler: “Haklısın, açıklaması zor” · “Yine de ikna olmadım”
 
@@ -1892,7 +1973,8 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| ikna | artık demiyorum, demiyorum, ikna oldum, haklısın, kabul ediyorum, mantıklı, açıklaması zor | haber.kalan |
+| ikna | artık demiyorum, demiyorum, ikna oldum, kabul ediyorum, vazgeçtim | haber.kalan |
+| ret | evet, hâlâ, devam ediyorum, yine de | (ret → ek örnek) |
 | sonraki | — | haber.kalan |
 
 **Ek örnekler (2):**
@@ -1916,13 +1998,12 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Diyelim ki şunu söyledin: hâşâ, samimiydi.
-2. Yalan söylemiyordu. Gördüğüne gerçekten inanıyordu.
-3. Ama gördükleri gerçek değildi.
-4. Peki bu tıbben ne demek?
-5. Yirmi üç yıl. Gece gündüz. Mutlu günde, yas gününde.
-6. Görerek, duyarak, bedeninde hissederek. Ölünceye kadar.
-7. Bugünün tıbbında bu, en ağır psikoz tablolarından biridir. _[vurgu]_
+1. Diyelim ki, hâşâ, samimiydi: yalan söylemiyordu, gördüğüne gerçekten inanıyordu.
+2. Ama gördükleri gerçek değildi.
+3. Bu iki türlü olabilir: hastalık ya da sağlıklı bir yanılgı. Önce hastalığı düşünelim.
+4. Yirmi üç yıl. Gece gündüz. Mutlu günde, yas gününde.
+5. Görerek, duyarak, bedeninde hissederek. Ölünceye kadar.
+6. Hastalık olsaydı, bu ciddi bir tablo olurdu; sağlıklı yanılgıya da bakacağız. _[vurgu]_
 
 | tür | anahtarlar | hedef |
 |---|---|---|
@@ -1959,18 +2040,21 @@ Toplam 126 kare.
 1. Doktor büyük ihtimalle gülmez.
 2. Ciddi bir tablo olduğunu söyler.
 3. İşte bu yüzden iddia, göründüğünden çok ağır.
-4. Senin yerine karar vermeyeceğim. Önce seni dinlemek istiyorum.
+4. Ama yanılmak için hasta olmak şart değil.
+5. Senin yerine karar vermeyeceğim. Önce seni dinlemek istiyorum.
 
 **Soru:** Sence ne oldu? _(serbest)_
 
-Çipler: “Hasta olabilir” · “Birinden öğrendi” · “Çok zekiydi, kendini kandırdı” · “Bilmiyorum”
+Çipler: “Hasta olabilir” · “Sağlıklıydı ama yanıldı” · “Birinden öğrendi” · “Çok zekiydi, kendini kandırdı”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
+| yonlendir | sağlıklıydı, sağlıklı, hasta değil, hasta değildi, vizyon, ilham, rüya, iyi niyetli, samimi ama yanıldı, yanıldı ama | fetanet.vizyoner |
 | yonlendir | hasta, hastalik, epilepsi, sara, halusinasyon, hayal, psikoz, deli, akli, nobet, sanri | fetanet.hastalik |
 | yonlendir | ogrendi, ogrenmis, birinden, bahira, rahip, yahudi, hristiyan, kitap ehli, cevre, cevresinden, kopya, kopyaladi | fetanet.ogrenme |
 | yonlendir | zeki, zekiydi, zeka, dahi, deha, kendini kandirdi, kandirdi | fetanet.zeka |
 | yonlendir | bilmiyorum, bilmem, fikrim yok, sen anlat, sen soyle | fetanet.formul |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
 | sonraki | — | fetanet.formul |
 | varsayılan | — | fetanet.formul |
 
@@ -1997,6 +2081,35 @@ Toplam 126 kare.
 | sonraki | — | fetanet.sara |
 | varsayılan | — | fetanet.sara |
 
+### fetanet.vizyoner (düğüm F24)
+
+**Etiket: ek (kitap dışı)**
+
+![fetanet.vizyoner](../site/panel/ekran/fetanet.vizyoner.jpg)
+
+**Satırlar:**
+
+1. Şimdi en güçlü itirazlardan birine geliyoruz.
+2. “Hasta değildi. Sağlıklı, zeki, samimi biriydi. Yaşadığı yoğun bir deneyimi Tanrı'dan sandı.” _[vurgu]_
+3. Haklı bir itiraz: bilmeden yanılmak için hasta olmak gerekmez.
+4. Anlatılan benzer örnekler var: Jeanne d'Arc ordu yönetti, Swedenborg bilim insanıydı, Joseph Smith bir topluluk kurdu.
+5. Bunların içtenliği ve sağlığı tartışılır; ama bu ihtimali baştan reddedemeyiz.
+6. O hâlde ölçüt değişiyor: hastalık aramıyoruz, söylediklerinin içeriğine bakıyoruz.
+7. Yanılan bir zihin, bilmediği şeyleri doğru söyleyemez. _[vurgu]_
+
+**Soru:** Sağlıklı bir yanılgıyı hangi yoldan sınayalım? _(serbest)_
+
+Çipler: “Bilgiyi nereden aldı?” · “Yaptıkları (başarı)” · “Haberlerinin doğruluğu”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| yonlendir | nereden, öğren, öğrendi, bilgi, kaynak, hoca, rahip, bahira | fetanet.ogrenme |
+| yonlendir | yaptık, başarı, başar, toplum, formül, sonuç | fetanet.formul |
+| yonlendir | haber, doğruluk, gelecek, geçmiş, dil, kehanet, mucize, bakalım, göster | mucize.giris |
+| itiraz | söyleyebilir, şans, tesadüf, tahmin, hepsi tutabilir | (yanıt, aynı soru) |
+| sonraki | — | mucize.giris |
+| varsayılan | — | mucize.giris |
+
 ### fetanet.sara (düğüm F24)
 
 ![fetanet.sara](../site/panel/ekran/fetanet.sara.jpg)
@@ -2017,16 +2130,16 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| ikna | aciklanamiyor, olamaz, imkansiz, haklisin, mantikli, evet, ikna oldum, tamam | fetanet.formul |
+| ikna | aciklanamiyor, olamaz, imkansiz, ikna oldum, tamam | fetanet.formul |
 | itiraz | deli dediler, deli dendi, mecnun, cinnet, deli demisler, delisin | (yanıt, aynı soru) |
 | itiraz | deha delilik, dahi deli, ince cizgi, yakin | (yanıt, aynı soru) |
+| ret | evet, açıklanabilir, olabilir, mümkün | (ret → ek örnek) |
 | sonraki | — | fetanet.formul |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
 1. Bir dönem Sprenger gibi yazarlar histeri dedi. Sonra Fransız nörolog Babinski bu tanının yanlış olduğunu gösterdi. Bir tanı düşünce, genelde bir başkası gelir. O da düştü. → _Tanılar tek tek düşüyorsa, geriye ne kalıyor sence?_
 2. Gerçekten nöbetler olsaydı, Mekke'deki muhalifleri düşün. Lesley Hazleton şunu hatırlatır: bundan fazlasıyla yararlanırlardı. Çünkü bunlar, o günün insanlarının çok iyi bildiği şeylerdi. → _Sence muhalifler böyle bir fırsatı kaçırır mıydı?_
-3. Bir şey daha. Başarılı birinin hikâyesini dinlerken tıp kitaplarına koşar mıyız? Bir hastalık böyle sonuçlar verseydi, tıp onu tedavi değil, inceleme konusu yapardı. Oysa tarihte hiçbir hastalık böyle bir sonuç vermedi. → _Başarıyı hastalıkla açıklamak sence bir açıklama mı, yoksa bir ön kabul mü?_
 
 **Kompozisyon:** Peki tüm bu verileri birlikte nasıl açıklıyorsun? İstersen kendi cümlelerinle yaz.
 
@@ -2051,6 +2164,8 @@ Toplam 126 kare.
 |---|---|---|
 | ikna | zor, olamaz, imkansiz, aciklanamiyor, haklisin, mantikli, tamam | fetanet.formul |
 | itiraz | deha delilik, dahi, ince cizgi, yakin, deha ile | (yanıt, aynı soru) |
+| ikna | hayır etmez, etmez, yapmaz, olmaz, mümkün değil, sanmıyorum, zor görünüyor, pek değil | fetanet.formul |
+| ret | evet olur, evet eder, eder, yapar, olabilir, mümkün | (ret → ek örnek) |
 | sonraki | — | fetanet.formul |
 
 **Ek örnekler (2):**
@@ -2151,10 +2266,11 @@ Toplam 126 kare.
 
 1. Yahudi ve Hristiyanlardan öğrendiyse, önce şunu soralım.
 2. Araplar onlarla yüzlerce yıldır komşuydu.
-3. Ama kırk yıl boyunca, hatta davetin son dönemine kadar, tek tanrıcılığa geçmediler.
-4. Gassaniler Bizans'ın, Lahmiler İran'ın komşusuydu. Orada böyle bir atılım olmadı.
-5. Temas varsa, bu sıçrama neden yalnız onunla başladı? _[vurgu]_
-6. Kıssaların karşılaştırması ayrı bir konu. İstersen oraya birlikte bakarız.
+3. Gassaniler Hristiyan'dı ve Bizans'ın, Lahmiler Hristiyan'dı ve İran'ın komşusuydu.
+4. Yemen'de bir dönem Yahudi bir krallık bile vardı.
+5. Yine de bu temaslardan, Arabistan'ı bir kuşakta değiştiren bir hareket doğmadı.
+6. Temas varsa, bu sıçrama neden yalnız onunla başladı? _[vurgu]_
+7. Kıssaların karşılaştırması ayrı bir konu. İstersen oraya birlikte bakarız.
 
 **Soru:** Kıssalara şimdi mi bakmak istersin, yoksa devam mı edelim? _(serbest)_
 
@@ -2182,15 +2298,16 @@ Toplam 126 kare.
 
 1. Öğrenme yollarını birlikte gözden geçirdik.
 2. Elimizde isim yok, zaman yok, tanık yok.
-3. Şimdi bir de başarıların kendisine bakmak gerek.
+3. Şimdi bu yolların hangi ihtimali bıraktığına bakalım.
 
-**Soru:** Başarılara daha önce baktık mı, yoksa şimdi mi bakalım?
+**Soru:** Devam edelim mi?
 
-Çipler: “Henüz bakmadık” · “Baktık, toparlayalım”
+Çipler: “Devam” · “Bir daha bakalım”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| yonlendir | henuz, bakmadik, basari, bakalim | fetanet.formul |
+| yonlendir | devam, evet, tamam, olur, basari, henuz, bakmadik | fetanet.formul |
+| yonlendir | bir daha, tekrar, bastan | fetanet.ogrenme |
 | yonlendir | baktik, toparlayalim, toparla, ozet | fetanet.kapanis |
 | sonraki | — | fetanet.kapanis |
 | varsayılan | — | fetanet.formul |
@@ -2207,7 +2324,7 @@ Toplam 126 kare.
 4. (metinsiz) _[diyagram: denklem]_
 5. Yani vardığı yerden, başladığı yerin payını çıkarıyoruz.
 6. Önce toplumun payını, sonra kişinin kendi payını.
-7. Geriye kalanı hangi hastalık açıklıyor, ona bakacağız. _[vurgu]_
+7. Geriye kalanı hangi hastalık ya da yanılgı açıklıyor, ona bakacağız. _[vurgu]_
 
 **Soru:** Bu ölçü sana adil geliyor mu?
 
@@ -2219,10 +2336,9 @@ Toplam 126 kare.
 | itiraz | tuhaf, garip, kuru, ne alaka, saçma, sacma | (yanıt, aynı soru) |
 | sonraki | — | fetanet.toplum |
 
-**Ek örnekler (2):**
+**Ek örnekler (1):**
 
-1. Bir benzetme yapalım. Cep telefonu bile kullanmamış, çok yaşlı biri düşün. 72 yaşında 'Bana Cebrail göründü' diyor. Sonra eğitim almadan, çok karmaşık bir yazılım sistemi ortaya koyuyor. → _Bu başarıyı onun geçmişi açıklar mı?_
-2. Burada üç katman var. Biz yalnız en alttakini kullanacağız. Birincisi: başarı belki mucizedir. Şimdilik bunu kenara koyuyoruz. İkincisi: bu şartlardaki biri bunu başarabilir mi? Üçüncüsü: bir hastalık böyle bir başarıyı üretebilir mi? Mucizeyi hiç kabul etmesen de bu son sorunun cevabı değişmez. → _Böyle bir çerçeve sence adil mi?_
+1. Burada üç katman var. Biz yalnız en alttakini kullanacağız. Birincisi: başarı belki mucizedir. Şimdilik bunu kenara koyuyoruz. İkincisi: bu şartlardaki biri bunu başarabilir mi? Üçüncüsü: bir hastalık ya da yanılgı böyle bir başarıyı üretebilir mi? Mucizeyi hiç kabul etmesen de bu son sorunun cevabı değişmez. → _Böyle bir çerçeve sence adil mi?_
 
 **Kompozisyon:** Peki sen bir başarıyı nasıl ölçerdin? Kendi yöntemini yazar mısın?
 
@@ -2247,13 +2363,13 @@ Toplam 126 kare.
 |---|---|---|
 | ikna | hicbirinin, hicbiri, hic, imkansiz, olamaz, aciklanamiyor, lider, deha, siyasi, haklisin | fetanet.siyasi |
 | itiraz | cengiz, iskender, napolyon, timur | (yanıt, aynı soru) |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
 | sonraki | — | fetanet.siyasi |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
 1. Medine'de kan davalı kabileler vardı. Muhacirler ve Medineliler arasında kardeşlik kuruldu. Hollandalı tarihçi Dozy şunu aktarır: her muhacir bir Medineli kardeş seçti. Bu bağ öz kardeşlikten güçlü sayıldı. → _Kan bağından başka bağ tanımayan bir toplumda, bu bağı kim kurabilir?_
-2. Bir benzetme yapalım. 1650'de Osmanlı'dayız. Bir kişi, 23 yıl içinde ulus devletin toplumsal bağlarını yerleştirebilir miydi? Üstelik ikna ederek, tek tek, silahsız. → _Böyle bir şey o dönemde sence beklenir miydi?_
-3. Başlangıçta onu savunan bir sosyal sınıf yoktu. İlk yıllar için Ira Lapidus 'hayal kırıcı' der, muhalefet neredeyse topluydu. Katılımın yavaşlığı, ortada bir toplumsal talep olmadığını gösterir. → _Talebi olmayan bir toplumda, tek bir kişinin sanrısı bunu nasıl başarır?_
+2. Başlangıçta onu savunan bir sosyal sınıf yoktu. İlk yıllar için Ira Lapidus 'hayal kırıcı' der, muhalefet neredeyse topluydu. Katılımın yavaşlığı, ortada bir toplumsal talep olmadığını gösterir. → _Talebi olmayan bir toplumda, tek bir kişinin sanrısı bunu nasıl başarır?_
 
 **Kompozisyon:** Bu başlangıç şartlarından bu sonuca nasıl varıldığını kendi cümlelerinle anlatır mısın?
 
@@ -2268,17 +2384,20 @@ Toplam 126 kare.
 3. (metinsiz) _[diyagram: zaman]_
 4. İlk on üç yıl boyunca silah yok. Yalnızca ikna.
 5. (metinsiz) _[diyagram: alinti]_
-6. Kan davalı kabileler, tek bir toplum oldu. Güçle değil, fikir ve ahlakla.
-7. Üstelik o gidince de dağılmadı.
+6. Sonra Medine geldi, savaşlar da: Bedir, Uhud, Hendek. Bunu saklamıyoruz.
+7. Kan davalı kabileler, ortak hukuka ve ortak sadakate bağlanan tek bir toplum oldu.
+8. Vefatından hemen sonra ciddi bir kriz yaşandı (Ridde savaşları). Düzen yine de ayakta kaldı.
+9. Ama soru şu: yalnız kılıç, bunu tek başına yapar mı? _[vurgu]_
 
-**Soru:** Senin iddian: ağır bir sanrı yaşıyordu. Veri: bir toplum kurdu. Bu mantıken nasıl bir araya gelir?
+**Soru:** Diyelim ki, hâşâ, ağır bir sanrı yaşıyordu. Savaşlara ve kriz günlerine rağmen bir toplum kurması mantıken nasıl bir araya gelir?
 
-Çipler: “Gelmiyor” · “Cengiz Han da yaptı”
+Çipler: “Gelmiyor” · “Cengiz Han da yaptı” · “Kılıçla yayıldı”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | gelmiyor, olamaz, imkansiz, aciklanamiyor, haklisin, mantikli | fetanet.ongoru |
 | yonlendir | cengiz, iskender, napolyon, timur, mogol, han da | fetanet.cengiz |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
 | sonraki | — | fetanet.ongoru |
 
 **Ek örnekler (3):**
@@ -2299,9 +2418,10 @@ Toplam 126 kare.
 2. Bir şey soracağım. Cengiz'in başarısına bakıp onu sanrılı demiyorsun, değil mi?
 3. Başarı bunu gösteriyorsa, aynı ölçü burada da geçerli.
 4. Şimdi farklara bakalım. Moğollar, Cengiz'den önce de savaşçıydı.
-5. Burada ise savaş sanatını bilmeyen bir toplum vardı. Kendisi de kırk yaşına kadar siyasetle uğraşmadı.
-6. Cengiz'in imparatorluğu ölümünden sonra parçalandı. İskender'inki de.
-7. Michael H. Hart en etkili yüz kişiyi sıraladı: tek benzer fetih Cengiz'inki, ama kalıcı değil. _[kaynak: Michael H. Hart, "Dünyaya Yön Veren En Etkin 100 (Güney Kitap, Türkçe çev.)", İstanbul 2019, s. 28-29, Amerikalı yazar]_
+5. Burada ise kabile baskını vardı; ama devlet, düzenli ordu ve ortak hukuk yoktu.
+6. Baskın yapmak ile devlet kurmak aynı şey değil. Kendisi de kırk yaşına kadar siyasetle uğraşmadı.
+7. Cengiz'in imparatorluğu ölümünden sonra parçalandı. İskender'inki de.
+8. Michael H. Hart en etkili yüz kişiyi sıraladı: tek benzer fetih Cengiz'inki, ama kalıcı değil. _[kaynak: Michael H. Hart, "Dünyaya Yön Veren En Etkin 100 (Güney Kitap, Türkçe çev.)", İstanbul 2019, s. 28-29, Amerikalı yazar]_
 
 **Soru:** Cengiz'i başarısına bakıp hasta saymıyorsun. Burada neden saymalıyız?
 
@@ -2310,6 +2430,7 @@ Toplam 126 kare.
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | haklisin, saymamaliyiz, mantikli, evet, tamam, ikna oldum, sayma | fetanet.ongoru |
+| yonlendir | kılıç, kılıçla, kılıçla yaydı, kılıçla yayıldı, kılıçla yaymış, zorla, zorla yaydı, zorla müslüman, zorla din, savaş, savaşlar, savaşçı, cihat, cihad, fetih, fetihler, fetihle, fetihlerle | fetanet.kilic |
 | sonraki | — | fetanet.ongoru |
 
 **Ek örnekler (3):**
@@ -2319,6 +2440,147 @@ Toplam 126 kare.
 3. Bir benzetme: 0'dan 10'a puan verelim. 2 puanlık bir toplumda 9 puanlık eğitim alan, 9 puanlık toplumda aynı eğitimi alanla aynı yere varamaz. Bu bir benzetme. Gerçek bir ölçüm değil. Hz. Muhammed'in toplumu çok düşük puanlıydı. İmkânı da kısıtlıydı. → _Böyle bir koşulda bu seviyeye çıkmak, bir eğitimin ürünü olabilir mi?_
 
 **Kompozisyon:** Cengiz ve İskender ile bu başarı arasındaki farkı kendi cümlelerinle anlatır mısın?
+
+### fetanet.kilic (düğüm F8)
+
+**Etiket: ek (kitap dışı)**
+
+![fetanet.kilic](../site/panel/ekran/fetanet.kilic.jpg)
+
+**Satırlar:**
+
+1. 'Kılıçla yaydı.' Bu itiraz haklı bir yerden geliyor.
+2. Medine'de savaşlar oldu. Hz. Muhammed komutandı. Bunu saklamıyoruz.
+3. Ama burada iki ayrı soru birbirine karışıyor.
+4. Birincisi: onun hayatındaki savaşlar. İkincisi: ölümünden sonraki fetihler ve insanların din değiştirmesi.
+5. Önce birincisi. Mekke'de on üç yıl boyunca silah yok: işkence var, ikna var.
+6. Tarihçi W. Montgomery Watt, Medine dönemini baskınlar ve güç mücadelesi içinde anlatır. _[kaynak: W. Montgomery Watt, "Muhammad at Medina", Oxford 1956, İskoç oryantalist, Edinburgh Üniv. [doğrulanacak]]_
+7. Savunma ağırlıklı bir tablo; ama yalnız savunma değil. Bunu söylemek dürüstlüğün gereği. _[vurgu]_
+
+**Soru:** Silahsız on üç yıl, sonra savaşlı on yıl. Bu tablo 'kılıçla kurulmuş bir din' tarifine uyuyor mu?
+
+Çipler: “Pek uymuyor” · “Kılıç belirleyiciydi” · “Bilmiyorum”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| ikna | pek uymuyor, uymuyor, uymaz, haklısın, mantıklı, ayrı konu, başka bir tartışma | fetanet.kilic-medine |
+| itiraz | bedir, kervan, baskın, saldırı, gazve, savunma değil, yalnız savunma | (yanıt, aynı soru) |
+| ret | kılıç belirleyiciydi, kılıç belirleyici, kılıç, bilmiyorum | (ret → ek örnek) |
+| sonraki | — | fetanet.kilic-medine |
+
+**Ek örnekler (2):**
+
+1. Sonunda Mekke'ye girdi: yıllarca ona işkence edenlerin şehrine. Muir, şehre tek taraflı bir hoşgörü ve cömertlikle davrandığını yazar. Hitti: eski tarih kitaplarında bu muzaffer girişe benzer pek az örnek bulunur. → _Kılıçla din dayatmak isteyen biri, galip girdiği şehirde böyle mi davranır?_
+2. Bedir'de esir düşenlerden bazıları, Medineli çocuklara okuma yazma öğretmeleri karşılığında serbest kaldı. Silah gücünü ele alan bir hareket, esirini öğretmen yapar mı? → _Bu davranış, yalnız kılıca dayanan bir hareketin davranışına benziyor mu?_
+
+**Kompozisyon:** Silahsız on üç yıl, sonra savaşlı on yıl, sonra şehirlere yumuşak giriş: 'kılıçla kurulmuş din' tarifi bunu açıklıyor mu?
+
+### fetanet.kilic-medine (düğüm F8)
+
+**Etiket: ek (kitap dışı)**
+
+![fetanet.kilic-medine](../site/panel/ekran/fetanet.kilic-medine.jpg)
+
+**Satırlar:**
+
+1. Kur'an savaşa ilk izni nasıl veriyor? Ayetin diline bakalım.
+2. (metinsiz)
+3. Gerekçe haksızlık. Sonraki ayet, savaş olmasa manastırların, kiliselerin, havraların ve camilerin yıkılacağını söyler.
+4. Din konusunda ise açık bir ilke var:
+5. (metinsiz)
+6. Klasik rivayetler bunu, Medineli ailelerin Yahudi ya da Hristiyan olmuş çocuklarını zorlamak istemesiyle ilişkilendirir.
+7. Ama Tevbe suresinde daha zor ayetler var. Onları da atlamayacağız. _[vurgu]_
+
+**Soru:** Savaş izni zulme bağlı, din konusunda zorlama yasağı açık. Bu metin ilk bakışta 'zorla din dayatan' bir metin gibi mi duruyor?
+
+Çipler: “Hayır, ama Tevbe 9'a bakmalı” · “Evet, öyle duruyor” · “Bilmiyorum”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| yonlendir | tevbe, 9:5, kılıç ayeti, cizye ayeti, 9:29, dokuzuncu sure, tevbe 9 | fetanet.kilic-ayet |
+| ikna | hayır, gibi durmuyor, durmuyor, haklısın, mantıklı | fetanet.kilic-ayet |
+| itiraz | nesh, neshedildi, neshetti, iptal etti, geçersiz kıldı | (yanıt, aynı soru) |
+| ret | evet öyle duruyor, öyle duruyor, gibi duruyor, bilmiyorum | (ret → ek örnek) |
+| sonraki | — | fetanet.kilic-ayet |
+
+**Ek örnekler (2):**
+
+1. Medine'den bir ayet daha: savaşmayanlara karşı tavır.  → _Savaşmayanlara iyilik ve adaleti yasaklamayan bir metin, herkese kılıç çekmeyi mi öğretir?_
+2. Peygamber'e doğrudan seslenen bir ayet:  → _Peygamber'e "insanları sen mi zorlayacaksın?" diyen bir metin, ona kılıçla din yaymayı mı emreder?_
+
+**Kompozisyon:** Zulme karşı savaş izni, din konusunda zorlama yasağı… bunları 'kılıçla din dayatma' fikriyle nasıl bağdaştırıyorsun?
+
+### fetanet.kilic-ayet (düğüm F8)
+
+**Etiket: ek (kitap dışı)**
+
+![fetanet.kilic-ayet](../site/panel/ekran/fetanet.kilic-ayet.jpg)
+
+**Satırlar:**
+
+1. Şimdi zor olanlara geliyoruz. Saklamıyoruz: 'kılıç ayeti' denen ayet.
+2. (metinsiz)
+3. Geleneksel okumaya göre ayet, antlaşmayı bozan müşrikler içindir; sadık kalanlar hariç (9:4), sığınana eman var (9:6).
+4. (metinsiz)
+5. Bu ayet Ehl-i kitaba yöneliktir; savaşın bitişi din değiştirmek değil, cizye vermektir.
+6. Rudolph Peters, klasik hukukta saldırı cihadı kuramının gerçekten var olduğunu yazar. _[kaynak: Rudolph Peters, "Jihad in Classical and Modern Islam", Princeton 1996, Hollandalı İslam hukuku uzmanı [doğrulanacak]]_
+7. Asma Afsaruddin gibi araştırmacılar ise ayetleri bağlam ve savaş etiği içinde okur. _[kaynak: Asma Afsaruddin, "Striving in the Path of God: Jihad and Martyrdom in Islamic Thought", Oxford 2013, Müslüman akademisyen (İslam düşüncesi tarihçisi) [doğrulanacak]]_
+
+**Soru:** Bu ayetlerin okunuşu tartışmalı; saklamıyorum. Yine de sorulacak şey şu: fethedilenlere din değiştirmek şart koşuldu mu, yoksa ayrı bir statü mü tanındı?
+
+Çipler: “Tarihe bakalım” · “Bu ayetler beni rahatsız ediyor” · “Yine de kılıç dini”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| ikna | tarihe bakalım, tarihe bak, bakalım, ayrı statü, statü, haklısın | fetanet.kilic-yayilis |
+| itiraz | rahatsız, rahatsiz, korkunç, vahşi, şiddet | (yanıt, aynı soru) |
+| itiraz | saldırı cihadı, dârülharb, darulharb, dünyayı fethetmek, fetih hakkı | (yanıt, aynı soru) |
+| itiraz | ridde, dinden dönen, dinden dönenlere, irtidat, mürted | (yanıt, aynı soru) |
+| ret | yine de kılıç dini, kılıç dini, kılıç | (ret → ek örnek) |
+| sonraki | — | fetanet.kilic-yayilis |
+
+**Ek örnekler (3):**
+
+1. Cizyenin kendisine bakalım. Hitti şunları sayar: Kadınlar, çocuklar, dilenciler, din adamları, ihtiyarlar, hastalar ve geliri olmayanlar cizyeden muaftı. → _Din değiştirmeyi hedefleyen bir baskı düzeninde, değiştirmeyenler için böyle bir muafiyet listesi olur mu?_
+2. Halife Ömer, Kudüs halkına bir emannâme verdi. Arnold'a göre can, mal, haçlar ve kiliseler güvence altındaydı; kiliseler mesken edilmeyecek, yıkılmayacaktı. → _Din değiştirme şart olsaydı, emannâmede kiliselerin korunması yazar mıydı?_
+3. Bodley'e göre Müslüman orduları fethettikleri halkları köleleştirmedi; onlarla kardeşçe yaşadı. Bodley popüler bir biyografi yazarı; yine de bir Batılı tanıklık olarak not ediyoruz. → _Bu tanıklık, sert ayetlerin uygulamada nasıl yorumlandığı hakkında ne söylüyor?_
+
+**Kompozisyon:** Tevbe 9:5 ve 9:29 gibi sert ayetler ile cizye karşılığı güvence veren uygulamayı birlikte nasıl okuyorsun?
+
+### fetanet.kilic-yayilis (düğüm F12)
+
+**Etiket: ek (kitap dışı)**
+
+![fetanet.kilic-yayilis](../site/panel/ekran/fetanet.kilic-yayilis.jpg)
+
+**Satırlar:**
+
+1. Şimdi ikinci soru: ölümünden sonraki fetihler. İnsanlar ne zaman Müslüman oldu?
+2. Tarihçi Richard Bulliet, İran, Irak, Mısır ve Endülüs'te din değiştirmeyi isim kayıtlarından ölçtü. _[kaynak: Richard W. Bulliet, "Conversion to Islam in the Medieval Period", Cambridge (Mass.) 1979, Amerikalı tarihçi, Columbia Üniv. [doğrulanacak]]_
+3. Sonuç: din değiştirme fetihten hemen sonra değil, yüzyıllara yayılan yavaş bir süreçti. _[vurgu]_
+4. Yani Müslümanlar bu ülkelerde çok uzun süre azınlıktı.
+5. Arnold, zorla din değiştirmeye dayanan sistemli bir politikaya rastlamaz; "daha tesirli saikler" arar. _[kaynak: Thomas W. Arnold, "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)", İstanbul 2016, s. 342-343, İngiliz oryantalist]_
+6. Armstrong, Batı'nın Muhammed'i kılıç çeken bir savaş lideri olarak görme eğilimini gerçekten uzak bulur. _[kaynak: Karen Armstrong, "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)", İstanbul 2005, İngiliz din tarihçisi, eski rahibe [doğrulanacak]]_
+
+**Soru:** Kılıçla yayılan bir din, fethedilen topraklarda neden yüzyıllarca azınlıkta kaldı?
+
+Çipler: “Açıklaması zor” · “Baskı da vardı” · “Başka etkenler vardı”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| ikna | açıklaması zor, haklısın, mantıklı, kılıç değil, başka etkenler, katılıyorum | fetanet.ongoru |
+| itiraz | baskı, baski, cizye, vergi, zimmi, zimmî, eşitsiz, ikinci sınıf | (yanıt, aynı soru) |
+| ret | yine de kılıç, kılıçla yayıldı, kılıç | (ret → ek örnek) |
+| sonraki | — | fetanet.ongoru |
+
+**Ek örnekler (4):**
+
+1. Bugün en kalabalık Müslüman nüfuslu ülke Endonezya. Oraya İslam, ağırlıkla ticaret yolları ve tarikatlar aracılığıyla yayıldı; bir fetih ordusuyla girmedi. → _Ordusuz yayılan büyük bir din örneği varken, kılıç tek açıklama olabilir mi?_
+2. Doğu Afrika'da Swahili kıyı şehirlerine İslam, Hint Okyanusu ticareti ile geldi. Müslüman tüccarlar ve yerel yöneticilerle yayıldı; bir fetih hareketi değildi. → _İki farklı kıtada fetihsiz yayılma varsa, kılıç neyi açıklar, neyi açıklamaz?_
+3. Üç tarihçi, benzer bir yargıda buluşur. Hodgson: fethedilenler din değiştirmeye zorlanmadı. Rodinson: Araplar dinlerini zorla kabul ettirmeye girişmedi. Lewis: Orta Çağ Müslümanları, inancı kabul ettirmek için kuvvete çok nadir başvurdu. → _Farklı geçmişlerden gelen bu tarihçilerin aynı yöne işaret etmesi sence ne anlama geliyor?_
+4. Dengeyi korumak için: Mark Cohen, Yahudilerin İslam dünyasında çoğunlukla Hristiyan Avrupa'dan iyi durumda olduğunu yazar. Ama aynı yazar, bunun bir "hoşgörü cenneti" olmadığını da gösterir. → _Eşitsiz ama zorlamasız bu tabloda, "kılıçla din değiştirme" iddiası nerede duruyor?_
+
+**Kompozisyon:** Savaşlar, ayetler ve yüzyıllara yayılan dönüşüm: 'kılıçla yayıldı' iddiasını bunlarla birlikte nasıl değerlendiriyorsun?
 
 ### fetanet.ongoru (düğüm F4)
 
@@ -2342,13 +2604,13 @@ Toplam 126 kare.
 | ikna | aciklamak zor, zor, imkansiz, olamaz, aciklanamiyor, haklisin, mantikli | fetanet.hudeybiye |
 | itiraz | tesaduf, iyimserlik, iyimser, sans | (yanıt, aynı soru) |
 | itiraz | cengiz, iskender, napolyon, timur | (yanıt, aynı soru) |
+| ikna | hayır etmez, etmez, yapmaz, olmaz, mümkün değil, sanmıyorum, zor görünüyor, pek değil | fetanet.hudeybiye |
+| ret | evet olur, evet eder, eder, yapar, olabilir, mümkün | (ret → ek örnek) |
 | sonraki | — | fetanet.hudeybiye |
 
-**Ek örnekler (3):**
+**Ek örnekler (1):**
 
-1. Bir benzetme yapalım. Bugünün Irak'ında özel eğitim almamış biri doğuyor. Toplumun yapısını değiştiriyor. Ölümünden sonra on yıl içinde Irak, onun öğretisiyle Çin ve ABD'den güçlü hale geliyor. Bu hikâyeyi duysan, ilginç bir olay olarak bakmaz mıydın? → _Böyle birine 'hastaydı' demek sana makul gelir miydi?_
-2. W. Montgomery Watt şunu yazar: Olaylar tarihen sabit olmasa, alay edilen Mekkeli bir peygamberin şehrine muzaffer fatih olarak gireceğine çok az kişi inanırdı. Bunu o gün öngören tek kişi, kendisiydi. → _O gün bu ihtimale sence kaç kişi inanırdı?_
-3. Bir şey daha: 'Zarar veremezler' haberi. Tek başına bir adamken Kureyş'e, bütün Arap kabilelerine ve kitap ehline şöyle dedi: 'Beni öldüremezsiniz.' Eski bir İslam âlimi der ki: bu, ancak çok güçlü bir güvenin akıllı bir adamda görülen duruşudur. → _Sanrının içindeki biri, düşmanlarının ortasında bu güveni neye dayandırır?_
+1. W. Montgomery Watt şunu yazar: Olaylar tarihen sabit olmasa, alay edilen Mekkeli bir peygamberin şehrine muzaffer fatih olarak gireceğine çok az kişi inanırdı. Bunu o gün öngören tek kişi, kendisiydi. → _O gün bu ihtimale sence kaç kişi inanırdı?_
 
 **Kompozisyon:** Bu ayrıntılı ve tutan öngörülerin kaynağı sence neydi? Kendi cümlelerinle anlatır mısın?
 
@@ -2390,7 +2652,7 @@ Toplam 126 kare.
 **Satırlar:**
 
 1. Bir de ahlaka bakalım. Önce başladığı yere.
-2. Kız çocuklarını diri diri gömmek, yaygın bir gelenekti.
+2. Kız çocuklarını diri diri gömmek, bazı kabilelerde görülen bir gelenekti.
 3. Kasıtlı ve kasıtsız öldürme arasındaki fark bile pek yoktu.
 4. (metinsiz) _[diyagram: karsilastirma]_
 5. Halife Ömer Kudüs'te, patriğin teklif ettiği kilisede namaz kılmadı.
@@ -2437,10 +2699,9 @@ Toplam 126 kare.
 | itiraz | cevre, cevreden, siyasi, cizye, vergi, kilic, zorla | (yanıt, aynı soru) |
 | sonraki | — | fetanet.birey |
 
-**Ek örnekler (2):**
+**Ek örnekler (1):**
 
-1. Tarihçi Bauer yazar: Müslümanlar Filistin'i alırken Yahudileri rahat bıraktı. Remle kurulur kurulmaz Yahudiler yerleşti, sinagog yaptı. Meslek kısıtlaması yoktu. Yalnız orduya alınmazlardı. → _Bu davranış, onların çevresinden mi öğrendiği bir şey?_
-2. Emesa halkı Herakleios'un ordusuna kapıları kapattı. 'Sizin yönetiminizi, Rumların adaletsizliğine tercih ederiz,' dediler. Bunu söyleyenler Hristiyandı. → _Kendi dindaşlarının orduları yerine fatihleri seçenler hakkında ne düşünürsün?_
+1. Emesa halkı Herakleios'un ordusuna kapıları kapattı. 'Sizin yönetiminizi, Rumların adaletsizliğine tercih ederiz,' dediler. Bunu söyleyenler Hristiyandı. → _Kendi dindaşlarının orduları yerine fatihleri seçenler hakkında ne düşünürsün?_
 
 **Kompozisyon:** Bu hoşgörünün kaynağı sence ne? Kendi cümlelerinle anlatır mısın?
 
@@ -2496,17 +2757,17 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Peki okuma yazma? 'Ümmi' kelimesi tam bunu anlatır.
-2. 'Ümm', anne demek. Anadan doğduğu gibi: eğitim almamış.
-3. Karen Armstrong: okur-yazar olduğuna dair bir kayıt yok. _[kaynak: Karen Armstrong, "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)", İstanbul 2005, İngiliz din tarihçisi, eski rahibe [doğrulanacak]]_
-4. Mektuplarını bile başkasına yazdırırdı.
-5. Kur'an bunu kendi diliyle de söyler:
-6. (metinsiz)
-7. Bilip gizlemiş olsaydı, buna 'el-Emin' demezlerdi.
+1. Peki okuma yazma? Kur'an ona 'ümmî' der.
+2. Kelimenin tam anlamı tartışılır: okuma yazma bilmeyen ya da kutsal kitap verilmemiş bir Arap.
+3. İki durumda da sonuç aynı: kitaplarla yetişmiş biri değildi.
+4. Karen Armstrong: okur-yazar olduğuna dair bir kayıt yok. _[kaynak: Karen Armstrong, "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)", İstanbul 2005, İngiliz din tarihçisi, eski rahibe [doğrulanacak]]_
+5. Mektuplarını bile başkasına yazdırırdı.
+6. Kur'an bunu kendi diliyle de söyler:
+7. (metinsiz)
 8. Sözlü eğitim de gizlenemez. Öğrenen kişi hocasını arar, sohbetine devam eder.
 9. O dönemin ilim sahipleri, sonradan onun düşmanı olacaklardı. _[vurgu]_
 
-**Soru:** Senin iddian: kendi kendine yanıldı. Veri: toplum, eğitim, hiçbiri açıklamıyor; başarı ise ortada. Bu mantıken nasıl bir araya gelir?
+**Soru:** Diyelim ki, hâşâ, kendi kendine yanıldı. Toplum da eğitim de açıklamıyor; başarı ise ortada. Bu nasıl bir araya gelir?
 
 Çipler: “Açıklanamıyor” · “Biri ona öğretmiş olabilir”
 
@@ -2517,11 +2778,10 @@ Toplam 126 kare.
 | itiraz | tuccar, hesap, yazi bilirdi, yazi hesap | (yanıt, aynı soru) |
 | sonraki | — | fetanet.kapanis |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
-1. Ümmi olduğu halde, bugün bile dünya nüfusunun önemli bir kısmınca ilmin toplandığı bir kitabı getiren kişi sayılır. Bunu bir Lübnan asıllı tarihçi de not eder. → _Eğitimsiz biri bu kadar büyük bir bilgi sistemini nasıl kurar?_
-2. Kur'an der: 'Bundan önce kitap okumuyor, sağ elinle yazmıyordun.' Açık çatışma ortamında okundu. Öyle olsaydı, şüphe edenler bunu hemen yüzüne vururdu. İtiraz eden olmadı. → _Böyle bir söze itiraz edilmemesi, sence neyi gösterir?_
-3. Bir şey daha: 'Kitap nedir, iman nedir bilmiyordun.' 'Bu kitabın sana vahyolunacağını ummazdın.'  Bu sözler, onu yakından tanıyan düşmanların önünde okundu. → _Bunca tanık varken, bu sözlerin yalanlanmaması neyi gösterir?_
+1. Kur'an der: 'Bundan önce kitap okumuyor, sağ elinle yazmıyordun.' Açık çatışma ortamında okundu. Öyle olsaydı, şüphe edenler bunu hemen yüzüne vururdu. İtiraz eden olmadı. → _Böyle bir söze itiraz edilmemesi, sence neyi gösterir?_
+2. Bir şey daha: 'Kitap nedir, iman nedir bilmiyordun.' 'Bu kitabın sana vahyolunacağını ummazdın.'  Bu sözler, onu yakından tanıyan düşmanların önünde okundu. → _Bunca tanık varken, bu sözlerin yalanlanmaması neyi gösterir?_
 
 **Kompozisyon:** Eğitim yolları kapandığına göre, geriye ne kalıyor? Kendi cümlelerinle yazar mısın?
 
@@ -2531,12 +2791,13 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Toparlayalım. Senin iddian: hâşâ samimiydi, ama yanılıyordu.
-2. Yanılıyorsa, bu en ağır tablolardan biri: 23 yıl, her ortamda.
+1. Toparlayalım. Diyelim ki, hâşâ, samimiydi ama yanılıyordu.
+2. Yanılıyorsa, bu ciddi bir tablo: 23 yıl, her ortamda.
 3. Oysa toplum ona ufuk vermiyor. Eğitim ona ufuk vermiyor.
 4. Watt, Dermenghem, Bodley bile: sara tutmuyor, histeri düştü, başarı hastalıkla açıklanamıyor.
 5. Plan, hukuk, ahlak, devlet: bunlar sanrının değil, berrak bir aklın işi.
-6. Benzerini başaran bir insan gösterebilir misin? _[vurgu]_
+6. Sağlıklı bir yanılgı ise bilmediği şeyleri doğru söyleyememeli: bunu ayrıca sınıyoruz.
+7. Benzerini başaran bir insan gösterebilir misin? _[vurgu]_
 
 **Soru:** Bu verilerle 'samimiydi ama yanılıyordu' iddiası mantıken ayakta durabiliyor mu?
 
@@ -2544,16 +2805,16 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| ikna | durmuyor, ayakta kalmiyor, ikna oldum, haklisin, mantikli, evet, tamam, kapandi, aciklanamiyor | haber.kalan |
+| ikna | durmuyor, ayakta kalmiyor, ikna oldum, haklisin, mantikli, tamam, kapandi, aciklanamiyor | haber.kalan |
 | itiraz | sara, epilepsi, halusinasyon, hastaydi, hasta | (yanıt, aynı soru) |
 | itiraz | cengiz, iskender, napolyon, dahi, deha | (yanıt, aynı soru) |
+| ret | evet, durabilir, duruyor | (ret → ek örnek) |
 | sonraki | — | haber.kalan |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
 1. Tarihin en etkili yüz kişisini sıralayan Michael Hart, Hz. Muhammed'i birinci sıraya koyar. Gerekçesi: hem dinî hem din dışı alanlarda üstün başarı gösteren tek kişi. Üstelik dünyanın geri kalmış bir köşesinde, mütevazı koşullarda doğdu. → _Bu ölçüt, başarıyı bir hastalığa mı bağlar, yoksa başarıyı başarı olarak mı görür?_
 2. Leone Caetani şunu yazar: Dünya tarihinde neredeyse benzeri olmayan bu olaylar zinciri, çağdaşlarında bizden daha büyük bir hayret doğurmalıydı. → _Bu olaylar zincirini bir sanrıyla açıklamak, sence hayreti mi yatıştırıyor, yoksa görmezden mi geliyor?_
-3. Bir soru bırakayım. Bu başarıyı beşer takatiyle açıklayan biri, benzerini başaran başka bir beşeri göstermeli. Gösteremezse, bu iş onun takatiyle açıklanamaz. → _Böyle bir örnek aklına geliyor mu?_
 
 **Kompozisyon:** Tüm bu verileri bir araya getirdiğinde 'samimi ama yanılıyordu' iddiasını nasıl savunursun? Kendi cümlelerinle yazar mısın?
 
@@ -2570,6 +2831,8 @@ Toplam 126 kare.
 - `{"profil.iddia":"dogru"}` → `mucize.giris-dogru`
 - `{"profil.supheTuru":"mucize-yok"}` → `mucize.giris-yok`
 - `{"kapali":["samimiyet","fetanet"]}` → `mucize.giris-kapali`
+- `{"profil.tanri":["hayir","emin-degil"]}` → `mucize.hume`
+- `{"profil.deizm":"evet"}` → `mucize.hume`
 
 **Satırlar:**
 
@@ -2626,6 +2889,32 @@ Toplam 126 kare.
 |---|---|---|
 | sonraki | — | mucize.tanim |
 
+### mucize.hume (düğüm M9)
+
+**Etiket: ek (kitap dışı)**
+
+![mucize.hume](../site/panel/ekran/mucize.hume.jpg)
+
+**Satırlar:**
+
+1. Mucizelere geçmeden önce, haklı bir ölçütü kabul edelim.
+2. David Hume'a göre olağanüstü bir iddia, sağlam delil ister. _[kaynak: David Hume, "An Enquiry Concerning Human Understanding (Bölüm X: Of Miracles)", London 1748, İskoç filozof; mucize anlatılarına tanıklık ölçütü. Ekranda dolaylı anlatım [doğrulanacak]]_
+3. Bu ölçüt haklı. _[vurgu]_
+4. O yüzden eski ve denetlenemeyen olaylardan başlamıyoruz.
+5. Bugün de kontrol edebileceğin delillere bakacağız: dil, gelecek haberi, kıssalar.
+6. Her birinde soru aynı: delil sağlam mı, değil mi?
+
+**Soru:** Delil sağlamsa, olağanüstü bir iddiayı tartmaya hazır mısın?
+
+Çipler: “Sağlamsa tartarım” · “Önce delili göreyim” · “Hiçbir delil yetmez”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| ikna | sağlamsa, tartarım, hazırım, göreyim, görelim, bakalım, delili göreyim | mucize.tanim |
+| itiraz | hiçbir delil, yetmez, imkânsız, olamaz, mucize olmaz | (yanıt, aynı soru) |
+| sonraki | — | mucize.tanim |
+| varsayılan | — | mucize.tanim |
+
 ### mucize.tanim (düğüm M1)
 
 ![mucize.tanim](../site/panel/ekran/mucize.tanim.jpg)
@@ -2645,14 +2934,13 @@ Toplam 126 kare.
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | dikkate değer, ciddiye, düşündürür, anlamlı | mucize.teshis |
-| yonlendir | inanmıyorum, mucize yok, olağanüstü olay olmaz, doğaüstü | mucize.haber-felsefesi |
+| yonlendir | inanmıyorum, mucize yok, olağanüstü olay olmaz, doğaüstü, hume | mucize.hume |
 | itiraz | şüphe, kuşku, emin değilim | (yanıt, aynı soru) |
 | sonraki | — | mucize.teshis |
 
-**Ek örnekler (2):**
+**Ek örnekler (1):**
 
-1. Başka bir örnek: bir basketbolcu “üç atışın üçü de girer” diyor. “Yap bakalım” diyorsun. O da “zemin şöyle, pota böyle” diyor. → _Bu tartışmada “yapmamak” ile “yapamamak” arasında bir fark kalır mı?_
-2. Bir meydan okuma bin dört yüz yıldır ortada duruyor olsun. Kimse karşılık vermiyor. → _Bu sessizlik sana bir şey söylüyor mu, yoksa sıradan mı?_
+1. Bir meydan okuma bin dört yüz yıldır ortada duruyor olsun. Kimse karşılık vermiyor. → _Bu sessizlik sana bir şey söylüyor mu, yoksa sıradan mı?_
 
 **Kompozisyon:** Peki bir iddia, meydan okuma ve cevapsızlık birlikte gelirse, bunu nasıl yorumlarsın?
 
@@ -2706,9 +2994,9 @@ Toplam 126 kare.
 1. Tam bu yıllarda, Mekke'de küçük bir topluluk eziliyordu.
 2. Hz. Muhammed şu ayetleri okudu:
 3. (metinsiz)
-4. “Birkaç yıl içinde.” Ayetteki kelime: bid'. Yani üç ile on arası.
+4. “Birkaç yıl içinde.” Ayetteki kelime: bid'. Yani üç ile dokuz (kimi sözlükler on) arası.
 5. Müşrikler güldü: “Bize benzeyen Mecusiler, size benzeyen Hristiyanları yendi.”
-6. Ebubekir bahse girdi: üç yıl, on deve. Sonra süre on yıla, deve yüze çıktı.
+6. Ebubekir bahse girdi: üç yıl, on deve. Sonra süre uzatıldı, deve yüze çıktı.
 7. Metne bakılırsa ayet 614 ile 618 arasında, Mekke'de indi.
 8. (metinsiz) _[diyagram: zaman]_
 9. Bu sureyi Mekkî sayanlar arasında Hirschfeld, Bell, Muir ve Weil var. _[kaynak: Sir William Muir, "The Life of Mahomet, c. 2", s. 319, İngiliz oryantalist. Hirschfeld (s. 78), Bell (c. 2, s. 392) ve Weil (s. 63) de surenin Mekkî olduğunu yazar [doğrulanacak]]_
@@ -2726,7 +3014,7 @@ Toplam 126 kare.
 
 **Ek örnekler (3):**
 
-1. Bir ayrıntı daha: süre üç yıldan on yıla çıkarılmıştı. Üçüncü yılda Herakleios henüz sefere bile çıkmamıştı. → _Süre uzatılmasaydı bahis kaybedilmiş olurdu. Bu ayrıntı sana ne söylüyor?_
+1. Bir ayrıntı daha: süre üç yıldan daha uzun tutulmuştu. Üçüncü yılda Herakleios henüz sefere bile çıkmamıştı. → _Süre uzatılmasaydı bahis kaybedilmiş olurdu. Bu ayrıntı sana ne söylüyor?_
 2. Ayette bir cümle daha var: “O gün müminler sevinecek.” Ezilen küçük bir topluluk, “ferahlık gelecek” diyor. → _Mekke'de dışlanmış biri, bu ferahlığı neye dayanarak söyler?_
 3. Richard Bell şunu yazar:  → _Bu sözü Müslüman olmayan biri yazıyor. Sence neden bu kadar temkinli?_
 
@@ -2739,7 +3027,7 @@ Toplam 126 kare.
 **Satırlar:**
 
 1. Şimdi bunu Müslüman kaynaklara değil, Gibbon, Vasiliev ve Stathakopoulos gibi tarihçilere soralım.
-2. Persler İstanbul'un karşısında on yıldan fazla ordugâh kurmuştu. _[kaynak: Edward Gibbon, "Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (İndie Kitap, Türkçe çev.)", İstanbul 2020, İngiliz tarihçi [doğrulanacak]]_
+2. Persler İstanbul'un karşı yakasına kadar dayanmıştı. _[kaynak: Edward Gibbon, "Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (İndie Kitap, Türkçe çev.)", İstanbul 2020, İngiliz tarihçi [doğrulanacak]]_
 3. Kuzeyden Avarlar ve Slavlar vuruyordu. Herakleios esir düşmekten zor kurtuldu.
 4. İçeride iç savaş, boş hazine, vergi vermeyen halk vardı.
 5. Mısır'ın gitmesiyle şehrin tahılı da bitti.
@@ -2761,7 +3049,7 @@ Toplam 126 kare.
 **Ek örnekler (3):**
 
 1. Kralın kendisi bile umutsuzdu. Barış için haraç önerdi. Cevap: hayır. → _Savaşı yöneten kral bile şans tanımıyorsa, Mekke'deki bir kişi neye güvenir?_
-2. O gün bahis şirketleri olsaydı, Bizans'a bire yüz verirlerdi. Tarihçiler bunu böyle sezdirir. → _Bire yüz oranla, bütün hayatını ortaya koyar mıydın?_
+2. O gün bahis şirketleri olsaydı, Bizans'a bire yüz verirlerdi. Ama gidişat Bizans için kötüydü; kimse ona şans vermiyordu. → _Bire yüz oranla, bütün hayatını ortaya koyar mıydın?_
 3. 616'da Mısır gitti. İstanbul'un ekmeği oradan geliyordu. Bedava ekmek dağıtımı durdu. → _Karnı aç bir şehir, bir orduyu sıfırdan nasıl kurar?_
 
 **Kompozisyon:** Peki bu tabloyla “Bizans kazanacak” demeyi, hangi makul gerekçeyle açıklarsın?
@@ -2857,7 +3145,7 @@ Toplam 126 kare.
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | bilmiyorum, bilmem, hayır, yok, haklısın, ikna oldum, mantıklı, evet haklısın, katılıyorum, tanımıyorum, tanımam, rastlamadım, duymadım, bulamadım, örnek yok, hayır tanımıyorum | mucize.gecis |
-| itiraz | bir örnek var, örnek var, var | (yanıt, aynı soru) |
+| itiraz | bir örnek var, örnek var, var, evet biliyorum, biliyorum | (yanıt, aynı soru) |
 | sonraki | — | mucize.devam |
 
 **Ek örnekler (3):**
@@ -2881,11 +3169,10 @@ Toplam 126 kare.
 3. (metinsiz)
 4. Ayetteki kelime: “misl”. Çoğu çeviri “benzer” der.
 5. Ama misl, “denk” demektir. Taklit değil, eşdeğer bir eser.
-6. Türkçede de öyle: “Messi'nin misli Ronaldo'dur” denir. Benzemez, denktir.
-7. Yani taklit gerekmiyor. Kendi özgün eserinle de yarışabilirsin.
-8. Tek şart: denk eser, içerik ve etki bakımından da denk olmalı.
-9. Üstelik yalnız kalman da gerekmiyor. Kur'an yardımlaşmaya bile izin verir:
-10. (metinsiz)
+6. Yani taklit gerekmiyor. Kendi özgün eserinle de yarışabilirsin.
+7. Tek şart: denk eser, içerik ve etki bakımından da denk olmalı.
+8. Üstelik yalnız kalman da gerekmiyor. Kur'an yardımlaşmaya bile izin verir:
+9. (metinsiz)
 
 **Soru:** Biri “Ben de yaparım, sadece denemiyorum” dese, böyle bir meydan okumada bu ne anlama gelir?
 
@@ -2901,11 +3188,10 @@ Toplam 126 kare.
 | itiraz | ben de yaparım, denemiyorum | (yanıt, aynı soru) |
 | sonraki | — | mucize.belagat-siir |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
 1. Çağdaşlar denedi. Müseylime hitabet yeteneği olan biriydi. Bodley, onun “Kur'an”ının değerinin sıfır olduğunu yazar. → _Deneyip de sonuç çıkaramayan çağdaşlar için ne düşünürdün?_
 2. Onlar edebî yolu bırakıp savaşın pahalı yolunu seçti. Kur'an onların lafını da aktarır: “İstesek biz de söyleriz.”  → _“İstesek biz de söyleriz” diyen, söylemediğinde ne anlaşılır?_
-3. Bir basketbol hatırlatması: “üç atışın üçü de girer” diyen biri. “Yap” denince “zemin yanlış” diyor. → _Bu savunma, iddiayı güçlendirir mi, zayıflatır mı?_
 
 **Kompozisyon:** Peki “denk eser” meydan okumasına yıllarca cevap verilmemesini nasıl yorumlarsın?
 
@@ -2935,11 +3221,10 @@ Toplam 126 kare.
 | itiraz | başka sebep, ilgilenmedi, önemsemedi, olabilir | (yanıt, aynı soru) |
 | sonraki | — | mucize.belagat-nebi |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
-1. Bir anı aktarılır: Fransız bir müzisyen, Kur'an'ın şiir değil düzyazı olduğunu öğrenmiş. “Düzyazıda ritim olmaz. Burada var. Bir harf çıksa kulak tırmalar,” demiş. → _Düzyazı olup ritmi bu kadar belirgin bir metin hangi kategoriye girer?_
-2. Bir test öner: Türkçede Mehmet Akif'in Çanakkale şiirinin üstünde bir eser. Yabancıları bile müzikaliteyle etkileyen, tarih yazan bir metin. → _Bunu bir heyet bugün yapabilir mi? Yapabilirse neden yapmıyor?_
-3. Mekke'nin tanınmış bir şiir bilgini, dinlediği ayetler için “şiire de kâhin sözüne de benzemiyor” demiş. Sonra kavmine bir etiket bulmak için “sihir” demiş. → _Bir şiir uzmanı, bu metni şiir kategorilerine koyamıyorsa ne anlaşılır?_
+1. Muhammed Hamidullah'ın aktardığına göre, Fransız bir müzisyen Kur'an'ın düzyazı olduğunu öğrenmiş. “Düzyazıda ritim olmaz. Burada var. Bir harf çıksa kulak tırmalar,” demiş. → _Düzyazı olup ritmi bu kadar belirgin bir metin hangi kategoriye girer?_
+2. Mekke'nin tanınmış bir şiir bilgini, dinlediği ayetler için “şiire de kâhin sözüne de benzemiyor” demiş. Sonra kavmine bir etiket bulmak için “sihir” demiş. → _Bir şiir uzmanı, bu metni şiir kategorilerine koyamıyorsa ne anlaşılır?_
 
 **Kompozisyon:** Peki şiirin hükümran olduğu bir toplumda cevap verilememesi, tüm bu verilerle nasıl açıklanır?
 
@@ -2956,8 +3241,8 @@ Toplam 126 kare.
 5. (metinsiz) _[diyagram: karsilastirma]_
 6. Arapça bilmesen de, ikincisinde ritmin bozulduğunu duyarsın.
 7. Margoliouth: şiire kulağı yoktu, kabile nağmelerini bile geç ezberledi. _[kaynak: D. S. Margoliouth, "Muhammed ve İslam'ın Yükselişi (Ankara Okulu, Türkçe çev.)", Ankara 2020, s. 68, İngiliz oryantalist]_
-8. Karen Armstrong'a göre düşmanlar vahiylerin sahte olduğunu iddia etmedi. _[kaynak: Karen Armstrong, "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)", İstanbul 2005, s. 180, İngiliz din tarihçisi, eski rahibe]_
-9. Açıklayamadıkları bir şey olduğu belliydi.
+8. Kur'an, düşmanlarının tepkisini kaydeder: “şair”, “kâhin”, “sihirbaz”.
+9. Ama bu metnin yerine geçecek bir metin getirilemedi.
 
 **Soru:** Şiire kulağı olmayan biri, şiirin hükümran olduğu toplumu aciz bırakan bir metni nasıl yazar?
 
@@ -2987,28 +3272,28 @@ Toplam 126 kare.
 
 1. Şimdi tarihe bakalım. Çok duyulan bir iddia var.
 2. “Kur'an, Tevrat'tan ve İncil'den kopyalandı.” _[vurgu]_
-3. Güzel bir iddia, çünkü test edilebilir.
-4. Kopyalayan biri metni de kopyalar, hatalarını da.
-5. O yüzden iki metni yan yana koyacağız.
+3. Bu itirazın ciddi bir ilmî yanı var.
+4. Kur'an'daki kimi kıssalar, Tevrat'la örtüşür. Hatta eski Hristiyan anlatılarıyla da.
+5. O yüzden soru “benzerlik var mı?” değil: *benzerliğin açıklaması ne?* _[vurgu]_
+6. Bir anlatıyı alıp yazan, aldığını taşır. Kendi anlatısını kuran, yer yer ayrılır.
+7. İki metni yan yana koyalım: nerede aynı, nerede ayrı?
 
-**Soru:** Bir metni kopyalayan, onun hatalarını da kopyalar. Bu sana makul geliyor mu?
+**Soru:** Bir metni alıp yazan, onun farklı yerlerini de alır. Bu sana makul geliyor mu?
 
-Çipler: “Evet, genelde öyle olur” · “Düzeltip de kopyalayabilir”
+Çipler: “Evet, genelde öyle olur” · “Değiştirip de aktarabilir”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | evet, genelde öyle, makul, katılıyorum, haklısın | mucize.kissa-yusuf |
-| itiraz | düzeltip, düzelt, düzeltebilir | (yanıt, aynı soru) |
+| itiraz | düzeltip, düzelt, düzeltebilir, değiştirip, değiştirebilir, aktarabilir | (yanıt, aynı soru) |
 | itiraz | köle, köleler, bir beşer, hristiyan bir, öğretti | (yanıt, aynı soru) |
 | itiraz | varaka | (yanıt, aynı soru) |
 | itiraz | yazılı, okudu, kütüphane, kitaptan | (yanıt, aynı soru) |
 | sonraki | — | mucize.kissa-yusuf |
 
-**Ek örnekler (3):**
+**Ek örnekler (1):**
 
-1. Corpus Coranicum'un Kur'an kaynakları listesi 24 sayfa tutar. Yalnız kutsal kitapları okumak için altı dil gerekir. → _Okuma yazması olmayan biri, bu kitaplığı hangi kütüphanede gezmiş olabilir?_
-2. Apokrif metinlerin çoğu 1945'te Mısır'da bulundu. Daha önce yok edilmiş sayılırlardı. → _O coğrafyada ne yazılı ne sözlü bilinemeyecek metinler nasıl aktarılmış olur?_
-3. Aynı ismin iki metinde geçmesi, alıntı kanıtı değil. 1980 darbesini anlatan herkes Kenan Evren'i yazar. → _O halde Âdem'in adının iki kitapta geçmesi neyi kanıtlar?_
+1. Bir örnek: Meryem'in doğum anındaki hurma ağacı. Kur'an'da Meryem, hurma gövdesinin dibinde; altından bir pınar akar. Pseudo-Matta İncili'nde de hurma ağacı ve bir pınar vardır. Paralellik açık; Kur'an'da motif başka bir vurguyla kullanılır. → _Aynı motif iki anlatıda varsa, bunun açıklaması ne olabilir?_ [ek]
 
 **Kompozisyon:** Peki “kopyalandı” iddiasını, hataları ve farkları birlikte düşününce nasıl tartarsın?
 
@@ -3023,22 +3308,22 @@ Toplam 126 kare.
 3. (metinsiz) _[diyagram: karsilastirma]_
 4. Kur'an anlatısı kendi içinde tutarlı.
 
-**Soru:** Kopyalayan biri hatayı bırakıp tutarlısını nasıl yazmış olur?
+**Soru:** Benzer bir hikâyeyi bu üç noktada ayrı bir vurguyla anlatmak, kopyalama mıdır yoksa ayrı bir anlatı mı?
 
-Çipler: “Kur'an tutarlı görünüyor” · “Fark küçük bir ayrıntı”
+Çipler: “Ayrı bir anlatı gibi” · “Fark küçük bir ayrıntı”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| ikna | kur'an tutarlı, tutarlı, haklısın, mantıklı, zor | mucize.kissa-adem |
+| ikna | kur'an tutarlı, tutarlı, haklısın, mantıklı, zor, ayrı bir anlatı, ayrı anlatı, ayrı | mucize.kissa-adem |
 | itiraz | küçük, ayrıntı, aynı kişi, aynı isim, aynı hikâye | (yanıt, aynı soru) |
 | sonraki | — | mucize.kissa-adem |
 
 **Ek örnekler (2):**
 
-1. Eyyub kıssası. Eldeki metinde Eyyub doğduğu güne lanet eder. Kur'an'da Eyyub baştan sona sabır timsalidir. → _Kopyalayan, bir figürün karakterini neden bu kadar baştan yazsın?_
-2. Eldeki metinde bazı peygamberlere ağır ifadeler atfedilir. Kur'an bunları nakletmez. → _Kopyalayan bunları neden dışarıda bırakırdı?_
+1. Eyyub kıssası. Eldeki metinde Eyyub doğduğu güne lanet eder. Kur'an'da Eyyub baştan sona sabır timsalidir. → _Bir figürün karakteri bu kadar farklı kurulmuşsa, bu kopyalamayı mı gösterir?_
+2. Eldeki metinde bazı peygamberler hakkında daha sert ifadeler vardır. Kur'an bu ifadeleri taşımaz. → _Bu fark, anlatının ayrı bir vurgu kurduğunu mu gösterir?_
 
-**Kompozisyon:** Peki aynı kıssada üç ayrı noktada farklılık, kopyalama fikriyle birlikte nasıl yorumlanır?
+**Kompozisyon:** Peki aynı kıssada üç ayrı noktadaki farklılığı, benzerlikle birlikte nasıl açıklarsın?
 
 ### mucize.kissa-adem (düğüm M6)
 
@@ -3048,10 +3333,10 @@ Toplam 126 kare.
 
 1. Şimdi Âdem'e gelelim.
 2. (metinsiz) _[diyagram: karsilastirma]_
-3. Eldeki metni okuyan biri sorabilir: yılan mı doğru söyledi?
+3. Eldeki metinde yılanın sözü ile Tanrı'nın sözü çatışır; okuyan “hangisi doğru?” diye sorabilir.
 4. Kur'an anlatısında bu soru doğmaz. Şeytan yalan söyler. _[vurgu]_
 
-**Soru:** Kopyalayan, teolojik bir çelişkiyi bilerek düzeltmiş olabilir mi? Peki neye dayanarak?
+**Soru:** Anlatıyı alan biri, bu noktayı kendi bilgisiyle düzeltmiş olabilir mi? Peki neye dayanarak?
 
 Çipler: “Düzeltmiş olması zor” · “Başka kaynak olabilir”
 
@@ -3066,7 +3351,7 @@ Toplam 126 kare.
 1. Doğuma bakalım. Bir anlatıda doğum sancısı günahın cezasıdır. Kur'an'da anneye hakkı hatırlatan bir ahlak dersidir. → _Aynı konu, iki anlatıda bu kadar farklı bir ders verir mi?_
 2. “Hepsi aynı İbrahimî gelenek” denir. Ama kıssa kıssa bakınca farklar küçük değil. → _Ortak bir gelenek, bu kadar sistematik bir ayrılığı nasıl taşır?_
 
-**Kompozisyon:** Peki Yusuf, Eyyub ve Âdem'de aynı yönde fark görünce, bunu nasıl açıklarsın?
+**Kompozisyon:** Peki Yusuf, Eyyub ve Âdem'de benzerliğin yanında aynı yönde farklar görünce, bunu nasıl açıklarsın?
 
 ### mucize.kissa-yaratilis (düğüm M6)
 
@@ -3076,22 +3361,21 @@ Toplam 126 kare.
 
 1. Yaratılışa gelelim. İki cümle yeter.
 2. (metinsiz) _[diyagram: karsilastirma]_
-3. Bu cümleler, eski bir anlatının doğrudan düzeltmesi gibi okunur. _[vurgu]_
+3. Bu cümleler, eski bir anlatıya doğrudan bir cevap gibi okunur. _[vurgu]_
 
-**Soru:** Bu cümleler eski bir metnin kopyası gibi mi duruyor, yoksa onu düzelten bir ses gibi mi?
+**Soru:** Bu cümleler eski bir metnin kopyası gibi mi duruyor, yoksa ona cevap veren bir ses gibi mi?
 
-Çipler: “Düzeltme gibi” · “Tesadüf olabilir”
+Çipler: “Cevap gibi” · “Tesadüf olabilir”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
-| ikna | düzeltme gibi, düzeltme, düzelten, haklısın, mantıklı | mucize.kissa-sonuc |
+| ikna | düzeltme gibi, düzeltme, düzelten, haklısın, mantıklı, cevap gibi, cevap | mucize.kissa-sonuc |
 | itiraz | tesadüf, olabilir, yine de | (yanıt, aynı soru) |
 | sonraki | — | mucize.kissa-sonuc |
 
-**Ek örnekler (2):**
+**Ek örnekler (1):**
 
 1. İnsanın yeryüzü tarihi: Tevrat'ın soy kütükleri, Âdem'i yaklaşık 37 asır geriye koyar. Bilimsel kalıntılar çok daha eskiye gider. Kur'an böyle bir tarih vermez. → _Kur'an'ın bu tarihi vermemesi bir tesadüf olabilir mi?_
-2. Fransız bir doktor, İncil ve Kur'an'ı bilimle karşılaştırdı. Bilimsel eleştiri alan konulardan hiçbirini Kur'an'da bulamadı. → _Hatalı bilgiler tek tek ayıklanmış olabilir mi? Kim tarafından?_
 
 **Kompozisyon:** Peki dinlenme, direkler, tarih: üç alanda aynı yönde fark. Bunu nasıl yorumlarsın?
 
@@ -3101,29 +3385,29 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Toparlayalım.
-2. Kur'an hiçbir kıssada Tevrat'ın kopyası değil. _[vurgu]_
-3. Ya sorunlu yeri anlatmaz, ya düzelterek anlatır.
-4. “Mekke'de şifahi anlatı vardı” diyen, o anlatıyı göstermeli.
-5. Gösteremiyorsa, “açıklayamıyoruz, o halde vardır” demiş olur. Bu delil değil.
-6. Üstelik Kur'an der ki: “Bunları ne sen ne kavmin biliyordunuz.”
+1. Kur'an'ın kıssaları, Tevrat'ın kopyası gibi okunmuyor. _[vurgu]_
+2. Kimi ayrıntıyı hiç anlatmıyor; kimi yerde ayrı bir vurgu kuruyor.
+3. Bu, benzer motiflerin hiç duyulmadığı anlamına gelmez.
+4. Soru şu: bu motifler Mekke'de nereden duyulmuş olabilir?
+5. Ve ayrılan yerler nereden gelmiş?
+6. Kur'an kendi hakkında şunu der: “Bunları ne sen ne kavmin biliyordunuz.”
 7. (metinsiz)
 
-**Soru:** Kopyalamadığı, hataları da taşımadığı bir anlatıyı, okuma yazması olmayan biri nereden getirmiş olabilir?
+**Soru:** Benzer motifleri taşıyan ama ayrıldığı yerleri de olan bir anlatıyı, okuma yazması olmayan biri nereden getirmiş olabilir?
 
 Çipler: “Açıklaması zor” · “Mekke'de bilinen anlatılardan”
 
 | tür | anahtarlar | hedef |
 |---|---|---|
 | ikna | açıklaması zor, açıklayamıyorum, zor, haklısın, ikna oldum, mantıklı, katılıyorum | mucize.gecis |
+| itiraz | apokrif, pseudo, tomas, çocukluk incili, meryem hurma, hurma ağacı, kilden kuş, yedi uyurlar, ashab-ı kehf, zülkarneyn, iskender romansı, süryani, midraş, talmud | (yanıt, aynı soru) |
 | itiraz | mekke, şifahi, sözlü, bilinen, dolaşıyordu | (yanıt, aynı soru) |
 | sonraki | — | mucize.devam |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
-1. Bir okuma olarak: Kur'an ölen firavun için “gök ve yer ağlamadı” der.  Eski Mısır'ın bir ritüel metni ise “gökler ve yer senin için ağlar” der. → _O yazıların okunamadığı bir çağda, bir ritüel metne kelimesi kelimesine cevap nereden gelir?_
-2. Bir ayet der ki: “Tevrat'ı getirip okuyun.”  Atıf yapılan pasaj, Kur'an'ın söylediğini doğrulayan bir ayrıntı taşır. → _Yazılı bir pasaja bu kadar isabetli atıf, sözlü rivayetle mümkün mü?_
-3. Bir kelime daha: “Râ'inâ demeyin.”  Eski İbranice bir sözün hakaret çağrışımı taşıdığı yorumlanır. → _Başka bir dilin gizli hakaretini fark etmek hangi bilgiyi gerektirir?_
+1. Bir ayet der ki: “Tevrat'ı getirip okuyun.”  Atıf yapılan pasaj, Kur'an'ın söylediğini doğrulayan bir ayrıntı taşır. → _Yazılı bir pasaja bu kadar isabetli atıf, sözlü rivayetle mümkün mü?_
+2. Bir kelime daha: “Râ'inâ demeyin.”  Eski İbranice bir sözün hakaret çağrışımı taşıdığı yorumlanır. → _Başka bir dilin gizli hakaretini fark etmek hangi bilgiyi gerektirir?_
 
 **Kompozisyon:** Peki tüm bu kıssa verilerini — düzeltmeler, atıflar, bilgi düzeyi — birlikte nasıl açıklarsın?
 
@@ -3150,17 +3434,17 @@ Toplam 126 kare.
 
 | tür | anahtarlar | hedef |
 |---|---|---|
+| profil | hume, olağanüstü iddia, olağanüstü kanıt, sagan, olağanüstü delil | mucize.teshis |
 | ikna | makul geliyor, makul, mantıklı, haklısın, uygulanabilir | mucize.sihir |
 | yonlendir | geleceğe, rum, bizans, kehanet | mucize.rum-giris |
 | yonlendir | dil, edebiyat, şiir, belagat | mucize.belagat-giris |
 | itiraz | konu farklı, farklı, olağanüstü, doğaüstü | (yanıt, aynı soru) |
 | sonraki | — | mucize.sihir |
 
-**Ek örnekler (3):**
+**Ek örnekler (2):**
 
 1. Düz dünya meselesi. Fizikçi değilsen, nasıl reddedersin? Çoğumuz: “Bu kadar bilim insanı neden yalan söylesin?” deriz. → _Bu, haber ölçütüne dayanmıyor mu?_
 2. Psikologlar, bir ünlü deneyi çoğu zaman tekrar etmeden kabul eder. Bilimin ilerlemesi de bu güvenle olur. → _Güvene dayanan bilgi, bilgi sayılmaz mı?_
-3. Bir ayrıntı: mucize haberlerinin çoğu birkaç ravide kalır. Bir defalık olayda şahit azdır; namazda çoktur. Beklenen de bu. → _Az şahitli rivayet uydurma olsaydı, uyduranlar şahit sayısını artırmaz mıydı?_
 
 **Kompozisyon:** Peki “haber bilgi verir mi?” sorusuna kendi cevabın ne?
 
@@ -3172,9 +3456,9 @@ Toplam 126 kare.
 
 1. Bir ipucu daha. Müşrikler Hz. Muhammed'e “sihirbaz” diyordu.
 2. Düşmanlık ortamında karşındakine ne zaman “sihirbaz” dersin?
-3. Tartışmada asla. Ancak karşındaki gözünün önünde şaşırtıcı bir şey yapmışsa. _[vurgu]_
+3. Tartışmada pek. Ancak karşındaki gözünün önünde şaşırtıcı bir şey yapmışsa. _[vurgu]_
 4. Kur'an bunu pekiştirerek aktarır: “Bu apaçık bir sihirbazdır.”
-5. İtirazın kendisi, bir şey yaşandığını ele verir.
+5. İtirazın kendisi, bir etkinin yaşandığını ele verir.
 
 **Soru:** Kimseye tartışmada “sihirbaz” demezsin. Bu söz sence neyin işareti olabilir?
 
@@ -3222,8 +3506,8 @@ Toplam 126 kare.
 
 **Satırlar:**
 
-1. Pencerelerin hepsine baktık.
-2. Geriye tek bir soru kaldı: bütün bunlar sana ne söylüyor?… _[vurgu]_
+1. Baktığın pencerelerden şimdilik yeterince gördün.
+2. Geriye tek bir soru kaldı: bütün bunlar sana ne söylüyor… _[vurgu]_
 
 | tür | anahtarlar | hedef |
 |---|---|---|
@@ -3280,7 +3564,7 @@ Toplam 126 kare.
 3. Haritada yalnız senin ikna olduğunu söylediğin yollar sönükleşir.
 4. Bazı yolları birlikte gezdik, bazılarına hiç girmedik.
 5. Hangisi sende açık kaldıysa, orada son sözü sen söylersin. _[vurgu]_
-6. Mucizeler ise haberin doğruluğuna doğrudan bakan delillerdir: dil, gelecek, geçmiş.
+6. Mucizeler ise haberin doğruluğuna doğrudan bakan delillerdir: dil, gelecek, geçmiş — hepsine bakmak zorunda değildin.
 7. Ağırlığını sen tartarsın.
 
 | tür | anahtarlar | hedef |
@@ -3318,6 +3602,57 @@ Toplam 126 kare.
 | tür | anahtarlar | hedef |
 |---|---|---|
 | yonlendir | daha fazla, sormak istiyorum, sorum var, devam etmek istiyorum | mucize.devam |
+| yonlendir | müslüman olmak, müslüman olmak istiyorum, nasıl müslüman, şehadet, kelime-i şehadet, islam'a girmek, ihtida | kapanis.muslumanOlmak |
+| varsayılan | — | kapanis.veda |
+
+### kapanis.ozet-cikis (düğüm R8)
+
+**Etiket: ek (kitap dışı)**
+
+![kapanis.ozet-cikis](../site/panel/ekran/kapanis.ozet-cikis.jpg)
+
+**Satırlar:**
+
+1. Uzun geldiyse özür dilerim. İşte bir dakikalık özet.
+2. (metinsiz) _[diyagram: ihtimaller]_
+3. Bir adam, Allah'tan haber aldığını söyledi. Bu bir haber: ya doğru ya yanlış.
+4. Yanlışsa ya bilerek yalan ya da içtenlikle yanılma; ikisine ayrı ayrı bakıyoruz.
+5. Geriye, haberin doğruluğuna doğrudan bakan deliller kalıyor: dil, gelecek, geçmiş.
+
+**Soru:** İstersen kaldığın yerden devam edelim; istersen burada bırakalım. _(serbest)_
+
+Çipler: “Devam edelim” · “Burada bırakalım”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| yonlendir | bırakalım, bırak, yeter, burada, çık, bitir, veda, sonra, kapat | kapanis.veda |
+| yonlendir | devam, tamam, olur, sürdür, bakalım, kaldığım | (sonraki/varsayılan) |
+| varsayılan | — | kapanis.veda |
+
+### kapanis.muslumanOlmak (düğüm R8)
+
+**Etiket: ek (kitap dışı)**
+
+![kapanis.muslumanOlmak](../site/panel/ekran/kapanis.muslumanOlmak.jpg)
+
+**Satırlar:**
+
+1. Bunu yazman kolay değil. Saygı duyuyorum.
+2. Bu, bir sunumun vereceği karar değil; senin kararın.
+3. Müslüman olmanın özü, iki cümlelik bir tanıklıktır:
+4. Allah'tan başka ilah olmadığına tanıklık ederim. _[vurgu]_
+5. Ve Muhammed'in, O'nun kulu ve elçisi olduğuna. _[vurgu]_
+6. Anlamını bilerek, içinden ve özgür iradenle söylenir. Acele yok.
+7. İstersen güvendiğin bir camiye ya da tanıdığın bir Müslümana danış; sorularını baskısız sorabileceğin biriyle konuş.
+
+**Soru:** Şimdilik ne yapmak istersin? _(serbest)_
+
+Çipler: “Düşüneceğim” · “Birkaç sorum daha var” · “Teşekkürler”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| yonlendir | sorum, soru, sormak | kapanis.soru |
+| sonraki | — | kapanis.veda |
 | varsayılan | — | kapanis.veda |
 
 ### kapanis.veda (düğüm R8)
@@ -3327,7 +3662,48 @@ Toplam 126 kare.
 **Satırlar:**
 
 1. Yazdığın için teşekkür ederim.
-2. Hangi yönde olursa olsun, saygıyla ayrılıyoruz.
-3. Sorularını bırakma. İyi sorular, iyi bir yolun işaretidir.
-4. İstersen yarın kaldığın yerden devam edebiliriz. _[vurgu]_
-5. Kendine iyi bak.
+2. Yazdığını not aldım.
+3. Hangi yönde olursa olsun, saygıyla ayrılıyoruz.
+4. Sorularını bırakma. İyi sorular, iyi bir yolun işaretidir.
+5. İstersen yarın kaldığın yerden devam edebiliriz. _[vurgu]_
+6. Kendine iyi bak.
+
+## Bölge: genel
+
+### genel.bilim (düğüm R8)
+
+**Etiket: ek (kitap dışı)**
+
+![genel.bilim](../site/panel/ekran/genel.bilim.jpg)
+
+**Satırlar:**
+
+1. Bilimle ilgili bir soru getirdin.
+2. Bu sunumun konusu değil; bunu açıkça söylemem gerek.
+3. Burada tek bir şey soruluyor: Hz. Muhammed'in haberi doğru muydu?
+4. Bilimsel sorular ayrı bir iş: tefsir ve bilim tarihi gerektirir, tek cümleyle yarım kalır.
+5. Sorunu not ettim; yok saymıyorum. _[vurgu]_
+6. Şimdi bıraktığımız soruya dönelim.
+
+### genel.yumusak (düğüm R8)
+
+**Etiket: ek (kitap dışı)**
+
+![genel.yumusak](../site/panel/ekran/genel.yumusak.jpg)
+
+**Satırlar:**
+
+1. Seni sinirlendirdiysem özür dilerim.
+2. Bu konu herkesi yorabilir. Zorla devam etmeni istemem.
+3. İstersen en çok itiraz ettiğin şeyi yaz; ona bakayım.
+4. Ya da bir dakikalık özet vereyim; ya da burada bırakalım.
+
+**Soru:** Ne yapalım? _(serbest)_
+
+Çipler: “Kısa özet ver” · “Devam edelim” · “Burada bırakalım”
+
+| tür | anahtarlar | hedef |
+|---|---|---|
+| yonlendir | özet, kısa, ozet, kısaca | kapanis.ozet-cikis |
+| yonlendir | bırakalım, bırak, yeter, çık, bitir, veda, kapat | kapanis.veda |
+| yonlendir | devam, tamam, olur, sürdür | (sonraki/varsayılan) |
