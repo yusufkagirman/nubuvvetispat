@@ -14,6 +14,8 @@ const bos = () => ({
   konuDisi: [],
   kompozisyon: {},
   ek: {},            // {beatId: ekOrnek indeksi}
+  gezilen: [],       // girilen beat id'leri (kosul "gezildi")
+  donus: [],         // global yol dönüş yığını: [{beat, mod, idx}]
   bitti: false,
   gorulenKaynaklar: [], // karşılaşma sırasıyla {yazar, eser, ...}
   yeniKapanan: null,    // az önce kapanan dal (diyagramda sönme anı için)
@@ -55,6 +57,8 @@ export function kosulSaglanir(kosul) {
   return anahtarlar.every((k) => {
     const v = kosul[k];
     if (k === 'kapali') return (Array.isArray(v) ? v : [v]).every((d) => durum.kapali.includes(d));
+    if (k === 'gezildi') return (Array.isArray(v) ? v : [v]).every((d) => (durum.gezilen || []).includes(d)); // listedeki beat'lerin HEPSİ gezildi
+    if (k === 'gezilmedi') return (Array.isArray(v) ? v : [v]).every((d) => !(durum.gezilen || []).includes(d));
     if (k === 'acik') return (Array.isArray(v) ? v : [v]).some((d) => !durum.kapali.includes(d)); // listedeki dallardan en az biri HÂLÂ açık
     const gercek = k.startsWith('profil.') ? durum.profil[k.slice(7)] : durum[k];
     return Array.isArray(v) ? v.includes(gercek) : gercek === v;

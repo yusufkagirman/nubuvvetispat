@@ -1,6 +1,7 @@
 // niyet.js — kullanıcı cevabını sınıflandırır. Sözleşme: icerik/AKIS-SEMA.md "Cevap işleme sırası".
 // siniflandir({cevap, beat, soru}) -> Promise<{tur, yol?}>
-//   tur: ara | kacamak | yol | serbest | ret | onay | konu_disi
+//   tur: ara | kacamak | yol | global | serbest | ret | onay | konu_disi
+//   global: {tur:'global', g:<globalYol>, eslesen} — beat yolları eşleşmedi, serbest olmayan soruda globalYollar eşleşti (motor yönlendirir)
 // ASYNC ve DEĞİŞTİRİLEBİLİR: siniflandiriciyiDegistir(fn) ile ileride bir LLM sınıflandırıcı takılabilir (aynı imza).
 // Sınıflandırıcı yalnız etiket üretir; içerik üretmez, yönlendirmeyi motor yapar.
 
@@ -126,6 +127,8 @@ async function kuralTabanli({ cevap, beat, soru }) {
   if (!en) en = ara(m, tok, !kb.var);
   if (en) return en.y.tur === 'ret' ? { tur: 'ret' } : { tur: 'yol', yol: en.y };
   if (soru?.serbest) return { tur: 'serbest' };
+  const gl = globalEsle(m0); // beat yolu eşleşmedi, serbest soru değil: global yollar
+  if (gl) return { tur: 'global', ...gl };
   if (sert) return { tur: 'ret' };
   // 2) soruya göre kutupluluk
   if (kb.var) return { tur: 'ret' };                       // "Tabii, ama …": itiraz; ikna sayılmaz
@@ -139,6 +142,39 @@ async function kuralTabanli({ cevap, beat, soru }) {
     if (!m.split(' ').some((w) => w.length >= 5 && kume.has(w.slice(0, 5)))) return { tur: 'konu_disi' };
   }
   return { tur: 'ret' };
+}
+
+// ---- globalYollar (AKIS-SEMA "Global yollar") ----
+// Yerleşik varsayılanlar; içerikte (herhangi bir bölge dosyasının kökünde) aynı `ad`lı tanım varsa o geçer, yeni adlar eklenir.
+// Sıra önemlidir: ilk eşleşen kazanır. `yanit` yalnız `git` beat'i havuzda yoksa gösterilen sabit metindir.
+const NOT = ['Bu konuyu not ettim.', 'Bu sunumda henüz ele almıyoruz; geçiştirmiyorum, dürüstçe söylüyorum.', 'Şimdi kaldığımız soruya dönelim.'];
+export const VARSAYILAN_GLOBAL = [
+  { ad: 'muslumanOlmak', git: 'kapanis.muslumanOlmak', anahtar: ['müslüman olmak', 'müslüman olmak istiyorum', 'müslüman olacağım', 'nasıl müslüman olunur', "islam'a girmek", 'islama girmek', 'şehadet', 'kelime-i şehadet', 'ihtida'] },
+  { ad: 'notEttim', git: 'genel.notEttim', itiraz: true, yanit: NOT, anahtar: ['aişe', 'ayşe', 'aişenin', 'aişeyle', 'aişeyi', 'kurayza', 'kureyza', 'kurayzaoğulları', 'yahudileri öl', 'yahudileri kes', 'yahudileri katlet', 'yahudi katliam'] },
+  { ad: 'sert', git: 'genel.yumusak', tekrar: { say: 2, git: 'kapanis.ozet-cikis' }, yanit: ['Seni sinirlendirdiysem özür dilerim.', 'İstersen bırakabiliriz; istersen en çok itiraz ettiğin şeyi yaz, not alırım.'], anahtar: ['siktir', 'salak', 'aptal', 'gerizekalı', 'bot musun', 'boş laf', 'saçma sapan', 'defol', 'hahaha'] },
+  { ad: 'bilim', git: 'genel.bilim', itiraz: true, yanit: ['Bu sunumun konusu bu değil; itirazını not ettim.', 'Şimdi kaldığımız soruya dönelim.'], anahtar: ['bilim', 'bilimsel', 'evrim', 'embriyo', 'düz dünya', 'güneş çamurlu', 'çamurlu göze', 'dağlar çivi', 'big bang', 'yaratılış günleri', 'bilimle çelişiyor'] },
+  { ad: 'kisalt', git: 'kapanis.ozet-cikis', yanit: ['Anladım; uzun sürdüğü için özür dilerim.', 'İstersen biraz ara verelim ya da kaldığımız yerden sürdürelim.'], anahtar: ['sıkıldım', 'çok uzun', 'uzun oldu', 'kısa olsun', 'özet', 'umrumda değil', 'masal', 'saçma'] },
+];
+let globaller = VARSAYILAN_GLOBAL;
+export function globalYollariKur(icerik) {
+  const l = VARSAYILAN_GLOBAL.map((d) => ({ ...d }));
+  for (const g of Array.isArray(icerik) ? icerik : []) {
+    if (!g || !g.ad || !g.anahtar) continue;
+    const i = l.findIndex((d) => d.ad === g.ad);
+    if (i >= 0) l[i] = { ...l[i], ...g }; else l.push({ ...g });
+  }
+  globaller = l;
+  return l.length;
+}
+// Cevap kısaysa (<= 12 sözcük) ya da anahtar cümlenin başındaysa tetiklenir; uzun serbest cümlede yanlış alarm olmasın.
+function globalEsle(m0) {
+  const sayi = m0.split(' ').filter(Boolean).length;
+  for (const g of globaller) {
+    let en = '';
+    for (const a of anahtarlar(g.anahtar)) if (var_(m0, a) && a.length > en.length && (sayi <= 12 || m0.startsWith(a))) en = a;
+    if (en) return { g, eslesen: en };
+  }
+  return null;
 }
 
 let aktif = kuralTabanli;

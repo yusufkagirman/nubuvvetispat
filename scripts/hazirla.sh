@@ -9,7 +9,7 @@ mkdir -p "$K/site/gorseller"
 python3 -I - "$K" <<'PY'
 import json, glob, os, sys
 K = sys.argv[1]
-sira = ['acilis', 'zemin', 'haber', 'samimiyet', 'fetanet', 'mucize']
+sira = ['acilis', 'zemin', 'haber', 'samimiyet', 'fetanet', 'mucize', 'kapanis', 'genel']  # bilinmeyen bölge dosyaları bunlardan sonra, ada göre gelir
 dosyalar = sorted(glob.glob(os.path.join(K, 'icerik/akis/*.json')), key=lambda f: (sira.index(os.path.basename(f)[:-5]) if os.path.basename(f)[:-5] in sira else 99, f))
 bolgeler, ids = [], {}
 for f in dosyalar:
@@ -17,14 +17,22 @@ for f in dosyalar:
         b = json.load(open(f, encoding='utf-8'))
     except Exception as e:
         print(f'UYARI: {os.path.basename(f)} okunamadı: {e}'); continue
+    if not isinstance(b, dict):
+        print(f'UYARI: {os.path.basename(f)} bir nesne değil, atlandı'); continue
     bolgeler.append(b)
-    for beat in b.get('beats', []):
+    for beat in b.get('beats', []) or []:
+        if not isinstance(beat, dict) or 'id' not in beat:
+            print(f'UYARI: {os.path.basename(f)} içinde id\'siz beat atlandı'); continue
         if beat['id'] in ids: print(f"UYARI: yinelenen beat id {beat['id']}")
         ids[beat['id']] = beat
 for i, beat in ids.items():
     hedefler = [beat.get(k) for k in ('sonraki', 'varsayilan')] + [d.get('git') for d in beat.get('dallan', [])] + [y.get('git') for y in beat.get('yollar', [])]
     for h in filter(None, hedefler):
         if h not in ids: print(f'UYARI: {i} -> {h} (beat yok)')
+for b in bolgeler:
+    for g in b.get('globalYollar', []) or []:
+        for h in filter(None, [g.get('git'), (g.get('tekrar') or {}).get('git')]):
+            if h not in ids: print(f"UYARI: globalYollar {g.get('ad')} -> {h} (beat yok; yerleşik sabit metin kullanılır)")
 with open(os.path.join(K, 'site/akis-veri.js'), 'w', encoding='utf-8') as o:
     o.write('window.AKIS_VERI = ' + json.dumps({'bolgeler': bolgeler}, ensure_ascii=False) + ';\n')
 print(f'Hazır: {len(dosyalar)} bölge, {len(ids)} beat.')

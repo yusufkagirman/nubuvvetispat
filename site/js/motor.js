@@ -1,17 +1,25 @@
 // motor.js — AKIS-SEMA "Cevap işleme sırası"nı uygular. Arayüzden bağımsızdır: ekran (ui) arayüzünü kullanır.
-import { siniflandir } from './niyet.js';
+import { siniflandir, globalYollariKur } from './niyet.js';
 import { durum, kaydet, cevapEkle, kapat, kosulSaglanir } from './durum.js';
 
 export const IPTAL = Symbol('iptal');
 const KOPRU = ['Buna birazdan geleceğiz. Şimdi şunu soruyordum:', 'Bunu not aldım. Ama önce şuna dönelim:', 'Güzel soru; sırası gelince. Şimdilik şuna bakalım:'];
+const KOPRU_YOK = ['Bu soruya bu sunumda henüz hazır bir bölüm yok; bunu not ettim.', 'İstersen önce buradaki soruyu kapatalım.']; // MTR-7: karşılığı olmayan konuya sahte söz verilmez
+const VARSAYILAN_CIPLER = ['Haklısın, açıklaması zor', 'Yine de ikna olmadım'];                                                  // MTR-4: ekOrnek çipi yoksa
+const GERI = ['Kaldığımız yere dönelim.', 'Şimdi kaldığımız soruya geri dönelim.'];
 const DIZI = (x) => (x == null ? [] : Array.isArray(x) ? x : [x]);
 
 export class Motor {
-  constructor(ui) { this.ui = ui; this.havuz = new Map(); this.no = 0; this.kopruSay = 0; this.kacSeri = 0; this.notSay = 0; }
+  constructor(ui) { this.ui = ui; this.gSeri = {}; this.geri = false; this.havuz = new Map(); this.no = 0; this.kopruSay = 0; this.kacSeri = 0; this.notSay = 0; }
 
   yukle(veri) {
     this.havuz.clear();
-    for (const b of veri?.bolgeler || []) for (const beat of b.beats || []) this.havuz.set(beat.id, beat);
+    const gy = [];
+    for (const b of veri?.bolgeler || []) {
+      for (const beat of b?.beats || []) if (beat?.id) this.havuz.set(beat.id, beat);
+      if (Array.isArray(b?.globalYollar)) gy.push(...b.globalYollar); // herhangi bir bölge dosyasında tanımlanabilir (genel.json önerilir)
+    }
+    globalYollariKur(gy);
     return this.havuz.size;
   }
 
@@ -40,7 +48,7 @@ export class Motor {
         // dal kapanış sorusu tamamlandı ama kullanıcı ikna olmadı (dal kapanmadı): not et, aynı yola tekrar sokma
         if (b0 && /\.kapanis$/.test(id) && (b0.kapat === 'samimiyet' || b0.kapat === 'fetanet') && r?.id === 'haber.kalan' && !durum.kapali.includes(b0.kapat)) { (durum.tamam ||= {})[b0.kapat] = 1; kaydet(); }
         atlama = r?.atlama ?? 0;
-        devamMi = false;
+        devamMi = !!r?.devam; // global yoldan dönüş: kaynak beat'in sorusu satırlar tekrarlanmadan yeniden sorulur
         id = r?.id ?? null;
       }
     } catch (e) { if (e !== IPTAL) console.error(e); }
@@ -64,6 +72,8 @@ export class Motor {
       }
       Object.assign(durum, { beat: id, satir: 0, asama: 'satir', soru: null, bitti: false });
       durum.ek[id] = 0;
+      if (!(durum.gezilen ||= []).includes(id)) durum.gezilen.push(id); // MTR-11/U48: ziyaret listesi
+      if (!beat.donus) durum.donus = []; // dönüş yığınından çıkıldı: bayat kayıt kalmasın
       kaydet();
       await this.ui.beatBasla(false);
       this.k(no);
@@ -81,11 +91,23 @@ export class Motor {
       }
       durum.satir = satirlar.length;
     }
-    if (!beat.soru) return this.sonrasi(no, beat.sonraki);
+    if (!beat.soru) return this.sonrasi(no, beat.sonraki, beat);
     return this.soruDongusu(no, beat);
   }
 
-  sonrasi(no, id) { return id ? { id, atlama: 0 } : this.son(no); }
+  // Sıradaki beat. `donus: true` bir beat'in `git`siz bitişi (id yok) yığındaki kaynak soruya geri döner; yığın boşsa varsayılan/son.
+  sonrasi(no, id, beat) {
+    if (id) return { id, atlama: 0 };
+    if (beat?.donus && durum.donus?.length) {
+      const e = durum.donus.pop();
+      if (this.havuz.has(e.beat)) {
+        Object.assign(durum, { beat: e.beat, asama: 'soru', soru: { mod: e.mod, idx: e.idx }, bitti: false });
+        this.geri = true; kaydet();
+        return { id: e.beat, atlama: 0, devam: true };
+      }
+    }
+    return this.son(no);
+  }
 
   async son(no) {
     durum.bitti = true; kaydet();
@@ -115,13 +137,14 @@ export class Motor {
     const ana = typeof s0 === 'string' ? { metin: s0 } : s0;
     let { mod, idx } = durum.asama === 'soru' && durum.soru ? durum.soru : { mod: 'ana', idx: 0 };
     const kur = () => {
-      if (mod === 'ek') { const e = ekler[idx]; return { metin: e.soru, cipler: e.cipler || ana.cipler || [], serbest: false, ipucu: e.ipucu }; }
+      if (mod === 'ek') { const e = ekler[idx]; return { metin: e.soru, cipler: e.cipler || (ana.serbest ? [] : VARSAYILAN_CIPLER), serbest: false, ipucu: e.ipucu }; }
       if (mod === 'komp') return { metin: beat.kompozisyon, cipler: [], serbest: true };
       return { metin: ana.metin, cipler: ana.cipler || [], serbest: !!ana.serbest, ipucu: ana.ipucu, buyuk: !!ana.buyuk };
     };
-    const sonraki = () => this.sonrasi(no, beat.sonraki);
-    const varsayilan = () => this.sonrasi(no, beat.varsayilan || beat.sonraki);
+    const sonraki = () => this.sonrasi(no, beat.sonraki, beat);
+    const varsayilan = () => this.sonrasi(no, beat.varsayilan || beat.sonraki, beat);
     const gorulen = new Set(); let kacan = 0, itiraz = 0; // art arda kaçamak / aynı beat'te tekrarlanan itiraz sayacı (döngü kırıcı)
+    if (this.geri) { this.geri = false; await this.ui.satir(GERI[this.kopruSay++ % GERI.length]); this.k(no); }
     for (;;) {
       const q = kur();
       Object.assign(durum, { asama: 'soru', soru: { mod, idx } }); kaydet();
@@ -133,6 +156,12 @@ export class Motor {
       if (s.tur === 'yol' && s.yol.tur === 'itiraz') {
         // aynı itiraz tekrar gelirse ya da üçüncü itiraz olursa aynı cevabı tekrarlamak yerine yeni örneğe geç
         if (gorulen.has(s.yol) || ++itiraz > 3) s = { tur: 'ret' }; else gorulen.add(s.yol);
+      }
+      if (s.tur !== 'global') this.gSeri = {};
+      if (s.tur === 'global') {
+        const r = await this.globalIsle(no, beat, s.g, cevap, { mod, idx }); this.k(no);
+        if (r === 'devam') continue;
+        return r;
       }
       if (s.tur !== 'kacamak' && s.tur !== 'konu_disi') { kacan = 0; this.kacSeri = 0; }
       if (mod === 'komp') {
@@ -153,7 +182,7 @@ export class Motor {
         if (y.git) return { id: y.git, atlama: 0 };
         return y.tur === 'profil' ? varsayilan() : sonraki();
       }
-      if (s.tur === 'serbest') { this.profilYaz({ [id]: cevap }); return varsayilan(); }
+      if (s.tur === 'serbest') { this.profilYaz({ [id]: cevap }); if (beat.donus) this.itirazYaz(cevap); return varsayilan(); }
       if (s.tur === 'onay') { this.dalKapat(beat.kapat); return sonraki(); }
       if (s.tur === 'ret') {
         const ni = mod === 'ana' ? 0 : idx + 1;
@@ -172,8 +201,32 @@ export class Motor {
       // kaçamak / konu dışı: köprü + aynı soru
       if (s.tur === 'konu_disi') { durum.konuDisi.push({ id, metin: cevap, t: Date.now() }); kaydet(); }
       if (++kacan >= 3) return this.kacisCik(no, beat, sonraki); // üç kez kaçamak/konu dışı: zorlamadan nazikçe ilerle
-      await this.ui.satir(this.kopru(beat)); this.k(no);
+      // MTR-7: konu dışı soruyu karşılayan beat/anahtar olmadığı için "geleceğiz" denmez; dürüstçe not edilir
+      if (s.tur === 'konu_disi') await this.ui.satirlar(KOPRU_YOK); else await this.ui.satir(this.kopru(beat));
+      this.k(no);
     }
+  }
+
+  itirazYaz(metin) { const l = (durum.profil.itirazlar ||= []); l.push(String(metin).slice(0, 300)); kaydet(); }
+
+  // Global yol (AKIS-SEMA "Global yollar"): beat yolu eşleşmedi. Hedef beat `donus: true` ise kaynak soru yığına yazılır, hedef bitince dönülür.
+  // Hedef beat içerikte yoksa tanımdaki sabit `yanit` gösterilir ve aynı soru yeniden sorulur. Dönüş: {id,atlama} | 'devam'
+  async globalIsle(no, beat, g, cevap, st) {
+    const say = (this.gSeri = { [g.ad]: (this.gSeri[g.ad] || 0) + 1 })[g.ad]; // art arda aynı global yol sayacı
+    let git = g.git;
+    if (g.tekrar && say >= (g.tekrar.say || 2)) { git = g.tekrar.git; this.gSeri = {}; }
+    if (g.itiraz) this.itirazYaz(cevap);
+    const hedef = git && this.havuz.get(git);
+    if (!hedef) {
+      const y = DIZI(git === g.git ? g.yanit : (g.tekrar?.yanit || g.yanit));
+      await this.ui.satirlar(y.length ? y : ['Bunu not ettim.']);
+      return 'devam';
+    }
+    if (hedef.donus && !beat.donus) { // donus beat'inden başka donus beat'ine geçerken orijinal kaynak korunur
+      durum.donus = [...(durum.donus || []), { beat: beat.id, mod: st.mod, idx: st.idx }].slice(-5);
+      kaydet();
+    }
+    return { id: git, atlama: 0 };
   }
 
   // Döngü kırıcı: dal kapatılmaz. Art arda iki beat'te kaçamaksa "ara verelim mi" önerisi; dal kapanış sorusundaysa doğrudan delil yoluna.
