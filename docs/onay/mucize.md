@@ -13,3 +13,11 @@ Kaynak dosya: `icerik/akis/mucize.json`. Aşağıdakiler kitapta bulunmayan ekle
 - Ninova: yalnız 627 yazıldı; 627/628 tutarsızlığı `dayanak`ta.
 - Bedir yorumu (yazarın kendi ihtimali), Moğol/Türk hadisi, "Ares" etimolojisi, Rodinson'un "silik" ifadesi.
 - Müzisyen anısı (Hamidullah aktarımı) ve Firavun ağıtı "bir okuma" diye etiketli verildi.
+
+## Eklenenler (içerik ajanı, U/K uygulaması)
+| Beat | Ek | Kaynak (doğrulanacak) | Not |
+|---|---|---|---|
+| `mucize.hume` (yeni; `mucize.giris` dallan: tanri hayır/emin değilim ya da deizm; `mucize.haber-felsefesi` "hume" yolu) | "Olağanüstü iddia sağlam delil ister" ölçütünün kabulü; kontrol edilebilir delillere yönelme | David Hume, *An Enquiry Concerning Human Understanding*, X. Bölüm (1748) | Dolaylı anlatım, alıntı yok. K9. |
+| `mucize.kissa-giris` (ek örnek), `mucize.kissa-sonuc` (apokrif itirazı) | Çerçeve "kopya değil" -> "paralellik var, açıklaması ne?"; Meryem-hurma/Pseudo-Matta örneği | Reynolds, *The Qur'an and Its Biblical Subtext* (2010); Griffith; Corpus Coranicum "Texts from the Environment"; Kur'an 19/23-26, Pseudo-Matta 20 | K3. Silinenler: Corpus Coranicum 24 sayfa, Nag Hammadi 1945, Kenan Evren, Firavun ağıtı, Bucaille. |
+| `kapanis.muslumanOlmak`, `kapanis.ozet-cikis` | Global yol beat'leri | — | `docs/onay/global-yollar.md`; K6, K7. |
+| `mucize.belagat-siir` EK0 | Müzisyen anısı "Hamidullah'ın aktardığına göre" olarak etiketlendi | Hamidullah (eser/sayfa doğrulanacak) | Silinen: Çanakkale şiir testi. |

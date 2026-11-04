@@ -3,6 +3,85 @@
   "giris": "haber.giris",
   "beats": [
     {
+      "id": "haber.vahiy-gerek",
+      "gizliDugum": "Z1",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir Yaratıcı'ya inanıyorsun ama bir dine değil."
+        },
+        {
+          "metin": "O zaman doğal bir soru çıkıyor: “Neden bir insanla konuşsun?”",
+          "vurgu": true
+        },
+        {
+          "metin": "Bu soruyu peşinen cevaplamayacağım."
+        },
+        {
+          "metin": "Yalnız şunu söylüyorum: Yaratıcı'nın insanla konuşması mantıksal olarak imkânsız değil."
+        },
+        {
+          "metin": "Biri “O benimle konuşuyor” diyorsa, sözünü bir haber olarak tartabiliriz."
+        }
+      ],
+      "soru": {
+        "metin": "Bir Yaratıcı insanlara yol göstermek isteseydi, bunu hangi yolla yapmasını beklerdin?",
+        "cipler": [
+          "Akıl yeter",
+          "Bir elçi gönderebilir",
+          "Bilmiyorum"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "akıl yeter",
+            "akıl",
+            "vahye gerek yok",
+            "gerek yok"
+          ],
+          "yanit": [
+            "Akıl çok şey gösterir. Ama ölümden sonra ne olacağı, nasıl yaşanacağı gibi sorularda akıllar bile birbirinden ayrılıyor.",
+            "Bunu kabul etmeni istemiyorum; yalnız bir ihtimal olarak bırakıyorum."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "konuşmaz",
+            "konuşmuyor",
+            "neden konuşsun",
+            "imkânsız"
+          ],
+          "yanit": [
+            "İmkânsız olduğunu gösteren bir şey yok.",
+            "Bir Yaratıcı'ya inanan biri için konuşma ihtimali dışarıda kalmaz.",
+            "Bu sunum bunu ispat etmeye çalışmıyor; bir haberin doğruluğuna bakıyor."
+          ]
+        },
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "elçi",
+            "gönderebilir",
+            "peygamber",
+            "olabilir",
+            "bilmiyorum"
+          ],
+          "git": "haber.giris"
+        }
+      ],
+      "varsayilan": "haber.giris",
+      "sonraki": "haber.giris",
+      "dayanak": "EK (Deist muhatap; onay: docs/onay/haber.md). docs/metod-haritasi.md §4.2 Z1, Z4. Bağlantı: acilis.din/tanri 'deist' -> profil deizm:evet; acilis.yonlendir dallan -> haber.vahiy-gerek -> haber.giris. Yeni olgu yok; 'akıllar ayrılıyor' genel gözlem."
+    },
+    {
       "id": "haber.giris",
       "gizliDugum": "H1",
       "sahne": {
@@ -84,7 +163,7 @@
       ],
       "kompozisyon": "Peki sence bir haberi, fikirmiş gibi tartmak neden sorun çıkarır? Kendi cümlelerinle anlat.",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "haber.teori",
       "dayanak": "H1/H4 (kitap s. 127–128, 133). Haberin içeriği: kırk yaşında melek gördüğünü, Allah'ın elçisi olduğunu, 23 yıl bu meleği görmeye devam ettiğini söylüyor. 'Dün Ankara'daydım' örneği kitaptan; mahkeme tanığı örneği ek (analoji)."
@@ -243,7 +322,9 @@
           "yanit": [
             "\"Melek mecazdı\" demek için, o günün insanlarının onu mecaz gibi anladığını göstermelisin.",
             "Oysa o mescitte, cemaatin önünde, elini uzatarak, konuşarak, namazı keserek bir şey anlattı. Mecaz böyle yaşanmaz.",
-            "Bir kişi hayalini yaşıyorsa bu hastalık; bilerek yapıyorsa hile. İkisinin arası yok."
+            "Burada iki şeyi ayıralım: bir deneyim yaşamak ve onu “Allah bana konuştu” diye haber olarak bildirmek.",
+            "Deneyimin ne olduğuna (sağlıklı bir yanılgı mı, hastalık mı) ayrıca bakacağız.",
+            "Ama bildirilen şey bir olgu: dediği ya oldu, ya olmadı."
           ]
         }
       ],
@@ -296,7 +377,7 @@
       ],
       "kompozisyon": "Peki bu sahnelerin hepsini, orta yol bir açıklamayla nasıl birleştirirsin? Kendi cümlelerinle yaz.",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "haber.agac",
       "dayanak": "H16 (kitap s. 149–156): haberin keskinliği; 'zeki deli' ve 'iyi sahtekâr' orta yolları; eski müelliflerin tespiti: nübüvvet iddiası ya en faziletlilerden ya en düşüklerden gelir (s. 155–156). Hâşâ edebi korunur; yalnızca çürütmek için anılır."
@@ -357,7 +438,7 @@
           }
         },
         {
-          "metin": "Ya da bilmeden: hâşâ, bir yanılgı, bir hastalık.",
+          "metin": "Ya da bilmeden: hâşâ, içtenlikle yanılmış — bir hastalık, bir hayal ya da yanlış bir yorum.",
           "diyagram": {
             "tur": "ihtimaller",
             "veri": {
@@ -473,11 +554,6 @@
             "mecaz",
             "mecazi",
             "sembolik",
-            "ilham",
-            "vizyon",
-            "rüya",
-            "manevi tecrübe",
-            "manevi",
             "ahlak öğretmeni"
           ],
           "yanit": [
@@ -485,6 +561,36 @@
             "\"Mecazdı\" diyorsan, dönemin insanları bunu mecaz mı anladı? O cemaatin önünde anlatılanlar mecaz gibi durmuyor.",
             "İsim değişti, kutu aynı. Yeni bir kapı açılmadı."
           ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
+            "vizyon",
+            "ilham",
+            "rüya",
+            "manevi tecrübe",
+            "manevi",
+            "dinî deneyim",
+            "hasta değil",
+            "hasta değildi",
+            "sağlıklıydı",
+            "sağlıklı biriydi",
+            "bilinçaltı",
+            "kendi zihni",
+            "içinden geldi"
+          ],
+          "profil": {
+            "iddia": "deli",
+            "vizyoner": "evet"
+          },
+          "git": "fetanet.vizyoner",
+          "yanit": [
+            "Bu yeni bir kapı değil ama önemli bir ayrım: bilmeden yanılmak için hasta olmak gerekmez.",
+            "Sağlıklı, zeki, samimi biri de yaşadığı yoğun bir deneyimi yanlış yorumlayabilir.",
+            "Bunu hastalıkla çürütemeyiz; tam bu yüzden onu ayrıca ciddiye alacağız."
+          ],
+          "ek": true,
+          "dogrulanacak": true
         },
         {
           "tur": "itiraz",
@@ -517,7 +623,7 @@
           ],
           "yanit": [
             "Kâhinler de bu devreden çıkmaz: onlara da ya hile ya hayal dersin.",
-            "Peki kâhinlerde gerçek bir şey görüldüğünü kabul edersen, onun söylediğini neden dışarıda bırakırsın?"
+            "Kâhinler de bu iki kutudan birine düşer: ya hile ya hayal. Ayrıca kâhin “Allah benimle konuşuyor” demez; kehanet iddiası başka, vahiy iddiası başka."
           ]
         },
         {
@@ -581,7 +687,7 @@
       ],
       "kompozisyon": "Peki sen bu üç kutunun dışında bir ihtimal kurmak istesen, haberin hangi detayını nasıl açıklardın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "haber.demet",
       "dayanak": "H1/H5 (kitap s. 128, 134, 147–149). 'Dördüncü ihtimal yoktur' (s.128). Efsane/sonradan uydurma itirazları zemin (Z) bölümünde ele alınır; burada yönlendirme yapılır. Kâhinlik: H15 (s. 147–149)."
@@ -675,7 +781,12 @@
             "ispat etmek zorunda değilim",
             "benim işim değil",
             "senin işin",
-            "sen ispatla"
+            "sen ispatla",
+            "ispatlamak",
+            "ispat yükü",
+            "yük iddia edende",
+            "iddia sahibi",
+            "kanıtlama yükü"
           ],
           "yanit": [
             "Bir delile itiraz etmek, kendi iddianı ispat etmek değildir.",
@@ -717,7 +828,7 @@
       ],
       "kompozisyon": "Peki sen bu yükü yüklenmek isteseydin, hangi ihtimalle başlardın ve nasıl bir hikâye kurardın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "haber.kisisel",
       "dayanak": "H7 (kitap s. 135–136): demet sopa; 10'ar delil; itiraz edenin yapması gerekenler: mucizeleri tek tek çürütmek, yalanın çeşidini seçmek, o çeşidin delillerini tek tek çürütmek, tutarlı kompozisyon kurmak."
@@ -797,7 +908,7 @@
           "metin": "Bu ihtimali atlamayacağız. Önce onu ciddiye alalım."
         },
         {
-          "metin": "Kazanç de bedel de ölçülebilir. Peki bu iddianın hesabı nasıl çıkıyor?…",
+          "metin": "Kazanç da bedel de ölçülebilir. Bu iddianın hesabı nasıl çıkıyor…",
           "vurgu": true
         }
       ],
@@ -849,7 +960,7 @@
       ],
       "varsayilan": "haber.ihtimaller",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/S1). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
@@ -939,7 +1050,7 @@
       ],
       "varsayilan": "haber.ihtimaller",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/F24). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
@@ -1029,7 +1140,7 @@
       ],
       "varsayilan": "haber.ihtimaller",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H9/M). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
@@ -1292,7 +1403,7 @@
       ],
       "varsayilan": "haber.belirsiz",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "H5 (kitap s. 134): muhatabın iddiasını yerleştirdiği dal seçimi. CLAUDE.md etkileşim modeli: kullanıcı yalnız kendi iddiasının dalını görür."
     },
@@ -1546,7 +1657,7 @@
       ],
       "varsayilan": "haber.sirayla",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "Kararsız kullanıcı için ihtimalleri bir kez daha açan beat."
     },
@@ -1653,7 +1764,7 @@
           "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
         },
         {
-          "metin": "Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik…",
+          "metin": "Bir kapı kapandı. Bilmeden yanılma kapısında ne var, henüz görmedik…",
           "vurgu": true
         }
       ],
@@ -1772,7 +1883,7 @@
       ],
       "varsayilan": "fetanet.giris",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "H6 (kitap s. 134): samimiyet dalı kapandı; kalan ihtimaller fetanet ve doğruluk. A4: dal kapanışı merak cümlesi."
     },
@@ -1820,7 +1931,7 @@
           "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
         },
         {
-          "metin": "Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik…",
+          "metin": "Bir kapı kapandı. Bilerek yalan kapısında ne var, henüz görmedik…",
           "vurgu": true
         }
       ],
@@ -1927,7 +2038,7 @@
       ],
       "varsayilan": "samimiyet.giris",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "H6 (kitap s. 134): fetanet dalı kapandı; kalan ihtimaller samimiyet ve doğruluk. A4: dal kapanışı merak cümlesi."
     },
@@ -1995,7 +2106,7 @@
       "yollar": [],
       "varsayilan": "mucize.giris",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "dayanak": "H6 (kitap s. 134): iki yalan dalı kapanınca geriye yalnızca doğru olma ihtimali kalır. Her cevap kabul edilir; mucize bölümü doğrudan delilleri sunar. A4: haber.kalan -> mucize geçişi merak cümlesi."
     }

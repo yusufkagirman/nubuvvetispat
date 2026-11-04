@@ -78,6 +78,9 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 6. `serbest: true` ve eşleşme yok → cevabı `profil.<beat id>` olarak kaydet → `varsayilan` ya da `sonraki`.
 7. Var olmayan beat'e gidilirse: zarif bir "Bu kısmı hazırlıyoruz; şimdilik buraya kadar" kapanışı.
 
+## Global yollar (ÖNERİ — builder uygulayacak; ayrıntı `docs/onay/global-yollar.md`)
+Konu bağımsız niyetler için her beat'e anahtar eklemek yerine kökte `globalYollar` dizisi: `{ "ad", "anahtar": [], "git", "tekrar": { "say", "git" } }`. Sıra: ara ver → beat `yollar` → `globalYollar` → genel onay/ret. Yeni beat alanı `"donus": true`: global yoldan girilen beat bitince (ya da `git`siz yol eşleşince) kaynak beat'e dönülür ve ilzam sorusu tekrarlanır. Hazır beat'ler: `genel.bilim`, `genel.yumusak` (`genel.json`), `kapanis.muslumanOlmak`, `kapanis.ozet-cikis`. Motor henüz okumuyor; beat'ler `git` ile ulaşılabilir durumda.
+
 ## Profil değişkenleri (ortak sözlük)
 - `tanri`: evet | hayir | emin-degil
 - `din`: yok | hristiyan | yahudi | diger | musluman-degil
@@ -85,6 +88,7 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 - `bilgi`: az | orta | cok
 - `supheTuru`: kuran-degisti | kaynak-guvensiz | uydurdu | hasta-yanildi | ogrendi | mucize-yok | genel
 - `iddia`: sahtekar | deli | dogru | kararsiz
+- `deizm`: evet (deist beyanı; `acilis.yonlendir` → `haber.vahiy-gerek`, `mucize.giris` → `mucize.hume`). `vizyoner`: evet (sağlıklı-yanılgı itirazı). `hume`: evet.
 - `kapali`: motor tarafından tutulan kapalı dallar listesi (`samimiyet`, `fetanet`, `zemin`…); `"kosul": {"kapali": "x"}` = x kapalıysa.
 - Koşul eşleşmesi: değer string ise eşitlik, dizi ise "içinden biri". `"acik": ["samimiyet","fetanet"]` = listedekilerden en az biri HÂLÂ kapanmamış.
 

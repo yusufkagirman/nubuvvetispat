@@ -31,7 +31,7 @@
           "metin": "Ama gördükleri gerçek değildi."
         },
         {
-          "metin": "Peki bu tıbben ne demek?"
+          "metin": "Bu iki türlü olabilir: hastalık ya da sağlıklı bir yanılgı. Önce hastalığı düşünelim."
         },
         {
           "metin": "Yirmi üç yıl. Gece gündüz. Mutlu günde, yas gününde."
@@ -40,7 +40,7 @@
           "metin": "Görerek, duyarak, bedeninde hissederek. Ölünceye kadar."
         },
         {
-          "metin": "Bugünün tıbbında bu, ciddi bir hastalık tablosu olabilir.",
+          "metin": "Hastalık olsaydı, bu ciddi bir tablo olurdu; sağlıklı yanılgıya da bakacağız.",
           "vurgu": true
         }
       ],
@@ -96,6 +96,9 @@
           "metin": "İşte bu yüzden iddia, göründüğünden çok ağır."
         },
         {
+          "metin": "Ama yanılmak için hasta olmak şart değil."
+        },
+        {
           "metin": "Senin yerine karar vermeyeceğim. Önce seni dinlemek istiyorum."
         }
       ],
@@ -103,13 +106,29 @@
         "metin": "Sence ne oldu?",
         "cipler": [
           "Hasta olabilir",
+          "Sağlıklıydı ama yanıldı",
           "Birinden öğrendi",
-          "Çok zekiydi, kendini kandırdı",
-          "Bilmiyorum"
+          "Çok zekiydi, kendini kandırdı"
         ],
         "serbest": true
       },
       "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sağlıklıydı",
+            "sağlıklı",
+            "hasta değil",
+            "hasta değildi",
+            "vizyon",
+            "ilham",
+            "rüya",
+            "iyi niyetli",
+            "samimi ama yanıldı",
+            "yanıldı ama"
+          ],
+          "git": "fetanet.vizyoner"
+        },
         {
           "tur": "yonlendir",
           "anahtar": [
@@ -245,6 +264,111 @@
       "varsayilan": "fetanet.sara",
       "sonraki": "fetanet.sara",
       "dayanak": "Kitap s. 392-393 (2.6). Bu beat yalnız tıbbi iddiayı ikiye ayırır: sara (F24, burada) ve halüsinasyon (giriş beat'lerinde konuşuldu; cevabı başarıların kendisi: formül beat'i)."
+    },
+    {
+      "id": "fetanet.vizyoner",
+      "gizliDugum": "F24",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi en güçlü itirazlardan birine geliyoruz."
+        },
+        {
+          "metin": "“Hasta değildi. Sağlıklı, zeki, samimi biriydi. Yaşadığı yoğun bir deneyimi Tanrı'dan sandı.”",
+          "vurgu": true
+        },
+        {
+          "metin": "Haklı bir itiraz: bilmeden yanılmak için hasta olmak gerekmez."
+        },
+        {
+          "metin": "Anlatılan benzer örnekler var: Jeanne d'Arc ordu yönetti, Swedenborg bilim insanıydı, Joseph Smith bir topluluk kurdu."
+        },
+        {
+          "metin": "Bunların içtenliği ve sağlığı tartışılır; ama bu ihtimali baştan reddedemeyiz."
+        },
+        {
+          "metin": "O hâlde ölçüt değişiyor: hastalık aramıyoruz, söylediklerinin içeriğine bakıyoruz.",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "Yanılan bir zihin, bilmediği şeyleri doğru söyleyemez.",
+          "vurgu": "an"
+        }
+      ],
+      "soru": {
+        "metin": "Sağlıklı bir yanılgıyı hangi yoldan sınayalım?",
+        "cipler": [
+          "Bilgiyi nereden aldı?",
+          "Yaptıkları (başarı)",
+          "Haberlerinin doğruluğu"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "nereden",
+            "öğren",
+            "öğrendi",
+            "bilgi",
+            "kaynak",
+            "hoca",
+            "rahip",
+            "bahira"
+          ],
+          "git": "fetanet.ogrenme"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "yaptık",
+            "başarı",
+            "başar",
+            "toplum",
+            "formül",
+            "sonuç"
+          ],
+          "git": "fetanet.formul"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "haber",
+            "doğruluk",
+            "gelecek",
+            "geçmiş",
+            "dil",
+            "kehanet",
+            "mucize",
+            "bakalım",
+            "göster"
+          ],
+          "git": "mucize.giris"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "söyleyebilir",
+            "şans",
+            "tesadüf",
+            "tahmin",
+            "hepsi tutabilir"
+          ],
+          "yanit": [
+            "Olabilir; bunu sınamanın tek yolu örneğe bakmak.",
+            "Beş şart koyacağım: net aralık, herkesin beklentisinin tersi, tek tahmin, kırk yaşına kadar kehanet yok, iki büyük devletin kaderi.",
+            "Şartlar tutuyorsa “yanılmış zihin” açıklaması zorlaşır; tutmuyorsa elimde başka delil kalmaz."
+          ]
+        }
+      ],
+      "varsayilan": "mucize.giris",
+      "sonraki": "mucize.giris",
+      "dayanak": "EK (onay: docs/onay/fetanet.md; K1). FTN-9, HBR-3. Jeanne d'Arc (1412-1431), Emanuel Swedenborg (1688-1772), Joseph Smith (1805-1844): genel tarih bilgisi, dogrulanacak; içtenlik/sağlık durumları tarihçiler arasında tartışmalıdır, ekranda hüküm verilmiyor. 'Yanılan zihin bilmediğini doğru söyleyemez' sınanabilir ölçüt olarak sunulur (varsayım; kanıt değil). Dal KAPANMAZ: bu beat 'kapat' taşımaz. Giriş: haber.dorduncu (vizyon/ilham/rüya/hasta değil), fetanet.teshis ('sağlıklıydı')."
     },
     {
       "id": "fetanet.sara",
@@ -1000,7 +1124,7 @@
           "metin": "Önce toplumun payını, sonra kişinin kendi payını."
         },
         {
-          "metin": "Geriye kalanı hangi hastalık açıklıyor, ona bakacağız.",
+          "metin": "Geriye kalanı hangi hastalık ya da yanılgı açıklıyor, ona bakacağız.",
           "vurgu": true
         }
       ],
@@ -1060,7 +1184,7 @@
               "metin": "İkincisi: bu şartlardaki biri bunu başarabilir mi?"
             },
             {
-              "metin": "Üçüncüsü: bir hastalık böyle bir başarıyı üretebilir mi?"
+              "metin": "Üçüncüsü: bir hastalık ya da yanılgı böyle bir başarıyı üretebilir mi?"
             },
             {
               "metin": "Mucizeyi hiç kabul etmesen de bu son sorunun cevabı değişmez."
@@ -2392,6 +2516,9 @@
         },
         {
           "metin": "Plan, hukuk, ahlak, devlet: bunlar sanrının değil, berrak bir aklın işi."
+        },
+        {
+          "metin": "Sağlıklı bir yanılgı ise bilmediği şeyleri doğru söyleyememeli: bunu ayrıca sınıyoruz."
         },
         {
           "metin": "Benzerini başaran bir insan gösterebilir misin?",

@@ -65,7 +65,7 @@
         }
       ],
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.teshis",
@@ -241,7 +241,7 @@
         }
       ],
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.yuk",
@@ -273,7 +273,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama güç elindeyken zırhı rehinde ölen biri, mal için neden yalan söylesin?",
+        "metin": "Diyelim ki, hâşâ, amacı maldı. Güç elindeyken zırhı rehinde ölen biri, bu yalandan ne kazandı?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -373,7 +373,7 @@
       ],
       "kompozisyon": "Peki zırhı rehinde ölen, mirası devlete bırakan, hediyeleri dağıtan biri… bunlar 'mal için yalan' ile nasıl bir arada durur?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.aile",
@@ -404,7 +404,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, elleri nasır tutmuş kendi kızına neden hizmetçi vermez?",
+        "metin": "Diyelim ki, hâşâ, ailesine konfor sağlamak istedi. Kızının elleri el değirmeninden nasır tutmuşken ona hizmetçi vermeyen biri bu yalandan ne bekliyordu?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -510,7 +510,7 @@
       ],
       "kompozisyon": "Eşleri açlık çekerken, kızı el değirmeniyle uğraşırken, gücün zirvesinde… bu tablo 'çıkar için yalan' diyen birine ne söylüyor?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.guc",
@@ -557,7 +557,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama servet ve liderlik masada hazır dururken, bir sahtekâr neden 'hayır' der?",
+        "metin": "Diyelim ki, hâşâ, derdi iktidardı. Servet ve liderlik masada hazırken 'hayır' diyen biri bu yalandan ne bekliyordu?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -657,7 +657,7 @@
       ],
       "kompozisyon": "Servet teklifini, liderlik teklifini reddeden, zaferde başkenti bile değiştirmeyen biri… iktidar hırsı ile bunu nasıl bağdaştırırsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.uzlasma",
@@ -696,7 +696,7 @@
           "diyagram": {
             "tur": "alinti",
             "veri": {
-              "metin": "Çevresindekilerin hoşuna gitmek için taviz vermeyi aklından bile geçirmedi.",
+              "metin": "Dermenghem'e göre, çevresindekilerin hoşuna gitmek için taviz vermeyi aklından bile geçirmedi.",
               "kim": "Emile Dermenghem",
               "kaynak": {
                 "yazar": "Émile Dermenghem",
@@ -712,7 +712,7 @@
         }
       ],
       "soru": {
-        "metin": "Herkesin gönlünü almanın en kolay yolu uzlaşmaktı. Bir sahtekâr bu kapıyı neden kapatır?",
+        "metin": "Diyelim ki, hâşâ, herkesin gönlünü almak istedi. Uzlaşmanın bu kadar kolay olduğu bir yerde kapıyı neden kapattı?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -799,7 +799,7 @@
       ],
       "kompozisyon": "Uzlaşma tekliflerini reddeden, hem Mekke'yi hem Medine'yi karşısına alan biri… bu 'siyasi hesap' mı, yoksa gerçekten inanan birinin tavrı mı?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.taif",
@@ -837,7 +837,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama on üç yıl boyunca yalnızca bedel ödeyen biri, bu yalandan ne bekliyordu?",
+        "metin": "Diyelim ki, hâşâ, kazanç bekliyordu. On üç yıl boyunca yalnız bedel ödeyen biri neyi bekliyordu?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -932,7 +932,7 @@
       ],
       "kompozisyon": "On üç yıl boyunca hiçbir kazanç görmeyen, sevdiklerini kaybeden, taşlanan biri… bunun yalan olduğunu nasıl öne sürebilirsin?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.sohret",
@@ -999,7 +999,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama imajını parlatmak isteyen biri, kendisini azarlayan cümleleri neden herkese okutur?",
+        "metin": "Diyelim ki, hâşâ, derdi şöhretti. Kendisini azarlayan cümleleri herkese okutan biri imajını nasıl kurmuş olur?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1112,7 +1112,7 @@
       ],
       "kompozisyon": "Kendini azarlayan, uyaran, açığa çıkaran cümleleri bile titizlikle okutan biri… şöhret düşkünü bir sahtekâr böyle yapar mı?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.tutulma",
@@ -1139,11 +1139,12 @@
           "metin": "Hüzünlü bir peygamber, sarsılmış bir topluluk, gökyüzünde bir alamet. Bundan güçlü bir fırsat olamaz."
         },
         {
-          "metin": "O kalktı ve şöyle dedi: 'Güneş ve ay Allah'ın iki ayetidir. Kimsenin ölümü ya da doğumu için tutulmaz.'"
+          "metin": "O kalktı ve şöyle dedi: 'Güneş ve ay Allah'ın iki ayetidir. Kimsenin ölümü ya da doğumu için tutulmaz.'",
+          "vurgu": "an"
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi oğlunun ölümünde gökyüzünün bile ağladığını söyleyen kalabalığı neden düzeltir?",
+        "metin": "Diyelim ki, hâşâ, bir fırsat kolluyordu. Oğlunun ölümünde gökyüzünün 'ağladığını' söyleyen kalabalığı düzelten biri fırsatı neden kaçırdı?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1176,7 +1177,8 @@
             "Bu söz, tüm hadis kitaplarında 'güneş tutulması namazı' başlığı altında geçer; peygamberlik delilleri arasında değil.",
             "Delil olsun diye uydurulsaydı, delil sayılan yere konurdu.",
             "Üstelik astronomik hesaplarla tutulmanın tarihi de bulunuyor: 27 Ocak 632."
-          ]
+          ],
+          "dogrulanacak": true
         },
         {
           "tur": "itiraz",
@@ -1254,7 +1256,7 @@
       ],
       "kompozisyon": "Oğlunun ölümünde bile alametten yararlanmayan, bunu açıkça düzelten biri… sahtekârlık bu davranışı nasıl açıklar?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kadin",
@@ -1271,14 +1273,14 @@
           "metin": "Orta Çağ'ın Avrupa'sında 'şehvet düşkünü sahte peygamber' anlatısı yaygındı."
         },
         {
-          "metin": "On dokuzuncu yüzyıla kadar bu görüş itirazsız dolaştı; sonra modern tarihçiler bunu bıraktı."
+          "metin": "On dokuzuncu yüzyıla kadar bu görüş itirazsız dolaştı; sonra modern tarihçilerin çoğu bunu bıraktı."
         },
         {
           "metin": "",
           "diyagram": {
             "tur": "alinti",
             "veri": {
-              "metin": "Aleyhindeki yaygın temelsiz iddialardan biri, şehvet uğruna bile bile sahte bir öğreti savunduğudur.",
+              "metin": "Watt'a göre, aleyhindeki yaygın temelsiz iddialardan biri, şehvet uğruna bile bile sahte bir öğreti savunduğudur.",
               "kim": "W. Montgomery Watt",
               "kaynak": {
                 "yazar": "W. Montgomery Watt",
@@ -1300,7 +1302,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian şehvete kapılmış bir sahtekârdı. Ama bu hayat, o iddianın bekleyeceği hayata benziyor mu?",
+        "metin": "Diyelim ki, hâşâ, derdi şehvetti. Bu hayat, böyle bir derdin bekleyeceği hayata benziyor mu?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1384,6 +1386,27 @@
             "Ölçütümüz şu: bu hayatı yaşayan biri, şehvet ya da konfor peşinde bir sahtekâr profiline uyuyor mu?",
             "Evleri hurma lifinden, mutfaklarında günlerce ateş yanmayan bir hayat bunu açıklamıyor."
           ]
+        },
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hayır benzemiyor",
+            "benzemiyor",
+            "hayır",
+            "pek değil",
+            "sanmıyorum",
+            "zor görünüyor"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet benziyor",
+            "benziyor",
+            "evet",
+            "olabilir"
+          ]
         }
       ],
       "ekOrnekler": [
@@ -1414,7 +1437,7 @@
       ],
       "kompozisyon": "Hatice'yle yirmi beş yıl, sonra bu kadar sade bir hayat… kadın düşkünü bir sahtekâr tablosuna uyuyor mu?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kabile",
@@ -1456,7 +1479,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama kabilesini yükseltmek isteyen biri, kabileciliğin tam kalbine neden saldırır?",
+        "metin": "Diyelim ki, hâşâ, kabilesini yükseltmek istedi. Kabileciliğin tam kalbine saldıran biri bunu neden yapar?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1543,7 +1566,7 @@
         {
           "satirlar": [
             {
-              "metin": "İstersen en zor örneği de anlatayım; konu bana da ağır. Ölçülü anlatıyorum."
+              "metin": "İstersen en hassas örneği de anlatayım; ölçülü anlatacağım."
             },
             {
               "metin": "Amcası Ebu Talib ölürken, onun için bağışlanma dilemek istedi. İlgili ayet buna izin vermedi."
@@ -1560,7 +1583,7 @@
       ],
       "kompozisyon": "Atalara, soya, kabile bağlarına meydan okuyan, bunun bedelini en yakınlarının hâlinden ödeyen biri… 'kabile çıkarı' bunu açıklar mı?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.yuk",
@@ -1611,7 +1634,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, insanları çekmek varken neden en çok tepki çeken yükleri getirir?",
+        "metin": "Diyelim ki, hâşâ, insanları çekmek istedi. En çok tepki çeken yükleri getiren biri bunu neden yapar?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1701,7 +1724,7 @@
       ],
       "kompozisyon": "İçkiyi yasaklayan, namazı farz kılan, sakif heyetini reddeden biri… 'insanları kendine çekmek için' demek nasıl bir açıklama?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.gece",
@@ -1732,7 +1755,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kimse görmezken bile her gece saatlerce ayakta durup bir yalana mı secde eder?",
+        "metin": "Diyelim ki, hâşâ, bunun bir yalan olduğunu biliyordu. Kimse görmezken saatlerce ayakta durması neye hizmet ediyor?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1817,7 +1840,7 @@
       ],
       "kompozisyon": "Gece namazını yalnız kendine farz kılan, yıllarca kimsenin görmediği yerde sürdüren biri… yalan bilen birinin davranışı mı bu?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.deger",
@@ -1848,7 +1871,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian siyasi bir önderdi. Ama gücü eline geçince amcasının katilini affeden biri, hangi hesapla bunu yapar?",
+        "metin": "Diyelim ki, hâşâ, siyasi bir hesap yapıyordu. Gücü eline geçince amcasının katilini affeden biri hangi hesabı yapıyor?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -1929,7 +1952,7 @@
       ],
       "kompozisyon": "Gücü eline geçtiğinde en yakınına yapılanı affeden, cömertliği israftan ayıran biri… toplumun alkışını mı arıyordu?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.etkilenme",
@@ -1957,7 +1980,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama ahireti uydurmuş biri, ölüm döşeğinde hesabı neden bu kadar ciddiye alır?",
+        "metin": "Diyelim ki, hâşâ, ahireti uydurmuştu. Ölüm döşeğinde hesabı bu kadar ciddiye alması neye hizmet eder?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -2027,7 +2050,7 @@
       ],
       "kompozisyon": "Ölüm döşeğinde hakkı olanı çağıran, bulutta bile hesabı düşünen biri… bu, rol yapan birinin hâli mi?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.vahiy",
@@ -2085,7 +2108,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi 'büyük günü'nü neden korku ve şüpheyle anlatır?",
+        "metin": "Diyelim ki, hâşâ, her şeyi planlamıştı. Planlı bir yalancı kendi 'büyük günü'nü neden korku ve şüpheyle anlatır?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -2197,7 +2220,7 @@
       ],
       "kompozisyon": "Korkuyla eve koşan, 'beni örtün' diyen, ilk ayetlerinde bir iddia bile taşımayan biri… 'planlı yalan' bunu nasıl açıklar?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.ikinci",
@@ -2250,7 +2273,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama bir sahtekâr, kendi yazdığı metinde kendisini hem uyaran hem teselli eden ayrı bir ses neden kurar?",
+        "metin": "Diyelim ki, hâşâ, bu metni kendisi yazdı. Kendisini hem uyaran hem teselli eden ayrı bir ses neden kurar?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -2346,7 +2369,7 @@
       ],
       "kompozisyon": "Kendi sesinden ayrı bir sese, teselliye ve emre sahip bir metin… kendi kendine yazan biri bunu neden yapar?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kiyamet",
@@ -2385,7 +2408,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian bir sahtekârdı. Ama masa başında yazılmış bir metnin ortasına, yazan kişi kendini düzelten bir kesinti neden koyar?",
+        "metin": "Diyelim ki, hâşâ, bu metni masa başında yazdı. Yazanın kendisini düzelten bir kesinti koyması neye yarar?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -2452,7 +2475,7 @@
       ],
       "kompozisyon": "Heyecanlı bir anlatının ortasında kendini susturan bir ses… bunu bile bile yazan biri neden böyle yapar?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kapanis",
@@ -2483,7 +2506,7 @@
         }
       ],
       "soru": {
-        "metin": "Senin iddian iyi niyetli bir yalandı. Ama halk için uydurulan bir yalan, neden yalancıyı bu kadar zora sokan şeylerle dolu?",
+        "metin": "Diyelim ki, hâşâ, halk için bir yalan uydurdu. O hâlde bu yalan, yalancıyı neden bu kadar zora sokan şeylerle dolu?",
         "cipler": [
           "Haklısın, açıklaması zor",
           "Yine de ikna olmadım"
@@ -2593,7 +2616,7 @@
       ],
       "kompozisyon": "İyi niyetli bile olsa, bir yalanın bu kadar kendi aleyhine işlediği bir hayat… sence hangi ölçüyle 'yalan' sayılır?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.yuk",
@@ -2630,7 +2653,7 @@
           "diyagram": {
             "tur": "alinti",
             "veri": {
-              "metin": "Kötü bir yalancı, milyonlarca insanın benimseyeceği bir dünya dinini kuramaz.",
+              "metin": "Dozy'ye göre, kötü bir yalancı milyonlarca insanın benimseyeceği bir dünya dinini kuramaz.",
               "kim": "Reinhart Dozy",
               "kaynak": {
                 "yazar": "Reinhart P. A. Dozy",
@@ -2649,7 +2672,7 @@
           "diyagram": {
             "tur": "alinti",
             "veri": {
-              "metin": "Samimi bir Muhammed'i açıklamak, sahtekâr bir Muhammed'i açıklamaktan çok daha kolaydır.",
+              "metin": "Rodinson'a göre, samimi bir Muhammed'i açıklamak, sahtekâr bir Muhammed'i açıklamaktan çok daha kolaydır.",
               "kim": "Maxime Rodinson",
               "kaynak": {
                 "yazar": "Maxime Rodinson",
@@ -2683,12 +2706,19 @@
             "artık demiyorum",
             "demiyorum",
             "ikna oldum",
-            "haklısın",
             "kabul ediyorum",
-            "mantıklı",
-            "açıklaması zor"
+            "vazgeçtim"
           ],
           "git": "haber.kalan"
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet",
+            "hâlâ",
+            "devam ediyorum",
+            "yine de"
+          ]
         }
       ],
       "ekOrnekler": [
@@ -2714,7 +2744,7 @@
               "diyagram": {
                 "tur": "alinti",
                 "veri": {
-                  "metin": "Hilekâr ya da yaşlı bir şehvet düşkününün işi değil.",
+                  "metin": "Watt'a göre bu, hilekâr ya da yaşlı bir şehvet düşkününün işi değildir.",
                   "kim": "W. Montgomery Watt",
                   "kaynak": {
                     "yazar": "W. Montgomery Watt",
@@ -2745,12 +2775,12 @@
       ],
       "kompozisyon": "Kendi cümlelerinle söyle: zırhı rehinde ölen, teklifleri reddeden, kendini azarlayan ayetleri okutan biri bilerek yalan söylüyor olabilir mi?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "kapat": "samimiyet",
       "sonraki": "haber.kalan",
-      "dayanak": "S15 (kitap s. 260-264): Dozy ('kötü bir yalancı...'), Watt ('hilekâr ya da yaşlı şehvet düşkününün işi değil'; Carlyle sahtekârlık suçlamasını reddetti), Lewis ('modern tarihçi menfaatçi sahtekâr tarafından başlatıldığına inanamaz'), Caetani, Wellhausen, Rodinson ('samimi bir Muhammed'i açıklamak sahtekâr bir Muhammed'i açıklamaktan çok daha kolay' - kitaptan paraphrase), Dermenghem. Alıntılar kitabın Türkçe aktarımına dayanır; ekranda aynen verilmeden önce kaynak metinle doğrulanmalı. S1: bu delil tek başına nübüvveti ispatlamaz."
+      "dayanak": "S15 (kitap s. 260-264): Dozy ('kötü bir yalancı...'), Watt ('hilekâr ya da yaşlı şehvet düşkününün işi değil'; Carlyle sahtekârlık suçlamasını reddetti), Lewis ('modern tarihçi menfaatçi sahtekâr tarafından başlatıldığına inanamaz'), Caetani, Wellhausen, Rodinson ('samimi bir Muhammed'i açıklamak sahtekâr bir Muhammed'i açıklamaktan çok daha kolay' - kitaptan paraphrase), Dermenghem. Alıntılar kitabın Türkçe aktarımına dayanır; ekranda aynen verilmeden önce kaynak metinle doğrulanmalı. S1: bu delil tek başına nübüvveti ispatlamaz. [U22] Alıntılar dolaylı anlatıma çevrildi (tırnak yok); tam metin doğrulanınca tırnak geri gelir."
     }
   ]
 }

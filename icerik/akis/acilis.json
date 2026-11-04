@@ -74,11 +74,11 @@
       },
       "satirlar": [
         {
-          "metin": "Seni ikna etmeye çalışmayacağım.",
+          "metin": "Sana bazı şeyler göstermek istiyorum; karar senin.",
           "vurgu": true
         },
         {
-          "metin": "Birlikte bakalım. Karar senin."
+          "metin": "Birlikte bakalım."
         },
         {
           "metin": "Sana hiçbir şeyi dayatmam."
@@ -127,7 +127,7 @@
           "metin": "Bir şeyi baştan söyleyeyim: kimlerin sözüne kulak vereceğiz?"
         },
         {
-          "metin": "Çoğunlukla Müslüman olmayan, Batılı akademisyenlerin: oryantalistlerin ve tarihçilerin."
+          "metin": "Çoğunlukla Müslüman olmayan Batılı tarihçilerin ve akademisyenlerin sözüne kulak vereceğiz."
         },
         {
           "metin": "Neden? Çünkü tarafsız bir zemin istiyorum. Kendi kaynağıyla kendini ispat eden bir döngü olmasın."
@@ -207,6 +207,22 @@
         {
           "tur": "profil",
           "anahtar": [
+            "deist",
+            "deistim",
+            "deizm",
+            "deist biriyim"
+          ],
+          "profil": {
+            "tanri": "evet",
+            "deizm": "evet"
+          },
+          "yanit": [
+            "Bir Yaratıcı'ya inanıp bir dine bağlı olmamak: saygıyla duruyorum."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
             "evet",
             "inanıyorum",
             "inanırım",
@@ -215,9 +231,7 @@
             "yaratıcıya inanıyorum",
             "tanrıya inanıyorum",
             "inançlıyım",
-            "dindarım",
-            "deistim",
-            "deist"
+            "dindarım"
           ],
           "profil": {
             "tanri": "evet"
@@ -268,7 +282,7 @@
           },
           "yanit": [
             "Dürüst bir yer burası. Çok insan orada duruyor.",
-            "Zaten kimseyi bir şeye inandırmaya çalışmıyoruz."
+            "Sana bazı şeyler göstereceğim; tartmak senin."
           ]
         }
       ],
@@ -302,6 +316,22 @@
         {
           "tur": "profil",
           "anahtar": [
+            "deist",
+            "deistim",
+            "deizm",
+            "deist biriyim"
+          ],
+          "profil": {
+            "din": "yok",
+            "deizm": "evet"
+          },
+          "yanit": [
+            "Bir Yaratıcı'ya inanıp bir dine bağlı olmamak: saygıyla duruyorum."
+          ]
+        },
+        {
+          "tur": "profil",
+          "anahtar": [
             "hiçbiri",
             "hiçbir",
             "dinsizim",
@@ -310,7 +340,6 @@
             "ateist",
             "ateistim",
             "inançsız",
-            "deist",
             "laik",
             "seküler"
           ],
@@ -871,7 +900,6 @@
             "bilmiyorum",
             "bilmem",
             "hiçbiri",
-            "hepsi",
             "kafam karışık",
             "emin değilim",
             "genel",
@@ -922,6 +950,12 @@
             ]
           },
           "git": "acilis.zeminKopru"
+        },
+        {
+          "kosul": {
+            "profil.deizm": "evet"
+          },
+          "git": "haber.vahiy-gerek"
         }
       ],
       "sahne": {

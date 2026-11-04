@@ -89,3 +89,9 @@
 | Tevbe 9/5 ve 9/29 klasik tefsirlerde yorumu (Taberî, Râzî); Bakara 2/256 nüzul sebebi | `fetanet.savas` | ağ; kitapta bu ayetler yok | Tefsir kaynaklarından özet |
 | Zeyd–Zeyneb (Ahzâb 33/37), Ahzâb 33/50–52, Tahrîm 66/1–5: Buhârî Tefsir bölümleri; Aişe'nin "Rabbinin arzularına çabuk yetiştiğini görüyorum" rivayeti (Buhârî, Tefsir Ahzâb); Ömer'e muvafakat ayetleri (Buhârî) | `samimiyet.isine-gelen` (YNI-5) | ağ | Hadis numarası ve metin |
 | Bell, *Introduction to the Qur'ân* (Edinburgh, 1953; Watt revizyonu 1970); Nöldeke–Schwally, *Geschichte des Qorāns* (1909–38); Neuwirth, *Der Koran als Text der Spätantike* (2010); Rippin, "The Function of Asbāb al-Nuzūl…" (*BSOAS* 51, 1988); Donner, *Narratives of Islamic Origins* (1998) | `samimiyet.isine-gelen` | ağ | Künye ve tez doğrulaması; kullanılmayacak olan çıkarılsın |
+| Raymond E. Brown, *An Introduction to the New Testament* (Doubleday, 1997): İncil tarihleme aralığı ve sayfa | `zemin.kiyasYazma` EK0 | ağ | Künye ve sayfa |
+| David Hume, *An Enquiry Concerning Human Understanding*, X. Bölüm: baskı/sayfa | `mucize.hume` | ağ | Baskı ve çeviri künyesi |
+| Gabriel S. Reynolds, *The Qur'an and Its Biblical Subtext* (Routledge, 2010): Meryem-hurma bölümü sayfası; Pseudo-Matta 20 | `mucize.kissa-giris` EK0, `mucize.kissa-sonuc` apokrif yolu | ağ | Sayfa; Pseudo-Matta ve Kur'an 19/23-26 ayrıntısı |
+| Sadeghi & Goudarzi, "Ṣanʿāʾ 1 and the Origins of the Qurʾān", *Der Islam* 87 (2012): alt yazı farklarının doğru özeti | `zemin.karbon` palimpsest yanıtı | ağ | Makaleden teyit |
+| Tübingen mushafı radyokarbon (%95,4: 649-675): Tübingen Üniv. Kütüphanesi duyurusu | `zemin.cografya` EK0 | ağ | Birincil kayıt |
+| Jeanne d'Arc, Swedenborg, Joseph Smith: tarih ve "sağlık/içtenlik" tartışması için akademik kaynak | `fetanet.vizyoner` | ağ | Biyografi/ansiklopedi künyesi |

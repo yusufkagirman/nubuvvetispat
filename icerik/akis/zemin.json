@@ -205,7 +205,7 @@
           "metin": "Birincisi, hız: Peygamber hayattayken kâtipler ayetleri yazıyordu."
         },
         {
-          "metin": "Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı."
+          "metin": "Geleneksel anlatıya göre, vefatından yaklaşık bir yıl sonra yazılanlar tek bir nüshada toplandı."
         },
         {
           "metin": "Yirmi yıl dolmadan, çoğaltılan kopyalar şehirlere gitti."
@@ -247,6 +247,9 @@
           }
         },
         {
+          "metin": "Karbon yazının en erken tarihini verir: yazı, deriden sonra gelir."
+        },
+        {
           "metin": "",
           "diyagram": {
             "tur": "zaman",
@@ -273,7 +276,7 @@
           }
         },
         {
-          "metin": "Küçük imla farkları dışında, hepsi aynı metni taşıyor.",
+          "metin": "Elimizdeki erken yazmaların çoğu, küçük imla farkları dışında aynı metni taşıyor.",
           "vurgu": true
         }
       ],
@@ -407,7 +410,7 @@
           "metin": "Bu metin farklı. Peygamber hayattayken kâtipler ayetleri yazıyordu."
         },
         {
-          "metin": "Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı."
+          "metin": "Geleneksel anlatıya göre, vefatından yaklaşık bir yıl sonra yazılanlar tek bir nüshada toplandı."
         },
         {
           "metin": "Yirmi yıl dolmadan, bu nüshadan çoğaltılan kopyalar şehirlere gitti."
@@ -534,7 +537,7 @@
       ],
       "kompozisyon": "Peki sen, bu kadar erken yazıya geçmiş bir metnin sonradan değiştiğini hangi tarihî olguyla açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.siffin",
@@ -681,7 +684,7 @@
       ],
       "kompozisyon": "Peki sen bu sahneyi, 'Kur'an gizlice değiştirildi' diyerek tutarlı biçimde nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.tahrif",
@@ -722,7 +725,7 @@
           "metin": "Emevileri yıkan Abbasiler, rakiplerinin her kusurunu duyurdu. Kerbela'yı bile."
         },
         {
-          "metin": "Ama metnin değiştirilmesi üzerine tek bir ihtilaf kaydı bilinmiyor."
+          "metin": "Ama metnin sistemli biçimde değiştirildiğini iddia eden tek bir ihtilaf kaydı bilinmiyor."
         },
         {
           "metin": "Yaklaşık 750'den sonra, hiçbir devlet tek başına her yere hâkim olamadı.",
@@ -762,6 +765,27 @@
             "Ama bütün rakipleri, bütün coğrafyayı, bütün yüzyılları?",
             "Hristiyan tarihinde bile, güçlü bir merkez dışladığı metinlerin izini silemedi. Bugün hepsini tanıyoruz."
           ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "haccac",
+            "haccâc",
+            "ibn mesud",
+            "mesud",
+            "übey",
+            "şii",
+            "şia",
+            "farklı mushaf",
+            "tahrif rivayeti"
+          ],
+          "yanit": [
+            "Doğru: Müslüman kaynaklar kendi içlerindeki ayrıntıları bile kaydeder. Haccâc'ın birkaç kelimeyi düzelttiği, İbn Mesud'un mushafında farklılıklar olduğu anlatılır.",
+            "Ama bunlar tek tek kelimelerle sınırlı ve hemen kaydedilmiş farklar.",
+            "Saklanmış, sistemli bir değişiklik bunun tersine görünür."
+          ],
+          "ek": true,
+          "dogrulanacak": true
         },
         {
           "tur": "yonlendir",
@@ -829,11 +853,11 @@
       ],
       "kompozisyon": "Peki sen, bunca rakibe, bunca coğrafyaya rağmen sistemli bir değişikliği nasıl mümkün görüyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.hafizlar",
-      "dayanak": "Z7, s. 28-33: Hristiyanlık örneği (s. 28-29); iktidar el değiştirme, 750 sonrası çok devletlilik (s. 29-30); Emevi hataları gizlenemedi (s. 30, 33); Hâriciler (s. 30); Kadı Abdülcabbar (Mutezile; s. 30-33; yaşadığı tarih için doğrulanacaklar'a bak, ekranda tarih verilmedi); Semerkant-Tunus-İspanya (s. 29-30)."
+      "dayanak": "Z7, s. 28-33: Hristiyanlık örneği (s. 28-29); iktidar el değiştirme, 750 sonrası çok devletlilik (s. 29-30); Emevi hataları gizlenemedi (s. 30, 33); Hâriciler (s. 30); Kadı Abdülcabbar (Mutezile; s. 30-33; yaşadığı tarih için doğrulanacaklar'a bak, ekranda tarih verilmedi); Semerkant-Tunus-İspanya (s. 29-30). [U8] Haccâc: Ebû Dâvûd, Kitâbu'l-Huruf; İbn Mesud/Übey mushafları (ek, doğrulanacak)."
     },
     {
       "id": "zemin.hafizlar",
@@ -969,7 +993,7 @@
       ],
       "kompozisyon": "Peki sen, bu iki kanalın hep aynı metni taşımasını, değişiklik varsayımıyla nasıl uzlaştırıyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.yazmalar",
@@ -1113,7 +1137,7 @@
       ],
       "kompozisyon": "Peki sen bu yaprakları, 'Kur'an sonradan değişti' diyerek nasıl açıklıyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.cografya",
@@ -1139,7 +1163,7 @@
             "tur": "karsilastirma",
             "veri": {
               "sol": {
-                "baslik": "Gönderilen merkezler",
+                "baslik": "Gönderilen merkezler (rivayet)",
                 "maddeler": [
                   "Medine",
                   "Basra",
@@ -1148,7 +1172,7 @@
                 ]
               },
               "sag": {
-                "baslik": "Bugün elimizdeki yazmalar",
+                "baslik": "Farklı merkezlerde yazıldığı düşünülen yazmalar (eşleştirme tartışmalı)",
                 "maddeler": [
                   "Topkapı, San'a",
                   "İstanbul (TİEM), St. Petersburg",
@@ -1160,7 +1184,7 @@
           }
         },
         {
-          "metin": "Yazmalar bu dört yöne oturuyor."
+          "metin": "Yazmaların bir kısmı bu dört yöne bağlanır; eşleştirme tartışmalıdır."
         },
         {
           "metin": "Farklı kâtipler. Farklı boyutlar. Farklı satır düzenleri."
@@ -1169,7 +1193,7 @@
           "metin": "Metin yine aynı."
         },
         {
-          "metin": "Gizli bir değişiklik, bu dört yönün hiçbirinde iz bırakmamış.",
+          "metin": "Gizli bir değişiklik, bu yazmaların hiçbirinde iz bırakmamış.",
           "vurgu": true
         }
       ],
@@ -1202,7 +1226,7 @@
           "yanit": [
             "Doğru: hepsi aynı merkezden çoğaltıldı. Anlatılan hikâye de zaten bu.",
             "Asıl soru, o merkezdeki metnin ne olduğu: Peygamber'in metni mi, değil mi?",
-            "Bazı yaprakların karbon aralığı, çoğaltmadan da önceyi, Peygamber'in hayatını içine alıyor. Şimdi ona bakacağız."
+            "Birmingham yaprağının karbon aralığı (568–645) Peygamber'in hayatını içine alıyor. Şimdi ona bakacağız."
           ]
         },
         {
@@ -1220,19 +1244,10 @@
         {
           "satirlar": [
             {
-              "metin": "Paris'teki BnF yazması ve Tübingen'deki yazma, Şam nüshasıyla uyumlu.",
-              "kaynak": {
-                "yazar": "François Deroche",
-                "eser": "La transmission écrite du Coran dans les débuts de l'islam: le codex Parisino-petropolitanus",
-                "yer": "",
-                "yil": "2009",
-                "sayfa": "",
-                "not": "Fransız Kur'an yazmaları uzmanı; Paris yazması için 649–675 tarihlemesi",
-                "dogrulanacak": true
-              }
+              "metin": "Tübingen Üniversitesi'ndeki yazmayı düşün."
             },
             {
-              "metin": "İkisinin karbon aralığı da 649 ile 675 arasına düşüyor.",
+              "metin": "Karbon sonucu: yüzde 95,4 ihtimalle 649 ile 675.",
               "kaynak": {
                 "yazar": "Tübingen Üniversitesi Kütüphanesi",
                 "eser": "Tübingen mushafının radyokarbon tarihlemesi",
@@ -1244,42 +1259,19 @@
               }
             },
             {
-              "metin": "Bu, Peygamber'in vefatından yaklaşık kırk yıl içinde."
+              "metin": "Bu, Peygamber'in vefatından yaklaşık kırk yıl sonrası: ilk kuşak."
             }
           ],
-          "soru": "Peygamber'den en fazla kırk yıl sonrasına ait yapraklarda sistemli bir değişiklik izi yoksa, değişiklik nerede başladı?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Yemen'de bir yazmanın karbon aralığı yayımlandı."
-            },
-            {
-              "metin": "Sadeghi ve Bergmann: yüzde 68 ihtimalle 614 ile 656.",
-              "kaynak": {
-                "yazar": "Behnam Sadeghi ve Uwe Bergmann",
-                "eser": "The Codex of a Companion of the Prophet and the Qur'an of the Prophet (Arabica)",
-                "yer": "",
-                "yil": "2010",
-                "sayfa": "",
-                "not": "Akademisyenler (Harvard ve Bochum); Sana 1 radyokarbon çalışması",
-                "dogrulanacak": true
-              }
-            },
-            {
-              "metin": "Yüzde 95 ihtimalle 578 ile 669."
-            }
-          ],
-          "soru": "Peygamber'in zamanına bu kadar yakın bir yaprak bugünkü metni taşıyorsa, değişiklik için ne kadar zaman kalıyor?"
+          "soru": "Peygamber'den yaklaşık kırk yıl sonrasına ait bir yazmada sistemli değişiklik izi yoksa, değişiklik nerede başladı?"
         }
       ],
       "kompozisyon": "Peki sen bu coğrafi dağılımı, tek bir değişiklik varsayımıyla nasıl açıklıyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.karbon",
-      "dayanak": "Z11, s. 82: Osman nüshası eşleşmesi (Medine: Topkapı, San'a, MEFİ; Basra: TİEM, St. Petersburg; Şam: Londra, Paris, Tübingen; Kûfe: Taşkent, Kahire); Paris Deroche 649-675 (s. 59); Tübingen %95,4: 649-675 (s. 64); Codex San'a 1 Sadeghi & Bergmann 2010: %68 614-656, %95 578-669 (s. 51). Tekrar-sayım uyarısı: docs/dogrulanacaklar.md A."
+      "dayanak": "Z11, s. 82: Osman nüshası eşleşmesi (Medine: Topkapı, San'a, MEFİ; Basra: TİEM, St. Petersburg; Şam: Londra, Paris, Tübingen; Kûfe: Taşkent, Kahire); Paris Deroche 649-675 (s. 59); Tübingen %95,4: 649-675 (s. 64); Codex San'a 1 Sadeghi & Bergmann 2010: %68 614-656, %95 578-669 (s. 51). Tekrar-sayım uyarısı: docs/dogrulanacaklar.md A. [DÜZELTME U4] San'a (Sadeghi/Bergmann) EK'i silindi: aralık palimpsest derisine ait, alt metin standart dışı. Paris aralığı kaldırıldı (ayrı kaynak gerekir)."
     },
     {
       "id": "zemin.karbon",
@@ -1390,10 +1382,10 @@
             "silinip"
           ],
           "yanit": [
-            "İyi bir örnek: silinip üstüne yeniden yazılan sayfalar var.",
-            "Sadeghi ve Goudarzi (2012): San'a'daki bir yaprakta, silinmiş alt yazıda bazı küçük kelime ve sıra farkları var.",
-            "Ama bu tek bir yazma. Tek yazma, sistemli bir değişikliği göstermez.",
-            "Hatta o nüshanın silinip üstüne yeniden yazılması, ortak metne dönüldüğünü düşündürür."
+            "İyi bir örnek: San'a'daki bir yazmada alt yazı silinmiş, üstüne yeniden yazılmış.",
+            "Üst yazı bugünkü metindir. Silinmiş alt yazıda ise kelime ve sure sıralaması farkları var.",
+            "Sadeghi ve Goudarzi (2012), alt yazıyı standart metinden farklı, ayrı bir yazma olarak okur.",
+            "Bunu saklamıyoruz: bu bir farktır. Ama tek yazmadır; sistemli bir değişiklik için tek yazma yetmez."
           ],
           "ek": true,
           "dogrulanacak": true
@@ -1441,7 +1433,7 @@
       ],
       "kompozisyon": "Peki sen, bu aralıkları ve yazma verilerini birlikte nasıl okuyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.corpus",
@@ -1501,7 +1493,7 @@
           "metin": "Reşad Halife, bu iki ayetin sonradan eklendiğini ileri sürdü."
         },
         {
-          "metin": "Ayet, karbon aralığı 606 ile 649 olan bir yazmada bile yerinde duruyor.",
+          "metin": "Ayet, ilk yüzyıla ait en eski yazmalarında da yerinde duruyor.",
           "kaynak": {
             "yazar": "Corpus Coranicum",
             "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
@@ -1513,12 +1505,12 @@
           }
         },
         {
-          "metin": "Peygamber'in zamanına çok yakın bir yazmada.",
+          "metin": "Yani 'sonradan eklendi' diyen için erken bir tanık yok.",
           "vurgu": true
         }
       ],
       "soru": {
-        "metin": "İddia: son iki ayet sonradan eklendi. Veri: ayet, Peygamber'in zamanına çok yakın bir yazmada zaten var. 'Sonradan eklendi' mantıken nasıl savunulur?",
+        "metin": "İddia: son iki ayet sonradan eklendi. Veri: ayet, ilk yüzyılın yazmalarında zaten var. 'Sonradan eklendi' mantıken nasıl savunulur?",
         "cipler": [
           "Savunulamaz",
           "Kendim bakmak isterim",
@@ -1577,7 +1569,7 @@
               }
             },
             {
-              "metin": "En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada.",
+              "metin": "En erken yazma dizisi, karbon aralığı 649 ile 675 olan yazmalarla başlıyor.",
               "kaynak": {
                 "yazar": "Corpus Coranicum",
                 "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
@@ -1589,19 +1581,19 @@
               }
             },
             {
-              "metin": "Yani Peygamber'den yaklaşık kırk yıl sonrasına inmiyor bile."
+              "metin": "Yani ilk yüzyılın içinde: Peygamber'den sonraki ilk kuşakta."
             }
           ],
-          "soru": "Bir ayet için bile Peygamber'in zamanına bu kadar yakın bir yazma varsa, 'sonradan eklendi' iddiası ne zaman, nasıl yapılmış olabilir?"
+          "soru": "Bir ayet için bile ilk yüzyılın yazmaları varsa, 'sonradan eklendi' iddiası ne zaman, nasıl yapılmış olabilir?"
         }
       ],
       "kompozisyon": "Peki sen, ayetlerin sonradan eklendiği iddiasını bu veriyle nasıl uzlaştırıyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.kiyas",
-      "dayanak": "Z12, s. 83-86: Corpus Coranicum; Tevbe 9:128-129 (Reşad Halife iddiası); en erken yazma 606-649 (Dam 01-27.1; yazarın kaba yıl-üzeri dağılımı ekranda kullanılmadı); Rum 30:5 için 649-675'ten başlayan dizi (s. 86). 'Yaklaşık kırk yıl sonrasına inmiyor' ifadesi 675-632=43 hesabıdır (ekranda 'yaklaşık'). [AYET Rûm 5] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Tevbe 128-129]"
+      "dayanak": "Z12, s. 83-86: Corpus Coranicum; Tevbe 9:128-129 (Reşad Halife iddiası); en erken yazma 606-649 (Dam 01-27.1; yazarın kaba yıl-üzeri dağılımı ekranda kullanılmadı); Rum 30:5 için 649-675'ten başlayan dizi (s. 86). 'Yaklaşık kırk yıl sonrasına inmiyor' ifadesi 675-632=43 hesabıdır (ekranda 'yaklaşık'). [AYET Rûm 5] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Tevbe 128-129] [DÜZELTME U5] '606–649' aralığı ekrandan çıkarıldı (dogrulanacak); karbon yazının en erken sınırını verir."
     },
     {
       "id": "zemin.kiyas",
@@ -1657,7 +1649,7 @@
           }
         },
         {
-          "metin": "Hiçbirinde aradaki süre dört yüz yılın altına inmiyor."
+          "metin": "Hiçbirinde aradaki süre yaklaşık dört yüz yılın altına inmiyor."
         },
         {
           "metin": "Buna rağmen bu eserlere 'tarih' deriz.",
@@ -1696,9 +1688,9 @@
               "sag": {
                 "baslik": "Kur'an",
                 "maddeler": [
-                  "Kırk dört erken yazma",
-                  "Ardından milyonlarca el yazması nüsha",
-                  "Aralarında yalnızca imla farkları"
+                  "Erken dönem (ilk iki yüzyıl) yazma: kırk dolayında",
+                  "Yazıya geçiş: Peygamber'in hayatında",
+                  "Ezber zinciri: kesintisiz"
                 ]
               },
               "kaynak": {
@@ -1707,7 +1699,7 @@
                 "yer": "",
                 "yil": "",
                 "sayfa": "",
-                "not": "Antik yazma sayıları; Yeni Ahit sayısı için ayrıca Bruce M. Metzger, The Text of the New Testament. Kur'an sütunu: Hamidullah ve mushaf envanteri",
+                "not": "Antik yazma sayıları; Yeni Ahit sayısı için ayrıca Bruce M. Metzger, The Text of the New Testament. Kur'an sütunu: mushaf envanteri (erken yazma sayısı doğrulanıyor)",
                 "dogrulanacak": true
               }
             }
@@ -1738,16 +1730,10 @@
           }
         },
         {
-          "metin": "Mushaf uzmanı Tayyar Altıkulaç: yeryüzünde Kur'an kadar yazması olan başka kitap yok.",
-          "kaynak": {
-            "yazar": "Tayyar Altıkulaç",
-            "eser": "Mesâhif-i Kadîme (IRCICA)",
-            "yer": "İstanbul",
-            "yil": "2015",
-            "sayfa": "",
-            "not": "Türk akademisyen, mushaf neşri uzmanı",
-            "dogrulanacak": true
-          }
+          "metin": "Yazma sayısında Yeni Ahit açık ara önde."
+        },
+        {
+          "metin": "Kur'an'ın farkı sayı değil, hız; ezber zinciri de bugüne kesintisiz."
         },
         {
           "metin": "Aynı ölçüyü herkese uygulamak, tutarlılıktır.",
@@ -1801,15 +1787,15 @@
         {
           "satirlar": [
             {
-              "metin": "Yeni Ahit için de böyle: araştırmacı Zafer Duygu'nun tablosunda İnciller yaklaşık 68 ile 110 arasına yerleşir.",
+              "metin": "Yeni Ahit araştırmacılarının yaygın tarihlemesinde İnciller yaklaşık 70 ile 110 arasına yerleşir.",
               "kaynak": {
-                "yazar": "Zafer Duygu",
-                "eser": "İsa, Paulus, İnciller: Hristiyanlık Neden ve Nasıl Ortaya Çıktı?",
-                "yer": "İstanbul",
-                "yil": "2018",
-                "sayfa": "620",
-                "not": "Türk araştırmacı, erken Hristiyanlık ve Süryani tarih yazıcılığı",
-                "dogrulanacak": false
+                "yazar": "Raymond E. Brown",
+                "eser": "An Introduction to the New Testament",
+                "yer": "New York",
+                "yil": "1997",
+                "sayfa": "",
+                "not": "Amerikalı Katolik Yeni Ahit bilgini; İncil tarihlemeleri için yaygın akademik başvuru",
+                "dogrulanacak": true
               }
             },
             {
@@ -1824,25 +1810,25 @@
         {
           "satirlar": [
             {
-              "metin": "Şunu dene. Kur'an için üç ölçüt yaz:"
+              "metin": "Şunu dene. Kur'an için iki ölçüt yaz:"
             },
             {
-              "metin": "Yazıya geçiş hızı. Yazma sayısı. Ezberleyenlerin sayısı."
+              "metin": "Yazıya geçiş hızı. Ezber zincirinin kesintisizliği."
             },
             {
-              "metin": "Bunların onda birine ulaşan başka bir metin bul."
+              "metin": "Bu iki ölçüde Kur'an'a yaklaşan başka bir metin bul."
             }
           ],
-          "soru": "Hangi metin bu üç ölçüde Kur'an'ın onda birine bile ulaşıyor?"
+          "soru": "Hangi metin bu iki ölçüde Kur'an'ın yanına yaklaşıyor?"
         }
       ],
       "kompozisyon": "Peki sen hangi ölçütle, Kur'an'a şüpheyle bakıp öbür metinlere güveniyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.hadis",
-      "dayanak": "Z13/Z5, s. 22, 82-83, 86-89. YENİ (v2.1, kitap dışı ek, bkz. docs/onay/acilis-zemin.md): yazma sayıları (Herodot 8, Eflatun 7, Sezar 10: Bruce/McDowell geleneği; Tacitus Annals 1-6 tek yazma; İlyada 1000+ yazma/papirüs; Yeni Ahit 5000+ Yunanca yazma, en eski parça 2. yy: Metzger), Theophanes (yaklaşık 810-814'te yazdı; olaylar 622-628) - hepsi dogrulanacak:true. Kitaptan: Altıkulaç 'Yeryüzünde Kur'an-ı Kerim kadar yazma nüshası bulunan başka bir kitap yoktur' (s. 82-83); Duygu İncil tablosu (s. 87-88, dn. 173 s. 620): Markos ≈68-71, Matta/Luka 80-100, Yuhanna 90-110. 'Kırk dört erken yazma' kitabın özeti; 45/44 tutarsızlığı docs/dogrulanacaklar.md A. 'Milyonlarca el yazması' Hamidullah (s. 80-81).",
+      "dayanak": "Z13/Z5, s. 22, 82-83, 86-89. YENİ (v2.1, kitap dışı ek, bkz. docs/onay/acilis-zemin.md): yazma sayıları (Herodot 8, Eflatun 7, Sezar 10: Bruce/McDowell geleneği; Tacitus Annals 1-6 tek yazma; İlyada 1000+ yazma/papirüs; Yeni Ahit 5000+ Yunanca yazma, en eski parça 2. yy: Metzger), Theophanes (yaklaşık 810-814'te yazdı; olaylar 622-628) - hepsi dogrulanacak:true. Kitaptan: Altıkulaç 'Yeryüzünde Kur'an-ı Kerim kadar yazma nüshası bulunan başka bir kitap yoktur' (s. 82-83); Duygu İncil tablosu (s. 87-88, dn. 173 s. 620): Markos ≈68-71, Matta/Luka 80-100, Yuhanna 90-110. 'Kırk dört erken yazma' kitabın özeti; 45/44 tutarsızlığı docs/dogrulanacaklar.md A. 'Milyonlarca el yazması' Hamidullah (s. 80-81). [DÜZELTME U3] Altıkulaç satırı ve 'milyonlarca el yazması' ifadesi kaldırıldı (Yeni Ahit yazma sayısıyla çelişiyordu); Duygu yerine Brown (doğrulanacak, docs/onay/acilis-zemin.md).",
       "ek": true
     },
     {
@@ -1902,7 +1888,7 @@
         }
       ],
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.ikincil",
@@ -1966,7 +1952,7 @@
           "yanit": [
             "Propaganda doğrudan söyler: 'Biz haklıyız, işte kanıt.'",
             "Burada ise bir toplulukla konuşuluyor ve ortak bir sahne varsayılıyor.",
-            "Peloponnesos Savaşı'nı biz bir Atinalının kaleminden okuyoruz. Yine de tarih yazılıyor."
+            "Taraflı yazarlar da tarih yazar; biz onları eleştirel okuruz. Burada da öyle okuyoruz: ispat için yazılmış bir cümle değil."
           ]
         },
         {
@@ -2034,7 +2020,7 @@
       ],
       "kompozisyon": "Peki sen, ispat amacı taşımayan bu cümleleri nasıl yorumluyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.sahabe",
@@ -2063,15 +2049,15 @@
           "metin": "Sorgulayan insanlardı: Hudeybiye'de Ömer bile 'bu neden?' diye sordu."
         },
         {
-          "metin": "Bir yalan ya da hata görselerdi, susmazlardı."
+          "metin": "Metne bir şey eklenip çıkarılsaydı, susmazlardı."
         },
         {
-          "metin": "Metinde tarihî bir yanlış olsaydı, önce onlar itiraz ederdi.",
+          "metin": "Metin sonradan değiştirilseydi, önce onlar itiraz ederdi.",
           "vurgu": true
         }
       ],
       "soru": {
-        "metin": "İddia: metindeki bilgiler uydurulmuş olabilir. Veri: bunu ilk duyanlar, her şeyi feda eden, sorgulamayı bilen insanlardı ve bir itiraz kaydı yok. Bu mantıken nasıl mümkün?",
+        "metin": "İddia: metin sonradan değişti. Veri: bunu ilk duyanlar, her şeyi feda eden, sorgulamayı bilen insanlardı ve bir itiraz kaydı yok. Bu mantıken nasıl mümkün?",
         "cipler": [
           "Samimi insanlar susmazdı",
           "Körü körüne inanmış olabilirler",
@@ -2139,7 +2125,7 @@
               "metin": "Görünmeyen bir olay bile bu tepkiyi doğurdu."
             }
           ],
-          "soru": "Görünmeyen bir olay bile tepki doğurduysa, herkesin bildiği bir olgudaki yanlışa ne tepki verirlerdi?"
+          "soru": "Görünmeyen bir olay bile tepki doğurduysa, herkesin bildiği metindeki bir değişikliğe ne tepki verirlerdi?"
         },
         {
           "satirlar": [
@@ -2178,12 +2164,12 @@
               "metin": "Cevapları: 'Evlerimize Allah'ın Peygamberiyle döneceğiz.'"
             }
           ],
-          "soru": "Güçlendikleri bir anda bile dünyalıktan çok elçiyi seçen insanlar, bir yalan fark etseler susar mıydı?"
+          "soru": "Güçlendikleri bir anda bile dünyalıktan çok elçiyi seçen insanlar, metne yapılan bir müdahaleyi fark etseler susar mıydı?"
         }
       ],
       "kompozisyon": "Peki sen, bu insanların bunca bedeli ödeyip itirazsız kalmasını nasıl açıklıyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.musrikler",
@@ -2231,12 +2217,12 @@
           }
         },
         {
-          "metin": "Ama metindeki olgulara dair açık bir hata ya da yalan itirazı bilinmiyor.",
+          "metin": "Ama bu itirazların hiçbiri şunu demiyor: 'Bu metin sonradan değiştirildi.'",
           "vurgu": true
         }
       ],
       "soru": {
-        "metin": "İddia: metne hatalı ya da uydurma bilgiler girmiş olabilir. Veri: onu kollayan düşmanları vardı ve hata suçlaması kaydı yok. Bu mantıken nasıl mümkün?",
+        "metin": "İddia: metin sonradan değişti. Veri: onu kollayan düşmanları vardı, itirazlarını yazdılar ve 'değiştirildi' diyen tek bir kayıt yok. Bu mantıken nasıl mümkün?",
         "cipler": [
           "Fark etselerdi söylerlerdi",
           "Kayıt kaybolmuş olabilir",
@@ -2267,6 +2253,26 @@
             "Üstelik Kur'an onların itirazlarını zaten metnin içinde kaydediyor.",
             "O itirazlar bile bugün elimizde."
           ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "meryem",
+            "harun",
+            "haman",
+            "hata var",
+            "tarihî hata",
+            "yanlış bilgi",
+            "zülkarneyn",
+            "üzeyr"
+          ],
+          "yanit": [
+            "Doğru: içeriğe dair itirazlar da var, ör. 'Harun'un kardeşi' ifadesi ya da Haman.",
+            "O ayrı bir tartışma: metnin değiştirilmesi değil, metnin ne dediği.",
+            "Şu an sorduğum şey birincisi. İkincisini not ettim."
+          ],
+          "ek": true,
+          "dogrulanacak": true
         },
         {
           "tur": "itiraz",
@@ -2327,25 +2333,27 @@
         {
           "satirlar": [
             {
-              "metin": "Peygamber hikâyeleri başka kitaplardan almış olsaydı, rakipleri kaynağı gösterirdi."
+              "metin": "Kur'an, 'ona bir insan öğretiyor' suçlamasını kendisi kaydeder (Nahl 103)."
             },
             {
-              "metin": "Medine'de bu kitapları bilen, elinde okuyan insanlar vardı."
+              "metin": "İtirazlar saklanmadı; metnin içinde duruyor."
             },
             {
-              "metin": "'Öğrenmiş mi' sorusuna ayrıca geleceğiz."
+              "metin": "Bir metin yalnız kendi lehine olanı korumaz."
             }
           ],
-          "soru": "Elinde somut bir kaynak olan düşmanın onu göstermemesi, mantıken nasıl açıklanır?"
+          "soru": "İtirazlarını bile içinde taşıyan bir metin, sonradan değiştirilmeye mi yatkın, korunmaya mı?",
+          "ek": true,
+          "dogrulanacak": true
         }
       ],
       "kompozisyon": "Peki sen, metni bunca kollayan düşmanlara rağmen açık bir hata itirazının bulunmamasını nasıl yorumluyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:",
+        "Bunu not ettim; şimdi şunu soruyordum:",
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.ikna",
-      "dayanak": "Z17, s. 119-125: Margoliouth ('İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır', s. 119; çeviri kitaptan); itiraz-cevap ayetleri Bakara 2:142, 2:26, En'âm 6:8 (s. 120-123); Furkan 25:33 (s. 124); Margoliouth: kaynak gösterirlerdi (s. 119, 125). Armstrong'un 'hiçbiri sahte demedi' ifadesi kasten kullanılmadı: Kur'an'ın kendisi şair/kâhin/sihirbaz suçlamalarını kaydeder (Hicr 15:6, Sâffât 37:36, Yunus 10:2, Tûr 52:29) -> EK itiraz cevabı, docs/onay/acilis-zemin.md. [AYET Furkân 33] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
+      "dayanak": "Z17, s. 119-125: Margoliouth ('İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır', s. 119; çeviri kitaptan); itiraz-cevap ayetleri Bakara 2:142, 2:26, En'âm 6:8 (s. 120-123); Furkan 25:33 (s. 124); Margoliouth: kaynak gösterirlerdi (s. 119, 125). Armstrong'un 'hiçbiri sahte demedi' ifadesi kasten kullanılmadı: Kur'an'ın kendisi şair/kâhin/sihirbaz suçlamalarını kaydeder (Hicr 15:6, Sâffât 37:36, Yunus 10:2, Tûr 52:29) -> EK itiraz cevabı, docs/onay/acilis-zemin.md. [AYET Furkân 33] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [DÜZELTME U7] 'Hata/yalan itirazı bilinmiyor' kaldırıldı; iddia 'metin sonradan değiştirildi' ile sınırlandı. Meryem–Harun itirazı: Müslim, Âdâb 9; Nahl 16/103, Furkân 25/4-5 (ek, doğrulanacak)."
     },
     {
       "id": "zemin.ikna",

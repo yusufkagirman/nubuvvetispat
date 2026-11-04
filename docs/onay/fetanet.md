@@ -15,3 +15,7 @@ Dosya: `icerik/akis/fetanet.json`. Kitap dışı her ekleme `"ek": true` ile iş
 - **0-10 puan benzetmesi (`fetanet.cengiz`):** Kitaptaki benzetme; ekranda "gerçek ölçüm değil" etiketi var.
 - **Zaman çizelgesi tarihleri (610, 622, 628, 630, 632):** Genel kabul gören tarihler; kitaptan değil genel bilgiden.
 - **Kadı Abdülcebbar görüşleri:** Ekranda "eski bir İslam âlimi" diye geçer; Kadı'nın görüşü yazarın görüşü değildir.
+
+## Eklenenler (içerik ajanı)
+- `fetanet.vizyoner` (yeni; K1): sağlıklı ama yanılmış vizyoner itirazı (Jeanne d'Arc, Swedenborg, Joseph Smith: genel tarih bilgisi, doğrulanacak; içtenlik/sağlık hükmü verilmiyor). Ölçüt: "yanılan zihin bilmediği şeyleri doğru söyleyemez" -> sınanabilir varsayım, kanıt olarak sunulmuyor. Teşhis yollarına bağlı: `fetanet.ogrenme`, `fetanet.formul`, `mucize.giris`. Dal kapanmaz.
+- `fetanet.giris`, `fetanet.teshis`, `fetanet.formul`, `fetanet.kapanis`: "bilmeden yanılma = yalnız hastalık" eşitlemesi gevşetildi ("hastalık ya da sağlıklı yanılgı").

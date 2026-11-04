@@ -1,0 +1,107 @@
+{
+  "bolge": "genel",
+  "giris": "genel.bilim",
+  "beats": [
+    {
+      "id": "genel.bilim",
+      "gizliDugum": "R8",
+      "ek": true,
+      "dogrulanacak": true,
+      "donus": true,
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bilimle ilgili bir soru getirdin."
+        },
+        {
+          "metin": "Bu sunumun konusu değil; bunu açıkça söylemem gerek."
+        },
+        {
+          "metin": "Burada tek bir şey soruluyor: Hz. Muhammed'in haberi doğru muydu?"
+        },
+        {
+          "metin": "Bilimsel sorular ayrı bir iş: tefsir ve bilim tarihi gerektirir, tek cümleyle yarım kalır."
+        },
+        {
+          "metin": "Sorunu not ettim; yok saymıyorum.",
+          "vurgu": true
+        },
+        {
+          "metin": "Şimdi bıraktığımız soruya dönelim."
+        }
+      ],
+      "dayanak": "Global yol (bilim): anahtarlar docs/onay/global-yollar.md. Kapsam kararı K8. Bilimsel iddialara cevap içermez (uydurma yok). donus:true -> kaynak beat'e dön, soruyu tekrar sor; kullanıcının yazdığı cümle profil.itirazlar[]'a yazılır."
+    },
+    {
+      "id": "genel.yumusak",
+      "gizliDugum": "R8",
+      "ek": true,
+      "dogrulanacak": true,
+      "donus": true,
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Seni sinirlendirdiysem özür dilerim."
+        },
+        {
+          "metin": "Bu konu herkesi yorabilir. Zorla devam etmeni istemem."
+        },
+        {
+          "metin": "İstersen en çok itiraz ettiğin şeyi yaz; ona bakayım."
+        },
+        {
+          "metin": "Ya da bir dakikalık özet vereyim; ya da burada bırakalım."
+        }
+      ],
+      "soru": {
+        "metin": "Ne yapalım?",
+        "cipler": [
+          "Kısa özet ver",
+          "Devam edelim",
+          "Burada bırakalım"
+        ],
+        "serbest": true,
+        "ipucu": "İtirazını yazabilirsin; not alırım."
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "özet",
+            "kısa",
+            "ozet",
+            "kısaca"
+          ],
+          "git": "kapanis.ozet-cikis"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bırakalım",
+            "bırak",
+            "yeter",
+            "çık",
+            "bitir",
+            "veda",
+            "kapat"
+          ],
+          "git": "kapanis.veda"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "devam",
+            "tamam",
+            "olur",
+            "sürdür"
+          ]
+        }
+      ],
+      "dayanak": "Global yol (sert: hakaret/alay). K6/MTR-8. Savunma yok, ders yok; seçenek sunar. Art arda 2 'sert' -> kapanis.ozet-cikis (docs/onay/global-yollar.md). Serbest metin cevap itiraz olarak kaydedilir, sonra donus."
+    }
+  ]
+}

@@ -26,6 +26,21 @@
             ]
           },
           "git": "mucize.giris-kapali"
+        },
+        {
+          "kosul": {
+            "profil.tanri": [
+              "hayir",
+              "emin-degil"
+            ]
+          },
+          "git": "mucize.hume"
+        },
+        {
+          "kosul": {
+            "profil.deizm": "evet"
+          },
+          "git": "mucize.hume"
         }
       ],
       "sahne": {
@@ -119,6 +134,87 @@
       "dayanak": "dallan: profil.supheTuru = mucize-yok. Ayrıntı: M9–M10 (kitap s. 477–482)."
     },
     {
+      "id": "mucize.hume",
+      "gizliDugum": "M9",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Mucizelere geçmeden önce, haklı bir ölçütü kabul edelim."
+        },
+        {
+          "metin": "David Hume'a göre olağanüstü bir iddia, sağlam delil ister.",
+          "kaynak": {
+            "yazar": "David Hume",
+            "eser": "An Enquiry Concerning Human Understanding (Bölüm X: Of Miracles)",
+            "yer": "London",
+            "yil": "1748",
+            "sayfa": "",
+            "not": "İskoç filozof; mucize anlatılarına tanıklık ölçütü. Ekranda dolaylı anlatım",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Bu ölçüt haklı.",
+          "vurgu": true
+        },
+        {
+          "metin": "O yüzden eski ve denetlenemeyen olaylardan başlamıyoruz."
+        },
+        {
+          "metin": "Bugün de kontrol edebileceğin delillere bakacağız: dil, gelecek haberi, kıssalar."
+        },
+        {
+          "metin": "Her birinde soru aynı: delil sağlam mı, değil mi?"
+        }
+      ],
+      "soru": {
+        "metin": "Delil sağlamsa, olağanüstü bir iddiayı tartmaya hazır mısın?",
+        "cipler": [
+          "Sağlamsa tartarım",
+          "Önce delili göreyim",
+          "Hiçbir delil yetmez"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "sağlamsa",
+            "tartarım",
+            "hazırım",
+            "göreyim",
+            "görelim",
+            "bakalım",
+            "delili göreyim"
+          ],
+          "git": "mucize.tanim"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "hiçbir delil",
+            "yetmez",
+            "imkânsız",
+            "olamaz",
+            "mucize olmaz"
+          ],
+          "yanit": [
+            "Anlıyorum: bazı insanlar için hiçbir delil yetmez.",
+            "Ama delile bakmadan karar vermek, senin ölçütünle de çelişir; çünkü ölçüt delili tartmayı gerektirir.",
+            "İstersen yalnız bakalım; sonuca sen karar verirsin."
+          ]
+        }
+      ],
+      "varsayilan": "mucize.tanim",
+      "sonraki": "mucize.tanim",
+      "dayanak": "EK, dogrulanacak (MCZ-7, K9). Hume, An Enquiry Concerning Human Understanding, X. Bölüm (1748): mucize tanıklığı ölçütü; ekranda yalnız 'olağanüstü iddia sağlam delil ister' özeti, doğrudan alıntı yok (Sagan'ın formülü Hume'a atfedilmez). Giriş: mucize.giris dallan (tanri hayir/emin-degil ya da deizm) ve mucize.haber-felsefesi 'hume' yolu."
+    },
+    {
       "id": "mucize.tanim",
       "gizliDugum": "M1",
       "sahne": {
@@ -178,9 +274,10 @@
             "inanmıyorum",
             "mucize yok",
             "olağanüstü olay olmaz",
-            "doğaüstü"
+            "doğaüstü",
+            "hume"
           ],
-          "git": "mucize.haber-felsefesi",
+          "git": "mucize.hume",
           "profil": {
             "supheTuru": "mucize-yok"
           }
@@ -202,17 +299,6 @@
         {
           "satirlar": [
             {
-              "metin": "Başka bir örnek: bir basketbolcu “üç atışın üçü de girer” diyor."
-            },
-            {
-              "metin": "“Yap bakalım” diyorsun. O da “zemin şöyle, pota böyle” diyor."
-            }
-          ],
-          "soru": "Bu tartışmada “yapmamak” ile “yapamamak” arasında bir fark kalır mı?"
-        },
-        {
-          "satirlar": [
-            {
               "metin": "Bir meydan okuma bin dört yüz yıldır ortada duruyor olsun."
             },
             {
@@ -224,7 +310,7 @@
       ],
       "kompozisyon": "Peki bir iddia, meydan okuma ve cevapsızlık birlikte gelirse, bunu nasıl yorumlarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.teshis",
       "dayanak": "Mucizenin tanımı: kitap s. 409–411 ve s. 423–424 (basketbol benzetmesi: yapmamak = yapamamak). Bu beat tanımı yerleştirir; delil sonraki beat'lerde."
@@ -416,13 +502,13 @@
           }
         },
         {
-          "metin": "“Birkaç yıl içinde.” Ayetteki kelime: bid'. Yani üç ile on arası."
+          "metin": "“Birkaç yıl içinde.” Ayetteki kelime: bid'. Yani üç ile dokuz (kimi sözlükler on) arası."
         },
         {
           "metin": "Müşrikler güldü: “Bize benzeyen Mecusiler, size benzeyen Hristiyanları yendi.”"
         },
         {
-          "metin": "Ebubekir bahse girdi: üç yıl, on deve. Sonra süre on yıla, deve yüze çıktı."
+          "metin": "Ebubekir bahse girdi: üç yıl, on deve. Sonra süre uzatıldı, deve yüze çıktı."
         },
         {
           "metin": "Metne bakılırsa ayet 614 ile 618 arasında, Mekke'de indi."
@@ -520,7 +606,7 @@
         {
           "satirlar": [
             {
-              "metin": "Bir ayrıntı daha: süre üç yıldan on yıla çıkarılmıştı."
+              "metin": "Bir ayrıntı daha: süre üç yıldan daha uzun tutulmuştu."
             },
             {
               "metin": "Üçüncü yılda Herakleios henüz sefere bile çıkmamıştı."
@@ -549,7 +635,7 @@
               "diyagram": {
                 "tur": "alinti",
                 "veri": {
-                  "metin": "Muhammed'in bu kadar erken tarihte Bizans'ın siyasi kaderi lehine bir görüş ortaya koymasını açıklamak zordur.",
+                  "metin": "Bell'e göre, Muhammed'in bu kadar erken tarihte Bizans'ın siyasi kaderi lehine bir görüş ortaya koymasını açıklamak zordur.",
                   "kaynak": {
                     "yazar": "Richard Bell",
                     "eser": "The Qur'an: Translated, With a Critical Re-Arrangement of the Surahs, c. 2",
@@ -569,7 +655,7 @@
       ],
       "kompozisyon": "Peki alay, bahis, süre ve ayetin zamanı birlikte hangi senaryoyla açıklanır?",
       "kopru": [
-        "Buna geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.rum-tahmin",
       "dayanak": "R1–R2: kitap s. 483–489. Rum 30/1–7. Nüzul: Hirschfeld, Bell, Muir, Weil (Mekkî; s. 488, 490). Bell alıntısı kitap s. 502; ekranda serbest çeviri olarak yer alır, kitaptaki çeviriyle karşılaştırılmalı. Ebubekir–Übey iddialaşması (3 yıl/10 deve -> 10 yıl/100 deve), s. 485. Süre uzatma: s. 503. Net tarih verilmemesi: dn. 1145, s. 503. Bedir yorumu bilinçli olarak alınmadı (yazarın kendi ihtimali, s. 503–504). [AYET Rûm 30:2-4: satırdaki serbest alıntı yerine ayet satırı] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
@@ -585,7 +671,7 @@
           "metin": "Şimdi bunu Müslüman kaynaklara değil, Gibbon, Vasiliev ve Stathakopoulos gibi tarihçilere soralım."
         },
         {
-          "metin": "Persler İstanbul'un karşısında on yıldan fazla ordugâh kurmuştu.",
+          "metin": "Persler İstanbul'un karşı yakasına kadar dayanmıştı.",
           "kaynak": {
             "yazar": "Edward Gibbon",
             "eser": "Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (İndie Kitap, Türkçe çev.)",
@@ -693,7 +779,7 @@
               "metin": "O gün bahis şirketleri olsaydı, Bizans'a bire yüz verirlerdi."
             },
             {
-              "metin": "Tarihçiler bunu böyle sezdirir."
+              "metin": "Ama gidişat Bizans için kötüydü; kimse ona şans vermiyordu."
             }
           ],
           "soru": "Bire yüz oranla, bütün hayatını ortaya koyar mıydın?"
@@ -712,7 +798,7 @@
       ],
       "kompozisyon": "Peki bu tabloyla “Bizans kazanacak” demeyi, hangi makul gerekçeyle açıklarsın?",
       "kopru": [
-        "Buna geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.rum-donus",
       "dayanak": "R3: kitap s. 490–496. Gibbon (490–492, 495–499), Stathakopoulos (490–495), Vasiliev (490–494), Lemerle (491), Bailly (491–493, 494–496; kitap 'abartılı anlatım' notu düşer), Oman (616 Mısır, s. 494), Bauer (haraç teklifi, s. 494–496). 'Bahis şirketi' benzetmesi kitabın s. 507 civarındaki beş şart bölümünden. 'Neredeyse beklenmedik' ifadesi Stathakopoulos'tan aktarılan özet; ekranda doğrudan alıntı olarak verilmedi."
@@ -902,7 +988,7 @@
       ],
       "kompozisyon": "Peki “bir tahmin”, “tesadüf” ve “sonradan yazıldı” demenin hangisi bu tabloyu tek başına açıklar?",
       "kopru": [
-        "Buna geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.rum-kehanet",
       "dayanak": "R4–R5: kitap s. 496–504. Gibbon, Stathakopoulos, Bauer, Theophanes (s. 496–502); Oman, Vasiliev, Gregory (s. 500–501); Uspensky (Vasiliev üzerinden, s. 497). 610–621 on bir yıl; 622 ilk sefer; 623–624 Ganzak/Thebarmes; 627 Ninova (kitapta dn. 1094 savaşın bitişini 627, metin 628 verir — ekranda yalnız 627 kullanıldı, 627-628 aralığı yazılmadı; bkz. dogrulanacaklar A). Pencere hesabı yazarın: 614+10=624; 618+10=628 (s. 501)."
@@ -995,7 +1081,7 @@
       ],
       "kompozisyon": "Peki “nesh derdiniz” itirazı, bu olguyu ortadan kaldırıyor mu?",
       "kopru": [
-        "Buna geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.rum-kehanet",
       "dayanak": "R6: kitap s. 504–505, yazarın dört maddelik cevabı. Beda/sahte mehdi örneği yazarın aktarımıdır; ekranda isim verilmedi."
@@ -1074,7 +1160,9 @@
           "anahtar": [
             "bir örnek var",
             "örnek var",
-            "var"
+            "var",
+            "evet biliyorum",
+            "biliyorum"
           ],
           "yanit": [
             "Güzel. O örneği bu beş şarta karşı birlikte sınayalım.",
@@ -1121,7 +1209,7 @@
       ],
       "kompozisyon": "Peki tüm bu verileri — dar süre, tersine tahmin, tek hamle, şartlar — birlikte nasıl açıklıyorsun?",
       "kopru": [
-        "Buna geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.devam",
       "dayanak": "R7: kitap s. 506–508, yazarın beş şartı. Mucize mantığı: 'başkası da yapmıştır' diyen örnek göstermeli; örnek gelirse ikinci katmana geçilir (s. 506). Heyet/basın açıklaması önerisi s. 508. 'Bahis şirketleri' sezdirmesi s. 507. Bu, Rum mucizesinin kapanış beat'idir: ikna -> kapat 'mucize' -> kapanis.giris; ret/kompozisyon sonrası mucize.devam."
@@ -1156,9 +1244,6 @@
         },
         {
           "metin": "Ama misl, “denk” demektir. Taklit değil, eşdeğer bir eser."
-        },
-        {
-          "metin": "Türkçede de öyle: “Messi'nin misli Ronaldo'dur” denir. Benzemez, denktir."
         },
         {
           "metin": "Yani taklit gerekmiyor. Kendi özgün eserinle de yarışabilirsin."
@@ -1307,22 +1392,11 @@
             }
           ],
           "soru": "“İstesek biz de söyleriz” diyen, söylemediğinde ne anlaşılır?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir basketbol hatırlatması: “üç atışın üçü de girer” diyen biri."
-            },
-            {
-              "metin": "“Yap” denince “zemin yanlış” diyor."
-            }
-          ],
-          "soru": "Bu savunma, iddiayı güçlendirir mi, zayıflatır mı?"
         }
       ],
       "kompozisyon": "Peki “denk eser” meydan okumasına yıllarca cevap verilmemesini nasıl yorumlarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.belagat-siir",
       "dayanak": "M1 a–b–c: kitap s. 410–415, 424. Misl = denk; Messi/Ronaldo ve Dostoyevski–Gogol örnekleri s. 411. Bodley (Müseylime, s. 414). Basketbol benzetmesi: yapmamak = yapamamak, 2/24 (s. 424). 8/31 (s. 424). Dipnot 942: bu hitap gayrimüslime yöneliktir; müminler hepsini vahiyle yapıldığına inanır. [AYET Bakara 23] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET İsra 88] [AYET Enfâl 31]"
@@ -1413,24 +1487,22 @@
         {
           "satirlar": [
             {
-              "metin": "Bir anı aktarılır: Fransız bir müzisyen, Kur'an'ın şiir değil düzyazı olduğunu öğrenmiş."
+              "metin": "Muhammed Hamidullah'ın aktardığına göre, Fransız bir müzisyen Kur'an'ın düzyazı olduğunu öğrenmiş.",
+              "kaynak": {
+                "yazar": "Muhammed Hamidullah",
+                "eser": "Kur'an-ı Kerim Tarihi ve Okunması (ilgili anı)",
+                "yer": "",
+                "yil": "",
+                "sayfa": "",
+                "not": "Anı yalnız Hamidullah'ın aktarımıyla bilinir",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "“Düzyazıda ritim olmaz. Burada var. Bir harf çıksa kulak tırmalar,” demiş."
             }
           ],
           "soru": "Düzyazı olup ritmi bu kadar belirgin bir metin hangi kategoriye girer?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir test öner: Türkçede Mehmet Akif'in Çanakkale şiirinin üstünde bir eser."
-            },
-            {
-              "metin": "Yabancıları bile müzikaliteyle etkileyen, tarih yazan bir metin."
-            }
-          ],
-          "soru": "Bunu bir heyet bugün yapabilir mi? Yapabilirse neden yapmıyor?"
         },
         {
           "satirlar": [
@@ -1446,7 +1518,7 @@
       ],
       "kompozisyon": "Peki şiirin hükümran olduğu bir toplumda cevap verilememesi, tüm bu verilerle nasıl açıklanır?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.belagat-nebi",
       "dayanak": "M1 d–f: kitap s. 415–421. Şairin işlevi: Hazleton, Watt, Armstrong, Goldziher, Hitti (415–418). Ukaz–Fransız Akademisi: Hitti. Arapçanın şiire uygunluğu: Rodinson, Hazleton, Margoliouth, Hitti (418–419). Müzisyen anısı (Hamidullah'ın aktarımı, s. 420–421) — Hamidullah'ın aktarımı olarak etiketlenmeli (dogrulanacaklar B). Çanakkale testi s. 419–420. ekOrnek 3 (Velid b. Muğire) KİTAP DIŞI: ek=true, bkz. docs/onay/mucize.md.",
@@ -1511,19 +1583,10 @@
           }
         },
         {
-          "metin": "Karen Armstrong'a göre düşmanlar vahiylerin sahte olduğunu iddia etmedi.",
-          "kaynak": {
-            "yazar": "Karen Armstrong",
-            "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
-            "yer": "İstanbul",
-            "yil": "2005",
-            "sayfa": "180",
-            "not": "İngiliz din tarihçisi, eski rahibe",
-            "dogrulanacak": false
-          }
+          "metin": "Kur'an, düşmanlarının tepkisini kaydeder: “şair”, “kâhin”, “sihirbaz”."
         },
         {
-          "metin": "Açıklayamadıkları bir şey olduğu belliydi."
+          "metin": "Ama bu metnin yerine geçecek bir metin getirilemedi."
         }
       ],
       "soru": {
@@ -1558,9 +1621,9 @@
             "içinden geldi"
           ],
           "yanit": [
-            "Rodinson “bilinçaltından” der. Bu, açıklamayı sisin ardına atmaktır.",
-            "Kırk yaşında ilk kez şiir yazmaya başlayan ve ilk vahyi görünce korkan biri düşün.",
-            "Bu bir açıklama değil, açıklamama biçimi."
+            "Rodinson “bilinçaltından” der.",
+            "Bilinçaltı bir etiket; ama çalışması için malzeme gerekir: dil ustalığı, şiir kulağı.",
+            "Margoliouth'un tespiti tersini gösteriyor: şiire kulağı yoktu."
           ]
         }
       ],
@@ -1621,10 +1684,10 @@
       ],
       "kompozisyon": "Peki şiirden uzak biri, vezni bozan biri, bu metni kendi başına nasıl üretmiş olabilir?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.devam",
-      "dayanak": "M1 g–h: kitap s. 421–424. Kırk yaşından önce şiir yok; iki okunuş karşılaştırması (s. 422). Ebubekir sözü, 36/69 (Hamidullah, s. 421). Margoliouth, Rodinson (s. 421–423); Rodinson'un 'bilinçaltı' ifadesine yazarın itirazı (s. 423). Armstrong: 'düşmanlar vahiylerin sahte olduğunu iddia etmedi' (s. 423). Rodinson'un 'silik' ifadesi (dogrulanacaklar B) kullanılmadı. Belagat yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris. [AYET Yâsîn 69] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
+      "dayanak": "M1 g–h: kitap s. 421–424. Kırk yaşından önce şiir yok; iki okunuş karşılaştırması (s. 422). Ebubekir sözü, 36/69 (Hamidullah, s. 421). Margoliouth, Rodinson (s. 421–423); Rodinson'un 'bilinçaltı' ifadesine yazarın itirazı (s. 423). [DÜZELTME U2] Armstrong'un 'düşmanlar sahte demedi' ifadesi KALDIRILDI (Kur'an şair/kâhin/sihirbaz/uydurdu suçlamalarını kaydeder: Hicr 15/6, Hûd 11/13, Yunus 10/38). Rodinson'un 'silik' ifadesi (dogrulanacaklar B) kullanılmadı. Belagat yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris. [AYET Yâsîn 69] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "mucize.kissa-giris",
@@ -1641,20 +1704,27 @@
           "vurgu": true
         },
         {
-          "metin": "Güzel bir iddia, çünkü test edilebilir."
+          "metin": "Bu itirazın ciddi bir ilmî yanı var."
         },
         {
-          "metin": "Kopyalayan biri metni de kopyalar, hatalarını da."
+          "metin": "Kur'an'daki kimi kıssalar, Tevrat'la örtüşür. Hatta eski Hristiyan anlatılarıyla da."
         },
         {
-          "metin": "O yüzden iki metni yan yana koyacağız."
+          "metin": "O yüzden soru “benzerlik var mı?” değil: *benzerliğin açıklaması ne?*",
+          "vurgu": true
+        },
+        {
+          "metin": "Bir anlatıyı alıp yazan, aldığını taşır. Kendi anlatısını kuran, yer yer ayrılır."
+        },
+        {
+          "metin": "İki metni yan yana koyalım: nerede aynı, nerede ayrı?"
         }
       ],
       "soru": {
-        "metin": "Bir metni kopyalayan, onun hatalarını da kopyalar. Bu sana makul geliyor mu?",
+        "metin": "Bir metni alıp yazan, onun farklı yerlerini de alır. Bu sana makul geliyor mu?",
         "cipler": [
           "Evet, genelde öyle olur",
-          "Düzeltip de kopyalayabilir"
+          "Değiştirip de aktarabilir"
         ],
         "serbest": false
       },
@@ -1675,11 +1745,14 @@
           "anahtar": [
             "düzeltip",
             "düzelt",
-            "düzeltebilir"
+            "düzeltebilir",
+            "değiştirip",
+            "değiştirebilir",
+            "aktarabilir"
           ],
           "yanit": [
-            "Düzeltmek için hatayı fark edip doğrusunu bilmek gerekir.",
-            "Peki o doğru bilgi nereden gelmiş olurdu?"
+            "Değiştirmek için neyi, neden değiştireceğini bilmek gerekir.",
+            "Peki o bilgi nereden gelmiş olurdu?"
           ]
         },
         {
@@ -1718,8 +1791,8 @@
           ],
           "yanit": [
             "Okuma yazması olmayan biri için yazılı kaynak zor.",
-            "Corpus Coranicum'un hazırladığı muhtemel kaynak listesi 24 sayfa tutar.",
-            "Yalnız kutsal kitaplar için altı dil gerekir."
+            "Ama kaynak yazılı olmak zorunda değil; sözlü anlatılar da dolaşırdı.",
+            "O zaman soru: kim anlattı, ne zaman, hangi dilde?"
           ]
         }
       ],
@@ -1727,52 +1800,38 @@
         {
           "satirlar": [
             {
-              "metin": "Corpus Coranicum'un Kur'an kaynakları listesi 24 sayfa tutar.",
+              "metin": "Bir örnek: Meryem'in doğum anındaki hurma ağacı."
+            },
+            {
+              "metin": "Kur'an'da Meryem, hurma gövdesinin dibinde; altından bir pınar akar."
+            },
+            {
+              "metin": "Pseudo-Matta İncili'nde de hurma ağacı ve bir pınar vardır.",
               "kaynak": {
-                "yazar": "Corpus Coranicum",
-                "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
-                "yer": "Almanya",
-                "yil": "",
+                "yazar": "Gabriel Said Reynolds",
+                "eser": "The Qur'an and Its Biblical Subtext",
+                "yer": "London",
+                "yil": "2010",
                 "sayfa": "",
-                "not": "Almanya merkezli akademik Kur'an metni projesi; kaynak listesi bölümü",
+                "not": "Amerikalı İslam araştırmacısı; Kur'an ile Kitab-ı Mukaddes ve apokrif gelenek paralellikleri",
                 "dogrulanacak": true
               }
             },
             {
-              "metin": "Yalnız kutsal kitapları okumak için altı dil gerekir."
+              "metin": "Paralellik açık; Kur'an'da motif başka bir vurguyla kullanılır."
             }
           ],
-          "soru": "Okuma yazması olmayan biri, bu kitaplığı hangi kütüphanede gezmiş olabilir?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Apokrif metinlerin çoğu 1945'te Mısır'da bulundu."
-            },
-            {
-              "metin": "Daha önce yok edilmiş sayılırlardı."
-            }
-          ],
-          "soru": "O coğrafyada ne yazılı ne sözlü bilinemeyecek metinler nasıl aktarılmış olur?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Aynı ismin iki metinde geçmesi, alıntı kanıtı değil."
-            },
-            {
-              "metin": "1980 darbesini anlatan herkes Kenan Evren'i yazar."
-            }
-          ],
-          "soru": "O halde Âdem'in adının iki kitapta geçmesi neyi kanıtlar?"
+          "soru": "Aynı motif iki anlatıda varsa, bunun açıklaması ne olabilir?",
+          "ek": true,
+          "dogrulanacak": true
         }
       ],
       "kompozisyon": "Peki “kopyalandı” iddiasını, hataları ve farkları birlikte düşününce nasıl tartarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.kissa-yusuf",
-      "dayanak": "M4–M6: kitap s. 436–448, 453–454. Furkan 25/4–6 ve Nahl 16/103 itirazının sekiz cevabından dördü seçildi (s. 441–443). Varaka: s. 445. Yazılı kaynak: Corpus Coranicum 24 sayfa liste (s. 446, dn. 1002–1004); altı dil (s. 447); Nag Hammadi 1945 (s. 447). Kenan Evren örneği s. 453. Ekranda 'Tevrat'ı hakaretsiz anma' ilkesi: 'eldeki Tevrat metni', 'farklı metin geleneği'."
+      "dayanak": "M4–M6: kitap s. 436–448, 453–454. Furkan 25/4–6 ve Nahl 16/103 itirazının sekiz cevabından dördü seçildi (s. 441–443). Varaka: s. 445. Yazılı kaynak: Corpus Coranicum 24 sayfa liste (s. 446, dn. 1002–1004); altı dil (s. 447); Nag Hammadi 1945 (s. 447). Kenan Evren örneği s. 453. Ekranda 'Tevrat'ı hakaretsiz anma' ilkesi: 'eldeki Tevrat metni', 'farklı metin geleneği'. [DÜZELTME] 'Kopya değil' çerçevesi 'paralellik var, açıklaması ne?' olarak değişti; Corpus Coranicum 24 sayfa, Nag Hammadi 1945, Kenan Evren EK'leri silindi (Nag Hammadi gnostik metinleri Pseudo-Matta/Tomas ile ilgili değildir). Meryem-hurma örneği ek:true (Kur'an 19/23-26; Pseudo-Matta 20), docs/onay/mucize.md."
     },
     {
       "id": "mucize.kissa-yusuf",
@@ -1816,9 +1875,9 @@
         }
       ],
       "soru": {
-        "metin": "Kopyalayan biri hatayı bırakıp tutarlısını nasıl yazmış olur?",
+        "metin": "Benzer bir hikâyeyi bu üç noktada ayrı bir vurguyla anlatmak, kopyalama mıdır yoksa ayrı bir anlatı mı?",
         "cipler": [
-          "Kur'an tutarlı görünüyor",
+          "Ayrı bir anlatı gibi",
           "Fark küçük bir ayrıntı"
         ],
         "serbest": false
@@ -1831,7 +1890,10 @@
             "tutarlı",
             "haklısın",
             "mantıklı",
-            "zor"
+            "zor",
+            "ayrı bir anlatı",
+            "ayrı anlatı",
+            "ayrı"
           ],
           "git": "mucize.kissa-adem"
         },
@@ -1861,23 +1923,23 @@
               "metin": "Kur'an'da Eyyub baştan sona sabır timsalidir."
             }
           ],
-          "soru": "Kopyalayan, bir figürün karakterini neden bu kadar baştan yazsın?"
+          "soru": "Bir figürün karakteri bu kadar farklı kurulmuşsa, bu kopyalamayı mı gösterir?"
         },
         {
           "satirlar": [
             {
-              "metin": "Eldeki metinde bazı peygamberlere ağır ifadeler atfedilir."
+              "metin": "Eldeki metinde bazı peygamberler hakkında daha sert ifadeler vardır."
             },
             {
-              "metin": "Kur'an bunları nakletmez."
+              "metin": "Kur'an bu ifadeleri taşımaz."
             }
           ],
-          "soru": "Kopyalayan bunları neden dışarıda bırakırdı?"
+          "soru": "Bu fark, anlatının ayrı bir vurgu kurduğunu mu gösterir?"
         }
       ],
-      "kompozisyon": "Peki aynı kıssada üç ayrı noktada farklılık, kopyalama fikriyle birlikte nasıl yorumlanır?",
+      "kompozisyon": "Peki aynı kıssada üç ayrı noktadaki farklılığı, benzerlikle birlikte nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.kissa-adem",
       "dayanak": "M6 Tablo 2 (Yusuf): kitap s. 454–457. Tekvin 37/9–11, 37/33–35, 35/17–20; Kur'an 12/5–6, 12/18. Rahel'in ölümü/ay sembolü: yazarın karşılaştırması (s. 456). Tablo 1 (Eyyub): s. 451–453 (21/83, 38/41–43). Peygamberlere atfedilen ifadeler: s. 449–450; dn. 1011 yazarın 'peygamberler bu iftiralardan münezzeh' notu. Hassas kutu: yalnızca bu ekOrnek ile açılır; ayrıntıya girilmez."
@@ -1919,7 +1981,7 @@
           }
         },
         {
-          "metin": "Eldeki metni okuyan biri sorabilir: yılan mı doğru söyledi?"
+          "metin": "Eldeki metinde yılanın sözü ile Tanrı'nın sözü çatışır; okuyan “hangisi doğru?” diye sorabilir."
         },
         {
           "metin": "Kur'an anlatısında bu soru doğmaz. Şeytan yalan söyler.",
@@ -1927,7 +1989,7 @@
         }
       ],
       "soru": {
-        "metin": "Kopyalayan, teolojik bir çelişkiyi bilerek düzeltmiş olabilir mi? Peki neye dayanarak?",
+        "metin": "Anlatıyı alan biri, bu noktayı kendi bilgisiyle düzeltmiş olabilir mi? Peki neye dayanarak?",
         "cipler": [
           "Düzeltmiş olması zor",
           "Başka kaynak olabilir"
@@ -1984,9 +2046,9 @@
           "soru": "Ortak bir gelenek, bu kadar sistematik bir ayrılığı nasıl taşır?"
         }
       ],
-      "kompozisyon": "Peki Yusuf, Eyyub ve Âdem'de aynı yönde fark görünce, bunu nasıl açıklarsın?",
+      "kompozisyon": "Peki Yusuf, Eyyub ve Âdem'de benzerliğin yanında aynı yönde farklar görünce, bunu nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.kissa-yaratilis",
       "dayanak": "M6 Tablo 3 (Âdem): kitap s. 457–459. Tekvin 3/2–5, 3/22; 1. Timoteos 2/13–14 (Yeni Ahit); Kur'an 2/35, 20/115, 20/120, 7/20–21, 2/36, 31/14–15. 'İbrahimî gelenek' vurgusu s. 459. Cadı avı bağlantısı ekranda kullanılmadı."
@@ -2024,14 +2086,14 @@
           }
         },
         {
-          "metin": "Bu cümleler, eski bir anlatının doğrudan düzeltmesi gibi okunur.",
+          "metin": "Bu cümleler, eski bir anlatıya doğrudan bir cevap gibi okunur.",
           "vurgu": true
         }
       ],
       "soru": {
-        "metin": "Bu cümleler eski bir metnin kopyası gibi mi duruyor, yoksa onu düzelten bir ses gibi mi?",
+        "metin": "Bu cümleler eski bir metnin kopyası gibi mi duruyor, yoksa ona cevap veren bir ses gibi mi?",
         "cipler": [
-          "Düzeltme gibi",
+          "Cevap gibi",
           "Tesadüf olabilir"
         ],
         "serbest": false
@@ -2044,7 +2106,9 @@
             "düzeltme",
             "düzelten",
             "haklısın",
-            "mantıklı"
+            "mantıklı",
+            "cevap gibi",
+            "cevap"
           ],
           "git": "mucize.kissa-sonuc"
         },
@@ -2073,22 +2137,11 @@
             }
           ],
           "soru": "Kur'an'ın bu tarihi vermemesi bir tesadüf olabilir mi?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Fransız bir doktor, İncil ve Kur'an'ı bilimle karşılaştırdı."
-            },
-            {
-              "metin": "Bilimsel eleştiri alan konulardan hiçbirini Kur'an'da bulamadı."
-            }
-          ],
-          "soru": "Hatalı bilgiler tek tek ayıklanmış olabilir mi? Kim tarafından?"
         }
       ],
       "kompozisyon": "Peki dinlenme, direkler, tarih: üç alanda aynı yönde fark. Bunu nasıl yorumlarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.kissa-sonuc",
       "dayanak": "M6 'Hataları düzeltmesi/nakletmemesi' tablosu: kitap s. 459–462. Kur'an 50/38, 13/2. Tekvin 2/2; 1. Samuel 2/8; Eyüp 9/1–6; Mezmurlar 75/1–4 (kitap atıf biçimi bozuk, dogrulanacaklar A: ekranda kutsal kitap atıf numarası verilmedi). Bucaille (s. 328; ekranda 'Fransız bir doktor' denir, isim verilmez). 'Ağaç–yıldız sırası' satırı BİLİNÇLİ OLARAK ALINMADI (gün numarası kayması, dogrulanacaklar A, s. 462)."
@@ -2102,23 +2155,23 @@
       "kapat": "mucize",
       "satirlar": [
         {
-          "metin": "Toparlayalım."
-        },
-        {
-          "metin": "Kur'an hiçbir kıssada Tevrat'ın kopyası değil.",
+          "metin": "Kur'an'ın kıssaları, Tevrat'ın kopyası gibi okunmuyor.",
           "vurgu": true
         },
         {
-          "metin": "Ya sorunlu yeri anlatmaz, ya düzelterek anlatır."
+          "metin": "Kimi ayrıntıyı hiç anlatmıyor; kimi yerde ayrı bir vurgu kuruyor."
         },
         {
-          "metin": "“Mekke'de şifahi anlatı vardı” diyen, o anlatıyı göstermeli."
+          "metin": "Bu, benzer motiflerin hiç duyulmadığı anlamına gelmez."
         },
         {
-          "metin": "Gösteremiyorsa, “açıklayamıyoruz, o halde vardır” demiş olur. Bu delil değil."
+          "metin": "Soru şu: bu motifler Mekke'de nereden duyulmuş olabilir?"
         },
         {
-          "metin": "Üstelik Kur'an der ki: “Bunları ne sen ne kavmin biliyordunuz.”"
+          "metin": "Ve ayrılan yerler nereden gelmiş?"
+        },
+        {
+          "metin": "Kur'an kendi hakkında şunu der: “Bunları ne sen ne kavmin biliyordunuz.”"
         },
         {
           "metin": "",
@@ -2133,7 +2186,7 @@
         }
       ],
       "soru": {
-        "metin": "Kopyalamadığı, hataları da taşımadığı bir anlatıyı, okuma yazması olmayan biri nereden getirmiş olabilir?",
+        "metin": "Benzer motifleri taşıyan ama ayrıldığı yerleri de olan bir anlatıyı, okuma yazması olmayan biri nereden getirmiş olabilir?",
         "cipler": [
           "Açıklaması zor",
           "Mekke'de bilinen anlatılardan"
@@ -2157,6 +2210,34 @@
         {
           "tur": "itiraz",
           "anahtar": [
+            "apokrif",
+            "pseudo",
+            "tomas",
+            "çocukluk incili",
+            "meryem hurma",
+            "hurma ağacı",
+            "kilden kuş",
+            "yedi uyurlar",
+            "ashab-ı kehf",
+            "zülkarneyn",
+            "iskender romansı",
+            "süryani",
+            "midraş",
+            "talmud"
+          ],
+          "yanit": [
+            "Bunlar ciddi örnekler ve akademisyenlerin çoğu bu paralelliği kabul ediyor.",
+            "Meryem'in hurma ağacı, İsa'nın kilden kuşları gibi motifler Kur'an'da kendi anlatısıyla bütünleşmiş olarak geçiyor.",
+            "İki okuma var: Muhammed bu anlatıları duydu; ya da (Müslüman okumaya göre) aynı kaynaktan geldi.",
+            "Birincisini seçersen soru şu olur: kimden, ne zaman, hangi dilde? Bunun cevabı öğrenme ihtimalinde.",
+            "Hangi okumayı seçersen seç, “hiç benzerlik yok” demek mümkün değil. Mümkün olan, benzer motiflerin tamamını açıklayıp açıklamadığını sormak."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
             "mekke",
             "şifahi",
             "sözlü",
@@ -2171,28 +2252,6 @@
         }
       ],
       "ekOrnekler": [
-        {
-          "satirlar": [
-            {
-              "metin": "Bir okuma olarak: Kur'an ölen firavun için “gök ve yer ağlamadı” der."
-            },
-            {
-              "metin": "",
-              "ayet": {
-                "arapca": "فَمَا بَكَتۡ عَلَيۡهِمُ ٱلسَّمَآءُ وَٱلۡأَرۡضُ وَمَا كَانُواْ مُنظَرِينَ",
-                "meal": "Ne gök onlara ağladı, ne yer. Kendilerine mühlet de verilmedi.",
-                "sure": "Duhân",
-                "no": "29",
-                "mealKaynak": "Diyanet meali (uyarlanmış)",
-                "dogrulanacak": true
-              }
-            },
-            {
-              "metin": "Eski Mısır'ın bir ritüel metni ise “gökler ve yer senin için ağlar” der."
-            }
-          ],
-          "soru": "O yazıların okunamadığı bir çağda, bir ritüel metne kelimesi kelimesine cevap nereden gelir?"
-        },
         {
           "satirlar": [
             {
@@ -2235,15 +2294,16 @@
               "metin": "Eski İbranice bir sözün hakaret çağrışımı taşıdığı yorumlanır."
             }
           ],
-          "soru": "Başka bir dilin gizli hakaretini fark etmek hangi bilgiyi gerektirir?"
+          "soru": "Başka bir dilin gizli hakaretini fark etmek hangi bilgiyi gerektirir?",
+          "dogrulanacak": true
         }
       ],
       "kompozisyon": "Peki tüm bu kıssa verilerini — düzeltmeler, atıflar, bilgi düzeyi — birlikte nasıl açıklarsın?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.devam",
-      "dayanak": "M7: kitap s. 462–474. Watt'ın ön yargı itirazı ve delil yükü (s. 463–464). Açık beyan: 11/49, 12/3, 3/44, 42/52 (s. 465–466). Skala (s. 468). Firavun ağıtı: 44/29 ve The Songs of Isis and Nephthys (BM 10188; çev. Faulkner) — 'yazarın okuması' etiketi şart (dogrulanacaklar B). 3/93–Tekvin 32/31–32 (s. 470–471). 'Râ'inâ' 2/104 (s. 472). 'Ares' etimolojisi kullanılmadı (zayıf; dogrulanacaklar B). Kıssa yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris. [AYET Hûd 49] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Duhân 29] [AYET Âl-i İmrân 93] [AYET Bakara 104]"
+      "dayanak": "M7: kitap s. 462–474. Watt'ın ön yargı itirazı ve delil yükü (s. 463–464). Açık beyan: 11/49, 12/3, 3/44, 42/52 (s. 465–466). Skala (s. 468). Firavun ağıtı: 44/29 ve The Songs of Isis and Nephthys (BM 10188; çev. Faulkner) — 'yazarın okuması' etiketi şart (dogrulanacaklar B). 3/93–Tekvin 32/31–32 (s. 470–471). 'Râ'inâ' 2/104 (s. 472). 'Ares' etimolojisi kullanılmadı (zayıf; dogrulanacaklar B). Kıssa yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris. [AYET Hûd 49] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Duhân 29] [AYET Âl-i İmrân 93] [AYET Bakara 104] [DÜZELTME] Çerçeve 'kopya değil' -> 'paralellik var, açıklaması ne?'; Firavun EK silindi. Apokrif itirazı: Reynolds (The Qur'an and Its Biblical Subtext), Griffith, Corpus Coranicum 'Texts from the Environment' (ek, doğrulanacak)."
     },
     {
       "id": "mucize.haber-felsefesi",
@@ -2287,6 +2347,26 @@
         "serbest": false
       },
       "yollar": [
+        {
+          "tur": "profil",
+          "anahtar": [
+            "hume",
+            "olağanüstü iddia",
+            "olağanüstü kanıt",
+            "sagan",
+            "olağanüstü delil"
+          ],
+          "profil": {
+            "hume": "evet"
+          },
+          "git": "mucize.teshis",
+          "yanit": [
+            "Hume'un ölçütü haklı bir ölçüt: olağanüstü bir iddia sağlam delil ister.",
+            "Bu yüzden eski olaylara değil, bugün de kontrol edebileceğin delillere bakıyoruz: dil, Rum, kıssalar."
+          ],
+          "ek": true,
+          "dogrulanacak": true
+        },
         {
           "tur": "ikna",
           "anahtar": [
@@ -2355,22 +2435,11 @@
             }
           ],
           "soru": "Güvene dayanan bilgi, bilgi sayılmaz mı?"
-        },
-        {
-          "satirlar": [
-            {
-              "metin": "Bir ayrıntı: mucize haberlerinin çoğu birkaç ravide kalır."
-            },
-            {
-              "metin": "Bir defalık olayda şahit azdır; namazda çoktur. Beklenen de bu."
-            }
-          ],
-          "soru": "Az şahitli rivayet uydurma olsaydı, uyduranlar şahit sayısını artırmaz mıydı?"
         }
       ],
       "kompozisyon": "Peki “haber bilgi verir mi?” sorusuna kendi cevabın ne?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.sihir",
       "dayanak": "M9: kitap s. 477–480 (haber felsefesi, mütevatir, manevî tevatür; Ağrı örneği s. 480; düz dünya s. 479; tıp/kozmoloji s. 479; Milgram s. 480). Dn. 1058: mucize hadislerinin birkaç ravide kalması senedlerin sonradan uydurulmadığının göstergesi (s. 477). Batı–haber eleştirisi ekranda kullanılmadı."
@@ -2390,14 +2459,14 @@
           "metin": "Düşmanlık ortamında karşındakine ne zaman “sihirbaz” dersin?"
         },
         {
-          "metin": "Tartışmada asla. Ancak karşındaki gözünün önünde şaşırtıcı bir şey yapmışsa.",
+          "metin": "Tartışmada pek. Ancak karşındaki gözünün önünde şaşırtıcı bir şey yapmışsa.",
           "vurgu": true
         },
         {
           "metin": "Kur'an bunu pekiştirerek aktarır: “Bu apaçık bir sihirbazdır.”"
         },
         {
-          "metin": "İtirazın kendisi, bir şey yaşandığını ele verir."
+          "metin": "İtirazın kendisi, bir etkinin yaşandığını ele verir."
         }
       ],
       "soru": {
@@ -2431,9 +2500,9 @@
             "etkileyici"
           ],
           "yanit": [
-            "Mecaz, hakiki anlamın üstüne delille kurulur.",
-            "Kur'an'da sihir, Firavun'un sihirbazları kıssasında hakiki anlamıyla geçer.",
-            "Mecaz olsa bile: şiirle işi olmayan birinin sözüyle toplumu büyülemesi, belagat mucizesinin itirafıdır."
+            "Mecaz olabilir: “sihir gibi etkili söz”.",
+            "Bu bile belagatın itirafıdır.",
+            "Şiirle işi olmayan birinin sözüyle toplumu büyülemesi, açıklanması gereken bir etkidir."
           ]
         }
       ],
@@ -2463,7 +2532,7 @@
       ],
       "kompozisyon": "Peki “sihirbaz” itirazını, bu verilerle birlikte nasıl yorumluyorsun?",
       "kopru": [
-        "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
+        "Bunu not ettim; şimdi şunu soruyordum:"
       ],
       "sonraki": "mucize.devam",
       "dayanak": "M8, M10: kitap s. 474–482. 10/2, 38/4, 46/7, 51/52, Tâhâ 20/56–76. Mecaz itirazı ve cevabı s. 476. Uhud altın isteği: s. 481. Sahabenin ihtidası: s. 482. Haber yolunun kapanış beat'i: ikna -> kapat 'mucize' -> kapanis.giris."
@@ -2551,10 +2620,10 @@
       },
       "satirlar": [
         {
-          "metin": "Pencerelerin hepsine baktık."
+          "metin": "Baktığın pencerelerden şimdilik yeterince gördün."
         },
         {
-          "metin": "Geriye tek bir soru kaldı: bütün bunlar sana ne söylüyor?…",
+          "metin": "Geriye tek bir soru kaldı: bütün bunlar sana ne söylüyor…",
           "vurgu": true
         }
       ],
@@ -2721,7 +2790,7 @@
           "vurgu": true
         },
         {
-          "metin": "Mucizeler ise haberin doğruluğuna doğrudan bakan delillerdir: dil, gelecek, geçmiş."
+          "metin": "Mucizeler ise haberin doğruluğuna doğrudan bakan delillerdir: dil, gelecek, geçmiş — hepsine bakmak zorunda değildin."
         },
         {
           "metin": "Ağırlığını sen tartarsın."
@@ -2786,10 +2855,154 @@
             "devam etmek istiyorum"
           ],
           "git": "mucize.devam"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "müslüman olmak",
+            "müslüman olmak istiyorum",
+            "nasıl müslüman",
+            "şehadet",
+            "kelime-i şehadet",
+            "islam'a girmek",
+            "ihtida"
+          ],
+          "git": "kapanis.muslumanOlmak"
         }
       ],
       "varsayilan": "kapanis.veda",
       "dayanak": "Serbest cevap profil.kapanis.soru olarak kaydedilir. Hiçbir cevap yanlış sayılmaz; sınıflandırma yapılmaz."
+    },
+    {
+      "id": "kapanis.ozet-cikis",
+      "gizliDugum": "R8",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Uzun geldiyse özür dilerim. İşte bir dakikalık özet."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Bir adam, Allah'tan haber aldığını söyledi. Bu bir haber: ya doğru ya yanlış."
+        },
+        {
+          "metin": "Yanlışsa ya bilerek yalan ya da içtenlikle yanılma; ikisine ayrı ayrı bakıyoruz."
+        },
+        {
+          "metin": "Geriye, haberin doğruluğuna doğrudan bakan deliller kalıyor: dil, gelecek, geçmiş."
+        }
+      ],
+      "soru": {
+        "metin": "İstersen kaldığın yerden devam edelim; istersen burada bırakalım.",
+        "cipler": [
+          "Devam edelim",
+          "Burada bırakalım"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "bırakalım",
+            "bırak",
+            "yeter",
+            "burada",
+            "çık",
+            "bitir",
+            "veda",
+            "sonra",
+            "kapat"
+          ],
+          "git": "kapanis.veda"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "devam",
+            "tamam",
+            "olur",
+            "sürdür",
+            "bakalım",
+            "kaldığım"
+          ]
+        }
+      ],
+      "varsayilan": "kapanis.veda",
+      "donus": true,
+      "dayanak": "Global yol (kisalt): docs/onay/global-yollar.md. Yeni olgu yok; fetanet/samimiyet kapanış ifadeleriyle tutarlı. 'devam' yolunun git alanı bilerek yok: donus:true ise motor kaynak beat'e (soru tekrar sorularak) döner."
+    },
+    {
+      "id": "kapanis.muslumanOlmak",
+      "gizliDugum": "R8",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Bunu yazman kolay değil. Saygı duyuyorum."
+        },
+        {
+          "metin": "Bu, bir sunumun vereceği karar değil; senin kararın."
+        },
+        {
+          "metin": "Müslüman olmanın özü, iki cümlelik bir tanıklıktır:",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "Allah'tan başka ilah olmadığına tanıklık ederim.",
+          "vurgu": true
+        },
+        {
+          "metin": "Ve Muhammed'in, O'nun kulu ve elçisi olduğuna.",
+          "vurgu": true
+        },
+        {
+          "metin": "Anlamını bilerek, içinden ve özgür iradenle söylenir. Acele yok."
+        },
+        {
+          "metin": "İstersen güvendiğin bir camiye ya da tanıdığın bir Müslümana danış; sorularını baskısız sorabileceğin biriyle konuş."
+        }
+      ],
+      "soru": {
+        "metin": "Şimdilik ne yapmak istersin?",
+        "cipler": [
+          "Düşüneceğim",
+          "Birkaç sorum daha var",
+          "Teşekkürler"
+        ],
+        "serbest": true,
+        "ipucu": "Aklından geçeni yaz. Acelen yok."
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "sorum",
+            "soru",
+            "sormak"
+          ],
+          "git": "kapanis.soru"
+        }
+      ],
+      "varsayilan": "kapanis.veda",
+      "sonraki": "kapanis.veda",
+      "dayanak": "ONAY GEREKİR (K7: ürün kararı, davet/yönlendirme dili). Şehadet düz Türkçe anlamıyla verildi (Arapça/meal biçimi yok). Belirli bir kuruma bağlantı verilmez; baskı yok. Global yol: docs/onay/global-yollar.md (muslumanOlmak)."
     },
     {
       "id": "kapanis.veda",
@@ -2800,6 +3013,9 @@
       "satirlar": [
         {
           "metin": "Yazdığın için teşekkür ederim."
+        },
+        {
+          "metin": "Yazdığını not aldım."
         },
         {
           "metin": "Hangi yönde olursa olsun, saygıyla ayrılıyoruz."

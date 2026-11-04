@@ -54,3 +54,10 @@ Aşağıdakiler kullanıcı tarafından onaylandı; kayıt ve takip için listel
 - **Bilerek eklenmeyen ayetler (hassas):** Ahzâb 33:37 ("içinde sakladığın", `samimiyet.sohret` ek 1) ve Tevbe 9:113 (Ebu Talib, `samimiyet.kabile` ek 1). Kitap bu iki yerde ölçülü anlatım ister (dn. 519; metod-haritasi §4); ayet metni ekranda tam gösterilince tartışma açabilir. Kullanıcı isterse eklenir.
 - **Belirsiz atıflı, eklenmeyen:** "Bu apaçık bir sihirbazdır" (`mucize.sihir`; 10/2, 38/4, 46/7, 51/52 gibi birden çok yerde geçer), "Sen orada değildin" (`fetanet.kitapehli`, Kasas 28:44/46 ve Âl-i İmrân 3:44 olasılığı), Şûrâ 42:52 (`fetanet.ummi` ek 2'nin ilk satırı; uzun ayet), Bakara 2:214 (sabır).
 - Tevbe 9:40 (`samimiyet.tutulma` ek 0) ve Âl-i İmrân 3:93 uzun ayetlerdir; ekranda tam gösterilir, kısaltılmadı.
+
+## Eklenenler / çıkarılanlar (içerik ajanı, U3-U8)
+- `zemin.kiyasYazma`: Altıkulaç satırı ve "milyonlarca el yazması" çıkarıldı; İncil tarihlemesi için Raymond E. Brown, *An Introduction to the New Testament* (Doubleday, 1997) — künye ve aralık (70-110) doğrulanacak.
+- `zemin.cografya`: San'a (Sadeghi/Bergmann) EK'i ve Paris aralığı çıkarıldı; Tübingen %95,4: 649-675 (Tübingen Üniv. Kütüphanesi) doğrulanacak.
+- `zemin.corpus`: "606-649" aralığı çıkarıldı.
+- `zemin.karbon` palimpsest yanıtı: üst yazı bugünkü metin, alt yazıda sure sıralaması/kelime farkları (Sadeghi & Goudarzi, Der Islam 87, 2012) — dürüst verildi.
+- `zemin.musrikler`: "Harun/Haman/Meryem" itirazı (ek, Müslim Âdâb 9; Nahl 16/103; Furkân 25/4-5) ve Nahl 103 EK'i; `zemin.tahrif`: Haccâc/İbn Mesud/Übey itirazı (ek, Ebû Dâvûd Kitâbu'l-Huruf). Doğrulanacak.

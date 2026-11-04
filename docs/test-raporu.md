@@ -48,3 +48,15 @@ Tüm koşularda: yasaklı ifade taraması (`s. NN`, "sayfa" atıfı, Watt/Goldzi
 
 ## Ekran görüntüleri
 `docs/ekran/v2-*.png` yeniden üretildi (deviceScaleFactor 2; masaüstü 1280x760, mobil 390x844): 01 açılış, 02 profil sorusu, 03a mushaf reveal (net görsel), 03 mushaf + yazı, 04 çöl, 05 ihtimaller + soru, 06 zaman (Rum), 07 denklem, 08 karşılaştırma, 09 demet, 10 galeri, 11–14 mobil (mushaf, soru, ihtimaller, zaman), 15 kapanış haritası (iki dal kapalı), 15b kapanış (dal açık).
+
+## v3 tasarım paketi (builder, yeniden başlatma sonrası tamamlama)
+**Durum:** `docs/tasarim-onerileri.md` §3'teki 16 madde kodda mevcut (kontrast/dokunma, soru formu, nefes, cevap anı, tempo/an/sessizlik, tipografi ve hareket token'ları, kaynak künyesi + cam kart + Kaynakça sahnesi, takımyıldız, mushaf ayarı, ses, performans, erişilebilirlik). Ek kararlar: Emil tarzı basılı `scale(.97)`, tutarlı radius/boşluk, sıcak palet, Arapça ayet anı (Amiri, `site/fonts/`), kaynakçada sabit atıf (Tanzil / Diyanet mealinden uyarlama / Amiri OFL), yapay düşünme gecikmesi yok.
+**Bu turda düzeltilenler:** ayet künyesi küçük harfe çevriliyordu (artık "Rûm Sûresi, 2–4"); Kaynakça sahnesinin arka planı, altındaki satırları gösteriyordu (perde koyulaştırıldı, alt boşluk artırıldı, atıf yazısı kontrastı .62).
+
+**Sınıflandırıcı (`site/js/niyet.js`, MTR-1/2/3/5):**
+- MTR-1: soru "…açıklanabilir/olabilir/eder/var mı…" biçimindeyse "evet" karşı çıkıştır. "Hayır, etmez / mümkün değil" = katılma (onay), "Evet, açıklanabilir" = itiraz (genel olumlu anahtarlarla `ikna` yolu sayılmaz). "Haklısın/makul/ikna oldum" gibi açık katılma bunu ezer.
+- MTR-2: "ama/fakat/ancak/lakin/yine de/ne var ki/tek sorun" sonrası kısım ağırlıklı; önce orada aranır, yoksa bütünde `ikna` yolları kapalı aranır; genel onay uygulanmaz.
+- MTR-3: anahtarın ±2 sözcüğünde (virgül sınırına kadar) değil/değildi/yok/olmayan varsa anahtar düşer ("hasta değildi" fetanet.hastalik'e gitmez). Kendisi olumsuz içeren anahtarlar muaf.
+- MTR-5: onay listesine makul, tamam, anladım, kabul.
+**Test:** 22 serbest-metin kutupluluk vakası (fetanet.sara/zeka/kapanis, mucize.rum-nesh/kissa-giris, zemin.hadis, haber.demet, samimiyet.kapanis, fetanet.teshis) 22/22 geçti. 6 persona regresyonu + ara-veren: ateist 36 adım, Hristiyan 39, agnostik 14 (3 kaçamak döngü kırıcı), sara 37, deist 19, inatçı 83, ara/devam aynı beat; hepsi önceki sonuçlarla aynı. Konsol/sayfa hatası yok; 360 px'te yatay taşma yok. Ekranlar (2x): `docs/ekran/v3-01…08` (açılış, soru masaüstü+mobil, künye + kaynak kartı masaüstü/mobil, mushaf, takımyıldız, Kaynakça, ayet).
+**Notlar:** MTR-4 (ek örnek çipleri), MTR-6..11 içerik/etkileşim kararı gerektirir, yapılmadı. Kaynakça listesi dinamik; yalnız içerikte `kaynak` alanı olan satırları gösterir.
