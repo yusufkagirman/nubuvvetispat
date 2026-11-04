@@ -765,6 +765,15 @@
      },
      "satirlar": [
       {
+       "metin": "",
+       "ayet": {
+        "arapca": "غُلِبَتِ الرُّومُ ۝ فِي أَدْنَى الْأَرْضِ وَهُم مِّن بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ ۝ فِي بِضْعِ سِنِينَ",
+        "meal": "Rumlar yenildi; yakın bir yerde. Ama onlar yenilgilerinden sonra galip gelecekler, birkaç yıl içinde.",
+        "sure": "Rûm",
+        "no": "2-4"
+       }
+      },
+      {
        "metin": "Tarihçi Örnek Yazar bu konuda şöyle der.",
        "kaynak": {
         "yazar": "Örnek Yazar",
@@ -810,7 +819,7 @@
        "vurgu": true
       }
      ],
-     "dayanak": "Yalnız tasarım/motor testi için; gerçek künye değildir."
+     "dayanak": "Yalnız tasarım/motor testi için. Ayet örneği (Rûm 30:2-4) Arapça metin ve meal yayın öncesi iki mushaf/meal kaynağıyla teyit edilmelidir (dogrulanacak)."
     }
    ]
   }
