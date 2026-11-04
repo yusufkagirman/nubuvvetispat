@@ -1,6 +1,7 @@
 // diyagram.js — diyagram kataloğu (icerik/AKIS-SEMA.md). Her çizici {kok, sure, basla(), bitir(), iptal()} döndürür.
 // sure: animasyonun tamamlanma süresi (ms). CSS animasyonları `.goster` sınıfıyla başlar; `.hizli` her şeyi son hâline atlatır.
 import { durum } from './durum.js';
+import { tm, tmIptal } from './zaman.js';
 const NS = 'http://www.w3.org/2000/svg';
 const h = (tag, cls, metin, ata) => { const e = document.createElement(tag); if (cls) e.className = cls; if (metin != null) e.textContent = metin; if (ata) ata.appendChild(e); return e; };
 const s = (tag, a = {}, ata) => { const e = document.createElementNS(NS, tag); for (const k in a) e.setAttribute(k, a[k]); if (ata) ata.appendChild(e); return e; };
@@ -10,54 +11,88 @@ function temel(kok, sure, ekstra = {}) {
   const zamanlar = [];
   return {
     kok, sure,
-    t(fn, ms) { zamanlar.push(setTimeout(fn, ms)); },
+    t(fn, ms) { zamanlar.push(tm(fn, ms)); },
     basla() { kok.classList.add('goster'); ekstra.basla?.(this); },
     bitir() { kok.classList.add('goster', 'hizli'); ekstra.bitir?.(this); },
-    iptal() { zamanlar.forEach(clearTimeout); ekstra.iptal?.(); },
+    iptal() { zamanlar.forEach(tmIptal); ekstra.iptal?.(); },
   };
 }
 
-// ---- ihtimaller: Haber -> Doğru / Yalan -> Bilerek / Bilmeyerek ----
-function ihtimaller(v = {}, ctx) {
-  // kapali: verilmemiş/"auto" ise kullanıcının gerçek kapalı dalları; verilmişse onlarla birleşir (samimiyet->bilerek, fetanet->bilmeyerek)
-  const kapali = new Set(Array.isArray(v.kapali) ? v.kapali : []), vurgu = v.vurgu || null;
+// ---- ihtimaller: takımyıldız. Haber en parlak yıldız; kapanan dal söner, çizgisi kopar, bakır halka kalır ----
+const YEREL = { kaynakAc: null };
+export const diyagramKanca = YEREL;
+
+function ihtimaller(v = {}) {
+  const dar = innerWidth < 600;
+  const acik = Array.isArray(v.kapali) ? v.kapali : [];
+  const kapali = new Set(acik), vurgu = v.vurgu || null;
   if (durum.kapali.includes('samimiyet')) kapali.add('bilerek');
   if (durum.kapali.includes('fetanet')) kapali.add('bilmeyerek');
   if (kapali.has('bilerek') && kapali.has('bilmeyerek')) kapali.add('yalan');
-  const N = { haber: [345, 44, 'Haber'], dogru: [150, 190, 'Doğru'], yalan: [540, 190, 'Yalan'], bilerek: [410, 350, 'Bilerek'], bilmeyerek: [670, 350, 'Bilmeyerek'] };
+  // sönme anı yaşanacak düğümler: az önce kapanan dal ya da içerikte açıkça verilen kapalı liste
+  const yeni = new Set(acik);
+  if (durum.yeniKapanan === 'samimiyet') yeni.add('bilerek');
+  if (durum.yeniKapanan === 'fetanet') yeni.add('bilmeyerek');
+  // düğüm: [x, y, ad, yarıçap, etiket yönü]
+  const N = dar
+    ? { haber: [200, 46, 'Haber', 9, 'sag'], dogru: [78, 176, 'Doğru', 6.5, 'alt'], yalan: [292, 176, 'Yalan', 6.5, 'sag'], bilerek: [140, 332, 'Bilerek', 6.5, 'alt'], bilmeyerek: [300, 332, 'Bilmeyerek', 6.5, 'alt'] }
+    : { haber: [380, 54, 'Haber', 10, 'sag'], dogru: [150, 206, 'Doğru', 7, 'alt'], yalan: [560, 206, 'Yalan', 7, 'sag'], bilerek: [430, 352, 'Bilerek', 7, 'alt'], bilmeyerek: [690, 352, 'Bilmeyerek', 7, 'alt'] };
+  const VB = dar ? [400, 400] : [780, 420];
   const E = [['haber', 'dogru'], ['haber', 'yalan'], ['yalan', 'bilerek'], ['yalan', 'bilmeyerek']];
   const yol = { dogru: ['dogru'], yalan: ['yalan'], bilerek: ['yalan', 'bilerek'], bilmeyerek: ['yalan', 'bilmeyerek'] }[vurgu] || [];
   const parlak = new Set(yol);
   const kok = h('div', 'dg-kok dg-ihtimal');
-  const svg = s('svg', { viewBox: '0 0 760 410', class: 'dg-svg', role: 'img', 'aria-hidden': 'true' }, kok);
+  const svg = s('svg', { viewBox: `0 0 ${VB[0]} ${VB[1]}`, class: 'dg-svg', role: 'img', 'aria-hidden': 'true' }, kok);
   const defs = s('defs', {}, svg);
-  const f = s('filter', { id: 'dg-parla', x: '-40%', y: '-80%', width: '180%', height: '260%' }, defs);
-  s('feGaussianBlur', { stdDeviation: '5', result: 'b' }, f);
+  const f = s('filter', { id: 'dg-parla', x: '-60%', y: '-60%', width: '220%', height: '220%' }, defs);
+  s('feGaussianBlur', { stdDeviation: '4', result: 'b' }, f);
   const mg = s('feMerge', {}, f); s('feMergeNode', { in: 'b' }, mg); s('feMergeNode', { in: 'SourceGraphic' }, mg);
+  const grad = (id, rgb) => {
+    const g = s('radialGradient', { id }, defs);
+    s('stop', { offset: '0', 'stop-color': `rgb(${rgb})`, 'stop-opacity': '.55' }, g); s('stop', { offset: '1', 'stop-color': `rgb(${rgb})`, 'stop-opacity': '0' }, g);
+  };
+  grad('dg-hale', '186,208,255'); grad('dg-hale-altin', '246,214,140');
   const gecis = { haber: 0, dogru: 1100, yalan: 1100, bilerek: 2300, bilmeyerek: 2300 };
+  const OLUM = 2400; // sönme anı gecikmesi (ms)
   E.forEach(([a, b], i) => {
-    const [ax, ay] = N[a], [bx, by] = N[b];
-    const dd = `M${ax} ${ay + 22} C${ax} ${ay + 85},${bx} ${by - 85},${bx} ${by - 22}`;
+    const [ax, ay, , ar] = N[a], [bx, by, , br] = N[b];
+    const dd = `M${ax} ${ay + ar + 4} C${ax} ${ay + 90},${bx} ${by - 90},${bx} ${by - br - 4}`;
     const sinif = ['dg-yol'];
-    if (kapali.has(b)) sinif.push('kapali'); else if (parlak.has(b)) sinif.push('vurgu'); else if (yol.length) sinif.push('hafif');
+    const olu = kapali.has(b);
+    if (olu) sinif.push('kapali'); else if (parlak.has(b)) sinif.push('vurgu'); else if (yol.length) sinif.push('hafif');
+    if (olu) {
+      // kopan çizgi: üst parça yerinde, alt parça aşağı kayar
+      const ust = s('path', { d: dd, class: sinif.join(' ') + ' kirik', pathLength: 1 }, svg);
+      ust.style.setProperty('--da', '0.46 1'); d(ust, gecis[b] - 400);
+      const alt = s('path', { d: dd, class: sinif.join(' ') + ' kirik alt' + (yeni.has(b) ? ' yeni' : ''), pathLength: 1 }, svg);
+      alt.style.setProperty('--da', '0 0.56 0.44 1'); d(alt, gecis[b] - 400);
+      if (yeni.has(b)) alt.style.setProperty('--olum', `${OLUM}ms`);
+      return;
+    }
     const p = s('path', { d: dd, class: sinif.join(' '), pathLength: 1 }, svg);
     d(p, gecis[b] - 600);
     if (sinif.includes('vurgu')) {
       p.setAttribute('filter', 'url(#dg-parla)');
-      const c = s('circle', { r: 3.2, class: 'dg-isik' }, svg); d(c, gecis[b] + 400);
-      const am = s('animateMotion', { dur: '2.6s', repeatCount: 'indefinite', path: dd, begin: `${(gecis[b] + 400) / 1000}s` }, c);
-      void am;
+      const c = s('circle', { r: 2.6, class: 'dg-isik' }, svg); d(c, gecis[b] + 400);
+      s('animateMotion', { dur: '2.6s', repeatCount: 'indefinite', path: dd, begin: `${(gecis[b] + 400) / 1000}s` }, c);
     }
   });
   for (const id in N) {
-    const [x, y, ad] = N[id];
-    const g = s('g', { class: 'dg-dugum dg ' + (kapali.has(id) ? 'kapali' : parlak.has(id) ? 'vurgu' : yol.length || vurgu === 'dogru' ? 'hafif' : '') }, svg);
-    d(g, gecis[id]);
-    const w = id === 'bilmeyerek' ? 150 : 130;
-    s('rect', { x: x - w / 2, y: y - 22, width: w, height: 44, rx: 22 }, g);
-    const t = s('text', { x, y: y + 6.5, 'text-anchor': 'middle' }, g); t.textContent = ad;
+    const [x, y, ad, r, yon] = N[id];
+    const olu = kapali.has(id), par = parlak.has(id), haf = !olu && !par && (yol.length || vurgu === 'dogru');
+    const g = s('g', { class: `dg-dugum dg ${olu ? 'kapali' : par ? 'vurgu' : haf ? 'hafif' : ''} ${olu && yeni.has(id) ? 'yeni' : ''} ${id === 'haber' ? 'ana' : ''}`.replace(/\s+/g, ' ').trim() }, svg);
+    d(g, gecis[id]); if (olu && yeni.has(id)) g.style.setProperty('--olum', `${OLUM}ms`);
+    const yd = s('g', { class: 'yd' }, g);
+    s('circle', { cx: x, cy: y, r: r * 4.2, class: 'hale', fill: `url(#${par ? 'dg-hale-altin' : 'dg-hale'})` }, yd);
+    const L = r * 3.4;
+    s('line', { x1: x - L, y1: y, x2: x + L, y2: y, class: 'isin' }, yd); s('line', { x1: x, y1: y - L, x2: x, y2: y + L, class: 'isin' }, yd);
+    if (par) s('circle', { cx: x, cy: y, r: r + 3, class: 'halka' }, yd);
+    s('circle', { cx: x, cy: y, r, class: 'cekirdek' }, yd);
+    if (olu) s('circle', { cx: x, cy: y, r: r + 6, class: 'bakir' }, yd);
+    const tx = yon === 'sag' ? x + r + 14 : x, ty = yon === 'sag' ? y + 6 : y + r + 32;
+    const t = s('text', { x: tx, y: ty, 'text-anchor': yon === 'sag' ? 'start' : 'middle' }, g); t.textContent = ad;
   }
-  return temel(kok, 3400);
+  return temel(kok, 3600, { basla() { if (durum.yeniKapanan) setTimeout(() => { durum.yeniKapanan = null; }, 100); } });
 }
 
 // ---- demet: çubuklar tek tek kırılır, demet sağlam kalır ----
@@ -154,8 +189,16 @@ function alinti(v = {}) {
   const adim = Math.min(160, 3600 / Math.max(1, kel.length));
   kel.forEach((w, i) => { const sp = h('span', 'dg', w, q); d(sp, i * adim); q.appendChild(document.createTextNode(' ')); });
   const bitis = kel.length * adim + 600;
-  if (v.kim) { const k = h('div', 'kim dg', '— ' + v.kim, kok); d(k, bitis); }
-  return temel(kok, bitis + 1100);
+  const kay = v.kaynak && !Array.isArray(v.kaynak) ? v.kaynak : null;
+  const kim = v.kim || kay?.yazar;
+  if (kim) {
+    const kap = h('div', 'kimlik-blok dg', null, kok); d(kap, bitis);
+    const k = h(kay ? 'button' : 'div', 'kim', kim, kap);
+    if (kay) { k.type = 'button'; k.setAttribute('aria-label', `${kim}: kaynak bilgisi`); k.addEventListener('click', () => YEREL.kaynakAc?.(kay, k)); }
+    const kimlik = v.kimlik || kay?.kimlik || kay?.not;
+    if (kimlik) h('div', 'kimlik', String(kimlik).replace(/^Kimlik:\s*/i, ''), kap);
+  }
+  return temel(kok, bitis + 1300);
 }
 
 // ---- galeri ----

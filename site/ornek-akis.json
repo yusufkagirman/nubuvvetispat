@@ -1,122 +1,818 @@
 {
-  "bolgeler": [
-    { "bolge": "acilis", "beats": [
-      { "id": "acilis.merhaba",
-        "sahne": { "arkaplan": "gokyuzu" },
-        "satirlar": [ { "metin": "Merhaba." }, { "metin": "Seninle bir şeyi baştan sona, acele etmeden konuşmak istiyorum." }, { "metin": "Önce seni tanıyayım." } ],
-        "soru": { "metin": "Bir Tanrı'nın var olduğunu düşünüyor musun?", "cipler": ["Evet", "Hayır", "Emin değilim"], "serbest": true },
-        "yollar": [
-          { "tur": "profil", "anahtar": ["hayır", "yok", "sanmıyorum"], "profil": { "tanri": "hayir" } },
-          { "tur": "profil", "anahtar": ["emin değilim", "bilmiyorum", "belki"], "profil": { "tanri": "emin-degil" } },
-          { "tur": "profil", "anahtar": ["evet", "inanıyorum", "var"], "profil": { "tanri": "evet" } },
-          { "tur": "yonlendir", "anahtar": ["diyagramlar"], "git": "ornek.diyagramlar" }
-        ],
-        "varsayilan": "acilis.sonraki", "sonraki": "acilis.sonraki" },
-      { "id": "acilis.sonraki",
-        "sahne": { "arkaplan": "gokyuzu" },
-        "satirlar": [ { "metin": "Güzel." }, { "metin": "Bir de şunu merak ediyorum." } ],
-        "soru": { "metin": "Eski metinlere, bir kaynak olarak ne kadar güvenirsin?", "cipler": ["Çok", "Biraz", "Pek değil"], "serbest": true },
-        "yollar": [
-          { "tur": "profil", "anahtar": ["pek değil", "güvenmem", "az", "hiç"], "profil": { "kaynakGuveni": "dusuk" } },
-          { "tur": "profil", "anahtar": ["biraz", "orta", "duruma göre"], "profil": { "kaynakGuveni": "orta" } },
-          { "tur": "profil", "anahtar": ["çok", "güvenirim", "yüksek"], "profil": { "kaynakGuveni": "yuksek" } }
-        ],
-        "varsayilan": "zemin.giris", "sonraki": "zemin.giris" }
-    ] },
-    { "bolge": "zemin", "beats": [
-      { "id": "zemin.giris",
-        "dallan": [ { "kosul": { "profil.kaynakGuveni": "yuksek", "profil.tanri": ["evet", "emin-degil"] }, "git": "haber.giris" } ],
-        "sahne": { "arkaplan": "col" },
-        "satirlar": [ { "metin": "Bir metne güvenmek için önce onun yaşadığı dünyaya bakmak gerekir." }, { "metin": "Çöl. Kum. Ve sözlü bir kültür.", "vurgu": true }, { "metin": "Bir metin ne zaman değişmeden gelir?" } ],
-        "soru": { "metin": "Sence bir metin zamanla fark edilmeden değişebilir mi?", "cipler": ["Evet, değişebilir", "Pek sanmam"] },
-        "yollar": [
-          { "tur": "itiraz", "anahtar": ["değişir", "değişebilir", "değişmiş"], "yanit": ["Haklı bir kaygı.", "Peki değişmenin bir izi kalmaz mı? Yazma tekniği, hafızlar, farklı bölgelerdeki nüshalar…"] },
-          { "tur": "ikna", "anahtar": ["pek sanmam", "sanmam", "değişmez"], "git": "zemin.mushaf" }
-        ],
-        "ekOrnekler": [ { "satirlar": [ { "metin": "Peki ya yüzlerce kilometre uzaktaki iki nüsha?" } ], "soru": "Birbirinden habersiz nüshalar birebir tutarsa, bu neyi gösterir?" } ],
-        "kompozisyon": "Peki bu durumda metnin korunmuşluğunu kendi sözlerinle nasıl açıklarsın?",
-        "kopru": ["Birazdan oraya geleceğiz. Şimdi şunu soruyordum:"],
-        "sonraki": "zemin.mushaf" },
-      { "id": "zemin.mushaf",
-        "sahne": { "arkaplan": "mushaf", "gorsel": "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg" },
-        "satirlar": [ { "metin": "Bir yazmayı düşün." }, { "metin": "Bugün Birmingham'da duran iki yaprak." },
-          { "metin": "Karbon testi, Peygamber'in yaşadığı yılları gösteriyor.", "vurgu": true },
-          { "metin": "Londra'da bir başka sayfa.", "gorsel": "gorseller/mushaflar/kitaptan/21-londra-or2165-1.jpg" },
-          { "metin": "Daha eski nüsha sayısı", "diyagram": { "tur": "sayac", "veri": { "sayi": 45, "etiket": "erken dönem yazma" } } } ],
-        "soru": { "metin": "Metin sonradan değiştirilseydi, bu yapraklar neyi gösterirdi?", "cipler": ["Değişmemiş demek ki", "Yine de emin değilim"] },
-        "yollar": [
-          { "tur": "ikna", "anahtar": ["değişmemiş", "haklısın", "mantıklı"], "git": "haber.giris" },
-          { "tur": "itiraz", "anahtar": ["karbon", "yanılabilir", "test"], "yanit": "Karbon testi tek başına bir şey söylemez; asıl önemli olan, birbirinden bağımsız nüshaların uyumu." }
-        ],
-        "ekOrnekler": [
-          { "satirlar": [ { "metin": "Bir de başka bir kıtadaki bir sayfa." } ], "soru": "Aynı metnin iki ayrı yerde birebir çıkması tesadüf olabilir mi?", "sahne": { "arkaplan": "mushaf", "gorsel": "gorseller/mushaflar/kitaptan/22-paris-parisino-petropolitanus-1.jpg" } },
-          { "satirlar": [ { "metin": "Üçüncü bir sayfa daha." } ], "soru": "Hâlâ bir sonradan değiştirme mümkün görünüyor mu?" }
-        ],
-        "kompozisyon": "Bütün bu verileri birlikte nasıl açıklıyorsun?",
-        "sonraki": "haber.giris" }
-    ] },
-    { "bolge": "haber", "beats": [
-      { "id": "haber.giris",
-        "sahne": { "arkaplan": "safak" },
-        "satirlar": [ { "metin": "Hz. Muhammed bir haber getirdi." }, { "metin": "“Allah benimle Cebrail aracılığıyla konuşuyor.”", "vurgu": true },
-          { "metin": "", "diyagram": { "tur": "alinti", "veri": { "metin": "Bu haber, dün Ankara'daydım demek gibi, doğru ya da yanlış olarak sınanabilir.", "kim": "Bir sınama ilkesi" } } } ],
-        "sonraki": "haber.ihtimaller" },
-      { "id": "haber.ihtimaller",
-        "sahne": { "arkaplan": "isik", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": null, "kapali": "auto" } } },
-        "satirlar": [ { "metin": "Bir haber ya doğrudur ya yanlış." }, { "metin": "Yanlışsa, ya bilerek ya da bilmeyerek." } ],
-        "soru": { "metin": "Sence bu ihtimallerden hangisi?", "cipler": ["Bilerek uydurdu", "Yanıldı, hasta idi", "Doğru söylüyor"] },
-        "yollar": [
-          { "tur": "yonlendir", "anahtar": ["uydurdu", "yalan", "bilerek", "sahtekar"], "git": "samimiyet.giris", "profil": { "iddia": "sahtekar" } },
-          { "tur": "yonlendir", "anahtar": ["hasta", "deli", "yanıldı", "sara"], "git": "fetanet.giris", "profil": { "iddia": "deli" } },
-          { "tur": "yonlendir", "anahtar": ["doğru söylüyor", "doğru"], "git": "mucize.giris", "profil": { "iddia": "dogru" } },
-          { "tur": "yonlendir", "anahtar": ["diyagramlar"], "git": "ornek.diyagramlar" }
-        ],
-        "sonraki": "mucize.giris" },
-      { "id": "haber.kalan",
-        "dallan": [ { "kosul": { "kapali": ["samimiyet", "fetanet"] }, "git": "mucize.giris" }, { "kosul": { "kapali": "samimiyet" }, "git": "fetanet.giris" } ],
-        "sahne": { "arkaplan": "gokyuzu", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "bilmeyerek" } } },
-        "satirlar": [ { "metin": "Bir ihtimal kapandı." }, { "metin": "Geriye ne kaldı?", "vurgu": true } ],
-        "sonraki": "haber.ihtimaller" }
-    ] },
-    { "bolge": "samimiyet", "beats": [
-      { "id": "samimiyet.giris",
-        "dallan": [ { "kosul": { "kapali": "samimiyet" }, "git": "haber.kalan" } ],
-        "sahne": { "arkaplan": "col" },
-        "satirlar": [ { "metin": "Bilerek uydurduğunu söyleyenlere bakalım." },
-          { "metin": "Yalan söyleyen biri, çıkarına hizmet eden bir yol seçer.", "diyagram": { "tur": "demet", "veri": { "cubuklar": ["Mal mülk için mi?", "Makam için mi?", "Şöhret için mi?"] } } } ],
-        "soru": { "metin": "Mal, makam, şöhret: bunların hiçbirini istemeyen biri yalan için neden zahmete girsin?", "cipler": ["Mantıklı bir soru", "Yine de ikna olmadım"] },
-        "yollar": [
-          { "tur": "ikna", "anahtar": ["mantıklı", "haklısın", "ikna oldum"], "git": "haber.kalan" },
-          { "tur": "itiraz", "anahtar": ["hırs", "güç", "iktidar"], "yanit": ["İyi bir itiraz.", "Peki iktidar sahibi olduktan sonra bile sade yaşamak nasıl açıklanır?"] }
-        ],
-        "kapat": "samimiyet",
-        "ekOrnekler": [ { "satirlar": [ { "metin": "Bir hadise daha: en zor günlerde bile aynı sözü tekrarlaması." } ], "soru": "Sahtekâr biri bu baskı altında vazgeçmez miydi?" } ],
-        "kompozisyon": "Peki sen onun samimiyetini hangi verilerle açıklarsın?",
-        "sonraki": "haber.kalan" }
-    ] },
-    { "bolge": "fetanet", "beats": [
-      { "id": "fetanet.giris",
-        "dallan": [ { "kosul": { "kapali": "fetanet" }, "git": "mucize.giris" } ],
-        "sahne": { "arkaplan": "gokyuzu" },
-        "satirlar": [ { "metin": "Peki bilmeden yanıldıysa?" },
-          { "metin": "", "diyagram": { "tur": "zaman", "veri": { "noktalar": [ { "yil": "570", "etiket": "Doğum" }, { "yil": "610", "etiket": "İlk haber" }, { "yil": "622", "etiket": "Hicret" }, { "yil": "632", "etiket": "Veda" } ] } } },
-          { "metin": "Başarı", "diyagram": { "tur": "denklem", "veri": { "parcalar": ["Başarı", "=", "Son durum", "−", "(Toplum + Birey)"] } } },
-          { "metin": "Haklı", "diyagram": { "tur": "karsilastirma", "veri": { "sol": { "baslik": "Yanılan biri", "maddeler": ["Tutarsız olur", "Çevresine bağlıdır"] }, "sag": { "baslik": "Gördüğümüz", "maddeler": ["Kararlı", "Çevresinden farklı"] } } } } ],
-        "soru": { "metin": "Bu kadar tutarlı biri yanılıyor olabilir mi?", "cipler": ["Sanmıyorum", "Yine de olabilir"] },
-        "yollar": [ { "tur": "ikna", "anahtar": ["sanmıyorum", "olamaz"], "git": "haber.kalan" } ],
-        "kapat": "fetanet",
-        "sonraki": "haber.kalan" }
-    ] },
-    { "bolge": "ornek", "beats": [
-      { "id": "ornek.diyagramlar",
-        "sahne": { "arkaplan": "gokyuzu" },
-        "satirlar": [
-          { "metin": "", "diyagram": { "tur": "ihtimaller", "veri": { "vurgu": "yalan", "kapali": ["bilerek"] } } },
-          { "metin": "Bir demet.", "diyagram": { "tur": "demet", "veri": { "cubuklar": ["Bir", "İki", "Üç"] } } },
-          { "metin": "", "diyagram": { "tur": "galeri", "veri": { "gorseller": ["gorseller/mushaflar/kitaptan/20-birmingham-1.jpg", "gorseller/mushaflar/kitaptan/21-londra-or2165-1.jpg"], "etiketler": ["Birmingham", "Londra"] } } },
-          { "metin": "Bu kadar.", "vurgu": true }
-        ],
-        "dayanak": "Yalnız motor testi için." }
-    ] }
-  ]
+ "bolgeler": [
+  {
+   "bolge": "acilis",
+   "beats": [
+    {
+     "id": "acilis.merhaba",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Merhaba.",
+       "tempo": "yavas",
+       "duraklama": 900
+      },
+      {
+       "metin": "Seninle bir şeyi baştan sona, acele etmeden konuşmak istiyorum."
+      },
+      {
+       "metin": "Önce seni tanıyayım."
+      }
+     ],
+     "soru": {
+      "metin": "Bir Tanrı'nın var olduğunu düşünüyor musun?",
+      "cipler": [
+       "Evet",
+       "Hayır",
+       "Emin değilim"
+      ],
+      "serbest": true,
+      "ipucu": "Kısaca yaz; çiplerden biri de olur…"
+     },
+     "yollar": [
+      {
+       "tur": "profil",
+       "anahtar": [
+        "hayır",
+        "yok",
+        "sanmıyorum"
+       ],
+       "profil": {
+        "tanri": "hayir"
+       }
+      },
+      {
+       "tur": "profil",
+       "anahtar": [
+        "emin değilim",
+        "bilmiyorum",
+        "belki"
+       ],
+       "profil": {
+        "tanri": "emin-degil"
+       }
+      },
+      {
+       "tur": "profil",
+       "anahtar": [
+        "evet",
+        "inanıyorum",
+        "var"
+       ],
+       "profil": {
+        "tanri": "evet"
+       }
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "diyagramlar"
+       ],
+       "git": "ornek.diyagramlar"
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "tempo"
+       ],
+       "git": "ornek.tempo"
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "kaynak"
+       ],
+       "git": "ornek.kaynak"
+      }
+     ],
+     "varsayilan": "acilis.sonraki",
+     "sonraki": "acilis.sonraki"
+    },
+    {
+     "id": "acilis.sonraki",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Güzel."
+      },
+      {
+       "metin": "Bir de şunu merak ediyorum."
+      }
+     ],
+     "soru": {
+      "metin": "Eski metinlere, bir kaynak olarak ne kadar güvenirsin?",
+      "cipler": [
+       "Çok",
+       "Biraz",
+       "Pek değil"
+      ],
+      "serbest": true
+     },
+     "yollar": [
+      {
+       "tur": "profil",
+       "anahtar": [
+        "pek değil",
+        "güvenmem",
+        "az",
+        "hiç"
+       ],
+       "profil": {
+        "kaynakGuveni": "dusuk"
+       }
+      },
+      {
+       "tur": "profil",
+       "anahtar": [
+        "biraz",
+        "orta",
+        "duruma göre"
+       ],
+       "profil": {
+        "kaynakGuveni": "orta"
+       }
+      },
+      {
+       "tur": "profil",
+       "anahtar": [
+        "çok",
+        "güvenirim",
+        "yüksek"
+       ],
+       "profil": {
+        "kaynakGuveni": "yuksek"
+       }
+      }
+     ],
+     "varsayilan": "zemin.giris",
+     "sonraki": "zemin.giris"
+    }
+   ]
+  },
+  {
+   "bolge": "zemin",
+   "beats": [
+    {
+     "id": "zemin.giris",
+     "dallan": [
+      {
+       "kosul": {
+        "profil.kaynakGuveni": "yuksek",
+        "profil.tanri": [
+         "evet",
+         "emin-degil"
+        ]
+       },
+       "git": "haber.giris"
+      }
+     ],
+     "sahne": {
+      "arkaplan": "col"
+     },
+     "satirlar": [
+      {
+       "metin": "Bir metne güvenmek için önce onun yaşadığı dünyaya bakmak gerekir."
+      },
+      {
+       "metin": "Çöl. Kum. Ve sözlü bir kültür.",
+       "vurgu": true
+      },
+      {
+       "metin": "Bir metin ne zaman değişmeden gelir?"
+      }
+     ],
+     "soru": {
+      "metin": "Sence bir metin zamanla fark edilmeden değişebilir mi?",
+      "cipler": [
+       "Evet, değişebilir",
+       "Pek sanmam"
+      ]
+     },
+     "yollar": [
+      {
+       "tur": "itiraz",
+       "anahtar": [
+        "değişir",
+        "değişebilir",
+        "değişmiş"
+       ],
+       "yanit": [
+        "Haklı bir kaygı.",
+        "Peki değişmenin bir izi kalmaz mı? Yazma tekniği, hafızlar, farklı bölgelerdeki nüshalar…"
+       ]
+      },
+      {
+       "tur": "ikna",
+       "anahtar": [
+        "pek sanmam",
+        "sanmam",
+        "değişmez"
+       ],
+       "git": "zemin.mushaf"
+      }
+     ],
+     "ekOrnekler": [
+      {
+       "satirlar": [
+        {
+         "metin": "Peki ya yüzlerce kilometre uzaktaki iki nüsha?"
+        }
+       ],
+       "soru": "Birbirinden habersiz nüshalar birebir tutarsa, bu neyi gösterir?"
+      }
+     ],
+     "kompozisyon": "Peki bu durumda metnin korunmuşluğunu kendi sözlerinle nasıl açıklarsın?",
+     "kopru": [
+      "Birazdan oraya geleceğiz. Şimdi şunu soruyordum:"
+     ],
+     "sonraki": "zemin.mushaf"
+    },
+    {
+     "id": "zemin.mushaf",
+     "sahne": {
+      "arkaplan": "mushaf",
+      "gorsel": "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg"
+     },
+     "satirlar": [
+      {
+       "metin": "Bir yazmayı düşün."
+      },
+      {
+       "metin": "Bugün Birmingham'da duran iki yaprak."
+      },
+      {
+       "metin": "Karbon testi, Peygamber'in yaşadığı yılları gösteriyor.",
+       "vurgu": true
+      },
+      {
+       "metin": "Londra'da bir başka sayfa.",
+       "gorsel": "gorseller/mushaflar/kitaptan/21-londra-or2165-1.jpg"
+      },
+      {
+       "metin": "Daha eski nüsha sayısı",
+       "diyagram": {
+        "tur": "sayac",
+        "veri": {
+         "sayi": 45,
+         "etiket": "erken dönem yazma"
+        }
+       }
+      }
+     ],
+     "soru": {
+      "metin": "Metin sonradan değiştirilseydi, bu yapraklar neyi gösterirdi?",
+      "cipler": [
+       "Değişmemiş demek ki",
+       "Yine de emin değilim"
+      ]
+     },
+     "yollar": [
+      {
+       "tur": "ikna",
+       "anahtar": [
+        "değişmemiş",
+        "haklısın",
+        "mantıklı"
+       ],
+       "git": "haber.giris"
+      },
+      {
+       "tur": "itiraz",
+       "anahtar": [
+        "karbon",
+        "yanılabilir",
+        "test"
+       ],
+       "yanit": "Karbon testi tek başına bir şey söylemez; asıl önemli olan, birbirinden bağımsız nüshaların uyumu."
+      }
+     ],
+     "ekOrnekler": [
+      {
+       "satirlar": [
+        {
+         "metin": "Bir de başka bir kıtadaki bir sayfa."
+        }
+       ],
+       "soru": "Aynı metnin iki ayrı yerde birebir çıkması tesadüf olabilir mi?",
+       "sahne": {
+        "arkaplan": "mushaf",
+        "gorsel": "gorseller/mushaflar/kitaptan/22-paris-parisino-petropolitanus-1.jpg"
+       }
+      },
+      {
+       "satirlar": [
+        {
+         "metin": "Üçüncü bir sayfa daha."
+        }
+       ],
+       "soru": "Hâlâ bir sonradan değiştirme mümkün görünüyor mu?"
+      }
+     ],
+     "kompozisyon": "Bütün bu verileri birlikte nasıl açıklıyorsun?",
+     "sonraki": "haber.giris"
+    }
+   ]
+  },
+  {
+   "bolge": "haber",
+   "beats": [
+    {
+     "id": "haber.giris",
+     "sahne": {
+      "arkaplan": "safak"
+     },
+     "satirlar": [
+      {
+       "metin": "Hz. Muhammed bir haber getirdi."
+      },
+      {
+       "metin": "“Allah benimle Cebrail aracılığıyla konuşuyor.”",
+       "vurgu": true
+      },
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "alinti",
+        "veri": {
+         "metin": "Bu haber, dün Ankara'daydım demek gibi, doğru ya da yanlış olarak sınanabilir.",
+         "kim": "Bir sınama ilkesi"
+        }
+       }
+      }
+     ],
+     "sonraki": "haber.ihtimaller"
+    },
+    {
+     "id": "haber.ihtimaller",
+     "sahne": {
+      "arkaplan": "isik",
+      "diyagram": {
+       "tur": "ihtimaller",
+       "veri": {
+        "vurgu": null,
+        "kapali": "auto"
+       }
+      }
+     },
+     "satirlar": [
+      {
+       "metin": "Bir haber ya doğrudur ya yanlış."
+      },
+      {
+       "metin": "Yanlışsa, ya bilerek ya da bilmeyerek."
+      }
+     ],
+     "soru": {
+      "metin": "Sence bu ihtimallerden hangisi?",
+      "cipler": [
+       "Bilerek uydurdu",
+       "Yanıldı, hasta idi",
+       "Doğru söylüyor"
+      ]
+     },
+     "yollar": [
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "uydurdu",
+        "yalan",
+        "bilerek",
+        "sahtekar"
+       ],
+       "git": "samimiyet.giris",
+       "profil": {
+        "iddia": "sahtekar"
+       }
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "hasta",
+        "deli",
+        "yanıldı",
+        "sara"
+       ],
+       "git": "fetanet.giris",
+       "profil": {
+        "iddia": "deli"
+       }
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "doğru söylüyor",
+        "doğru"
+       ],
+       "git": "mucize.giris",
+       "profil": {
+        "iddia": "dogru"
+       }
+      },
+      {
+       "tur": "yonlendir",
+       "anahtar": [
+        "diyagramlar"
+       ],
+       "git": "ornek.diyagramlar"
+      }
+     ],
+     "sonraki": "mucize.giris"
+    },
+    {
+     "id": "haber.kalan",
+     "dallan": [
+      {
+       "kosul": {
+        "kapali": [
+         "samimiyet",
+         "fetanet"
+        ]
+       },
+       "git": "mucize.giris"
+      },
+      {
+       "kosul": {
+        "kapali": "samimiyet"
+       },
+       "git": "fetanet.giris"
+      }
+     ],
+     "sahne": {
+      "arkaplan": "gokyuzu",
+      "diyagram": {
+       "tur": "ihtimaller",
+       "veri": {
+        "vurgu": "bilmeyerek"
+       }
+      }
+     },
+     "satirlar": [
+      {
+       "metin": "Bir ihtimal kapandı."
+      },
+      {
+       "metin": "Geriye ne kaldı?",
+       "vurgu": true
+      }
+     ],
+     "sonraki": "haber.ihtimaller"
+    }
+   ]
+  },
+  {
+   "bolge": "samimiyet",
+   "beats": [
+    {
+     "id": "samimiyet.giris",
+     "dallan": [
+      {
+       "kosul": {
+        "kapali": "samimiyet"
+       },
+       "git": "haber.kalan"
+      }
+     ],
+     "sahne": {
+      "arkaplan": "col"
+     },
+     "satirlar": [
+      {
+       "metin": "Bilerek uydurduğunu söyleyenlere bakalım."
+      },
+      {
+       "metin": "Yalan söyleyen biri, çıkarına hizmet eden bir yol seçer.",
+       "diyagram": {
+        "tur": "demet",
+        "veri": {
+         "cubuklar": [
+          "Mal mülk için mi?",
+          "Makam için mi?",
+          "Şöhret için mi?"
+         ]
+        }
+       }
+      }
+     ],
+     "soru": {
+      "metin": "Mal, makam, şöhret: bunların hiçbirini istemeyen biri yalan için neden zahmete girsin?",
+      "cipler": [
+       "Mantıklı bir soru",
+       "Yine de ikna olmadım"
+      ]
+     },
+     "yollar": [
+      {
+       "tur": "ikna",
+       "anahtar": [
+        "mantıklı",
+        "haklısın",
+        "ikna oldum"
+       ],
+       "git": "haber.kalan"
+      },
+      {
+       "tur": "itiraz",
+       "anahtar": [
+        "hırs",
+        "güç",
+        "iktidar"
+       ],
+       "yanit": [
+        "İyi bir itiraz.",
+        "Peki iktidar sahibi olduktan sonra bile sade yaşamak nasıl açıklanır?"
+       ]
+      }
+     ],
+     "kapat": "samimiyet",
+     "ekOrnekler": [
+      {
+       "satirlar": [
+        {
+         "metin": "Bir hadise daha: en zor günlerde bile aynı sözü tekrarlaması."
+        }
+       ],
+       "soru": "Sahtekâr biri bu baskı altında vazgeçmez miydi?"
+      }
+     ],
+     "kompozisyon": "Peki sen onun samimiyetini hangi verilerle açıklarsın?",
+     "sonraki": "haber.kalan"
+    }
+   ]
+  },
+  {
+   "bolge": "fetanet",
+   "beats": [
+    {
+     "id": "fetanet.giris",
+     "dallan": [
+      {
+       "kosul": {
+        "kapali": "fetanet"
+       },
+       "git": "mucize.giris"
+      }
+     ],
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Peki bilmeden yanıldıysa?"
+      },
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "zaman",
+        "veri": {
+         "noktalar": [
+          {
+           "yil": "570",
+           "etiket": "Doğum"
+          },
+          {
+           "yil": "610",
+           "etiket": "İlk haber"
+          },
+          {
+           "yil": "622",
+           "etiket": "Hicret"
+          },
+          {
+           "yil": "632",
+           "etiket": "Veda"
+          }
+         ]
+        }
+       }
+      },
+      {
+       "metin": "Başarı",
+       "diyagram": {
+        "tur": "denklem",
+        "veri": {
+         "parcalar": [
+          "Başarı",
+          "=",
+          "Son durum",
+          "−",
+          "(Toplum + Birey)"
+         ]
+        }
+       }
+      },
+      {
+       "metin": "Haklı",
+       "diyagram": {
+        "tur": "karsilastirma",
+        "veri": {
+         "sol": {
+          "baslik": "Yanılan biri",
+          "maddeler": [
+           "Tutarsız olur",
+           "Çevresine bağlıdır"
+          ]
+         },
+         "sag": {
+          "baslik": "Gördüğümüz",
+          "maddeler": [
+           "Kararlı",
+           "Çevresinden farklı"
+          ]
+         }
+        }
+       }
+      }
+     ],
+     "soru": {
+      "metin": "Bu kadar tutarlı biri yanılıyor olabilir mi?",
+      "cipler": [
+       "Sanmıyorum",
+       "Yine de olabilir"
+      ]
+     },
+     "yollar": [
+      {
+       "tur": "ikna",
+       "anahtar": [
+        "sanmıyorum",
+        "olamaz"
+       ],
+       "git": "haber.kalan"
+      }
+     ],
+     "kapat": "fetanet",
+     "sonraki": "haber.kalan"
+    }
+   ]
+  },
+  {
+   "bolge": "ornek",
+   "beats": [
+    {
+     "id": "ornek.diyagramlar",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "ihtimaller",
+        "veri": {
+         "vurgu": "yalan",
+         "kapali": [
+          "bilerek"
+         ]
+        }
+       }
+      },
+      {
+       "metin": "Bir demet.",
+       "diyagram": {
+        "tur": "demet",
+        "veri": {
+         "cubuklar": [
+          "Bir",
+          "İki",
+          "Üç"
+         ]
+        }
+       }
+      },
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "galeri",
+        "veri": {
+         "gorseller": [
+          "gorseller/mushaflar/kitaptan/20-birmingham-1.jpg",
+          "gorseller/mushaflar/kitaptan/21-londra-or2165-1.jpg"
+         ],
+         "etiketler": [
+          "Birmingham",
+          "Londra"
+         ]
+        }
+       }
+      },
+      {
+       "metin": "Bu kadar.",
+       "vurgu": true
+      }
+     ],
+     "dayanak": "Yalnız motor testi için."
+    },
+    {
+     "id": "ornek.tempo",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Bir haber gelir.",
+       "tempo": "yavas"
+      },
+      {
+       "metin": "Kısa. Sert. Peş peşe.",
+       "tempo": "hizli"
+      },
+      {
+       "metin": "Dur.",
+       "tempo": "hizli",
+       "duraklama": 400
+      },
+      {
+       "sessiz": true,
+       "duraklama": 2600
+      },
+      {
+       "metin": "Peki *sahtekâr* biri bunu yıllarca *sürdürür* mü?"
+      },
+      {
+       "metin": "Yazıldı, toplandı, çoğaltıldı.",
+       "vurgu": true
+      },
+      {
+       "metin": "Aynı metin, iki kıtada.",
+       "vurgu": "an"
+      },
+      {
+       "metin": "Şimdi sence bu bir tesadüf mü?"
+      }
+     ],
+     "soru": {
+      "metin": "Bu kadarını tesadüfle açıklayabilir misin?",
+      "cipler": [
+       "Sanmıyorum",
+       "Evet, olabilir",
+       "Emin değilim"
+      ],
+      "ipucu": "Kendi gerekçeni de yazabilirsin…",
+      "buyuk": true,
+      "serbest": true
+     },
+     "varsayilan": "ornek.kaynak",
+     "sonraki": "ornek.kaynak"
+    },
+    {
+     "id": "ornek.kaynak",
+     "sahne": {
+      "arkaplan": "gokyuzu"
+     },
+     "satirlar": [
+      {
+       "metin": "Tarihçi Örnek Yazar bu konuda şöyle der.",
+       "kaynak": {
+        "yazar": "Örnek Yazar",
+        "eser": "Örnek Eser",
+        "yer": "Örnek Şehir",
+        "yil": "1953",
+        "sayfa": "52",
+        "not": "Kimlik: Deneme verisi; gerçek bir kişi değildir",
+        "alinti": "Bu cümle yalnız tasarım denemesi içindir; kimseye ait değildir.",
+        "dogrulanacak": false
+       }
+      },
+      {
+       "metin": "Bir başka tanıklık, *metnin korunmuşluğu* üzerine.",
+       "kaynak": {
+        "yazar": "Örnek Kurum",
+        "eser": "Örnek Rapor",
+        "yil": "2015",
+        "kimlik": "Deneme verisi; künyesi doğrulanmamış",
+        "dogrulanacak": true
+       }
+      },
+      {
+       "metin": "",
+       "diyagram": {
+        "tur": "alinti",
+        "veri": {
+         "metin": "Bu haber, doğru ya da yanlış olarak sınanabilir.",
+         "kim": "Bir sınama ilkesi",
+         "kaynak": {
+          "yazar": "Örnek Alıntı Yazarı",
+          "eser": "Örnek Alıntı Kitabı",
+          "yil": "2000",
+          "sayfa": "7",
+          "kimlik": "Deneme verisi",
+          "alinti": "Yalnız tasarım denemesi içindir."
+         }
+        }
+       }
+      },
+      {
+       "metin": "Bu kadar.",
+       "vurgu": true
+      }
+     ],
+     "dayanak": "Yalnız tasarım/motor testi için; gerçek künye değildir."
+    }
+   ]
+  }
+ ]
 }

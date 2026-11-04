@@ -223,7 +223,16 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir tarihçi, ilk derlemenin hemen kullanıldığını yazar."
+              "metin": "Oryantalist William Muir, ilk derlemenin hemen kullanıldığını yazar.",
+              "kaynak": {
+                "yazar": "Sir William Muir",
+                "eser": "Kur'an: Mahiyeti, Öğretisi ve Kitabı Mukaddeslerle İlgili Tanıklığı (Ankara Okulu, Türkçe çev.)",
+                "yer": "Ankara",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İngiliz oryantalist",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Üstelik bunu sorgulayan çıkmamış."
@@ -266,7 +275,16 @@
           "metin": "Ve galip ordu durur. Silahlar iner."
         },
         {
-          "metin": "Batılı tarihçiler bunu bir askerî hile olarak anlatır. Ama hile işe yaradı."
+          "metin": "Maxime Rodinson bunu bir askerî hile olarak anlatır. Ama hile işe yaradı.",
+          "kaynak": {
+            "yazar": "Maxime Rodinson",
+            "eser": "Muhammed (Doruk, Türkçe çev.)",
+            "yer": "",
+            "yil": "2017",
+            "sayfa": "",
+            "not": "Fransız oryantalist ve sosyolog",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Çünkü çoğaltmadan yedi yıl sonra bile, iki düşman ordu aynı metne bağlıydı.",
@@ -350,7 +368,16 @@
                 "tur": "alinti",
                 "veri": {
                   "metin": "En azından bütün Müslümanlar Kur'an konusunda hemfikirdirler.",
-                  "kim": "Batılı bir tarihçi"
+                  "kim": "Marshall G. S. Hodgson",
+                  "kaynak": {
+                    "yazar": "Marshall G. S. Hodgson",
+                    "eser": "İslam'ın Serüveni (Phoenix, Türkçe çev.)",
+                    "yer": "İstanbul",
+                    "yil": "2020",
+                    "sayfa": "",
+                    "not": "Amerikalı İslam tarihçisi",
+                    "dogrulanacak": true
+                  }
                 }
               }
             },
@@ -361,7 +388,7 @@
               "metin": "Yine de tarihe bakınca başka bir şey göremiyor."
             }
           ],
-          "soru": "Dışarıdan bakan bir tarihçi bile bu ittifakı görüyorsa, 'gizli değişiklik' hangi tarihî kayda dayanır?"
+          "soru": "Hodgson gibi dışarıdan bakan bir tarihçi bile bu ittifakı görüyorsa, 'gizli değişiklik' hangi tarihî kayda dayanır?"
         }
       ],
       "kompozisyon": "Peki sen bu sahneyi, 'Kur'an gizlice değiştirildi' diyerek tutarlı biçimde nasıl açıklarsın?",
@@ -480,7 +507,16 @@
               "metin": "İslam'ın en güçlü döneminde, Peygamber'i yalanlayan kitaplar yazıldı."
             },
             {
-              "metin": "Bir Mutezile âlimi bunların dükkânlarda bulunduğunu aktarır."
+              "metin": "Mutezile âlimi Kadı Abdülcabbar bunların dükkânlarda bulunduğunu aktarır.",
+              "kaynak": {
+                "yazar": "Kadı Abdülcabbar",
+                "eser": "Tesbîtu Delâili'n-Nübüvve (Türkiye Yazma Eserler Kurumu)",
+                "yer": "İstanbul",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "Mutezile âlimi",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "İtirazın bile serbestçe yazıldığı bir dünya bu."
@@ -896,10 +932,28 @@
         {
           "satirlar": [
             {
-              "metin": "Paris ve Tübingen'deki yazmalar, Şam nüshasıyla uyumlu."
+              "metin": "Paris'teki BnF yazması ve Tübingen'deki yazma, Şam nüshasıyla uyumlu.",
+              "kaynak": {
+                "yazar": "François Deroche",
+                "eser": "La transmission écrite du Coran dans les débuts de l'islam: le codex Parisino-petropolitanus",
+                "yer": "",
+                "yil": "2009",
+                "sayfa": "",
+                "not": "Fransız Kur'an yazmaları uzmanı; Paris yazması için 649–675 tarihlemesi",
+                "dogrulanacak": true
+              }
             },
             {
-              "metin": "İkisinin karbon aralığı da 649 ile 675 arasına düşüyor."
+              "metin": "İkisinin karbon aralığı da 649 ile 675 arasına düşüyor.",
+              "kaynak": {
+                "yazar": "Tübingen Üniversitesi Kütüphanesi",
+                "eser": "Tübingen mushafının radyokarbon tarihlemesi",
+                "yer": "Tübingen",
+                "yil": "",
+                "sayfa": "",
+                "not": "Üniversite kütüphanesi yazması; karbon sonucu %95,4 ile 649–675",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Bu, Peygamber'in vefatından yaklaşık kırk yıl içinde."
@@ -913,7 +967,16 @@
               "metin": "Yemen'de bir yazmanın karbon aralığı yayımlandı."
             },
             {
-              "metin": "Batılı akademisyenler: yüzde 68 ihtimalle 614 ile 656."
+              "metin": "Sadeghi ve Bergmann: yüzde 68 ihtimalle 614 ile 656.",
+              "kaynak": {
+                "yazar": "Behnam Sadeghi ve Uwe Bergmann",
+                "eser": "The Codex of a Companion of the Prophet and the Qur'an of the Prophet (Arabica)",
+                "yer": "",
+                "yil": "2010",
+                "sayfa": "",
+                "not": "Akademisyenler (Harvard ve Bochum); Sana 1 radyokarbon çalışması",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Yüzde 95 ihtimalle 578 ile 669."
@@ -948,7 +1011,16 @@
           "metin": "Test yazının değil, yazıldığı malzemenin yaşını ölçer. Tek yıl vermez; aralık verir."
         },
         {
-          "metin": "Birmingham'daki yaprak için aralık: 568 ile 645."
+          "metin": "Birmingham Üniversitesi'ndeki yaprak için aralık: 568 ile 645.",
+          "kaynak": {
+            "yazar": "Oxford Radiocarbon Accelerator Unit ve Birmingham Üniversitesi",
+            "eser": "Birmingham Kur'an yapraklarının radyokarbon tarihlemesi",
+            "yer": "Birmingham",
+            "yil": "2015",
+            "sayfa": "",
+            "not": "Üniversite açıklaması ve laboratuvar sonucu",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "",
@@ -1031,7 +1103,7 @@
           ],
           "yanit": [
             "İyi bir örnek: silinip üstüne yeniden yazılan sayfalar var.",
-            "San'a'daki böyle bir yaprakta, silinmiş alt yazıda bazı küçük kelime ve sıra farkları bildirilir.",
+            "Sadeghi ve Goudarzi (2012): San'a'daki bir yaprakta, silinmiş alt yazıda bazı küçük kelime ve sıra farkları var.",
             "Ama bu tek bir yazma. Tek yazma, sistemli bir değişikliği göstermez.",
             "Hatta o nüshanın silinip üstüne yeniden yazılması, ortak metne dönüldüğünü düşündürür."
           ],
@@ -1085,7 +1157,18 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.corpus",
-      "dayanak": "Z10, s. 37-41: Bloom (7. yy başı Arabistan'da kâğıt bilinmiyordu, s. 37-38); karbon malzemeyi tarihler, %95 aralık; Birmingham 568-645, 77 yıl > 63 yıl (s. 39-40); pahalı malzeme bekletilmez, 80 kg/1087 varak Kahire mushafı (s. 38-39); Süryani/Bizans çapraz okuma (s. 40). Sana palimpsesti cevabı kitapta yok (kitap yalnız Cambridge palimpsestini listeden çıkardığını söyler, s. 39) -> EK: Sadeghi & Goudarzi, 'Ṣanʿāʾ 1 and the Origins of the Qurʾān', Der Islam 87 (2012); docs/onay/acilis-zemin.md."
+      "dayanak": "Z10, s. 37-41: Bloom (7. yy başı Arabistan'da kâğıt bilinmiyordu, s. 37-38); karbon malzemeyi tarihler, %95 aralık; Birmingham 568-645, 77 yıl > 63 yıl (s. 39-40); pahalı malzeme bekletilmez, 80 kg/1087 varak Kahire mushafı (s. 38-39); Süryani/Bizans çapraz okuma (s. 40). Sana palimpsesti cevabı kitapta yok (kitap yalnız Cambridge palimpsestini listeden çıkardığını söyler, s. 39) -> EK: Sadeghi & Goudarzi, 'Ṣanʿāʾ 1 and the Origins of the Qurʾān', Der Islam 87 (2012); docs/onay/acilis-zemin.md.",
+      "kaynaklar": [
+        {
+          "yazar": "Behnam Sadeghi ve Mohsen Goudarzi",
+          "eser": "Ṣanʿāʾ 1 and the Origins of the Qurʾān (Der Islam 87)",
+          "yer": "",
+          "yil": "2012",
+          "sayfa": "",
+          "not": "Akademisyenler; Sana palimpsesti çalışması",
+          "dogrulanacak": true
+        }
+      ]
     },
     {
       "id": "zemin.corpus",
@@ -1098,7 +1181,16 @@
           "metin": "Bunlara körü körüne inanmak zorunda değilsin."
         },
         {
-          "metin": "Almanya'da akademik bir proje, ayet ayet yazma tarihlerini internete koydu."
+          "metin": "Almanya'daki Corpus Coranicum projesi, ayet ayet yazma tarihlerini internete koydu.",
+          "kaynak": {
+            "yazar": "Corpus Coranicum",
+            "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
+            "yer": "Almanya",
+            "yil": "",
+            "sayfa": "",
+            "not": "Almanya merkezli akademik Kur'an metni projesi",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Bir ayet seç. En eski yazmalarını kendin gör."
@@ -1107,10 +1199,19 @@
           "metin": "Mesela Tevbe suresinin son iki ayeti."
         },
         {
-          "metin": "Biri, bu iki ayetin sonradan eklendiğini ileri sürdü."
+          "metin": "Reşad Halife, bu iki ayetin sonradan eklendiğini ileri sürdü."
         },
         {
-          "metin": "Ayet, karbon aralığı 606 ile 649 olan bir yazmada bile yerinde duruyor."
+          "metin": "Ayet, karbon aralığı 606 ile 649 olan bir yazmada bile yerinde duruyor.",
+          "kaynak": {
+            "yazar": "Corpus Coranicum",
+            "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
+            "yer": "Almanya",
+            "yil": "",
+            "sayfa": "",
+            "not": "Almanya merkezli akademik Kur'an metni projesi",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Peygamber'in zamanına çok yakın bir yazmada.",
@@ -1144,8 +1245,8 @@
             "kendim"
           ],
           "yanit": [
-            "Aramaya 'Corpus Coranicum' yaz.",
-            "Sure ve ayet numarasını seç; yazma listesi ve tarihleri karşına çıkar."
+            "Corpus Coranicum'da sure ve ayet numarasını seçince yazma listesi ve tarihleri çıkar.",
+            "Künyesi her satırın altında; dokunursan sunumun içinde açılır."
           ]
         },
         {
@@ -1166,7 +1267,16 @@
               "metin": "Bir ayet daha: Rum suresinin beşinci ayeti."
             },
             {
-              "metin": "En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada."
+              "metin": "En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada.",
+              "kaynak": {
+                "yazar": "Corpus Coranicum",
+                "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü",
+                "yer": "Almanya",
+                "yil": "",
+                "sayfa": "",
+                "not": "Almanya merkezli akademik Kur'an metni projesi",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Yani Peygamber'den yaklaşık kırk yıl sonrasına inmiyor bile."
@@ -1197,35 +1307,137 @@
           "metin": "Tarih derslerinde Herodot'a, Eflatun'a, Demostenes'e güvenerek konuşuruz."
         },
         {
+          "metin": "Peki bu eserlerin elimizdeki en eski kopyaları ne zaman yazılmış?"
+        },
+        {
           "metin": "",
           "diyagram": {
             "tur": "karsilastirma",
             "veri": {
               "sol": {
-                "baslik": "Yazım ile en eski kopya arası",
+                "baslik": "Eser: yazım → en eski kopya → aradaki süre",
                 "maddeler": [
-                  "Homeros: yaklaşık 400 yıl",
-                  "Herodot: yaklaşık 1350 yıl",
-                  "Eflatun: yaklaşık 1300 yıl",
-                  "Demostenes: yaklaşık 1400 yıl"
+                  "Homeros, İlyada: M.Ö. 800 → M.Ö. 400 → yaklaşık 400 yıl",
+                  "Herodot: M.Ö. 480–425 → M.S. 900 → yaklaşık 1350 yıl",
+                  "Thukydides: M.Ö. 460–400 → M.S. 900 → yaklaşık 1300 yıl",
+                  "Eflatun: M.Ö. 400 → M.S. 900 → yaklaşık 1300 yıl",
+                  "Demostenes: M.Ö. 300 → M.S. 1100 → yaklaşık 1400 yıl",
+                  "Sezar, Galya Savaşları: M.Ö. 100–44 → M.S. 900 → yaklaşık 1000 yıl",
+                  "Tacitus, Annals: M.S. 100 → M.S. 1100 → yaklaşık 1000 yıl"
                 ]
               },
               "sag": {
                 "baslik": "Kur'an",
                 "maddeler": [
-                  "En eski yapraklar Peygamber'in zamanına çok yakın",
-                  "Birkaç on yıl içinde çoğaltıldı",
-                  "Kırk dört erken yazma"
+                  "Yazıya geçiş: Peygamber'in hayatında",
+                  "En eski yapraklar: vefattan birkaç on yıl içinde",
+                  "Aradaki süre: neredeyse hiç"
                 ]
+              },
+              "kaynak": {
+                "yazar": "Josh McDowell",
+                "eser": "Hüküm Gerektiren Yeni Kanıtlar (Türkçe çev.)",
+                "yer": "",
+                "yil": "",
+                "sayfa": "91",
+                "not": "Amerikalı Hristiyan savunucu yazar; tablo, kitabın aktardığı haliyle antik metinlerin yazım ve en eski kopya tarihlerini verir",
+                "dogrulanacak": true
               }
             }
           }
         },
         {
-          "metin": "Bir araştırmacının ifadesiyle: yeryüzünde bu kadar yazması olan başka kitap yok."
+          "metin": "Hiçbirinde aradaki süre dört yüz yılın altına inmiyor."
         },
         {
-          "metin": "Elimizdeki bütün bunlara güvenle 'tarih' diyoruz."
+          "metin": "Buna rağmen bu eserlere 'tarih' deriz.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "zemin.kiyasYazma",
+      "dayanak": "Z13/Z5, s. 86-88: McDowell tablosu (kitap dn. 172: Hüküm Gerektiren Yeni Kanıtlar, s. 91): Homeros 400; Herodot 1350; Thukydides 1300; Eflatun 1300; Demostenes 1400; Sezar 1000; Tacitus 1000 yıl. Livius ve Plinius satırları ekranda yok (sığmadı). Kur'an sütunu: kitabın özeti. Soru ve itirazlar zemin.kiyasYazma beat'ine taşındı (v2.1)."
+    },
+    {
+      "id": "zemin.kiyasYazma",
+      "gizliDugum": "Z13",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir de yazma sayısına bak. Kopya çoksa, metin denetlenebilir."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "karsilastirma",
+            "veri": {
+              "sol": {
+                "baslik": "Elimizdeki yazma sayısı (yaklaşık)",
+                "maddeler": [
+                  "Herodot: 8 civarı",
+                  "Eflatun: 7 civarı",
+                  "Sezar, Galya Savaşları: 10 civarı",
+                  "Tacitus, Annals: ilk altı kitap tek yazmaya dayanır",
+                  "Homeros, İlyada: binden fazla yazma ve papirüs",
+                  "Yeni Ahit (Yunanca): 5.000'den fazla"
+                ]
+              },
+              "sag": {
+                "baslik": "Kur'an",
+                "maddeler": [
+                  "Kırk dört erken yazma",
+                  "Ardından milyonlarca el yazması nüsha",
+                  "Aralarında yalnızca imla farkları"
+                ]
+              },
+              "kaynak": {
+                "yazar": "F. F. Bruce",
+                "eser": "The New Testament Documents: Are They Reliable?",
+                "yer": "",
+                "yil": "",
+                "sayfa": "",
+                "not": "Antik yazma sayıları; Yeni Ahit sayısı için ayrıca Bruce M. Metzger, The Text of the New Testament. Kur'an sütunu: Hamidullah ve mushaf envanteri",
+                "dogrulanacak": true
+              }
+            }
+          }
+        },
+        {
+          "metin": "Yeni Ahit gerçekten iyi belgelenmiş: en eski parçalar ikinci yüzyıla uzanır.",
+          "kaynak": {
+            "yazar": "Bruce M. Metzger",
+            "eser": "The Text of the New Testament",
+            "yer": "",
+            "yil": "",
+            "sayfa": "",
+            "not": "Amerikalı Yeni Ahit metin bilimcisi",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Bizans'ta Theophanes, Herakleios savaşlarını olaylardan yaklaşık 190 yıl sonra yazdı.",
+          "kaynak": {
+            "yazar": "Cyril Mango ve Roger Scott",
+            "eser": "The Chronicle of Theophanes Confessor (Theophanes, Chronographia çevirisi)",
+            "yer": "Oxford",
+            "yil": "1997",
+            "sayfa": "",
+            "not": "Bizans uzmanı akademisyenler; Theophanes yaklaşık 810–814 arasında yazdı",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Mushaf uzmanı Tayyar Altıkulaç: yeryüzünde Kur'an kadar yazması olan başka kitap yok.",
+          "kaynak": {
+            "yazar": "Tayyar Altıkulaç",
+            "eser": "Mesâhif-i Kadîme (IRCICA)",
+            "yer": "İstanbul",
+            "yil": "2015",
+            "sayfa": "",
+            "not": "Türk akademisyen, mushaf neşri uzmanı",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Aynı ölçüyü herkese uygulamak, tutarlılıktır.",
@@ -1279,7 +1491,16 @@
         {
           "satirlar": [
             {
-              "metin": "İncil'ler de tarihî metinlerdir. Akademik tahminler onları yaklaşık 70 ile 110 arasına yerleştirir."
+              "metin": "Yeni Ahit için de böyle: araştırmacı Zafer Duygu'nun tablosunda İnciller yaklaşık 68 ile 110 arasına yerleşir.",
+              "kaynak": {
+                "yazar": "Zafer Duygu",
+                "eser": "İsa, Paulus, İnciller: Hristiyanlık Neden ve Nasıl Ortaya Çıktı?",
+                "yer": "İstanbul",
+                "yil": "2018",
+                "sayfa": "620",
+                "not": "Türk araştırmacı, erken Hristiyanlık ve Süryani tarih yazıcılığı",
+                "dogrulanacak": false
+              }
             },
             {
               "metin": "Bu, onların değersiz olduğu anlamına gelmez."
@@ -1311,7 +1532,8 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.hadis",
-      "dayanak": "Z13/Z5, s. 22, 86-89: McDowell tablosu (Homeros yazım M.Ö. 800 / en eski kopya M.Ö. 400: 400 yıl; Herodot 1350; Eflatun 1300; Demostenes 1400); Duygu İncil tablosu (Markos ≈68-71, Matta/Luka 80-100, Yuhanna 90-110; yazarların çoğu 'bilinmiyor' kitabın ifadesi; ekranda saygılı dil için yalnız tarih aralığı). Altıkulaç: 'Yeryüzünde Kur'an-ı Kerim kadar yazma nüshası bulunan başka bir kitap yoktur' (s. 82-83). 'Kırk dört erken yazma' kitabın özeti (s. 79-80); 45/44 tutarsızlığı için docs/dogrulanacaklar.md A."
+      "dayanak": "Z13/Z5, s. 22, 82-83, 86-89. YENİ (v2.1, kitap dışı ek, bkz. docs/onay/acilis-zemin.md): yazma sayıları (Herodot 8, Eflatun 7, Sezar 10: Bruce/McDowell geleneği; Tacitus Annals 1-6 tek yazma; İlyada 1000+ yazma/papirüs; Yeni Ahit 5000+ Yunanca yazma, en eski parça 2. yy: Metzger), Theophanes (yaklaşık 810-814'te yazdı; olaylar 622-628) - hepsi dogrulanacak:true. Kitaptan: Altıkulaç 'Yeryüzünde Kur'an-ı Kerim kadar yazma nüshası bulunan başka bir kitap yoktur' (s. 82-83); Duygu İncil tablosu (s. 87-88, dn. 173 s. 620): Markos ≈68-71, Matta/Luka 80-100, Yuhanna 90-110. 'Kırk dört erken yazma' kitabın özeti; 45/44 tutarsızlığı docs/dogrulanacaklar.md A. 'Milyonlarca el yazması' Hamidullah (s. 80-81).",
+      "ek": true
     },
     {
       "id": "zemin.hadis",
@@ -1570,7 +1792,16 @@
               "metin": "Miraç haberi duyulduğunda, bazı müminlerin imanı sarsıldı."
             },
             {
-              "metin": "Bir kısmı ayrıldı. Batılı tarihçiler de bunu aktarır."
+              "metin": "Bir kısmı ayrıldı. Caetani ve Dozy da bunu aktarır.",
+              "kaynak": {
+                "yazar": "Leone Caetani",
+                "eser": "İslam Tarihi (Ankara Okulu, Türkçe çev.)",
+                "yer": "Ankara",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İtalyan oryantalist",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Görünmeyen bir olay bile bu tepkiyi doğurdu."
@@ -1643,7 +1874,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır.",
-              "kim": "Batılı bir oryantalist"
+              "kim": "D. S. Margoliouth",
+              "kaynak": {
+                "yazar": "D. S. Margoliouth",
+                "eser": "Muhammed ve İslam'ın Yükselişi (Ankara Okulu, Türkçe çev.)",
+                "yer": "Ankara",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İngiliz oryantalist",
+                "dogrulanacak": true
+              }
             }
           }
         },

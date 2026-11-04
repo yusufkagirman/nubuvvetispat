@@ -15,6 +15,15 @@ export class Motor {
     return this.havuz.size;
   }
 
+  // havuzdaki tüm kaynaklar (akış sırasıyla, tekilleştirilmiş)
+  tumKaynaklar() {
+    const out = [], gor = new Set();
+    const ekle = (k) => { if (!k) return; for (const x of DIZI(k)) { if (!x || !(x.yazar || x.eser)) continue; const a = `${x.yazar || ''}|${x.eser || ''}`.toLowerCase(); if (!gor.has(a)) { gor.add(a); out.push(x); } } };
+    const satir = (l) => (l || []).forEach((s) => { if (s && typeof s === 'object') { ekle(s.kaynak); ekle(s.diyagram?.veri?.kaynak); } });
+    for (const b of this.havuz.values()) { satir(b.satirlar); ekle(b.sahne?.diyagram?.veri?.kaynak); (b.ekOrnekler || []).forEach((e) => satir(e.satirlar)); }
+    return out;
+  }
+
   k(no) { if (no !== this.no) throw IPTAL; }
 
   baslat(devam) { const no = ++this.no; return this.calis(no, devam); }
@@ -96,6 +105,8 @@ export class Motor {
     return l[this.kopruSay++ % l.length];
   }
 
+  dalKapat(dal) { if (kapat(dal)) this.ui.dalKapandi?.(dal); }
+
   profilYaz(p) { if (p) { Object.assign(durum.profil, p); kaydet(); } }
 
   async soruDongusu(no, beat) {
@@ -104,9 +115,9 @@ export class Motor {
     const ana = typeof s0 === 'string' ? { metin: s0 } : s0;
     let { mod, idx } = durum.asama === 'soru' && durum.soru ? durum.soru : { mod: 'ana', idx: 0 };
     const kur = () => {
-      if (mod === 'ek') { const e = ekler[idx]; return { metin: e.soru, cipler: e.cipler || ana.cipler || [], serbest: false }; }
+      if (mod === 'ek') { const e = ekler[idx]; return { metin: e.soru, cipler: e.cipler || ana.cipler || [], serbest: false, ipucu: e.ipucu }; }
       if (mod === 'komp') return { metin: beat.kompozisyon, cipler: [], serbest: true };
-      return { metin: ana.metin, cipler: ana.cipler || [], serbest: !!ana.serbest };
+      return { metin: ana.metin, cipler: ana.cipler || [], serbest: !!ana.serbest, ipucu: ana.ipucu, buyuk: !!ana.buyuk };
     };
     const sonraki = () => this.sonrasi(no, beat.sonraki);
     const varsayilan = () => this.sonrasi(no, beat.varsayilan || beat.sonraki);
@@ -138,12 +149,12 @@ export class Motor {
           continue;
         }
         if (y.yanit) { await this.ui.satirlar(DIZI(y.yanit)); this.k(no); }
-        if (y.tur === 'ikna' || y.tur === 'yonlendir') kapat(beat.kapat || y.kapat);
+        if (y.tur === 'ikna' || y.tur === 'yonlendir') this.dalKapat(beat.kapat || y.kapat);
         if (y.git) return { id: y.git, atlama: 0 };
         return y.tur === 'profil' ? varsayilan() : sonraki();
       }
       if (s.tur === 'serbest') { this.profilYaz({ [id]: cevap }); return varsayilan(); }
-      if (s.tur === 'onay') { kapat(beat.kapat); return sonraki(); }
+      if (s.tur === 'onay') { this.dalKapat(beat.kapat); return sonraki(); }
       if (s.tur === 'ret') {
         const ni = mod === 'ana' ? 0 : idx + 1;
         if (ni < ekler.length) {

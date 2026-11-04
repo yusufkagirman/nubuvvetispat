@@ -542,7 +542,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Güneşi sağ elime, ayı sol elime koysalar bile bu davadan vazgeçmem.",
-              "kim": "Birçok Batılı tarihçinin naklettiği bir anlatı"
+              "kim": "Reinhart Dozy",
+              "kaynak": {
+                "yazar": "Reinhart P. A. Dozy",
+                "eser": "İslam Tarihi (Gri Yayınevi, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2006",
+                "sayfa": "",
+                "not": "Hollandalı oryantalist. Aynı anlatıyı Caetani, Gibbon, Arnold, Hazleton, Dermenghem ve Armstrong da aktarır; siyer kaynaklarında İbn İshak'a dayanır",
+                "dogrulanacak": true
+              }
             }
           }
         }
@@ -677,7 +686,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Çevresindekilerin hoşuna gitmek için taviz vermeyi aklından bile geçirmedi.",
-              "kim": "Batılı bir tarihçi"
+              "kim": "Emile Dermenghem",
+              "kaynak": {
+                "yazar": "Émile Dermenghem",
+                "eser": "Hz. Muhammed ve Risâleti (İnsan, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1997",
+                "sayfa": "",
+                "not": "Fransız yazar ve oryantalist; ifade kitabın Türkçe aktarımından özetlenmiştir, tam metin doğrulanacak",
+                "dogrulanacak": true
+              }
             }
           }
         }
@@ -1184,7 +1202,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Aleyhindeki yaygın temelsiz iddialardan biri, şehvet uğruna bile bile sahte bir öğreti savunduğudur.",
-              "kim": "Hristiyan bir oryantalist"
+              "kim": "W. Montgomery Watt",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Hz. Muhammed: Peygamber ve Devlet Adamı (İletişim, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2019",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             }
           }
         },
@@ -1405,7 +1432,7 @@
           ],
           "yanit": [
             "'Arabistan'da zaten bir ihtiyaç vardı' diyebilirsin.",
-            "Batılı bir tarihçi tersini söyler: Arabistan'da bir dinî hareket yoktu; Arapların İslam'a ihtiyaçları olmadığı gibi istedikleri de yoktu.",
+            "Leone Caetani tersini söyler: Arabistan'da bir dinî hareket yoktu; Arapların İslam'a ihtiyaçları olmadığı gibi istedikleri de yoktu.",
             "Üstelik o, hem atalar kültüne hem putperest dine aynı anda saldırdı: iki manevi bağın ikisine birden."
           ]
         }
@@ -1569,7 +1596,16 @@
               "metin": "Bu yüklerin hepsi kolay değil: sabah erken kalkış, kışın abdest, uzun yaz günlerinde oruç."
             },
             {
-              "metin": "Batılı bir tarihçi bile şöyle der: onun dini kolay bir din değildi."
+              "metin": "Thomas Arnold, Carlyle'e atıfla der ki: onun dini kolay bir din değildi.",
+              "kaynak": {
+                "yazar": "Thomas W. Arnold",
+                "eser": "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2016",
+                "sayfa": "",
+                "not": "İngiliz oryantalist",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "İnsanları kolay yoldan çekmek varken, zor yolu seçen bir sahtekâr olur mu?"
@@ -1935,7 +1971,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Hira'da ne olduğu bir yana, Muhammed'in katışıksız insani tepkisi en güçlü tarihî dayanaktır.",
-              "kim": "Batılı bir tarihçi"
+              "kim": "Lesley Hazleton",
+              "kaynak": {
+                "yazar": "Lesley Hazleton",
+                "eser": "İlk Müslüman (Kitabix, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "İngiliz-Amerikalı yazar; ifade kitabın aktarımından, tam metin doğrulanacak",
+                "dogrulanacak": true
+              }
             }
           }
         }
@@ -2013,7 +2058,16 @@
         {
           "satirlar": [
             {
-              "metin": "Bir de ilk ayetlerin içeriği: Batılı bir oryantalistin tespitine göre bu metinde peygamberliği onaylayan bir işaret yok."
+              "metin": "Bir de ilk ayetlerin içeriği: Dozy'ye göre bu metinde peygamberliği onaylayan bir işaret yok.",
+              "kaynak": {
+                "yazar": "Reinhart P. A. Dozy",
+                "eser": "İslam Tarihi (Gri Yayınevi, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2006",
+                "sayfa": "",
+                "not": "Hollandalı oryantalist",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Planlı bir yalancı ilk manifestosunda planladığı öncelikleri söylerdi."
@@ -2027,7 +2081,16 @@
               "metin": "Üstelik Kur'an'ı kendi normal bilincinden ayrı tuttu."
             },
             {
-              "metin": "Bir tarihçiye göre bu ayrım ona hayati bir şeydi: yoksa görevini sürdüremezdi."
+              "metin": "Watt'a göre bu ayrım ona hayati bir şeydi: yoksa görevini sürdüremezdi.",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Hz. Muhammed: Peygamber ve Devlet Adamı (İletişim, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2019",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "Kendi sözünü vahiyden ayıran biri, bilerek karıştırmaz mı?"
@@ -2133,10 +2196,28 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir tarihçi şöyle der: Muhammed, Kur'an'ı kendi bilincinden ayırt edebildiğine ikna olmuştu."
+              "metin": "Watt der ki: Muhammed, Kur'an'ı kendi bilincinden ayırt edebildiğine ikna olmuştu.",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Hz. Muhammed: Peygamber ve Devlet Adamı (İletişim, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2019",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             },
             {
-              "metin": "Bir başkası: vahyi, kişisel düşüncelerinden büyük bir dikkatle ayırdı."
+              "metin": "Dermenghem: vahyi, kişisel düşüncelerinden büyük bir dikkatle ayırdı.",
+              "kaynak": {
+                "yazar": "Émile Dermenghem",
+                "eser": "Hz. Muhammed ve Risâleti (İnsan, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1997",
+                "sayfa": "",
+                "not": "Fransız yazar ve oryantalist",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "Bunu hesaplı bir yalancıdan beklemek mümkün mü?"
@@ -2421,7 +2502,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Kötü bir yalancı, milyonlarca insanın benimseyeceği bir dünya dinini kuramaz.",
-              "kim": "Batılı bir tarihçi"
+              "kim": "Reinhart Dozy",
+              "kaynak": {
+                "yazar": "Reinhart P. A. Dozy",
+                "eser": "İslam Tarihi (Gri Yayınevi, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2006",
+                "sayfa": "",
+                "not": "Hollandalı oryantalist",
+                "dogrulanacak": true
+              }
             }
           }
         },
@@ -2431,7 +2521,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Samimi bir Muhammed'i açıklamak, sahtekâr bir Muhammed'i açıklamaktan çok daha kolaydır.",
-              "kim": "Batılı bir tarihçi"
+              "kim": "Maxime Rodinson",
+              "kaynak": {
+                "yazar": "Maxime Rodinson",
+                "eser": "Muhammed (Doruk, Türkçe çev.)",
+                "yer": "",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "Fransız oryantalist ve sosyolog; ifade kitabın aktarımından özetlenmiştir, tam metin doğrulanacak",
+                "dogrulanacak": true
+              }
             }
           }
         },
@@ -2470,7 +2569,16 @@
               "metin": "Bir de Batılı tarihçilerin kendi hükümlerine bak."
             },
             {
-              "metin": "Biri, modern bir tarihçinin bu hareketin menfaatçi bir sahtekâr tarafından başlatıldığına inanamayacağını söyler."
+              "metin": "Bernard Lewis, modern bir tarihçinin bu hareketin menfaatçi bir sahtekâr tarafından başlatıldığına inanamayacağını söyler.",
+              "kaynak": {
+                "yazar": "Bernard Lewis",
+                "eser": "Tarihte Araplar (Pegasus, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2019",
+                "sayfa": "",
+                "not": "İngiliz-Amerikalı oryantalist",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "",
@@ -2478,7 +2586,16 @@
                 "tur": "alinti",
                 "veri": {
                   "metin": "Hilekâr ya da yaşlı bir şehvet düşkününün işi değil.",
-                  "kim": "Hristiyan bir oryantalist"
+                  "kim": "W. Montgomery Watt",
+                  "kaynak": {
+                    "yazar": "W. Montgomery Watt",
+                    "eser": "Hz. Muhammed: Peygamber ve Devlet Adamı (İletişim, Türkçe çev.)",
+                    "yer": "İstanbul",
+                    "yil": "2019",
+                    "sayfa": "",
+                    "not": "İskoç oryantalist, Edinburgh Üniv.",
+                    "dogrulanacak": true
+                  }
                 }
               }
             }

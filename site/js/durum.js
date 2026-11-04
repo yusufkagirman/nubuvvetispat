@@ -15,6 +15,8 @@ const bos = () => ({
   kompozisyon: {},
   ek: {},            // {beatId: ekOrnek indeksi}
   bitti: false,
+  gorulenKaynaklar: [], // karşılaşma sırasıyla {yazar, eser, ...}
+  yeniKapanan: null,    // az önce kapanan dal (diyagramda sönme anı için)
   t: Date.now(),
 });
 
@@ -36,7 +38,13 @@ export function sifirla() {
 }
 export const devamVar = () => !!durum.beat && !durum.bitti;
 export function cevapEkle(id, metin) { (durum.cevaplar[id] ||= []).push({ metin, t: Date.now() }); kaydet(); }
-export function kapat(dal) { if (dal && !durum.kapali.includes(dal)) { durum.kapali.push(dal); kaydet(); } }
+export function kapat(dal) { if (dal && !durum.kapali.includes(dal)) { durum.kapali.push(dal); durum.yeniKapanan = dal; kaydet(); return true; } return false; }
+export const kaynakAnahtar = (k) => `${k?.yazar || ''}|${k?.eser || ''}`.toLowerCase();
+export function kaynakGor(k) {
+  if (!k || !(k.yazar || k.eser)) return;
+  const l = (durum.gorulenKaynaklar ||= []);
+  if (!l.some((x) => kaynakAnahtar(x) === kaynakAnahtar(k))) { l.push(k); kaydet(); }
+}
 
 // Koşul: nesne içindeki tüm anahtarlar VE ile sağlanmalı.
 //  "profil.x": string = eşitlik, dizi = içinden biri.  "kapali": string = o dal kapalı, dizi = HEPSİ kapalı.

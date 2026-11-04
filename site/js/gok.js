@@ -14,7 +14,7 @@ export class Gok {
     this.beatGorsel = null; this.gecici = null;
     this.acilis = 0; this.safakT0 = 0;
     this.yildizlar = []; this.kayan = null; this.kayanT = 6;
-    this.son = 0; this.calisiyor = false; this.kirli = true; this.onbellek = new Map();
+    this.hizCarpani = 1; this.solukT = null; this.son = 0; this.calisiyor = false; this.kirli = true; this.onbellek = new Map();
     this.boyutla = this.boyutla.bind(this); this.kare = this.kare.bind(this);
     addEventListener('resize', this.boyutla);
     document.addEventListener('visibilitychange', () => (document.hidden ? this.durdur() : this.baslat()));
@@ -26,7 +26,7 @@ export class Gok {
     this.W = innerWidth; this.H = innerHeight; this.dpr = dpr;
     this.c.width = Math.round(this.W * dpr); this.c.height = Math.round(this.H * dpr);
     this.x.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const n = Math.min(900, Math.round((this.W * this.H) / 1700));
+    const n = Math.min(this.W < 700 ? 350 : 900, Math.round((this.W * this.H) / 1700));
     this.yildizlar = Array.from({ length: n }, () => {
       const z = [0.25, 0.55, 1][Math.floor(Math.random() * 3)];
       const sicak = Math.random();
@@ -66,6 +66,16 @@ export class Gok {
     this.hedefMod = mod;
     this.beatGorsel = mod === 'mushaf' ? gorsel : null;
     this.uygula();
+  }
+  // "an" anı: yıldızlar kısa süre söner, sonra yavaşça geri gelir
+  soluk(ms = 700) { this.solukT = { t0: performance.now(), ms }; this.kirli = true; if (!this.calisiyor && !document.hidden) this.baslat(); }
+  solukCarpan(now) {
+    const o = this.solukT; if (!o) return 1;
+    const ts = now - o.t0;
+    if (ts < o.ms) { this.kirli = true; return 1 - 0.88 * yumusat(ts / o.ms); }
+    const r = (ts - o.ms) / 2600;
+    if (r >= 1) { this.solukT = null; return 1; }
+    this.kirli = true; return 0.12 + 0.88 * yumusat(r);
   }
   geciciGorsel(src) { this.gecici = src || null; this.uygula(); }
   uygula() {
@@ -112,7 +122,7 @@ export class Gok {
     }
     this.katmanlar = this.katmanlar.filter((k) => k.hedef === 1 || k.w > 0.001);
     if (this.azHareket) return;
-    const hiz = dt;
+    const hiz = dt * this.hizCarpani;
     for (const s of this.yildizlar) { s.x -= 4.5 * s.z * hiz; if (s.x < -2) { s.x = this.W + 2; s.y = rnd(0, this.H); } }
     this.kayanT -= dt;
     if (!this.kayan && this.kayanT < 0) {
@@ -133,7 +143,7 @@ export class Gok {
     if (this.neb) { x.globalAlpha = 0.9 * this.acilis * (1 - this.ag.safak * 0.6); x.drawImage(this.neb, 0, 0, W, H); x.globalAlpha = 1; }
     this.safak(t, now); this.isik(t); this.colUfuk(t);
     // yıldızlar
-    const sonuk = (1 - 0.88 * yumusat(this.ag.safak) - 0.55 * yumusat(this.ag.isik)) * (1 - 0.95 * imgW) * this.acilis;
+    const sonuk = (1 - 0.88 * yumusat(this.ag.safak) - 0.55 * yumusat(this.ag.isik)) * (1 - 0.95 * imgW) * this.acilis * this.solukCarpan(now);
     if (sonuk > 0.01) this.yildiz(t, sonuk);
     this.col(t);
     this.gorseller(now);
@@ -228,6 +238,20 @@ export class Gok {
     x.globalAlpha = 1;
   }
 
+  // bulanık sürüm bir kez önceden hazırlanır (kare başına filter yok; Safari'de de çalışır)
+  bulanik(img) {
+    if (!this.bulOnbellek) this.bulOnbellek = new WeakMap();
+    let o = this.bulOnbellek.get(img);
+    if (o) return o;
+    const w = Math.min(img.naturalWidth, 1100), hh = Math.round(w * img.naturalHeight / img.naturalWidth);
+    o = document.createElement('canvas'); o.width = w; o.height = hh;
+    const g = o.getContext('2d');
+    if ('filter' in g) { g.filter = 'blur(2.6px)'; g.drawImage(img, -8, -8, w + 16, hh + 16); g.filter = 'none'; }
+    else { const k = document.createElement('canvas'); k.width = Math.round(w / 3); k.height = Math.round(hh / 3); k.getContext('2d').drawImage(img, 0, 0, k.width, k.height); g.imageSmoothingQuality = 'high'; g.drawImage(k, 0, 0, w, hh); }
+    this.bulOnbellek.set(img, o);
+    return o;
+  }
+
   gorseller(now) {
     const { x, W, H } = this;
     for (const k of this.katmanlar) {
@@ -239,26 +263,26 @@ export class Gok {
       const iw = img.naturalWidth * sc, ih = img.naturalHeight * sc;
       const ex = Math.max(0, iw - W), ey = Math.max(0, ih - H);
       const px = 0.5 + k.yon[0] * (p - 0.5) * 0.7, py = 0.5 + k.yon[1] * (p - 0.5) * 0.7;
-      // sinematik reveal: ilk ~1.6 sn görsel net ve aydınlık, sonra yazı için kararır
-      const rv = yumusat(Math.min(1, Math.max(0, (ts - 1.6) / 2.4)));
+      // sinematik reveal: ilk ~2.2 sn görsel net ve aydınlık, sonra yazı için kararır (en çok %55)
+      const rv = yumusat(Math.min(1, Math.max(0, (ts - 2.2) / 2.4)));
       if (this.azHareket && rv < 1) this.kirli = true;
-      const koyu = 0.2 + 0.52 * rv;
-      const bulanik = 'filter' in x;
+      const koyu = 0.16 + 0.39 * rv;
+      const bul = this.bulanik(img);
       x.globalAlpha = a;
-      if (bulanik) x.filter = `blur(${(0.4 + 2 * rv).toFixed(2)}px)`;
       x.drawImage(img, -ex * px, -ey * py, iw, ih);
-      if (bulanik) x.filter = 'none';
+      if (bul && rv > 0.01) { x.globalAlpha = a * rv; x.drawImage(bul, -ex * px, -ey * py, iw, ih); }
+      x.globalAlpha = 1;
       x.fillStyle = `rgba(3,5,10,${koyu.toFixed(3)})`; x.fillRect(0, 0, W, H);
       const v = x.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.12, W / 2, H / 2, Math.hypot(W, H) * 0.55);
-      v.addColorStop(0, 'rgba(2,3,8,0)'); v.addColorStop(1, `rgba(2,3,8,${(0.55 + 0.35 * rv).toFixed(3)})`);
+      v.addColorStop(0, 'rgba(2,3,8,0)'); v.addColorStop(1, `rgba(2,3,8,${(0.5 + 0.3 * rv).toFixed(3)})`);
       x.fillStyle = v; x.fillRect(0, 0, W, H);
       // yazı bölgesi: merkezde yumuşak koyu elips
       x.save(); x.translate(W / 2, H * 0.5); x.scale(1, 0.55);
       const m = x.createRadialGradient(0, 0, 0, 0, 0, Math.min(W * 0.62, 640));
-      m.addColorStop(0, `rgba(2,3,8,${(0.5 * rv).toFixed(3)})`); m.addColorStop(1, 'rgba(2,3,8,0)');
+      m.addColorStop(0, `rgba(2,3,8,${(0.46 * rv).toFixed(3)})`); m.addColorStop(1, 'rgba(2,3,8,0)');
       x.fillStyle = m; x.fillRect(-W, -W, W * 2, W * 2); x.restore();
       const b = x.createLinearGradient(0, H * 0.45, 0, H);
-      b.addColorStop(0, 'rgba(2,3,8,0)'); b.addColorStop(1, `rgba(2,3,8,${(0.5 + 0.3 * rv).toFixed(3)})`);
+      b.addColorStop(0, 'rgba(2,3,8,0)'); b.addColorStop(1, `rgba(2,3,8,${(0.42 + 0.26 * rv).toFixed(3)})`);
       x.fillStyle = b; x.fillRect(0, 0, W, H);
     }
     x.globalAlpha = 1;

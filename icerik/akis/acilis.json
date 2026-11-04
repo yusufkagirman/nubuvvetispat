@@ -114,8 +114,34 @@
           ]
         }
       ],
-      "varsayilan": "acilis.tanri",
+      "varsayilan": "acilis.format",
       "dayanak": "Özgürlük ilkesi: dayatma yok, saygılı diyalog (CLAUDE.md Amaç; docs/ajan-ilkeleri.md)."
+    },
+    {
+      "id": "acilis.format",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Bir şeyi baştan söyleyeyim: kimlerin sözüne kulak vereceğiz?"
+        },
+        {
+          "metin": "Çoğunlukla Müslüman olmayan, Batılı akademisyenlerin: oryantalistlerin ve tarihçilerin."
+        },
+        {
+          "metin": "Neden? Çünkü tarafsız bir zemin istiyorum. Kendi kaynağıyla kendini ispat eden bir döngü olmasın."
+        },
+        {
+          "metin": "Her cümlenin altında kaynağını göreceksin. Dokunursan kim yazmış, nerede yazmış, açılır."
+        },
+        {
+          "metin": "Karşı tarafın tanıklarıyla konuşacağız.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "acilis.tanri",
+      "dayanak": "v2.1 format açılışı: oryantalist/akademik kaynak tercihinin gerekçesi (tarafsız zemin, dairesel ispattan kaçınma). Kitap verisi yok; kaynak künyeleri satır altında (AKIS-SEMA 'Kaynak alanı')."
     },
     {
       "id": "acilis.tanri",

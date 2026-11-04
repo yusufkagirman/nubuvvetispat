@@ -72,8 +72,8 @@ export class Ses {
   degistir() { this.acik ? this.kapat() : (this.ctx ? this.ac() : (this.tercih = true, this.kilitAc(), this.ac())); return this.acik; }
   sakla() { try { localStorage.setItem(ANAHTAR, this.tercih ? '1' : '0'); } catch { /* */ } }
 
-  nota(f, genlik, sure, atak = 0.012) {
-    const c = this.ctx, t = c.currentTime;
+  nota(f, genlik, sure, atak = 0.012, gec = 0) {
+    const c = this.ctx, t = c.currentTime + gec;
     const g = c.createGain(); g.gain.setValueAtTime(0, t);
     g.gain.linearRampToValueAtTime(genlik, t + atak); g.gain.exponentialRampToValueAtTime(0.0001, t + sure);
     const o = c.createOscillator(); o.type = 'sine'; o.frequency.value = f;
@@ -89,5 +89,23 @@ export class Ses {
   soruTonu() {
     if (!this.acik || !this.hazir) return;
     this.nota(392, 0.03, 3.5, 0.5); this.nota(587.33, 0.02, 3.5, 0.9);
+  }
+
+  // sessizlik anı: ana ses 600 ms'de %20'ye iner, yankı kuyruğu kalır; sonra yavaşça döner
+  sessizlik(ms = 2500) {
+    if (!this.acik || !this.hazir) return;
+    const g = this.master.gain, t = this.ctx.currentTime, bit = t + 0.6 + ms / 1000;
+    g.cancelScheduledValues(t); g.setValueAtTime(g.value, t); g.linearRampToValueAtTime(0.1, t + 0.6);
+    g.setValueAtTime(0.1, bit); g.linearRampToValueAtTime(0.5, bit + 1.8);
+  }
+  // "an" vuruşu: alçak, uzun yankılı tını
+  an() {
+    if (!this.acik || !this.hazir) return;
+    this.nota(98, 0.06, 6.5, 0.09); this.nota(147, 0.035, 6, 0.25, 0.12); this.nota(392, 0.012, 5, 0.6, 0.5);
+  }
+  // dal kapandı: düşen iki nota
+  dalKapandi() {
+    if (!this.acik || !this.hazir) return;
+    this.nota(659.25, 0.03, 2.4, 0.03); this.nota(493.88, 0.03, 2.6, 0.03, 0.9);
   }
 }

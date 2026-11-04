@@ -166,7 +166,7 @@
           { "yil": "624", "etiket": "614 + 10 yıl" },
           { "yil": "628", "etiket": "618 + 10 yıl" }
         ] } } },
-        { "metin": "Bu sureyi Mekkî sayan, Batılı araştırmacıların da ortak görüşü." }
+        { "metin": "Bu sureyi Mekkî sayanlar arasında Hirschfeld, Bell, Muir ve Weil var.", "kaynak": {"yazar": "Sir William Muir", "eser": "The Life of Mahomet, c. 2", "yer": "", "yil": "", "sayfa": "319", "not": "İngiliz oryantalist. Hirschfeld (s. 78), Bell (c. 2, s. 392) ve Weil (s. 63) de surenin Mekkî olduğunu yazar", "dogrulanacak": true} }
       ],
       "soru": {
         "metin": "Bu söz olaydan sonra yazılsaydı, o gün Mekke'de bu alay ve bu bahis olur muydu?",
@@ -176,7 +176,7 @@
       "yollar": [
         { "tur": "ikna", "anahtar": ["olmazdı", "olmaz", "mantıklı", "haklısın"], "git": "mucize.rum-tahmin" },
         { "tur": "itiraz", "anahtar": ["sonradan", "sonradan yazılmış", "eklenmiş", "değiştirilmiş", "olaydan sonra", "nesh edilmiş"], "yanit": ["Metindeki zamana bak: “yenildiler” geçmiş, “yenecekler” gelecek zaman.", "Olaydan sonra yazan biri “yendiler” derdi.", "Üstelik net bir yıl verilmemiş. Sonradan yazan, net yıl yazardı.", "Değiştirildi demek için, değişikliğin delili gerekir. Delil iddia edene düşer."] },
-        { "tur": "itiraz", "anahtar": ["ne zaman indi", "belli değil", "tarih belli değil"], "yanit": ["Tarih kaynakları olmasa bile metin zamanını ele verir.", "“O gün müminler ferahlayacak” demek, müminlerin ezildiği Mekke dönemini gösterir.", "Batılı araştırmacıların hepsi de sureyi Mekkî sayar."] }
+        { "tur": "itiraz", "anahtar": ["ne zaman indi", "belli değil", "tarih belli değil"], "yanit": ["Tarih kaynakları olmasa bile metin zamanını ele verir.", "“O gün müminler ferahlayacak” demek, müminlerin ezildiği Mekke dönemini gösterir.", "Hirschfeld, Bell, Muir, Weil: hepsi de sureyi Mekkî sayar."] }
       ],
       "ekOrnekler": [
         {
@@ -195,8 +195,8 @@
         },
         {
           "satirlar": [
-            { "metin": "Batılı bir araştırmacı şunu yazar:" },
-            { "metin": "", "diyagram": { "tur": "alinti", "veri": { "metin": "Muhammed'in bu kadar erken tarihte Bizans'ın siyasi kaderi lehine bir görüş ortaya koymasını açıklamak zordur.", "kim": "Batılı bir Kur'an araştırmacısı" } } }
+            { "metin": "Richard Bell şunu yazar:" },
+            { "metin": "", "diyagram": { "tur": "alinti", "veri": { "metin": "Muhammed'in bu kadar erken tarihte Bizans'ın siyasi kaderi lehine bir görüş ortaya koymasını açıklamak zordur.", "kaynak": {"yazar": "Richard Bell", "eser": "The Qur'an: Translated, With a Critical Re-Arrangement of the Surahs, c. 2", "yer": "", "yil": "", "sayfa": "392", "not": "İskoç oryantalist", "dogrulanacak": true}, "kim": "Richard Bell" } } }
           ],
           "soru": "Bu sözü Müslüman olmayan biri yazıyor. Sence neden bu kadar temkinli?"
         }
@@ -211,13 +211,13 @@
       "gizliDugum": "R3",
       "sahne": { "arkaplan": "col" },
       "satirlar": [
-        { "metin": "Şimdi bunu Müslüman kaynaklara değil, Batılı tarihçilere soralım." },
-        { "metin": "Persler İstanbul'un karşısında on yıldan fazla ordugâh kurmuştu." },
+        { "metin": "Şimdi bunu Müslüman kaynaklara değil, Gibbon, Vasiliev ve Stathakopoulos gibi tarihçilere soralım." },
+        { "metin": "Persler İstanbul'un karşısında on yıldan fazla ordugâh kurmuştu.", "kaynak": {"yazar": "Edward Gibbon", "eser": "Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (İndie Kitap, Türkçe çev.)", "yer": "İstanbul", "yil": "2020", "sayfa": "", "not": "İngiliz tarihçi", "dogrulanacak": true} },
         { "metin": "Kuzeyden Avarlar ve Slavlar vuruyordu. Herakleios esir düşmekten zor kurtuldu." },
         { "metin": "İçeride iç savaş, boş hazine, vergi vermeyen halk vardı." },
         { "metin": "Mısır'ın gitmesiyle şehrin tahılı da bitti." },
-        { "metin": "Herakleios barış istedi, haraç önerdi. Pers kralı reddetti." },
-        { "metin": "619'da başkenti terk edip Afrika'ya kaçmaya hazırlandı.", "vurgu": true },
+        { "metin": "Herakleios barış istedi, haraç önerdi. Pers kralı reddetti.", "kaynak": {"yazar": "Susan Wise Bauer", "eser": "Ortaçağ Dünyası (Alfa Tarih, Türkçe çev.)", "yer": "İstanbul", "yil": "2018", "sayfa": "", "not": "Amerikalı tarihçi", "dogrulanacak": true} },
+        { "metin": "619'da başkenti terk edip Afrika'ya kaçmaya hazırlandı.", "kaynak": {"yazar": "Auguste Bailly", "eser": "Bizans Tarihi (Tercüman 1001 Temel Eser, Türkçe çev.)", "yer": "", "yil": "", "sayfa": "", "not": "Fransız tarihçi", "dogrulanacak": true}, "vurgu": true },
         { "metin": "Patrik onu kilisede yemin ettirerek vazgeçirdi." },
         { "metin": "Şimdi bir an kendini o günün Mekke'sine koy." }
       ],
@@ -278,7 +278,7 @@
         ] } } },
         { "metin": "Ayetin penceresi: 614'ten 618'e, on yıl ekle. Yani 624 ile 628.", "vurgu": true },
         { "metin": "Üç sefer, tam bu pencerenin içinde." },
-        { "metin": "Batılı tarihçiler bu dönemi İskender'in seferlerine benzetir." },
+        { "metin": "Vasiliev'in aktardığı Uspensky bu dönemi İskender'in seferlerine benzetir.", "kaynak": {"yazar": "Alexander A. Vasiliev", "eser": "Bizans İmparatorluğu Tarihi (Alfa, Türkçe çev.)", "yer": "İstanbul", "yil": "2017", "sayfa": "", "not": "Rus asıllı Bizans tarihçisi", "dogrulanacak": true} },
         { "metin": "Sonra Herakleios yine eski uyuşukluğuna döner." }
       ],
       "soru": {
@@ -296,7 +296,7 @@
         {
           "satirlar": [
             { "metin": "On bir yıl başarısız. Altı yıl parlak. Sonra yine uyuşuk." },
-            { "metin": "Batılı bir tarihçi bu garipliğin sebebini sorar ve kendisi bulamaz." }
+            { "metin": "Edward Gibbon bu garipliğin sebebini sorar ve kendisi bulamaz.", "kaynak": {"yazar": "Edward Gibbon", "eser": "Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (İndie Kitap, Türkçe çev.)", "yer": "İstanbul", "yil": "2020", "sayfa": "", "not": "İngiliz tarihçi", "dogrulanacak": true} }
           ],
           "soru": "Tarih, bu keskin değişimin zamanlamasını neye bağlayabilir?"
         },
@@ -445,7 +445,7 @@
         {
           "satirlar": [
             { "metin": "Çağdaşlar denedi. Müseylime hitabet yeteneği olan biriydi." },
-            { "metin": "Batılı bir yazar, onun “Kur'an”ının değerinin sıfır olduğunu yazar." }
+            { "metin": "Bodley, onun “Kur'an”ının değerinin sıfır olduğunu yazar.", "kaynak": {"yazar": "R. V. C. Bodley", "eser": "Hazreti Muhammed (Nebioğlu, Türkçe çev.)", "yer": "İstanbul", "yil": "1958", "sayfa": "349", "not": "İngiliz diplomat ve yazar, bedevilerle yaşamış", "dogrulanacak": false} }
           ],
           "soru": "Deneyip de sonuç çıkaramayan çağdaşlar için ne düşünürdün?"
         },
@@ -478,8 +478,8 @@
         { "metin": "Şiirin “her şey” olduğu bir topluma.", "vurgu": true },
         { "metin": "Şair, gazeteci, tarihçi ve sözcü yerine geçerdi." },
         { "metin": "Bir hiciv, bir kabileyi yıkabilirdi. Şairler kiralanırdı." },
-        { "metin": "Batılı bir tarihçi, Ukaz panayırını bir “Fransız Akademisi”ne benzetir." },
-        { "metin": "Arapça da şiire en elverişli dildi. Batılı yazarlar bunu yazar." },
+        { "metin": "Philip K. Hitti, Ukaz panayırını bir “Fransız Akademisi”ne benzetir.", "kaynak": {"yazar": "Philip K. Hitti", "eser": "Siyasi ve Kültürel İslam Tarihi (Bilge Kültür Sanat, Türkçe çev.)", "yer": "İstanbul", "yil": "2020", "sayfa": "139-140", "not": "Lübnan asıllı Amerikalı tarihçi", "dogrulanacak": false} },
+        { "metin": "Arapça da şiire en elverişli dildi. Rodinson, Margoliouth ve Hitti bunu yazar.", "kaynak": {"yazar": "Maxime Rodinson", "eser": "Muhammed (Doruk, Türkçe çev.)", "yer": "", "yil": "2017", "sayfa": "126", "not": "Fransız oryantalist ve sosyolog", "dogrulanacak": true} },
         { "metin": "Yani meydan okuma, toplumun en güçlü olduğu alana yapıldı." }
       ],
       "soru": {
@@ -535,8 +535,8 @@
           "sag": { "baslik": "Hz. Muhammed'in okuyuşu", "maddeler": ["Lâ hayra illâ hayru'l-âhira", "fağfir li'l-muhâcirâti ve'l-ensâr"] }
         } } },
         { "metin": "Arapça bilmesen de, ikincisinde ritmin bozulduğunu duyarsın." },
-        { "metin": "Batılı bir araştırmacı: şiire kulağı yoktu, kabile nağmelerini bile geç ezberledi." },
-        { "metin": "Bir başka Batılı yazar: düşmanlar vahiylerin sahte olduğunu iddia etmedi." },
+        { "metin": "Margoliouth: şiire kulağı yoktu, kabile nağmelerini bile geç ezberledi.", "kaynak": {"yazar": "D. S. Margoliouth", "eser": "Muhammed ve İslam'ın Yükselişi (Ankara Okulu, Türkçe çev.)", "yer": "Ankara", "yil": "2020", "sayfa": "68", "not": "İngiliz oryantalist", "dogrulanacak": false} },
+        { "metin": "Karen Armstrong'a göre düşmanlar vahiylerin sahte olduğunu iddia etmedi.", "kaynak": {"yazar": "Karen Armstrong", "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)", "yer": "İstanbul", "yil": "2005", "sayfa": "180", "not": "İngiliz din tarihçisi, eski rahibe", "dogrulanacak": false} },
         { "metin": "Açıklayamadıkları bir şey olduğu belliydi." }
       ],
       "soru": {
@@ -546,7 +546,7 @@
       },
       "yollar": [
         { "tur": "ikna", "anahtar": ["açıklaması zor", "açıklayamıyorum", "zor", "aciz", "haklısın", "ikna oldum", "mantıklı", "katılıyorum"], "git": "kapanis.giris" },
-        { "tur": "itiraz", "anahtar": ["bilinçaltı", "bilinçaltından", "ilham", "içinden geldi"], "yanit": ["Bir Batılı yazar “bilinçaltından” der. Bu, açıklamayı sisin ardına atmaktır.", "Kırk yaşında ilk kez şiir yazmaya başlayan ve ilk vahyi görünce korkan biri düşün.", "Bu bir açıklama değil, açıklamama biçimi."] }
+        { "tur": "itiraz", "anahtar": ["bilinçaltı", "bilinçaltından", "ilham", "içinden geldi"], "yanit": ["Rodinson “bilinçaltından” der. Bu, açıklamayı sisin ardına atmaktır.", "Kırk yaşında ilk kez şiir yazmaya başlayan ve ilk vahyi görünce korkan biri düşün.", "Bu bir açıklama değil, açıklamama biçimi."] }
       ],
       "ekOrnekler": [
         {
@@ -558,7 +558,7 @@
         },
         {
           "satirlar": [
-            { "metin": "Batılı bir yazar, gündelik hayatında belagatının izini bulamaz." },
+            { "metin": "Rodinson, gündelik hayatında belagatının izini bulamaz.", "kaynak": {"yazar": "Maxime Rodinson", "eser": "Muhammed (Doruk, Türkçe çev.)", "yer": "", "yil": "2017", "sayfa": "355", "not": "Fransız oryantalist ve sosyolog", "dogrulanacak": true} },
             { "metin": "Kısa bir dönem “hayranlık verici” metinler çıktığını yazar." }
           ],
           "soru": "Aynı kişide hem sıradan konuşma hem bu üslup bir arada nasıl açıklanır?"
@@ -597,12 +597,12 @@
         { "tur": "itiraz", "anahtar": ["düzeltip", "düzelt", "düzeltebilir"], "yanit": ["Düzeltmek için hatayı fark edip doğrusunu bilmek gerekir.", "Peki o doğru bilgi nereden gelmiş olurdu?"] },
         { "tur": "itiraz", "anahtar": ["köle", "köleler", "bir beşer", "hristiyan bir", "öğretti"], "yanit": ["Bu kölelerin adı bile kesin değil. Ne mal, ne makam aldılar.", "Kaynak onlarsa, Kur'an neden Tevrat'la uyuşmuyor?", "Yirmi üç yıl boyunca evdekilerden nasıl gizlenmiş olurlar?", "Mekkeliler kendi kölelerine baskın yapıp bunu kolayca açığa çıkarırdı."] },
         { "tur": "itiraz", "anahtar": ["varaka"], "yanit": ["Varaka'nın varlığını gösteren tek kaynak, onun vahiyden hemen sonra öldüğünü de söyler.", "Hadisin yarısını alıp yarısını bırakmak için gerekçe yok."] },
-        { "tur": "itiraz", "anahtar": ["yazılı", "okudu", "kütüphane", "kitaptan"], "yanit": ["Okuma yazması olmayan biri için yazılı kaynak zor.", "Batılı akademisyenlerin hazırladığı muhtemel kaynak listesi 24 sayfa tutar.", "Yalnız kutsal kitaplar için altı dil gerekir."] }
+        { "tur": "itiraz", "anahtar": ["yazılı", "okudu", "kütüphane", "kitaptan"], "yanit": ["Okuma yazması olmayan biri için yazılı kaynak zor.", "Corpus Coranicum'un hazırladığı muhtemel kaynak listesi 24 sayfa tutar.", "Yalnız kutsal kitaplar için altı dil gerekir."] }
       ],
       "ekOrnekler": [
         {
           "satirlar": [
-            { "metin": "Batılı akademisyenlerin Kur'an kaynakları listesi 24 sayfa tutar." },
+            { "metin": "Corpus Coranicum'un Kur'an kaynakları listesi 24 sayfa tutar.", "kaynak": {"yazar": "Corpus Coranicum", "eser": "Corpus Coranicum veri tabanı: ayet ve yazma navigatörü", "yer": "Almanya", "yil": "", "sayfa": "", "not": "Almanya merkezli akademik Kur'an metni projesi; kaynak listesi bölümü", "dogrulanacak": true} },
             { "metin": "Yalnız kutsal kitapları okumak için altı dil gerekir." }
           ],
           "soru": "Okuma yazması olmayan biri, bu kitaplığı hangi kütüphanede gezmiş olabilir?"

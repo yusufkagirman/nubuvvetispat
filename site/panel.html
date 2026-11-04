@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Sunum Kontrol Paneli</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="panel/panel.css">
+</head>
+<body>
+<header class="ust">
+  <div class="satir1">
+    <h1>Sunum Kontrol Paneli <small id="sayac"></small></h1>
+    <input id="ara" type="search" placeholder="Metinde ara (satır, soru, yanıt, not…)" aria-label="Ara">
+    <div class="duzen">
+      <button id="b-notlar" type="button">Notlar <span id="not-say" class="rozet">0</span></button>
+    </div>
+  </div>
+  <div class="satir2">
+    <div id="bolgeler" class="cipsira" aria-label="Bölge süzgeci"></div>
+    <label class="cb"><input type="checkbox" id="f-dog"> doğrulanacak</label>
+    <label class="cb"><input type="checkbox" id="f-ek"> ek</label>
+    <label class="cb"><input type="checkbox" id="f-not"> notlu</label>
+    <label class="sel">Persona
+      <select id="persona"><option value="">— yok —</option></select>
+    </label>
+    <span class="kenar-sec" id="kenar-sec"></span>
+  </div>
+</header>
+<main class="ana">
+  <section class="grafik" id="grafik-kap" aria-label="Akış grafiği">
+    <div class="zoom">
+      <button id="z-art" type="button" aria-label="Yakınlaştır">+</button>
+      <button id="z-eks" type="button" aria-label="Uzaklaştır">−</button>
+      <button id="z-sig" type="button" aria-label="Sığdır">⤢</button>
+    </div>
+    <svg id="svg" role="img" aria-label="Beat grafiği"></svg>
+    <div class="lejant" id="lejant"></div>
+  </section>
+  <aside class="detay" id="detay" aria-live="polite"><p class="bos">Soldaki grafikten bir kareye (düğüme) dokun.</p></aside>
+</main>
+<div id="persona-bilgi" class="persona-bilgi" hidden></div>
+<dialog id="not-dlg"></dialog>
+<div id="onizleme" class="onizleme" hidden>
+  <div class="onizleme-bar"><span id="onizleme-baslik"></span><button id="onizleme-kapat" type="button">Kapat ✕</button></div>
+  <iframe id="onizleme-cerceve" title="Sunum önizleme"></iframe>
+</div>
+<script src="akis-veri.js"></script>
+<script type="module" src="panel/panel.js"></script>
+</body>
+</html>

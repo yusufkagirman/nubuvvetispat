@@ -257,7 +257,7 @@
           "metin": "Sara iddiası yeni değil."
         },
         {
-          "metin": "Orta Çağ Avrupası'ndan gelir. Sonra bazı Batılı yazarlarda sürdü."
+          "metin": "Orta Çağ Avrupası'ndan gelir. Sonra Sprenger gibi bazı Batılı yazarlarda sürdü."
         },
         {
           "metin": "Bugün ise ciddi bir savunucusu yok."
@@ -274,12 +274,30 @@
             "tur": "alinti",
             "veri": {
               "metin": "Aklı başında ve salim düşünceli tek insan varsa Muhammed'di.",
-              "kim": "Batılı bir biyografi yazarı"
+              "kim": "R. V. C. Bodley",
+              "kaynak": {
+                "yazar": "R. V. C. Bodley",
+                "eser": "Hazreti Muhammed (Nebioğlu, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1958",
+                "sayfa": "",
+                "not": "İngiliz diplomat ve yazar, bedevilerle yaşamış",
+                "dogrulanacak": true
+              }
             }
           }
         },
         {
-          "metin": "Batılı bir tarihçi de anlatılan belirtilerin sarayla uyuşmadığını yazar."
+          "metin": "W. Montgomery Watt da anlatılan belirtilerin sarayla uyuşmadığını yazar.",
+          "kaynak": {
+            "yazar": "W. Montgomery Watt",
+            "eser": "Hz. Muhammed: Peygamber ve Devlet Adamı (İletişim, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2019",
+            "sayfa": "",
+            "not": "İskoç oryantalist, Edinburgh Üniv.",
+            "dogrulanacak": true
+          }
         }
       ],
       "soru": {
@@ -343,10 +361,19 @@
         {
           "satirlar": [
             {
-              "metin": "Bir dönem bazı Batılı yazarlar histeri dedi."
+              "metin": "Bir dönem Sprenger gibi yazarlar histeri dedi."
             },
             {
-              "metin": "Sonra Fransız nörolog Babinski bu tanının yanlış olduğunu gösterdi."
+              "metin": "Sonra Fransız nörolog Babinski bu tanının yanlış olduğunu gösterdi.",
+              "kaynak": {
+                "yazar": "Émile Dermenghem",
+                "eser": "Hz. Muhammed ve Risâleti (İnsan, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1997",
+                "sayfa": "",
+                "not": "Fransız yazar ve oryantalist; Sprenger'in histeri tezinin Babinski tarafından çürütüldüğünü aktarır",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Bir tanı düşünce, genelde bir başkası gelir. O da düştü."
@@ -360,7 +387,16 @@
               "metin": "Gerçekten nöbetler olsaydı, Mekke'deki muhalifleri düşün."
             },
             {
-              "metin": "Batılı bir yazar şunu hatırlatır: bundan fazlasıyla yararlanırlardı."
+              "metin": "Lesley Hazleton şunu hatırlatır: bundan fazlasıyla yararlanırlardı.",
+              "kaynak": {
+                "yazar": "Lesley Hazleton",
+                "eser": "İlk Müslüman (Kitabix, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "İngiliz-Amerikalı yazar",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Çünkü bunlar, o günün insanlarının çok iyi bildiği şeylerdi."
@@ -449,7 +485,7 @@
             "Diyelim ki deha ile delilik yakın.",
             "Yakın olmak, aynı olmak değil.",
             "Aranan şey bir yakınlık değil: 23 yıl süren, planlı, tutarlı bir başarı.",
-            "Batılı bir yazar onun nefsine hâkimiyetini, iradesini ve ileriyi görüşünü sayar; meczup görmemizi engellediğini söyler."
+            "Emile Dermenghem onun nefsine hâkimiyetini, iradesini ve ileriyi görüşünü sayar; meczup görmemizi engellediğini söyler."
           ]
         }
       ],
@@ -477,7 +513,16 @@
               "metin": "Uhud'da savaş alanını ustalıkla seçmişti."
             },
             {
-              "metin": "Batılı bir tarihçi yazar: vaha korunmasız kalsa bile, küçük mevzilerin Mekkelileri oyalayacağını hesaplamıştı."
+              "metin": "W. Montgomery Watt yazar: vaha korunmasız kalsa bile, küçük mevzilerin Mekkelileri oyalayacağını hesaplamıştı.",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Muhammed Medine'de (Kuramer, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Bu soğukkanlı bir askerî hesap."
@@ -633,7 +678,16 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı tarihçilerin çoğu bu anlatıyı kendileri de eleştirir."
+              "metin": "Caetani ve Lewis bu anlatıyı kendileri de eleştirir.",
+              "kaynak": {
+                "yazar": "Leone Caetani",
+                "eser": "İslam Tarihi (Ankara Okulu, Türkçe çev.)",
+                "yer": "Ankara",
+                "yil": "2020",
+                "sayfa": "241",
+                "not": "İtalyan oryantalist",
+                "dogrulanacak": false
+              }
             },
             {
               "metin": "Savunan oryantaliste ise rastlanmaz."
@@ -1018,7 +1072,16 @@
           "metin": "Önce başladığı yere bakalım. Toplumun payı."
         },
         {
-          "metin": "Batılı bir din tarihçisi yazar: Pers de Bizans da Arabistan'ı işgale değer görmüyordu."
+          "metin": "Din tarihçisi Karen Armstrong yazar: Pers de Bizans da Arabistan'ı işgale değer görmüyordu.",
+          "kaynak": {
+            "yazar": "Karen Armstrong",
+            "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2005",
+            "sayfa": "",
+            "not": "İngiliz din tarihçisi, eski rahibe",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Kimse orada yeni bir dinin doğacağını düşünmüyordu."
@@ -1106,7 +1169,16 @@
               "metin": "Muhacirler ve Medineliler arasında kardeşlik kuruldu."
             },
             {
-              "metin": "Hollandalı bir tarihçi şunu aktarır: her muhacir bir Medineli kardeş seçti. Bu bağ öz kardeşlikten güçlü sayıldı."
+              "metin": "Hollandalı tarihçi Dozy şunu aktarır: her muhacir bir Medineli kardeş seçti. Bu bağ öz kardeşlikten güçlü sayıldı.",
+              "kaynak": {
+                "yazar": "Reinhart P. A. Dozy",
+                "eser": "İslam Tarihi (Gri Yayınevi, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2006",
+                "sayfa": "",
+                "not": "Hollandalı oryantalist",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "Kan bağından başka bağ tanımayan bir toplumda, bu bağı kim kurabilir?"
@@ -1131,7 +1203,16 @@
               "metin": "Başlangıçta onu savunan bir sosyal sınıf yoktu."
             },
             {
-              "metin": "İlk yıllar için bir Batılı tarihçi 'hayal kırıcı' der, muhalefet neredeyse topluydu."
+              "metin": "İlk yıllar için Ira Lapidus 'hayal kırıcı' der, muhalefet neredeyse topluydu.",
+              "kaynak": {
+                "yazar": "Ira M. Lapidus",
+                "eser": "İslam Toplumlarının Tarihi (İletişim, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "Amerikalı tarihçi",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Katılımın yavaşlığı, ortada bir toplumsal talep olmadığını gösterir."
@@ -1208,7 +1289,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Tek başarısı bu politik gelişme olsa bile hayranlığımızı kazanmaya yeterdi.",
-              "kim": "Batılı bir din tarihçisi"
+              "kim": "Karen Armstrong",
+              "kaynak": {
+                "yazar": "Karen Armstrong",
+                "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2005",
+                "sayfa": "",
+                "not": "İngiliz din tarihçisi, eski rahibe",
+                "dogrulanacak": true
+              }
             }
           }
         },
@@ -1271,10 +1361,19 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir sosyolog şunu yazar:"
+              "metin": "Maxime Rodinson şunu yazar:"
             },
             {
-              "metin": "Yüz yıl sonra torunları, Loire'dan Indus'a uzanan bir dünyayı komuta ediyordu."
+              "metin": "Yüz yıl sonra torunları, Loire'dan Indus'a uzanan bir dünyayı komuta ediyordu.",
+              "kaynak": {
+                "yazar": "Maxime Rodinson",
+                "eser": "Muhammed (Doruk, Türkçe çev.)",
+                "yer": "",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "Fransız oryantalist ve sosyolog",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Kurucu gittikten sonra da fetihler durmadı. Bu kurumsallaşmanın işaretidir."
@@ -1327,7 +1426,16 @@
           "metin": "Cengiz'in imparatorluğu ölümünden sonra parçalandı. İskender'inki de."
         },
         {
-          "metin": "Tarihin en etkili yüz kişisini sıralayan Batılı bir yazar, tek karşılaştırılabilir fethin Cengiz'inki olduğunu, ama kalıcı olmadığını yazar."
+          "metin": "Michael H. Hart en etkili yüz kişiyi sıraladı: tek benzer fetih Cengiz'inki, ama kalıcı değil.",
+          "kaynak": {
+            "yazar": "Michael H. Hart",
+            "eser": "Dünyaya Yön Veren En Etkin 100 (Güney Kitap, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2019",
+            "sayfa": "28-29",
+            "not": "Amerikalı yazar",
+            "dogrulanacak": false
+          }
         }
       ],
       "soru": {
@@ -1504,10 +1612,19 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir tarihçi şunu yazar:"
+              "metin": "W. Montgomery Watt şunu yazar:"
             },
             {
-              "metin": "Olaylar tarihen sabit olmasa, alay edilen Mekkeli bir peygamberin şehrine muzaffer fatih olarak gireceğine çok az kişi inanırdı."
+              "metin": "Olaylar tarihen sabit olmasa, alay edilen Mekkeli bir peygamberin şehrine muzaffer fatih olarak gireceğine çok az kişi inanırdı.",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Muhammed Medine'de (Kuramer, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Bunu o gün öngören tek kişi, kendisiydi."
@@ -1612,10 +1729,19 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir biyografi yazarı şöyle der:"
+              "metin": "Lesley Hazleton şöyle der:"
             },
             {
-              "metin": "Silahsız umreyle Mekkelileri de silahsızlandırdı."
+              "metin": "Silahsız umreyle Mekkelileri de silahsızlandırdı.",
+              "kaynak": {
+                "yazar": "Lesley Hazleton",
+                "eser": "İlk Müslüman (Kitabix, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "İngiliz-Amerikalı yazar",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Savaşla elde edilemeyeni, barışla elde etti."
@@ -1643,7 +1769,16 @@
         {
           "satirlar": [
             {
-              "metin": "Hendek'e bak. Batılı bir tarihçi bunu üstün bir strateji sayar."
+              "metin": "Hendek'e bak. Watt bunu üstün bir strateji sayar.",
+              "kaynak": {
+                "yazar": "W. Montgomery Watt",
+                "eser": "Muhammed Medine'de (Kuramer, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İskoç oryantalist, Edinburgh Üniv.",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Hendek, Mekkelilerin zafer umudu olan süvariye karşıydı."
@@ -1812,7 +1947,16 @@
           "metin": "Süryani bir Hristiyan yazar, Tanrı'nın onları Romalıların elinden Araplarla kurtardığını yazar."
         },
         {
-          "metin": "Bir Nasturi patriği, Müslümanlaşan bir şehre sitem eder: Araplar dinimize, rahiplerimize saygı gösteriyor."
+          "metin": "Bir Nasturi patriği, Müslümanlaşan bir şehre sitem eder: Araplar dinimize, rahiplerimize saygı gösteriyor.",
+          "kaynak": {
+            "yazar": "Thomas W. Arnold",
+            "eser": "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2016",
+            "sayfa": "335-336",
+            "not": "İngiliz oryantalist",
+            "dogrulanacak": false
+          }
         },
         {
           "metin": "",
@@ -1820,7 +1964,16 @@
             "tur": "alinti",
             "veri": {
               "metin": "Daha tesirli başka saikler aramak mecburiyetindeyiz.",
-              "kim": "Batılı bir tarihçi, kılıçla din değiştirme iddiası için"
+              "kim": "Thomas W. Arnold (kılıçla din değiştirme iddiası için)",
+              "kaynak": {
+                "yazar": "Thomas W. Arnold",
+                "eser": "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2016",
+                "sayfa": "342",
+                "not": "İngiliz oryantalist",
+                "dogrulanacak": false
+              }
             }
           }
         },
@@ -1872,7 +2025,16 @@
         {
           "satirlar": [
             {
-              "metin": "Batılı bir tarihçi yazar: Müslümanlar Filistin'i alırken Yahudileri rahat bıraktı."
+              "metin": "Tarihçi Bauer yazar: Müslümanlar Filistin'i alırken Yahudileri rahat bıraktı.",
+              "kaynak": {
+                "yazar": "Bauer (Thomas ya da Susan Wise Bauer; teyit edilecek)",
+                "eser": "",
+                "yer": "",
+                "yil": "",
+                "sayfa": "",
+                "not": "Tarihçi",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Remle kurulur kurulmaz Yahudiler yerleşti, sinagog yaptı."
@@ -1946,13 +2108,31 @@
           "metin": "Dedesi, sonra amcası baktı. Bir yetime yapılabilecek, çoğu zaman açlıktan korumaktı."
         },
         {
-          "metin": "Batılı bir yazar onu Mekke'de ücret ve komisyonla çalışan biri olarak anlatır."
+          "metin": "Bodley onu Mekke'de ücret ve komisyonla çalışan biri olarak anlatır.",
+          "kaynak": {
+            "yazar": "R. V. C. Bodley",
+            "eser": "Hazreti Muhammed (Nebioğlu, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "1958",
+            "sayfa": "",
+            "not": "İngiliz diplomat ve yazar, bedevilerle yaşamış",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Sosyetede yeri yoktu."
         },
         {
-          "metin": "Kendini öne çıkarmaya hevesli biri de değildi. Batılı bir din tarihçisi bunu özellikle belirtir."
+          "metin": "Kendini öne çıkarmaya hevesli biri de değildi. Karen Armstrong bunu özellikle belirtir.",
+          "kaynak": {
+            "yazar": "Karen Armstrong",
+            "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2005",
+            "sayfa": "",
+            "not": "İngiliz din tarihçisi, eski rahibe",
+            "dogrulanacak": true
+          }
         }
       ],
       "soru": {
@@ -1986,7 +2166,7 @@
           ],
           "yanit": [
             "Hırslı biriyse, kendini öne çıkarmaya çalışırdı.",
-            "Batılı din tarihçisi tam tersini yazar.",
+            "Karen Armstrong tam tersini yazar.",
             "Kendi sözü de şuydu: 'Ben kral değilim. Güneşte kurutulmuş et yiyen bir kadının oğluyum.'"
           ]
         }
@@ -2039,7 +2219,16 @@
           "metin": "'Ümm', anne demek. Anadan doğduğu gibi: eğitim almamış."
         },
         {
-          "metin": "Batılı bir din tarihçisi: okur-yazar olduğuna dair bir kayıt yok."
+          "metin": "Karen Armstrong: okur-yazar olduğuna dair bir kayıt yok.",
+          "kaynak": {
+            "yazar": "Karen Armstrong",
+            "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2005",
+            "sayfa": "",
+            "not": "İngiliz din tarihçisi, eski rahibe",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Mektuplarını bile başkasına yazdırırdı."
@@ -2101,7 +2290,7 @@
           ],
           "yanit": [
             "Tüccar olmak, okur-yazar olmayı göstermez.",
-            "Bazı Batılılar bunu ileri sürdü, ama bir kayıt gösteremedi.",
+            "Bazıları bunu ileri sürdü; ama Armstrong ve Hitti'ye göre böyle bir kayıt yok.",
             "Mektuplarını Ali gibi birine yazdırırdı."
           ]
         }
@@ -2178,7 +2367,7 @@
           "metin": "Oysa toplum ona ufuk vermiyor. Eğitim ona ufuk vermiyor."
         },
         {
-          "metin": "Batılı kaynaklar bile: sara tutmuyor, histeri düştü, başarı hastalıkla açıklanamıyor."
+          "metin": "Watt, Dermenghem, Bodley bile: sara tutmuyor, histeri düştü, başarı hastalıkla açıklanamıyor."
         },
         {
           "metin": "Plan, hukuk, ahlak, devlet: bunlar sanrının değil, berrak bir aklın işi."
@@ -2222,7 +2411,7 @@
             "hasta"
           ],
           "yanit": [
-            "Sarayı konuştuk: Batılı yazarlar belirtilerin uyuşmadığını ve zihnin son ana kadar berrak olduğunu yazar.",
+            "Sarayı konuştuk: Watt ve Bodley belirtilerin uyuşmadığını ve zihnin son ana kadar berrak olduğunu yazar.",
             "Hastalıkla başarı arasında kurulan bağ, bir açıklama değil, bir ön kabul.",
             "Hastalık bunu açıklıyorsa, hangi hastalık bunu başka birine yaptırmış?"
           ]
@@ -2247,7 +2436,16 @@
         {
           "satirlar": [
             {
-              "metin": "Tarihin en etkili yüz kişisini sıralayan Batılı bir yazar, Hz. Muhammed'i birinci sıraya koyar."
+              "metin": "Tarihin en etkili yüz kişisini sıralayan Michael Hart, Hz. Muhammed'i birinci sıraya koyar.",
+              "kaynak": {
+                "yazar": "Michael H. Hart",
+                "eser": "Dünyaya Yön Veren En Etkin 100 (Güney Kitap, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2019",
+                "sayfa": "30",
+                "not": "Amerikalı yazar",
+                "dogrulanacak": false
+              }
             },
             {
               "metin": "Gerekçesi: hem dinî hem din dışı alanlarda üstün başarı gösteren tek kişi."
@@ -2261,10 +2459,19 @@
         {
           "satirlar": [
             {
-              "metin": "Bir başka Batılı tarihçi şunu yazar:"
+              "metin": "Leone Caetani şunu yazar:"
             },
             {
-              "metin": "Dünya tarihinde neredeyse benzeri olmayan bu olaylar zinciri, çağdaşlarında bizden daha büyük bir hayret doğurmalıydı."
+              "metin": "Dünya tarihinde neredeyse benzeri olmayan bu olaylar zinciri, çağdaşlarında bizden daha büyük bir hayret doğurmalıydı.",
+              "kaynak": {
+                "yazar": "Leone Caetani",
+                "eser": "İslam Tarihi (Ankara Okulu, Türkçe çev.)",
+                "yer": "Ankara",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "İtalyan oryantalist",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "Bu olaylar zincirini bir sanrıyla açıklamak, sence hayreti mi yatıştırıyor, yoksa görmezden mi geliyor?"

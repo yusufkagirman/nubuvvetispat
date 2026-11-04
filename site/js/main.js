@@ -10,7 +10,8 @@ const $ = (id) => document.getElementById(id);
 const azHareket = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 async function veriYukle() {
-  if (window.AKIS_VERI?.bolgeler?.length) return window.AKIS_VERI;
+  const ornek = /[?&]ornek=1/.test(location.search); // motor/tasarım denemesi: ornek-akis.json
+  if (!ornek && window.AKIS_VERI?.bolgeler?.length) return window.AKIS_VERI;
   try { const r = await fetch('ornek-akis.json'); if (r.ok) return await r.json(); } catch { /* */ }
   return null;
 }
@@ -20,6 +21,7 @@ const ses = new Ses();
 const ui = new Ekran({ sahne: $('sahne'), yigin: $('yigin'), dgBeat: $('dg-beat'), dgSatir: $('dg-satir'), okuyucu: $('okuyucu') }, { gok, ses });
 const motor = new Motor(ui);
 ui.onBastan = () => baslatBastan();
+ui.kaynakSaglayici = () => motor.tumKaynaklar();
 gok.baslat();
 
 // ---- köşe kontrolleri ----
@@ -27,9 +29,17 @@ const sesBtn = $('ses-btn');
 const sesGuncelle = () => { sesBtn.setAttribute('aria-pressed', String(ses.acik)); sesBtn.setAttribute('aria-label', ses.acik ? 'Sesi kapat' : 'Sesi aç'); };
 sesBtn.addEventListener('click', () => { ses.degistir(); sesGuncelle(); });
 const menu = $('menu'), menuBtn = $('menu-btn'), bastan = $('m-bastan');
+const HIZLAR = [['Yavaş', 1.4], ['Normal', 1], ['Hızlı', 0.7]];
+let hizNo = 1;
+try { const k = parseInt(localStorage.getItem('nubuvvet.hiz'), 10); if (k >= 0 && k < HIZLAR.length) hizNo = k; } catch { /* */ }
+const hizBtn = $('m-hiz');
+const hizUygula = () => { ui.kHiz = HIZLAR[hizNo][1]; hizBtn.textContent = `Hız: ${HIZLAR[hizNo][0]}`; };
+hizUygula();
+hizBtn.addEventListener('click', () => { hizNo = (hizNo + 1) % HIZLAR.length; hizUygula(); try { localStorage.setItem('nubuvvet.hiz', String(hizNo)); } catch { /* */ } });
 const menuKapat = () => { menu.hidden = true; menuBtn.setAttribute('aria-expanded', 'false'); bastan.textContent = 'Baştan başla'; bastan.classList.remove('onay'); };
 menuBtn.addEventListener('click', () => { const ac = menu.hidden; menu.hidden = !ac; menuBtn.setAttribute('aria-expanded', String(ac)); });
 $('m-ara').addEventListener('click', () => { menuKapat(); motor.araVer(); });
+$('m-kaynak').addEventListener('click', () => { menuKapat(); ui.kaynakcaAc($('menu-btn')); });
 bastan.addEventListener('click', () => {
   if (!bastan.classList.contains('onay')) { bastan.classList.add('onay'); bastan.textContent = 'Emin misin? Dokun'; return; }
   menuKapat(); baslatBastan();
@@ -38,7 +48,7 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { menuKapa
 document.addEventListener('pointerdown', (e) => { if (!e.target.closest('.kose')) menuKapat(); });
 
 // ---- etkileşim: ses kilidi + hızlandır ----
-const etkilesimli = (t) => t.closest?.('.kose, form, button, input, a');
+const etkilesimli = (t) => t.closest?.('.kose, form, button, input, a, .isim, .kart-kok, .kaynakca');
 document.addEventListener('pointerdown', (e) => { ses.kilitAc(); sesGuncelle(); if (!etkilesimli(e.target)) ui.dokun(); }, { capture: true });
 document.addEventListener('keydown', (e) => {
   ses.kilitAc(); sesGuncelle();
@@ -71,6 +81,7 @@ async function baslatBastan() {
 window.__sunum = {
   motor, ui, gok, ses, durum, siniflandiriciyiDegistir,
   git: (id) => { motor.git(id); },
+  kaynakca: () => ui.kaynakcaAc(),
   hiz: (x) => { ui.hiz = x; document.documentElement.classList.toggle('hizli', x < 1); },
   durumYaz: () => kaydet(),
 };
