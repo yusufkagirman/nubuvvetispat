@@ -157,7 +157,7 @@ export class Motor {
         // aynı itiraz tekrar gelirse ya da üçüncü itiraz olursa aynı cevabı tekrarlamak yerine yeni örneğe geç
         if (gorulen.has(s.yol) || ++itiraz > 3) s = { tur: 'ret' }; else gorulen.add(s.yol);
       }
-      if (s.tur !== 'global') this.gSeri = {};
+      if (s.tur !== 'global' && !beat.donus) this.gSeri = {}; // yumuşak çıkıştaki cevaplar art arda sayacını sıfırlamaz
       if (s.tur === 'global') {
         const r = await this.globalIsle(no, beat, s.g, cevap, { mod, idx }); this.k(no);
         if (r === 'devam') continue;
