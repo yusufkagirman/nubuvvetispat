@@ -78,8 +78,17 @@ Bu dosya içerik yazarları ile motor arasındaki **tek sözleşmedir**. İki ta
 6. `serbest: true` ve eşleşme yok → cevabı `profil.<beat id>` olarak kaydet → `varsayilan` ya da `sonraki`.
 7. Var olmayan beat'e gidilirse: zarif bir "Bu kısmı hazırlıyoruz; şimdilik buraya kadar" kapanışı.
 
-## Global yollar (ÖNERİ — builder uygulayacak; ayrıntı `docs/onay/global-yollar.md`)
-Konu bağımsız niyetler için her beat'e anahtar eklemek yerine kökte `globalYollar` dizisi: `{ "ad", "anahtar": [], "git", "tekrar": { "say", "git" } }`. Sıra: ara ver → beat `yollar` → `globalYollar` → genel onay/ret. Yeni beat alanı `"donus": true`: global yoldan girilen beat bitince (ya da `git`siz yol eşleşince) kaynak beat'e dönülür ve ilzam sorusu tekrarlanır. Hazır beat'ler: `genel.bilim`, `genel.yumusak` (`genel.json`), `kapanis.muslumanOlmak`, `kapanis.ozet-cikis`. Motor henüz okumuyor; beat'ler `git` ile ulaşılabilir durumda.
+## Global yollar (UYGULANDI — motor: `site/js/motor.js` `globalIsle`, `site/js/niyet.js` `globalEsle`; davranış: `docs/onay/global-yollar.md`)
+Konu bağımsız niyetler her beat'e anahtar eklenmeden bir kez tanımlanır. Kökte (herhangi bir bölge dosyasında; `genel.json` önerilir) `globalYollar` dizisi: `{ "ad", "anahtar": [], "git", "tekrar": { "say", "git" }, "itiraz": true, "yanit": [] }`. `hazirla.sh` tüm `icerik/akis/*.json` dosyalarını (bilinmeyen bölge adları dahil) alır.
+- **Sıra:** "ara ver" → beat `yollar` (eşleşirse global'e bakılmaz) → serbest olmayan sorularda `globalYollar` (ilk eşleşen kazanır) → genel onay/ret/kaçamak. `serbest: true` sorularda (profil soruları, kompozisyon, `genel.yumusak`) global devre dışıdır.
+- **Eşleşme:** normalize + kelime başı (≤ 4 harfli anahtar tam sözcük). Cevap ≤ 12 sözcükse ya da anahtar cümlenin başındaysa tetiklenir (uzun serbest cümlede yanlış alarm olmasın).
+- **Yerleşik varsayılan:** içerikte tanım yoksa motor `niyet.js` `VARSAYILAN_GLOBAL` kullanır (sıra: `muslumanOlmak` → `kapanis.muslumanOlmak`; `notEttim` → `genel.notEttim`; `sert` → `genel.yumusak`, art arda 2 kez → `kapanis.ozet-cikis`; `bilim` → `genel.bilim`; `kisalt` → `kapanis.ozet-cikis`). İçerikte aynı `ad` varsa alan alan üzerine yazılır; yeni `ad` eklenir.
+- **`itiraz: true`:** kullanıcı cümlesi `profil.itirazlar[]`'a yazılır (`bilim`, `notEttim`; `donus` beat'inde serbest cevap da yazılır).
+- **Hedef beat yoksa:** tanımdaki `yanit` satırları (sabit metin) gösterilir ve aynı soru yeniden sorulur. `genel.notEttim` içerikte yoksa motor "Bu konuyu not ettim. Bu sunumda henüz ele almıyoruz…" sabit metnini kullanır (Aişe'nin yaşı, Kurayza/Kureyza, "Yahudileri öldürdü" anahtarları). İçerik yazılırsa `genel.notEttim` (`donus: true`) beat'i öncelik alır.
+- **`"donus": true` (beat alanı):** global yoldan girilen beat `git`siz biterse (satırlar bitince, `sonraki`siz; ya da `git`siz bir yol eşleşince) kullanıcı **kaldığı soruya** döner: motor "Kaldığımız yere dönelim." der, kaynak beat'in satırlarını tekrarlamadan (aynı ana/ek soru kipinde) soruyu yeniden sorar. Kaynak soru bir yığında (`durum.donus`, en çok 5, kayıtlı) tutulur; donus beat'inden başka donus beat'ine geçilirse (`genel.yumusak` → `ozet-cikis`) asıl kaynak korunur. `donus` olmayan bir beat'e girilince yığın temizlenir. Yığın boşsa `varsayilan`/`sonraki`, o da yoksa kapanış.
+- **Ziyaret listesi (U48/MTR-11):** `durum.gezilen` girilen beat id'lerini tutar. Koşullarda `"gezildi": "beat.id"` (ya da dizi: hepsi gezildi) ve `"gezilmedi"`.
+- **MTR-7:** konu dışı soruda "Buna birazdan geleceğiz" denmez (karşılığı olmayan konuya söz verilmez): "Bu soruya bu sunumda henüz hazır bir bölüm yok; bunu not ettim. İstersen önce buradaki soruyu kapatalım." Kaçamak köprüsü (`kopru`) değişmedi.
+- **MTR-4/U45:** `ekOrnekler[].cipler` yoksa ana sorunun çipleri taşınmaz; varsayılan `["Haklısın, açıklaması zor","Yine de ikna olmadım"]` (ana soru serbestse çipsiz).
 
 ## Profil değişkenleri (ortak sözlük)
 - `tanri`: evet | hayir | emin-degil

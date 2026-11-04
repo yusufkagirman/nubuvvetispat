@@ -651,6 +651,58 @@
             "dördüncü ihtimal var",
             "bir ihtimal daha var"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "ekOrnekler": [
@@ -1399,6 +1451,58 @@
             "doğru olmadığını"
           ],
           "git": "haber.belirsiz"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "varsayilan": "haber.belirsiz",

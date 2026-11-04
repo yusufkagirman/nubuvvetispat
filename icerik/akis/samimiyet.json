@@ -238,6 +238,31 @@
             "Burada tersi var: oğlunun ölümünde mucizeyi reddeden, ailesinin açlığını anlatan, kendini azarlayan anlatılar.",
             "Bunları kimse kahramanı parlatmak için uydurmaz."
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "kopru": [
@@ -1067,6 +1092,31 @@
             "Ama bu uyarıların çoğunun siyasi hiçbir işlevi yok: bir görmeyen adama yüz çevirmek, bir iç geçirme gibi.",
             "Ağır olanlar ise doğrudan zarar: 'Neredeyse meyledecektin, kat kat azap' diyen bir lider, kendi halkına neden bunu okutsun?"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "ekOrnekler": [
@@ -1407,6 +1457,35 @@
             "evet",
             "olabilir"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet",
+            "zeynep",
+            "zeyneb",
+            "evlatlık",
+            "zeyd"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "ekOrnekler": [
@@ -2323,6 +2402,31 @@
             "Ama bu ses, siyasi bir amaca hizmet etmiyor: kendi isteğini bile yasaklıyor, kendi üzüntüsüne bile uyarı veriyor.",
             "Böyle bir hile kimi memnun eder?"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "ekOrnekler": [
@@ -2458,6 +2562,31 @@
             "O zaman araya ekleyen kişi, Peygamber'i yönlendiren ve onun iradesine karşı duran bir ses kurmuş olurdu.",
             "Böyle bir eklemenin kime faydası olurdu?"
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "işine gel",
+            "işine geldi",
+            "işine geliyor",
+            "işine geliyordu",
+            "işine gelen",
+            "işine gelir",
+            "işine gelmiş",
+            "keyfine göre",
+            "keyfine",
+            "kendi lehine",
+            "kendi lehinde",
+            "istediği ayet",
+            "istediği ayeti",
+            "istediği zaman ayet",
+            "tam zamanında",
+            "tam zamanında ayet"
+          ],
+          "git": "samimiyet.isine-gelen",
+          "profil": {
+            "iddia": "sahtekar"
+          }
         }
       ],
       "ekOrnekler": [
@@ -2480,6 +2609,202 @@
       ],
       "sonraki": "samimiyet.kapanis",
       "dayanak": "S11 (kitap s. 241-243): Kıyâme 75/15-20; kitabın önerisi: hafızdan Arapça tilavet + eşzamanlı Türkçe meal dinletmek (ses desteği sonraki aşama). 'Methiye' ekOrneği S10 genel gözleminin özetidir (s. 241: uyarı-teselli-emir üslubu). [AYET Kıyâme 75:16-19: satırdaki serbest alıntı yerine ayet satırı] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
+    },
+    {
+      "id": "samimiyet.isine-gelen",
+      "gizliDugum": "S10",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi en güçlü itirazlardan birini adıyla söyleyeyim: 'Ayetler hep tam işine geliyordu.'"
+        },
+        {
+          "metin": "Bu itiraz Müslüman geleneğin içinden de gelir. Hz. Aişe'ye atfedilen söz şu:"
+        },
+        {
+          "metin": "'Rabbinin arzularına çabuk yetiştiğini görüyorum.'",
+          "vurgu": true,
+          "kaynak": {
+            "yazar": "Buhârî",
+            "eser": "el-Câmiʿu's-sahîh, Tefsîr (Ahzâb sûresi bölümü)",
+            "yer": "",
+            "yil": "",
+            "sayfa": "",
+            "not": "Hadis kaynağı; rivayet numarası teyit edilecek",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Doğru: Ahzâb 33:50-52, Peygamber'e özgü evlilik hükümleri içerir. Bunu inkâr etmiyorum."
+        },
+        {
+          "metin": "Hepsi onu azarlıyor demeyeceğim. Ama aynı metinde bambaşka bir tür ayet de var.",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "عَفَا ٱللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمۡ حَتَّىٰ يَتَبَيَّنَ لَكَ ٱلَّذِينَ صَدَقُواْ وَتَعۡلَمَ ٱلۡكَٰذِبِينَ",
+            "meal": "Allah seni affetsin! Doğru söyleyenler sana belli olmadan, yalancıları da bilmeden önce, onlara neden izin verdin?",
+            "sure": "Tevbe",
+            "no": "43",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "عَبَسَ وَتَوَلَّىٰٓ أَن جَآءَهُ ٱلۡأَعۡمَىٰ",
+            "meal": "Yanına âmâ geldi diye yüzünü ekşitti ve çevirdi.",
+            "sure": "Abese",
+            "no": "1-2",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Kendi işine gelen ayetleri öne çıkarıp aleyhine olanları saklamak çok kolaydı. Bir sahtekâr, kendi aleyhine ayetleri neden saklamaz?",
+        "cipler": [
+          "Açıklaması zor",
+          "Seçici okuyorsun",
+          "Bilmiyorum"
+        ],
+        "serbest": false,
+        "buyuk": true
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "açıklaması zor",
+            "haklısın",
+            "mantıklı",
+            "katılıyorum"
+          ],
+          "git": "samimiyet.kapanis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "seçici",
+            "seçerek",
+            "cherry",
+            "kiraz",
+            "bile bile",
+            "dürüst değil"
+          ],
+          "yanit": [
+            "Seçici okumak mümkün; o yüzden iki türü de önüne koyuyorum.",
+            "'İşine gelen' ve 'işine gelmeyen' ayetleri ayrı say. Hangi tarafın ağır bastığına sen karar ver.",
+            "Soru bir sayı yarışı değil: aleyhteki ayetler neden metnin içinde duruyor?"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "nüzul",
+            "nüzul sebebi",
+            "olay üzerine",
+            "olaya göre",
+            "sebeb-i nüzul",
+            "sonradan bağlanmış"
+          ],
+          "yanit": [
+            "Önemli bir nokta: 'tam o olay üzerine indi' bilgisi, sonradan yapılmış bir açıklama da olabilir. Akademik literatürde tartışılır.",
+            "Bu, işine gelen ayetler için de, aleyhine olanlar için de geçerli.",
+            "Yani asıl soru değişmiyor: aleyhteki ayetler neden saklanmamış?"
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "kendini eleştirdi",
+            "kendi kendini",
+            "kendini disipline",
+            "kendini düzeltmek",
+            "bell"
+          ],
+          "yanit": [
+            "Bir okuma da şu: Muhammed kendini eleştirmiş, kendine bir ses kurmuş olabilir.",
+            "Bu okuma bilerek yalan ihtimalini değil, içten bir yanılma ihtimalini ilgilendirir; ona fetanet bölümünde ayrıca bakıyoruz.",
+            "Burada yalnız şunu soruyoruz: bile bile yalan söyleyen biri bunu yapar mı?"
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "bilmiyorum",
+            "emin değilim"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bir örnek daha: ona ve çevresine yaklaşan bir ayartılma ihtimali."
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَلَوۡلَآ أَن ثَبَّتۡنَٰكَ لَقَدۡ كِدتَّ تَرۡكَنُ إِلَيۡهِمۡ شَيۡـٔٗا قَلِيلًا إِذٗا لَّأَذَقۡنَٰكَ ضِعۡفَ ٱلۡحَيَوٰةِ وَضِعۡفَ ٱلۡمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيۡنَا نَصِيرٗا",
+                "meal": "Sana sebat vermeseydik, andolsun ki onlara biraz meyledecektin. O takdirde sana hayatın da ölümün de kat kat azabını tattırırdık. Sonra bize karşı sana bir yardımcı da bulamazdın.",
+                "sure": "İsra",
+                "no": "74-75",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Kendi sözünü savunan bir metin, 'neredeyse meyledecektin' der mi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Daha hassas bir örnek: Ahzâb 37, Peygamber'in özel hayatına dair."
+            },
+            {
+              "metin": "Ayet onu savunmaz: 'İnsanlardan çekiniyordun; oysa Allah'tan çekinmen daha uygundu.'"
+            },
+            {
+              "metin": "Gizlenen şeyin ne olduğu klasik tefsirde tartışılır. Burada yalnız dilin tonuna bakıyoruz."
+            }
+          ],
+          "soru": "Bu ton, kendini savunan bir metnin tonu mu?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bir de kıyamet suresinin ortasındaki kesinti:"
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "لَا تُحَرِّكۡ بِهِۦ لِسَانَكَ لِتَعۡجَلَ بِهِۦٓ إِنَّ عَلَيۡنَا جَمۡعَهُۥ وَقُرۡءَانَهُۥ فَإِذَا قَرَأۡنَٰهُ فَٱتَّبِعۡ قُرۡءَانَهُۥ ثُمَّ إِنَّ عَلَيۡنَا بَيَانَهُۥ",
+                "meal": "Vahyi çarçabuk almak için dilini onunla kımıldatma. Onu toplamak ve okutmak bize aittir. Biz onu okuduğumuzda, sen onun okunuşuna uy. Sonra onu açıklamak da bize aittir.",
+                "sure": "Kıyâme",
+                "no": "16-19",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Kendi metnini yazan biri, kendi aceleciliğini düzelten bir cümleyi neden araya koyar?"
+        }
+      ],
+      "kompozisyon": "Peygamber'e özgü hükümler de var, onu azarlayan ayetler de. Bir sahtekâr bu ikinci türü neden metinden çıkarmaz?",
+      "kopru": [
+        "Bunu not ettim; şimdi şunu soruyordum:",
+        "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
+      ],
+      "sonraki": "samimiyet.kapanis",
+      "dayanak": "ONAY GEREKİR (hassas). YNI-5. İtiraz en güçlü hâliyle adıyla söylendi. Aişe rivayeti ('Rabbinin arzularına çabuk yetiştiğini görüyorum'): Buhârî, Tefsîr (Ahzâb 33/51); rivayet numarası ve tam lafız doğrulanacak; kitap anmıyor (ek). Ahzâb 33/50-52 Peygamber'e özgü hükümler: kitap taramasında yok, ek (hassas-konular.md §4). Kabul edilen sınır: 'hepsi onu azarlıyor' denmedi (kitap s. 235: 'bu ayetlerin hepsi O'nun zedeleri sonrası nazil olmuş değildir'). KİTAP: 'ikinci irade' (s. 231-241): Abese 80/1-10 (s. 231-232, Caetani), İsrâ 17/73-75 (s. 233), Tevbe 9/43 (s. 234-235, 240), Ahzâb 33/37 (s. 232-233, dn. 519: ismet inancı korunur; ateist muhataba tez değil yazarın çerçevesi olarak sunulur), Kıyâme 75/16-19 (s. 241-243). Nüzul rivayeti itirazı: Rippin, 'The Function of Asbāb al-Nuzūl in Qurʾānic Exegesis', BSOAS 51 (1988) (doğrulanacak). Laik/Bell okuması: bu beat yalnız 'bilerek yalan' dalını kapatır, 'yanılma' dalını kapatmaz (hassas-konular.md §4 madde 3). Hâşâ edebi ve ölçülü dil: Ahzâb 37'de gizlenen şey belirtilmedi. [AYET Tevbe 43, Abese 1-2, İsra 74-75, Kıyâme 16-19] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.kutsalyalan",

@@ -19,3 +19,16 @@ Dosya: `icerik/akis/fetanet.json`. Kitap dışı her ekleme `"ek": true` ile iş
 ## Eklenenler (içerik ajanı)
 - `fetanet.vizyoner` (yeni; K1): sağlıklı ama yanılmış vizyoner itirazı (Jeanne d'Arc, Swedenborg, Joseph Smith: genel tarih bilgisi, doğrulanacak; içtenlik/sağlık hükmü verilmiyor). Ölçüt: "yanılan zihin bilmediği şeyleri doğru söyleyemez" -> sınanabilir varsayım, kanıt olarak sunulmuyor. Teşhis yollarına bağlı: `fetanet.ogrenme`, `fetanet.formul`, `mucize.giris`. Dal kapanmaz.
 - `fetanet.giris`, `fetanet.teshis`, `fetanet.formul`, `fetanet.kapanis`: "bilmeden yanılma = yalnız hastalık" eşitlemesi gevşetildi ("hastalık ya da sağlıklı yanılgı").
+
+## Kılıç / savaşlar beat'leri (kitap + ek; kullanıcı onayı: "argüman + eksik katman")
+Yeni beat'ler (fetanet.json, `fetanet.cengiz`'den sonra, `fetanet.ongoru`'dan önce): `fetanet.kilic` → `fetanet.kilic-medine` → `fetanet.kilic-ayet` → `fetanet.kilic-yayilis` → `fetanet.ongoru`. YNI-3 taslağı (`fetanet.savas`) bunların yerine geçer. Hepsi `"ek": true`, `dogrulanacak: true`. Aişe ve Kurayza bilerek YOK.
+Girişler: `fetanet.teshis`, `fetanet.toplum`, `fetanet.siyasi` (+ yeni "Kılıçla yayıldı" çipi), `fetanet.cengiz`, `haber.dorduncu`, `haber.ihtimaller` (anahtarlar: kılıç, zorla, savaş, cihat/cihad, fetih ve çekimleri). `fetanet.tolerans`/`ahlak` mevcut itiraz cevaplarında kaldı (çıkış `ongoru` olduğundan geriye döngü yaratmamak için bağlanmadı).
+
+**Kitaptan (ek değil):** Mekke'de 13 yıl ikna (s. 277, 330-331); Mekke fethi Muir/Hitti (s. 321); Bedir esirleri-okuma yazma, Dermenghem (s. 367); cizye muafiyetleri Hitti (s. 323); Ömer'in Ilya emannâmesi Arnold (s. 333-334); Bodley (s. 323); Arnold, Armstrong, Hodgson, Rodinson, Lewis yargıları (s. 342-344).
+**Ek (kitapta yok, onay bekliyor):**
+1. Watt, *Muhammad at Medina* (1956): Medine'yi baskın/güç mücadelesi çerçevesinde anlatması; "savunma ağırlıklı ama yalnız savunma değil" hedge'i; Bedir'in kervan yolunda başlaması.
+2. Hac 22/39-40 (savaş izni, gerekçe haksızlık; "ilk izin ayeti" sayılması klasik kaynaklarda çoğunlukta ama tartışmalı).
+3. Bakara 2/256 + nüzul rivayeti (rivayet olarak, kesin olgu değil; Rippin uyarısı), Mümtehine 60/8, Yûnus 10/99.
+4. Tevbe 9/5 ve 9/29 tam metin, yumuşatılmadan; bağlam ifadesi "geleneksel okuma" diye çerçevelendi (9/4, 9/6 Kur'an metninden). Klasik hukukta saldırı cihadı kuramı var (Peters; Cook, Bonner); bağlamsal okuma (Afsaruddin). Nesh tartışması "kimi klasik âlimler" diye anıldı. Ridde: siyasi/dinî iki okuma.
+5. Bulliet (1979): din değiştirme yüzyıllara yayıldı, uzun süre azınlık; Ricklefs (Endonezya, ticaret/tarikat); Horton & Middleton (Doğu Afrika Swahili kıyısı); Cohen (1994): zimmî statüsü eşitlik değil, "hoşgörü cenneti" değil.
+Hassas notlar: ahlakî hüküm verilmiyor; "hiç baskı olmadı" denmiyor; Bodley "popüler biyografi" notuyla; Bodley'in "ülkelerin ekseriyeti Müslüman oldu" cümlesi Bulliet ile gerilim yaratacağı için kullanılmadı.

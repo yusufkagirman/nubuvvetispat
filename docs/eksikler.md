@@ -95,3 +95,17 @@
 | Sadeghi & Goudarzi, "Ṣanʿāʾ 1 and the Origins of the Qurʾān", *Der Islam* 87 (2012): alt yazı farklarının doğru özeti | `zemin.karbon` palimpsest yanıtı | ağ | Makaleden teyit |
 | Tübingen mushafı radyokarbon (%95,4: 649-675): Tübingen Üniv. Kütüphanesi duyurusu | `zemin.cografya` EK0 | ağ | Birincil kayıt |
 | Jeanne d'Arc, Swedenborg, Joseph Smith: tarih ve "sağlık/içtenlik" tartışması için akademik kaynak | `fetanet.vizyoner` | ağ | Biyografi/ansiklopedi künyesi |
+
+## Kılıç / "işine geliyordu" beat'leri (içerik ajanı, internetsiz ortam)
+| Ne | Nerede | Neden | Nasıl |
+|---|---|---|---|
+| Watt, *Muhammad at Medina* (Oxford, 1956): Bedir/kervan ve baskın çerçevesi sayfaları | `fetanet.kilic` | ağ | Sayfa ve tam künye |
+| Bulliet (1979): eğri, bölgeler, yüzyıllar; "çok uzun süre azınlık" ifadesinin tam karşılığı | `fetanet.kilic-yayilis` | ağ | Bölüm ve sayfa; gerekirse ifadeyi daralt |
+| Ricklefs, *A History of Modern Indonesia since c. 1200* (Stanford, 2008) ve Horton & Middleton, *The Swahili* (Blackwell/Oxford, 2000): ilgili bölüm ve sayfalar; yayınevi/yer künyesi | `fetanet.kilic-yayilis` ekOrnek 1-2 | ağ | Künye ve sayfa; alternatif: Levtzion & Pouwels (2000) |
+| Peters (1996) ve Afsaruddin (2013): ilgili sayfalar; Cook (2005) ve Bonner (2006) ile karşılaştırma | `fetanet.kilic-ayet` | ağ | Sayfa ve yayınevi |
+| Bakara 2/256 nüzul rivayeti (Ebû Dâvûd Cihâd; Taberî); Tevbe 9/5 ve 9/29 geleneksel bağlamı (Taberî, Râzî); nesh görüşleri ve sahipleri | `fetanet.kilic-medine`, `fetanet.kilic-ayet` | ağ | Tefsirlerden birincil metin; "kimi klasik âlimler" ifadesinde isim ver |
+| Lewis (kitap s. 343-344): hangi eserden olduğu; Hodgson ve Rodinson sayfaları; Bodley sayfası | `fetanet.kilic-yayilis` ekOrnek 3, `fetanet.kilic-ayet` ekOrnek 3 | kitapta eser belirtilmiyor | Orijinal eser ve sayfa; yoksa satırı kaldır |
+| Mark R. Cohen (1994): "Yahudiler Hristiyan Avrupa'dan çoğunlukla iyi durumda" ifadesinin sayfası | `fetanet.kilic-yayilis` ekOrnek 4 | ağ | Sayfa |
+| Buhârî, Tefsîr (Ahzâb 33/51): Aişe rivayetinin numarası ve tam lafzı | `samimiyet.isine-gelen` | ağ | Hadis numarası; metin; sıhhat/yorum notu |
+| Rippin, BSOAS 51 (1988): sayfa aralığı ve tez özeti | `samimiyet.isine-gelen` nüzul itirazı | ağ | Makaleden teyit |
+| Ayet metinleri (22/39, 2/256, 60/8, 10/99, 9/5, 9/29, 9/43, 80/1-2, 17/74-75, 75/16-19): ikinci kaynakla (Tanzil) karşılaştırma ve meal sabitleme | yeni beat'ler | yalnız quran-json 3.1.2 kullanıldı | Tanzil ile karşılaştır; meali tek kaynağa sabitle |

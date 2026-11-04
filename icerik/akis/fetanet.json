@@ -203,6 +203,33 @@
             "supheTuru": "genel",
             "iddia": "deli"
           }
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
         }
       ],
       "varsayilan": "fetanet.formul",
@@ -1296,6 +1323,33 @@
             "Onlar da kendi toplumlarının çocuğuydu: ordu, devlet ve eğitim hazırdı.",
             "Burada böyle bir zemin yok. Bunu not ettim."
           ]
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
         }
       ],
       "ekOrnekler": [
@@ -1445,7 +1499,8 @@
         "metin": "Diyelim ki, hâşâ, ağır bir sanrı yaşıyordu. Savaşlara ve kriz günlerine rağmen bir toplum kurması mantıken nasıl bir araya gelir?",
         "cipler": [
           "Gelmiyor",
-          "Cengiz Han da yaptı"
+          "Cengiz Han da yaptı",
+          "Kılıçla yayıldı"
         ],
         "serbest": false
       },
@@ -1473,6 +1528,33 @@
             "han da"
           ],
           "git": "fetanet.cengiz"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
         }
       ],
       "ekOrnekler": [
@@ -1594,6 +1676,33 @@
             "sayma"
           ],
           "git": "fetanet.ongoru"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kılıç",
+            "kılıçla",
+            "kılıçla yaydı",
+            "kılıçla yayıldı",
+            "kılıçla yaymış",
+            "zorla",
+            "zorla yaydı",
+            "zorla müslüman",
+            "zorla din",
+            "savaş",
+            "savaşlar",
+            "savaşçı",
+            "cihat",
+            "cihad",
+            "fetih",
+            "fetihler",
+            "fetihle",
+            "fetihlerle"
+          ],
+          "git": "fetanet.kilic",
+          "profil": {
+            "iddia": "deli"
+          }
         }
       ],
       "ekOrnekler": [
@@ -1649,6 +1758,745 @@
       ],
       "sonraki": "fetanet.ongoru",
       "dayanak": "Kitap s. 273-274 ve dn. 623-624 ('velev ki' muhakemesi: Cengiz'in ağır psikotik olmadığını başarısından kabul eden Nebi için de aynısını kabul eder), s. 278-280 (Margoliouth: cahiliye Arapları savaş sanatını bilmiyordu; İskender/Timur/Cengiz parçalanması), s. 398-399 (karşılaştırmalar), s. 399-404 (İskender: II. Philip, Aristoteles; 0-10 puan benzetmesi GERÇEK VERİ DEĞİL), s. 404-406 (Hart, s. 28-29; Hart kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'). 'Kırk yaşına kadar siyasetle uğraşmadı' kitabın hesabı (s. 288); 53 yaş savaş hesabı ekranda yok."
+    },
+    {
+      "id": "fetanet.kilic",
+      "gizliDugum": "F8",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "'Kılıçla yaydı.' Bu itiraz haklı bir yerden geliyor."
+        },
+        {
+          "metin": "Medine'de savaşlar oldu. Hz. Muhammed komutandı. Bunu saklamıyoruz."
+        },
+        {
+          "metin": "Ama burada iki ayrı soru birbirine karışıyor.",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "Birincisi: onun hayatındaki savaşlar. İkincisi: ölümünden sonraki fetihler ve insanların din değiştirmesi."
+        },
+        {
+          "metin": "Önce birincisi. Mekke'de on üç yıl boyunca silah yok: işkence var, ikna var."
+        },
+        {
+          "metin": "Tarihçi W. Montgomery Watt, Medine dönemini baskınlar ve güç mücadelesi içinde anlatır.",
+          "kaynak": {
+            "yazar": "W. Montgomery Watt",
+            "eser": "Muhammad at Medina",
+            "yer": "Oxford",
+            "yil": "1956",
+            "sayfa": "",
+            "not": "İskoç oryantalist, Edinburgh Üniv.",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Savunma ağırlıklı bir tablo; ama yalnız savunma değil. Bunu söylemek dürüstlüğün gereği.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Silahsız on üç yıl, sonra savaşlı on yıl. Bu tablo 'kılıçla kurulmuş bir din' tarifine uyuyor mu?",
+        "cipler": [
+          "Pek uymuyor",
+          "Kılıç belirleyiciydi",
+          "Bilmiyorum"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "pek uymuyor",
+            "uymuyor",
+            "uymaz",
+            "haklısın",
+            "mantıklı",
+            "ayrı konu",
+            "başka bir tartışma"
+          ],
+          "git": "fetanet.kilic-medine"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "bedir",
+            "kervan",
+            "baskın",
+            "saldırı",
+            "gazve",
+            "savunma değil",
+            "yalnız savunma"
+          ],
+          "yanit": [
+            "Haklısın: Bedir, Müslümanların Mekke kervanını önlemek istemesiyle başladı; Kureyş ordusu sonradan çıktı.",
+            "Tarihçiler bunu savunma mı, baskın mı diye tartışır. Burada hükme bağlamıyoruz.",
+            "Bizim sorumuz bu savaşların ahlakı değil: tablo 'kılıçla kurulmuş din' tarifine uyuyor mu?"
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "kılıç belirleyiciydi",
+            "kılıç belirleyici",
+            "kılıç",
+            "bilmiyorum"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Sonunda Mekke'ye girdi: yıllarca ona işkence edenlerin şehrine."
+            },
+            {
+              "metin": "Muir, şehre tek taraflı bir hoşgörü ve cömertlikle davrandığını yazar.",
+              "kaynak": {
+                "yazar": "Sir William Muir",
+                "eser": "The Life of Mahomet",
+                "yer": "London",
+                "yil": "",
+                "sayfa": "319 (c. 2)",
+                "not": "İskoç oryantalist",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Hitti: eski tarih kitaplarında bu muzaffer girişe benzer pek az örnek bulunur.",
+              "kaynak": {
+                "yazar": "Philip K. Hitti",
+                "eser": "Siyasi ve Kültürel İslam Tarihi (Bilge Kültür Sanat, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "Lübnan asıllı tarihçi",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Kılıçla din dayatmak isteyen biri, galip girdiği şehirde böyle mi davranır?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bedir'de esir düşenlerden bazıları, Medineli çocuklara okuma yazma öğretmeleri karşılığında serbest kaldı.",
+              "kaynak": {
+                "yazar": "Émile Dermenghem",
+                "eser": "Hz. Muhammed ve Risâleti (İnsan, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1997",
+                "sayfa": "",
+                "not": "Fransız yazar ve oryantalist",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Silah gücünü ele alan bir hareket, esirini öğretmen yapar mı?"
+            }
+          ],
+          "soru": "Bu davranış, yalnız kılıca dayanan bir hareketin davranışına benziyor mu?"
+        }
+      ],
+      "kompozisyon": "Silahsız on üç yıl, sonra savaşlı on yıl, sonra şehirlere yumuşak giriş: 'kılıçla kurulmuş din' tarifi bunu açıklıyor mu?",
+      "kopru": [
+        "Bunu not ettim; şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.kilic-medine",
+      "dayanak": "ONAY GEREKİR (hassas; kitap + ek). YNI-3 'fetanet.savas' yerine geçer. KİTAP: Mekke'de 13 yıl ikna (s. 277), Mekke döneminde din yüzünden şiddet (s. 330-331), Mekke fethi: Muir (The Life of Mahomet, c. 2, s. 319) ve Hitti (s. 321), Bedir esirleri-okuma yazma: Dermenghem (s. 367). EK (kitapta yok): Watt, Muhammad at Medina (Medine'nin baskın/güç mücadelesi çerçevesi; sayfa doğrulanacak); Bedir'in kervan yolunda başlaması (İbn İshak/İbn Hişâm; Watt) ve 'savunma mı baskın mı' tartışması; 'savunma ağırlıklı ama yalnız savunma değil' hedge'i (kitap s. 321'in genel 'savunma savaşları' cümlesini yumuşatır). Ahlakî hüküm bilinçli olarak verilmiyor. Kurayza ve Aişe bu beat'te YOK (builder 'not ettim' cevabı verir). Muir ve Hitti alıntıları kitaptaki Türkçe aktarımdan; asıl metinle doğrulanacak."
+    },
+    {
+      "id": "fetanet.kilic-medine",
+      "gizliDugum": "F8",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Kur'an savaşa ilk izni nasıl veriyor? Ayetin diline bakalım."
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "أُذِنَ لِلَّذِينَ يُقَٰتَلُونَ بِأَنَّهُمۡ ظُلِمُواْۚ وَإِنَّ ٱللَّهَ عَلَىٰ نَصۡرِهِمۡ لَقَدِيرٌ",
+            "meal": "Kendilerine savaş açılanlara, haksızlığa uğradıkları için savaşma izni verildi. Allah onlara yardım etmeye elbette kadirdir.",
+            "sure": "Hac",
+            "no": "39",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Gerekçe haksızlık. Sonraki ayet, savaş olmasa manastırların, kiliselerin, havraların ve camilerin yıkılacağını söyler."
+        },
+        {
+          "metin": "Din konusunda ise açık bir ilke var:",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "لَآ إِكۡرَاهَ فِي ٱلدِّينِۖ قَد تَّبَيَّنَ ٱلرُّشۡدُ مِنَ ٱلۡغَيِّۚ فَمَن يَكۡفُرۡ بِٱلطَّـٰغُوتِ وَيُؤۡمِنۢ بِٱللَّهِ فَقَدِ ٱسۡتَمۡسَكَ بِٱلۡعُرۡوَةِ ٱلۡوُثۡقَىٰ لَا ٱنفِصَامَ لَهَاۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+            "meal": "Dinde zorlama yoktur. Doğruluk, sapıklıktan artık apaçık ayrılmıştır. Tâğutu reddedip Allah'a inanan, kopmayan sağlam bir kulpa tutunmuştur. Allah işitendir, bilendir.",
+            "sure": "Bakara",
+            "no": "256",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Klasik rivayetler bunu, Medineli ailelerin Yahudi ya da Hristiyan olmuş çocuklarını zorlamak istemesiyle ilişkilendirir."
+        },
+        {
+          "metin": "Ama Tevbe suresinde daha zor ayetler var. Onları da atlamayacağız.",
+          "vurgu": true
+        }
+      ],
+      "soru": {
+        "metin": "Savaş izni zulme bağlı, din konusunda zorlama yasağı açık. Bu metin ilk bakışta 'zorla din dayatan' bir metin gibi mi duruyor?",
+        "cipler": [
+          "Hayır, ama Tevbe 9'a bakmalı",
+          "Evet, öyle duruyor",
+          "Bilmiyorum"
+        ],
+        "serbest": false
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "tevbe",
+            "9:5",
+            "kılıç ayeti",
+            "cizye ayeti",
+            "9:29",
+            "dokuzuncu sure",
+            "tevbe 9"
+          ],
+          "git": "fetanet.kilic-ayet"
+        },
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "hayır",
+            "gibi durmuyor",
+            "durmuyor",
+            "haklısın",
+            "mantıklı"
+          ],
+          "git": "fetanet.kilic-ayet"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "nesh",
+            "neshedildi",
+            "neshetti",
+            "iptal etti",
+            "geçersiz kıldı"
+          ],
+          "yanit": [
+            "Önemli bir nokta: kimi klasik âlimler, sonradan inen savaş ayetlerinin daha önceki barış ayetlerini neshettiğini söyledi.",
+            "Başka âlimler ve birçok çağdaş araştırmacı bu görüşü kabul etmedi; ayetleri kendi bağlamında okudu.",
+            "İki görüşü de saklamıyoruz. Önce Tevbe ayetlerine kendimiz bakalım."
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "evet öyle duruyor",
+            "öyle duruyor",
+            "gibi duruyor",
+            "bilmiyorum"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Medine'den bir ayet daha: savaşmayanlara karşı tavır."
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "لَّا يَنۡهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمۡ يُقَٰتِلُوكُمۡ فِي ٱلدِّينِ وَلَمۡ يُخۡرِجُوكُم مِّن دِيَٰرِكُمۡ أَن تَبَرُّوهُمۡ وَتُقۡسِطُوٓاْ إِلَيۡهِمۡۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلۡمُقۡسِطِينَ",
+                "meal": "Allah, din uğrunda sizinle savaşmayan ve sizi yurdunuzdan çıkarmayanlara iyilik etmenizi ve onlara adil davranmanızı yasaklamaz. Allah adaletli olanları sever.",
+                "sure": "Mümtehine",
+                "no": "8",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Savaşmayanlara iyilik ve adaleti yasaklamayan bir metin, herkese kılıç çekmeyi mi öğretir?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Peygamber'e doğrudan seslenen bir ayet:"
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَلَوۡ شَآءَ رَبُّكَ لَأٓمَنَ مَن فِي ٱلۡأَرۡضِ كُلُّهُمۡ جَمِيعًاۚ أَفَأَنتَ تُكۡرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُواْ مُؤۡمِنِينَ",
+                "meal": "Rabbin dileseydi yeryüzündekilerin hepsi inanırdı. Öyleyse insanları inanmaya sen mi zorlayacaksın?",
+                "sure": "Yûnus",
+                "no": "99",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Peygamber'e \"insanları sen mi zorlayacaksın?\" diyen bir metin, ona kılıçla din yaymayı mı emreder?"
+        }
+      ],
+      "kompozisyon": "Zulme karşı savaş izni, din konusunda zorlama yasağı… bunları 'kılıçla din dayatma' fikriyle nasıl bağdaştırıyorsun?",
+      "kopru": [
+        "Bunu not ettim; şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.kilic-ayet",
+      "dayanak": "ONAY GEREKİR (tamamı kitap dışı ek; kitap Bakara 2/256'yı ele almıyor, s. 321 genel 'savunma' cümlesi dışında Medine savaşlarına girmiyor). Ayetler: Hac 22/39-40 (klasik kaynaklarda çoğunlukla ilk savaş izni ayeti sayılır; sıralama tartışmalı), Bakara 2/256, Mümtehine 60/8, Yûnus 10/99. 2/256 nüzul rivayeti (Ensar'ın çocukları; Ebû Dâvûd Cihâd, Taberî) rivayet olarak sunuldu; Rippin'in asbâb-ı nüzûl eleştirisi uyarınca kesin olgu gibi verilmedi. Nesh tartışması (9/5'in barış ayetlerini nesh ettiği görüşü ve karşı görüş): Taberî/Râzî/İbn Atiyye; çağdaş: Afsaruddin; doğrulanacak, ismi anılmadan 'kimi klasik âlimler' denildi. [AYET Hac 39, Bakara 256, Mümtehine 8, Yûnus 99] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
+    },
+    {
+      "id": "fetanet.kilic-ayet",
+      "gizliDugum": "F8",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi zor olanlara geliyoruz. Saklamıyoruz: 'kılıç ayeti' denen ayet.",
+          "tempo": "yavas"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "فَإِذَا ٱنسَلَخَ ٱلۡأَشۡهُرُ ٱلۡحُرُمُ فَٱقۡتُلُواْ ٱلۡمُشۡرِكِينَ حَيۡثُ وَجَدتُّمُوهُمۡ وَخُذُوهُمۡ وَٱحۡصُرُوهُمۡ وَٱقۡعُدُواْ لَهُمۡ كُلَّ مَرۡصَدٖۚ فَإِن تَابُواْ وَأَقَامُواْ ٱلصَّلَوٰةَ وَءَاتَوُاْ ٱلزَّكَوٰةَ فَخَلُّواْ سَبِيلَهُمۡۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٞ",
+            "meal": "Haram aylar çıkınca, müşrikleri bulduğunuz yerde öldürün; onları yakalayın, kuşatın, her gözetleme yerinde onları bekleyin. Tövbe edip namazı kılar, zekâtı verirlerse yollarını serbest bırakın. Allah bağışlayandır, merhamet edendir.",
+            "sure": "Tevbe",
+            "no": "5",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Geleneksel okumaya göre ayet, antlaşmayı bozan müşrikler içindir; sadık kalanlar hariç (9:4), sığınana eman var (9:6)."
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "قَٰتِلُواْ ٱلَّذِينَ لَا يُؤۡمِنُونَ بِٱللَّهِ وَلَا بِٱلۡيَوۡمِ ٱلۡأٓخِرِ وَلَا يُحَرِّمُونَ مَا حَرَّمَ ٱللَّهُ وَرَسُولُهُۥ وَلَا يَدِينُونَ دِينَ ٱلۡحَقِّ مِنَ ٱلَّذِينَ أُوتُواْ ٱلۡكِتَٰبَ حَتَّىٰ يُعۡطُواْ ٱلۡجِزۡيَةَ عَن يَدٖ وَهُمۡ صَٰغِرُونَ",
+            "meal": "Kendilerine kitap verilenlerden Allah'a ve ahiret gününe inanmayan, Allah'ın ve Resûlü'nün haram kıldığını haram saymayan, hak dini din edinmeyenlerle, boyunlarını büküp kendi elleriyle cizye verinceye kadar savaşın.",
+            "sure": "Tevbe",
+            "no": "29",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Bu ayet Ehl-i kitaba yöneliktir; savaşın bitişi din değiştirmek değil, cizye vermektir."
+        },
+        {
+          "metin": "Rudolph Peters, klasik hukukta saldırı cihadı kuramının gerçekten var olduğunu yazar.",
+          "kaynak": {
+            "yazar": "Rudolph Peters",
+            "eser": "Jihad in Classical and Modern Islam",
+            "yer": "Princeton",
+            "yil": "1996",
+            "sayfa": "",
+            "not": "Hollandalı İslam hukuku uzmanı",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Asma Afsaruddin gibi araştırmacılar ise ayetleri bağlam ve savaş etiği içinde okur.",
+          "kaynak": {
+            "yazar": "Asma Afsaruddin",
+            "eser": "Striving in the Path of God: Jihad and Martyrdom in Islamic Thought",
+            "yer": "Oxford",
+            "yil": "2013",
+            "sayfa": "",
+            "not": "Müslüman akademisyen (İslam düşüncesi tarihçisi)",
+            "dogrulanacak": true
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Bu ayetlerin okunuşu tartışmalı; saklamıyorum. Yine de sorulacak şey şu: fethedilenlere din değiştirmek şart koşuldu mu, yoksa ayrı bir statü mü tanındı?",
+        "cipler": [
+          "Tarihe bakalım",
+          "Bu ayetler beni rahatsız ediyor",
+          "Yine de kılıç dini"
+        ],
+        "serbest": false,
+        "buyuk": true
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "tarihe bakalım",
+            "tarihe bak",
+            "bakalım",
+            "ayrı statü",
+            "statü",
+            "haklısın"
+          ],
+          "git": "fetanet.kilic-yayilis"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "rahatsız",
+            "rahatsiz",
+            "korkunç",
+            "vahşi",
+            "şiddet"
+          ],
+          "yanit": [
+            "Rahatsız olman anlaşılır; bu ayetlerin dili sert, yumuşatmıyorum.",
+            "7. yüzyılın savaş hukuku içinde okumak ile bugünün ölçüleriyle okumak farklı şeyler; ikisini de gizlemiyoruz.",
+            "Ayetin ne dediği ile tarihte ne yapıldığı ayrı sorular. İkincisine tarih cevap verir."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "saldırı cihadı",
+            "dârülharb",
+            "darulharb",
+            "dünyayı fethetmek",
+            "fetih hakkı"
+          ],
+          "yanit": [
+            "Klasik hukukta bu kuram vardı; Peters ve Cook da bunu yazar.",
+            "Kuramın var olması, her fethin din değiştirmek amacıyla yapıldığı anlamına gelmez.",
+            "Fethedilenlere ne yapıldığına birlikte bakacağız."
+          ]
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "ridde",
+            "dinden dönen",
+            "dinden dönenlere",
+            "irtidat",
+            "mürted"
+          ],
+          "yanit": [
+            "Ridde savaşlarını kimi tarihçiler siyasi isyan ve zekât meselesi, kimi dinî dönüş meselesi olarak okur.",
+            "Bu tartışma, \"dinde zorlama yok\" itirazını güçlendirebilir. Saklamıyoruz.",
+            "Ama sorumuz değişmedi: fethedilenlere din değiştirmek şart koşuldu mu?"
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "yine de kılıç dini",
+            "kılıç dini",
+            "kılıç"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Cizyenin kendisine bakalım. Hitti şunları sayar:"
+            },
+            {
+              "metin": "Kadınlar, çocuklar, dilenciler, din adamları, ihtiyarlar, hastalar ve geliri olmayanlar cizyeden muaftı.",
+              "kaynak": {
+                "yazar": "Philip K. Hitti",
+                "eser": "Siyasi ve Kültürel İslam Tarihi (Bilge Kültür Sanat, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "Lübnan asıllı tarihçi",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Din değiştirmeyi hedefleyen bir baskı düzeninde, değiştirmeyenler için böyle bir muafiyet listesi olur mu?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Halife Ömer, Kudüs halkına bir emannâme verdi."
+            },
+            {
+              "metin": "Arnold'a göre can, mal, haçlar ve kiliseler güvence altındaydı; kiliseler mesken edilmeyecek, yıkılmayacaktı.",
+              "kaynak": {
+                "yazar": "Thomas W. Arnold",
+                "eser": "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2016",
+                "sayfa": "333-334",
+                "not": "İngiliz oryantalist",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Din değiştirme şart olsaydı, emannâmede kiliselerin korunması yazar mıydı?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Bodley'e göre Müslüman orduları fethettikleri halkları köleleştirmedi; onlarla kardeşçe yaşadı.",
+              "kaynak": {
+                "yazar": "R. V. C. Bodley",
+                "eser": "Hazreti Muhammed (Nebioğlu, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "1958",
+                "sayfa": "",
+                "not": "İngiliz yazar; popüler biyografi",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Bodley popüler bir biyografi yazarı; yine de bir Batılı tanıklık olarak not ediyoruz."
+            }
+          ],
+          "soru": "Bu tanıklık, sert ayetlerin uygulamada nasıl yorumlandığı hakkında ne söylüyor?"
+        }
+      ],
+      "kompozisyon": "Tevbe 9:5 ve 9:29 gibi sert ayetler ile cizye karşılığı güvence veren uygulamayı birlikte nasıl okuyorsun?",
+      "kopru": [
+        "Bunu not ettim; şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.kilic-yayilis",
+      "dayanak": "ONAY GEREKİR (hassas; kitap Tevbe 9/5 ve 9/29'u ele almıyor, bu yüzden ek). Ayetler tam metin gösterildi, yumuşatılmadı (hassas-konular.md §3). 9:4 ve 9:6 ayetleri Kur'an metninden. Bağlam ifadesi 'geleneksel okuma' diye çerçevelendi (Taberî/Râzî; teyit edilecek). Peters: saldırı cihadı kuramı klasik hukukta var (Cook, Understanding Jihad (2005) ve Bonner (2006) da aynı yönde); Afsaruddin (Oxford, 2013) bağlamsal okuma: ikisi de doğrulanacak (sayfa yok). Ridde itirazı: kitap s. 108 (Dozy) siyasi okuma; bölümde 'iki okuma da var' dürüstlüğü. KİTAP: cizye muafiyetleri Hitti s. 323; Ömer'in Ilya emannâmesi Arnold s. 333-334 (Hitti ve Dermenghem de anılır); Bodley s. 323 (kitap, Bodley'in popüler olduğunu belirtmiyor; bu not ek ve ölçülü bir dürüstlüktür; 'ülkelerin ekseriyeti Müslüman oldu' kısmı Bulliet ile gerilim yaratacağı için kullanılmadı). Kurayza ve Aişe YOK. [AYET Tevbe 5, Tevbe 29] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
+    },
+    {
+      "id": "fetanet.kilic-yayilis",
+      "gizliDugum": "F12",
+      "ek": true,
+      "dogrulanacak": true,
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Şimdi ikinci soru: ölümünden sonraki fetihler. İnsanlar ne zaman Müslüman oldu?"
+        },
+        {
+          "metin": "Tarihçi Richard Bulliet, İran, Irak, Mısır ve Endülüs'te din değiştirmeyi isim kayıtlarından ölçtü.",
+          "kaynak": {
+            "yazar": "Richard W. Bulliet",
+            "eser": "Conversion to Islam in the Medieval Period",
+            "yer": "Cambridge (Mass.)",
+            "yil": "1979",
+            "sayfa": "",
+            "not": "Amerikalı tarihçi, Columbia Üniv.",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "Sonuç: din değiştirme fetihten hemen sonra değil, yüzyıllara yayılan yavaş bir süreçti.",
+          "vurgu": true
+        },
+        {
+          "metin": "Yani Müslümanlar bu ülkelerde çok uzun süre azınlıktı."
+        },
+        {
+          "metin": "Arnold, zorla din değiştirmeye dayanan sistemli bir politikaya rastlamaz; \"daha tesirli saikler\" arar.",
+          "kaynak": {
+            "yazar": "Thomas W. Arnold",
+            "eser": "İslam'ın Tebliğ Tarihi (İnkılab, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2016",
+            "sayfa": "342-343",
+            "not": "İngiliz oryantalist",
+            "dogrulanacak": false
+          }
+        },
+        {
+          "metin": "Armstrong, Batı'nın Muhammed'i kılıç çeken bir savaş lideri olarak görme eğilimini gerçekten uzak bulur.",
+          "kaynak": {
+            "yazar": "Karen Armstrong",
+            "eser": "İslam Peygamberinin Biyografisi Hazreti Muhammed (Koridor, Türkçe çev.)",
+            "yer": "İstanbul",
+            "yil": "2005",
+            "sayfa": "",
+            "not": "İngiliz din tarihçisi, eski rahibe",
+            "dogrulanacak": true
+          }
+        }
+      ],
+      "soru": {
+        "metin": "Kılıçla yayılan bir din, fethedilen topraklarda neden yüzyıllarca azınlıkta kaldı?",
+        "cipler": [
+          "Açıklaması zor",
+          "Baskı da vardı",
+          "Başka etkenler vardı"
+        ],
+        "serbest": false,
+        "buyuk": true
+      },
+      "yollar": [
+        {
+          "tur": "ikna",
+          "anahtar": [
+            "açıklaması zor",
+            "haklısın",
+            "mantıklı",
+            "kılıç değil",
+            "başka etkenler",
+            "katılıyorum"
+          ],
+          "git": "fetanet.ongoru"
+        },
+        {
+          "tur": "itiraz",
+          "anahtar": [
+            "baskı",
+            "baski",
+            "cizye",
+            "vergi",
+            "zimmi",
+            "zimmî",
+            "eşitsiz",
+            "ikinci sınıf"
+          ],
+          "yanit": [
+            "Haklısın: zimmî statüsü bugünün ölçüsüyle eşitlik değildi.",
+            "Dönemine göre tolerans demek ile bugünün hak anlayışına uygun demek farklı şeyler. Birincisini iddia ediyoruz, ikincisini değil.",
+            "Bazı hükümdar ve dönemlerde din değiştirme baskısı da oldu. Sistemli bir politika yoktu demek, hiç olmadı demek değil."
+          ]
+        },
+        {
+          "tur": "ret",
+          "anahtar": [
+            "yine de kılıç",
+            "kılıçla yayıldı",
+            "kılıç"
+          ]
+        }
+      ],
+      "ekOrnekler": [
+        {
+          "satirlar": [
+            {
+              "metin": "Bugün en kalabalık Müslüman nüfuslu ülke Endonezya."
+            },
+            {
+              "metin": "Oraya İslam, ağırlıkla ticaret yolları ve tarikatlar aracılığıyla yayıldı; bir fetih ordusuyla girmedi.",
+              "kaynak": {
+                "yazar": "M. C. Ricklefs",
+                "eser": "A History of Modern Indonesia since c. 1200",
+                "yer": "Stanford",
+                "yil": "2008",
+                "sayfa": "",
+                "not": "Avustralyalı Endonezya tarihçisi",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Ordusuz yayılan büyük bir din örneği varken, kılıç tek açıklama olabilir mi?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Doğu Afrika'da Swahili kıyı şehirlerine İslam, Hint Okyanusu ticareti ile geldi."
+            },
+            {
+              "metin": "Müslüman tüccarlar ve yerel yöneticilerle yayıldı; bir fetih hareketi değildi.",
+              "kaynak": {
+                "yazar": "Mark Horton ve John Middleton",
+                "eser": "The Swahili: The Social Landscape of a Mercantile Society",
+                "yer": "Oxford",
+                "yil": "2000",
+                "sayfa": "",
+                "not": "Arkeolog ve antropolog",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "İki farklı kıtada fetihsiz yayılma varsa, kılıç neyi açıklar, neyi açıklamaz?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Üç tarihçi, benzer bir yargıda buluşur."
+            },
+            {
+              "metin": "Hodgson: fethedilenler din değiştirmeye zorlanmadı.",
+              "kaynak": {
+                "yazar": "Marshall G. S. Hodgson",
+                "eser": "İslam'ın Serüveni (Phoenix, Türkçe çev.)",
+                "yer": "İstanbul",
+                "yil": "2020",
+                "sayfa": "",
+                "not": "Amerikalı İslam tarihçisi, Chicago Üniv.",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Rodinson: Araplar dinlerini zorla kabul ettirmeye girişmedi.",
+              "kaynak": {
+                "yazar": "Maxime Rodinson",
+                "eser": "Muhammed (Doruk, Türkçe çev.)",
+                "yer": "",
+                "yil": "2017",
+                "sayfa": "",
+                "not": "Fransız oryantalist ve sosyolog",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Lewis: Orta Çağ Müslümanları, inancı kabul ettirmek için kuvvete çok nadir başvurdu.",
+              "kaynak": {
+                "yazar": "Bernard Lewis",
+                "eser": "",
+                "yer": "",
+                "yil": "",
+                "sayfa": "",
+                "not": "İngiliz-Amerikalı oryantalist; hangi eserden olduğu teyit edilecek",
+                "dogrulanacak": true
+              }
+            }
+          ],
+          "soru": "Farklı geçmişlerden gelen bu tarihçilerin aynı yöne işaret etmesi sence ne anlama geliyor?"
+        },
+        {
+          "satirlar": [
+            {
+              "metin": "Dengeyi korumak için: Mark Cohen, Yahudilerin İslam dünyasında çoğunlukla Hristiyan Avrupa'dan iyi durumda olduğunu yazar.",
+              "kaynak": {
+                "yazar": "Mark R. Cohen",
+                "eser": "Under Crescent and Cross: The Jews in the Middle Ages",
+                "yer": "Princeton",
+                "yil": "1994",
+                "sayfa": "",
+                "not": "Amerikalı tarihçi, Princeton Üniv.",
+                "dogrulanacak": true
+              }
+            },
+            {
+              "metin": "Ama aynı yazar, bunun bir \"hoşgörü cenneti\" olmadığını da gösterir."
+            }
+          ],
+          "soru": "Eşitsiz ama zorlamasız bu tabloda, \"kılıçla din değiştirme\" iddiası nerede duruyor?"
+        }
+      ],
+      "kompozisyon": "Savaşlar, ayetler ve yüzyıllara yayılan dönüşüm: 'kılıçla yayıldı' iddiasını bunlarla birlikte nasıl değerlendiriyorsun?",
+      "kopru": [
+        "Bunu not ettim; şimdi şunu soruyordum:"
+      ],
+      "sonraki": "fetanet.ongoru",
+      "dayanak": "ONAY GEREKİR (kitap + ek). KİTAP (s. 330-344): Arnold zorla din değiştirme politikası yok, 'daha tesirli saikler' (s. 342-343), Armstrong (s. 343-344), Hodgson, Rodinson, Lewis (s. 343-344; Lewis'in hangi eseri olduğu kitapta belirtilmiyor, eser alanı boş, doğrulanacak), Endülüs/İspanya karşılaştırması burada kullanılmadı. EK: Bulliet, Conversion to Islam in the Medieval Period (1979): isim analizine dayalı eğri; din değiştirme yüzyıllara yayılır, 'çok uzun süre azınlık' ifadesi Bulliet'in eğrisinin genel okumasıdır, bölge ve yüzyıl sayısı verilmedi (doğrulanacak). Endonezya: Ricklefs (ticaret ve tarikatlar; kimi sultanlıkların savaşları ayrıca vardır, 'ağırlıkla' denildi). Doğu Afrika: Horton & Middleton (Swahili, 2000); Levtzion & Pouwels (eds.), The History of Islam in Africa (2000) alternatif. Cohen (1994) ve Levy-Rubin (2011): zimmî statüsü 'düzenlenmiş eşitsizlik', dürüstlük dengesi (hassas-konular.md §3 madde 3, 5). Ridde ve baskı örnekleri 'hiç yok' denmeden ele alındı. Çıkış fetanet.ongoru: fetanet.teshis ve haber.dorduncu'dan girenler formul/toplum/siyasi'yi görmemiş olabilir; ongoru kendi başına okunur."
     },
     {
       "id": "fetanet.ongoru",
