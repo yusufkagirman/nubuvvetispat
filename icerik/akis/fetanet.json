@@ -2181,6 +2181,17 @@
               "metin": "'Bu Kur'an, şu iki şehrin büyük bir adamına indirilseydi!'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَقَالُواْ لَوۡلَا نُزِّلَ هَٰذَا ٱلۡقُرۡءَانُ عَلَىٰ رَجُلٖ مِّنَ ٱلۡقَرۡيَتَيۡنِ عَظِيمٍ",
+                "meal": "Dediler ki: 'Bu Kur'an, iki şehirden birinin büyük bir adamına indirilseydi ya!'",
+                "sure": "Zuhruf",
+                "no": "31",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Yani düşmanları bile onu büyük bir adam saymıyordu."
             }
           ],
@@ -2195,6 +2206,17 @@
               "metin": "'Seni yetim bulup barındırmadı mı? Yol bilmezken yöneltmedi mi? Yoksulken zengin etmedi mi?'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "أَلَمۡ يَجِدۡكَ يَتِيمٗا فَـَٔاوَىٰ وَوَجَدَكَ ضَآلّٗا فَهَدَىٰ وَوَجَدَكَ عَآئِلٗا فَأَغۡنَىٰ",
+                "meal": "Seni yetim bulup barındırmadı mı? Yol bilmezken seni yöneltmedi mi? Yoksulken seni zengin etmedi mi?",
+                "sure": "Duhâ",
+                "no": "6-8",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Bu sözler, onu yakından tanıyanların önünde okundu."
             }
           ],
@@ -2206,7 +2228,7 @@
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.ummi",
-      "dayanak": "Kitap s. 374-377 (F20). Dozy (baba mirası beş deve, birkaç koyun, bir köle), Watt (dedesi, amcası, annenin altı yaşında ölümü), Hazleton (babasız doğmak mirastan mahrumiyet), Bodley (ücret ve komisyonla çalışan müstahdem; kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'), Armstrong (kendini ortaya atmaya hevesli biri değildi, s. 377). Zuhruf 43/31 ve Duhâ 93/6-8 (ikincil delil mantığı). Hadis: İbn Mace Et'ime 30; Hâkim III, 50/4366. 'Babası doğmadan ölmüştü' ifadesi kitabın bağlamı (Hazleton: babasız doğmak)."
+      "dayanak": "Kitap s. 374-377 (F20). Dozy (baba mirası beş deve, birkaç koyun, bir köle), Watt (dedesi, amcası, annenin altı yaşında ölümü), Hazleton (babasız doğmak mirastan mahrumiyet), Bodley (ücret ve komisyonla çalışan müstahdem; kimliği kitapta açılmıyor, ekranda 'Batılı bir yazar'), Armstrong (kendini ortaya atmaya hevesli biri değildi, s. 377). Zuhruf 43/31 ve Duhâ 93/6-8 (ikincil delil mantığı). Hadis: İbn Mace Et'ime 30; Hâkim III, 50/4366. 'Babası doğmadan ölmüştü' ifadesi kitabın bağlamı (Hazleton: babasız doğmak). [AYET Zuhruf 31] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Duhâ 6-8]"
     },
     {
       "id": "fetanet.ummi",
@@ -2232,6 +2254,20 @@
         },
         {
           "metin": "Mektuplarını bile başkasına yazdırırdı."
+        },
+        {
+          "metin": "Kur'an bunu kendi diliyle de söyler:"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "وَمَا كُنتَ تَتۡلُواْ مِن قَبۡلِهِۦ مِن كِتَٰبٖ وَلَا تَخُطُّهُۥ بِيَمِينِكَۖ إِذٗا لَّٱرۡتَابَ ٱلۡمُبۡطِلُونَ",
+            "meal": "Sen bundan önce hiçbir kitap okumuyordun, onu sağ elinle yazmıyordun da. Öyle olsaydı, batıla uyanlar şüpheye düşerdi.",
+            "sure": "Ankebût",
+            "no": "48",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Bilip gizlemiş olsaydı, buna 'el-Emin' demezlerdi."
@@ -2330,6 +2366,17 @@
               "metin": "'Bu kitabın sana vahyolunacağını ummazdın.'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَمَا كُنتَ تَرۡجُوٓاْ أَن يُلۡقَىٰٓ إِلَيۡكَ ٱلۡكِتَٰبُ إِلَّا رَحۡمَةٗ مِّن رَّبِّكَۖ فَلَا تَكُونَنَّ ظَهِيرٗا لِّلۡكَٰفِرِينَ",
+                "meal": "Sen, sana Kitap'ın verileceğini ummuyordun. O, ancak Rabbinden bir rahmettir. Öyleyse sakın kâfirlere arka çıkma.",
+                "sure": "Kasas",
+                "no": "86",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Bu sözler, onu yakından tanıyan düşmanların önünde okundu."
             }
           ],
@@ -2341,7 +2388,7 @@
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
       "sonraki": "fetanet.kapanis",
-      "dayanak": "Kitap s. 377-381 (F21, F22). Ümmi: 'ümm' = anne; Armstrong (kayıt yok; mektubu Ali'ye yazdırması; gizlemesi el-Emin'e yakışmaz, s. 378), Hitti (s. 379; Hitti kimliği kitapta belirtilmiyor, 'Lübnan asıllı tarihçi' kitabın kimlik tablosundaki ifade †teyit), Ankebût 29/48, Şûrâ 42/52, Kasas 28/86; Kadı Abdülcebbar (s. 380-381; Kadı'nın görüşü ≠ yazarın görüşü). Vefata yakın yazı öğrendi mi tartışması ekranda yok (başlangıç birikimi esas). 'Biri ona öğretmiş olabilir' yolu fetanet.ogrenme hub'ına gider; oradan devam beat'i ile geri döner."
+      "dayanak": "Kitap s. 377-381 (F21, F22). Ümmi: 'ümm' = anne; Armstrong (kayıt yok; mektubu Ali'ye yazdırması; gizlemesi el-Emin'e yakışmaz, s. 378), Hitti (s. 379; Hitti kimliği kitapta belirtilmiyor, 'Lübnan asıllı tarihçi' kitabın kimlik tablosundaki ifade †teyit), Ankebût 29/48, Şûrâ 42/52, Kasas 28/86; Kadı Abdülcebbar (s. 380-381; Kadı'nın görüşü ≠ yazarın görüşü). Vefata yakın yazı öğrendi mi tartışması ekranda yok (başlangıç birikimi esas). 'Biri ona öğretmiş olabilir' yolu fetanet.ogrenme hub'ına gider; oradan devam beat'i ile geri döner. [AYET Ankebût 48] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Kasas 86]"
     },
     {
       "id": "fetanet.kapanis",

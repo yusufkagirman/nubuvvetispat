@@ -491,7 +491,7 @@ async function personaSec(pid) {
   const bas = h('div', '', null, kut); h('b', '', p.ad, bas);
   h('div', 'anh', `${r.yol.length} adım · bitiş: ${r.bitis} · kapalı: ${r.kapali.join(', ') || '—'} (kuralla simüle; gerçek test: docs/test-raporu.md)`, kut);
   const ol = h('ol', '', null, kut); r.yol.forEach((x) => { const li = h('li', '', x.id + (x.not ? ` (${x.not})` : ''), ol); li.onclick = () => sec(x.id, true); });
-  gorunumuYenile(); if (r.yol[0]) merkezle(r.yol[0].id);
+  gorunumuYenile();
 }
 
 // ---------- notlar penceresi ----------

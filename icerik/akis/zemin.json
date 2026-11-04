@@ -51,6 +51,95 @@
         }
       ],
       "soru": {
+        "metin": "Bu kısmı nasıl istersin: kısaca mı geçelim, ayrıntılı mı bakalım?",
+        "cipler": [
+          "Kısaca anlat",
+          "Ayrıntılı bakalım"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "kısaca anlat",
+            "kısaca",
+            "kısa yol",
+            "kısa",
+            "özetle",
+            "özet",
+            "hızlıca",
+            "hızlı"
+          ],
+          "git": "zemin.ozet-yazim"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "ayrıntılı bakalım",
+            "ayrıntılı",
+            "ayrıntı",
+            "detaylı",
+            "derinlemesine",
+            "uzun",
+            "adım adım"
+          ],
+          "git": "zemin.supheSor"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "karbon",
+            "yazma",
+            "yazmalar",
+            "en eski",
+            "peygamber'den önce",
+            "peygamberden önce"
+          ],
+          "git": "zemin.karbon"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "antik",
+            "incil",
+            "tarihî kaynak",
+            "tarihi kaynak",
+            "güvenmem",
+            "güvenmiyorum",
+            "tarihçi"
+          ],
+          "git": "zemin.kiyas"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "değiştirilmiş",
+            "değişmiş",
+            "değişti",
+            "geç yazıya",
+            "sözlü",
+            "geç yazılmış",
+            "sonradan"
+          ],
+          "git": "zemin.yazim"
+        }
+      ],
+      "varsayilan": "zemin.supheSor",
+      "dayanak": "Z5 (tutarlılık ilkesi, s. 22) ve Z1-Z4 çerçevesi: önce kaynağın sağlamlığı. Dallanma: kaynakGuveni yüksek + kaynak dışı şüphe -> zemin.kisa -> haber.giris. Bu sürüm 'giriş'te yalnız hangi yerden başlanacağını seçtirir (Z6/Z10/Z13). A6 (kullanıcı onaylı): kısa yol (zemin.ozet-*) / derin yol (zemin.supheSor -> mevcut zincir). Kısa yol zemini 'kapalı' işaretlemez; yalnız özet verir."
+    },
+    {
+      "id": "zemin.supheSor",
+      "gizliDugum": "Z5",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Peki. O zaman adım adım gidelim."
+        }
+      ],
+      "soru": {
         "metin": "Bu konuda sana en yakın düşünce hangisi?",
         "cipler": [
           "Sonradan değiştirilmiş olabilir",
@@ -100,7 +189,206 @@
         }
       ],
       "varsayilan": "zemin.yazim",
-      "dayanak": "Z5 (tutarlılık ilkesi, s. 22) ve Z1-Z4 çerçevesi: önce kaynağın sağlamlığı. Dallanma: kaynakGuveni yüksek + kaynak dışı şüphe -> zemin.kisa -> haber.giris. Bu sürüm 'giriş'te yalnız hangi yerden başlanacağını seçtirir (Z6/Z10/Z13)."
+      "dayanak": "zemin.giris'in eski ilk sorusu (A6 ile bu beat'e taşındı): kullanıcının hangi şüpheyle geldiğine göre derin zincirin uygun halkasına gider."
+    },
+    {
+      "id": "zemin.ozet-yazim",
+      "gizliDugum": "Z6",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "Kısa yolda dört an göstereceğim."
+        },
+        {
+          "metin": "Birincisi, hız: Peygamber hayattayken kâtipler ayetleri yazıyordu."
+        },
+        {
+          "metin": "Vefatından yaklaşık bir yıl sonra, yazılanlar tek bir nüshada toplandı."
+        },
+        {
+          "metin": "Yirmi yıl dolmadan, çoğaltılan kopyalar şehirlere gitti."
+        },
+        {
+          "metin": "Metin bir de ezberle taşındı. Dünyada kabaca milyonlarca hafız var."
+        },
+        {
+          "metin": "Yazı ve ezber: iki kanal. Biri sapsa, öteki yakalar.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "zemin.ozet-yazma",
+      "dayanak": "A6 kısa yol 1/4 (kullanıcı onaylı). zemin.yazim (Z6, s. 24-28) ve zemin.hafizlar (Z8, s. 33-34) satırlarından özet; yeni olgu yok. Hafız sayısı kabaca (kesin rakam kullanılmadı)."
+    },
+    {
+      "id": "zemin.ozet-yazma",
+      "gizliDugum": "Z12",
+      "sahne": {
+        "arkaplan": "col"
+      },
+      "satirlar": [
+        {
+          "metin": "İkincisi: elimizde o dönemin sayfaları var."
+        },
+        {
+          "metin": "İstanbul'da, San'a'da, Paris'te, Tübingen'de, Birmingham'da."
+        },
+        {
+          "metin": "Birmingham Üniversitesi'ndeki yaprak için aralık: 568 ile 645.",
+          "kaynak": {
+            "yazar": "Oxford Radiocarbon Accelerator Unit ve Birmingham Üniversitesi",
+            "eser": "Birmingham Kur'an yapraklarının radyokarbon tarihlemesi",
+            "yer": "Birmingham",
+            "yil": "2015",
+            "sayfa": "",
+            "not": "Üniversite açıklaması ve laboratuvar sonucu",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "zaman",
+            "veri": {
+              "noktalar": [
+                {
+                  "yil": "568",
+                  "etiket": "Aralığın başı"
+                },
+                {
+                  "yil": "610",
+                  "etiket": "İlk vahiyler"
+                },
+                {
+                  "yil": "632",
+                  "etiket": "Peygamber'in vefatı"
+                },
+                {
+                  "yil": "645",
+                  "etiket": "Aralığın sonu"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "metin": "Küçük imla farkları dışında, hepsi aynı metni taşıyor.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "zemin.ozet-kiyas",
+      "dayanak": "A6 kısa yol 2/4. zemin.yazmalar ve zemin.karbon (Z10-Z12, s. 79-86) satırlarından özet; karbon satırı ve zaman diyagramı aynen kopyalandı (kaynak künyesiyle)."
+    },
+    {
+      "id": "zemin.ozet-kiyas",
+      "gizliDugum": "Z13",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Üçüncüsü: bir terazi."
+        },
+        {
+          "metin": "Herodot'a, Eflatun'a, Demostenes'e güvenerek tarih konuşuruz."
+        },
+        {
+          "metin": "Bu eserlerin en eski kopyaları, yazımlarından dört yüz yıldan çok sonra."
+        },
+        {
+          "metin": "Kur'an ise, dönemin ölçüsüyle, neredeyse anında kayda alındı."
+        },
+        {
+          "metin": "Aynı ölçüyü herkese uygulamak, tutarlılıktır.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "zemin.ozet-ikincil",
+      "dayanak": "A6 kısa yol 3/4. zemin.kiyas (Z13, s. 86-88; McDowell tablosu: en küçük süre Homeros ≈400 yıl) ve zemin.yazim ek örneği. Kitap dışı yazma-sayısı verileri (zemin.kiyasYazma) kullanılmadı."
+    },
+    {
+      "id": "zemin.ozet-ikincil",
+      "gizliDugum": "Z15",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Dördüncüsü: metnin kendi ipucu."
+        },
+        {
+          "metin": "Kazada biri yere düşer. Kalabalıktan biri bağırır: 'Doktor yardım et!'"
+        },
+        {
+          "metin": "Kalabalığın doktoru çağırması, kimseyi ikna etmek için değildir. Bu yüzden daha güçlüdür."
+        },
+        {
+          "metin": "Kur'an müminlere 'sabredin' der. Zulüm olduğunu ispatlamaya çalışmaz."
+        },
+        {
+          "metin": "İspat için yazılmayan cümle, kurgudan en uzak cümledir.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "zemin.ozet-son",
+      "dayanak": "A6 kısa yol 4/4. zemin.ikincil (Z15, s. 91-94) satırlarından özet."
+    },
+    {
+      "id": "zemin.ozet-son",
+      "gizliDugum": "Z17",
+      "sahne": {
+        "arkaplan": "safak"
+      },
+      "satirlar": [
+        {
+          "metin": "Hız, yazmalar, kıyas, metnin kendi sesi."
+        },
+        {
+          "metin": "Dört ayrı pencere. Hepsi aynı yöne bakıyor."
+        }
+      ],
+      "soru": {
+        "metin": "Daha derine inmek ister misin, yoksa asıl soruya geçelim mi?",
+        "cipler": [
+          "Daha derine inelim",
+          "Asıl soruya geçelim"
+        ],
+        "serbest": true
+      },
+      "yollar": [
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "daha derine inelim",
+            "derine",
+            "derin",
+            "ayrıntı",
+            "ayrıntılı",
+            "detay",
+            "detaylı",
+            "daha fazla"
+          ],
+          "git": "zemin.yazim"
+        },
+        {
+          "tur": "yonlendir",
+          "anahtar": [
+            "asıl soruya geçelim",
+            "asıl soruya",
+            "asıl soru",
+            "geçelim",
+            "haber",
+            "devam",
+            "yeter",
+            "tamam"
+          ],
+          "git": "zemin.kopru"
+        }
+      ],
+      "varsayilan": "zemin.kopru",
+      "sonraki": "zemin.kopru",
+      "dayanak": "A6: kısa yolun sonu. Derin yol = mevcut zincir (zemin.yazim ile başlar); asıl soru = zemin.kopru -> haber.giris. Zemin 'kapalı' işaretlenmez (atlayan kişi ileride itiraz getirebilir; ilgili halka o zaman anılır)."
     },
     {
       "id": "zemin.yazim",
@@ -1199,6 +1487,17 @@
           "metin": "Mesela Tevbe suresinin son iki ayeti."
         },
         {
+          "metin": "",
+          "ayet": {
+            "arapca": "لَقَدۡ جَآءَكُمۡ رَسُولٞ مِّنۡ أَنفُسِكُمۡ عَزِيزٌ عَلَيۡهِ مَا عَنِتُّمۡ حَرِيصٌ عَلَيۡكُم بِٱلۡمُؤۡمِنِينَ رَءُوفٞ رَّحِيمٞ فَإِن تَوَلَّوۡاْ فَقُلۡ حَسۡبِيَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَۖ عَلَيۡهِ تَوَكَّلۡتُۖ وَهُوَ رَبُّ ٱلۡعَرۡشِ ٱلۡعَظِيمِ",
+            "meal": "Andolsun, size kendi içinizden bir peygamber geldi. Sıkıntıya düşmeniz ona ağır gelir; size düşkündür, müminlere şefkatli ve merhametlidir. Yüz çevirirlerse de ki: 'Allah bana yeter. O'ndan başka ilah yoktur. Yalnız O'na güvendim. O, büyük arşın Rabbidir.'",
+            "sure": "Tevbe",
+            "no": "128-129",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
           "metin": "Reşad Halife, bu iki ayetin sonradan eklendiğini ileri sürdü."
         },
         {
@@ -1267,6 +1566,17 @@
               "metin": "Bir ayet daha: Rum suresinin beşinci ayeti."
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "بِنَصۡرِ ٱللَّهِۚ يَنصُرُ مَن يَشَآءُۖ وَهُوَ ٱلۡعَزِيزُ ٱلرَّحِيمُ",
+                "meal": "Allah'ın yardımıyla. O, dilediğine yardım eder. O, güçlüdür, merhametlidir.",
+                "sure": "Rûm",
+                "no": "5",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "En erken yazması, karbon aralığı 649 ile 675 olan bir yazmada.",
               "kaynak": {
                 "yazar": "Corpus Coranicum",
@@ -1291,7 +1601,7 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.kiyas",
-      "dayanak": "Z12, s. 83-86: Corpus Coranicum; Tevbe 9:128-129 (Reşad Halife iddiası); en erken yazma 606-649 (Dam 01-27.1; yazarın kaba yıl-üzeri dağılımı ekranda kullanılmadı); Rum 30:5 için 649-675'ten başlayan dizi (s. 86). 'Yaklaşık kırk yıl sonrasına inmiyor' ifadesi 675-632=43 hesabıdır (ekranda 'yaklaşık')."
+      "dayanak": "Z12, s. 83-86: Corpus Coranicum; Tevbe 9:128-129 (Reşad Halife iddiası); en erken yazma 606-649 (Dam 01-27.1; yazarın kaba yıl-üzeri dağılımı ekranda kullanılmadı); Rum 30:5 için 649-675'ten başlayan dizi (s. 86). 'Yaklaşık kırk yıl sonrasına inmiyor' ifadesi 675-632=43 hesabıdır (ekranda 'yaklaşık'). [AYET Rûm 5] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Tevbe 128-129]"
     },
     {
       "id": "zemin.kiyas",
@@ -1677,6 +1987,17 @@
               "metin": "Kur'an, 'diri diri gömülen kıza hangi suçla öldürüldüğü sorulacak' der."
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَإِذَا ٱلۡمَوۡءُۥدَةُ سُئِلَتۡ بِأَيِّ ذَنۢبٖ قُتِلَتۡ",
+                "meal": "Diri diri gömülen kıza sorulduğunda: Hangi suçtan dolayı öldürüldü?",
+                "sure": "Tekvîr",
+                "no": "8-9",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Ayet, böyle bir uygulamanın var olduğunu anlatmaz."
             },
             {
@@ -1689,6 +2010,17 @@
           "satirlar": [
             {
               "metin": "Bir başka ayet, Peygamber'e der: 'Yoksa onlardan ücret mi istiyorsun?'"
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "أَمۡ تَسۡـَٔلُهُمۡ أَجۡرٗا فَهُم مِّن مَّغۡرَمٖ مُّثۡقَلُونَ",
+                "meal": "Yoksa sen onlardan bir ücret istiyorsun da onlar bir borç altında eziliyorlar?",
+                "sure": "Kalem",
+                "no": "46",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
             },
             {
               "metin": "Soru, onun ücret istemediğini herkesin bildiğini varsayar."
@@ -1706,7 +2038,7 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.sahabe",
-      "dayanak": "Z15, s. 91-94: ikincil delil mantığı; kazadaki doktor örneği; Bakara 2:214 (sabır/zulüm), Kalem 68:46 (ücret), Tekvir 81:8-9 (diri diri gömülen kız); Thukydides/Peloponnesos örneği (s. 91-94). Ayetler ekranda serbest ifadeyle verildi."
+      "dayanak": "Z15, s. 91-94: ikincil delil mantığı; kazadaki doktor örneği; Bakara 2:214 (sabır/zulüm), Kalem 68:46 (ücret), Tekvir 81:8-9 (diri diri gömülen kız); Thukydides/Peloponnesos örneği (s. 91-94). Ayetler ekranda serbest ifadeyle verildi. [AYET Tekvîr 8-9] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Kalem 46]"
     },
     {
       "id": "zemin.sahabe",
@@ -1815,6 +2147,17 @@
               "metin": "Yusuf suresi, Peygamber'e der: 'Sen bundan önce haberi olmayanlardandın.'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "نَحۡنُ نَقُصُّ عَلَيۡكَ أَحۡسَنَ ٱلۡقَصَصِ بِمَآ أَوۡحَيۡنَآ إِلَيۡكَ هَٰذَا ٱلۡقُرۡءَانَ وَإِن كُنتَ مِن قَبۡلِهِۦ لَمِنَ ٱلۡغَٰفِلِينَ",
+                "meal": "Biz sana bu Kur'an'ı vahyederek kıssaların en güzelini anlatıyoruz. Sen bundan önce habersizlerdendin.",
+                "sure": "Yûsuf",
+                "no": "3",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "O bu kıssaları yıllardır biliyor olsaydı, en yakınları bunu bilirdi."
             },
             {
@@ -1844,7 +2187,7 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.musrikler",
-      "dayanak": "Z16, s. 94-119: Bilal (Dermenghem), Ammar ve ailesi (Caetani) (s. 100-101); Habeş hicreti (Hazleton, s. 97); Ebubekir pazarda (Kadı Abdülcabbar, Hitti, s. 104-105); Hudeybiye'de Ömer (s. 114-119); 'körleşme' itirazına cevap (s. 113-114); Miraç'ta sarsılma (Caetani, Dozy, s. 115-116); Yusuf 12:3 (s. 118-119); Huneyn/ensar (Margoliouth, Armstrong, s. 102-103). Ebubekir'in 40 bin -> 5 bin dirhem verisi ekranda kullanılmadı."
+      "dayanak": "Z16, s. 94-119: Bilal (Dermenghem), Ammar ve ailesi (Caetani) (s. 100-101); Habeş hicreti (Hazleton, s. 97); Ebubekir pazarda (Kadı Abdülcabbar, Hitti, s. 104-105); Hudeybiye'de Ömer (s. 114-119); 'körleşme' itirazına cevap (s. 113-114); Miraç'ta sarsılma (Caetani, Dozy, s. 115-116); Yusuf 12:3 (s. 118-119); Huneyn/ensar (Margoliouth, Armstrong, s. 102-103). Ebubekir'in 40 bin -> 5 bin dirhem verisi ekranda kullanılmadı. [AYET Yûsuf 3] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "zemin.musrikler",
@@ -1965,6 +2308,17 @@
               "metin": "Sana bir itiraz getirmezler ki, biz sana doğrusunu getirmiş olmayalım, der."
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَلَا يَأۡتُونَكَ بِمَثَلٍ إِلَّا جِئۡنَٰكَ بِٱلۡحَقِّ وَأَحۡسَنَ تَفۡسِيرًا",
+                "meal": "Sana bir örnek getirmezler ki, biz sana onun doğrusunu ve en güzel açıklamasını getirmiş olmayalım.",
+                "sure": "Furkân",
+                "no": "33",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Yani itirazlar vardı ve cevaplandı."
             }
           ],
@@ -1991,7 +2345,7 @@
         "Bu da önemli, not ettim. Ama önce şuna bakalım:"
       ],
       "sonraki": "zemin.ikna",
-      "dayanak": "Z17, s. 119-125: Margoliouth ('İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır', s. 119; çeviri kitaptan); itiraz-cevap ayetleri Bakara 2:142, 2:26, En'âm 6:8 (s. 120-123); Furkan 25:33 (s. 124); Margoliouth: kaynak gösterirlerdi (s. 119, 125). Armstrong'un 'hiçbiri sahte demedi' ifadesi kasten kullanılmadı: Kur'an'ın kendisi şair/kâhin/sihirbaz suçlamalarını kaydeder (Hicr 15:6, Sâffât 37:36, Yunus 10:2, Tûr 52:29) -> EK itiraz cevabı, docs/onay/acilis-zemin.md."
+      "dayanak": "Z17, s. 119-125: Margoliouth ('İslam'ın yapısı gereği polemikçi olduğu asla unutulmamalıdır', s. 119; çeviri kitaptan); itiraz-cevap ayetleri Bakara 2:142, 2:26, En'âm 6:8 (s. 120-123); Furkan 25:33 (s. 124); Margoliouth: kaynak gösterirlerdi (s. 119, 125). Armstrong'un 'hiçbiri sahte demedi' ifadesi kasten kullanılmadı: Kur'an'ın kendisi şair/kâhin/sihirbaz suçlamalarını kaydeder (Hicr 15:6, Sâffât 37:36, Yunus 10:2, Tûr 52:29) -> EK itiraz cevabı, docs/onay/acilis-zemin.md. [AYET Furkân 33] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "zemin.ikna",
@@ -2033,6 +2387,20 @@
         },
         {
           "metin": "İlk dinleyenler, bir yalan ya da hata görselerdi susmazlardı."
+        },
+        {
+          "metin": "Kur'an kendi hakkında bir iddia da taşır. Delil olarak değil, sınanabilir bir iddia olarak:"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "إِنَّا نَحۡنُ نَزَّلۡنَا ٱلذِّكۡرَ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+            "meal": "Zikri biz indirdik, onun koruyucusu da elbette biziz.",
+            "sure": "Hicr",
+            "no": "9",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Bu metni bir tarih belgesi olarak ciddiye almak için yeterince sebep var.",
@@ -2099,7 +2467,7 @@
       ],
       "kapat": "zemin",
       "sonraki": "zemin.kopru",
-      "dayanak": "Zemin kapanışı (Z5-Z17 özeti, s. 22-125): kullanılacak metinlerin güvenilirliği ve yorum yöntemleri temellendirildi (s. 125). Dal yalnız kullanıcı 'ikna' dediğinde kapanır (CLAUDE.md)."
+      "dayanak": "Zemin kapanışı (Z5-Z17 özeti, s. 22-125): kullanılacak metinlerin güvenilirliği ve yorum yöntemleri temellendirildi (s. 125). Dal yalnız kullanıcı 'ikna' dediğinde kapanır (CLAUDE.md). [AYET Hicr 15:9 (koruma iddiası; EK, onay: docs/onay/acilis-zemin.md): Müslüman olmayan muhatap için delil değil, tarihî olarak sınanabilir iddia olarak çerçevelendi.] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "zemin.kopru",
@@ -2111,15 +2479,15 @@
           "metin": "Kaynak elimizde."
         },
         {
-          "metin": "Şimdi asıl soruya gelelim: bu metni getiren adam.",
+          "metin": "Ama asıl soru henüz sorulmadı…",
           "vurgu": true
         },
         {
-          "metin": "Hz. Muhammed."
+          "metin": "Soru, bu metni getiren adamla ilgili: Hz. Muhammed."
         }
       ],
       "sonraki": "haber.giris",
-      "dayanak": "Köprü: zemin -> haber.giris."
+      "dayanak": "Köprü: zemin -> haber.giris. A4 (kullanıcı onaylı): bölge geçişi merak cümlesi."
     },
     {
       "id": "zemin.kisa",
@@ -2141,12 +2509,15 @@
           "metin": "Hafızlar onu bugüne taşıdı. Yazmalar, bugünkü metinle örtüşüyor."
         },
         {
-          "metin": "Şimdi asıl soruya gelelim: bu metni getiren adam.",
+          "metin": "Kaynak elimizde. Ama asıl soru henüz sorulmadı…",
           "vurgu": true
+        },
+        {
+          "metin": "Soru, bu metni getiren adamla ilgili."
         }
       ],
       "sonraki": "haber.giris",
-      "dayanak": "Kısa özet (Z6-Z11): erken yazım ve çoğaltma (s. 23-28), Sıffin (s. 24-26), hafızlar (s. 33-34), yazmalar (s. 42-83). Kaynağa zaten güvenen ve şüphesi kaynak dışı olan muhatap için."
+      "dayanak": "Kısa özet (Z6-Z11): erken yazım ve çoğaltma (s. 23-28), Sıffin (s. 24-26), hafızlar (s. 33-34), yazmalar (s. 42-83). Kaynağa zaten güvenen ve şüphesi kaynak dışı olan muhatap için. A4: bölge geçişi merak cümlesi."
     }
   ]
 }

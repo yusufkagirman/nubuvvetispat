@@ -37,3 +37,20 @@ Yeni beat `zemin.kiyasYazma` (`"ek": true`). Tüm satırlar `kaynak` ile künyel
 ## v2.1: açılış formatı (`acilis.format`)
 
 Kitap dışı değil, yeni anlatım: oryantalist/akademik kaynak tercihinin gerekçesi (tarafsız zemin, "kendi kaynağıyla kendini ispat" döngüsünden kaçınma). Olgu iddiası içermez; yalnız üslup onayı gerekir.
+
+## v2.2: kullanıcı onaylı akış değişiklikleri (A1, A4, A6, ayet sahneleri)
+
+Aşağıdakiler kullanıcı tarafından onaylandı; kayıt ve takip için listelenir. Kitap dışı olanlar ayrıca işaretlidir.
+
+| Değişiklik | Beat'ler | Not |
+|---|---|---|
+| A1 açılış kancası: ihtimaller ağacı önizlemesi (kanıtlamaz; sıra korunur) | `acilis.onizleme` (format sonrası, profil sorularından önce) | Diyagram `ihtimaller`, vurgu null |
+| A6 zemin "kısa yol / derin yol" seçimi | `zemin.giris` (soru değişti), `zemin.supheSor` (eski ilk soru buraya taşındı), `zemin.ozet-yazim`, `zemin.ozet-yazma`, `zemin.ozet-kiyas`, `zemin.ozet-ikincil`, `zemin.ozet-son` | Kısa yol zemini kapalı işaretlemez. Yeni olgu yok: satırlar mevcut zemin beat'lerinden özetlendi (kitap dışı yazma sayıları kullanılmadı) |
+| A4 bölüm sonu merak cümleleri | `zemin.kopru`, `zemin.kisa`, `haber.kisisel`, `haber.kopru-*`, `haber.sirayla`, `haber.kalan-s/-f/-ikisi`, yeni `mucize.gecis` (mucize -> kapanış köprüsü; eski `kapanis.giris` yolları buraya yönlendirildi) | Tek satırlık vurgu cümlesi; abartısız |
+| Arapça ayet satırları (`"ayet"` alanı) | 32 satır: Rûm 30:2-4, 30:5; Bakara 2:23, 2:104; İsra 17:88, 17:74-75; Kıyâme 75:16-19; Duhâ 93:3, 93:6-8, 93:9-10; Abese 80:1-2; Tevbe 9:43, 9:40, 9:128-129; En'âm 6:35; Âl-i İmrân 3:144, 3:93; Mâide 5:104; Alak 96:1-5; Kâfirûn 109:1-6; Ankebût 29:48; Kasas 28:86; Yûsuf 12:3; Furkân 25:33; Tekvîr 81:8-9; Kalem 68:46; Hûd 11:49; Duhân 44:29; Yâsîn 36:69; Zuhruf 43:31; Enfâl 8:31 | Arapça `quran-json@3.1.2`'den; meal Diyanet'ten uyarlandı, `dogrulanacak:true` |
+
+### Dikkat edilmesi gerekenler (kullanıcı kararı bekler)
+- **Hicr 15:9 (koruma)** `zemin.ikna` içine eklendi; bu ayet metnin korunmuşluğunu kendi iddiası olarak söyler. Müslüman olmayan muhatap için döngüsel olmasın diye öncesine "delil olarak değil, sınanabilir bir iddia olarak" çerçeve cümlesi kondu. Bu çerçeve cümlesi kitapta yok (**kitap dışı ek**); istenmezse ayet satırıyla birlikte çıkarılır.
+- **Bilerek eklenmeyen ayetler (hassas):** Ahzâb 33:37 ("içinde sakladığın", `samimiyet.sohret` ek 1) ve Tevbe 9:113 (Ebu Talib, `samimiyet.kabile` ek 1). Kitap bu iki yerde ölçülü anlatım ister (dn. 519; metod-haritasi §4); ayet metni ekranda tam gösterilince tartışma açabilir. Kullanıcı isterse eklenir.
+- **Belirsiz atıflı, eklenmeyen:** "Bu apaçık bir sihirbazdır" (`mucize.sihir`; 10/2, 38/4, 46/7, 51/52 gibi birden çok yerde geçer), "Sen orada değildin" (`fetanet.kitapehli`, Kasas 28:44/46 ve Âl-i İmrân 3:44 olasılığı), Şûrâ 42:52 (`fetanet.ummi` ek 2'nin ilk satırı; uzun ayet), Bakara 2:214 (sabır).
+- Tevbe 9:40 (`samimiyet.tutulma` ek 0) ve Âl-i İmrân 3:93 uzun ayetlerdir; ekranda tam gösterilir, kısaltılmadı.

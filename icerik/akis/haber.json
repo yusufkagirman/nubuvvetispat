@@ -757,10 +757,14 @@
         },
         {
           "metin": "Şimdi sana dönelim: senin düşüncen bu haritanın neresinde?"
+        },
+        {
+          "metin": "Harita hazır. Ama hangi kapıdan gireceğini henüz bilmiyoruz…",
+          "vurgu": true
         }
       ],
       "sonraki": "haber.ihtimaller",
-      "dayanak": "Yönlendirme beat'i: açılıştaki supheTuru'ne göre kişisel köprüler. Eşleşme yoksa doğrudan ihtimaller sorusuna geçer."
+      "dayanak": "Yönlendirme beat'i: açılıştaki supheTuru'ne göre kişisel köprüler. Eşleşme yoksa doğrudan ihtimaller sorusuna geçer. A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
     {
       "id": "haber.kopru-uydurdu",
@@ -791,6 +795,10 @@
         },
         {
           "metin": "Bu ihtimali atlamayacağız. Önce onu ciddiye alalım."
+        },
+        {
+          "metin": "Kazanç de bedel de ölçülebilir. Peki bu iddianın hesabı nasıl çıkıyor?…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -843,7 +851,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/S1)."
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/S1). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
     {
       "id": "haber.kopru-yanildi",
@@ -877,6 +885,10 @@
         },
         {
           "metin": "Önce bu ihtimali ciddiye alalım."
+        },
+        {
+          "metin": "Bir insan yirmi üç yıl boyunca aynı şeye nasıl yanılır? Bakalım…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -929,7 +941,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/F24)."
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H5/F24). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
     {
       "id": "haber.kopru-mucize",
@@ -963,6 +975,10 @@
         },
         {
           "metin": "Onu doğrudan gösteren delillere bakalım."
+        },
+        {
+          "metin": "Haberin kendisinde, doğrudan bakılabilecek bir şey var mı? Bakalım…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -1015,7 +1031,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H9/M)."
+      "dayanak": "Kişisel köprü; açılıştaki supheTuru'ne dayanır (H9/M). A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
     {
       "id": "haber.ihtimaller",
@@ -1546,10 +1562,14 @@
         },
         {
           "metin": "Önce bilerek yalan ihtimali. Acele yok; sen istedikçe ilerleriz."
+        },
+        {
+          "metin": "İlk kapının ardında ne var? Birlikte görelim…",
+          "vurgu": true
         }
       ],
       "sonraki": "samimiyet.giris",
-      "dayanak": "Kararsız kullanıcı için kronolojik varsayılan: samimiyet -> fetanet -> mucize."
+      "dayanak": "Kararsız kullanıcı için kronolojik varsayılan: samimiyet -> fetanet -> mucize. A4 (kullanıcı onaylı): haber -> dal geçişi merak cümlesi."
     },
     {
       "id": "haber.kalan",
@@ -1631,6 +1651,10 @@
         },
         {
           "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
+        },
+        {
+          "metin": "Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -1750,7 +1774,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "H6 (kitap s. 134): samimiyet dalı kapandı; kalan ihtimaller fetanet ve doğruluk."
+      "dayanak": "H6 (kitap s. 134): samimiyet dalı kapandı; kalan ihtimaller fetanet ve doğruluk. A4: dal kapanışı merak cümlesi."
     },
     {
       "id": "haber.kalan-f",
@@ -1794,6 +1818,10 @@
         },
         {
           "metin": "Bunu sen kendi ikna olduğun adımlarla buldun."
+        },
+        {
+          "metin": "Bir kapı kapandı. Ötekilerin ardında ne var, henüz görmedik…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -1901,7 +1929,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "H6 (kitap s. 134): fetanet dalı kapandı; kalan ihtimaller samimiyet ve doğruluk."
+      "dayanak": "H6 (kitap s. 134): fetanet dalı kapandı; kalan ihtimaller samimiyet ve doğruluk. A4: dal kapanışı merak cümlesi."
     },
     {
       "id": "haber.kalan-ikisi",
@@ -1950,6 +1978,10 @@
         },
         {
           "metin": "Bunu ben söylemiyorum. Kendi verdiğin cevaplar seni buraya getirdi."
+        },
+        {
+          "metin": "Ama hikâye burada bitmiyor. Haberin kendisinde, bakmadığımız bir şey var…",
+          "vurgu": true
         }
       ],
       "soru": {
@@ -1965,7 +1997,7 @@
       "kopru": [
         "Buna birazdan geleceğiz. Şimdi şunu soruyordum:"
       ],
-      "dayanak": "H6 (kitap s. 134): iki yalan dalı kapanınca geriye yalnızca doğru olma ihtimali kalır. Her cevap kabul edilir; mucize bölümü doğrudan delilleri sunar."
+      "dayanak": "H6 (kitap s. 134): iki yalan dalı kapanınca geriye yalnızca doğru olma ihtimali kalır. Her cevap kabul edilir; mucize bölümü doğrudan delilleri sunar. A4: haber.kalan -> mucize geçişi merak cümlesi."
     }
   ]
 }

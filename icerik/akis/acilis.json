@@ -140,8 +140,45 @@
           "vurgu": true
         }
       ],
-      "sonraki": "acilis.tanri",
+      "sonraki": "acilis.onizleme",
       "dayanak": "v2.1 format açılışı: oryantalist/akademik kaynak tercihinin gerekçesi (tarafsız zemin, dairesel ispattan kaçınma). Kitap verisi yok; kaynak künyeleri satır altında (AKIS-SEMA 'Kaynak alanı')."
+    },
+    {
+      "id": "acilis.onizleme",
+      "gizliDugum": "H5",
+      "sahne": {
+        "arkaplan": "gokyuzu"
+      },
+      "satirlar": [
+        {
+          "metin": "Yolun haritasını baştan göstereyim."
+        },
+        {
+          "metin": "Bir adam bir haber getirdi."
+        },
+        {
+          "metin": "Bu haber için üç ihtimal var."
+        },
+        {
+          "metin": "",
+          "diyagram": {
+            "tur": "ihtimaller",
+            "veri": {
+              "vurgu": null,
+              "kapali": []
+            }
+          }
+        },
+        {
+          "metin": "Önce zemini sağlamlaştıracağız, sonra haberin kendisine geleceğiz."
+        },
+        {
+          "metin": "Birlikte bakacağız; karar senin.",
+          "vurgu": true
+        }
+      ],
+      "sonraki": "acilis.tanri",
+      "dayanak": "A1 (docs/tasarim-onerileri.md), kullanıcı onaylı: ihtimaller ağacının kısa önizlemesi (kancası). Kanıtlamaz, 'ne yapacağız' der; metnin sırası (zemin -> haber -> dallar) korunur. Ağaç H5 (kitap s. 134) haber.ihtimaller'de devamıyla gelir."
     },
     {
       "id": "acilis.tanri",

@@ -70,7 +70,7 @@ textarea{width:100%;min-height:70px;resize:vertical}
 .prof select{padding:3px}
 table{border-collapse:collapse;width:100%;font-size:12px}td,th{border-bottom:1px solid var(--cz);padding:3px 5px;text-align:left;vertical-align:top}
 details>summary{cursor:pointer;color:var(--sl);margin:6px 0}
-.persona-bilgi{position:fixed;left:10px;bottom:10px;z-index:6;max-width:min(420px,calc(100% - 20px));max-height:40vh;overflow:auto;background:var(--pn);border:1px solid var(--ac);border-radius:10px;padding:8px 10px;font-size:12px}
+.persona-bilgi{position:fixed;left:10px;bottom:10px;z-index:6;max-width:min(420px,calc(100% - 20px));max-height:28vh;overflow:auto;background:var(--pn);border:1px solid var(--ac);border-radius:10px;padding:8px 10px;font-size:12px}
 .persona-bilgi ol{margin:4px 0 0;padding-left:22px}
 .persona-bilgi li{cursor:pointer}.persona-bilgi li:hover{color:var(--ac)}
 dialog{background:var(--pn);color:var(--tx);border:1px solid var(--cz);border-radius:12px;width:min(720px,94vw);max-height:90vh;padding:14px}

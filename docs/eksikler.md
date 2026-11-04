@@ -13,6 +13,8 @@
 | Antik metin kıyası verileri (İlyada, Herodot, Tacitus, Platon, Julius Caesar, Bizans tarihçileri, İncil yazmaları): yazar ölümü → en eski yazma arası süre, yazma sayısı | zemin antik kıyas beat'i | ağ; kitapta yalnız bir kısmı var | Akademik kaynaklardan (ör. Bruce Metzger, F. F. Bruce; yazma katalogları) doğrula |
 | Oryantalist alıntıların asıl kaynaktan (İngilizce/Fransızca orijinal) doğrulanması | tüm `alinti` diyagramları | ağ; kitabın Türkçe aktarımından alındı | Orijinal eser ve sayfadan karşılaştır |
 | Eksik künye alanları (`"dogrulanacak": true` olan kaynaklar) | `icerik/akis/*.json` | bilgi bankasında yok | `grep -n dogrulanacak icerik/akis/*.json` ile listele ve tamamla |
+| Sesli anlatıcı (sonraki aşama) | tüm akış | Şimdilik yok (kullanıcı kararı); hafız tilaveti + Türkçe meal dinletisi de bu aşamaya ait | Sonraki aşamada TTS/kayıtlı anlatım; ayet sahnelerinde hafız tilaveti (lisanslı kayıt) |
+| Ayet sahneleri: Arapça metin ve Türkçe meal doğrulaması (32 ayet satırı; `grep -n '"ayet"' icerik/akis/*.json`) | `icerik/akis/*.json` satır `ayet` alanı | Arapça metin `quran-json@3.1.2` paketinden kopyalandı (elle yazılmadı); meal Diyanet'ten uyarlandı, `dogrulanacak:true` | Arapça: Tanzil/Kur'an Kerim mushafıyla karşılaştır (waqf işaretleri ve harekeler dahil). Meal: Diyanet meali ile satır satır karşılaştır; birebir alıntı mı uyarlama mı kararı ver. Lisans: paketin LICENSE dosyası CC-BY-SA 4.0 (package.json CC-BY-4.0 yazıyor); sunumun Kaynakça sahnesine atıf eklenmeli (builder) |
 
 ## v2.1 kaynak künyeleri (`"dogrulanacak": true`)
 

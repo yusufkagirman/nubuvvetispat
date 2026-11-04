@@ -682,6 +682,17 @@
         },
         {
           "metin": "",
+          "ayet": {
+            "arapca": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ لَآ أَعۡبُدُ مَا تَعۡبُدُونَ وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+            "meal": "De ki: Ey kâfirler! Ben sizin taptıklarınıza tapmam. Siz de benim ibadet ettiğime ibadet etmezsiniz. Ben sizin taptıklarınıza tapacak değilim. Siz de benim taptığıma tapacak değilsiniz. Sizin dininiz size, benim dinim banadır.",
+            "sure": "Kâfirûn",
+            "no": "1-6",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "",
           "diyagram": {
             "tur": "alinti",
             "veri": {
@@ -792,7 +803,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.taif",
-      "dayanak": "S8 (kitap s. 216-219): Armstrong (Kureyş'in çok tanrılı uzlaşma teklifi; 109/1-6), Dermenghem ('taviz vermeyi aklından bile geçirmedi' - kitabın tercümesinden paraphrase, tam metin doğrulanmalı), Medine'de Yahudi/Hristiyan: 5/73, 5/75; kırk yıl: 10/16 + Margoliouth (s. 328'e dayanan atıf)."
+      "dayanak": "S8 (kitap s. 216-219): Armstrong (Kureyş'in çok tanrılı uzlaşma teklifi; 109/1-6), Dermenghem ('taviz vermeyi aklından bile geçirmedi' - kitabın tercümesinden paraphrase, tam metin doğrulanmalı), Medine'de Yahudi/Hristiyan: 5/73, 5/75; kırk yıl: 10/16 + Margoliouth (s. 328'e dayanan atıf). [AYET Kâfirûn 1-6] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.taif",
@@ -892,6 +903,17 @@
             },
             {
               "metin": "Sonra inen ayet: 'Muhammed ancak bir peygamberdir. Ölürse ya da öldürülürse topuklarınız üstünde mi geri döneceksiniz?'"
+            },
+            {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٞ قَدۡ خَلَتۡ مِن قَبۡلِهِ ٱلرُّسُلُۚ أَفَإِيْن مَّاتَ أَوۡ قُتِلَ ٱنقَلَبۡتُمۡ عَلَىٰٓ أَعۡقَٰبِكُمۡۚ وَمَن يَنقَلِبۡ عَلَىٰ عَقِبَيۡهِ فَلَن يَضُرَّ ٱللَّهَ شَيۡـٔٗاۚ وَسَيَجۡزِي ٱللَّهُ ٱلشَّـٰكِرِينَ",
+                "meal": "Muhammed ancak bir peygamberdir. Ondan önce de peygamberler gelip geçti. Ölür ya da öldürülürse topuklarınız üstünde geri mi döneceksiniz? Kim geri dönerse Allah'a hiçbir zarar veremez. Allah şükredenleri ödüllendirecek.",
+                "sure": "Âl-i İmrân",
+                "no": "144",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
             }
           ],
           "soru": "Davayı kendi şahsının üstünde gören bu cümle, kişisel bir çıkar peşindeki zihne nasıl sığar?"
@@ -914,7 +936,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.sohret",
-      "dayanak": "S14 (kitap s. 254-260): Dermenghem, Hazleton, Caetani, Margoliouth (Mute); Taif duası (Dermenghem); Uhud ve 3/144 (Dermenghem, Hazleton); Ebu Cehil olayı (Dermenghem); 10/16 ve 68/4; Watt s. 260. 'On üç yıl' Mekke dönemi için kitabın kullandığı süre."
+      "dayanak": "S14 (kitap s. 254-260): Dermenghem, Hazleton, Caetani, Margoliouth (Mute); Taif duası (Dermenghem); Uhud ve 3/144 (Dermenghem, Hazleton); Ebu Cehil olayı (Dermenghem); 10/16 ve 68/4; Watt s. 260. 'On üç yıl' Mekke dönemi için kitabın kullandığı süre. [AYET Âl-i İmrân 144] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.sohret",
@@ -933,11 +955,44 @@
           "metin": "Gözleri görmeyen bir adam yanına geldi, o yüz çevirdi. Bu olay metne girdi: 'Yüzünü ekşitti ve çevirdi.'"
         },
         {
+          "metin": "",
+          "ayet": {
+            "arapca": "عَبَسَ وَتَوَلَّىٰٓ أَن جَآءَهُ ٱلۡأَعۡمَىٰ",
+            "meal": "Yanına âmâ geldi diye yüzünü ekşitti ve çevirdi.",
+            "sure": "Abese",
+            "no": "1-2",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
           "metin": "Bir başkasında: 'Allah seni affetsin, onlara neden izin verdin?'"
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "عَفَا ٱللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمۡ حَتَّىٰ يَتَبَيَّنَ لَكَ ٱلَّذِينَ صَدَقُواْ وَتَعۡلَمَ ٱلۡكَٰذِبِينَ",
+            "meal": "Allah seni affetsin! Doğru söyleyenler sana belli olmadan, yalancıları da bilmeden önce, onlara neden izin verdin?",
+            "sure": "Tevbe",
+            "no": "43",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Bir diğerinde: 'Neredeyse onlara biraz meyledecektin; o zaman sana kat kat azap tattırırdık.'",
           "vurgu": true
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "وَلَوۡلَآ أَن ثَبَّتۡنَٰكَ لَقَدۡ كِدتَّ تَرۡكَنُ إِلَيۡهِمۡ شَيۡـٔٗا قَلِيلًا إِذٗا لَّأَذَقۡنَٰكَ ضِعۡفَ ٱلۡحَيَوٰةِ وَضِعۡفَ ٱلۡمَمَاتِ ثُمَّ لَا تَجِدُ لَكَ عَلَيۡنَا نَصِيرٗا",
+            "meal": "Sana sebat vermeseydik, andolsun ki onlara biraz meyledecektin. O takdirde sana hayatın da ölümün de kat kat azabını tattırırdık. Sonra bize karşı sana bir yardımcı da bulamazdın.",
+            "sure": "İsra",
+            "no": "74-75",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Bu cümleleri kendisi okudu, ezberletti, her gün tekrar ettirdi."
@@ -1024,6 +1079,17 @@
               "metin": "Ayet inip şunu söyledi: 'Yüz çevirmeleri sana ağır geldiyse… sakın cahillerden olma.'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "وَإِن كَانَ كَبُرَ عَلَيۡكَ إِعۡرَاضُهُمۡ فَإِنِ ٱسۡتَطَعۡتَ أَن تَبۡتَغِيَ نَفَقٗا فِي ٱلۡأَرۡضِ أَوۡ سُلَّمٗا فِي ٱلسَّمَآءِ فَتَأۡتِيَهُم بِـَٔايَةٖۚ وَلَوۡ شَآءَ ٱللَّهُ لَجَمَعَهُمۡ عَلَى ٱلۡهُدَىٰۚ فَلَا تَكُونَنَّ مِنَ ٱلۡجَٰهِلِينَ",
+                "meal": "Onların yüz çevirmesi sana ağır geldiyse, gücün yetiyorsa yerde bir tünel ya da gökte bir merdiven ara da onlara bir mucize getir. Allah dileseydi onları hidayet üzere toplardı. Sakın cahillerden olma.",
+                "sure": "En'âm",
+                "no": "35",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Bu üzüntünün hiçbir siyasi faydası yoktu."
             }
           ],
@@ -1050,7 +1116,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.tutulma",
-      "dayanak": "S10 (kitap s. 231-241) 'ikinci irade': Abese 80/1-12 (Caetani), 9/43, 17/73-75, 6/35, 18/6, 6/52, 18/28; 33/37 (kitap dn. 519: ismet inancı korunur, uyarılar yalnızca ikinci iradeye işaret etmek için anılır; hassas, ölçülü anlatıldı). Meal ifadeleri serbest özetlemedir; ekranda aynen alıntı yapılacaksa meal seçilip doğrulanmalı."
+      "dayanak": "S10 (kitap s. 231-241) 'ikinci irade': Abese 80/1-12 (Caetani), 9/43, 17/73-75, 6/35, 18/6, 6/52, 18/28; 33/37 (kitap dn. 519: ismet inancı korunur, uyarılar yalnızca ikinci iradeye işaret etmek için anılır; hassas, ölçülü anlatıldı). Meal ifadeleri serbest özetlemedir; ekranda aynen alıntı yapılacaksa meal seçilip doğrulanmalı. [AYET Abese 1-2] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Tevbe 43] [AYET İsra 74-75] [AYET En'âm 35]"
     },
     {
       "id": "samimiyet.tutulma",
@@ -1155,6 +1221,17 @@
               "metin": "Ebubekir korktu. Peygamber sakindi: 'Üzülme, Allah bizimle.'"
             },
             {
+              "metin": "",
+              "ayet": {
+                "arapca": "إِلَّا تَنصُرُوهُ فَقَدۡ نَصَرَهُ ٱللَّهُ إِذۡ أَخۡرَجَهُ ٱلَّذِينَ كَفَرُواْ ثَانِيَ ٱثۡنَيۡنِ إِذۡ هُمَا فِي ٱلۡغَارِ إِذۡ يَقُولُ لِصَٰحِبِهِۦ لَا تَحۡزَنۡ إِنَّ ٱللَّهَ مَعَنَاۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيۡهِ وَأَيَّدَهُۥ بِجُنُودٖ لَّمۡ تَرَوۡهَا وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُواْ ٱلسُّفۡلَىٰۗ وَكَلِمَةُ ٱللَّهِ هِيَ ٱلۡعُلۡيَاۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+                "meal": "Siz ona yardım etmezseniz, Allah ona yardım etmişti: İnkâr edenler onu çıkardığında, iki kişiden biri olarak mağaradaydılar. O sırada arkadaşına: 'Üzülme, Allah bizimle beraberdir' diyordu. Allah ona huzur indirdi, sizin görmediğiniz ordularla onu destekledi. İnkâr edenlerin sözünü alçalttı. Allah'ın sözü ise en yücedir. Allah güçlüdür, hikmet sahibidir.",
+                "sure": "Tevbe",
+                "no": "40",
+                "mealKaynak": "Diyanet meali (uyarlanmış)",
+                "dogrulanacak": true
+              }
+            },
+            {
               "metin": "Ebubekir ona inanmış biriydi; suç ortağı değildi."
             }
           ],
@@ -1181,7 +1258,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kadin",
-      "dayanak": "S9a (kitap s. 220-223): Buhârî Küsûf 1, 3, 8; Müslim Küsûf 10; Apaydın, Siyer Kronolojisi (27 Ocak 632, hicri 10); Dermenghem 'sadık biri hakikati aleyhine de olsa söyler'; yazar bunu 'tek başına yeter' delili sayar; dn. 487 (hadis 'güneş tutulması namazı' bölümünde). Mağara: Bodley, Dermenghem, Hazleton, Margoliouth, 9/40 (s. 223-224). İkinci ekOrnek Ebubekir/3/144 hadisesi kitapta s. 256 civarında (S14) geçer; bu beat'te kullanılışı kitap dışı yerleşim, 'ek' işaretli ve doğrulanacak."
+      "dayanak": "S9a (kitap s. 220-223): Buhârî Küsûf 1, 3, 8; Müslim Küsûf 10; Apaydın, Siyer Kronolojisi (27 Ocak 632, hicri 10); Dermenghem 'sadık biri hakikati aleyhine de olsa söyler'; yazar bunu 'tek başına yeter' delili sayar; dn. 487 (hadis 'güneş tutulması namazı' bölümünde). Mağara: Bodley, Dermenghem, Hazleton, Margoliouth, 9/40 (s. 223-224). İkinci ekOrnek Ebubekir/3/144 hadisesi kitapta s. 256 civarında (S14) geçer; bu beat'te kullanılışı kitap dışı yerleşim, 'ek' işaretli ve doğrulanacak. [AYET Tevbe 40] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.kadin",
@@ -1361,6 +1438,17 @@
           "vurgu": true
         },
         {
+          "metin": "",
+          "ayet": {
+            "arapca": "وَإِذَا قِيلَ لَهُمۡ تَعَالَوۡاْ إِلَىٰ مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ قَالُواْ حَسۡبُنَا مَا وَجَدۡنَا عَلَيۡهِ ءَابَآءَنَآۚ أَوَلَوۡ كَانَ ءَابَآؤُهُمۡ لَا يَعۡلَمُونَ شَيۡـٔٗا وَلَا يَهۡتَدُونَ",
+            "meal": "Onlara 'Allah'ın indirdiğine ve Peygamber'e gelin' denince: 'Atalarımızı üzerinde bulduğumuz yol bize yeter' derler. Ya atalarının bir şeyden haberi yoksa ve doğru yolu bulamamışlarsa?",
+            "sure": "Mâide",
+            "no": "104",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
           "metin": "O toplumda bu, bir tür siyasi intihardı. Kabile korumasını yitiren birinin öldürülmesi cezasız kalırdı."
         },
         {
@@ -1476,7 +1564,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.yuk",
-      "dayanak": "S6 + S7 (kitap s. 185-213): Lapidus, Wellhausen, Goldziher, Izutsu, Armstrong (aile bağlarını parçalıyordu); 5/104, 31/21, 7/28, 43/22-25; Ebu Zer-Bilal (Buhârî İman 22; Müslim Eymân 40); Usame b. Zeyd (Rodinson); Ebu Talib ve anne-baba rivayetleri (Buhârî 1360, Müslim İman 40, 357-363, Cenâiz); Ebu Leheb korumayı kaldırdı (Dozy, Rodinson, Hazleton, Watt). Kitap bu rivayetleri anlatırken rahatsızlığını belirtir: 'yalnızca muhatap isterse' kuralı (metod-haritasi §4) gereği ekOrnek olarak, ölçülü dille. Caetani: 'Arabistan'da hiçbir hareket-i diniye yoktu...' (tam metin doğrulanacak)."
+      "dayanak": "S6 + S7 (kitap s. 185-213): Lapidus, Wellhausen, Goldziher, Izutsu, Armstrong (aile bağlarını parçalıyordu); 5/104, 31/21, 7/28, 43/22-25; Ebu Zer-Bilal (Buhârî İman 22; Müslim Eymân 40); Usame b. Zeyd (Rodinson); Ebu Talib ve anne-baba rivayetleri (Buhârî 1360, Müslim İman 40, 357-363, Cenâiz); Ebu Leheb korumayı kaldırdı (Dozy, Rodinson, Hazleton, Watt). Kitap bu rivayetleri anlatırken rahatsızlığını belirtir: 'yalnızca muhatap isterse' kuralı (metod-haritasi §4) gereği ekOrnek olarak, ölçülü dille. Caetani: 'Arabistan'da hiçbir hareket-i diniye yoktu...' (tam metin doğrulanacak). [AYET Mâide 104] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.yuk",
@@ -1967,6 +2055,17 @@
         },
         {
           "metin": "",
+          "ayet": {
+            "arapca": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ ٱلَّذِي عَلَّمَ بِٱلۡقَلَمِ عَلَّمَ ٱلۡإِنسَٰنَ مَا لَمۡ يَعۡلَمۡ",
+            "meal": "Yaratan Rabbinin adıyla oku. O, insanı bir alaktan yarattı. Oku! Rabbin en büyük kerem sahibidir. O, kalemle öğretti. İnsana bilmediğini öğretti.",
+            "sure": "Alak",
+            "no": "1-5",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
+          "metin": "",
           "diyagram": {
             "tur": "alinti",
             "veri": {
@@ -2102,7 +2201,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.ikinci",
-      "dayanak": "S9c (kitap s. 227-230): Buhârî Bed'ü'l-Vahy, Tefsir, Ta'bir; Müslim İman 252; Tirmizi; Hazleton ('katışıksız insani tepki en güçlü tarihî sav', tam metin doğrulanmalı); Armstrong, Hodgson; Dozy (ilk ayetlerde peygamberlik onayı yok); Watt (Kur'an'ı normal bilinçten ayırdı, s. 226). Hastalık/yanılma itirazı fetanet dalına yönlendirilir."
+      "dayanak": "S9c (kitap s. 227-230): Buhârî Bed'ü'l-Vahy, Tefsir, Ta'bir; Müslim İman 252; Tirmizi; Hazleton ('katışıksız insani tepki en güçlü tarihî sav', tam metin doğrulanmalı); Armstrong, Hodgson; Dozy (ilk ayetlerde peygamberlik onayı yok); Watt (Kur'an'ı normal bilinçten ayırdı, s. 226). Hastalık/yanılma itirazı fetanet dalına yönlendirilir. [AYET Alak 1-5] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.ikinci",
@@ -2121,8 +2220,30 @@
           "metin": "O zaman şu ayet indi: 'Rabbin seni bırakmadı, sana darılmadı.'"
         },
         {
+          "metin": "",
+          "ayet": {
+            "arapca": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+            "meal": "Rabbin seni bırakmadı, sana darılmadı da.",
+            "sure": "Duhâ",
+            "no": "3",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
+        },
+        {
           "metin": "Hemen ardından bir emir: 'Yetimi ezme, isteyeni azarlama.'",
           "vurgu": true
+        },
+        {
+          "metin": "",
+          "ayet": {
+            "arapca": "فَأَمَّا ٱلۡيَتِيمَ فَلَا تَقۡهَرۡ وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ",
+            "meal": "Öyleyse yetimi ezme. İsteyeni de azarlama.",
+            "sure": "Duhâ",
+            "no": "9-10",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Kendi sesi olsaydı, kendine teselli yazıp hemen ardından kendine ödev verir miydi?"
@@ -2229,7 +2350,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kiyamet",
-      "dayanak": "S10 (kitap s. 236-241): Hazleton ('onun farkında olmadığı soruların cevabını veriyor'), Dermenghem ('tescil eden bir ses'; vahyi kişisel düşünceden ayırma), Watt; 93 Duhâ, 94 İnşirah, 73/10, 27/78-81, 15/97, 40/55, 16/127, 10/65, 52/48, 35/4, 6/33-34, 46/35, 68/48. Yazar bu delilin kendisini ateistken etkilediğini belirtir (s. 231, 235)."
+      "dayanak": "S10 (kitap s. 236-241): Hazleton ('onun farkında olmadığı soruların cevabını veriyor'), Dermenghem ('tescil eden bir ses'; vahyi kişisel düşünceden ayırma), Watt; 93 Duhâ, 94 İnşirah, 73/10, 27/78-81, 15/97, 40/55, 16/127, 10/65, 52/48, 35/4, 6/33-34, 46/35, 68/48. Yazar bu delilin kendisini ateistken etkilediğini belirtir (s. 231, 235). [AYET Duhâ 3] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak). [AYET Duhâ 9-10]"
     },
     {
       "id": "samimiyet.kiyamet",
@@ -2242,10 +2363,18 @@
           "metin": "75. sure kıyameti anlatır: ölüm, hesap, korku. Anlatı hızla yükselir."
         },
         {
-          "metin": "Tam ortasında bir cümle girer: 'Vahyi çarçabuk almak için dilini kımıldatma.'"
+          "metin": "Tam ortasında bir cümle girer. Peygamber'e doğrudan seslenir:"
         },
         {
-          "metin": "'Onu toplamak ve okutmak bize aittir. Biz onu okuduğumuzda sen okunuşuna uy. Sonra açıklamak da bize aittir.'"
+          "metin": "",
+          "ayet": {
+            "arapca": "لَا تُحَرِّكۡ بِهِۦ لِسَانَكَ لِتَعۡجَلَ بِهِۦٓ إِنَّ عَلَيۡنَا جَمۡعَهُۥ وَقُرۡءَانَهُۥ فَإِذَا قَرَأۡنَٰهُ فَٱتَّبِعۡ قُرۡءَانَهُۥ ثُمَّ إِنَّ عَلَيۡنَا بَيَانَهُۥ",
+            "meal": "Vahyi çarçabuk almak için dilini onunla kımıldatma. Onu toplamak ve okutmak bize aittir. Biz onu okuduğumuzda, sen onun okunuşuna uy. Sonra onu açıklamak da bize aittir.",
+            "sure": "Kıyâme",
+            "no": "16-19",
+            "mealKaynak": "Diyanet meali (uyarlanmış)",
+            "dogrulanacak": true
+          }
         },
         {
           "metin": "Ardından sure kaldığı yerden devam eder."
@@ -2327,7 +2456,7 @@
         "Bu da önemli bir nokta, not ettim. Ama önce şuna dönelim:"
       ],
       "sonraki": "samimiyet.kapanis",
-      "dayanak": "S11 (kitap s. 241-243): Kıyâme 75/15-20; kitabın önerisi: hafızdan Arapça tilavet + eşzamanlı Türkçe meal dinletmek (ses desteği sonraki aşama). 'Methiye' ekOrneği S10 genel gözleminin özetidir (s. 241: uyarı-teselli-emir üslubu)."
+      "dayanak": "S11 (kitap s. 241-243): Kıyâme 75/15-20; kitabın önerisi: hafızdan Arapça tilavet + eşzamanlı Türkçe meal dinletmek (ses desteği sonraki aşama). 'Methiye' ekOrneği S10 genel gözleminin özetidir (s. 241: uyarı-teselli-emir üslubu). [AYET Kıyâme 75:16-19: satırdaki serbest alıntı yerine ayet satırı] AYET METNİ: Arapça quran-json 3.1.2 (npm; LICENSE CC-BY-SA 4.0, package.json CC-BY-4.0; Uthmani metin kaynağı: The Noble Qur'an Encyclopedia); meal: Diyanet meali uyarlaması (doğrulanacak)."
     },
     {
       "id": "samimiyet.kutsalyalan",
