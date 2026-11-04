@@ -68,4 +68,6 @@ Kullanıcı kendini **özgür** hissetmeli: dayatma yok, akıcı ve saygılı bi
 - [x] Beyin fırtınası 2. tur (lisans, dal kapanması, kayıt/anonimlik, etkileşim modeli)
 - [x] İlk dilim: Z1–Z17 + H1–H16 içerik + statik motor, uçtan uca test geçti (`docs/test-raporu.md`)
 - [x] v2: sinematik motor + 6 bölge (~116 beat) + 6 persona testi; yayın: https://claude.ai/artifact/WgW3kpbPsYbHXzxd9XVu2G (`site/index.html` ile aynı yoldan güncellenir)
-- [ ] Sonraki: kullanıcı geri bildirimi; zemin kısaltma/"özet ve geç"; onay bekleyen ekler (`docs/onay/`); LLM sınıflandırıcı; GitHub Pages
+- [x] v3: kaynaklar sunum içinde (isim+künye+kart+kaynakça), ayetler (Tanzil/Amiri), kanca, zemin kısaca/ayrıntılı, global yollar, kılıç/işine-gelen/vizyoner/Hume/Müslüman olmak sahneleri; 138 beat
+- [x] Kontrol paneli: https://claude.ai/artifact/KnLPB7cRiBzEaRe2guuWrW (`site/panel.html`; görüntüler `bash scripts/panel-ekran.sh`; yayında sunum `sunum.html` olarak eklenir)
+- [ ] Sonraki: kullanıcı geri bildirimi (panel notları); onay bekleyenler `docs/onay/`; Aişe/Kurayza (ertelendi, `docs/hassas-konular.md`); internetli doğrulamalar `docs/eksikler.md`; LLM katmanı `docs/yapay-zeka-mimarisi.md`; GitHub Pages
