@@ -62,3 +62,30 @@
 | Zemin 'Corpus Coranicum' yanıtında ve `zemin.corpus`'ta projenin kurumsal künyesi (yürüten kurum, URL, erişim tarihi) | `zemin.corpus`, `mucize.kissa-giris` | ağ | Proje 'Hakkında' sayfasından kurum ve yıl |
 | Birmingham Üniversitesi/Oxford radyokarbon raporu tam künyesi (yazma numarası, rapor/basın bülteni tarihi) | `zemin.karbon` | ağ | Üniversite basın bülteni, rapor |
 | Tübingen mushafı (Tübingen Üniv. Kütüphanesi, yazma no.) ve Paris BnF yazması karbon/paleografi tarihleri | `zemin.cografya` | ağ | Kütüphane kayıtları ve Deroche eseri |
+
+## Hassas konular için kaynak doğrulamaları (bkz. `docs/hassas-konular.md`)
+
+> Aşağıdaki satırlar bu oturumda **ezberden** yazıldı; eser varlığı, yıl, yayıncı, sayfa ve tez özeti internetle doğrulanmadan sunuma `kaynak` olarak girmez. Hepsi `dogrulanacak:true` + kullanıcı onayı.
+
+| Ne | Nerede | Neden | Nasıl |
+|---|---|---|---|
+| Kecia Ali, *The Lives of Muhammad* (Harvard UP, 2014); *Sexual Ethics and Islam* (Oneworld, 2006): Aişe yaşı/evliliği ilgili bölüm ve sayfa | `samimiyet.aise` (taslak YNI-1) | ağ | Yayıncı sayfası/kütüphane kaydı; bölüm başlığı ve sayfa aralığı |
+| Jonathan A. C. Brown, *Misquoting Muhammad* (Oneworld, 2014): Aişe yaşı rivayeti bölümü; Hişâm b. Urve eleştirisi tartışması | `samimiyet.aise`, `samimiyet.isine-gelen` | ağ | Bölüm numarası, sayfa; tez özeti doğrula |
+| Denise Spellberg, *Politics, Gender, and the Islamic Past* (Columbia UP, 1994): Aişe'nin yaşı/bekâreti vurgusunun işlevi | `samimiyet.aise` | ağ | Bölüm ve sayfa |
+| Watt (*Muhammad at Medina*, 1956; kitaptaki Türkçe çev.), Armstrong, Rodinson: Aişe nişan/evlilik ve evliliklerin siyasi işlevi pasajları | `samimiyet.aise`, `samimiyet.kadin` | ağ | Orijinal ve Türkçe çeviride sayfa; ifade doğrula |
+| Buhârî (Menâkıbü'l-Ensâr "Nebi'nin Aişe ile evlenmesi"; Nikâh), Müslim (Nikâh), İbn Sa'd *Tabakât*: Aişe evlilik yaşı rivayeti; hadis numaraları | `samimiyet.aise` dayanak | ağ | Mevsûa/Sünnet.com benzeri kaynaktan numara ve metin |
+| Justinianus *Institutiones/Digesta* (kız çocukları için asgari evlenme yaşı 12): madde numarası; "Bağlam" cümlesinin gerekip gerekmediğine karar | `samimiyet.aise` dayanak | ağ; kitapta yok | Roma hukuku kaynak çevirisi |
+| W. N. Arafat, "New Light on the Story of Banū Qurayẓa and the Jews of Medina", *JRAS* (1976): sayfa aralığı ve tez | `samimiyet.kureyza` (YNI-2) | ağ | JSTOR/Cambridge künyesi |
+| Barakat Ahmad, *Muhammad and the Jews: A Re-Examination* (Vikas, 1979): bölüm, sayfa | `samimiyet.kureyza` | ağ | Kütüphane kaydı |
+| M. J. Kister, "The Massacre of the Banū Qurayẓa: A Re-Examination of a Tradition", *JSAI* 8 (1986): sayfa aralığı, tez | `samimiyet.kureyza` | ağ | JSAI sayfası/kaynakça |
+| Watt, *Muhammad at Medina* (Kurayza bölümü) ve *EI²* "Ḳurayẓa, Banū" maddesi; Lecker, *Muslims, Jews and Pagans* (Brill, 1995); Newby, *A History of the Jews of Arabia* (1988); Serjeant (BSOAS 41, 1978), Rubin (*Studia Islamica* 62, 1985) Medine Sözleşmesi | `samimiyet.kureyza` | ağ | Künye ve sayfa |
+| İbn İshak–İbn Hişâm *Sîre* (Guillaume çev., 1955) Kurayza bölümü sayfaları; Vâkıdî *Meğâzî*; Taberî *Tarih* (SUNY, Fishbein çev., Hendek–Kurayza cildi); Buhârî/Müslim Sa'd b. Muaz hükmü rivayeti; olaya dair "600–900" sayı aralığı | `samimiyet.kureyza` dayanak | ağ | Sayfa, cilt, hadis numarası; sayı aralığı kaynaklarda kontrol |
+| Tesniye 20:10–14 ile Sa'd'ın hükmü ilişkisi (Arafat vb.): ilişkinin gerçekten öne sürülüp sürülmediği | `samimiyet.kureyza` | ağ | Arafat makalesi; ilişki kullanılmayacaksa satır sil |
+| T. W. Arnold, *The Preaching of Islam* (1896/1913) orijinalinden: kitaptaki Türkçe alıntıların (s. 31, 34, 67, 69, 70, 76, 83–86, 91–92, 102, 114, 117–119, 529, 534) orijinal sayfa karşılığı | `fetanet.tolerans`, `fetanet.savas` | ağ; kitap Türkçe çeviriye atıf veriyor | Orijinal baskıda eşleştir |
+| Richard Bulliet, *Conversion to Islam in the Medieval Period* (Harvard UP, 1979): eğrinin tarihleri ve bölgeler | `fetanet.savas` | ağ | Bölüm ve sayfa |
+| Fred Donner, *The Early Islamic Conquests* (Princeton, 1981); *Muhammad and the Believers* (Harvard, 2010): hangi iddia için hangi eser | `fetanet.savas` | ağ | Bölüm ve sayfa |
+| Hugh Kennedy, *The Great Arab Conquests* (2007); Berkey, *The Formation of Islam* (2003); Morony, *Iraq After the Muslim Conquest* (1984); Levy-Rubin (2011); Mark R. Cohen, *Under Crescent and Cross* (1994); Lewis, *The Jews of Islam* (1984) | `fetanet.savas`, `fetanet.tolerans` (zimmî statüsü hedge) | ağ | Künye ve sayfa |
+| David Cook, *Understanding Jihad* (2005); Bonner, *Jihad in Islamic History* (2006); Peters, *Jihad in Classical and Modern Islam* (1996); Afsaruddin (Oxford, 2013); Abou El Fadl (Cambridge, 2001): saldırı cihadı kuramının klasik hukukta yeri | `fetanet.savas` | ağ | Bölüm ve sayfa |
+| Tevbe 9/5 ve 9/29 klasik tefsirlerde yorumu (Taberî, Râzî); Bakara 2/256 nüzul sebebi | `fetanet.savas` | ağ; kitapta bu ayetler yok | Tefsir kaynaklarından özet |
+| Zeyd–Zeyneb (Ahzâb 33/37), Ahzâb 33/50–52, Tahrîm 66/1–5: Buhârî Tefsir bölümleri; Aişe'nin "Rabbinin arzularına çabuk yetiştiğini görüyorum" rivayeti (Buhârî, Tefsir Ahzâb); Ömer'e muvafakat ayetleri (Buhârî) | `samimiyet.isine-gelen` (YNI-5) | ağ | Hadis numarası ve metin |
+| Bell, *Introduction to the Qur'ân* (Edinburgh, 1953; Watt revizyonu 1970); Nöldeke–Schwally, *Geschichte des Qorāns* (1909–38); Neuwirth, *Der Koran als Text der Spätantike* (2010); Rippin, "The Function of Asbāb al-Nuzūl…" (*BSOAS* 51, 1988); Donner, *Narratives of Islamic Origins* (1998) | `samimiyet.isine-gelen` | ağ | Künye ve tez doğrulaması; kullanılmayacak olan çıkarılsın |
