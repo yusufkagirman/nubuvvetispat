@@ -191,6 +191,7 @@ export class Ekran {
       return;
     }
     if (s.gorsel) this.gok.geciciGorsel(s.gorsel); else if (this.gok.gecici) this.gok.geciciGorsel(null);
+    if (s.ayet && !s.diyagram) s = { ...s, diyagram: { tur: 'ayet', veri: s.ayet } };
     if (s.diyagram) { const ok = await this._dgSatir(s); if (ok) return; }
     const metin = (s.metin || '').trim();
     if (!metin) { if (s.gorsel) await this._oynat(4200, 1500); return; }
@@ -251,7 +252,7 @@ export class Ekran {
     this.dgSatir.classList.remove('cik'); this.dgSatir.replaceChildren(dg.kok); this.dgAktif = dg;
     setTimeout(() => dg.basla(), 80);
     const v = s.diyagram.veri || {};
-    this._oku(metin || (s.diyagram.tur === 'alinti' ? `${v.metin} ${v.kim || ''}` : s.diyagram.tur === 'denklem' ? (v.parcalar || []).join(' ') : s.diyagram.tur === 'sayac' ? `${v.sayi} ${v.etiket || ''}` : ''));
+    this._oku(metin || (s.diyagram.tur === 'alinti' ? `${v.metin} ${v.kim || ''}` : s.diyagram.tur === 'denklem' ? (v.parcalar || []).join(' ') : s.diyagram.tur === 'sayac' ? `${v.sayi} ${v.etiket || ''}` : s.diyagram.tur === 'ayet' ? `${v.meal || ''} ${v.sure ? v.sure + ' Sûresi ' : ''}${v.no || ''}` : ''));
     if (metin) {
       const el = this._satirEl(metin, 'altyazi-satir'); this._ekle(el, { tut: 1 }); this.ses.tin(!!s.vurgu); this._goster(el);
     } else this.ses.tin(false);

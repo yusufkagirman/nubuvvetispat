@@ -201,6 +201,20 @@ function alinti(v = {}) {
   return temel(kok, bitis + 1300);
 }
 
+// ---- ayet: Arapça büyük, sağdan sola belirir; sonra meal; sonra sure:ayet künyesi ----
+function ayet(v = {}) {
+  const kok = h('div', 'dg-kok dg-ayet');
+  const ar = h('div', 'ar', null, kok); ar.lang = 'ar'; ar.dir = 'rtl';
+  const kel = String(v.arapca || '').split(/\s+/).filter(Boolean);
+  const adim = 380;
+  kel.forEach((w, i) => { const sp = h('span', 'dg', w, ar); d(sp, i * adim); ar.appendChild(document.createTextNode(' ')); }); // RTL: ilk sözcük en sağda
+  const t1 = kel.length * adim + 1500; // Arapça bitti, bir nefes sonra meal
+  if (v.meal) { const m = h('p', 'meal dg', v.meal, kok); d(m, t1); }
+  const kun = [v.sure ? `${v.sure} Sûresi` : '', v.no ? String(v.no).replace('-', '–') : ''].filter(Boolean).join(', ');
+  if (kun) { const k = h('div', 'ayet-kunye dg', kun, kok); d(k, t1 + 1100); }
+  return temel(kok, t1 + 2200);
+}
+
 // ---- galeri ----
 function galeri(v = {}) {
   const g = v.gorseller || [], et = v.etiketler || [], A = 3600;
@@ -220,7 +234,7 @@ function galeri(v = {}) {
   });
 }
 
-const KATALOG = { ihtimaller, demet, zaman, sayac, karsilastirma, denklem, alinti, galeri };
+const KATALOG = { ayet, ihtimaller, demet, zaman, sayac, karsilastirma, denklem, alinti, galeri };
 export function diyagramCiz(dg) {
   const f = KATALOG[dg?.tur];
   if (!f) return null;
