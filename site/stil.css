@@ -352,3 +352,6 @@ input:focus-visible { outline: 0; }
 
 .kaynakca:focus, .kart:focus { outline: 0; }
 .dg-ayet { max-width: 44rem; }
+
+.kk-atif { margin: 2.6rem auto 0; max-width: 28rem; padding-top: 1.4rem; border-top: 1px solid rgba(239, 233, 219, .12); font: .78rem/1.65 var(--sans); letter-spacing: .04em; color: rgba(239, 233, 219, .55); }
+.kk-atif p { margin: 0 0 .5rem; }

@@ -465,6 +465,9 @@ export class Ekran {
       if (k.dogrulanacak) h('span', 'kk-dogr', 'doğrulanıyor', m);
       b.addEventListener('click', () => this.kaynakAc(k, b));
     });
+    const at = h('div', 'kk-atif', null, ic);
+    h('p', null, 'Kur’an metni: Tanzil Projesi (quran-json 3.1.2, CC BY 4.0 / CC BY-SA 4.0). Mealler Diyanet mealinden uyarlanmıştır.', at);
+    h('p', null, 'Arapça yazı tipi: Amiri (SIL Open Font License 1.1).', at);
     const kp = h('button', 'kk-kapat', 'Geri dön', kok); kp.type = 'button';
     kok.tabIndex = -1;
     const katman = this._katmanAc(kok, { tetik, ilkOdak: () => kok });

@@ -34,3 +34,18 @@ cd site && python3 -m http.server 8123   # http://localhost:8123
 Konsolda `window.__sunum`: `git(id)`, `durum`, `hiz(0.05)` (zamanlayıcıları hızlandırır), `motor`, `ui`, `gok`, `ses`.
 
 Ekran görüntüleri: `docs/ekran/v2-*.png`.
+
+## Kontrol paneli
+Sunumun tüm karelerini ve cevaba göre nasıl dallandığını tek yerde görmek/denetlemek için: `site/panel.html` (vanilla; `akis-veri.js` + motorun `js/niyet.js` sınıflandırıcısını kullanır).
+```bash
+scripts/hazirla.sh && cd site && python3 -m http.server 8123   # http://localhost:8123/panel.html
+scripts/panel-ekran.sh            # her kare için site/panel/ekran/<id>.jpg + docs/sunum-haritasi.md (içerik değişince yeniden çalıştır)
+```
+- **Akış grafiği:** bölge sütunlarında düğümler; kenarlar sonraki (düz), yollar (tür renkli, etiket: tür + ilk 2 anahtar), dallan (kesikli turuncu), varsayılan (noktalı). Kaydır/yakınlaştır (tekerlek, sürükle, iki parmak). Düğüme dokun: seçilen karenin kenarları ve etiketleri belirir.
+- **Detay:** satırlar + kaynak künyesi, soru/çipler, yollar (hedefe tıklanır), ek örnekler, kompozisyon, köprü, dallan, gizli dayanak, "doğrulanacak"/"ek" rozetleri, ekran görüntüsü.
+- **Simülatör:** seçili karede bir cevap yaz → niyet (yol/ret/onay/kaçamak…) ve gidilecek kare (girişteki dallan zinciriyle). Profil (tanri, din, kaynakGuveni, bilgi, supheTuru, iddia, kapalı dallar) elle seçilip dallan sonuçları görülür.
+- **Persona yolları:** 6 persona (`docs/test-raporu.md`) kural tabanlı simüle edilip grafikte numaralı vurgulanır (gerçek test değil, yön gösterir).
+- **Süzgeç:** metin arama, bölge, doğrulanacak, ek, notlu.
+- **Notlar:** her kareye not (tarayıcıda saklanır). "Notlar" düğmesi → `[beat id] not metni` biçiminde Markdown/JSON kopyala-indir; Claude'a yapıştırıp geri bildirim ver.
+- **"Sunumda bu kareyi aç":** panel içinde iframe'de sunumu açıp `__sunum.git(id)` çağırır; kapatınca sunum ilerlemen (localStorage) geri yüklenir.
+Ekran görüntüleri: `docs/ekran/panel-*.png`.
