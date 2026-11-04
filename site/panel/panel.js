@@ -49,7 +49,7 @@ function kenarlariKur() {
 const kosulYaz = (k) => Object.entries(k || {}).map(([a, v]) => `${a}=${DIZI(v).join('|')}`).join(' & ');
 
 // ---------- yerleşim ----------
-const NW = 150, NH = 30, GAPX = 230, VG = 12, X0 = 40, Y0 = 56;
+const NW = 220, IH = 131, NH = IH + 22, GAPX = 300, VG = 26, X0 = 40, Y0 = 56;
 const poz = new Map();
 function yerlesimKur() {
   const sayac = {};
@@ -104,8 +104,10 @@ function sekliKur() {
     const n = sv('g', { class: 'dugum', transform: `translate(${p.x},${p.y})`, tabindex: 0, 'data-id': id, role: 'button', 'aria-label': id }, gDugum);
     n.style.setProperty('--c', RENK[r]);
     sv('rect', { width: NW, height: NH }, n);
-    const t = sv('text', { x: 8, y: 13 }, n); t.textContent = kisa(id).slice(0, 24);
-    const t2 = sv('text', { x: 8, y: 25, class: 'alt' }, n); t2.textContent = (b.gizliDugum ? b.gizliDugum + ' · ' : '') + `${(b.satirlar || []).length} satır` + (b.soru ? ' · ?' : '');
+    const im = sv('image', { x: 1, y: 1, width: NW - 2, height: IH, preserveAspectRatio: 'xMidYMid slice', class: 'kucuk' }, n);
+    im.setAttribute('href', `panel/ekran/${id}.jpg`);
+    const t = sv('text', { x: 8, y: IH + 15 }, n); t.textContent = kisa(id).slice(0, 30);
+    const t2 = sv('text', { x: NW - 8, y: IH + 15, class: 'alt', 'text-anchor': 'end' }, n); t2.textContent = (b.gizliDugum ? b.gizliDugum + ' · ' : '') + `${(b.satirlar || []).length} satır` + (b.soru ? ' · ?' : '');
     if (beatDogrulanacak(b)) sv('circle', { cx: NW - 8, cy: 8, r: 3.5, class: 'dog' }, n);
     if (beatEk(b)) sv('circle', { cx: NW - 19, cy: 8, r: 3.5, class: 'ek' }, n);
     if ((notlar[id] || '').trim()) sv('circle', { cx: NW - 30, cy: 8, r: 3.5, class: 'nt' }, n);
