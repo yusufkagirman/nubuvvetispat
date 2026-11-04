@@ -252,7 +252,7 @@ function detayCiz() {
   if (b.kapat) h('span', 'rb g', 'ikna olursa kapatır: ' + b.kapat, rb);
   const bar = h('div', 'satirbtn', null, kök);
   const ac = h('button', '', 'Sunumda bu kareyi aç ▶', bar); ac.onclick = () => onizlemeAc(id);
-  const ln = h('a', 'lnk', 'index.html?git=' + id, bar); ln.href = 'index.html?git=' + encodeURIComponent(id); ln.target = '_blank'; ln.title = 'Yeni sekme (index.html ?git desteklemiyorsa baştan açılır)'; ln.style.alignSelf = 'center';
+  const ln = h('a', 'lnk', 'sunum.html?git=' + id, bar); ln.href = (location.pathname.endsWith('panel.html') ? 'index.html' : 'sunum.html') + '?git=' + encodeURIComponent(id); ln.target = '_blank'; ln.title = 'Yeni sekme (index.html ?git desteklemiyorsa baştan açılır)'; ln.style.alignSelf = 'center';
 
   // not
   h('h3', '', 'Notun (localStorage)', kök);
@@ -524,7 +524,7 @@ function onizlemeAc(id) {
   const kap = $('onizleme'), fr = $('onizleme-cerceve');
   try { yedek = localStorage.getItem(SUNUM_KEY); } catch { yedek = undefined; }
   $('onizleme-baslik').textContent = id + ' — sunum ilerlemen kare kapatılınca geri yüklenir';
-  kap.hidden = false; fr.src = 'index.html';
+  kap.hidden = false; fr.src = (location.pathname.endsWith('panel.html') ? 'index.html' : 'sunum.html');
   fr.onload = () => {
     const w = fr.contentWindow; let n = 0;
     const iv = setInterval(() => {
